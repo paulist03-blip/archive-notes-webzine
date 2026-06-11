@@ -491,8 +491,9 @@ h1 span {
 
 .article h1 {
   max-width: 820px;
-  font-size: clamp(2.5rem, 5.6vw, 5.2rem);
-  letter-spacing: 0.035em;
+  font-size: clamp(2.15rem, 4.45vw, 4.05rem);
+  line-height: 1.06;
+  letter-spacing: 0.012em;
 }
 
 .article-meta {

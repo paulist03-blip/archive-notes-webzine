@@ -1293,6 +1293,17 @@ h1 span {
   font-size: 0.86rem;
 }
 
+.footer-note {
+  display: grid;
+  gap: 6px;
+  max-width: 560px;
+}
+
+.shop-note {
+  color: var(--ink);
+  font-size: 0.8rem;
+}
+
 .footer-links {
   display: flex;
   gap: 14px;

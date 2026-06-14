@@ -83,6 +83,21 @@ def record_archive_entries() -> tuple[dict[str, tuple[str, str]], set[str]]:
 def record_image_checks() -> dict[str, tuple[str, str]]:
     checks, record_hrefs = record_archive_entries()
 
+    index = (ROOT / "index.html").read_text(encoding="utf-8")
+    records_section = re.search(
+        r'<section class="section" id="records"(?P<body>.*?)</section>',
+        index,
+        re.DOTALL,
+    )
+    if records_section:
+        parser = ImageParser()
+        parser.feed(records_section.group("body"))
+        for image in parser.images:
+            href = image.get("href", "")
+            if href.startswith("posts/"):
+                record_hrefs.add(href)
+                checks.setdefault(image["src"], ("index.html", image.get("alt", "")))
+
     for image in parse_images(ROOT / "index.html"):
         href = image.get("href", "")
         if href in record_hrefs:

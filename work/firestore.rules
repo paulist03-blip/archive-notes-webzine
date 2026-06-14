@@ -1,0 +1,49 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return signedIn()
+        && request.auth.token.email == "YOUR_ADMIN_EMAIL";
+    }
+
+    match /forumPosts/{postId} {
+      allow read: if true;
+
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly([
+          "title",
+          "category",
+          "body",
+          "authorUid",
+          "authorName",
+          "pinned",
+          "status",
+          "createdAt",
+          "updatedAt"
+        ])
+        && request.resource.data.authorUid == request.auth.uid
+        && request.resource.data.title is string
+        && request.resource.data.title.size() > 0
+        && request.resource.data.title.size() <= 80
+        && request.resource.data.body is string
+        && request.resource.data.body.size() > 0
+        && request.resource.data.body.size() <= 2400
+        && request.resource.data.category in ["자유", "책", "음반", "미술", "공지"]
+        && request.resource.data.pinned == false
+        && request.resource.data.status == "published";
+
+      allow update: if isAdmin()
+        && request.resource.data.diff(resource.data).changedKeys().hasOnly([
+          "pinned",
+          "updatedAt"
+        ]);
+
+      allow delete: if isAdmin();
+    }
+  }
+}

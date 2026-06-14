@@ -1,0 +1,10 @@
+.DS_Store
+.bkit/
+.vercel/
+node_modules/
+*.log
+.deploy_keys/
+outputs/
+work/*.tmp
+work/*.token
+work/*.secret

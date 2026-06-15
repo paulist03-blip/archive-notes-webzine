@@ -1226,6 +1226,233 @@ h1 span {
   word-break: keep-all;
 }
 
+.book-archive-hero {
+  padding-bottom: 10px;
+}
+
+.book-source-panel {
+  display: grid;
+  gap: 6px;
+  max-width: 660px;
+  margin-top: 26px;
+  padding: 16px 18px;
+  border-left: 4px solid var(--red);
+  background: #f1eadc;
+  color: #3d3831;
+}
+
+.book-source-panel strong {
+  font-family: var(--display-font);
+  font-size: 1.22rem;
+  font-weight: 500;
+  line-height: 1.18;
+}
+
+.book-source-panel span,
+.book-source-panel a,
+.book-count,
+.book-card-topline,
+.book-card-meta,
+.book-controls label {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.book-source-panel span {
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 680;
+}
+
+.book-source-panel a {
+  justify-self: start;
+  border-bottom: 1px solid currentColor;
+  color: var(--blue);
+  font-size: 0.84rem;
+  font-weight: 820;
+}
+
+.book-daily-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.book-daily-card,
+.book-card {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 10px 26px rgba(23, 23, 23, 0.055);
+  overflow: hidden;
+}
+
+.book-daily-card {
+  display: grid;
+  grid-template-rows: 280px minmax(0, 1fr);
+}
+
+.book-cover-frame {
+  display: grid;
+  place-items: center;
+  min-height: 0;
+  background: #eee8db;
+}
+
+.book-cover-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 18px;
+}
+
+.book-daily-body {
+  padding: 18px;
+}
+
+.book-daily-body h3,
+.book-card h3 {
+  margin: 0;
+  font-family: var(--display-font);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  word-break: keep-all;
+}
+
+.book-daily-body h3 {
+  font-size: clamp(1.28rem, 1rem + 1vw, 1.88rem);
+  line-height: 1.14;
+}
+
+.book-daily-body p,
+.book-card p {
+  color: var(--muted);
+  word-break: keep-all;
+}
+
+.book-daily-body p {
+  margin: 12px 0 0;
+  font-size: 0.96rem;
+}
+
+.book-daily-body .book-subtitle {
+  color: #3d3831;
+  font-weight: 700;
+}
+
+.book-card-meta {
+  margin-top: 14px;
+  color: #4f4a43;
+  font-size: 0.8rem;
+  font-weight: 760;
+  line-height: 1.4;
+}
+
+.book-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 12px;
+  margin: 0 0 22px;
+}
+
+.book-controls label {
+  display: grid;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 820;
+  text-transform: uppercase;
+}
+
+.book-controls input,
+.book-controls select {
+  width: 100%;
+  min-height: 42px;
+  border: 1px solid rgba(23, 23, 23, 0.18);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  padding: 9px 11px;
+}
+
+.book-count {
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 780;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.book-card {
+  display: grid;
+  grid-template-rows: 210px minmax(0, 1fr);
+}
+
+.book-card-body {
+  display: grid;
+  align-content: start;
+  gap: 9px;
+  padding: 14px;
+}
+
+.book-card-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  color: var(--red);
+  font-size: 0.72rem;
+  font-weight: 850;
+}
+
+.book-card-topline em {
+  color: var(--blue);
+  font-style: normal;
+  white-space: nowrap;
+}
+
+.book-card h3 {
+  font-size: 1.08rem;
+  line-height: 1.18;
+}
+
+.book-card p {
+  margin: 0;
+  font-size: 0.82rem;
+  line-height: 1.42;
+}
+
+.book-card a:not(.book-cover-frame) {
+  justify-self: start;
+  border-bottom: 1px solid currentColor;
+  color: var(--blue);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 820;
+}
+
+.book-empty {
+  margin: 0;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--muted);
+}
+
+.book-method-note h2 {
+  margin: 0 0 8px;
+  font-family: var(--display-font);
+  font-size: clamp(1.36rem, 1rem + 1vw, 2rem);
+  font-weight: 500;
+  line-height: 1.16;
+  word-break: keep-all;
+}
+
 .brief-list {
   margin: 0 0 1.3em;
   padding-left: 1.18em;
@@ -1356,6 +1583,11 @@ h1 span {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .book-daily-grid,
+  .book-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .inline-book-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1417,6 +1649,29 @@ h1 span {
 
   .feature-list {
     grid-template-columns: 1fr;
+  }
+
+  .book-daily-grid,
+  .book-grid,
+  .book-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .book-daily-card {
+    grid-template-rows: 240px minmax(0, 1fr);
+  }
+
+  .book-card {
+    grid-template-columns: 112px minmax(0, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .book-card .book-cover-frame {
+    min-height: 164px;
+  }
+
+  .book-card-body {
+    padding: 12px;
   }
 
   .section-header {

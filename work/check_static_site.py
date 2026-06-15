@@ -6,6 +6,7 @@ from pathlib import Path
 files = [
     Path("index.html"),
     Path("archive.html"),
+    Path("book-archive.html"),
     Path("forum.html"),
     Path("daily-ai-work.html"),
     *Path("posts").glob("*.html"),

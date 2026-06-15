@@ -1,4 +1,10 @@
 {
   "cleanUrls": false,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/mobile",
+      "destination": "/ai-work-mobile.html"
+    }
+  ]
 }

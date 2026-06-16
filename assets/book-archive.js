@@ -20,8 +20,25 @@
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#039;");
 
+  const isExternalUrl = (url) => /^https?:\/\//.test(url);
+
+  const linkAttributes = (url, className) => {
+    const attrs = [`href="${escapeHtml(url)}"`];
+    if (className) {
+      attrs.unshift(`class="${className}"`);
+    }
+    if (isExternalUrl(url)) {
+      attrs.push('target="_blank"', 'rel="noopener noreferrer"');
+    }
+    return attrs.join(" ");
+  };
+
+  const primaryBookUrl = (book) => book.reviewUrl || book.itemUrl;
+
+  const primaryActionLabel = (book) => (book.reviewUrl ? "우리 리뷰 읽기" : "리뷰 대기 · 서지 확인");
+
   const bookImage = (book) => `
-    <a class="book-cover-frame" href="${escapeHtml(book.itemUrl)}" target="_blank" rel="noopener noreferrer">
+    <a ${linkAttributes(primaryBookUrl(book), "book-cover-frame")}>
       <img src="${escapeHtml(book.imageUrl)}" alt="${escapeHtml(book.title)} 표지" loading="lazy" />
     </a>
   `;
@@ -48,7 +65,7 @@
               <p class="book-subtitle">${escapeHtml(book.subtitle || "")}</p>
               <p>${escapeHtml(book.review || "")}</p>
               <div class="book-card-meta">${escapeHtml(book.metadata)}</div>
-              <a class="preview-link" href="${escapeHtml(book.itemUrl)}" target="_blank" rel="noopener noreferrer">알라딘 원문 보기</a>
+              <a ${linkAttributes(primaryBookUrl(book), "preview-link")}>${escapeHtml(primaryActionLabel(book))}</a>
             </div>
           </article>
         `
@@ -98,11 +115,11 @@
             <div class="book-card-body">
               <div class="book-card-topline">
                 <span>${escapeHtml(book.theme)}</span>
-                <em>${escapeHtml(book.reviewStatus)}</em>
+                <em>${escapeHtml(book.reviewUrl ? "우리 리뷰" : book.reviewStatus)}</em>
               </div>
               <h3>${escapeHtml(book.title)}</h3>
               <p>${escapeHtml(book.metadata)}</p>
-              <a href="${escapeHtml(book.itemUrl)}" target="_blank" rel="noopener noreferrer">원문 링크</a>
+              <a ${linkAttributes(primaryBookUrl(book), "")}>${escapeHtml(primaryActionLabel(book))}</a>
             </div>
           </article>
         `

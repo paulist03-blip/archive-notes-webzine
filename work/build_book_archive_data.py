@@ -20,6 +20,11 @@ SOURCE_URL = "https://www.aladin.co.kr/shop/usedshop/wshopitem.aspx?SC=1025829"
 SELLER_NAME = "하이데거"
 
 DEFAULT_DAILY_PICK_IDS = ["392078900", "394591541", "392079279"]
+EXISTING_REVIEW_URLS = {
+    "394523161": "posts/book-of-disquiet-pessoa.html",
+    "392078527": "posts/twelfth-century-renaissance.html",
+    "389004732": "posts/why-libraries-matter-yang.html",
+}
 LOW_RES_EXCLUDED_IDS = {
     "389004172",  # 독이 든 양분
     "388491240",  # 서정시에 관하여
@@ -131,8 +136,16 @@ def public_book(item: dict[str, object], rank: int, daily_ids: set[str]) -> dict
         "itemUrl": item["itemUrl"],
         "imageUrl": item["imageUrl"],
         "sourcePage": item["page"],
-        "reviewStatus": "오늘의 세 권" if item["id"] in daily_ids else "리뷰 큐",
+        "reviewStatus": (
+            "우리 리뷰"
+            if item["id"] in EXISTING_REVIEW_URLS
+            else "오늘의 세 권"
+            if item["id"] in daily_ids
+            else "리뷰 큐"
+        ),
     }
+    if item["id"] in EXISTING_REVIEW_URLS:
+        visible["reviewUrl"] = EXISTING_REVIEW_URLS[str(item["id"])]
     return visible
 
 
@@ -169,7 +182,7 @@ def build_data(input_dir: Path, pages: int, min_price: int, daily_pick_ids: list
             "parsedCount": len(parsed),
             "eligibleCount": len(eligible),
             "coverExcludedCount": len(eligible_before_cover_filter) - len(eligible),
-            "publicNote": "거래 세부 문구는 글로 옮기지 않고, 내부 선별 기준을 통과한 책만 리뷰 큐에 보관합니다.",
+            "publicNote": "거래 세부 문구는 글로 옮기지 않고, 이미 리뷰한 책은 우리 글로 먼저 연결합니다.",
         },
         "dailyPicks": public_daily,
         "books": public_books,

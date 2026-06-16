@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "parsedCount": 240,
     "eligibleCount": 188,
     "coverExcludedCount": 5,
-    "publicNote": "거래 세부 문구는 글로 옮기지 않고, 내부 선별 기준을 통과한 책만 리뷰 큐에 보관합니다."
+    "publicNote": "거래 세부 문구는 글로 옮기지 않고, 이미 리뷰한 책은 우리 글로 먼저 연결합니다."
   },
   "dailyPicks": [
     {
@@ -97,7 +97,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=394523161",
       "imageUrl": "https://image.aladin.co.kr/product/3921/29/cover500/899699796x_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/book-of-disquiet-pessoa.html"
     },
     {
       "id": "392081478",
@@ -207,7 +208,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392078527",
       "imageUrl": "https://image.aladin.co.kr/product/12571/40/cover500/8984945943_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/twelfth-century-renaissance.html"
     },
     {
       "id": "392078350",
@@ -394,7 +396,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004732",
       "imageUrl": "https://image.aladin.co.kr/product/36452/37/cover500/k242039599_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/why-libraries-matter-yang.html"
     },
     {
       "id": "389004600",

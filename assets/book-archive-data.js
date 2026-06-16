@@ -20,10 +20,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392078900",
       "imageUrl": "https://image.aladin.co.kr/product/35891/63/cover500/k292037886_2.jpg",
       "sourcePage": 1,
-      "reviewStatus": "오늘의 세 권",
+      "reviewStatus": "우리 리뷰",
       "label": "History",
       "subtitle": "제국은 무너지는 날보다 오래전부터 내부 문법을 잃는다.",
-      "review": "주보크의 책은 소련 해체를 하루의 사건이 아니라 권력 언어, 경제의 피로, 공화국들의 이해관계, 엘리트의 판단 착오가 겹쳐진 긴 균열로 읽게 한다. 우리 웹진의 Issue 07이 다루었던 감시와 침묵의 문제와도 자연스럽게 이어진다. 체제가 무너질 때 사람들은 갑자기 진실을 발견하는 것이 아니라, 이미 알고 있던 불안을 더는 모른 척할 수 없게 된다."
+      "review": "주보크의 책은 소련 해체를 하루의 사건이 아니라 권력 언어, 경제의 피로, 공화국들의 이해관계, 엘리트의 판단 착오가 겹쳐진 긴 균열로 읽게 한다. 우리 웹진의 Issue 07이 다루었던 감시와 침묵의 문제와도 자연스럽게 이어진다. 체제가 무너질 때 사람들은 갑자기 진실을 발견하는 것이 아니라, 이미 알고 있던 불안을 더는 모른 척할 수 없게 된다.",
+      "reviewUrl": "posts/soviet-collapse-moment.html"
     },
     {
       "id": "394591541",
@@ -48,10 +49,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392079279",
       "imageUrl": "https://image.aladin.co.kr/product/1703/72/cover500/893245261x_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "오늘의 세 권",
+      "reviewStatus": "우리 리뷰",
       "label": "Classic Thought",
       "subtitle": "사유는 의식의 바깥 절차에서 내면의 질문으로 방향을 바꾼다.",
-      "review": "우파니샤드는 종교 고전이면서 동시에 사유의 리듬을 훈련하는 책이다. 제의의 언어가 자기, 호흡, 지식, 해방의 질문으로 옮겨갈 때 동양 고전은 신비한 문장들의 박물관이 아니라 사고의 엄격한 실험장이 된다. 책장 아카이브에서 이 책은 철학과 종교, 번역과 고전 읽기를 함께 묶는 기준점으로 삼기 좋다."
+      "review": "우파니샤드는 종교 고전이면서 동시에 사유의 리듬을 훈련하는 책이다. 제의의 언어가 자기, 호흡, 지식, 해방의 질문으로 옮겨갈 때 동양 고전은 신비한 문장들의 박물관이 아니라 사고의 엄격한 실험장이 된다. 책장 아카이브에서 이 책은 철학과 종교, 번역과 고전 읽기를 함께 묶는 기준점으로 삼기 좋다.",
+      "reviewUrl": "posts/upanishads-eulyoo.html"
     }
   ],
   "books": [
@@ -120,7 +122,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392079529",
       "imageUrl": "https://image.aladin.co.kr/product/32072/37/cover500/8972918024_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/bright-ages-middle-ages.html"
     },
     {
       "id": "392079505",
@@ -153,7 +156,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392079279",
       "imageUrl": "https://image.aladin.co.kr/product/1703/72/cover500/893245261x_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "오늘의 세 권"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/upanishads-eulyoo.html"
     },
     {
       "id": "392079223",
@@ -186,7 +190,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392078900",
       "imageUrl": "https://image.aladin.co.kr/product/35891/63/cover500/k292037886_2.jpg",
       "sourcePage": 1,
-      "reviewStatus": "오늘의 세 권"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/soviet-collapse-moment.html"
     },
     {
       "id": "392078828",
@@ -1211,7 +1216,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385053293",
       "imageUrl": "https://image.aladin.co.kr/product/31190/75/cover500/897291794x_2.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/what-is-history-now.html"
     },
     {
       "id": "385053266",
@@ -1717,7 +1723,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382506233",
       "imageUrl": "https://image.aladin.co.kr/product/1736/46/cover500/8966800262_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/film-theory-introduction.html"
     },
     {
       "id": "382506185",
@@ -1761,7 +1768,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382505907",
       "imageUrl": "https://image.aladin.co.kr/product/6862/88/cover500/8991706975_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/imagine-no-woman.html"
     },
     {
       "id": "382505892",
@@ -1772,7 +1780,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382505892",
       "imageUrl": "https://image.aladin.co.kr/product/25349/92/cover500/8946065192_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/film-theory-introduction.html"
     },
     {
       "id": "382505838",
@@ -1783,7 +1792,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382505838",
       "imageUrl": "https://image.aladin.co.kr/product/36615/58/cover500/k522030969_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/slow-human.html"
     },
     {
       "id": "382505815",

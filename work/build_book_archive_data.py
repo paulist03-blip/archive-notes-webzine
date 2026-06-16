@@ -22,8 +22,16 @@ SELLER_NAME = "하이데거"
 DEFAULT_DAILY_PICK_IDS = ["392078900", "394591541", "392079279"]
 EXISTING_REVIEW_URLS = {
     "394523161": "posts/book-of-disquiet-pessoa.html",
+    "392079529": "posts/bright-ages-middle-ages.html",
+    "392079279": "posts/upanishads-eulyoo.html",
+    "392078900": "posts/soviet-collapse-moment.html",
     "392078527": "posts/twelfth-century-renaissance.html",
     "389004732": "posts/why-libraries-matter-yang.html",
+    "385053293": "posts/what-is-history-now.html",
+    "382506233": "posts/film-theory-introduction.html",
+    "382505907": "posts/imagine-no-woman.html",
+    "382505892": "posts/film-theory-introduction.html",
+    "382505838": "posts/slow-human.html",
 }
 LOW_RES_EXCLUDED_IDS = {
     "389004172",  # 독이 든 양분

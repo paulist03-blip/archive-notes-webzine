@@ -33,14 +33,38 @@
     return attrs.join(" ");
   };
 
-  const primaryBookUrl = (book) => book.reviewUrl || book.itemUrl;
+  const bookAnchorId = (book) => `book-${String(book.id).replace(/[^a-zA-Z0-9_-]/g, "")}`;
 
-  const primaryActionLabel = (book) => (book.reviewUrl ? "우리 리뷰 읽기" : "리뷰 대기 · 서지 확인");
+  const reviewStatusLabel = (book) => (book.reviewUrl ? "우리 리뷰" : "리뷰 준비 중");
 
   const bookImage = (book) => `
-    <a ${linkAttributes(primaryBookUrl(book), "book-cover-frame")}>
-      <img src="${escapeHtml(book.imageUrl)}" alt="${escapeHtml(book.title)} 표지" loading="lazy" />
-    </a>
+    ${
+      book.reviewUrl
+        ? `<a ${linkAttributes(book.reviewUrl, "book-cover-frame")} aria-label="${escapeHtml(`${book.title} 리뷰 읽기`)}">
+            <img src="${escapeHtml(book.imageUrl)}" alt="${escapeHtml(book.title)} 표지" loading="lazy" />
+            <span class="book-cover-badge">Review</span>
+          </a>`
+        : `<div class="book-cover-frame book-cover-frame--pending" aria-label="${escapeHtml(`${book.title} 리뷰 준비 중`)}">
+            <img src="${escapeHtml(book.imageUrl)}" alt="${escapeHtml(book.title)} 표지" loading="lazy" />
+            <span class="book-cover-badge">Queue</span>
+          </div>`
+    }
+  `;
+
+  const bookTitle = (book) =>
+    book.reviewUrl
+      ? `<a ${linkAttributes(book.reviewUrl)}>${escapeHtml(book.title)}</a>`
+      : escapeHtml(book.title);
+
+  const bookActions = (book) => `
+    <div class="book-card-actions">
+      ${
+        book.reviewUrl
+          ? `<a ${linkAttributes(book.reviewUrl, "preview-link")}>우리 리뷰 읽기</a>`
+          : '<span class="preview-link preview-link--disabled">리뷰 준비 중</span>'
+      }
+      <a ${linkAttributes(book.itemUrl, "book-secondary-link")}>서지 확인</a>
+    </div>
   `;
 
   function renderSource() {
@@ -57,15 +81,15 @@
     dailyTarget.innerHTML = data.dailyPicks
       .map(
         (book) => `
-          <article class="book-daily-card">
+          <article class="book-daily-card" id="${escapeHtml(bookAnchorId(book))}">
             ${bookImage(book)}
             <div class="book-daily-body">
               <span class="category">${escapeHtml(book.label || book.theme)}</span>
-              <h3>${escapeHtml(book.title)}</h3>
+              <h3>${bookTitle(book)}</h3>
               <p class="book-subtitle">${escapeHtml(book.subtitle || "")}</p>
               <p>${escapeHtml(book.review || "")}</p>
               <div class="book-card-meta">${escapeHtml(book.metadata)}</div>
-              <a ${linkAttributes(primaryBookUrl(book), "preview-link")}>${escapeHtml(primaryActionLabel(book))}</a>
+              ${bookActions(book)}
             </div>
           </article>
         `
@@ -110,16 +134,16 @@
     listTarget.innerHTML = books
       .map(
         (book) => `
-          <article class="book-card">
+          <article class="book-card" id="${escapeHtml(bookAnchorId(book))}">
             ${bookImage(book)}
             <div class="book-card-body">
               <div class="book-card-topline">
                 <span>${escapeHtml(book.theme)}</span>
-                <em>${escapeHtml(book.reviewUrl ? "우리 리뷰" : book.reviewStatus)}</em>
+                <em>${escapeHtml(reviewStatusLabel(book))}</em>
               </div>
-              <h3>${escapeHtml(book.title)}</h3>
+              <h3>${bookTitle(book)}</h3>
               <p>${escapeHtml(book.metadata)}</p>
-              <a ${linkAttributes(primaryBookUrl(book), "")}>${escapeHtml(primaryActionLabel(book))}</a>
+              ${bookActions(book)}
             </div>
           </article>
         `

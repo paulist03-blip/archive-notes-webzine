@@ -446,6 +446,18 @@ h1 span {
   padding: 0;
 }
 
+.board-thumb {
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(23, 23, 23, 0.2);
+  background: #f1eadc;
+  color: var(--red);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
 .archive-row h3 {
   margin: 0;
   font-family: var(--display-font);
@@ -1525,6 +1537,135 @@ a.book-cover-frame:hover {
   word-break: keep-all;
 }
 
+.board-hero {
+  padding-bottom: 10px;
+}
+
+.board-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0 0 24px;
+}
+
+.board-summary div {
+  display: grid;
+  gap: 4px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.board-summary strong {
+  font-family: var(--display-font);
+  font-size: clamp(1.8rem, 1.4rem + 1.4vw, 2.7rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.board-summary span,
+.review-board-table,
+.board-status {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.board-summary span {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 760;
+}
+
+.review-board-wrap {
+  overflow-x: auto;
+  border-top: 2px solid var(--ink);
+}
+
+.review-board-table {
+  width: 100%;
+  min-width: 820px;
+  border-collapse: collapse;
+}
+
+.review-board-table caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.review-board-table th,
+.review-board-table td {
+  padding: 15px 12px;
+  border-bottom: 1px solid rgba(23, 23, 23, 0.16);
+  text-align: left;
+  vertical-align: top;
+}
+
+.review-board-table th {
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.review-board-table td {
+  font-size: 0.88rem;
+  line-height: 1.48;
+}
+
+.review-board-table td:first-child {
+  color: var(--red);
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.review-board-table td:nth-child(2) {
+  color: var(--blue);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.review-board-table td:nth-child(3) {
+  min-width: 260px;
+}
+
+.review-board-table a {
+  border-bottom: 1px solid rgba(47, 79, 114, 0.4);
+  color: var(--blue);
+  font-weight: 850;
+}
+
+.review-board-table td span:not(.board-status) {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 720;
+}
+
+.board-status {
+  display: inline-grid;
+  place-items: center;
+  min-width: 48px;
+  padding: 5px 8px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 850;
+}
+
+.board-status.done {
+  background: rgba(36, 72, 63, 0.12);
+  color: var(--green);
+}
+
+.board-status.pending {
+  background: rgba(185, 133, 47, 0.16);
+  color: #775013;
+}
+
 .brief-list {
   margin: 0 0 1.3em;
   padding-left: 1.18em;
@@ -1656,7 +1797,8 @@ a.book-cover-frame:hover {
   }
 
   .book-daily-grid,
-  .book-grid {
+  .book-grid,
+  .board-summary {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1725,7 +1867,8 @@ a.book-cover-frame:hover {
 
   .book-daily-grid,
   .book-grid,
-  .book-controls {
+  .book-controls,
+  .board-summary {
     grid-template-columns: 1fr;
   }
 

@@ -1,6 +1,14 @@
 (function () {
   const currentPath = window.location.pathname;
-  const fallbackPreview = {
+  const defaultPreview = {
+    title: "Haydn: Piano Sonatas",
+    subtitle: "Evgeni Koroliov · Profil",
+    embedUrl: "https://embed.music.apple.com/us/album/356300141",
+    openUrl: "https://music.apple.com/us/album/haydn-f-j-piano-sonatas/356300141",
+    query: "Evgeni Koroliov Haydn Piano Sonatas Profil",
+  };
+
+  const janowskiPreview = {
     title: "Berlioz: Symphonie fantastique",
     subtitle: "Marek Janowski · Pittsburgh Symphony Orchestra",
     embedUrl: "https://embed.music.apple.com/kr/album/berlioz-symphonie-fantastique/1729510665",
@@ -9,7 +17,8 @@
   };
 
   const knownPreviews = {
-    "/posts/janowski-berlioz-fantastique-king-lear.html": fallbackPreview,
+    "/posts/koroliov-haydn-piano-sonatas.html": defaultPreview,
+    "/posts/janowski-berlioz-fantastique-king-lear.html": janowskiPreview,
     "/posts/jacobs-figaro-marriage.html": {
       title: "Mozart: Le Nozze di Figaro",
       subtitle: "René Jacobs · Concerto Köln",
@@ -72,7 +81,7 @@
       };
     }
 
-    return fallbackPreview;
+    return defaultPreview;
   }
 
   function iconPlay() {

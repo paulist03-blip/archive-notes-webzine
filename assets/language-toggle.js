@@ -49,7 +49,11 @@
   }
 
   function getStoredLanguage() {
-    return localStorage.getItem(STORAGE_KEY) === TARGET_LANGUAGE ? TARGET_LANGUAGE : SOURCE_LANGUAGE;
+    try {
+      return localStorage.getItem(STORAGE_KEY) === TARGET_LANGUAGE ? TARGET_LANGUAGE : SOURCE_LANGUAGE;
+    } catch (error) {
+      return SOURCE_LANGUAGE;
+    }
   }
 
   function getCookieDomains() {
@@ -71,7 +75,11 @@
   }
 
   function setStoredLanguage(language) {
-    localStorage.setItem(STORAGE_KEY, language === TARGET_LANGUAGE ? TARGET_LANGUAGE : SOURCE_LANGUAGE);
+    try {
+      localStorage.setItem(STORAGE_KEY, language === TARGET_LANGUAGE ? TARGET_LANGUAGE : SOURCE_LANGUAGE);
+    } catch (error) {
+      // Safari private browsing or strict storage settings should not block translation.
+    }
   }
 
   function setActiveButton(host, language) {
@@ -325,7 +333,7 @@
     host.setAttribute("aria-label", "Language selector");
     host.dataset.state = "idle";
     host.innerHTML = [
-      '<button type="button" data-language="ko" aria-pressed="true">Korean</button>',
+      '<button type="button" data-language="ko" aria-pressed="true">한글</button>',
       '<button type="button" data-language="en" aria-pressed="false">English</button>'
     ].join("");
 

@@ -2,11 +2,15 @@
   var SOURCE_LANGUAGE = "ko";
   var TARGET_LANGUAGE = "en";
   var STORAGE_KEY = "paulArchiveLanguage";
+  var BACKEND_KEY = "paulArchiveTranslationBackend";
+  var GOOGLE_BACKEND = "google";
+  var GOOGLE_TRANSLATE_COOKIE = "googtrans";
   var STYLE_ID = "paul-archive-language-style";
   var CACHE_PREFIX = "paulArchiveTranslation:";
   var MAX_ITEMS_PER_REQUEST = 42;
   var MAX_CHARS_PER_REQUEST = 7600;
   var pageItems = null;
+  var googleLoadFailed = false;
   var EXCLUDED_SELECTOR = [
     ".notranslate",
     ".pan-language-switcher",
@@ -37,7 +41,11 @@
       ".pan-language-switcher button:disabled{cursor:wait;opacity:.72}",
       ".pan-language-switcher button:focus-visible{outline:2px solid #9b3f34;outline-offset:2px}",
       ".pan-language-switcher[data-state=loading]::after{content:'GPT';margin:0 5px 0 3px;color:#9b3f34;font-size:.62rem;font-weight:850;letter-spacing:.08em}",
+      ".pan-language-switcher[data-engine=google][data-state=loading]::after{content:'WEB'}",
       ".pan-language-switcher[data-state=error]{border-color:#9b3f34}",
+      "#google_translate_element{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}",
+      ".goog-te-banner-frame,.skiptranslate iframe{display:none!important}",
+      "body{top:0!important}",
       ".masthead .nav{position:relative}",
       ".masthead .nav>.pan-language-switcher{left:22px;position:absolute;top:50%;transform:translateY(-50%)}",
       "body.pan-language-ready .masthead .nav-links{padding-left:172px}",
@@ -48,11 +56,37 @@
     document.head.appendChild(style);
   }
 
-  function getStoredLanguage() {
+  function readStoredItem(key) {
     try {
-      return localStorage.getItem(STORAGE_KEY) === TARGET_LANGUAGE ? TARGET_LANGUAGE : SOURCE_LANGUAGE;
+      return localStorage.getItem(key);
     } catch (error) {
-      return SOURCE_LANGUAGE;
+      return null;
+    }
+  }
+
+  function writeStoredItem(key, value) {
+    try {
+      localStorage.setItem(key, value);
+    } catch (error) {
+      // Safari private browsing or strict storage settings should not block translation.
+    }
+  }
+
+  function getStoredLanguage() {
+    return readStoredItem(STORAGE_KEY) === TARGET_LANGUAGE ? TARGET_LANGUAGE : SOURCE_LANGUAGE;
+  }
+
+  function getTranslationBackend() {
+    return readStoredItem(BACKEND_KEY);
+  }
+
+  function setStoredLanguage(language) {
+    writeStoredItem(STORAGE_KEY, language === TARGET_LANGUAGE ? TARGET_LANGUAGE : SOURCE_LANGUAGE);
+  }
+
+  function setTranslationBackend(backend) {
+    if (backend) {
+      writeStoredItem(BACKEND_KEY, backend);
     }
   }
 
@@ -70,16 +104,17 @@
   function clearLegacyGoogleTranslateCookie() {
     getCookieDomains().forEach(function (domain) {
       var domainPart = domain ? ";domain=" + domain : "";
-      document.cookie = "googtrans=;path=/" + domainPart + ";expires=Thu, 01 Jan 1970 00:00:00 GMT";
+      document.cookie = GOOGLE_TRANSLATE_COOKIE + "=;path=/" + domainPart + ";expires=Thu, 01 Jan 1970 00:00:00 GMT";
     });
   }
 
-  function setStoredLanguage(language) {
-    try {
-      localStorage.setItem(STORAGE_KEY, language === TARGET_LANGUAGE ? TARGET_LANGUAGE : SOURCE_LANGUAGE);
-    } catch (error) {
-      // Safari private browsing or strict storage settings should not block translation.
-    }
+  function writeGoogleTranslateCookie(language) {
+    var value = language === TARGET_LANGUAGE ? "/ko/en" : "/ko/ko";
+    var maxAge = 60 * 60 * 24 * 365;
+    getCookieDomains().forEach(function (domain) {
+      var domainPart = domain ? ";domain=" + domain : "";
+      document.cookie = GOOGLE_TRANSLATE_COOKIE + "=" + value + ";path=/" + domainPart + ";max-age=" + maxAge + ";SameSite=Lax";
+    });
   }
 
   function setActiveButton(host, language) {
@@ -270,7 +305,106 @@
     return data.translations || [];
   }
 
+  function ensureGoogleTranslateElement() {
+    if (document.getElementById("google_translate_element")) {
+      return;
+    }
+
+    var target = document.createElement("div");
+    target.id = "google_translate_element";
+    target.setAttribute("aria-hidden", "true");
+    target.setAttribute("translate", "no");
+    target.className = "notranslate";
+    document.body.appendChild(target);
+  }
+
+  function triggerGoogleTranslate(language) {
+    var combo = document.querySelector(".goog-te-combo");
+    if (!combo) {
+      return false;
+    }
+
+    combo.value = language === TARGET_LANGUAGE ? "en" : "ko";
+    combo.dispatchEvent(new Event("change"));
+    return true;
+  }
+
+  function ensureGoogleTranslate(language) {
+    ensureGoogleTranslateElement();
+    writeGoogleTranslateCookie(language);
+
+    window.googleTranslateElementInit = function () {
+      if (window.google && window.google.translate) {
+        new window.google.translate.TranslateElement(
+          {
+            pageLanguage: SOURCE_LANGUAGE,
+            includedLanguages: SOURCE_LANGUAGE + "," + TARGET_LANGUAGE,
+            autoDisplay: false
+          },
+          "google_translate_element"
+        );
+        window.setTimeout(function () {
+          triggerGoogleTranslate(language);
+        }, 250);
+      }
+    };
+
+    if (!document.querySelector('script[data-google-translate="true"]')) {
+      var script = document.createElement("script");
+      script.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+      script.defer = true;
+      script.dataset.googleTranslate = "true";
+      script.onerror = function () {
+        googleLoadFailed = true;
+      };
+      document.head.appendChild(script);
+    } else if (window.googleTranslateElementInit && !document.querySelector(".goog-te-combo")) {
+      window.googleTranslateElementInit();
+    }
+
+    return new Promise(function (resolve, reject) {
+      var attempts = 0;
+      var timer = window.setInterval(function () {
+        attempts += 1;
+        if (triggerGoogleTranslate(language)) {
+          window.clearInterval(timer);
+          resolve();
+        } else if (googleLoadFailed) {
+          window.clearInterval(timer);
+          reject(new Error("Google Translate could not be loaded."));
+        } else if (attempts >= 28) {
+          window.clearInterval(timer);
+          reject(new Error("Google Translate is unavailable right now."));
+        }
+      }, 250);
+    });
+  }
+
+  async function translateWithGoogle(host) {
+    host.dataset.engine = GOOGLE_BACKEND;
+    setBusy(host, true);
+    setStoredLanguage(TARGET_LANGUAGE);
+    setTranslationBackend(GOOGLE_BACKEND);
+    setActiveButton(host, TARGET_LANGUAGE);
+
+    try {
+      await ensureGoogleTranslate(TARGET_LANGUAGE);
+      setBusy(host, false);
+      host.title = "";
+    } catch (error) {
+      setStoredLanguage(SOURCE_LANGUAGE);
+      setActiveButton(host, SOURCE_LANGUAGE);
+      setError(host, error.message);
+      console.error(error);
+    }
+  }
+
   async function translateToEnglish(host) {
+    if (getTranslationBackend() === GOOGLE_BACKEND) {
+      translateWithGoogle(host);
+      return;
+    }
+
     var items = getPageItems();
     if (!items.length) {
       setStoredLanguage(TARGET_LANGUAGE);
@@ -311,19 +445,25 @@
       host.title = "";
     } catch (error) {
       restoreOriginal(items);
-      setStoredLanguage(SOURCE_LANGUAGE);
-      setActiveButton(host, SOURCE_LANGUAGE);
-      setError(host, error.message);
-      console.error(error);
+      console.warn("Falling back to browser translation:", error.message);
+      translateWithGoogle(host);
     }
   }
 
   function restoreKorean(host) {
+    var usedGoogle = host.dataset.engine === GOOGLE_BACKEND || getTranslationBackend() === GOOGLE_BACKEND;
     restoreOriginal(getPageItems());
     setStoredLanguage(SOURCE_LANGUAGE);
     setActiveButton(host, SOURCE_LANGUAGE);
     setBusy(host, false);
     host.title = "";
+
+    if (usedGoogle) {
+      writeGoogleTranslateCookie(SOURCE_LANGUAGE);
+      ensureGoogleTranslate(SOURCE_LANGUAGE).catch(function () {
+        window.location.reload();
+      });
+    }
   }
 
   function createSwitcher() {
@@ -374,9 +514,12 @@
 
   function init() {
     injectStyle();
-    clearLegacyGoogleTranslateCookie();
-    var host = mountSwitcher();
     var language = getStoredLanguage();
+    if (language !== TARGET_LANGUAGE) {
+      clearLegacyGoogleTranslateCookie();
+    }
+
+    var host = mountSwitcher();
     setActiveButton(host, language);
 
     if (language === TARGET_LANGUAGE) {

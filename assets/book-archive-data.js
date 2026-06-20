@@ -5,8 +5,8 @@ window.PAUL_BOOK_ARCHIVE = {
     "url": "https://www.aladin.co.kr/shop/usedshop/wshopitem.aspx?SC=1025829",
     "capturedAt": "2026-06-18",
     "pagesScanned": 10,
-    "parsedCount": 240,
-    "eligibleCount": 188,
+    "parsedCount": 241,
+    "eligibleCount": 195,
     "coverExcludedCount": 5,
     "publicNote": "거래 세부 문구는 글로 옮기지 않고, 이미 리뷰한 책은 우리 글로 먼저 연결합니다."
   },
@@ -58,6 +58,18 @@ window.PAUL_BOOK_ARCHIVE = {
     }
   ],
   "books": [
+    {
+      "id": "335335761",
+      "rank": 0,
+      "title": "야망계급론",
+      "metadata": "엘리자베스 커리드핼킷 지음, 유강은 옮김 | 오월의봄",
+      "theme": "사회학/계급론",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=335335761",
+      "imageUrl": "https://image.aladin.co.kr/product/33533/57/cover500/k512939573_1.jpg",
+      "sourcePage": 0,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/yamang-class-theory.html"
+    },
     {
       "id": "385513952",
       "rank": 1,

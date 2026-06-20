@@ -135,7 +135,14 @@
     </div>
   `;
 
-  document.body.appendChild(player);
+  const navActions = document.querySelector(".masthead .nav-actions");
+  if (navActions) {
+    const searchButton = navActions.querySelector(".icon-button");
+    navActions.insertBefore(player, searchButton || null);
+  } else {
+    player.classList.add("audio-mini-floating");
+    document.body.appendChild(player);
+  }
 
   const toggle = player.querySelector(".audio-mini-toggle");
   const close = player.querySelector(".audio-mini-close");

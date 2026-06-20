@@ -1,6 +1,6 @@
-# Paul Archive Notes Forum And Comments Setup
+# Paul Archive Notes Forum Setup
 
-The forum and article comments are wired for Firebase Authentication and Cloud Firestore.
+This forum is wired for Firebase Authentication and Cloud Firestore.
 
 ## 1. Firebase console
 
@@ -34,6 +34,3 @@ The rules allow:
 - Anyone can read forum posts.
 - Only signed-in users can create posts.
 - Only the admin email can pin or delete posts.
-- Anyone can read article comments.
-- Only signed-in users can create article comments.
-- Article comments can be deleted by the original author or the admin email.

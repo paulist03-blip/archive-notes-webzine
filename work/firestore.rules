@@ -45,40 +45,5 @@ service cloud.firestore {
 
       allow delete: if isAdmin();
     }
-
-    match /articleComments/{threadId}/items/{commentId} {
-      allow read: if true;
-
-      allow create: if signedIn()
-        && request.resource.data.keys().hasOnly([
-          "articlePath",
-          "articleTitle",
-          "body",
-          "authorUid",
-          "authorName",
-          "status",
-          "createdAt",
-          "updatedAt"
-        ])
-        && request.resource.data.authorUid == request.auth.uid
-        && request.resource.data.articlePath is string
-        && request.resource.data.articlePath.size() > 0
-        && request.resource.data.articlePath.size() <= 220
-        && request.resource.data.articleTitle is string
-        && request.resource.data.articleTitle.size() > 0
-        && request.resource.data.articleTitle.size() <= 180
-        && request.resource.data.body is string
-        && request.resource.data.body.size() > 0
-        && request.resource.data.body.size() <= 1200
-        && request.resource.data.authorName is string
-        && request.resource.data.authorName.size() > 0
-        && request.resource.data.authorName.size() <= 80
-        && request.resource.data.status == "published";
-
-      allow update: if false;
-
-      allow delete: if isAdmin()
-        || (signedIn() && resource.data.authorUid == request.auth.uid);
-    }
   }
 }

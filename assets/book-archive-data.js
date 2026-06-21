@@ -177,9 +177,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=394591541",
       "imageUrl": "https://image.aladin.co.kr/product/2616/92/cover500/897084497x_2.jpg",
       "sourcePage": 1,
-      "reviewStatus": "오늘의 세 권",
-      "archiveReview": "한 도시가 미술관, 카페, 정신분석, 장식예술, 음악의 실험실이 되던 순간을 압축해서 보여주는 책이다. 클림트나 실레 한 사람보다 도시 전체의 감각 체계를 읽고 싶을 때 유용하다.",
-      "readWith": "칼 쇼르스케 『세기말 빈』, 자크 르 리데르 『비엔나 1900』, 에른스트 곰브리치 『서양미술사』"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/vienna-1900.html"
     },
     {
       "id": "394523161",

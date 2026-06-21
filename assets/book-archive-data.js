@@ -151,7 +151,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=395345172",
       "imageUrl": "https://image.aladin.co.kr/product/2442/58/cover500/8994963677_2.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "동양 미학을 철학의 부속품이 아니라 문학, 그림, 정원, 몸의 감각을 잇는 해석 장치로 읽게 하는 책이다. 동아시아 사유를 추상 개념보다 형상과 기운의 문제로 붙잡을 때 좋은 입구가 된다.",
+      "readWith": "프랑수아 줄리앙 『사물의 성향』, 오주석 『한국의 미 특강』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "394591622",
@@ -162,7 +164,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=394591622",
       "imageUrl": "https://image.aladin.co.kr/product/10441/91/cover500/8967354169_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "전쟁사를 전투의 나열로 소비하지 않고 제국, 병참, 민간인 세계, 전후 질서가 함께 움직인 거대한 구조로 읽게 하는 책이다. 특히 비버와 처칠을 나란히 두면 기록자의 위치가 역사 서술의 톤을 어떻게 바꾸는지 선명해진다.",
+      "readWith": "리처드 오버리 『피와 폐허』, 에릭 홉스봄 『극단의 시대』, 키스 로우 『야만의 대륙』"
     },
     {
       "id": "394591541",
@@ -173,7 +177,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=394591541",
       "imageUrl": "https://image.aladin.co.kr/product/2616/92/cover500/897084497x_2.jpg",
       "sourcePage": 1,
-      "reviewStatus": "오늘의 세 권"
+      "reviewStatus": "오늘의 세 권",
+      "archiveReview": "한 도시가 미술관, 카페, 정신분석, 장식예술, 음악의 실험실이 되던 순간을 압축해서 보여주는 책이다. 클림트나 실레 한 사람보다 도시 전체의 감각 체계를 읽고 싶을 때 유용하다.",
+      "readWith": "칼 쇼르스케 『세기말 빈』, 자크 르 리데르 『비엔나 1900』, 에른스트 곰브리치 『서양미술사』"
     },
     {
       "id": "394523161",
@@ -196,7 +202,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392081478",
       "imageUrl": "https://image.aladin.co.kr/product/8490/43/cover500/8972916110_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "전쟁사를 전투의 나열로 소비하지 않고 제국, 병참, 민간인 세계, 전후 질서가 함께 움직인 거대한 구조로 읽게 하는 책이다. 특히 비버와 처칠을 나란히 두면 기록자의 위치가 역사 서술의 톤을 어떻게 바꾸는지 선명해진다.",
+      "readWith": "리처드 오버리 『피와 폐허』, 에릭 홉스봄 『극단의 시대』, 키스 로우 『야만의 대륙』"
     },
     {
       "id": "392079529",
@@ -219,7 +227,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392079505",
       "imageUrl": "https://image.aladin.co.kr/product/27509/16/cover500/k262837373_2.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "기사도 서사를 영웅담으로만 읽지 않고 충성, 폭력, 신앙, 기억의 정치가 섞인 중세적 상상력의 문서로 볼 수 있게 한다. 중세를 밝은 궁정 이미지가 아니라 노래와 죽음의 공적 언어로 읽는 출발점이다.",
+      "readWith": "에리히 아우어바흐 『미메시스』, 마르크 블로크 『봉건사회』, 『니벨룽겐의 노래』"
     },
     {
       "id": "392079304",
@@ -230,7 +240,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392079304",
       "imageUrl": "https://image.aladin.co.kr/product/30795/89/cover500/k032831467_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "질병을 추상적 명칭보다 몸의 신호와 관찰의 언어로 이해하게 만드는 참조용 책이다. 의학 지식이 전문 영역에 갇히지 않고 일상의 판단력과 연결되는 방식을 보여준다.",
+      "readWith": "아툴 가완디 『나는 고백한다, 현대의학을』, 셔윈 눌랜드 『사람은 어떻게 죽음을 맞이하는가』, 올리버 색스 『아내를 모자로 착각한 남자』"
     },
     {
       "id": "392079279",
@@ -253,7 +265,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392079223",
       "imageUrl": "https://image.aladin.co.kr/product/30764/22/cover500/k922830553_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "민족과 정체성을 고정된 기원보다 근대적 서사와 정치적 필요 속에서 다시 묻게 하는 책이다. 제목의 도발성보다 중요한 것은 공동체가 자신을 설명하는 방식이 언제 역사가 되고 언제 신화가 되는가이다.",
+      "readWith": "베네딕트 앤더슨 『상상의 공동체』, 에릭 홉스봄 『만들어진 전통』, 슐로모 산드 『유대인, 발명된 신화』"
     },
     {
       "id": "392079025",
@@ -264,7 +278,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392079025",
       "imageUrl": "https://image.aladin.co.kr/product/2521/26/cover500/8932472041_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "권력자의 덕목을 도덕 교훈으로만 읽기보다 통치가 자기 비판을 제도화하려 했던 기록으로 읽을 수 있다. 군주론과 함께 놓으면 동아시아와 서구의 권력 언어가 서로 다른 방식으로 냉정하다는 점이 드러난다.",
+      "readWith": "마키아벨리 『군주론』, 김예호 『한비자 정독』, 사마천 『사기열전』"
     },
     {
       "id": "392078900",
@@ -287,7 +303,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392078828",
       "imageUrl": "https://image.aladin.co.kr/product/25967/83/cover500/8979662025_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "러시아 현대사를 혁명과 체제의 이름만으로 요약하지 않고 노동, 국가, 국제 질서의 긴장 속에서 다시 보게 하는 책이다. 소련 붕괴나 동유럽 체제론과 연결하면 현재의 러시아를 읽는 바닥이 두꺼워진다.",
+      "readWith": "올랜도 파이지스 『혁명의 러시아』, 스티븐 코트킨 『스탈린』, 블라디슬라프 주보크 『소련 붕괴의 순간』"
     },
     {
       "id": "392078527",
@@ -310,7 +328,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392078350",
       "imageUrl": "https://image.aladin.co.kr/product/23815/58/cover500/8967357648_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "정복을 한 인물의 무용담보다 언어, 토지, 귀족제, 왕권 재편의 사건으로 보게 하는 책이다. 한 번의 침공이 제도와 기억을 얼마나 오래 바꾸는지 확인하는 중세사 독서로 좋다.",
+      "readWith": "마르크 블로크 『봉건사회』, 노먼 데이비스 『유럽』, 조르주 뒤비 『세 위계』"
     },
     {
       "id": "392078212",
@@ -321,7 +341,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392078212",
       "imageUrl": "https://image.aladin.co.kr/product/35901/75/cover500/8972918660_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "머신러닝을 마술적 자동화가 아니라 통계, 패턴, 추론의 역사로 설명하는 책이다. AI를 둘러싼 과장보다 “학습”이라는 말이 실제로 무엇을 뜻하는지 점검하기에 알맞다.",
+      "readWith": "멜라니 미첼 『인공지능』, 주드 펄 『왜』, 더글러스 호프스태터 『사고의 본질』"
     },
     {
       "id": "391780544",
@@ -332,7 +354,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391780544",
       "imageUrl": "https://image.aladin.co.kr/product/26994/58/cover500/k662730729_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "요리를 레시피 묶음이 아니라 한 문화가 맛, 계절, 식탁 예절을 조직하는 방식으로 보여주는 책이다. 음식도 하나의 아카이브라는 감각으로 읽으면 꽤 풍성하다.",
+      "readWith": "줄리아 차일드 『Mastering the Art of French Cooking』, 장 앙텔름 브리야사바랭 『미식예찬』, 마이클 폴란 『요리를 욕망하다』"
     },
     {
       "id": "391780512",
@@ -343,7 +367,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391780512",
       "imageUrl": "https://image.aladin.co.kr/product/24772/19/cover500/8940806085_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "손의 노동과 패턴, 천의 구조를 미학의 문제로 끌어올리는 책이다. 공예를 취미의 영역이 아니라 사유와 반복의 기술로 읽는 데 잘 맞는다.",
+      "readWith": "리처드 세넷 『장인』, 애니 앨버스 『On Weaving』, 윌리엄 모리스 『예술과 노동』"
     },
     {
       "id": "391771273",
@@ -354,7 +380,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391771273",
       "imageUrl": "https://image.aladin.co.kr/product/32400/56/cover500/k452935887_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "치유와 영성을 쉽게 위로로 소비하지 않고 자기 인식의 훈련으로 다루게 하는 책이다. 심리학과 종교적 언어가 만나는 지점에서 조심스럽게 읽을 필요가 있다.",
+      "readWith": "윌리엄 제임스 『종교적 경험의 다양성』, 에리히 프롬 『소유냐 존재냐』, 잭 콘필드 『마음이 아플 땐 불교심리학』"
     },
     {
       "id": "391770568",
@@ -365,7 +393,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391770568",
       "imageUrl": "https://image.aladin.co.kr/product/30934/1/cover500/8959066710_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "기억이 저장된 파일이 아니라 선택과 왜곡의 과정이라는 점을 독자에게 설득하는 책이다. 뇌과학을 인간의 책임과 자기서사의 문제로 확장하기 좋다.",
+      "readWith": "대니얼 샥터 『기억의 일곱 가지 죄악』, 대니얼 카너먼 『생각에 관한 생각』, 올리버 색스 『뮤지코필리아』"
     },
     {
       "id": "391769928",
@@ -376,7 +406,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391769928",
       "imageUrl": "https://image.aladin.co.kr/product/32450/84/cover500/k232935390_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "술을 취향의 물건으로만 보지 않고 발효, 증류, 식물, 인간의 사회성이 만나는 자연사로 읽게 한다. 레코드룸의 음반 취향과도 의외로 잘 어울리는 감각의 책이다.",
+      "readWith": "마크 쿨란스키 『소금』, 마이클 폴란 『요리를 욕망하다』, 샌더 카츠 『발효의 모든 것』"
     },
     {
       "id": "391769440",
@@ -387,7 +419,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391769440",
       "imageUrl": "https://image.aladin.co.kr/product/26799/70/cover500/k742730681_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "식물을 배경 장식이 아니라 지각, 시간, 생존 전략을 가진 다른 세계로 읽게 하는 책이다. 자연사를 생명의 철학으로 확장하는 데 좋은 카드다.",
+      "readWith": "스테파노 만쿠소 『식물의 지능』, 피터 볼레벤 『나무 수업』, S. 테레사 디에츠 『식물의 말들』"
     },
     {
       "id": "391769082",
@@ -398,7 +432,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391769082",
       "imageUrl": "https://image.aladin.co.kr/product/27304/83/cover500/8967359004_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "발효를 건강 유행이나 조리 팁이 아니라 미생물과 인간 문화가 함께 만든 오래된 기술로 설명하는 책이다. 음식의 시간성과 장소성을 읽는 데 강하다.",
+      "readWith": "샌더 카츠 『The Art of Fermentation』, 마이클 폴란 『Cooked』, 해럴드 맥기 『음식과 요리』"
     },
     {
       "id": "391768819",
@@ -409,7 +445,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391768819",
       "imageUrl": "https://image.aladin.co.kr/product/24430/36/cover500/8925536935_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "정신의 결함을 단순한 고장으로 보지 않고 인간 인지의 구조와 취약성을 드러내는 사례로 읽게 한다. 캔델의 책답게 뇌과학과 인간 이해 사이의 다리를 놓는다.",
+      "readWith": "에릭 캔델 『통찰의 시대』, 올리버 색스 『아내를 모자로 착각한 남자』, 안토니오 다마지오 『데카르트의 오류』"
     },
     {
       "id": "391768738",
@@ -420,7 +458,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391768738",
       "imageUrl": "https://image.aladin.co.kr/product/35266/52/cover500/k142934350_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "사춘기를 문제 행동의 계절로 좁히지 않고 몸, 감정, 관계가 재편되는 통과 의례로 읽게 하는 책이다. 교육과 돌봄의 언어를 다시 세우는 데 쓸 수 있다.",
+      "readWith": "에릭 에릭슨 『아동기와 사회』, 로런스 스타인버그 『청소년기의 뇌』, 캐럴 길리건 『다른 목소리로』"
     },
     {
       "id": "389350532",
@@ -431,7 +471,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389350532",
       "imageUrl": "https://image.aladin.co.kr/product/17549/66/cover500/k382534400_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "도시 산책, 초현실주의, 욕망의 지형도가 한데 뒤섞이는 책이다. 파리를 배경이 아니라 무의식의 장치로 읽을 때 벤야민의 아케이드와 멋지게 이어진다.",
+      "readWith": "발터 벤야민 『아케이드 프로젝트』, 앙드레 브르통 『나자』, 기 드보르 『스펙터클의 사회』"
     },
     {
       "id": "389005002",
@@ -442,7 +484,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389005002",
       "imageUrl": "https://image.aladin.co.kr/product/35951/75/cover500/k882037805_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "대한제국을 실패한 전야로만 소비하지 않고 근대 국가 형성의 실험과 한계로 다시 보게 하는 책이다. 한국 근대사를 식민지 이전의 선택지들 속에서 읽는 데 필요하다.",
+      "readWith": "앙드레 슈미드 『제국 그 사이의 한국』, 브루스 커밍스 『한국전쟁의 기원』, 토드 A. 헨리 『서울, 권력 도시』"
     },
     {
       "id": "389004849",
@@ -453,7 +497,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004849",
       "imageUrl": "https://image.aladin.co.kr/product/37076/0/cover500/k862030958_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "프로이트 이후의 무의식을 뇌과학의 언어로 다시 묻는 책이다. 정신분석과 신경과학이 서로를 대체하기보다 긴장 속에서 보완하는 지점을 확인하게 한다.",
+      "readWith": "지그문트 프로이트 『꿈의 해석』, 안토니오 다마지오 『느낌의 진화』, 에릭 캔델 『마음의 오류들』"
     },
     {
       "id": "389004788",
@@ -464,7 +510,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004788",
       "imageUrl": "https://image.aladin.co.kr/product/36241/78/cover500/k872038819_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "비트코인을 투자 상품보다 통화, 신뢰, 네트워크 권력의 문제로 읽을 수 있게 하는 책이다. 기술의 욕망이 경제 제도의 빈틈을 어떻게 파고드는지 보는 데 좋다.",
+      "readWith": "사토시 나카모토 「Bitcoin White Paper」, 니얼 퍼거슨 『금융의 지배』, 칼 폴라니 『거대한 전환』"
     },
     {
       "id": "389004774",
@@ -475,7 +523,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004774",
       "imageUrl": "https://image.aladin.co.kr/product/35221/68/cover500/8932323917_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "저자성, 번역, 인용의 경계를 유쾌하게 흔드는 책이다. 문장이 누구에게 속하는가라는 질문은 문학뿐 아니라 학술과 AI 시대의 글쓰기에도 바로 이어진다.",
+      "readWith": "롤랑 바르트 「저자의 죽음」, 미셸 푸코 「저자란 무엇인가」, 호르헤 루이스 보르헤스 『픽션들』"
     },
     {
       "id": "389004732",
@@ -498,7 +548,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004600",
       "imageUrl": "https://image.aladin.co.kr/product/32131/96/cover500/k162834303_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "성서를 교리 명제 이전에 서사와 반복, 장면 구성의 예술로 읽게 하는 중요한 책이다. 신학과 문학 독서가 만나는 자리에서 오래 쓰일 수 있다.",
+      "readWith": "로버트 알터 『The Art of Biblical Narrative』, 에리히 아우어바흐 『미메시스』, 앤서니 티슬턴 『성경 해석학』"
     },
     {
       "id": "389004497",
@@ -509,7 +561,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004497",
       "imageUrl": "https://image.aladin.co.kr/product/36703/14/cover500/8932475628_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "끝, 몰락, 마지막 순간에 끌리는 다이어식 시선을 따라가게 하는 책이다. 비평과 산문, 여행과 애도의 경계가 느슨해지는 글쓰기의 샘플로 읽기 좋다.",
+      "readWith": "제프 다이어 『꼼짝도 하기 싫은 사람들을 위한 요가』, 존 버거 『그리고 사진처럼 덧없는 우리들의 얼굴, 내 가슴』, 롤랑 바르트 『애도 일기』"
     },
     {
       "id": "389004296",
@@ -520,7 +574,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004296",
       "imageUrl": "https://image.aladin.co.kr/product/6870/61/cover500/8971996927_2.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "일본사를 중앙 권력의 연표만이 아니라 주변부, 바다, 장인, 비국가적 삶의 층위에서 다시 읽게 하는 책이다. 동아시아사를 국가 단위로만 읽는 습관을 흔든다.",
+      "readWith": "아미노 요시히코 『일본이란 무엇인가』, 콘래드 토트먼 『일본사』, 박훈 『메이지 유신은 어떻게 가능했는가』"
     },
     {
       "id": "389004208",
@@ -531,7 +587,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004208",
       "imageUrl": "https://image.aladin.co.kr/product/21312/52/cover500/8971999837_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "한의학을 전통과 과학의 단순 대립으로 보지 않고 현대 의료 체계 안에서 어떻게 혼성화되는지 살피는 책이다. 의료 지식도 제도와 시장 속에서 변형된다는 점이 핵심이다.",
+      "readWith": "토머스 쿤 『과학혁명의 구조』, 칼 세이건 『코스모스』, 에드 용 『내 속엔 미생물이 너무도 많아』"
     },
     {
       "id": "389004193",
@@ -542,7 +600,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004193",
       "imageUrl": "https://image.aladin.co.kr/product/14794/6/cover500/8958973544_3.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "법가를 냉혹한 통치술로만 소비하지 않고 인간 불신, 제도 설계, 권력의 거리두기라는 정치철학으로 읽게 한다. 마키아벨리와 나란히 두면 아주 매섭다.",
+      "readWith": "마키아벨리 『군주론』, 순자 『순자』, 오긍 『정관정요』"
     },
     {
       "id": "389004157",
@@ -553,7 +613,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004157",
       "imageUrl": "https://image.aladin.co.kr/product/33837/97/cover500/k002930990_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "부채라는 작은 표면 위에서 그림, 물건, 손의 움직임이 만나는 방식을 보여주는 책이다. 미술사를 대작 중심에서 사물의 친밀한 형식으로 옮겨 놓는다.",
+      "readWith": "오주석 『한국의 미 특강』, 야나기 무네요시 『조선과 그 예술』, 크리스틴 거스 『Art, Tea, and Industry』"
     },
     {
       "id": "389004130",
@@ -564,7 +626,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004130",
       "imageUrl": "https://image.aladin.co.kr/product/3400/29/cover500/8958626666_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "랜드의 소설은 자유주의적 영웅담이면서 동시에 자본주의적 윤리의 극단적 상상력이다. 동의보다 거리두기를 유지할수록 시장과 개인의 신화를 읽는 데 흥미롭다.",
+      "readWith": "칼 폴라니 『거대한 전환』, 하이에크 『노예의 길』, 조이스 애플비 『가차없는 자본주의』"
     },
     {
       "id": "389004104",
@@ -575,7 +639,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004104",
       "imageUrl": "https://image.aladin.co.kr/product/11380/18/cover500/k012532829_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "소설적 삼국지가 아니라 사료로서의 삼국지를 읽는 일은 영웅을 덜어내고 제도와 판단의 흔적을 보는 일이다. 이야기의 쾌감보다 기록의 건조함이 더 많은 질문을 만든다.",
+      "readWith": "사마천 『사기열전』, 나관중 『삼국지연의』, 레이프 드 크레스피니 『Imperial Warlord』"
     },
     {
       "id": "389004040",
@@ -586,7 +652,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004040",
       "imageUrl": "https://image.aladin.co.kr/product/32064/66/cover500/k332834895_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "파시즘을 외국 이념의 수입품으로만 보지 않고 한국 근현대의 역사 해석과 집단 감정 속에서 추적하는 책이다. 역사 서술 자체가 권력의 형식이 되는 순간을 읽게 한다.",
+      "readWith": "에릭 홉스봄 『극단의 시대』, 마크 마조워 『암흑의 대륙』, 존 루이스 개디스 『냉전의 역사』"
     },
     {
       "id": "389003848",
@@ -597,7 +665,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389003848",
       "imageUrl": "https://image.aladin.co.kr/product/26620/78/cover500/k592739133_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "매슬로를 자기계발의 피라미드로만 소비하지 않고 인간 욕구와 성장 심리학의 고전으로 다시 읽게 한다. 심리학의 낙관주의가 어디까지 유효한지 따져볼 만하다.",
+      "readWith": "빅터 프랭클 『죽음의 수용소에서』, 에드워드 데시 『마음의 작동법』, 칼 로저스 『인간중심치료』"
     },
     {
       "id": "388859637",
@@ -608,7 +678,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388859637",
       "imageUrl": "https://image.aladin.co.kr/product/1603/32/cover500/s252531155_2.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "들뢰즈를 읽을 때 자주 길을 잃는 개념들을 지도처럼 정리해주는 도구형 책이다. 단, 사전은 지름길이 아니라 원전으로 돌아가기 위한 임시 교량으로 써야 한다.",
+      "readWith": "레이먼드 윌리엄스 『키워드』, 남경태 『종횡무진 서양사』, 이진경 『철학과 굴뚝청소부』"
     },
     {
       "id": "388492946",
@@ -619,7 +691,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388492946",
       "imageUrl": "https://image.aladin.co.kr/product/3845/43/cover500/8930617107_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『구조와 모순』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "헤겔 『정신현상학』, 루이 알튀세르 『마르크스를 위하여』, 테리 이글턴 『마르크스는 옳았다』"
     },
     {
       "id": "388492213",
@@ -630,7 +704,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388492213",
       "imageUrl": "https://image.aladin.co.kr/product/238/26/cover500/8976462416_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "성리학을 도덕 교훈의 뭉치가 아니라 정교한 개념 체계로 읽게 하는 책이다. 리, 기, 심성의 말들이 어떤 세계관을 구성하는지 추적하기 좋다.",
+      "readWith": "한스게오르크 가다머 『진리와 방법』, 질 들뢰즈 『주름, 라이프니츠와 바로크』, 윌리엄 제임스 『종교적 경험의 다양성』"
     },
     {
       "id": "388492193",
@@ -641,7 +717,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388492193",
       "imageUrl": "https://image.aladin.co.kr/product/1539/36/cover500/8930085679_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "국제정치를 무질서의 공간이 아니라 규범과 제도, 힘의 균형이 동시에 작동하는 사회로 설명하는 고전이다. 현실주의와 영국학파를 나란히 읽는 출발점으로 좋다.",
+      "readWith": "케네스 월츠 『국제정치이론』, 알렉산더 웬트 『국제정치의 사회적 이론』, 헨리 키신저 『세계질서』"
     },
     {
       "id": "388492182",
@@ -652,7 +730,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388492182",
       "imageUrl": "https://image.aladin.co.kr/product/2715/17/cover500/8957332863_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "홉스 이후 계약론을 합리적 선택과 도덕의 문제로 다시 구성하는 책이다. 국가가 왜 필요한가라는 질문을 공포가 아니라 계산의 언어로 묻는다.",
+      "readWith": "토머스 홉스 『리바이어던』, 존 롤스 『정의론』, 데이비드 고티에 『Morals by Agreement』"
     },
     {
       "id": "388492031",
@@ -663,7 +743,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388492031",
       "imageUrl": "https://image.aladin.co.kr/product/25783/7/cover500/8964452313_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "마키아벨리를 악마적 책략가보다 공화주의와 역사 감각의 사상가로 읽게 하는 책이다. 권력의 기술과 자유의 제도가 어떻게 얽히는지 보기에 좋다.",
+      "readWith": "마키아벨리 『로마사 논고』, 퀜틴 스키너 『근대 정치사상의 토대』, J. G. A. 포콕 『마키아벨리언 모멘트』"
     },
     {
       "id": "388491233",
@@ -674,7 +756,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388491233",
       "imageUrl": "https://image.aladin.co.kr/product/843/18/cover500/8930085148_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "유전자를 자연의 단순한 단위가 아니라 과학사의 개념으로 추적하는 책이다. 생명과학이 발견만이 아니라 명명과 모델링의 역사라는 점을 일깨운다.",
+      "readWith": "에릭 홉스봄 『극단의 시대』, 마크 마조워 『암흑의 대륙』, 존 루이스 개디스 『냉전의 역사』"
     },
     {
       "id": "388491225",
@@ -685,7 +769,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388491225",
       "imageUrl": "https://image.aladin.co.kr/product/241/48/cover500/8930083307_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "부닌의 산문은 기억과 풍경이 인물의 생을 어떻게 보존하는지 보여준다. 러시아 문학의 서정적 회고와 망명의 감각을 함께 읽기에 좋다.",
+      "readWith": "이반 부닌 『어두운 가로수길』, 블라디미르 나보코프 『말하라, 기억이여』, 마르셀 프루스트 『잃어버린 시간을 찾아서』"
     },
     {
       "id": "388491202",
@@ -696,7 +782,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388491202",
       "imageUrl": "https://image.aladin.co.kr/product/806/39/cover500/8930084842_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "이해와 기억, 텍스트 처리의 문제를 인지과학의 모델로 접근하는 책이다. 문학 독서와 뇌의 정보처리를 이어보려는 독자에게 의미가 있다.",
+      "readWith": "조지 레이코프·마크 존슨 『삶으로서의 은유』, 더글러스 호프스태터 『사고의 본질』, 대니얼 카너먼 『생각에 관한 생각』"
     },
     {
       "id": "388214568",
@@ -707,7 +795,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388214568",
       "imageUrl": "https://image.aladin.co.kr/product/1098/55/cover500/8960511595_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "주역을 점술의 이미지로만 읽지 않고 변화, 언어, 세계 이해의 철학으로 풀어내는 책이다. 동양 고전의 상징 체계를 사유의 문법으로 다루게 한다.",
+      "readWith": "한스게오르크 가다머 『진리와 방법』, 질 들뢰즈 『주름, 라이프니츠와 바로크』, 윌리엄 제임스 『종교적 경험의 다양성』"
     },
     {
       "id": "387577512",
@@ -718,7 +808,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387577512",
       "imageUrl": "https://image.aladin.co.kr/product/27453/6/cover500/8932038716_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "쉼보르스카의 시는 거대한 역사 이후에도 남는 사물과 인간의 작은 아이러니를 붙잡는다. 무거운 시대를 너무 큰 목소리로 말하지 않는 법을 배울 수 있다.",
+      "readWith": "체스와프 미워시 『끝없는 대화』, 즈비그니에프 헤르베르트 『헤르베르트 시선』, 한나 아렌트 『어두운 시대의 사람들』"
     },
     {
       "id": "387577509",
@@ -729,7 +821,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387577509",
       "imageUrl": "https://image.aladin.co.kr/product/31953/94/cover500/k422833258_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "기술 발전이 자동으로 모두의 진보가 된다는 믿음을 정면으로 의심하는 책이다. AI와 노동, 제도 설계의 문제를 함께 생각할 때 지금 매우 유용하다.",
+      "readWith": "칼 폴라니 『거대한 전환』, 토마 피케티 『21세기 자본』, 대런 애쓰모글루 『국가는 왜 실패하는가』"
     },
     {
       "id": "387577408",
@@ -740,7 +834,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387577408",
       "imageUrl": "https://image.aladin.co.kr/product/28953/41/cover500/8973167324_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "미생물을 공포의 대상이 아니라 생태계와 인간 몸의 동반자로 읽게 하는 책이다. 보이지 않는 생명이 생활과 의학의 조건을 어떻게 만드는지 보여준다.",
+      "readWith": "에드 용 『내 속엔 미생물이 너무도 많아』, 린 마굴리스 『공생자 행성』, 롭 드살레 『증류주의 자연사』"
     },
     {
       "id": "387577330",
@@ -751,7 +847,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387577330",
       "imageUrl": "https://image.aladin.co.kr/product/24379/2/cover500/k442630312_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "모네의 지베르니를 한 화가의 정원이 아니라 빛, 반복, 말년의 시각 실험이 응축된 장소로 보게 한다. 그림과 장소가 서로를 만드는 방식을 읽기 좋다.",
+      "readWith": "T. J. 클라크 『현대생활의 회화』, 로스 킹 『모네의 수련』, 존 리월드 『인상주의의 역사』"
     },
     {
       "id": "387504904",
@@ -762,7 +860,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504904",
       "imageUrl": "https://image.aladin.co.kr/product/32176/19/cover500/k322834416_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "힘을 공식 이전에 건물, 도구, 물건의 형태를 만드는 실제 조건으로 설명하는 책이다. 페트로스키식 공학 글쓰기는 사물을 보는 눈을 조금 더 정확하게 만든다.",
+      "readWith": "J. E. 고든 『구조』, 헨리 페트로스키 『연필』, 데이비드 맥컬레이 『도구와 기계의 원리』"
     },
     {
       "id": "387504779",
@@ -773,7 +873,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504779",
       "imageUrl": "https://image.aladin.co.kr/product/34938/82/cover500/k552934469_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "매너를 예절 교본이 아니라 계급, 젠더, 감정 통제의 역사로 읽게 하는 책이다. 일상의 작은 몸짓 안에 사회 권력이 얼마나 깊이 들어와 있는지 보여준다.",
+      "readWith": "에릭 홉스봄 『극단의 시대』, 마크 마조워 『암흑의 대륙』, 존 루이스 개디스 『냉전의 역사』"
     },
     {
       "id": "387504775",
@@ -784,7 +886,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504775",
       "imageUrl": "https://image.aladin.co.kr/product/24741/75/cover500/8965136091_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『21세기 최고의 세계사 수업』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "유발 하라리 『사피엔스』, 에릭 홉스봄 『극단의 시대』, 펠리페 페르난데스아르메스토 『옥스퍼드 세계사』"
     },
     {
       "id": "387504652",
@@ -795,7 +899,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504652",
       "imageUrl": "https://image.aladin.co.kr/product/29677/15/cover500/k242838288_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "창작 기술서처럼 보이지만 사실은 세계를 설득력 있게 구성하는 규칙의 문제를 다룬다. 소설, 게임, 역사 서술이 모두 “세계”를 만든다는 점에서 유용하다.",
+      "readWith": "어슐러 K. 르 귄 『밤의 언어』, J. R. R. 톨킨 「요정 이야기에 대하여」, 존 트루비 『스토리』"
     },
     {
       "id": "387504604",
@@ -806,7 +912,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504604",
       "imageUrl": "https://image.aladin.co.kr/product/36492/78/cover500/k252039117_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "미술 감상을 취향의 문제가 아니라 지각, 기억, 정서의 과학과 연결해 읽는 책이다. 이미지 노트를 쓰는 데 직접적인 이론적 배경이 된다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "387504595",
@@ -817,7 +925,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504595",
       "imageUrl": "https://image.aladin.co.kr/product/34403/35/cover500/k012932613_2.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『세계-사이』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "한나 아렌트 『인간의 조건』, 장뤽 낭시 『무위의 공동체』, 로베르토 에스포지토 『코무니타스』"
     },
     {
       "id": "387504561",
@@ -828,7 +938,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504561",
       "imageUrl": "https://image.aladin.co.kr/product/34033/87/cover500/k132931269_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "취미가 순수한 개인 선택이라는 믿음을 흔들고, 문화적 선호가 계급과 교육 자본의 언어가 되는 방식을 보여준다. 우리 책장 작업의 기준을 점검하게 만드는 책이다.",
+      "readWith": "피에르 부르디외 『구별짓기』, 엘리자베스 커리드핼킷 『야망계급론』, 토르스타인 베블런 『유한계급론』"
     },
     {
       "id": "387504418",
@@ -839,7 +951,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504418",
       "imageUrl": "https://image.aladin.co.kr/product/29961/91/cover500/k412838147_2.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "굴드를 기인담보다 해석, 녹음, 고독, 통제의 예술가로 읽게 하는 전기다. 음반 리뷰와 책 리뷰가 만나는 지점에 놓기 좋은 책이다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "387504413",
@@ -850,7 +964,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504413",
       "imageUrl": "https://image.aladin.co.kr/product/8781/73/cover500/8960869333_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "사마천을 역사 서술의 창시자로만 보지 않고 인간의 실패와 선택을 기록하는 문장가로 읽게 한다. 기록자의 윤리와 서사의 힘을 함께 생각하게 된다.",
+      "readWith": "사마천 『사기열전』, 버튼 왓슨 『Ssu-ma Ch’ien』, 김영수 『사기, 정치와 권력을 말하다』"
     },
     {
       "id": "387504397",
@@ -861,7 +977,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504397",
       "imageUrl": "https://image.aladin.co.kr/product/36885/4/cover500/k772030605_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "제국주의 폭력을 과거의 사건으로 닫지 않고 제도와 기억, 현재의 불평등으로 이어지는 구조로 읽게 하는 책이다. 역사적 책임이라는 말의 무게를 키운다.",
+      "readWith": "프란츠 파농 『대지의 저주받은 사람들』, 애덤 호크실드 『레오폴드왕의 유령』, 스벤 린드크비스트 『야만의 역사』"
     },
     {
       "id": "387504356",
@@ -872,7 +990,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504356",
       "imageUrl": "https://image.aladin.co.kr/product/35950/92/cover500/8960306452_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『안준걸의 프리미엄 펜화 강의』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "존 러스킨 『드로잉의 기초』, 베티 에드워즈 『오른쪽 두뇌로 그림 그리기』, 앤드루 루미스 『알기 쉬운 인물화』"
     },
     {
       "id": "387504354",
@@ -883,7 +1003,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504354",
       "imageUrl": "https://image.aladin.co.kr/product/31340/91/cover500/8925417634_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『한 권으로 끝내는 미술 수업 가이드북』은 이미지를 지식과 감각이 만나는 현장으로 읽게 하는 책이다. 김유미.최소라.정선혜의 작업을 따라가면 작품을 설명하는 말보다 작품을 오래 보는 태도가 먼저 생긴다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "387504319",
@@ -894,7 +1016,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504319",
       "imageUrl": "https://image.aladin.co.kr/product/8779/58/cover500/8931360673_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『지도를 따라가는 반 고흐의 삶과 여행』은 이미지를 지식과 감각이 만나는 현장으로 읽게 하는 책이다. 닌커 데너캄프 외의 작업을 따라가면 작품을 설명하는 말보다 작품을 오래 보는 태도가 먼저 생긴다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "387504314",
@@ -905,7 +1029,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504314",
       "imageUrl": "https://image.aladin.co.kr/product/28661/20/cover500/8931557884_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『초보 드링커를 위한 위스키 안내서』은 먹고 마시는 일을 취향보다 역사와 기술, 감각의 문제로 확장한다. 사소해 보이는 식탁의 물건들이 세계사와 생활사를 동시에 품고 있음을 보여준다.",
+      "readWith": "마이클 폴란 『요리를 욕망하다』, 마크 쿨란스키 『소금』, 해럴드 맥기 『음식과 요리』"
     },
     {
       "id": "387504305",
@@ -916,7 +1042,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504305",
       "imageUrl": "https://image.aladin.co.kr/product/16234/14/cover500/k842534788_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "개혁개방을 경제 성공담으로만 보지 않고 권력, 이념, 실용주의가 결합한 통치의 설계로 읽게 한다. 중국 현대사를 한 인물의 판단력과 한계 속에서 볼 수 있다.",
+      "readWith": "에즈라 보걸 『덩샤오핑 평전』, 헨리 키신저 『중국 이야기』, 조너선 스펜스 『현대 중국을 찾아서』"
     },
     {
       "id": "387413127",
@@ -927,7 +1055,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387413127",
       "imageUrl": "https://image.aladin.co.kr/product/27796/77/cover500/k372734067_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『모두의 미술사』은 이미지를 지식과 감각이 만나는 현장으로 읽게 하는 책이다. 마이클 버드의 작업을 따라가면 작품을 설명하는 말보다 작품을 오래 보는 태도가 먼저 생긴다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "387364662",
@@ -938,7 +1068,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387364662",
       "imageUrl": "https://image.aladin.co.kr/product/32762/42/cover500/8962632594_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "자연재해와 환경 파괴를 순수한 자연 현상이 아니라 제국, 자본, 국가의 역사와 엮어 읽는 책이다. 생태와 정치사를 함께 묶는 데 강하다.",
+      "readWith": "디페시 차크라바르티 『행성 시대 역사의 기후』, 제이슨 무어 『생명의 그물 속 자본주의』, 나오미 클라인 『이것이 모든 것을 바꾼다』"
     },
     {
       "id": "387364648",
@@ -949,7 +1081,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387364648",
       "imageUrl": "https://image.aladin.co.kr/product/21108/47/cover500/896735665x_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "정치를 제도와 이익만이 아니라 사랑, 애도, 공감 같은 감정의 조직으로 읽게 하는 누스바움의 중요한 책이다. 민주주의가 어떤 정서적 훈련을 요구하는지 묻는다.",
+      "readWith": "마사 누스바움 『시적 정의』, 존 롤스 『정의론』, 베네딕트 앤더슨 『상상의 공동체』"
     },
     {
       "id": "387364522",
@@ -960,7 +1094,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387364522",
       "imageUrl": "https://image.aladin.co.kr/product/2844/59/cover500/8997776800_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "불교 윤리와 자연주의적 마음 이론을 함께 놓는 흥미로운 책이다. 명상과 뇌과학을 얕은 화해로 묶지 않고 인간 번영의 모델을 따져보게 한다.",
+      "readWith": "올리버 색스 『아내를 모자로 착각한 남자』, 안토니오 다마지오 『데카르트의 오류』, 로버트 새폴스키 『스트레스』"
     },
     {
       "id": "387330005",
@@ -971,7 +1107,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387330005",
       "imageUrl": "https://image.aladin.co.kr/product/1319/90/cover500/8992114729_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『튜더스』은 사건을 연표로 소비하지 않고 권력, 제도, 기억이 얽힌 구조로 읽게 하는 책이다. 역사책을 오늘의 정치 감각과 연결해 읽고 싶을 때 큐에 남겨둘 가치가 있다.",
+      "readWith": "에릭 홉스봄 『극단의 시대』, 마크 마조워 『암흑의 대륙』, 존 루이스 개디스 『냉전의 역사』"
     },
     {
       "id": "386231819",
@@ -982,7 +1120,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=386231819",
       "imageUrl": "https://image.aladin.co.kr/product/1536/97/cover500/897291519x_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "자본주의를 경제 제도의 이름이 아니라 끝없이 팽창하고 적응하는 역사적 힘으로 읽게 한다. 시장의 자연스러움을 의심했던 우리 기존 글들과 잘 이어진다.",
+      "readWith": "칼 폴라니 『거대한 전환』, 페르낭 브로델 『물질문명과 자본주의』, 조반니 아리기 『장기 20세기』"
     },
     {
       "id": "385986569",
@@ -993,7 +1133,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385986569",
       "imageUrl": "https://image.aladin.co.kr/product/35241/30/cover500/8957339493_2.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "배우의 기술을 무대의 요령이 아니라 자기 인식과 행동의 훈련으로 다루는 고전이다. 연기론이면서 동시에 몸을 가진 인간의 집중력에 관한 책이다.",
+      "readWith": "스타니슬랍스키 『역할 창조』, 리 스트라스버그 『배우와 자기』, 피터 브룩 『빈 공간』"
     },
     {
       "id": "385986561",
@@ -1004,7 +1146,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385986561",
       "imageUrl": "https://image.aladin.co.kr/product/35241/32/cover500/8957339485_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "배우의 기술을 무대의 요령이 아니라 자기 인식과 행동의 훈련으로 다루는 고전이다. 연기론이면서 동시에 몸을 가진 인간의 집중력에 관한 책이다.",
+      "readWith": "스타니슬랍스키 『배우 수업』, 리처드 세넷 『장인』, 피터 브룩 『빈 공간』"
     },
     {
       "id": "385719814",
@@ -1015,7 +1159,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385719814",
       "imageUrl": "https://image.aladin.co.kr/product/27349/73/cover500/8964476514_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "하이데거를 난해한 존재론의 성채에 가두지 않고 여러 현대적 문제와 교차시켜 읽으려는 책이다. 입문서보다 적극적인 해석의 지도에 가깝다.",
+      "readWith": "한스게오르크 가다머 『진리와 방법』, 질 들뢰즈 『주름, 라이프니츠와 바로크』, 윌리엄 제임스 『종교적 경험의 다양성』"
     },
     {
       "id": "385719764",
@@ -1026,7 +1172,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385719764",
       "imageUrl": "https://image.aladin.co.kr/product/34175/61/cover500/8962632799_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "AI를 기술 혁명보다 예측 비용의 하락과 조직 의사결정의 변화로 설명하는 책이다. 과장된 미래담보다 기업과 제도의 변화를 읽기에 좋다.",
+      "readWith": "멜라니 미첼 『인공지능』, 셰리 터클 『외로워지는 사람들』, 발터 벤야민 『기술복제시대의 예술작품』"
     },
     {
       "id": "385719738",
@@ -1037,7 +1185,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385719738",
       "imageUrl": "https://image.aladin.co.kr/product/33896/18/cover500/k482930820_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "양반과 선비를 낭만적 지식인상으로만 보지 않고 제도, 지역, 일상 윤리 속에서 읽게 하는 책이다. 조선 사회의 몸통을 이해하는 데 좋은 자료다.",
+      "readWith": "마르티나 도이힐러 『조상의 눈 아래에서』, 정병설 『조선의 음담패설』, 미야지마 히로시 『양반』"
     },
     {
       "id": "385719685",
@@ -1048,7 +1198,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385719685",
       "imageUrl": "https://image.aladin.co.kr/product/36990/74/cover500/8957339965_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "홀로코스트를 예외적 악으로만 밀어내지 않고 현대 사회의 취약한 윤리와 연결해 생각하게 하는 책이다. 제목 그대로 거리를 좁혀 읽어야 한다.",
+      "readWith": "프리모 레비 『이것이 인간인가』, 한나 아렌트 『예루살렘의 아이히만』, 티머시 스나이더 『블러드랜드』"
     },
     {
       "id": "385719446",
@@ -1059,7 +1211,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385719446",
       "imageUrl": "https://image.aladin.co.kr/product/35005/81/cover500/k852934880_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "동물 윤리를 감상적 선의가 아니라 고통, 권리, 생활 방식의 재검토로 끌어올리는 책이다. 피터 싱어의 문제 제기는 여전히 불편하고 중요하다.",
+      "readWith": "피터 싱어 『동물 해방』, 톰 리건 『동물권 옹호』, 마사 누스바움 『Justice for Animals』"
     },
     {
       "id": "385719084",
@@ -1070,7 +1224,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385719084",
       "imageUrl": "https://image.aladin.co.kr/product/836/0/cover500/8989721008_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "번스타인을 스타 지휘자보다 교육자, 작곡가, 방송인, 해석자로 함께 읽게 하는 전기다. 음반 리뷰의 배경을 두껍게 만드는 데 유용하다.",
+      "readWith": "알렉스 로스 『나머지는 소음이다』, 로베르트 슈만 『음악과 음악가』, 무라카미 하루키 『오래되고 멋진 클래식 레코드』"
     },
     {
       "id": "385719058",
@@ -1081,7 +1237,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385719058",
       "imageUrl": "https://image.aladin.co.kr/product/19474/23/cover500/8944785368_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "루터의 사상이 장엄한 논문이 아니라 식탁의 말과 농담, 신앙의 일상 언어 속에서 어떻게 흘러나오는지 보여준다. 종교개혁의 인간적 질감을 느낄 수 있다.",
+      "readWith": "마르틴 루터 『그리스도인의 자유』, 하이코 오버만 『루터』, 롤런드 베인턴 『마르틴 루터』"
     },
     {
       "id": "385718899",
@@ -1092,7 +1250,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385718899",
       "imageUrl": "https://image.aladin.co.kr/product/35653/79/cover500/k062036814_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "중동을 뉴스의 위기 지도보다 지리, 제국, 종파, 자원의 복합 공간으로 읽게 하는 참조서다. 빠른 판단을 늦추는 데 좋은 도구다.",
+      "readWith": "앨버트 후라니 『아랍인의 역사』, 에드워드 사이드 『오리엔탈리즘』, 유진 로건 『아랍』"
     },
     {
       "id": "385718242",
@@ -1103,7 +1263,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385718242",
       "imageUrl": "https://image.aladin.co.kr/product/36236/27/cover500/8978497160_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『근육운동가이드 프리웨이트』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "켈리 스타렛 『Becoming a Supple Leopard』, 마크 리피토 『Starting Strength』, 프레데릭 데라비에 『근육운동가이드』"
     },
     {
       "id": "385718201",
@@ -1114,7 +1276,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385718201",
       "imageUrl": "https://image.aladin.co.kr/product/34919/70/cover500/k542933350_2.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "미술관을 작품 저장소가 아니라 오래 머무는 시선의 학교로 읽게 하는 책이다. 한 작품을 반복해서 보는 훈련이 무엇인지 보여준다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "385718134",
@@ -1125,7 +1289,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385718134",
       "imageUrl": "https://image.aladin.co.kr/product/35571/44/cover500/k042036578_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "지능을 인간의 특권이 아니라 생명 진화 속에서 나타난 문제 해결의 여러 형식으로 보게 하는 책이다. AI 논의와 생물학적 마음 이론을 이어 읽기 좋다.",
+      "readWith": "멜라니 미첼 『인공지능』, 셰리 터클 『외로워지는 사람들』, 발터 벤야민 『기술복제시대의 예술작품』"
     },
     {
       "id": "385718051",
@@ -1136,7 +1302,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385718051",
       "imageUrl": "https://image.aladin.co.kr/product/1800/80/cover500/8991799744_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "공산주의자를 신념의 추상 명사가 아니라 20세기 조직과 혁명의 인간형으로 읽게 하는 책이다. 로버트 서비스의 러시아사 작업과 함께 놓으면 체제의 사람들을 이해하기 좋다.",
+      "readWith": "로버트 서비스 『레닌』, 올랜도 파이지스 『혁명의 러시아』, 에릭 홉스봄 『극단의 시대』"
     },
     {
       "id": "385576063",
@@ -1147,7 +1315,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385576063",
       "imageUrl": "https://image.aladin.co.kr/product/22159/89/cover500/k462636310_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『뮤지엄』은 이미지를 지식과 감각이 만나는 현장으로 읽게 하는 책이다. 마누엘 마르솔 그림, 하비에르 사에스 카스탄 기획의 작업을 따라가면 작품을 설명하는 말보다 작품을 오래 보는 태도가 먼저 생긴다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "385502407",
@@ -1158,7 +1328,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385502407",
       "imageUrl": "https://image.aladin.co.kr/product/1650/54/cover500/8994079424_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『마지막 황태자 세트 - 전4권』은 한 시대를 사건보다 구조로 읽도록 돕는 역사 큐다. 권력의 언어와 일상의 변화가 어떻게 맞물리는지 확인하며 읽으면 좋다.",
+      "readWith": "에릭 홉스봄 『극단의 시대』, 토니 주트 『전후 유럽』, 리처드 오버리 『피와 폐허』"
     },
     {
       "id": "385502109",
@@ -1169,7 +1341,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385502109",
       "imageUrl": "https://image.aladin.co.kr/product/26676/26/cover500/k902730881_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "베르디를 유명 아리아의 작곡가가 아니라 극장, 정치, 인간 목소리의 드라마를 설계한 예술가로 읽게 한다. 음반 리뷰와 자연스럽게 이어지는 책이다.",
+      "readWith": "알렉스 로스 『나머지는 소음이다』, 로베르트 슈만 『음악과 음악가』, 무라카미 하루키 『오래되고 멋진 클래식 레코드』"
     },
     {
       "id": "385502093",
@@ -1180,7 +1354,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385502093",
       "imageUrl": "https://image.aladin.co.kr/product/7489/94/cover500/k062434604_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "아랍 세계를 뉴스의 추상 지명에서 일상과 여행, 언어와 사람들의 공간으로 되돌리는 책이다. 지리적 상상력을 인간의 규모로 낮추는 데 좋다.",
+      "readWith": "팀 매킨토시-스미스 『아랍의 바다』, 앨버트 후라니 『아랍인의 역사』, 에드워드 사이드 『오리엔탈리즘』"
     },
     {
       "id": "385501950",
@@ -1191,7 +1367,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385501950",
       "imageUrl": "https://image.aladin.co.kr/product/28388/99/cover500/k622835810_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "말년의 미켈란젤로를 완성된 천재상보다 실패와 고집, 신앙과 육체의 긴장 속에서 읽게 한다. 예술가 전기의 좋은 점은 바로 이 늦은 시간의 복잡함이다.",
+      "readWith": "조르조 바사리 『르네상스 미술가 평전』, 어빙 스톤 『고뇌와 환희』, 로맹 롤랑 『미켈란젤로의 생애』"
     },
     {
       "id": "385501847",
@@ -1202,7 +1380,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385501847",
       "imageUrl": "https://image.aladin.co.kr/product/36489/77/cover500/k392039110_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "정원과 노동, 계절의 반복을 통해 삶의 속도를 낮추는 산문이다. 자연을 장식이 아니라 돌봄의 시간으로 읽게 한다.",
+      "readWith": "로빈 월 키머러 『향모를 땋으며』, 헨리 데이비드 소로 『월든』, 마이클 폴란 『세컨 네이처』"
     },
     {
       "id": "385063142",
@@ -1213,7 +1393,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385063142",
       "imageUrl": "https://image.aladin.co.kr/product/35979/63/cover500/8931022832_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "이성이 해방의 도구가 아니라 지배와 계산의 형식이 될 때 무엇이 손상되는지 묻는 책이다. 프랑크푸르트학파의 어두운 핵심을 잡는 데 필요하다.",
+      "readWith": "아도르노·호르크하이머 『계몽의 변증법』, 막스 베버 『프로테스탄티즘의 윤리와 자본주의 정신』, 위르겐 하버마스 『의사소통행위이론』"
     },
     {
       "id": "385054457",
@@ -1224,7 +1406,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385054457",
       "imageUrl": "https://image.aladin.co.kr/product/26770/35/cover500/k162730487_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "자프란스키의 니체는 격언의 천재보다 자기 시대와 싸운 사상가의 생애를 입체적으로 보여준다. 철학 전기를 읽는 즐거움과 위험이 함께 있다.",
+      "readWith": "니체 『즐거운 학문』, 니체 『도덕의 계보』, 월터 카우프만 『Nietzsche』"
     },
     {
       "id": "385054253",
@@ -1235,7 +1419,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385054253",
       "imageUrl": "https://image.aladin.co.kr/product/16234/14/cover500/8961951866_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "기계와 시각성, 통제의 문제를 지금의 미디어 조건 속에서 읽게 하는 책으로 보인다. 투명하다는 말이 언제 감시와 권력의 다른 이름이 되는지 묻는 데 알맞다.",
+      "readWith": "멜라니 미첼 『인공지능』, 셰리 터클 『외로워지는 사람들』, 발터 벤야민 『기술복제시대의 예술작품』"
     },
     {
       "id": "385054228",
@@ -1246,7 +1432,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385054228",
       "imageUrl": "https://image.aladin.co.kr/product/33330/38/cover500/k612938590_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『인간 딜레마』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "에드거 모랭 『인간과 죽음』, 한나 아렌트 『인간의 조건』, 재레드 다이아몬드 『제3의 침팬지』"
     },
     {
       "id": "385053577",
@@ -1257,7 +1445,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385053577",
       "imageUrl": "https://image.aladin.co.kr/product/32764/93/cover500/k672936283_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『또 다른 현대미술』은 이미지를 지식과 감각이 만나는 현장으로 읽게 하는 책이다. 뱅자맹 올리벤느의 작업을 따라가면 작품을 설명하는 말보다 작품을 오래 보는 태도가 먼저 생긴다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "385053570",
@@ -1268,7 +1458,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385053570",
       "imageUrl": "https://image.aladin.co.kr/product/3899/63/cover500/8961471902_2.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "사랑이 개인의 진실한 감정인 동시에 소비문화가 조직한 상품이라는 점을 예리하게 보여준다. 일루즈의 장점은 친밀성의 세계를 사회학적으로 차갑게 읽는 데 있다.",
+      "readWith": "에바 일루즈 『사랑은 왜 아픈가』, 콜린 캠벨 『낭만주의 윤리와 근대 소비주의 정신』, 지그문트 바우만 『액체 사랑』"
     },
     {
       "id": "385053482",
@@ -1279,7 +1471,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385053482",
       "imageUrl": "https://image.aladin.co.kr/product/29578/70/cover500/k252838261_2.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "고레에다의 영화론은 연출 비법보다 인간을 오래 바라보는 윤리의 기록에 가깝다. 영화 리뷰를 쓸 때 장면보다 태도를 먼저 보게 만든다.",
+      "readWith": "고레에다 히로카즈 『걷는 듯 천천히』, 앙드레 바쟁 『영화란 무엇인가』, 로버트 브레송 『시네마토그래프에 대한 단상』"
     },
     {
       "id": "385053325",
@@ -1290,7 +1484,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385053325",
       "imageUrl": "https://image.aladin.co.kr/product/11297/79/cover500/k312531996_2.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "한 장소를 여러 시대의 이미지와 기억이 겹치는 판으로 보여주는 그래픽 서사다. 공간을 직선적 시간이 아니라 층위로 읽는 방식이 탁월하다.",
+      "readWith": "크리스 웨어 『지미 코리건』, 스콧 맥클라우드 『만화의 이해』, 조르주 페렉 『공간의 종류들』"
     },
     {
       "id": "385053293",
@@ -1313,7 +1509,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385053266",
       "imageUrl": "https://image.aladin.co.kr/product/33182/71/cover500/k812937434_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "설탕을 달콤한 식재료가 아니라 제국, 노예제, 농업, 소비문화가 엉킨 세계사의 물질로 읽게 한다. 하나의 물건으로 세계를 보는 좋은 예다.",
+      "readWith": "마이클 폴란 『요리를 욕망하다』, 마크 쿨란스키 『소금』, 해럴드 맥기 『음식과 요리』"
     },
     {
       "id": "385053027",
@@ -1324,7 +1522,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385053027",
       "imageUrl": "https://image.aladin.co.kr/product/27355/93/cover500/k832732521_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "언어 학습을 재능담이나 암기법보다 인지, 환경, 입력의 문제로 다루는 책이다. 번역과 외국어 독서의 현실을 차분하게 이해하는 데 도움이 된다.",
+      "readWith": "알베르토 망구엘 『독서의 역사』, 스티븐 핑커 『글쓰기의 감각』, 에리히 아우어바흐 『미메시스』"
     },
     {
       "id": "385053013",
@@ -1335,7 +1535,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385053013",
       "imageUrl": "https://image.aladin.co.kr/product/36747/10/cover500/8962633140_1.jpg",
       "sourcePage": 6,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "중독을 의지 박약이 아니라 보상회로와 환경, 반복된 선택의 문제로 설명하는 책이다. 도덕적 비난을 줄이고 이해의 정확도를 높인다.",
+      "readWith": "올리버 색스 『아내를 모자로 착각한 남자』, 안토니오 다마지오 『데카르트의 오류』, 로버트 새폴스키 『스트레스』"
     },
     {
       "id": "385052988",
@@ -1346,7 +1548,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052988",
       "imageUrl": "https://image.aladin.co.kr/product/27639/36/cover500/k622733125_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "해러웨이는 문제를 제거해야 할 장애물이 아니라 함께 살아야 할 조건으로 바꿔 읽는다. 생태, 기술, 종의 관계를 새 언어로 상상하게 하는 책이다.",
+      "readWith": "도나 해러웨이 『반려종 선언』, 브뤼노 라투르 『우리는 결코 근대인이었던 적이 없다』, 애나 칭 『세계 끝의 버섯』"
     },
     {
       "id": "385052877",
@@ -1357,7 +1561,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052877",
       "imageUrl": "https://image.aladin.co.kr/product/36298/80/cover500/k362038247_2.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『오즈의 오즈마』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "L. 프랭크 바움 『오즈의 마법사』, 루이스 캐럴 『이상한 나라의 앨리스』, 노턴 저스터 『팬텀 톨부스』"
     },
     {
       "id": "385052766",
@@ -1368,7 +1574,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052766",
       "imageUrl": "https://image.aladin.co.kr/product/31644/76/cover500/k862833376_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『한국전쟁에서 싸운 일본인』은 사건을 연표로 소비하지 않고 권력, 제도, 기억이 얽힌 구조로 읽게 하는 책이다. 역사책을 오늘의 정치 감각과 연결해 읽고 싶을 때 큐에 남겨둘 가치가 있다.",
+      "readWith": "에릭 홉스봄 『극단의 시대』, 마크 마조워 『암흑의 대륙』, 존 루이스 개디스 『냉전의 역사』"
     },
     {
       "id": "385052739",
@@ -1379,7 +1587,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052739",
       "imageUrl": "https://image.aladin.co.kr/product/31865/56/cover500/s352833741_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『19세기 가문 주인을 위한 하인 관리 예법서 & 19세기 상류층 가문 식사 시중 예법서』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "노버트 엘리아스 『문명화 과정』, 설혜심 『매너의 역사』, 루시 워슬리 『If Walls Could Talk』"
     },
     {
       "id": "385052588",
@@ -1390,7 +1600,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052588",
       "imageUrl": "https://image.aladin.co.kr/product/30569/66/cover500/k582830606_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "공동체를 따뜻한 소속감보다 의무, 결핍, 노출의 문제로 읽게 하는 에스포지토의 책이다. 공동체라는 말의 낭만성을 낮추는 데 좋다.",
+      "readWith": "한스게오르크 가다머 『진리와 방법』, 질 들뢰즈 『주름, 라이프니츠와 바로크』, 윌리엄 제임스 『종교적 경험의 다양성』"
     },
     {
       "id": "385052571",
@@ -1401,7 +1613,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052571",
       "imageUrl": "https://image.aladin.co.kr/product/36162/36/cover500/k352038880_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "바우만의 불안은 개인 심리보다 유동하는 현대 사회의 구조적 감각에 가깝다. 불안을 시대의 감정으로 읽는 데 좋은 보조선이 된다.",
+      "readWith": "지그문트 바우만 『액체 근대』, 울리히 벡 『위험사회』, 알랭 에랭베르 『피로사회』"
     },
     {
       "id": "385052330",
@@ -1412,7 +1626,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052330",
       "imageUrl": "https://image.aladin.co.kr/product/33605/63/cover500/8925575272_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『칼 라르손, 오늘도 행복을 그리는 이유 (양장 특별판)』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "엘렌 키 『아동의 세기』, 칼 라르손 『A Home』, 빌 브라이슨 『거의 모든 사생활의 역사』"
     },
     {
       "id": "385052323",
@@ -1423,7 +1639,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052323",
       "imageUrl": "https://image.aladin.co.kr/product/1487/45/cover500/8932022666_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『안데르센 메르헨』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "브루노 베텔하임 『옛이야기의 매력』, 그림 형제 『독일전설』, 마리나 워너 『From the Beast to the Blonde』"
     },
     {
       "id": "385052276",
@@ -1434,7 +1652,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052276",
       "imageUrl": "https://image.aladin.co.kr/product/21410/18/cover500/8937479672_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『안현배의 예술수업 1』은 이미지를 지식과 감각이 만나는 현장으로 읽게 하는 책이다. 안현배의 작업을 따라가면 작품을 설명하는 말보다 작품을 오래 보는 태도가 먼저 생긴다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "385052230",
@@ -1445,7 +1665,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052230",
       "imageUrl": "https://image.aladin.co.kr/product/30343/44/cover500/k822839445_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『노 시그널』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "실뱅 테송 『숲에서 보낸 마흔 날』, 헨리 데이비드 소로 『월든』, 레베카 솔닛 『걷기의 인문학』"
     },
     {
       "id": "385052207",
@@ -1456,7 +1678,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052207",
       "imageUrl": "https://image.aladin.co.kr/product/24790/60/cover500/8971995955_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『풍경의 깊이』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "존 버거 『풍경들』, 케네스 클라크 『풍경화론』, 오주석 『한국의 미 특강』"
     },
     {
       "id": "385051973",
@@ -1467,7 +1691,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385051973",
       "imageUrl": "https://image.aladin.co.kr/product/27279/52/cover500/8954679765_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "도시사를 건물보다 몸의 경험, 거리의 감각, 공동생활의 물질성으로 읽게 하는 세넷의 고전이다. 도시와 인간의 접촉면을 공부할 때 매우 좋다.",
+      "readWith": "리처드 세넷 『장인』, 앙리 르페브르 『공간의 생산』, 제인 제이콥스 『미국 대도시의 죽음과 삶』"
     },
     {
       "id": "385051956",
@@ -1478,7 +1704,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385051956",
       "imageUrl": "https://image.aladin.co.kr/product/50/30/cover500/8991290000_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "신화를 요약본보다 원전의 거칠고 중첩된 서사로 읽게 하는 책이다. 익숙한 이야기일수록 원전의 낯섦이 중요하다.",
+      "readWith": "호메로스 『일리아스』, 헤시오도스 『신통기』, 로버트 그레이브스 『그리스 신화』"
     },
     {
       "id": "385051861",
@@ -1489,7 +1717,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385051861",
       "imageUrl": "https://image.aladin.co.kr/product/33881/7/cover500/k062930712_3.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "도시전설을 유치한 소문이 아니라 현대 사회가 불안을 이야기로 바꾸는 방식으로 읽게 한다. 민속학이 왜 현재형 학문인지 보여준다.",
+      "readWith": "알베르토 망구엘 『독서의 역사』, 스티븐 핑커 『글쓰기의 감각』, 에리히 아우어바흐 『미메시스』"
     },
     {
       "id": "385051792",
@@ -1500,7 +1730,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385051792",
       "imageUrl": "https://image.aladin.co.kr/product/27709/92/cover500/8997186825_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "기계를 중립적 도구가 아니라 사회적 관계와 권력을 재배치하는 장치로 읽게 하는 책이다. 기술 비평의 기본 질문을 세우기에 좋다.",
+      "readWith": "멜라니 미첼 『인공지능』, 셰리 터클 『외로워지는 사람들』, 발터 벤야민 『기술복제시대의 예술작품』"
     },
     {
       "id": "384925886",
@@ -1511,7 +1743,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384925886",
       "imageUrl": "https://image.aladin.co.kr/product/36836/77/cover500/k262030106_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "인간관계의 경계는 차가운 단절이 아니라 돌봄과 자기 보존 사이의 기술임을 보여주는 책이다. 심리학 책이지만 관계 윤리의 문제로 읽을 수 있다.",
+      "readWith": "올리버 색스 『아내를 모자로 착각한 남자』, 안토니오 다마지오 『데카르트의 오류』, 로버트 새폴스키 『스트레스』"
     },
     {
       "id": "384516383",
@@ -1522,7 +1756,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384516383",
       "imageUrl": "https://image.aladin.co.kr/product/17579/54/cover500/8965642256_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『루저 아들』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "자크 데리다 『글쓰기와 차이』, 주디스 버틀러 『젠더 트러블』, 아비탈 로넬 『전화책』"
     },
     {
       "id": "384516331",
@@ -1533,7 +1769,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384516331",
       "imageUrl": "https://image.aladin.co.kr/product/26651/35/cover500/k312739334_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "미학사를 예술 취향의 역사보다 아름다움과 감각, 판단을 둘러싼 개념의 역사로 정리하는 책이다. 미술 섹션의 이론적 바닥을 다지는 데 쓸 수 있다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 리처드 세넷 『장인』"
     },
     {
       "id": "384515725",
@@ -1544,7 +1782,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384515725",
       "imageUrl": "https://image.aladin.co.kr/product/32359/48/cover500/k962935467_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "생명과 정보, 물리학의 경계에서 “조직된 복잡성”을 묻는 책이다. 과학 교양서지만 생명이 왜 단순한 물질 집합 이상으로 보이는지 생각하게 한다.",
+      "readWith": "멜라니 미첼 『인공지능』, 셰리 터클 『외로워지는 사람들』, 발터 벤야민 『기술복제시대의 예술작품』"
     },
     {
       "id": "384515643",
@@ -1555,7 +1795,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384515643",
       "imageUrl": "https://image.aladin.co.kr/product/18930/28/cover500/k792635282_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "철학 독서의 산맥 같은 책이다. 한 번에 정복하기보다 인식의 조건이라는 질문을 붙들고, 해설서와 천천히 왕복하는 방식이 좋다.",
+      "readWith": "칸트 『순수이성비판』, 질 들뢰즈 『칸트의 비판철학』, 아도르노 『칸트의 순수이성비판』"
     },
     {
       "id": "384515514",
@@ -1566,7 +1808,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384515514",
       "imageUrl": "https://image.aladin.co.kr/product/23596/56/cover500/8971992182_1.jpg",
       "sourcePage": 7,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "과학이 무엇을 연구하는가만큼 무엇을 연구하지 않는가를 묻는 책이다. 지식 생산의 공백과 사회운동의 관계를 읽는 데 중요하다.",
+      "readWith": "토머스 쿤 『과학혁명의 구조』, 브뤼노 라투르 『실험실 생활』, 스티븐 엡스타인 『Impure Science』"
     },
     {
       "id": "384515481",
@@ -1577,7 +1821,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384515481",
       "imageUrl": "https://image.aladin.co.kr/product/33575/52/cover500/k012939392_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "단어의 뿌리를 따라가면 언어가 기억하는 생활사와 감각이 보인다. 글 쓰는 사람에게 어원사전은 작은 시간 여행 장치다.",
+      "readWith": "알베르토 망구엘 『독서의 역사』, 스티븐 핑커 『글쓰기의 감각』, 에리히 아우어바흐 『미메시스』"
     },
     {
       "id": "384514748",
@@ -1588,7 +1834,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384514748",
       "imageUrl": "https://image.aladin.co.kr/product/12457/70/cover500/8937415682_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "한국 고전 산문을 오늘의 호흡으로 다시 읽게 하는 책이다. 운문 중심의 고전 이해에서 벗어나 문장과 사유의 산문 전통을 확인할 수 있다.",
+      "readWith": "알베르토 망구엘 『독서의 역사』, 스티븐 핑커 『글쓰기의 감각』, 에리히 아우어바흐 『미메시스』"
     },
     {
       "id": "384514343",
@@ -1599,7 +1847,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384514343",
       "imageUrl": "https://image.aladin.co.kr/product/29152/0/cover500/k772837275_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "상대성이론과 장론을 대중 설명보다 조금 더 엄밀한 길로 따라가게 하는 책이다. 수식이 부담스럽더라도 개념의 구조를 천천히 잡는 데 좋다.",
+      "readWith": "레너드 서스킨드 『물리의 정석: 고전역학』, 브라이언 그린 『엘러건트 유니버스』, 리처드 파인만 『파인만의 물리학 강의』"
     },
     {
       "id": "384514316",
@@ -1610,7 +1860,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384514316",
       "imageUrl": "https://image.aladin.co.kr/product/5214/13/cover500/8972977284_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "장자를 무위의 표어가 아니라 언어와 구분, 삶의 태도를 흔드는 철학으로 읽게 한다. 고전이 가벼운 위로가 아니라 사고의 전복이 되는 순간을 보여준다.",
+      "readWith": "『장자』, 앵거스 그레이엄 『Disputers of the Tao』, 전호근 『공자 지하철을 타다』"
     },
     {
       "id": "384514246",
@@ -1621,7 +1873,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384514246",
       "imageUrl": "https://image.aladin.co.kr/product/20814/12/cover500/k042636777_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "융의 심리학을 상징, 꿈, 무의식의 구조로 정리해주는 책이다. 예술과 종교 이미지를 해석하는 독서와도 잘 이어진다.",
+      "readWith": "올리버 색스 『아내를 모자로 착각한 남자』, 안토니오 다마지오 『데카르트의 오류』, 로버트 새폴스키 『스트레스』"
     },
     {
       "id": "384514173",
@@ -1632,7 +1886,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384514173",
       "imageUrl": "https://image.aladin.co.kr/product/31959/42/cover500/8952131797_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "쿤을 “패러다임 전환”이라는 유행어에서 구해 과학철학의 미완성 문제로 다시 읽게 한다. 과학도 역사적 공동체의 작업이라는 점이 핵심이다.",
+      "readWith": "토머스 쿤 『과학혁명의 구조』, 라카토슈·머스그레이브 『비판과 지식의 성장』, 이언 해킹 『표상과 개입』"
     },
     {
       "id": "384512860",
@@ -1643,7 +1899,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384512860",
       "imageUrl": "https://image.aladin.co.kr/product/35688/84/cover500/8937428512_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "고흐를 고통의 천재 신화로만 소비하지 않고 감정, 병, 창작의 관계를 조심스럽게 읽으려는 책이다. 예술가의 삶을 심리학으로 읽을 때 필요한 신중함을 요구한다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "384398225",
@@ -1654,7 +1912,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384398225",
       "imageUrl": "https://image.aladin.co.kr/product/18935/75/cover500/k292635285_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『빈센트 반 고흐 2』은 이미지를 지식과 감각이 만나는 현장으로 읽게 하는 책이다. 김영숙의 작업을 따라가면 작품을 설명하는 말보다 작품을 오래 보는 태도가 먼저 생긴다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "384267705",
@@ -1665,7 +1925,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384267705",
       "imageUrl": "https://image.aladin.co.kr/product/22453/71/cover500/k882636422_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『개념어 사전 (리커버)』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "레이먼드 윌리엄스 『키워드』, 남경태 『종횡무진 서양사』, 이진경 『철학과 굴뚝청소부』"
     },
     {
       "id": "384267583",
@@ -1676,7 +1938,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384267583",
       "imageUrl": "https://image.aladin.co.kr/product/35978/63/cover500/k802037904_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "꽃 그림을 장식적 소재가 아니라 색, 계절, 상징, 화가의 시선을 압축한 작은 세계로 읽게 한다. 오늘의 그림 섹션과 잘 맞는 책이다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "383203682",
@@ -1687,7 +1951,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=383203682",
       "imageUrl": "https://image.aladin.co.kr/product/6637/29/cover500/896051506x_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "동아시아 의학 고전을 현대 생명과학의 질문과 연결해 읽으려는 책이다. 전통 지식과 과학 언어가 만날 때 생기는 생산적 긴장을 볼 수 있다.",
+      "readWith": "『황제내경』, 테드 캡척 『한의학의 이해』, 프리초프 카프라 『생명의 그물』"
     },
     {
       "id": "383202770",
@@ -1698,7 +1964,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=383202770",
       "imageUrl": "https://image.aladin.co.kr/product/29039/29/cover500/k062836837_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『일본제국의 ‘동양사’ 개발과 천황제 파시즘』은 사건을 연표로 소비하지 않고 권력, 제도, 기억이 얽힌 구조로 읽게 하는 책이다. 역사책을 오늘의 정치 감각과 연결해 읽고 싶을 때 큐에 남겨둘 가치가 있다.",
+      "readWith": "에릭 홉스봄 『극단의 시대』, 마크 마조워 『암흑의 대륙』, 존 루이스 개디스 『냉전의 역사』"
     },
     {
       "id": "383201844",
@@ -1709,7 +1977,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=383201844",
       "imageUrl": "https://image.aladin.co.kr/product/36185/4/cover500/k252038492_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "불평등을 소득 표가 아니라 몸에 새겨지는 스트레스와 건강 격차로 읽게 하는 책이다. 사회문제가 생물학적 흔적을 남긴다는 점이 강하다.",
+      "readWith": "리처드 윌킨슨·케이트 피킷 『평등이 답이다』, 낸시 크리거 『역학과 인민의 건강』, 로버트 새폴스키 『스트레스』"
     },
     {
       "id": "383201047",
@@ -1720,7 +1990,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=383201047",
       "imageUrl": "https://image.aladin.co.kr/product/24051/94/cover500/8974798123_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "불교를 종교적 위안보다 마음을 관찰하는 실천적 심리학으로 읽게 한다. 고통의 언어를 바꾸는 데 도움이 되는 책이다.",
+      "readWith": "올리버 색스 『아내를 모자로 착각한 남자』, 안토니오 다마지오 『데카르트의 오류』, 로버트 새폴스키 『스트레스』"
     },
     {
       "id": "382514477",
@@ -1731,7 +2003,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382514477",
       "imageUrl": "https://image.aladin.co.kr/product/26361/31/cover500/8959407526_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "촘스키의 대담은 언어학자이자 비판적 지식인이 세계 권력에 어떻게 응답하는지 보여준다. 동의 여부와 별개로 질문의 집요함을 배울 수 있다.",
+      "readWith": "노암 촘스키 『누가 무엇으로 세상을 지배하는가』, 에드워드 허먼·촘스키 『여론조작』, 하워드 진 『미국민중사』"
     },
     {
       "id": "382513960",
@@ -1742,7 +2016,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382513960",
       "imageUrl": "https://image.aladin.co.kr/product/35685/69/cover500/k942036925_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "초상화 속 옷을 장식이 아니라 신분, 욕망, 시대 감각의 코드로 읽게 하는 책이다. 그림을 보는 눈이 얼굴에서 옷감으로 확장된다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "382506901",
@@ -1753,7 +2029,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382506901",
       "imageUrl": "https://image.aladin.co.kr/product/13502/32/cover500/898411734x_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "공감을 심리적 친절이 아니라 타자와 세계를 이해하는 존재론적 문제로 다루는 책으로 읽을 수 있다. 윤리와 현상학을 함께 묶는 주제다.",
+      "readWith": "한스게오르크 가다머 『진리와 방법』, 질 들뢰즈 『주름, 라이프니츠와 바로크』, 윌리엄 제임스 『종교적 경험의 다양성』"
     },
     {
       "id": "382506771",
@@ -1764,7 +2042,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382506771",
       "imageUrl": "https://image.aladin.co.kr/product/35631/65/cover500/k172036395_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "죽음을 회피의 대상이 아니라 삶의 의미를 조정하는 마지막 질문으로 다루는 책이다. 퀴블러 로스의 작업은 애도와 돌봄의 언어를 다시 생각하게 한다.",
+      "readWith": "올리버 색스 『아내를 모자로 착각한 남자』, 안토니오 다마지오 『데카르트의 오류』, 로버트 새폴스키 『스트레스』"
     },
     {
       "id": "382506739",
@@ -1775,7 +2055,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382506739",
       "imageUrl": "https://image.aladin.co.kr/product/31518/86/cover500/8950944960_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "현대미술을 이해 못 할 물건으로 밀어내지 않고 질문의 방식이 달라진 예술로 접근하게 하는 책이다. 입문용이지만 좋은 입문은 편견을 줄인다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "382506700",
@@ -1786,7 +2068,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382506700",
       "imageUrl": "https://image.aladin.co.kr/product/25898/33/cover500/8972733695_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "신학과 과학을 싸움의 도식보다 세계 이해의 서로 다른 언어로 놓고 읽게 하는 책이다. 창조, 인간, 자연의 질문을 넓히는 데 좋다.",
+      "readWith": "이언 바버 『과학이 종교를 만날 때』, 존 폴킹혼 『과학과 신학』, 알리스터 맥그래스 『과학신학』"
     },
     {
       "id": "382506681",
@@ -1797,7 +2081,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382506681",
       "imageUrl": "https://image.aladin.co.kr/product/31112/83/cover500/8965235413_1.jpg",
       "sourcePage": 8,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "권위주의를 타인의 정치 성향으로만 몰아내지 않고 자유와 규범, 언론의 문제 속에서 논쟁하게 하는 책이다. 읽을 때 저자의 입장과 논증의 빈틈을 함께 보아야 한다.",
+      "readWith": "티머시 스나이더 『폭정』, 레프 비츠키 『자유주의와 그 불만』, 한나 아렌트 『전체주의의 기원』"
     },
     {
       "id": "382506233",
@@ -1820,7 +2106,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382506185",
       "imageUrl": "https://image.aladin.co.kr/product/30657/58/cover500/8997066781_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "『독일 미감』은 북 아카이브에서 천천히 열어볼 만한 인문 독서의 후보로 보인다. 제목과 서지 정보만으로도 한 분야의 문제의식이 또렷하고, 장문 리뷰로 확장할 여지가 있다.",
+      "readWith": "니콜라우스 페브스너 『근대 디자인의 선구자들』, 발터 벤야민 『기술복제시대의 예술작품』, 조지 모스 『독일 이데올로기의 문화적 기원』"
     },
     {
       "id": "382506160",
@@ -1831,7 +2119,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382506160",
       "imageUrl": "https://image.aladin.co.kr/product/30860/61/cover500/k982831579_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "중국과 일본의 정치 구조를 비교해 동아시아사의 오래된 차이를 읽게 하는 책이다. 국가와 토지, 무사와 관료제의 대비가 핵심이 된다.",
+      "readWith": "미야지마 히로시 『양반』, 존 페어뱅크 『중국사』, 마리우스 잰슨 『일본과 중국』"
     },
     {
       "id": "382505955",
@@ -1842,7 +2132,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382505955",
       "imageUrl": "https://image.aladin.co.kr/product/33934/5/cover500/k182930136_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "하루키의 레코드 글쓰기는 음악 감상과 물건의 촉감, 수집의 기억을 함께 남긴다. 우리 음반 아카이브의 산문적 모델로 삼기 좋다.",
+      "readWith": "알렉스 로스 『나머지는 소음이다』, 로베르트 슈만 『음악과 음악가』, 무라카미 하루키 『오래되고 멋진 클래식 레코드』"
     },
     {
       "id": "382505907",
@@ -1889,7 +2181,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382505815",
       "imageUrl": "https://image.aladin.co.kr/product/22022/42/cover500/8946064625_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "연결이 많아질수록 자유로워진다는 단순한 믿음을 점검하게 하는 책이다. 네트워크 사회에서 친밀성, 감시, 노동이 어떻게 재배치되는지 생각하게 한다.",
+      "readWith": "멜라니 미첼 『인공지능』, 셰리 터클 『외로워지는 사람들』, 발터 벤야민 『기술복제시대의 예술작품』"
     },
     {
       "id": "382505784",
@@ -1900,7 +2194,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382505784",
       "imageUrl": "https://image.aladin.co.kr/product/21638/27/cover500/k552636691_3.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "실크로드를 낭만적 교역로가 아니라 권력, 종교, 전쟁, 상품이 오간 세계사의 축으로 읽게 하는 책이다. 유럽 중심 세계사를 흔드는 데 유용하다.",
+      "readWith": "피터 프랭코판 『실크로드 세계사』, 윌리엄 맥닐 『전염병과 인류의 역사』, 재닛 아부-루고드 『유럽 패권 이전』"
     },
     {
       "id": "382505191",
@@ -1911,7 +2207,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382505191",
       "imageUrl": "https://image.aladin.co.kr/product/27073/71/cover500/k352731588_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "철학 독서의 산맥 같은 책이다. 한 번에 정복하기보다 인식의 조건이라는 질문을 붙들고, 해설서와 천천히 왕복하는 방식이 좋다.",
+      "readWith": "칸트 『순수이성비판』, 질 들뢰즈 『칸트의 비판철학』, 아도르노 『칸트의 순수이성비판』"
     },
     {
       "id": "382505141",
@@ -1922,7 +2220,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382505141",
       "imageUrl": "https://image.aladin.co.kr/product/28387/90/cover500/899317895x_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "식물 이름과 언어, 상징을 따라가며 자연과 문화가 만나는 작은 사전을 만든다. 식물에 대한 감각을 생물학에서 문장 쪽으로 넓힌다.",
+      "readWith": "토머스 쿤 『과학혁명의 구조』, 칼 세이건 『코스모스』, 에드 용 『내 속엔 미생물이 너무도 많아』"
     },
     {
       "id": "382505101",
@@ -1933,7 +2233,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382505101",
       "imageUrl": "https://image.aladin.co.kr/product/29809/45/cover500/k612838211_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "샤넬을 브랜드 신화보다 여성성, 자유, 디자인, 소비문화가 교차하는 현대적 이미지로 읽게 한다. 패션도 미학과 사회사의 중요한 장면이다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 리처드 세넷 『장인』"
     },
     {
       "id": "382504995",
@@ -1944,7 +2246,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382504995",
       "imageUrl": "https://image.aladin.co.kr/product/101/79/cover500/8987671828_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/benjamin-work-of-art-mechanical-reproduction.html"
     },
     {
       "id": "382504869",
@@ -1955,7 +2258,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382504869",
       "imageUrl": "https://image.aladin.co.kr/product/24579/53/cover500/k802631073_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "캠벨의 영웅 서사는 신화의 반복 구조를 이해하는 강력한 도구이지만, 모든 이야기를 하나의 틀로 환원할 위험도 함께 있다. 도구로 쓰되 절대화하지 않는 독서가 좋다.",
+      "readWith": "조지프 캠벨 『천의 얼굴을 가진 영웅』, 블라디미르 프로프 『민담형태론』, 노스럽 프라이 『비평의 해부』"
     },
     {
       "id": "382504751",
@@ -1966,7 +2271,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382504751",
       "imageUrl": "https://image.aladin.co.kr/product/33799/5/cover500/k842930578_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "건축을 완성된 건물보다 사고방식, 기획, 도시적 상상력으로 읽게 하는 책이다. 짓지 않는다는 말이 오히려 건축의 범위를 넓힌다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 리처드 세넷 『장인』"
     },
     {
       "id": "382504712",
@@ -1977,7 +2284,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382504712",
       "imageUrl": "https://image.aladin.co.kr/product/28053/47/cover500/k072734532_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "알고리즘을 편리한 추천 장치가 아니라 감시, 예측, 욕망의 구조로 읽게 하는 책이다. 디지털 시대의 권력 비평으로 중요하다.",
+      "readWith": "멜라니 미첼 『인공지능』, 셰리 터클 『외로워지는 사람들』, 발터 벤야민 『기술복제시대의 예술작품』"
     },
     {
       "id": "382504292",
@@ -1988,7 +2297,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382504292",
       "imageUrl": "https://image.aladin.co.kr/product/25809/65/cover500/k712736332_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "세계사를 하나의 중심에서 내려다보지 않고 여러 지역과 시간의 접속으로 읽게 하는 책이다. 큰 지도를 갖되 세부의 차이를 잃지 않는 독서가 필요하다.",
+      "readWith": "펠리페 페르난데스아르메스토 『문명들』, 유발 하라리 『사피엔스』, 재레드 다이아몬드 『총 균 쇠』"
     },
     {
       "id": "382504209",
@@ -1999,7 +2310,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382504209",
       "imageUrl": "https://image.aladin.co.kr/product/289/27/cover500/8983712325_2.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "새폴스키는 스트레스를 개인의 성격 문제가 아니라 몸, 환경, 사회적 위계가 얽힌 생물학적 사건으로 설명한다. 과학 교양서이면서 사회비평으로도 읽힌다.",
+      "readWith": "올리버 색스 『아내를 모자로 착각한 남자』, 안토니오 다마지오 『데카르트의 오류』, 로버트 새폴스키 『스트레스』"
     },
     {
       "id": "382504128",
@@ -2010,7 +2323,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382504128",
       "imageUrl": "https://image.aladin.co.kr/product/33696/57/cover500/8932431566_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "쳇 베이커의 삶은 재즈의 아름다움과 자기 파괴의 신화가 얼마나 위험하게 붙어 있는지 보여준다. 음반을 들을 때 낭만화와 거리두기가 동시에 필요하다.",
+      "readWith": "알렉스 로스 『나머지는 소음이다』, 로베르트 슈만 『음악과 음악가』, 무라카미 하루키 『오래되고 멋진 클래식 레코드』"
     },
     {
       "id": "379685814",
@@ -2021,7 +2336,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379685814",
       "imageUrl": "https://image.aladin.co.kr/product/34403/23/cover500/k602932612_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "핑커의 글쓰기론은 문장을 꾸미는 법보다 독자의 마음속에 구조를 만드는 법을 가르친다. 좋은 문체가 결국 사고의 배려라는 점을 확인하게 한다.",
+      "readWith": "알베르토 망구엘 『독서의 역사』, 스티븐 핑커 『글쓰기의 감각』, 에리히 아우어바흐 『미메시스』"
     },
     {
       "id": "379685513",
@@ -2032,7 +2349,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379685513",
       "imageUrl": "https://image.aladin.co.kr/product/18781/90/cover500/8963474062_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "고고학 자료를 감각적 유물만이 아니라 불확실성을 다루는 데이터로 읽게 하는 책이다. 인문학과 통계가 만나는 단단한 사례다.",
+      "readWith": "데이비드 클라크 『Analytical Archaeology』, 이언 호더 『Reading the Past』, 토머스 쿤 『과학혁명의 구조』"
     },
     {
       "id": "379685234",
@@ -2043,7 +2362,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379685234",
       "imageUrl": "https://image.aladin.co.kr/product/5162/34/cover500/8952115880_1.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "그림 형제의 전설은 동화보다 더 거칠고 지역적이며, 공동체가 기억한 공포와 기원을 담고 있다. 민속과 국민문학의 경계를 읽기 좋다.",
+      "readWith": "알베르토 망구엘 『독서의 역사』, 스티븐 핑커 『글쓰기의 감각』, 에리히 아우어바흐 『미메시스』"
     },
     {
       "id": "379685194",
@@ -2054,7 +2375,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379685194",
       "imageUrl": "https://image.aladin.co.kr/product/23941/29/cover500/k742639005_2.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "소녀 고전 문학을 성장담의 순한 외피로만 보지 않고 젠더, 교육, 감정의 역사로 읽게 하는 세트다. 오래된 이야기의 현재성을 확인하기 좋다.",
+      "readWith": "알렉스 로스 『나머지는 소음이다』, 로베르트 슈만 『음악과 음악가』, 무라카미 하루키 『오래되고 멋진 클래식 레코드』"
     },
     {
       "id": "379052725",
@@ -2065,7 +2388,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379052725",
       "imageUrl": "https://image.aladin.co.kr/product/29621/70/cover500/k612838371_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "악기 제작자의 언어로 삶과 신앙, 소리의 윤리를 함께 묻는 책이다. 음악을 연주 이전의 재료와 공명에서 생각하게 한다.",
+      "readWith": "알렉스 로스 『나머지는 소음이다』, 로베르트 슈만 『음악과 음악가』, 무라카미 하루키 『오래되고 멋진 클래식 레코드』"
     },
     {
       "id": "379052646",
@@ -2076,7 +2401,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379052646",
       "imageUrl": "https://image.aladin.co.kr/product/32509/52/cover500/k572935727_2.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "한 장소와 한 사람의 삶을 통해 중국 농촌 산문의 깊은 호흡을 느끼게 하는 책이다. 빠른 도시 서사와 다른 시간 감각이 있다.",
+      "readWith": "류량청 『황사량』, 선충원 『변성』, 위화 『허삼관 매혈기』"
     },
     {
       "id": "379052512",
@@ -2087,7 +2414,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379052512",
       "imageUrl": "https://image.aladin.co.kr/product/34705/59/cover500/k602933013_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "불교를 경건한 교리보다 질문과 농담, 사회적 상상력으로 풀어내는 책이다. 종교 입문서가 지나치게 엄숙해질 때 좋은 균형이 된다.",
+      "readWith": "한스게오르크 가다머 『진리와 방법』, 질 들뢰즈 『주름, 라이프니츠와 바로크』, 윌리엄 제임스 『종교적 경험의 다양성』"
     },
     {
       "id": "379052243",
@@ -2098,7 +2427,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379052243",
       "imageUrl": "https://image.aladin.co.kr/product/24581/39/cover500/k062631170_2.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "색을 물감의 문제가 아니라 권력, 과학, 패션, 감각의 역사로 읽게 하는 책이다. 미술 리뷰에서 색을 말하는 어휘를 풍부하게 해준다.",
+      "readWith": "에릭 홉스봄 『극단의 시대』, 마크 마조워 『암흑의 대륙』, 존 루이스 개디스 『냉전의 역사』"
     },
     {
       "id": "379052234",
@@ -2109,7 +2440,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379052234",
       "imageUrl": "https://image.aladin.co.kr/product/10044/23/cover500/8965642663_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "벤야민의 매체 글은 라디오를 단순한 전달 수단이 아니라 대중 지각을 바꾸는 장치로 읽게 한다. 기술복제시대의 예술작품과 함께 놓으면 매체론의 폭이 넓어진다.",
+      "readWith": "발터 벤야민 『기술복제시대의 예술작품』, 마셜 매클루언 『미디어의 이해』, 베르톨트 브레히트 「라디오 이론」"
     },
     {
       "id": "379052044",
@@ -2120,7 +2453,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379052044",
       "imageUrl": "https://image.aladin.co.kr/product/8532/81/cover500/896564187x_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "임시방편과 즉흥적 해결을 디자인과 문화의 원리로 읽는 책이다. 완벽한 시스템보다 상황에 맞춘 조합이 어떻게 창조성을 낳는지 보여준다.",
+      "readWith": "크리스토퍼 알렉산더 『패턴 랭귀지』, 제인 제이콥스 『미국 대도시의 죽음과 삶』, 리처드 세넷 『장인』"
     },
     {
       "id": "378994636",
@@ -2131,7 +2466,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994636",
       "imageUrl": "https://image.aladin.co.kr/product/23178/93/cover500/8976962990_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "얄타 회담을 외교사의 한 장면이 아니라 전후 세계 질서가 협상되고 오해된 순간으로 읽게 한다. 냉전의 출발점을 인물과 구조 속에서 함께 볼 수 있다.",
+      "readWith": "에릭 홉스봄 『극단의 시대』, 마크 마조워 『암흑의 대륙』, 존 루이스 개디스 『냉전의 역사』"
     },
     {
       "id": "378994599",
@@ -2142,7 +2479,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994599",
       "imageUrl": "https://image.aladin.co.kr/product/26079/6/cover500/8965642590_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "아마존을 먼 자연의 상징이 아니라 자본, 생태, 원주민 권리, 이미지 정치가 충돌하는 장소로 읽게 하는 책이다. 환경 예술과 정치가 만나는 지점에 놓인다.",
+      "readWith": "애나 칭 『세계 끝의 버섯』, 브뤼노 라투르 『지구와 충돌하지 않고 착륙하는 방법』, 에두아르두 비베이루스 지 카스트루 『식인의 형이상학』"
     },
     {
       "id": "378994538",
@@ -2153,7 +2492,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994538",
       "imageUrl": "https://image.aladin.co.kr/product/31333/74/cover500/k392832890_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "클래식을 입문자의 언어로 낮추되 음악을 가볍게 만들지 않는 균형이 중요하다. 레코드룸의 깊은 리뷰 사이에 두면 듣기의 문턱을 낮추는 역할을 한다.",
+      "readWith": "알렉스 로스 『나머지는 소음이다』, 로베르트 슈만 『음악과 음악가』, 무라카미 하루키 『오래되고 멋진 클래식 레코드』"
     },
     {
       "id": "378994523",
@@ -2164,7 +2505,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994523",
       "imageUrl": "https://image.aladin.co.kr/product/35586/29/cover500/k612036795_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "누가 말할 자격을 얻고 누가 믿어지지 않는가를 묻는 현대 윤리학의 중요한 책이다. 지식과 권력의 관계를 일상 언어 속에서 보게 한다.",
+      "readWith": "미란다 프리커 『Epistemic Injustice』, 호세 메디나 『The Epistemology of Resistance』, 도나 해러웨이 『상황적 지식』"
     },
     {
       "id": "378994359",
@@ -2175,7 +2518,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994359",
       "imageUrl": "https://image.aladin.co.kr/product/28551/72/cover500/k872835042_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "책의 파괴는 문화재 손실만이 아니라 기억과 증언을 지우는 정치적 행위임을 보여준다. 아카이브를 운영하는 사람에게 특히 강하게 다가올 책이다.",
+      "readWith": "알베르토 망구엘 『밤의 도서관』, 레베카 크누스 『Libricide』, 레이 브래드버리 『화씨 451』"
     },
     {
       "id": "378994302",
@@ -2186,7 +2531,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994302",
       "imageUrl": "https://image.aladin.co.kr/product/10104/55/cover500/k492536174_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "유영국을 통해 한국 추상미술이 자연, 색면, 근대성의 문제를 어떻게 자기 언어로 만들었는지 볼 수 있다. 한국 미술 섹션의 중요한 확장점이다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },
     {
       "id": "378806301",
@@ -2197,7 +2544,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378806301",
       "imageUrl": "https://image.aladin.co.kr/product/26079/6/cover500/8965642590_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "아마존을 먼 자연의 상징이 아니라 자본, 생태, 원주민 권리, 이미지 정치가 충돌하는 장소로 읽게 하는 책이다. 환경 예술과 정치가 만나는 지점에 놓인다.",
+      "readWith": "애나 칭 『세계 끝의 버섯』, 브뤼노 라투르 『지구와 충돌하지 않고 착륙하는 방법』, 에두아르두 비베이루스 지 카스트루 『식인의 형이상학』"
     },
     {
       "id": "378806297",
@@ -2208,7 +2557,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378806297",
       "imageUrl": "https://image.aladin.co.kr/product/36277/72/cover500/8972918687_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "대항해 시대를 유럽인의 발견담이 아니라 원주민과 피정복자의 눈으로 다시 읽게 하는 책이다. 세계사의 시점을 바꾸는 데 큰 힘이 있다.",
+      "readWith": "실비아 페데리치 『캘리번과 마녀』, 츠베탄 토도로프 『아메리카의 정복』, 데이비드 그레이버·데이비드 웬그로 『모든 것의 새벽』"
     },
     {
       "id": "378806296",
@@ -2219,7 +2570,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378806296",
       "imageUrl": "https://image.aladin.co.kr/product/24834/6/cover500/k982631252_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐"
+      "reviewStatus": "리뷰 큐",
+      "archiveReview": "편지는 완성된 작품 뒤편의 망설임과 생활, 관계를 보여준다. 예술가를 신화보다 목소리로 만나는 데 좋은 책이다.",
+      "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     }
   ]
 };

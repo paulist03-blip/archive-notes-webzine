@@ -67,6 +67,20 @@
     </div>
   `;
 
+  const archiveNote = (book) => {
+    if (!book.archiveReview && !book.readWith) return "";
+    return `
+      <div class="book-archive-note">
+        ${
+          book.archiveReview
+            ? `<p><strong>아카이브 리뷰</strong> ${escapeHtml(book.archiveReview)}</p>`
+            : ""
+        }
+        ${book.readWith ? `<p><strong>함께 읽기</strong> ${escapeHtml(book.readWith)}</p>` : ""}
+      </div>
+    `;
+  };
+
   function renderSource() {
     if (!sourceTarget) return;
     sourceTarget.innerHTML = `
@@ -134,7 +148,7 @@
     listTarget.innerHTML = books
       .map(
         (book) => `
-          <article class="book-card" id="${escapeHtml(bookAnchorId(book))}">
+          <article class="book-card${book.archiveReview || book.readWith ? " has-archive-note" : ""}" id="${escapeHtml(bookAnchorId(book))}">
             ${bookImage(book)}
             <div class="book-card-body">
               <div class="book-card-topline">
@@ -143,6 +157,7 @@
               </div>
               <h3>${bookTitle(book)}</h3>
               <p>${escapeHtml(book.metadata)}</p>
+              ${archiveNote(book)}
               ${bookActions(book)}
             </div>
           </article>

@@ -1636,6 +1636,32 @@ a.book-cover-frame:hover {
   line-height: 1.42;
 }
 
+.book-archive-note {
+  display: grid;
+  gap: 7px;
+  margin-top: 3px;
+  padding: 10px 11px;
+  border-left: 3px solid rgba(155, 63, 52, 0.58);
+  background: #f1eadc;
+}
+
+.book-archive-note p {
+  color: #423c35;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.book-archive-note strong {
+  display: inline-flex;
+  margin-right: 7px;
+  color: var(--red);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.68rem;
+  font-weight: 860;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
 .book-card h3 a,
 .book-daily-body h3 a {
   color: inherit;
@@ -2061,6 +2087,15 @@ a.book-cover-frame:hover {
     align-self: stretch;
     aspect-ratio: auto;
     min-height: 164px;
+  }
+
+  .book-card.has-archive-note {
+    grid-template-columns: 1fr;
+  }
+
+  .book-card.has-archive-note .book-cover-frame {
+    aspect-ratio: 4 / 3;
+    min-height: 0;
   }
 
   .book-card-body {

@@ -61,7 +61,7 @@
       ${
         book.reviewUrl
           ? `<a ${linkAttributes(book.reviewUrl, "preview-link")}>우리 리뷰 읽기</a>`
-          : '<span class="preview-link preview-link--disabled">리뷰 준비 중</span>'
+          : `<span class="preview-link preview-link--disabled">${escapeHtml(book.reviewStatus === "검수 초안" ? "검수 초안" : "리뷰 준비 중")}</span>`
       }
       <a ${linkAttributes(book.itemUrl, "book-secondary-link")}>서지 확인</a>
     </div>

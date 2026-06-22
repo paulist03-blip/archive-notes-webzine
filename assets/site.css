@@ -367,6 +367,15 @@ h1 span {
   min-height: 0;
 }
 
+.hero-media-cover .hero-image {
+  background: #eee8db;
+}
+
+.hero-media-cover .hero-image img {
+  object-fit: contain;
+  padding: clamp(20px, 3vw, 38px);
+}
+
 .today-card {
   background: var(--ink);
   color: var(--surface);

@@ -23,7 +23,7 @@ window.PAUL_BOOK_ARCHIVE = {
       "reviewStatus": "우리 리뷰",
       "reviewUrl": "posts/vienna-1900.html",
       "label": "City & Modernity",
-      "subtitle": "도시는 언제 하나의 정신이 되는가.",
+      "subtitle": "한 도시의 문화적 신경계를 읽는 법.",
       "review": "1900년 전후의 비엔나는 클림트, 실레, 말러, 프로이트, 로스가 한 도시의 불안 속에서 서로를 비추던 실험실이다. 한 권의 책이 미술, 음악, 건축, 정신분석을 동시에 열어 주는 교차점이 된다."
     },
     {

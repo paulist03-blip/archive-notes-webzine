@@ -85,7 +85,7 @@
     if (!sourceTarget) return;
     sourceTarget.innerHTML = `
       <strong>${escapeHtml(data.source.label)}</strong>
-      <span>${escapeHtml(data.source.seller)} 서가 · ${escapeHtml(data.source.capturedAt)} 수집 · ${data.source.pagesScanned}페이지 스캔 · ${data.source.eligibleCount}권 리뷰 큐</span>
+      <span>${escapeHtml(data.source.seller)} 서가 · ${escapeHtml(data.source.capturedAt)} 갱신 · ${data.source.pagesScanned}페이지 스캔 · ${data.source.eligibleCount}권 보관</span>
       <a href="${escapeHtml(data.source.url)}" target="_blank" rel="noopener noreferrer">기준 서가 열기</a>
     `;
   }

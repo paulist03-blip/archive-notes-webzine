@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "388492031",
+      "rank": 1,
+      "title": "마키아벨리의 꿈",
+      "metadata": "곽차섭 지음 | 길(도서출판)",
+      "theme": "정치사상",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=257830748",
+      "imageUrl": "https://image.aladin.co.kr/product/25783/7/cover500/8964452313_1.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/machiavellis-dream-kwak.html",
+      "label": "Machiavelli",
+      "subtitle": "권력의 기술은 어떻게 자유의 문법이 되는가.",
+      "review": "곽차섭은 마키아벨리를 권모술수의 평면적 이미지에서 꺼내 르네상스 도시국가의 현실, 공화주의, 역사 인식, 정치적 책임의 문제 안에 다시 놓는다. 권력을 이해하는 일이 어떻게 자유를 지키는 시민적 판단으로 이어질 수 있는지 보여 주는 정치사상 카드다."
+    },
+    {
       "id": "387504561",
       "rank": 1,
       "title": "취미와 사회 권력",
@@ -1072,10 +1087,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "마키아벨리의 꿈",
       "metadata": "곽차섭 지음 | 길(도서출판)",
       "theme": "인문/문학",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388492031",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=257830748",
       "imageUrl": "https://image.aladin.co.kr/product/25783/7/cover500/8964452313_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/machiavellis-dream-kwak.html",
       "archiveReview": "마키아벨리를 악마적 책략가보다 공화주의와 역사 감각의 사상가로 읽게 하는 책이다. 권력의 기술과 자유의 제도가 어떻게 얽히는지 보기에 좋다.",
       "readWith": "마키아벨리 『로마사 논고』, 퀜틴 스키너 『근대 정치사상의 토대』, J. G. A. 포콕 『마키아벨리언 모멘트』"
     },

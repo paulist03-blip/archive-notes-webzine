@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "389005002",
+      "rank": 1,
+      "title": "근대 한국의 탄생 대한제국",
+      "metadata": "서영희 지음 | 사회평론아카데미",
+      "theme": "역사",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389005002",
+      "imageUrl": "https://image.aladin.co.kr/product/35951/75/cover500/k882037805_1.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/korean-empire-birth-modern-korea.html",
+      "label": "Modern Korean State",
+      "subtitle": "실패한 전야가 아니라 미완의 국가 실험.",
+      "review": "서영희는 대한제국을 조선의 끝이나 식민지의 전야로만 두지 않고, 근대적 주권국가를 만들려 한 미완의 실험으로 읽게 한다. 황제권, 개혁, 도시, 외교, 식민지화의 압력이 한꺼번에 겹친 복잡한 시간이다."
+    },
+    {
       "id": "391780512",
       "rank": 1,
       "title": "바느질의 기하학",
@@ -727,7 +742,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389005002",
       "imageUrl": "https://image.aladin.co.kr/product/35951/75/cover500/k882037805_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/korean-empire-birth-modern-korea.html",
       "archiveReview": "대한제국을 실패한 전야로만 소비하지 않고 근대 국가 형성의 실험과 한계로 다시 보게 하는 책이다. 한국 근대사를 식민지 이전의 선택지들 속에서 읽는 데 필요하다.",
       "readWith": "앙드레 슈미드 『제국 그 사이의 한국』, 브루스 커밍스 『한국전쟁의 기원』, 토드 A. 헨리 『서울, 권력 도시』"
     },

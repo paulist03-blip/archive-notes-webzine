@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "388491233",
+      "rank": 1,
+      "title": "유전자 개념의 역사",
+      "metadata": "앙드레 피쇼 지음, 이정희 옮김 | 나남출판",
+      "theme": "과학사/생명철학",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=8431854",
+      "imageUrl": "https://image.aladin.co.kr/product/843/18/cover500/8930085148_1.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/history-of-gene-concept-pichot.html",
+      "label": "Gene Concept",
+      "subtitle": "생명은 언제 이름으로 붙잡혔는가.",
+      "review": "앙드레 피쇼는 유전자를 고정된 자연 단위가 아니라 과학사 속에서 계속 변형된 개념으로 읽는다. 유전학의 성과와 유전자 중심주의의 과장을 동시에 점검하게 만드는 과학사 카드다."
+    },
+    {
       "id": "388492031",
       "rank": 1,
       "title": "마키아벨리의 꿈",
@@ -1101,12 +1116,13 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "유전자 개념의 역사",
       "metadata": "앙드레 피쇼 지음, 이정희 옮김 | 나남출판",
       "theme": "역사",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388491233",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=8431854",
       "imageUrl": "https://image.aladin.co.kr/product/843/18/cover500/8930085148_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/history-of-gene-concept-pichot.html",
       "archiveReview": "유전자를 자연의 단순한 단위가 아니라 과학사의 개념으로 추적하는 책이다. 생명과학이 발견만이 아니라 명명과 모델링의 역사라는 점을 일깨운다.",
-      "readWith": "에릭 홉스봄 『극단의 시대』, 마크 마조워 『암흑의 대륙』, 존 루이스 개디스 『냉전의 역사』"
+      "readWith": "에벌린 폭스 켈러 『유전자의 세기』, 싯다르타 무케르지 『유전자의 내밀한 역사』, 리처드 르원틴 『삼중나선』"
     },
     {
       "id": "388491225",

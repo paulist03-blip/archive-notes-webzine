@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "389004157",
+      "rank": 1,
+      "title": "선면화의 세계",
+      "metadata": "이인숙 지음 | 눌와",
+      "theme": "예술/문화",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004157",
+      "imageUrl": "https://image.aladin.co.kr/product/33837/97/cover500/k002930990_1.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/world-of-fan-painting-lee-insook.html",
+      "label": "Fan Painting",
+      "subtitle": "손에 들린 그림은 어떻게 바람과 시간을 품는가.",
+      "review": "이인숙은 부채그림을 장식적 소품이 아니라 그림, 사물, 몸짓, 계절감이 겹치는 회화 형식으로 읽는다. 선면화는 작은 화면이지만 그 안에는 조선 회화와 생활미학, 손에 잡히는 미술의 역사가 함께 들어 있다."
+    },
+    {
       "id": "389004849",
       "rank": 1,
       "title": "무의식의 뇌과학",
@@ -914,7 +929,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004157",
       "imageUrl": "https://image.aladin.co.kr/product/33837/97/cover500/k002930990_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/world-of-fan-painting-lee-insook.html",
       "archiveReview": "부채라는 작은 표면 위에서 그림, 물건, 손의 움직임이 만나는 방식을 보여주는 책이다. 미술사를 대작 중심에서 사물의 친밀한 형식으로 옮겨 놓는다.",
       "readWith": "오주석 『한국의 미 특강』, 야나기 무네요시 『조선과 그 예술』, 크리스틴 거스 『Art, Tea, and Industry』"
     },

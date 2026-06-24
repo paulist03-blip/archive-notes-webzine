@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "378994523",
+      "rank": 1,
+      "title": "인식적 부정의",
+      "metadata": "미란다 프리커 지음, 유기훈·정선도 옮김 | 오월의봄",
+      "theme": "인문/문학",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994523",
+      "imageUrl": "https://image.aladin.co.kr/product/35586/29/cover500/k612036795_1.jpg",
+      "sourcePage": 10,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/epistemic-injustice-fricker.html",
+      "label": "Social Epistemology",
+      "subtitle": "누가 믿을 만한 말하는 자로 인정되는가.",
+      "review": "미란다 프리커는 정의의 문제를 분배와 권리의 영역에서 지식과 청취의 영역으로 옮긴다. 이 책은 증언이 묵살되고 경험에 이름이 주어지지 않는 순간, 한 사람이 아는 사람으로서 어떻게 손상되는지를 보여준다."
+    },
+    {
       "id": "394591541",
       "rank": 1,
       "title": "비엔나 1900년",
@@ -2657,7 +2672,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994523",
       "imageUrl": "https://image.aladin.co.kr/product/35586/29/cover500/k612036795_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/epistemic-injustice-fricker.html",
       "archiveReview": "누가 말할 자격을 얻고 누가 믿어지지 않는가를 묻는 현대 윤리학의 중요한 책이다. 지식과 권력의 관계를 일상 언어 속에서 보게 한다.",
       "readWith": "미란다 프리커 『Epistemic Injustice』, 호세 메디나 『The Epistemology of Resistance』, 도나 해러웨이 『상황적 지식』"
     },

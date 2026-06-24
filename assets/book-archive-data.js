@@ -283,10 +283,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391769928",
       "imageUrl": "https://image.aladin.co.kr/product/32450/84/cover500/k232935390_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "검수 초안",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/natural-history-of-spirits-desalle-tattersall.html",
       "label": "Taste & Natural History",
-      "subtitle": "취향은 어떻게 과학이 되는가.",
-      "review": "롭 드살레와 이안 태터샐은 증류주를 식물, 발효, 증류, 향, 사회성이 결합된 문화적 장치로 읽는다. 한 잔의 술을 감각의 자연사로 바꾸는 책이다."
+      "subtitle": "한 잔은 어떻게 식물, 미생물, 인간사를 통과하는가.",
+      "review": "롭 드살레와 이안 태터샐은 증류주를 식물, 발효, 증류, 향, 사회성이 결합된 문화적 장치로 읽는다. 술을 취향의 사물로만 보지 않고 감각과 자연사, 세계사의 작은 아카이브로 바꾸는 책이다."
     },
     {
       "id": "391769440",
@@ -682,7 +683,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391769928",
       "imageUrl": "https://image.aladin.co.kr/product/32450/84/cover500/k232935390_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/natural-history-of-spirits-desalle-tattersall.html",
       "archiveReview": "술을 취향의 물건으로만 보지 않고 발효, 증류, 식물, 인간의 사회성이 만나는 자연사로 읽게 한다. 레코드룸의 음반 취향과도 의외로 잘 어울리는 감각의 책이다.",
       "readWith": "마크 쿨란스키 『소금』, 마이클 폴란 『요리를 욕망하다』, 샌더 카츠 『발효의 모든 것』"
     },

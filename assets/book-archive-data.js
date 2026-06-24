@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "378806297",
+      "rank": 1,
+      "title": "야만의 해변에서",
+      "metadata": "캐럴라인 도즈 페넉 지음, 김희순 옮김 | 까치",
+      "theme": "인문/문학",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378806297",
+      "imageUrl": "https://image.aladin.co.kr/product/36277/72/cover500/8972918687_1.jpg",
+      "sourcePage": 10,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/on-savage-shores-pennock.html",
+      "label": "Reversed World History",
+      "subtitle": "유럽을 발견한 사람들의 역전된 세계사.",
+      "review": "캐럴라인 도즈 페넉은 대항해 시대의 방향을 뒤집어, 아메리카 원주민들이 유럽을 어떻게 보고 통과했는지 추적한다. 이 책은 발견의 언어가 누구의 세계를 지우고 누구의 충격을 기록하지 않았는지 묻는다."
+    },
+    {
       "id": "378994359",
       "rank": 1,
       "title": "책을 불태우다",
@@ -2741,7 +2756,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378806297",
       "imageUrl": "https://image.aladin.co.kr/product/36277/72/cover500/8972918687_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/on-savage-shores-pennock.html",
       "archiveReview": "대항해 시대를 유럽인의 발견담이 아니라 원주민과 피정복자의 눈으로 다시 읽게 하는 책이다. 세계사의 시점을 바꾸는 데 큰 힘이 있다.",
       "readWith": "실비아 페데리치 『캘리번과 마녀』, 츠베탄 토도로프 『아메리카의 정복』, 데이비드 그레이버·데이비드 웬그로 『모든 것의 새벽』"
     },

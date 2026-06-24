@@ -420,6 +420,21 @@ h1 span {
   padding: clamp(20px, 3vw, 38px);
 }
 
+.hero-copy,
+.hero-media,
+.issue-panel,
+[data-issue-items] > .archive-row {
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.is-issue-switching .hero-copy,
+.is-issue-switching .hero-media,
+.is-issue-switching .issue-panel,
+.is-issue-switching [data-issue-items] > .archive-row {
+  opacity: 0.68;
+  transform: translateY(3px);
+}
+
 .today-card {
   background: var(--ink);
   color: var(--surface);
@@ -814,6 +829,13 @@ h1 span {
   gap: 5px;
   padding: 14px 0;
   border-top: 1px solid rgba(23, 23, 23, 0.12);
+}
+
+.essay-drawer-list a.is-selected {
+  margin-left: -12px;
+  padding-left: 12px;
+  border-left: 3px solid var(--red);
+  background: rgba(155, 63, 52, 0.06);
 }
 
 .essay-date,

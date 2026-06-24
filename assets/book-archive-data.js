@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387504561",
+      "rank": 1,
+      "title": "취미와 사회 권력",
+      "metadata": "가타오카 에미 지음, 이은주 옮김 | 소명출판",
+      "theme": "사회학/문화자본",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504561",
+      "imageUrl": "https://image.aladin.co.kr/product/34033/87/cover500/k132931269_1.jpg",
+      "sourcePage": 4,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/sociology-of-taste-kataoka.html",
+      "label": "Taste & Power",
+      "subtitle": "취향은 언제 개인의 얼굴을 한 계급이 되는가.",
+      "review": "가타오카 에미는 취미를 순수한 개인 선택이 아니라 문화자본, 계층, 젠더, 상징적 경계가 교차하는 사회적 실천으로 읽는다. 책장과 음반 취향을 운영하는 웹진 자체를 되돌아보게 만드는 사회학적 카드다."
+    },
+    {
       "id": "389004157",
       "rank": 1,
       "title": "선면화의 세계",
@@ -1255,7 +1270,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504561",
       "imageUrl": "https://image.aladin.co.kr/product/34033/87/cover500/k132931269_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/sociology-of-taste-kataoka.html",
       "archiveReview": "취미가 순수한 개인 선택이라는 믿음을 흔들고, 문화적 선호가 계급과 교육 자본의 언어가 되는 방식을 보여준다. 우리 책장 작업의 기준을 점검하게 만드는 책이다.",
       "readWith": "피에르 부르디외 『구별짓기』, 엘리자베스 커리드핼킷 『야망계급론』, 토르스타인 베블런 『유한계급론』"
     },

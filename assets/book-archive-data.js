@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "391780512",
+      "rank": 1,
+      "title": "바느질의 기하학",
+      "metadata": "나탈리 채닌 지음, 김여경 옮김 | 미진사",
+      "theme": "예술/문화",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391780512",
+      "imageUrl": "https://image.aladin.co.kr/product/24772/19/cover500/8940806085_1.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/geometry-of-hand-sewing-chanin.html",
+      "label": "Craft & Pattern",
+      "subtitle": "손은 어떻게 패턴을 생각하는가.",
+      "review": "나탈리 채닌은 손바느질을 취미의 장식이 아니라 격자, 반복, 장력, 변형의 지식 체계로 보여 준다. 바늘땀 하나가 점과 선, 면의 질서로 확장되는 과정을 따라가면 공예가 얼마나 정밀한 사고인지 보인다."
+    },
+    {
       "id": "378806301",
       "rank": 1,
       "title": "디어 아마존",
@@ -213,20 +228,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Food Culture",
       "subtitle": "레시피는 어떻게 문화의 문법이 되는가.",
       "review": "지네트 마티오의 요리책 전통은 프랑스 가정식의 반복과 계절, 장보기와 식탁의 순서를 보관한다. 레시피를 단순한 지시문이 아니라 생활문화의 오래된 색인으로 읽게 만든다."
-    },
-    {
-      "id": "391780512",
-      "rank": 9,
-      "title": "바느질의 기하학",
-      "metadata": "나탈리 채닌 지음, 김여경 옮김 | 미진사",
-      "theme": "예술/문화",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391780512",
-      "imageUrl": "https://image.aladin.co.kr/product/24772/19/cover500/8940806085_1.jpg",
-      "sourcePage": 1,
-      "reviewStatus": "검수 초안",
-      "label": "Craft & Pattern",
-      "subtitle": "손은 어떻게 패턴을 생각하는가.",
-      "review": "나탈리 채닌은 손바느질과 자수를 점, 선, 간격, 반복의 질서로 보여준다. 공예를 취미나 장식이 아니라 손의 지성과 시간의 윤리로 읽게 하는 책이다."
     },
     {
       "id": "391770568",
@@ -608,7 +609,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391780512",
       "imageUrl": "https://image.aladin.co.kr/product/24772/19/cover500/8940806085_1.jpg",
       "sourcePage": 1,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/geometry-of-hand-sewing-chanin.html",
       "archiveReview": "손의 노동과 패턴, 천의 구조를 미학의 문제로 끌어올리는 책이다. 공예를 취미의 영역이 아니라 사유와 반복의 기술로 읽는 데 잘 맞는다.",
       "readWith": "리처드 세넷 『장인』, 애니 앨버스 『On Weaving』, 윌리엄 모리스 『예술과 노동』"
     },

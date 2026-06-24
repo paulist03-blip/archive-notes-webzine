@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "378994302",
+      "rank": 1,
+      "title": "한국 추상미술의 선구자 유영국",
+      "metadata": "박규리 지음 | 미술문화",
+      "theme": "예술/문화",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994302",
+      "imageUrl": "https://image.aladin.co.kr/product/10104/55/cover500/k492536174_1.jpg",
+      "sourcePage": 10,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/yoo-youngkuk-korean-abstract-art.html",
+      "label": "Korean Abstract Art",
+      "subtitle": "산은 어떻게 색과 구조가 되는가.",
+      "review": "박규리의 작가론은 유영국을 기념비적 선구자로만 세우지 않고, 자연·색면·기하학·전후 한국 미술 제도의 긴장 속에서 읽게 한다. 유영국의 산은 풍경이 아니라 화면을 조직하는 방법이다."
+    },
+    {
       "id": "378806297",
       "rank": 1,
       "title": "야만의 해변에서",
@@ -2730,7 +2745,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994302",
       "imageUrl": "https://image.aladin.co.kr/product/10104/55/cover500/k492536174_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/yoo-youngkuk-korean-abstract-art.html",
       "archiveReview": "유영국을 통해 한국 추상미술이 자연, 색면, 근대성의 문제를 어떻게 자기 언어로 만들었는지 볼 수 있다. 한국 미술 섹션의 중요한 확장점이다.",
       "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },

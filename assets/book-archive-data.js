@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "388492182",
+      "rank": 1,
+      "title": "리바이어던의 논리",
+      "metadata": "데이비드 고티에 지음, 박완규 옮김 | 아카넷",
+      "theme": "정치철학",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388492182",
+      "imageUrl": "https://image.aladin.co.kr/product/2715/17/cover500/8957332863_1.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/logic-of-leviathan-gauthier.html",
+      "label": "Hobbes & Contract",
+      "subtitle": "국가는 왜 공포가 아니라 계산에서 태어나는가.",
+      "review": "데이비드 고티에는 홉스의 『리바이어던』을 공포의 정치철학으로만 두지 않고, 자기 이익을 추구하는 합리적 개인들이 왜 계약과 주권을 필요로 하는지 묻는다. 국가와 의무, 신뢰와 강제의 논리를 차갑게 정리하게 만드는 정치철학 카드다."
+    },
+    {
       "id": "389004040",
       "rank": 1,
       "title": "한국 근현대의 파시즘적 역사인식",
@@ -1124,9 +1139,10 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388492182",
       "imageUrl": "https://image.aladin.co.kr/product/2715/17/cover500/8957332863_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/logic-of-leviathan-gauthier.html",
       "archiveReview": "홉스 이후 계약론을 합리적 선택과 도덕의 문제로 다시 구성하는 책이다. 국가가 왜 필요한가라는 질문을 공포가 아니라 계산의 언어로 묻는다.",
-      "readWith": "토머스 홉스 『리바이어던』, 존 롤스 『정의론』, 데이비드 고티에 『Morals by Agreement』"
+      "readWith": "토머스 홉스 『리바이어던』, 데이비드 고티에 『Morals by Agreement』, 존 롤스 『정의론』"
     },
     {
       "id": "388492031",

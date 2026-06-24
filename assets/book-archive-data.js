@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "389004296",
+      "rank": 1,
+      "title": "일본의 역사를 새로 읽는다",
+      "metadata": "아미노 요시히코 지음, 임경택 옮김 | 돌베개",
+      "theme": "역사",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004296",
+      "imageUrl": "https://image.aladin.co.kr/product/6870/61/cover500/8971996927_2.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/rethinking-japanese-history-amino.html",
+      "label": "Rethinking Japan",
+      "subtitle": "섬나라의 역사는 바다에서 시작된다.",
+      "review": "아미노 요시히코는 일본사를 논과 중앙 권력의 연표로만 읽는 습관을 흔든다. 바다, 항구, 장인, 비농업민, 국가가 불편해한 주변부의 삶을 통해 일본이라는 이름의 역사적 구성성을 다시 보게 한다."
+    },
+    {
       "id": "389005002",
       "rank": 1,
       "title": "근대 한국의 탄생 대한제국",
@@ -833,7 +848,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004296",
       "imageUrl": "https://image.aladin.co.kr/product/6870/61/cover500/8971996927_2.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/rethinking-japanese-history-amino.html",
       "archiveReview": "일본사를 중앙 권력의 연표만이 아니라 주변부, 바다, 장인, 비국가적 삶의 층위에서 다시 읽게 하는 책이다. 동아시아사를 국가 단위로만 읽는 습관을 흔든다.",
       "readWith": "아미노 요시히코 『일본이란 무엇인가』, 콘래드 토트먼 『일본사』, 박훈 『메이지 유신은 어떻게 가능했는가』"
     },

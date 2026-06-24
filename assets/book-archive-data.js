@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "378994359",
+      "rank": 1,
+      "title": "책을 불태우다",
+      "metadata": "리처드 오벤든 지음, 이재황 옮김 | 책과함께",
+      "theme": "인문/문학",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994359",
+      "imageUrl": "https://image.aladin.co.kr/product/28551/72/cover500/k872835042_1.jpg",
+      "sourcePage": 10,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/burning-the-books-ovenden.html",
+      "label": "Archive & Memory",
+      "subtitle": "기록을 없애는 권력과 남기는 사람들의 윤리.",
+      "review": "리처드 오벤든은 도서관과 아카이브를 지식의 창고가 아니라 권리와 기억의 기반시설로 읽는다. 이 책은 책을 태우는 일이 문화재 손실을 넘어 증거와 시민권, 미래의 책임 가능성을 지우는 정치 행위임을 보여준다."
+    },
+    {
       "id": "378994523",
       "rank": 1,
       "title": "인식적 부정의",
@@ -2686,7 +2701,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994359",
       "imageUrl": "https://image.aladin.co.kr/product/28551/72/cover500/k872835042_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/burning-the-books-ovenden.html",
       "archiveReview": "책의 파괴는 문화재 손실만이 아니라 기억과 증언을 지우는 정치적 행위임을 보여준다. 아카이브를 운영하는 사람에게 특히 강하게 다가올 책이다.",
       "readWith": "알베르토 망구엘 『밤의 도서관』, 레베카 크누스 『Libricide』, 레이 브래드버리 『화씨 451』"
     },

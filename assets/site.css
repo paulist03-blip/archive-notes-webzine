@@ -1025,6 +1025,198 @@ h1 span {
   margin-bottom: 0;
 }
 
+.silk-road-visual {
+  margin: 30px 0 34px;
+  padding: clamp(18px, 3vw, 28px);
+  border: 1px solid rgba(23, 23, 23, 0.16);
+  border-radius: 8px;
+  background: #f1eadc;
+}
+
+.silk-road-visual h2 {
+  margin-top: 0;
+}
+
+.silk-road-visual > p {
+  max-width: 640px;
+  color: #4b453d;
+}
+
+.silk-map {
+  position: relative;
+  min-height: 260px;
+  margin: 20px 0 16px;
+  border: 1px solid rgba(23, 23, 23, 0.16);
+  border-radius: 8px;
+  background:
+    linear-gradient(145deg, rgba(35, 72, 60, 0.12), rgba(155, 63, 52, 0.08)),
+    repeating-linear-gradient(0deg, rgba(23, 23, 23, 0.035) 0 1px, transparent 1px 34px),
+    #fffaf0;
+  overflow: hidden;
+}
+
+.silk-map::before,
+.silk-map::after {
+  content: "";
+  position: absolute;
+  inset: 18% auto auto 6%;
+  width: 38%;
+  height: 42%;
+  border: 1px solid rgba(35, 72, 60, 0.18);
+  border-radius: 52% 44% 48% 56%;
+  transform: rotate(-10deg);
+}
+
+.silk-map::after {
+  inset: 30% 7% auto auto;
+  width: 34%;
+  height: 35%;
+  transform: rotate(12deg);
+}
+
+.silk-route {
+  position: absolute;
+  top: 52%;
+  left: 9%;
+  right: 9%;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--green), #c28a40, var(--red));
+  box-shadow: 0 0 0 6px rgba(194, 138, 64, 0.08);
+}
+
+.silk-city {
+  position: absolute;
+  display: grid;
+  gap: 4px;
+  width: 120px;
+  transform: translate(-50%, -50%);
+  color: var(--ink);
+  text-align: center;
+  z-index: 1;
+}
+
+.silk-city::before {
+  content: "";
+  justify-self: center;
+  width: 13px;
+  height: 13px;
+  border: 2px solid var(--surface);
+  border-radius: 999px;
+  background: var(--red);
+  box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.28);
+}
+
+.silk-city span {
+  font-family: var(--display-font);
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.silk-city small {
+  color: #6b6258;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 760;
+}
+
+.silk-city.changan {
+  left: 12%;
+  top: 62%;
+}
+
+.silk-city.dunhuang {
+  left: 28%;
+  top: 43%;
+}
+
+.silk-city.samarkand {
+  left: 45%;
+  top: 56%;
+}
+
+.silk-city.baghdad {
+  left: 61%;
+  top: 39%;
+}
+
+.silk-city.constantinople {
+  left: 76%;
+  top: 57%;
+}
+
+.silk-city.venice {
+  left: 90%;
+  top: 42%;
+}
+
+.silk-trade-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.silk-trade-grid div {
+  display: grid;
+  gap: 6px;
+  padding: 13px;
+  border: 1px solid rgba(23, 23, 23, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 253, 248, 0.76);
+}
+
+.silk-trade-grid strong,
+.reading-page span {
+  color: var(--red);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.74rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.silk-trade-grid span {
+  color: #4f4a43;
+  font-size: 0.88rem;
+  line-height: 1.48;
+}
+
+.reading-pages {
+  margin: 34px 0;
+}
+
+.page-strip {
+  display: grid;
+  grid-auto-columns: minmax(280px, 82%);
+  grid-auto-flow: column;
+  gap: 14px;
+  margin-top: 14px;
+  padding-bottom: 12px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.reading-page {
+  min-height: 310px;
+  padding: 22px;
+  border: 1px solid rgba(23, 23, 23, 0.16);
+  border-radius: 8px;
+  background: #fffaf0;
+  scroll-snap-align: start;
+}
+
+.reading-page h3 {
+  margin-top: 12px;
+  font-family: var(--display-font);
+  font-size: clamp(1.35rem, 1rem + 1vw, 2rem);
+  font-weight: 500;
+  text-transform: none;
+}
+
+.reading-page p {
+  margin-bottom: 0;
+  color: #4f4a43;
+}
+
 .footnotes,
 .bibliography {
   margin-top: 38px;
@@ -2124,6 +2316,14 @@ a.book-cover-frame:hover {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .silk-trade-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .page-strip {
+    grid-auto-columns: minmax(260px, 90%);
+  }
+
   .collector-book-feature {
     grid-template-columns: 118px minmax(0, 1fr);
   }
@@ -2250,6 +2450,62 @@ a.book-cover-frame:hover {
     right: auto;
     left: 0;
     width: calc(100vw - 32px);
+  }
+
+  .silk-road-visual {
+    padding: 16px;
+  }
+
+  .silk-map {
+    min-height: 430px;
+  }
+
+  .silk-route {
+    top: 9%;
+    bottom: 9%;
+    left: 50%;
+    right: auto;
+    width: 3px;
+    height: auto;
+    transform: translateX(-50%);
+    background: linear-gradient(180deg, var(--green), #c28a40, var(--red));
+  }
+
+  .silk-city {
+    left: 50% !important;
+    width: min(190px, 74vw);
+  }
+
+  .silk-city.changan {
+    top: 12%;
+  }
+
+  .silk-city.dunhuang {
+    top: 27%;
+  }
+
+  .silk-city.samarkand {
+    top: 44%;
+  }
+
+  .silk-city.baghdad {
+    top: 60%;
+  }
+
+  .silk-city.constantinople {
+    top: 76%;
+  }
+
+  .silk-city.venice {
+    top: 90%;
+  }
+
+  .silk-trade-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-strip {
+    grid-auto-columns: calc(100vw - 58px);
   }
 
   .archive-row {

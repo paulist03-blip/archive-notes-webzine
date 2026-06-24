@@ -2345,7 +2345,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382505784",
       "imageUrl": "https://image.aladin.co.kr/product/21638/27/cover500/k552636691_3.jpg",
       "sourcePage": 9,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/silk-roads-world-history-frankopan.html",
       "archiveReview": "실크로드를 낭만적 교역로가 아니라 권력, 종교, 전쟁, 상품이 오간 세계사의 축으로 읽게 하는 책이다. 유럽 중심 세계사를 흔드는 데 유용하다.",
       "readWith": "피터 프랭코판 『실크로드 세계사』, 윌리엄 맥닐 『전염병과 인류의 역사』, 재닛 아부-루고드 『유럽 패권 이전』"
     },

@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "389004497",
+      "rank": 1,
+      "title": "라스트 데이즈",
+      "metadata": "제프 다이어 지음, 서민아 옮김 | 을유문화사",
+      "theme": "산문/비평",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004497",
+      "imageUrl": "https://image.aladin.co.kr/product/36703/14/cover500/8932475628_1.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/last-days-geoff-dyer.html",
+      "label": "Late Style",
+      "subtitle": "끝은 어떻게 한 사람의 문체가 되는가.",
+      "review": "제프 다이어는 페더러, 딜런, 로런스, 터너, 베토벤, 니체를 지나 끝의 감각과 말년의 양식을 추적한다. 죽음의 비장함보다 쇠퇴와 유머, 계속할 수 없음과 그래도 계속하려는 습관을 읽게 하는 산문적 비평이다."
+    },
+    {
       "id": "388491233",
       "rank": 1,
       "title": "유전자 개념의 역사",
@@ -921,9 +936,10 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004497",
       "imageUrl": "https://image.aladin.co.kr/product/36703/14/cover500/8932475628_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/last-days-geoff-dyer.html",
       "archiveReview": "끝, 몰락, 마지막 순간에 끌리는 다이어식 시선을 따라가게 하는 책이다. 비평과 산문, 여행과 애도의 경계가 느슨해지는 글쓰기의 샘플로 읽기 좋다.",
-      "readWith": "제프 다이어 『꼼짝도 하기 싫은 사람들을 위한 요가』, 존 버거 『그리고 사진처럼 덧없는 우리들의 얼굴, 내 가슴』, 롤랑 바르트 『애도 일기』"
+      "readWith": "에드워드 W. 사이드 『말년의 양식에 관하여』, 롤랑 바르트 『애도 일기』, 제프 다이어 『꼼짝도 하기 싫은 사람들을 위한 요가』"
     },
     {
       "id": "389004296",

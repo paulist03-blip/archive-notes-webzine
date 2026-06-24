@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "378806301",
+      "rank": 1,
+      "title": "디어 아마존",
+      "metadata": "뱅상 노르망 외 지음 | 현실문화A",
+      "theme": "예술/문화",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378806301",
+      "imageUrl": "https://image.aladin.co.kr/product/26079/6/cover500/8965642590_1.jpg",
+      "sourcePage": 10,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/dear-amazon-anthropocene.html",
+      "label": "Anthropocene & Art",
+      "subtitle": "인류세라는 말 앞에서 예술은 무엇을 할 수 있는가.",
+      "review": "『디어 아마존』은 아마존을 멀리 있는 자연의 이미지가 아니라 생태 위기, 식민주의, 국가 개발, 원주민 정치, 예술 비평이 충돌하는 현장으로 읽게 한다. 예술은 충분하지 않지만, 보지 못하는 사회에서는 어떤 책임도 시작되지 않는다."
+    },
+    {
       "id": "378806296",
       "rank": 1,
       "title": "예술가의 편지",
@@ -2706,7 +2721,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994599",
       "imageUrl": "https://image.aladin.co.kr/product/26079/6/cover500/8965642590_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/dear-amazon-anthropocene.html",
       "archiveReview": "아마존을 먼 자연의 상징이 아니라 자본, 생태, 원주민 권리, 이미지 정치가 충돌하는 장소로 읽게 하는 책이다. 환경 예술과 정치가 만나는 지점에 놓인다.",
       "readWith": "애나 칭 『세계 끝의 버섯』, 브뤼노 라투르 『지구와 충돌하지 않고 착륙하는 방법』, 에두아르두 비베이루스 지 카스트루 『식인의 형이상학』"
     },
@@ -2774,7 +2790,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378806301",
       "imageUrl": "https://image.aladin.co.kr/product/26079/6/cover500/8965642590_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/dear-amazon-anthropocene.html",
       "archiveReview": "아마존을 먼 자연의 상징이 아니라 자본, 생태, 원주민 권리, 이미지 정치가 충돌하는 장소로 읽게 하는 책이다. 환경 예술과 정치가 만나는 지점에 놓인다.",
       "readWith": "애나 칭 『세계 끝의 버섯』, 브뤼노 라투르 『지구와 충돌하지 않고 착륙하는 방법』, 에두아르두 비베이루스 지 카스트루 『식인의 형이상학』"
     },

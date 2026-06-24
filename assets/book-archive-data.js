@@ -297,10 +297,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391769440",
       "imageUrl": "https://image.aladin.co.kr/product/26799/70/cover500/k742730681_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "검수 초안",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/plant-universe-ahn.html",
       "label": "Plant Life",
-      "subtitle": "가만히 있는 생명은 어떻게 싸우는가.",
-      "review": "안희경은 식물을 배경 장식이 아니라 다른 속도와 전략을 가진 생명으로 보여준다. 빛, 뿌리, 병원균, 환경 스트레스를 읽으며 생명의 상상력을 넓히게 한다."
+      "subtitle": "가만히 있는 생명은 어떻게 세계를 읽는가.",
+      "review": "안희경은 식물을 배경 장식이 아니라 감각하고 조절하고 방어하고 성장하는 생명으로 보여 준다. 씨앗, 빛, 뿌리, 면역, 환경 스트레스의 이야기를 따라가면 식물 하나의 삶이 하나의 우주처럼 열린다."
     },
     {
       "id": "391769082",
@@ -694,7 +695,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391769440",
       "imageUrl": "https://image.aladin.co.kr/product/26799/70/cover500/k742730681_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/plant-universe-ahn.html",
       "archiveReview": "식물을 배경 장식이 아니라 지각, 시간, 생존 전략을 가진 다른 세계로 읽게 하는 책이다. 자연사를 생명의 철학으로 확장하는 데 좋은 카드다.",
       "readWith": "스테파노 만쿠소 『식물의 지능』, 피터 볼레벤 『나무 수업』, S. 테레사 디에츠 『식물의 말들』"
     },

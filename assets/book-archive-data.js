@@ -328,10 +328,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391768819",
       "imageUrl": "https://image.aladin.co.kr/product/24430/36/cover500/8925536935_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "검수 초안",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/disordered-mind-kandel.html",
       "label": "Neuroscience",
-      "subtitle": "고장 난 뇌는 인간을 어떻게 비춘다.",
-      "review": "에릭 캔델은 정신의 질병을 인간성의 바깥으로 밀어내지 않고, 뇌가 흔들리는 지점에서 마음의 구조가 더 선명해진다고 본다. 과학과 인문학이 만나는 조심스러운 자리다."
+      "subtitle": "흔들리는 뇌는 인간 본성을 어떻게 비추는가.",
+      "review": "에릭 캔델은 정신의 질병을 인간성의 바깥으로 밀어내지 않고, 뇌가 흔들리는 지점에서 마음의 구조가 더 선명해진다고 본다. 과학과 인문학, 지식과 돌봄이 조심스럽게 만나는 책이다."
     }
   ],
   "books": [
@@ -726,7 +727,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391768819",
       "imageUrl": "https://image.aladin.co.kr/product/24430/36/cover500/8925536935_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/disordered-mind-kandel.html",
       "archiveReview": "정신의 결함을 단순한 고장으로 보지 않고 인간 인지의 구조와 취약성을 드러내는 사례로 읽게 한다. 캔델의 책답게 뇌과학과 인간 이해 사이의 다리를 놓는다.",
       "readWith": "에릭 캔델 『통찰의 시대』, 올리버 색스 『아내를 모자로 착각한 남자』, 안토니오 다마지오 『데카르트의 오류』"
     },

@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "389004040",
+      "rank": 1,
+      "title": "한국 근현대의 파시즘적 역사인식",
+      "metadata": "김종준 지음 | 소명출판",
+      "theme": "역사인식",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004040",
+      "imageUrl": "https://image.aladin.co.kr/product/32064/66/cover500/k332834895_1.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/fascist-historical-perception-korea-kim.html",
+      "label": "History & Fascism",
+      "subtitle": "민족이라는 전체는 어떻게 역사를 동원하는가.",
+      "review": "김종준은 파시즘을 외국 정치체제의 이름으로만 보지 않고, 민족과 국가라는 전체가 개인과 차이를 압도하는 역사인식의 방식으로 추적한다. 한국 근현대사를 자기 확신이 아니라 불편한 정치적 윤리의 문제로 다시 읽게 하는 역사비평이다."
+    },
+    {
       "id": "389004497",
       "rank": 1,
       "title": "라스트 데이즈",
@@ -1030,9 +1045,10 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004040",
       "imageUrl": "https://image.aladin.co.kr/product/32064/66/cover500/k332834895_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/fascist-historical-perception-korea-kim.html",
       "archiveReview": "파시즘을 외국 이념의 수입품으로만 보지 않고 한국 근현대의 역사 해석과 집단 감정 속에서 추적하는 책이다. 역사 서술 자체가 권력의 형식이 되는 순간을 읽게 한다.",
-      "readWith": "에릭 홉스봄 『극단의 시대』, 마크 마조워 『암흑의 대륙』, 존 루이스 개디스 『냉전의 역사』"
+      "readWith": "로버트 O. 팩스턴 『파시즘』, 에릭 홉스봄 『극단의 시대』, 베네딕트 앤더슨 『상상의 공동체』"
     },
     {
       "id": "389003848",

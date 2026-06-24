@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "378806296",
+      "rank": 1,
+      "title": "예술가의 편지",
+      "metadata": "마이클 버드 지음, 김광우 옮김 | 미술문화",
+      "theme": "예술/문화",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378806296",
+      "imageUrl": "https://image.aladin.co.kr/product/24834/6/cover500/k982631252_1.jpg",
+      "sourcePage": 10,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/artists-letters-michael-bird.html",
+      "label": "Artists & Letters",
+      "subtitle": "작품 뒤편의 목소리와 종이의 표정.",
+      "review": "마이클 버드는 예술가의 편지를 작품 해설의 부속 자료가 아니라 관계와 노동, 자기 연출과 물질성이 드러나는 1차 자료로 보여준다. 편지는 작품을 해명하는 동시에 작품을 더 불안하고 인간적으로 만든다."
+    },
+    {
       "id": "378994302",
       "rank": 1,
       "title": "한국 추상미술의 선구자 유영국",
@@ -2786,7 +2801,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378806296",
       "imageUrl": "https://image.aladin.co.kr/product/24834/6/cover500/k982631252_1.jpg",
       "sourcePage": 10,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/artists-letters-michael-bird.html",
       "archiveReview": "편지는 완성된 작품 뒤편의 망설임과 생활, 관계를 보여준다. 예술가를 신화보다 목소리로 만나는 데 좋은 책이다.",
       "readWith": "에른스트 곰브리치 『서양미술사』, 존 버거 『다른 방식으로 보기』, 빅토르 스토이치타 『그림자의 짧은 역사』"
     },

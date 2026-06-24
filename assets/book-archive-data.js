@@ -313,10 +313,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391769082",
       "imageUrl": "https://image.aladin.co.kr/product/27304/83/cover500/8967359004_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "검수 초안",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/art-of-fermentation-katz.html",
       "label": "Fermentation",
-      "subtitle": "미생물은 어떻게 문화를 만든다.",
-      "review": "샌더 카츠에게 발효는 건강 유행이 아니라 인간과 미생물이 함께 만든 오래된 협력의 역사다. 항아리와 병, 소금물 속에 보관되는 또 하나의 아카이브를 보여준다."
+      "subtitle": "미생물은 어떻게 식탁을 역사로 바꾸는가.",
+      "review": "샌더 카츠에게 발효는 건강 유행이 아니라 인간과 미생물이 함께 만든 오래된 협력의 역사다. 맛과 보존, 시간과 공동체가 항아리와 병 속에서 함께 변하는 과정을 보여 준다."
     },
     {
       "id": "391768819",
@@ -711,7 +712,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391769082",
       "imageUrl": "https://image.aladin.co.kr/product/27304/83/cover500/8967359004_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/art-of-fermentation-katz.html",
       "archiveReview": "발효를 건강 유행이나 조리 팁이 아니라 미생물과 인간 문화가 함께 만든 오래된 기술로 설명하는 책이다. 음식의 시간성과 장소성을 읽는 데 강하다.",
       "readWith": "샌더 카츠 『The Art of Fermentation』, 마이클 폴란 『Cooked』, 해럴드 맥기 『음식과 요리』"
     },

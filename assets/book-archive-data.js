@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "391770568",
+      "rank": 1,
+      "title": "도둑맞은 뇌",
+      "metadata": "대니얼 샥터 지음, 홍보람 옮김 | 인물과사상사",
+      "theme": "과학/지식",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309340189",
+      "imageUrl": "https://image.aladin.co.kr/product/30934/1/cover500/8959066710_1.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/seven-sins-of-memory-schacter.html",
+      "label": "Memory & Brain",
+      "subtitle": "기억은 왜 정확하지 않은 방식으로 우리를 지키는가.",
+      "review": "대니얼 샥터는 기억을 저장 장치가 아니라 현재의 단서와 감정, 기대가 과거의 흔적을 다시 조립하는 과정으로 설명한다. 기억의 오류는 단순한 결함이 아니라 인간이 적응하고 상상하기 위해 치르는 비용이다."
+    },
+    {
       "id": "389004296",
       "rank": 1,
       "title": "일본의 역사를 새로 읽는다",
@@ -258,20 +273,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Food Culture",
       "subtitle": "레시피는 어떻게 문화의 문법이 되는가.",
       "review": "지네트 마티오의 요리책 전통은 프랑스 가정식의 반복과 계절, 장보기와 식탁의 순서를 보관한다. 레시피를 단순한 지시문이 아니라 생활문화의 오래된 색인으로 읽게 만든다."
-    },
-    {
-      "id": "391770568",
-      "rank": 10,
-      "title": "도둑맞은 뇌",
-      "metadata": "대니얼 샥터 지음, 홍보람 옮김 | 인물과사상사",
-      "theme": "과학/지식",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391770568",
-      "imageUrl": "https://image.aladin.co.kr/product/30934/1/cover500/8959066710_1.jpg",
-      "sourcePage": 2,
-      "reviewStatus": "검수 초안",
-      "label": "Memory Science",
-      "subtitle": "기억은 왜 우리를 배신하는가.",
-      "review": "대니얼 샥터는 기억을 저장고가 아니라 매번 다시 조립되는 편집물로 설명한다. 기억의 오류를 통해 개인의 자기서사와 아카이브의 신뢰 문제를 함께 생각하게 만든다."
     },
     {
       "id": "391769928",
@@ -663,10 +664,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "도둑맞은 뇌",
       "metadata": "대니얼 샥터 지음, 홍보람 옮김 | 인물과사상사",
       "theme": "과학/지식",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391770568",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309340189",
       "imageUrl": "https://image.aladin.co.kr/product/30934/1/cover500/8959066710_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/seven-sins-of-memory-schacter.html",
       "archiveReview": "기억이 저장된 파일이 아니라 선택과 왜곡의 과정이라는 점을 독자에게 설득하는 책이다. 뇌과학을 인간의 책임과 자기서사의 문제로 확장하기 좋다.",
       "readWith": "대니얼 샥터 『기억의 일곱 가지 죄악』, 대니얼 카너먼 『생각에 관한 생각』, 올리버 색스 『뮤지코필리아』"
     },

@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "389004849",
+      "rank": 1,
+      "title": "무의식의 뇌과학",
+      "metadata": "엘리에저 J. 스턴버그 지음, 조성숙 옮김, 박문호 감수 | 다산초당",
+      "theme": "과학/지식",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004849",
+      "imageUrl": "https://image.aladin.co.kr/product/37076/0/cover500/k862030958_1.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/neurologic-sternberg.html",
+      "label": "Unconscious Logic",
+      "subtitle": "뇌는 어떻게 나보다 먼저 나를 해석하는가.",
+      "review": "엘리에저 J. 스턴버그는 무의식을 억압된 욕망의 창고가 아니라 감각, 기억, 판단, 자아감을 구성하는 뇌의 처리 과정으로 읽는다. 나를 안다는 확신을 조금 늦추게 만드는 신경과학 안내서다."
+    },
+    {
       "id": "391770568",
       "rank": 1,
       "title": "도둑맞은 뇌",
@@ -781,7 +796,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004849",
       "imageUrl": "https://image.aladin.co.kr/product/37076/0/cover500/k862030958_1.jpg",
       "sourcePage": 2,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/neurologic-sternberg.html",
       "archiveReview": "프로이트 이후의 무의식을 뇌과학의 언어로 다시 묻는 책이다. 정신분석과 신경과학이 서로를 대체하기보다 긴장 속에서 보완하는 지점을 확인하게 한다.",
       "readWith": "지그문트 프로이트 『꿈의 해석』, 안토니오 다마지오 『느낌의 진화』, 에릭 캔델 『마음의 오류들』"
     },

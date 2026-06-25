@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "386231819",
+      "rank": 1,
+      "title": "가차없는 자본주의",
+      "metadata": "조이스 애플비 지음, 주경철·안민석 옮김 | 까치",
+      "theme": "경제사/자본주의",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=386231819",
+      "imageUrl": "https://image.aladin.co.kr/product/1536/97/cover500/897291519x_1.jpg",
+      "sourcePage": 5,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/relentless-capitalism-appleby.html",
+      "label": "Capitalism & History",
+      "subtitle": "시장은 어떻게 자연이 아니라 습관이 되었는가.",
+      "review": "조이스 애플비는 『가차없는 자본주의』에서 자본주의를 인간 본성의 자연스러운 결과가 아니라 역사적으로 형성되고 계속 변형된 사회적 체제로 읽게 한다. 시장, 혁신, 신용, 위험, 제국, 노동의 문제를 한 흐름 안에서 묶는 경제사 카드다."
+    },
+    {
       "id": "387504904",
       "rank": 1,
       "title": "물리적 힘",
@@ -1629,7 +1644,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=386231819",
       "imageUrl": "https://image.aladin.co.kr/product/1536/97/cover500/897291519x_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/relentless-capitalism-appleby.html",
       "archiveReview": "자본주의를 경제 제도의 이름이 아니라 끝없이 팽창하고 적응하는 역사적 힘으로 읽게 한다. 시장의 자연스러움을 의심했던 우리 기존 글들과 잘 이어진다.",
       "readWith": "칼 폴라니 『거대한 전환』, 페르낭 브로델 『물질문명과 자본주의』, 조반니 아리기 『장기 20세기』"
     },

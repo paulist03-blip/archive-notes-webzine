@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387504904",
+      "rank": 1,
+      "title": "물리적 힘",
+      "metadata": "헨리 페트로스키 지음, 이충호 옮김 | 서해문집",
+      "theme": "공학/사물 읽기",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504904",
+      "imageUrl": "https://image.aladin.co.kr/product/32176/19/cover500/k322834416_1.jpg",
+      "sourcePage": 4,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/physical-force-petroski.html",
+      "label": "Force & Design",
+      "subtitle": "세계는 어떻게 우리를 밀고 당기며 생각하게 하는가.",
+      "review": "헨리 페트로스키는 『물리적 힘』에서 문손잡이, 포크, 구두 뒤축, 구조물 같은 일상 사물 속에 숨어 있는 힘의 관계를 읽게 한다. 공식보다 먼저 몸과 사물의 접촉으로 공학적 사고를 회복시키는 책이다."
+    },
+    {
       "id": "389004104",
       "rank": 1,
       "title": "정사 삼국지 : 위서 2",
@@ -1352,7 +1367,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504904",
       "imageUrl": "https://image.aladin.co.kr/product/32176/19/cover500/k322834416_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/physical-force-petroski.html",
       "archiveReview": "힘을 공식 이전에 건물, 도구, 물건의 형태를 만드는 실제 조건으로 설명하는 책이다. 페트로스키식 공학 글쓰기는 사물을 보는 눈을 조금 더 정확하게 만든다.",
       "readWith": "J. E. 고든 『구조』, 헨리 페트로스키 『연필』, 데이비드 맥컬레이 『도구와 기계의 원리』"
     },

@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387504413",
+      "rank": 1,
+      "title": "사마천, 인간의 길을 묻다",
+      "metadata": "김영수 지음 | 위즈덤하우스",
+      "theme": "고전/역사서술",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504413",
+      "imageUrl": "https://image.aladin.co.kr/product/8781/73/cover500/8960869333_1.jpg",
+      "sourcePage": 4,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/sima-qian-human-path-kim.html",
+      "label": "Sima Qian & History",
+      "subtitle": "기록자는 왜 패배와 치욕을 오래 바라보는가.",
+      "review": "김영수는 『사마천, 인간의 길을 묻다』에서 『사기』를 처세담 이전에 기록자의 윤리와 인간 서사의 문제로 읽게 한다. 권력, 실패, 치욕, 선택을 오래 바라보는 사마천의 시선을 오늘의 역사 감각으로 다시 불러오는 책이다."
+    },
+    {
       "id": "386231819",
       "rank": 1,
       "title": "가차없는 자본주의",
@@ -1488,7 +1503,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504413",
       "imageUrl": "https://image.aladin.co.kr/product/8781/73/cover500/8960869333_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/sima-qian-human-path-kim.html",
       "archiveReview": "사마천을 역사 서술의 창시자로만 보지 않고 인간의 실패와 선택을 기록하는 문장가로 읽게 한다. 기록자의 윤리와 서사의 힘을 함께 생각하게 된다.",
       "readWith": "사마천 『사기열전』, 버튼 왓슨 『Ssu-ma Ch’ien』, 김영수 『사기, 정치와 권력을 말하다』"
     },

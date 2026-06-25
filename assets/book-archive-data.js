@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "385719084",
+      "rank": 1,
+      "title": "레너드 번스타인",
+      "metadata": "배리 셀즈 지음, 함규진 옮김 | 심산",
+      "theme": "음악가 전기/정치문화사",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385719084",
+      "imageUrl": "https://image.aladin.co.kr/product/836/0/cover500/8989721008_1.jpg",
+      "sourcePage": 5,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/leonard-bernstein-seldes.html",
+      "label": "Bernstein & Politics",
+      "subtitle": "정치와 음악 사이에서 길을 잃은 미국 음악가.",
+      "review": "배리 셀즈의 『레너드 번스타인』은 번스타인을 스타 지휘자나 작곡가로만 보지 않고, 냉전기 미국의 정치문화 속에서 감시받고 말하고 교육한 공적 음악가로 읽게 한다. 음반 리뷰의 배경을 두껍게 만드는 음악가 전기다."
+    },
+    {
       "id": "385719446",
       "rank": 1,
       "title": "우리 시대의 동물 해방",
@@ -1781,7 +1796,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385719084",
       "imageUrl": "https://image.aladin.co.kr/product/836/0/cover500/8989721008_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/leonard-bernstein-seldes.html",
       "archiveReview": "번스타인을 스타 지휘자보다 교육자, 작곡가, 방송인, 해석자로 함께 읽게 하는 전기다. 음반 리뷰의 배경을 두껍게 만드는 데 유용하다.",
       "readWith": "알렉스 로스 『나머지는 소음이다』, 로베르트 슈만 『음악과 음악가』, 무라카미 하루키 『오래되고 멋진 클래식 레코드』"
     },

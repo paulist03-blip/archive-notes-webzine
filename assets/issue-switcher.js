@@ -1,5 +1,27 @@
 (function () {
   var issues = {
+    "18": {
+      id: "18",
+      date: "2026.06.25",
+      title: "정원은 어떻게 기억의 도서관이 되는가",
+      href: "posts/issue-18-garden-memory-library.html",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Monet%20-%20Monets%20Garten%20in%20Giverny.jpg",
+      imageAlt: "클로드 모네의 The Artist's Garden at Giverny",
+      eyebrow: "Issue 18 · 정원과 기억의 아카이브",
+      byline: "Issue essay · 모네, 지베르니, 살아 있는 도서관",
+      tags: ["Issue 18", "Monet", "Giverny", "Garden", "Living Archive"],
+      info: ["2026.06.25", "Archive Essay"],
+      lede: "오늘의 전면은 Issue 18입니다. 정원은 자연 그대로의 풍경이 아니라, 계절과 손의 노동과 반복된 시선이 쌓이는 살아 있는 도서관입니다. 모네의 지베르니를 대표 이미지로 두고, 책장과 음반장이 어떻게 사라지는 시간을 다시 돌아올 수 있는 기억의 형식으로 바꾸는지 읽습니다.",
+      notes: "모네의 지베르니 정원을 대표 이미지로 두고, MONET 지베르니와 식물이라는 우주, 선면화의 세계를 함께 놓습니다. 음반은 프레슬러의 달빛과 하이팅크의 라벨을 곁에 두어, 색채와 기억과 반복의 시간이 어떻게 듣는 형식으로 이어지는지 살핍니다.",
+      rows: [
+        row("posts/issue-18-garden-memory-library.html", "https://commons.wikimedia.org/wiki/Special:FilePath/Monet%20-%20Monets%20Garten%20in%20Giverny.jpg", "Issue 18 대표 그림, 클로드 모네의 The Artist's Garden at Giverny", "정원은 어떻게 기억의 도서관이 되는가", "2026.06.25 Issue 18 · 모네의 지베르니와 책장, 음반장이 만드는 살아 있는 아카이브.", "Lead", "photo-thumb"),
+        row("posts/monet-giverny-flower-time.html", "https://image.aladin.co.kr/product/24379/2/cover500/k442630312_1.jpg", "MONET 지베르니, 꽃의 시간과 마주치다 표지", "MONET 지베르니, 꽃의 시간과 마주치다", "정원은 어떻게 회화의 실험실이 되는가.", "Book"),
+        row("posts/plant-universe-ahn.html", "https://image.aladin.co.kr/product/26799/70/cover500/k742730681_1.jpg", "식물이라는 우주 표지", "식물이라는 우주", "식물은 어떻게 느린 시간과 보이지 않는 질서를 만드는가.", "Book"),
+        row("posts/world-of-fan-painting-lee-insook.html", "https://image.aladin.co.kr/product/33837/97/cover500/k002930990_1.jpg", "선면화의 세계 표지", "선면화의 세계", "손에 쥐는 그림은 어떻게 계절과 바람을 품는가.", "Book"),
+        row("posts/pressler-clair-de-lune.html", "https://image.aladin.co.kr/product/29716/19/cover500/c392936345_1.jpg", "프레슬러의 Clair de lune 표지", "프레슬러의 달빛", "노년의 손끝이 색채를 회상이 아니라 판단으로 바꾸는 시간.", "Record"),
+        row("posts/haitink-ravel-daphnis.html", "https://image.aladin.co.kr/product/94/3/cover500/7949016760_1.jpg", "하이팅크 라벨 관현악곡집 표지", "하이팅크의 라벨", "색채가 구조가 되고 빛이 질서가 되는 관현악.", "Record")
+      ]
+    },
     "17": {
       id: "17",
       date: "2026.06.21",
@@ -534,7 +556,7 @@
     if (hashIssue) {
       renderIssue(hashIssue, { push: false, scroll: false });
     } else {
-      renderIssue("17", { push: false, scroll: false });
+      renderIssue("18", { push: false, scroll: false });
     }
 
     window.addEventListener("hashchange", function () {

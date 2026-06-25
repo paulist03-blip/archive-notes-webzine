@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387577512",
+      "rank": 1,
+      "title": "끝과 시작 (리커버)",
+      "metadata": "비스와바 쉼보르스카 지음, 최성은 옮김 | 문학과지성사",
+      "theme": "시/동유럽문학",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387577512",
+      "imageUrl": "https://image.aladin.co.kr/product/27453/6/cover500/8932038716_1.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/end-and-beginning-szymborska.html",
+      "label": "Poetry & Aftermath",
+      "subtitle": "전쟁 이후에도 시는 작은 질문으로 남는다.",
+      "review": "쉼보르스카의 시는 큰 역사와 죽음, 우연과 사랑을 과장된 목소리 대신 작고 정확한 질문으로 다룬다. 『끝과 시작』은 전쟁 이후의 세계, 일상의 아이러니, 지식의 겸손을 함께 읽게 하는 시선집이다."
+    },
+    {
       "id": "388491225",
       "rank": 1,
       "title": "아르세니예프의 생애",
@@ -1252,7 +1267,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387577512",
       "imageUrl": "https://image.aladin.co.kr/product/27453/6/cover500/8932038716_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/end-and-beginning-szymborska.html",
       "archiveReview": "쉼보르스카의 시는 거대한 역사 이후에도 남는 사물과 인간의 작은 아이러니를 붙잡는다. 무거운 시대를 너무 큰 목소리로 말하지 않는 법을 배울 수 있다.",
       "readWith": "체스와프 미워시 『끝없는 대화』, 즈비그니에프 헤르베르트 『헤르베르트 시선』, 한나 아렌트 『어두운 시대의 사람들』"
     },

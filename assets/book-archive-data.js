@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "385719446",
+      "rank": 1,
+      "title": "우리 시대의 동물 해방",
+      "metadata": "피터 싱어 지음, 김성한 옮김 | 연암서가",
+      "theme": "동물윤리/실천윤리",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385719446",
+      "imageUrl": "https://image.aladin.co.kr/product/35005/81/cover500/k852934880_1.jpg",
+      "sourcePage": 5,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/animal-liberation-now-singer.html",
+      "label": "Animal Ethics",
+      "subtitle": "고통을 셈하는 윤리는 왜 여전히 불편한가.",
+      "review": "피터 싱어는 『우리 시대의 동물 해방』에서 동물에 대한 감상적 호소보다 고통을 윤리적으로 고려해야 한다는 논리를 끝까지 밀고 간다. 식탁과 산업, 실험실과 습관을 함께 다시 묻게 하는 실천윤리 카드다."
+    },
+    {
       "id": "387504413",
       "rank": 1,
       "title": "사마천, 인간의 길을 묻다",
@@ -1752,7 +1767,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385719446",
       "imageUrl": "https://image.aladin.co.kr/product/35005/81/cover500/k852934880_1.jpg",
       "sourcePage": 5,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/animal-liberation-now-singer.html",
       "archiveReview": "동물 윤리를 감상적 선의가 아니라 고통, 권리, 생활 방식의 재검토로 끌어올리는 책이다. 피터 싱어의 문제 제기는 여전히 불편하고 중요하다.",
       "readWith": "피터 싱어 『동물 해방』, 톰 리건 『동물권 옹호』, 마사 누스바움 『Justice for Animals』"
     },

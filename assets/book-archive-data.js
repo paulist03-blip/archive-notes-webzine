@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "388491225",
+      "rank": 1,
+      "title": "아르세니예프의 생애",
+      "metadata": "이반 알렉세예비치 부닌 지음, 이항재 옮김 | 나남출판",
+      "theme": "러시아문학",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388491225",
+      "imageUrl": "https://image.aladin.co.kr/product/241/48/cover500/8930083307_1.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/life-of-arseniev-bunin.html",
+      "label": "Memory & Exile",
+      "subtitle": "망명자는 어떻게 기억으로 고향을 다시 쓴다.",
+      "review": "이반 부닌은 『아르세니예프의 생애』에서 줄거리보다 기억의 결을 통해 사라진 러시아, 유년, 첫 사랑, 망명자의 시간을 복원한다. 풍경과 문장이 어떻게 잃어버린 고향의 감각을 보존하는지 읽게 하는 러시아문학 카드다."
+    },
+    {
       "id": "388492213",
       "rank": 1,
       "title": "성리학의 개념들",
@@ -1197,7 +1212,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388491225",
       "imageUrl": "https://image.aladin.co.kr/product/241/48/cover500/8930083307_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/life-of-arseniev-bunin.html",
       "archiveReview": "부닌의 산문은 기억과 풍경이 인물의 생을 어떻게 보존하는지 보여준다. 러시아 문학의 서정적 회고와 망명의 감각을 함께 읽기에 좋다.",
       "readWith": "이반 부닌 『어두운 가로수길』, 블라디미르 나보코프 『말하라, 기억이여』, 마르셀 프루스트 『잃어버린 시간을 찾아서』"
     },

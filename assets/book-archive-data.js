@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "388492213",
+      "rank": 1,
+      "title": "성리학의 개념들",
+      "metadata": "몽배원 지음, 이기훈 외 옮김 | 예문서원",
+      "theme": "동아시아 사상",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388492213",
+      "imageUrl": "https://image.aladin.co.kr/product/238/26/cover500/8976462416_1.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/neo-confucian-concepts-meng.html",
+      "label": "Neo-Confucian Concepts",
+      "subtitle": "사유는 어떻게 짝을 이루어 세계를 세우는가.",
+      "review": "몽배원은 성리학을 도덕 교훈의 묶음이 아니라 리와 기, 성과 정, 심과 성, 천리와 인욕 같은 개념쌍의 체계로 읽게 한다. 동아시아 사유를 분위기나 전통의 이름으로 뭉개지 않고, 정교한 개념 구조로 다시 보게 하는 책이다."
+    },
+    {
       "id": "388492182",
       "rank": 1,
       "title": "리바이어던의 논리",
@@ -1113,9 +1128,10 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388492213",
       "imageUrl": "https://image.aladin.co.kr/product/238/26/cover500/8976462416_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/neo-confucian-concepts-meng.html",
       "archiveReview": "성리학을 도덕 교훈의 뭉치가 아니라 정교한 개념 체계로 읽게 하는 책이다. 리, 기, 심성의 말들이 어떤 세계관을 구성하는지 추적하기 좋다.",
-      "readWith": "한스게오르크 가다머 『진리와 방법』, 질 들뢰즈 『주름, 라이프니츠와 바로크』, 윌리엄 제임스 『종교적 경험의 다양성』"
+      "readWith": "주희·여조겸 『근사록』, 이황 『성학십도』, 이이 『성학집요』"
     },
     {
       "id": "388492193",

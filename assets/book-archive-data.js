@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387577330",
+      "rank": 1,
+      "title": "MONET 지베르니, 꽃의 시간과 마주치다",
+      "metadata": "김려원 지음 | 감성기록",
+      "theme": "미술/인상주의",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387577330",
+      "imageUrl": "https://image.aladin.co.kr/product/24379/2/cover500/k442630312_1.jpg",
+      "sourcePage": 4,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/monet-giverny-flower-time.html",
+      "label": "Monet & Giverny",
+      "subtitle": "정원은 어떻게 회화의 실험실이 되는가.",
+      "review": "김려원은 모네의 지베르니를 여행지의 풍경이 아니라 빛, 물, 꽃, 계절, 반복의 회화적 장치로 읽게 한다. 이 책은 익숙한 수련 이미지를 다시 시간과 시각의 문제로 돌려놓는 미술 산문이다."
+    },
+    {
       "id": "387577512",
       "rank": 1,
       "title": "끝과 시작 (리커버)",
@@ -1307,7 +1322,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387577330",
       "imageUrl": "https://image.aladin.co.kr/product/24379/2/cover500/k442630312_1.jpg",
       "sourcePage": 4,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/monet-giverny-flower-time.html",
       "archiveReview": "모네의 지베르니를 한 화가의 정원이 아니라 빛, 반복, 말년의 시각 실험이 응축된 장소로 보게 한다. 그림과 장소가 서로를 만드는 방식을 읽기 좋다.",
       "readWith": "T. J. 클라크 『현대생활의 회화』, 로스 킹 『모네의 수련』, 존 리월드 『인상주의의 역사』"
     },

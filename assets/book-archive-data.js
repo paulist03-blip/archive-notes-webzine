@@ -12,6 +12,21 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "389004104",
+      "rank": 1,
+      "title": "정사 삼국지 : 위서 2",
+      "metadata": "진수 지음, 김원중 옮김 | 휴머니스트",
+      "theme": "사료/동아시아사",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004104",
+      "imageUrl": "https://image.aladin.co.kr/product/11380/18/cover500/k012532829_1.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/records-of-three-kingdoms-wei-2.html",
+      "label": "Records & Power",
+      "subtitle": "영웅담을 벗기면 제도와 판단이 남는다.",
+      "review": "진수의 『정사 삼국지 : 위서 2』는 익숙한 삼국지의 영웅담을 걷어내고 사료, 제도, 관직, 권력 판단의 층위를 보게 한다. 조조와 위나라를 선악의 서사보다 국가 재편의 문제로 읽게 하는 동아시아 사료 독서다."
+    },
+    {
       "id": "387577330",
       "rank": 1,
       "title": "MONET 지베르니, 꽃의 시간과 마주치다",
@@ -1107,7 +1122,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004104",
       "imageUrl": "https://image.aladin.co.kr/product/11380/18/cover500/k012532829_1.jpg",
       "sourcePage": 3,
-      "reviewStatus": "리뷰 큐",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/records-of-three-kingdoms-wei-2.html",
       "archiveReview": "소설적 삼국지가 아니라 사료로서의 삼국지를 읽는 일은 영웅을 덜어내고 제도와 판단의 흔적을 보는 일이다. 이야기의 쾌감보다 기록의 건조함이 더 많은 질문을 만든다.",
       "readWith": "사마천 『사기열전』, 나관중 『삼국지연의』, 레이프 드 크레스피니 『Imperial Warlord』"
     },

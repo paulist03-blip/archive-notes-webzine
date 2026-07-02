@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>데일리 AI 업무 웹진 - 2026-06-17</title>
+  <style>
+    :root {
+      --bg: #f5f1e8;
+      --panel: #fffdf8;
+      --ink: #1f2933;
+      --muted: #5f6c7b;
+      --line: #ddd4c5;
+      --accent: #b34a2e;
+      --accent-soft: #f7e1d8;
+      --ok: #155e63;
+      --warn: #8a4b00;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top right, #f9d8c7 0, transparent 28%),
+        linear-gradient(180deg, #f7f2e9 0%, #f2eee6 100%);
+      line-height: 1.7;
+    }
+    .wrap {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 24px 16px 56px;
+    }
+    .hero, .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: 0 10px 30px rgba(54, 39, 25, 0.06);
+    }
+    .hero {
+      padding: 28px 22px;
+      margin-bottom: 16px;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    h1, h2, h3 { margin: 0; }
+    h1 {
+      margin-top: 12px;
+      font-size: 32px;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+    }
+    .subtitle {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .grid {
+      display: grid;
+      gap: 16px;
+    }
+    .card {
+      padding: 22px;
+    }
+    .section-title {
+      font-size: 22px;
+      line-height: 1.3;
+      margin-bottom: 14px;
+      letter-spacing: -0.02em;
+    }
+    .key-lines {
+      margin: 16px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .key-lines li {
+      padding: 12px 0;
+      border-top: 1px solid var(--line);
+      font-weight: 600;
+    }
+    .key-lines li:first-child { border-top: 0; padding-top: 0; }
+    .tag {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--ok);
+      background: #dff4f1;
+      border-radius: 999px;
+      padding: 6px 10px;
+    }
+    .item {
+      padding: 16px 0;
+      border-top: 1px solid var(--line);
+    }
+    .item:first-of-type { border-top: 0; padding-top: 0; }
+    .item h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+    p { margin: 0 0 10px; }
+    ul {
+      margin: 10px 0 0 18px;
+      padding: 0;
+    }
+    li { margin: 6px 0; }
+    .action, .warning {
+      border-left: 4px solid var(--accent);
+      padding-left: 14px;
+    }
+    .warning { border-left-color: var(--warn); }
+    a {
+      color: #0f4c81;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+    .sources a {
+      word-break: break-word;
+    }
+    .small {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 640px) {
+      .wrap { padding: 16px 12px 44px; }
+      .hero, .card { border-radius: 18px; }
+      .hero, .card { padding: 18px; }
+      h1 { font-size: 26px; }
+      .section-title { font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <span class="eyebrow">데일리 AI 업무 웹진</span>
+      <h1>이메일, 브라우저, 디자인까지<br>AI가 기존 업무 화면 안으로 들어오는 날</h1>
+      <p class="subtitle">발행일: 2026-06-17 · 대상 독자: 1인 사업가, 프리랜서, 소규모 팀 대표</p>
+      <ul class="key-lines">
+        <li>ChatGPT가 이제 연결된 Gmail·Outlook으로 메일 초안을 만들고 바로 보내는 흐름까지 지원합니다.</li>
+        <li>Google·Notion·Canva의 최근 업데이트 핵심은 “새 툴 추가”보다 “기존 작업 화면 안에서 끝내기”입니다.</li>
+        <li>가격 인상·인하보다 플랜 제한, 권한 설정, 개인정보 범위가 실제 도입 판단의 핵심 변수였습니다.</li>
+      </ul>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <div class="tag">메인 뉴스</div>
+        <h2 class="section-title">ChatGPT가 메일 전송과 장문 문서 작업을 한 화면에서 묶기 시작했습니다</h2>
+        <p class="meta">공식 출처: OpenAI Help Center · 2026-06-08</p>
+        <p>OpenAI는 6월 8일 릴리스 노트에서 두 가지를 같이 밀었습니다. 첫째, Gmail 또는 Outlook을 연결한 사용자는 채팅 안에서 메일 초안을 만들고 그대로 보낼 수 있습니다. 둘째, 긴 글 작업을 위한 전체 화면 편집기, 문서 저장, 목차, 다운로드까지 붙였습니다.</p>
+        <p>비개발자에게 중요한 이유는 단순합니다. “초안 작성은 AI, 발송은 메일 앱, 정리는 문서 앱”으로 나뉘던 흐름이 한 대화 안으로 줄어들기 때문입니다. 제안서 후속 메일, 고객 응답, 간단한 리포트 작성 같은 반복 업무에서 체감이 큽니다.</p>
+        <p class="small">사용 가능 범위: 메일 전송은 웹에서 Plus, Pro, Business, Enterprise 사용자 중 Gmail·Outlook 연결 계정 대상. 차트/장문 편집은 웹·모바일 전반에 순차 반영.</p>
+      </section>
+
+      <section class="card">
+        <h2 class="section-title">써볼 만한 업데이트</h2>
+
+        <article class="item">
+          <h3>1. Google Gemini in Chrome이 더 넓은 지역과 언어로 확대</h3>
+          <p class="meta">Google Workspace Updates · 2026-06-16</p>
+          <p>브라우저 옆 패널에서 열린 탭을 요약하고, 이메일·SNS 문구를 만들고, Gemini Live로 아이디어를 정리하는 흐름이 확대됐습니다. 브라우저를 떠나지 않고 조사-요약-초안 작성까지 이어지는 점이 핵심입니다.</p>
+          <p class="small">가용 범위: 모든 Google Workspace 플랜, Workspace Individual, 개인 Google 계정. ChromeOS·macOS·Windows 대상.</p>
+        </article>
+
+        <article class="item">
+          <h3>2. Notion이 Custom Agent를 Slack 비공개 채널까지 확장</h3>
+          <p class="meta">Notion Releases · 2026-05-01</p>
+          <p>이제 Notion Custom Agent가 초대된 비공개 Slack 채널의 내용을 읽고 답변할 수 있습니다. 내부 대화 요약, 고객 이슈 정리, 반복 질문 응답 자동화에 직접 연결됩니다.</p>
+          <p class="small">의미: “노션 안의 지식”만 보던 에이전트가 실제 팀 대화 흐름까지 들어오기 시작했다는 신호입니다.</p>
+        </article>
+
+        <article class="item">
+          <h3>3. Notion은 에이전트 운영 통제도 강화했습니다</h3>
+          <p class="meta">Notion Releases · 2026-05-05 ~ 2026-05-07</p>
+          <p>관리자는 에이전트 생성 권한, 에이전트별 크레딧 한도, 사용 추이, 과소비 알림을 볼 수 있고, Plan Mode로 큰 변경 전에 질문과 실행 계획을 먼저 받게 할 수 있습니다.</p>
+          <p class="small">소규모 팀 포인트: “자동화는 좋은데 비용·오작동이 걱정”인 팀에 필요한 최소한의 안전장치가 붙었습니다.</p>
+        </article>
+
+        <article class="item">
+          <h3>4. Canva가 ChatGPT와 Gemini 안에서 ‘수정 가능한 디자인’으로 더 깊게 들어왔습니다</h3>
+          <p class="meta">Canva Newsroom · 최신 공개 글 기준 확인</p>
+          <p>Canva는 ChatGPT 안에서 디자인 생성·미리보기·텍스트 수정까지 지원하고, Gemini 안에서도 계정 연결 후 디자인 생성, 기존 자료 검색·요약, 슬라이드 일괄 수정, 플랫폼별 리사이즈를 지원한다고 밝혔습니다.</p>
+          <p>특히 Magic Layers는 AI가 만든 이미지를 평면 파일이 아니라 편집 가능한 레이어 디자인으로 바꿔줘, “이미지 생성은 됐는데 수정이 막막한” 문제를 줄여줍니다.</p>
+          <p class="small">가용 범위 메모: Canva는 Magic Layers가 Gemini와 ChatGPT 안에서 모든 사용자에게 제공된다고 안내했지만, ChatGPT 전체 디자인 기능은 Free·Plus·Pro 대상이며 EU 외 지역부터 순차 롤아웃이라고 별도 명시했습니다.</p>
+        </article>
+
+        <article class="item">
+          <h3>5. Canva의 5월 묶음 업데이트는 ‘콘텐츠 후반 작업’ 시간을 줄이는 쪽에 집중</h3>
+          <p class="meta">Canva Newsroom · May 2026 round-up</p>
+          <p>Magic Eraser 품질 개선, 사람 얼굴 지원이 들어간 Image to Video, 모바일 웹사이트 실시간 미리보기, 브랜드 컬러 테마, 발표자 노트 강화가 포함됐습니다. 겉보기엔 잔기능 같지만, 실무에서는 수정·검수 시간을 줄이는 업데이트입니다.</p>
+        </article>
+      </section>
+
+      <section class="card">
+        <h2 class="section-title">바로 해볼 액션</h2>
+        <div class="action">
+          <ul>
+            <li>ChatGPT를 쓰고 있다면 Gmail 또는 Outlook 연결 후 “지난주 미응답 고객에게 후속 메일 초안 3개 작성”부터 테스트해보세요.</li>
+            <li>Chrome 사용자는 Gemini in Chrome으로 경쟁사 사이트 3개를 열고 “공통 메시지와 차별점 표로 정리”를 시도해보세요.</li>
+            <li>Notion을 쓰는 팀은 비공개 Slack 채널 하나만 골라 Custom Agent를 붙이고, FAQ 또는 회의 요약 용도로 좁게 시작하세요.</li>
+            <li>Canva 사용자는 ChatGPT나 Gemini에서 만든 이미지를 바로 `@Canva`로 넘겨 레이어 편집 가능한 상태로 바꿔보세요.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 class="section-title">주의할 점</h2>
+        <div class="warning">
+          <ul>
+            <li>메일 전송, 브라우저 요약, Slack 연동은 모두 권한 범위가 핵심입니다. 연결만 해두고 관리 정책을 안 보면 과공유 위험이 생깁니다.</li>
+            <li>Notion 에이전트와 Canva 디자인 연동은 편하지만, 팀 자료를 외부 AI 인터페이스에서 탐색하게 되는 구조라 접근 권한을 먼저 점검해야 합니다.</li>
+            <li>이번 확인 범위에서 “최근 공식 가격 인상·인하”는 뚜렷하게 검증된 항목이 적었습니다. 플랜 제한은 확인됐지만 가격 변화는 별도 재확인이 안전합니다.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card sources">
+        <h2 class="section-title">출처 링크</h2>
+        <ul>
+          <li><a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">OpenAI Help Center - ChatGPT Release Notes</a></li>
+          <li><a href="https://workspaceupdates.googleblog.com/">Google Workspace Updates Blog</a></li>
+          <li><a href="https://www.notion.com/releases">Notion - What's New</a></li>
+          <li><a href="https://www.canva.com/newsroom/news/deep-research-integration-mcp-server/">Canva inside ChatGPT and Codex</a></li>
+          <li><a href="https://www.canva.com/newsroom/news/google-gemini/">Canva inside Google Gemini</a></li>
+          <li><a href="https://www.canva.com/newsroom/news/magic-layers-ai-assistants/">Canva Magic Layers in ChatGPT and Gemini</a></li>
+          <li><a href="https://www.canva.com/newsroom/news/whats-new-may-2026/">Canva What's New - May 2026</a></li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2 class="section-title">확인 필요 목록</h2>
+        <ul>
+          <li>Canva 뉴스룸 개별 글의 게시일은 본문 화면에서 일관되게 노출되지 않아, 최신 공개 순서와 본문 표현 기준으로 해석했습니다.</li>
+          <li>Canva의 ChatGPT 전체 디자인 기능과 Magic Layers의 지역별 예외 범위는 문구가 나뉘어 있어 실제 계정별 노출은 재확인이 필요합니다.</li>
+          <li>오늘 기준 공식 가격표에서 “최근 변경”이 명확히 확인된 항목은 이번 큐레이션에 포함하지 않았습니다.</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

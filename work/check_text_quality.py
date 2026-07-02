@@ -34,6 +34,21 @@ CHECKS: list[tuple[str, re.Pattern[str], str]] = [
     ("double-space", re.compile(r"[가-힣A-Za-z0-9][ \t]{2,}[가-힣A-Za-z0-9]"), "double spaces inside visible text"),
     ("empty-parens", re.compile(r"\(\s*\)|\[\s*\]"), "empty brackets"),
     ("repeated-word", re.compile(r"\b([A-Za-z가-힣]{2,})[ \t]+\1\b"), "repeated word"),
+    (
+        "local-inventory-source",
+        re.compile(
+            r"로컬\s*(?:인벤토리|판매|Bernstein|메타데이터|metadata|검증|curated)"
+            r"|Local\s+(?:Bernstein|seller inventory|shop cache)"
+            r"|알라딘\s*(?:재고|물리 재고)"
+            r"|(?:판매|물리|수입 CD)\s*재고"
+            r"|재고명"
+            r"|소장\s*메모"
+            r"|중고\s*[-–]?\s*(?:최상|상)"
+            r"|판매가"
+            r"|가격\s*[:：]"
+        ),
+        "local inventory, seller, price, or condition wording in public review text",
+    ),
 ]
 
 

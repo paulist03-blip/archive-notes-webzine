@@ -12,6 +12,21 @@ Static webzine archive for books, records, art notes, and daily AI work essays.
 - `posts/`: article pages
 - `assets/`: styles, scripts, fonts, and local images
 
+## Editorial Rules
+
+- Book and record reviews must not use local inventory data as review material.
+  Do not check, cite, or summarize local stock exports, seller pages, used-shop
+  state, price, sale status, copy condition, or possession notes unless the user
+  explicitly asks for inventory work.
+- Reviews should be based on the work itself: argument, structure, edition or
+  translation context for books; performance, interpretation, recording history,
+  label data, and repertoire context for records.
+- Retailer or catalog pages may be used only to confirm basic bibliographic
+  metadata or obtain a usable cover image. They must not shape the review's
+  critical claims.
+- Public article text should not include phrases such as price, sale price,
+  stock, used, best condition, good condition, or ownership memo.
+
 ## Publishing Routine
 
 1. Edit article files in `posts/` and update the relevant index/archive pages.

@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>페팃의 신공화주의 깊이 읽기 - Paul Archive Notes</title>
+  <meta name="description" content="필립 페팃의 신공화주의와 비지배 자유를 장별 독해, 논쟁 지도, 핵심 논문 바로가기로 읽는 Paul Archive Notes 별도 리포트." />
+  <style>
+    @font-face {
+      font-family: "MaruBuri";
+      src: url("assets/fonts/maruburi-Regular.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "MaruBuri";
+      src: url("assets/fonts/maruburi-Semibold.woff2") format("woff2");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --paper: #f6f0e5;
+      --paper-deep: #ece1d0;
+      --ink: #1d1a17;
+      --muted: #665b50;
+      --line: #d6c8b6;
+      --accent: #7d2c22;
+      --green: #1f302c;
+      --green-soft: #dfe8e1;
+      --shadow: 0 18px 60px rgba(29, 26, 23, 0.13);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "MaruBuri", "Noto Serif KR", "Apple SD Gothic Neo", serif;
+      line-height: 1.82;
+      letter-spacing: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration-color: rgba(125, 44, 34, 0.38);
+      text-underline-offset: 0.22em;
+    }
+
+    a:hover {
+      color: var(--accent);
+      text-decoration-color: var(--accent);
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 24px;
+      padding: 18px 34px;
+      border-bottom: 1px solid rgba(214, 200, 182, 0.76);
+      background: rgba(246, 240, 229, 0.92);
+      backdrop-filter: blur(14px);
+    }
+
+    .topbar a {
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .brand {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .topbar-side {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+    }
+
+    .topbar-side:last-child {
+      justify-content: flex-end;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+      min-height: calc(100vh - 65px);
+    }
+
+    .side-panel {
+      position: sticky;
+      top: 65px;
+      height: calc(100vh - 65px);
+      padding: 32px 24px 28px 34px;
+      border-right: 1px solid var(--line);
+      overflow: auto;
+      background: linear-gradient(180deg, #f9f4eb 0%, #efe3d2 100%);
+    }
+
+    .side-label {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .side-title {
+      margin: 0 0 20px;
+      font-size: 26px;
+      line-height: 1.24;
+    }
+
+    .side-block {
+      padding: 18px 0;
+      border-top: 1px solid rgba(125, 44, 34, 0.22);
+    }
+
+    .side-block h2 {
+      margin: 0 0 12px;
+      font-size: 14px;
+      color: var(--green);
+    }
+
+    .side-block nav,
+    .source-list {
+      display: grid;
+      gap: 9px;
+    }
+
+    .side-block a {
+      display: block;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .chip {
+      display: inline-flex;
+      padding: 5px 8px 4px;
+      border: 1px solid rgba(31, 48, 44, 0.2);
+      border-radius: 999px;
+      background: rgba(255, 253, 248, 0.62);
+      color: var(--green);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .main {
+      min-width: 0;
+    }
+
+    .hero {
+      min-height: 76vh;
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(360px, 0.72fr);
+      gap: 48px;
+      align-items: center;
+      padding: 70px min(7vw, 92px) 56px;
+      border-bottom: 1px solid var(--line);
+      background:
+        linear-gradient(90deg, rgba(246, 240, 229, 0.96), rgba(246, 240, 229, 0.82)),
+        radial-gradient(circle at 82% 18%, rgba(125, 44, 34, 0.16), transparent 34%),
+        linear-gradient(180deg, #faf6ef, var(--paper));
+    }
+
+    .eyebrow {
+      margin: 0 0 18px;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 780px;
+      font-size: clamp(42px, 6vw, 84px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .lede {
+      margin: 28px 0 0;
+      max-width: 760px;
+      color: #342f29;
+      font-size: 20px;
+      line-height: 1.85;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 26px;
+    }
+
+    .hero-meta span {
+      padding: 6px 10px 5px;
+      border: 1px solid rgba(125, 44, 34, 0.26);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .map-card {
+      border: 1px solid rgba(214, 200, 182, 0.9);
+      border-radius: 8px;
+      background: #fffdf8;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .map-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .map-caption {
+      margin: 0;
+      padding: 16px 18px 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .content {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 64px min(7vw, 92px) 90px;
+    }
+
+    .section {
+      scroll-margin-top: 90px;
+      padding: 52px 0;
+      border-bottom: 1px solid rgba(214, 200, 182, 0.82);
+    }
+
+    .section:first-child {
+      padding-top: 0;
+    }
+
+    h2 {
+      margin: 0 0 24px;
+      color: var(--green);
+      font-size: clamp(27px, 3.2vw, 42px);
+      line-height: 1.24;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 36px 0 12px;
+      font-size: 24px;
+      line-height: 1.38;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 18px;
+      font-size: 17px;
+    }
+
+    .standfirst {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 253, 248, 0.74);
+    }
+
+    .standfirst p {
+      font-size: 19px;
+    }
+
+    .reading-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin: 26px 0 8px;
+    }
+
+    .reading-card,
+    .debate-card,
+    .prompt-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 253, 248, 0.72);
+    }
+
+    .reading-card {
+      padding: 22px;
+    }
+
+    .reading-card .num {
+      display: inline-block;
+      margin-bottom: 12px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .reading-card h3 {
+      margin: 0 0 10px;
+      font-size: 21px;
+    }
+
+    .reading-card p,
+    .debate-card p,
+    .prompt-card p {
+      color: #3f3831;
+      font-size: 15px;
+      line-height: 1.78;
+    }
+
+    .debate-list {
+      display: grid;
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .debate-card {
+      display: grid;
+      grid-template-columns: minmax(150px, 0.28fr) minmax(0, 1fr);
+      gap: 22px;
+      padding: 22px;
+    }
+
+    .debate-card strong {
+      color: var(--accent);
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    .inline-note {
+      margin: 26px 0;
+      padding: 20px 22px;
+      border-left: 4px solid var(--accent);
+      background: rgba(236, 225, 208, 0.55);
+      color: #403830;
+      font-size: 16px;
+    }
+
+    .prompt-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .prompt-card {
+      padding: 20px;
+    }
+
+    .source-table {
+      display: grid;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .source-row {
+      display: grid;
+      grid-template-columns: minmax(180px, 0.33fr) minmax(0, 1fr);
+      gap: 18px;
+      padding: 18px 0;
+      border-top: 1px solid rgba(214, 200, 182, 0.8);
+    }
+
+    .source-row strong {
+      color: var(--green);
+      font-size: 15px;
+    }
+
+    .source-row p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer {
+      padding: 36px min(7vw, 92px);
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 1040px) {
+      .layout {
+        display: block;
+      }
+
+      .side-panel {
+        position: relative;
+        top: auto;
+        height: auto;
+        padding: 24px;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .side-block nav,
+      .source-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        min-height: 0;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .topbar {
+        grid-template-columns: 1fr;
+        padding: 14px 18px;
+      }
+
+      .topbar-side {
+        justify-content: center;
+      }
+
+      .topbar-side:last-child {
+        justify-content: center;
+      }
+
+      .brand {
+        text-align: center;
+      }
+
+      .hero,
+      .content {
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+
+      .side-block nav,
+      .source-list,
+      .reading-grid,
+      .prompt-grid,
+      .debate-card,
+      .source-row {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 42px;
+      }
+
+      .lede,
+      .standfirst p {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-side">
+      <a href="index.html#contribution">오늘의 기고</a>
+      <a href="archive.html#contribution-archive">기고 아카이브</a>
+    </div>
+    <a class="brand" href="index.html">Paul Archive Notes</a>
+    <div class="topbar-side">
+      <a href="posts/pettit-neorepublicanism-nondomination.html">기존 리뷰</a>
+      <a href="archive.html">Archive</a>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="side-panel" aria-label="페팃 신공화주의 읽기 패널">
+      <p class="side-label">Deep Reading Panel</p>
+      <h2 class="side-title">페팃을 읽기 위한 좌측 책상</h2>
+
+      <div class="side-block">
+        <h2>읽기 지도</h2>
+        <nav aria-label="문서 목차">
+          <a href="#thesis">핵심 논제</a>
+          <a href="#frame">독해 전제</a>
+          <a href="#chapters">장별 세부 독해</a>
+          <a href="#debates">논쟁 지도</a>
+          <a href="#applications">오늘의 적용</a>
+          <a href="#seminar">세미나 질문</a>
+          <a href="#sources">자료 바로가기</a>
+        </nav>
+      </div>
+
+      <div class="side-block">
+        <h2>논문·자료 바로가기</h2>
+        <div class="source-list">
+          <a href="https://ppettit.scholar.princeton.edu/books">Pettit 공식 저서 목록</a>
+          <a href="https://ppettit.scholar.princeton.edu/publications/freedom-antipower">Freedom as Antipower</a>
+          <a href="https://ppettit.scholar.princeton.edu/publications/keeping-republican-freedom-simple-difference-quentin-skinner">Skinner 논쟁</a>
+          <a href="https://ppettit.scholar.princeton.edu/publications/neorepublicanism-normative-and-institutional-research-program">Lovett/Pettit 2009</a>
+          <a href="https://ppettit.scholar.princeton.edu/papers?page=1">Pettit 논문 목록 2</a>
+          <a href="https://ppettit.scholar.princeton.edu/papers?page=2">Pettit 논문 목록 3</a>
+          <a href="https://plato.stanford.edu/entries/republicanism/">SEP Republicanism</a>
+          <a href="posts/pettit-neorepublicanism-nondomination.html">Paul Archive 기존 리뷰</a>
+        </div>
+      </div>
+
+      <div class="side-block">
+        <h2>핵심 쟁점</h2>
+        <div class="chips" aria-label="핵심 쟁점">
+          <span class="chip">비간섭 vs 비지배</span>
+          <span class="chip">자의적 권력</span>
+          <span class="chip">통제 가능성</span>
+          <span class="chip">법과 자유</span>
+          <span class="chip">이의제기 민주주의</span>
+          <span class="chip">사적 지배</span>
+          <span class="chip">시장과 노동</span>
+          <span class="chip">세계화와 플랫폼</span>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Philip Pettit · Republicanism · Deep Reading</p>
+          <h1 id="page-title">페팃의 신공화주의 깊이 읽기</h1>
+          <p class="lede">
+            자유를 “간섭받지 않음”으로만 이해하면 보이지 않는 권력이 남는다.
+            페팃은 그 빈칸을 “비지배”라는 말로 다시 연다. 이 페이지는
+            <em>Republicanism</em>을 중심에 두되, 후속 저작과 주요 논쟁 논문을 함께 놓고
+            장별 독해, 쟁점 지도, 오늘의 적용까지 한 자리에서 읽는 배포형 리포트다.
+          </p>
+          <div class="hero-meta" aria-label="문서 메타데이터">
+            <span>2026.06.25</span>
+            <span>오늘의 기고 확장판</span>
+            <span>전문 공개</span>
+            <span>좌측 논문 패널 포함</span>
+          </div>
+        </div>
+        <figure class="map-card">
+          <img src="assets/pettit-liberty-map.svg" alt="페팃 신공화주의 개념 지도" />
+          <figcaption class="map-caption">
+            비지배 자유를 중심으로 법, 사적 지배, 이의제기 민주주의, 시장과 노동의 논쟁이 어떻게 연결되는지 시각화한 Paul Archive Notes 제작 개념도.
+          </figcaption>
+        </figure>
+      </section>
+
+      <article class="content">
+        <section class="section" id="thesis">
+          <div class="standfirst">
+            <p>
+              페팃의 신공화주의가 던지는 가장 날카로운 문장은 간단하다.
+              누군가가 실제로 나를 방해하지 않았더라도, 그가 원하면 언제든 내 삶에
+              임의로 개입할 수 있고 나는 그 힘을 통제할 수 없다면 나는 자유롭지 않다.
+              자유의 반대말은 단순한 간섭이 아니라 지배다.
+            </p>
+          </div>
+          <p>
+            <em>Republicanism: A Theory of Freedom and Government</em>는 자유주의 정치철학의
+            익숙한 전제를 정면에서 다시 묻는다. 자유가 간섭의 부재라면 좋은 정치는
+            간섭을 줄이는 기술이 된다. 그러나 자유가 지배의 부재라면 좋은 정치는
+            권력을 통제 가능하게 만들고, 권력의 영향을 받는 사람이 이유를 요구할 수 있게 하며,
+            누구도 타인의 호의에 생계와 안전을 맡기지 않도록 제도를 짜는 일이다.
+          </p>
+          <p>
+            이 차이는 추상적인 말장난이 아니다. 자비로운 주인은 노예를 때리지 않을 수 있다.
+            친절한 상사는 부하 직원을 존중할 수 있다. 플랫폼은 오늘 내 계정을 정지하지 않을 수 있다.
+            하지만 그 관계가 여전히 한쪽의 기분, 재량, 불투명한 규칙에 달려 있다면
+            간섭은 없었어도 지배는 남아 있다. 페팃은 자유를 선택의 심리적 느낌이 아니라
+            사회적 지위로 돌려놓는다. 자유로운 사람은 좋은 주인을 만난 사람이 아니라
+            주인을 갖지 않는 사람이다.
+          </p>
+        </section>
+
+        <section class="section" id="frame">
+          <p>
+            여기서의 “장별 독해”는 원서의 장 제목을 기계적으로 옮기는 방식이 아니다.
+            페팃의 핵심 저작 <em>Republicanism</em>과 후속 논문, <em>On the People’s Terms</em>,
+            <em>Just Freedom</em>으로 이어지는 문제의식을 독해 단위별로 재배치한 것이다.
+            따라서 각 장은 실제 목차의 요약이라기보다 한국어 독자가 이 사상을 자기 문제로 읽기 위한
+            정밀한 읽기 순서에 가깝다.
+          </p>
+          <p>
+            첫 번째 전제는 비간섭 자유를 폐기하지 않는다는 점이다. 페팃은 간섭이 중요하지 않다고 말하지 않는다.
+            그는 간섭만으로 자유를 측정하면 권력관계의 더 깊은 층을 놓친다고 말한다.
+            두 번째 전제는 권력이 모두 나쁜 것은 아니라는 점이다. 의사의 진료, 법원의 판결,
+            교통 규칙, 세금, 노동 규제는 모두 어떤 의미에서 간섭이다. 그러나 그것이 공적으로 통제되고,
+            설명 가능하며, 영향을 받는 사람이 이의를 제기할 수 있다면 지배가 아니라 비지배의 조건이 될 수 있다.
+          </p>
+          <p>
+            세 번째 전제는 민주주의를 선거 이후까지 확장해야 한다는 점이다. 페팃에게 시민은 투표일의 숫자가 아니다.
+            시민은 통치가 행사되는 동안에도 설명을 요구하고, 절차를 고치고, 잘못된 결정을 문제 삼을 수 있어야 한다.
+            이 때문에 그의 민주주의론은 대표와 다수결만큼이나 견제, 감사, 사법 심사, 공론장,
+            시민단체, 언론, 노동조합, 정보공개 같은 장치를 중요하게 본다.
+          </p>
+          <p class="inline-note">
+            이 페이지의 독해 방식은 페팃을 “작은 정부 대 큰 정부”의 낡은 대립으로 읽지 않는다.
+            중요한 질문은 국가가 크냐 작으냐가 아니라, 공적 권력과 사적 권력 모두가 시민의 통제 아래 놓이는가다.
+          </p>
+        </section>
+
+        <section class="section" id="chapters">
+          <div class="reading-grid">
+            <section class="reading-card">
+              <span class="num">01</span>
+              <p>
+                자비로운 주인의 함정. 페팃을 여는 가장 중요한 사례는 실제 간섭이 없는 종속이다. 주인이 노예를 때리지 않더라도,
+                노예가 주인의 기분을 살피며 살아야 한다면 자유는 없다. 이 장의 핵심은 자유를 사건이 아니라
+                관계로 옮기는 데 있다.
+              </p>
+            </section>
+            <section class="reading-card">
+              <span class="num">02</span>
+              <p>
+                비간섭 자유의 불안정성. 간섭 없음은 운이 좋으면 얻어질 수 있다. 그러나 운 좋은 상태는 지위가 아니다.
+                권력자가 선의를 거두는 순간 자유가 사라진다면, 그 자유는 아직 제도적으로 확보되지 않았다.
+                페팃의 비판은 바로 이 불안정성을 겨냥한다.
+              </p>
+            </section>
+            <section class="reading-card">
+              <span class="num">03</span>
+              <p>
+                자의성은 변덕만이 아니다. 자의적 권력은 충동적이거나 불규칙한 권력만 뜻하지 않는다.
+                매우 예측 가능하고 규칙적인 권력도 영향을 받는 사람의 이해와 목소리에 응답하지 않으면 자의적이다.
+                중요한 기준은 그 권력이 통제되는가다.
+              </p>
+            </section>
+            <section class="reading-card">
+              <span class="num">04</span>
+              <p>
+                법은 간섭이면서 자유의 조건이다. 법은 행동을 제한한다는 점에서 간섭이다. 그러나 법이 고용주, 임대인, 가해자, 행정기관의
+                임의 권력을 묶는다면 자유의 적이 아니라 자유의 인프라가 된다. 문제는 법의 양이 아니라
+                법이 지배를 줄이는 방식으로 통제되는가다.
+              </p>
+            </section>
+            <section class="reading-card">
+              <span class="num">05</span>
+              <p>
+                헌정주의와 권력 분산. 좋은 공화국은 착한 권력자를 기다리지 않는다. 권한은 나뉘고, 절차는 공개되고,
+                결정은 사후 심사 가능해야 한다. 헌정주의는 권력자를 믿지 않기 위한 불신의 장치라기보다
+                시민을 권력자의 호의에서 분리하는 설계다.
+              </p>
+            </section>
+            <section class="reading-card">
+              <span class="num">06</span>
+              <p>
+                선거 이후의 민주주의. 선거는 권력을 구성하지만 권력의 모든 행사를 정당화하지 않는다.
+                페팃의 이의제기 민주주의는 시민이 통치 과정에서 이유를 요구하고,
+                결정에 항의하며, 제도를 수정할 수 있는 통로를 민주주의의 본체로 본다.
+              </p>
+            </section>
+            <section class="reading-card">
+              <span class="num">07</span>
+              <p>
+                사적 지배의 정치화. 가정, 직장, 임대차, 플랫폼, 학교, 금융은 국가 밖에 있지만 정치적이다.
+                이곳에서 한쪽이 다른 쪽의 시간, 안전, 평판, 이동, 발화를 일방적으로 좌우할 수 있다면
+                국가는 물러섰지만 자유는 늘지 않는다.
+              </p>
+            </section>
+            <section class="reading-card">
+              <span class="num">08</span>
+              <p>
+                시장과 거절할 힘. 계약이 형식적으로 자유롭더라도 거절 비용이 지나치게 높으면 지배가 남는다.
+                노동권, 기본소득, 주거 안정, 독점 규제, 데이터 권리는 모두 “선택할 자유”보다 앞서
+                “거절해도 무너지지 않을 지위”를 만드는 문제로 읽힌다.
+              </p>
+            </section>
+          </div>
+        </section>
+
+        <section class="section" id="debates">
+          <div class="debate-list">
+            <section class="debate-card">
+              <strong>Skinner와 Pettit</strong>
+              <p>
+                퀜틴 스키너와 페팃은 모두 공화주의적 자유를 현대 정치철학의 중심으로 되살린 인물이다.
+                그러나 페팃은 비지배 자유를 더 체계적인 규범 이론과 제도 설계로 밀고 간다.
+                “Keeping Republican Freedom Simple”은 이 차이를 직접 다루는 논쟁의 입구다.
+              </p>
+            </section>
+            <section class="debate-card">
+              <strong>간섭 없는 지배</strong>
+              <p>
+                “Freedom as Antipower”에서 페팃은 자유를 권력의 반대항으로 정식화한다.
+                여기서 핵심은 권력이 행사되었는가가 아니라, 한 사람이 다른 사람의 선택을 임의로 좌우할 수 있는
+                위치에 있는가다. 이 논문은 <em>Republicanism</em>의 압축판처럼 읽을 수 있다.
+              </p>
+            </section>
+            <section class="debate-card">
+              <strong>제도 프로그램</strong>
+              <p>
+                Lovett과 Pettit의 “Neorepublicanism”은 비지배 자유가 단순한 슬로건이 아니라
+                규범 이론과 제도 연구 프로그램이 될 수 있음을 정리한다. 자유, 제도, 민주적 통제를 한 묶음으로 읽을 때
+                페팃의 정치철학은 더 선명해진다.
+              </p>
+            </section>
+            <section class="debate-card">
+              <strong>정책 결정성 논쟁</strong>
+              <p>
+                비지배라는 원리가 구체 정책을 충분히 결정해 줄 수 있는가라는 반론이 있다.
+                페팃의 “The Determinacy of Republican Policy”는 이 비판에 대한 응답으로 읽힌다.
+                이 쟁점은 자유론이 실제 입법과 행정 판단으로 내려올 때 생기는 긴장을 보여 준다.
+              </p>
+            </section>
+            <section class="debate-card">
+              <strong>시장과 기본소득</strong>
+              <p>
+                “Freedom in the Market”과 “A Republican Right to a Basic Income?”은 시장을 자유의 자연스러운 공간으로
+                낭만화하지 않는다. 시장은 교환의 장이면서 의존과 지배의 장일 수 있다. 공화주의는 여기서
+                실질적 협상력과 탈출 가능성을 묻는다.
+              </p>
+            </section>
+            <section class="debate-card">
+              <strong>젠더, 문화, 세계질서</strong>
+              <p>
+                SEP의 공화주의 항목은 Laborde, Markell, Larmore, Lovett 등 비판과 확장의 흐름을 함께 제시한다.
+                페팃 이후의 공화주의는 젠더 규범, 소수자 시민권, 이주, 글로벌 정의, 문화적 지배의 문제로 넓어진다.
+              </p>
+            </section>
+          </div>
+        </section>
+
+        <section class="section" id="applications">
+          <p>
+            페팃이 오늘 더 강하게 읽히는 이유는 현대 사회의 지배가 반드시 명령문으로 나타나지 않기 때문이다.
+            우리는 명령받기보다 점수화되고, 금지당하기보다 추천 알고리즘에서 밀려나며,
+            검열당하기보다 계정 정지의 가능성 앞에서 스스로 말투를 조정한다. 자유주의적 언어로는
+            “아무도 강제로 시키지 않았다”고 말할 수 있다. 그러나 공화주의적 언어로는
+            “그 결정 구조에 설명을 요구할 수 있는가”라고 물어야 한다.
+          </p>
+          <p>
+            직장에서도 마찬가지다. 좋은 상사가 있는 회사는 살 만할 수 있다.
+            하지만 평가 기준이 불투명하고, 이의제기 통로가 없고, 문제를 제기하면 보복이 가능하다면
+            그 안정은 사람의 성품에 매달린다. 주거에서도 임대인이 당장 무리한 요구를 하지 않았다는 사실만으로
+            자유가 완성되지는 않는다. 갱신, 보증금, 퇴거 압박, 정보 비대칭이 한쪽에 과도하게 기울면
+            세입자는 계약의 형식 안에서 종속된다.
+          </p>
+          <p>
+            그래서 비지배 자유는 권리 목록보다 관계의 질을 묻는다. 거절할 수 있는가.
+            거절했을 때 생계가 무너지지 않는가. 결정권자가 이유를 제시해야 하는가.
+            항의했을 때 보복에서 보호되는가. 규칙이 공개되어 있는가.
+            이 질문들은 페팃을 고전적 공화주의 연구가 아니라 현재의 민주주의와 플랫폼 사회를 읽는 도구로 만든다.
+          </p>
+        </section>
+
+        <section class="section" id="seminar">
+          <div class="prompt-grid">
+            <section class="prompt-card">
+              <p>한국 사회에서 가장 강한 사적 지배는 어디에 있는가. 직장, 주거, 가족, 금융, 플랫폼 중 어느 장면이 가장 시급한가.</p>
+            </section>
+            <section class="prompt-card">
+              <p>법은 언제 자유를 줄이고 언제 자유를 늘리는가. 간섭의 크기보다 지배 감소 효과를 기준으로 다시 평가할 수 있는가.</p>
+            </section>
+            <section class="prompt-card">
+              <p>선거로 뽑힌 권력도 충분히 이의제기 가능한가. 시민이 통치 과정에서 이유를 요구할 실제 통로는 어디에 있는가.</p>
+            </section>
+            <section class="prompt-card">
+              <p>비지배 자유는 기본소득, 노동권, 주거 안정, 데이터 권리 같은 물질적 조건 없이 실현될 수 있는가.</p>
+            </section>
+            <section class="prompt-card">
+              <p>플랫폼의 약관, 추천, 정지, 평점 시스템은 어떤 의미에서 새로운 지배 권력이 되는가.</p>
+            </section>
+            <section class="prompt-card">
+              <p>페팃의 제도주의는 모욕, 낙인, 침묵 강요, 문화적 위계 같은 비공식 지배를 충분히 설명하는가.</p>
+            </section>
+          </div>
+        </section>
+
+        <section class="section" id="sources">
+          <h2>검증 자료와 읽을거리</h2>
+          <div class="source-table">
+            <div class="source-row">
+              <strong><a href="https://ppettit.scholar.princeton.edu/books">Pettit 공식 저서 목록</a></strong>
+              <p>프린스턴 공식 페이지. <em>Republicanism</em>의 1997년 Clarendon Press 출간 정보와 후속 저작 목록을 확인했다.</p>
+            </div>
+            <div class="source-row">
+              <strong><a href="https://ppettit.scholar.princeton.edu/publications/freedom-antipower">Freedom as Antipower</a></strong>
+              <p>1996년 <em>Ethics</em> 게재 논문. 비지배 자유의 기본 직관을 짧고 강하게 잡는 출발점이다.</p>
+            </div>
+            <div class="source-row">
+              <strong><a href="https://ppettit.scholar.princeton.edu/publications/keeping-republican-freedom-simple-difference-quentin-skinner">Keeping Republican Freedom Simple</a></strong>
+              <p>Skinner와의 차이를 다루는 2002년 <em>Political Theory</em> 논문. 공화주의 자유 개념의 정의 문제를 확인할 수 있다.</p>
+            </div>
+            <div class="source-row">
+              <strong><a href="https://ppettit.scholar.princeton.edu/publications/neorepublicanism-normative-and-institutional-research-program">Neorepublicanism</a></strong>
+              <p>Frank Lovett와 Philip Pettit의 2009년 <em>Annual Review of Political Science</em> 논문. 신공화주의를 규범 및 제도 연구 프로그램으로 정리한다.</p>
+            </div>
+            <div class="source-row">
+              <strong><a href="https://ppettit.scholar.princeton.edu/papers?page=1">Pettit 논문 목록 2</a></strong>
+              <p>“The Domination Complaint,” “The Determinacy of Republican Policy,” “Freedom in the Market” 등 응용 논쟁으로 들어가는 공식 목록.</p>
+            </div>
+            <div class="source-row">
+              <strong><a href="https://ppettit.scholar.princeton.edu/papers?page=2">Pettit 논문 목록 3</a></strong>
+              <p>“A Republican Right to a Basic Income?,” “Three Conceptions of Democratic Control,” “Neo-liberalism and Neo-republicanism” 등을 확인했다.</p>
+            </div>
+            <div class="source-row">
+              <strong><a href="https://plato.stanford.edu/entries/republicanism/">Stanford Encyclopedia of Philosophy</a></strong>
+              <p>현대 공화주의와 비지배 자유의 표준 개관. Skinner, Pettit, Lovett, Laborde 등 논쟁 지형을 교차 확인했다.</p>
+            </div>
+            <div class="source-row">
+              <strong><a href="posts/pettit-neorepublicanism-nondomination.html">Paul Archive 기존 리뷰</a></strong>
+              <p>오늘의 기고 본문 리뷰. 이 별도 페이지는 기존 리뷰를 확장해 논문 패널과 장별 세부 독해를 붙인 배포형 판본이다.</p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+  </div>
+
+  <footer class="footer">
+    Paul Archive Notes · 페팃의 신공화주의 깊이 읽기 · <a href="apple-tv-review.html">Apple TV 리뷰</a>
+  </footer>
+</body>
+</html>

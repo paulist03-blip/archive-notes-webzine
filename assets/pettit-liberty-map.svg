@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 680" role="img" aria-labelledby="title desc">
+  <title id="title">페팃 신공화주의 개념 지도</title>
+  <desc id="desc">비지배 자유를 중심으로 비간섭, 자의적 권력, 법, 이의제기 민주주의, 사적 지배, 시장과 기본소득 논쟁이 연결되는 구조를 보여 주는 개념 지도.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#171512" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#53635f"/>
+    </marker>
+    <style>
+      .bg{fill:#f6f0e5}
+      .ring{fill:none;stroke:#d7c9b5;stroke-width:2}
+      .link{fill:none;stroke:#9b8a78;stroke-width:2.2;marker-end:url(#arrow)}
+      .link-soft{fill:none;stroke:#c4b6a3;stroke-width:2}
+      .node{filter:url(#shadow)}
+      .node-main{fill:#1f302c}
+      .node-a{fill:#fffdf8;stroke:#273c36;stroke-width:2}
+      .node-b{fill:#f0e3d2;stroke:#7d2c22;stroke-width:2}
+      .node-c{fill:#e8efe9;stroke:#53635f;stroke-width:2}
+      .label{font-family:Arial, sans-serif;font-size:23px;font-weight:700;fill:#1d1a17}
+      .label-main{font-family:Arial, sans-serif;font-size:32px;font-weight:800;fill:#fffdf8}
+      .small{font-family:Arial, sans-serif;font-size:16px;font-weight:600;fill:#4f463d}
+      .small-main{font-family:Arial, sans-serif;font-size:17px;font-weight:600;fill:#e8efe9}
+      .caption{font-family:Arial, sans-serif;font-size:18px;font-weight:700;fill:#7d2c22}
+    </style>
+  </defs>
+  <rect class="bg" width="1120" height="680" rx="28"/>
+  <circle class="ring" cx="560" cy="338" r="246"/>
+  <circle class="ring" cx="560" cy="338" r="174"/>
+  <path class="link" d="M367 191 C438 224 475 250 509 294"/>
+  <path class="link" d="M756 190 C682 226 646 251 611 294"/>
+  <path class="link" d="M371 493 C435 456 476 421 512 381"/>
+  <path class="link" d="M755 493 C686 458 646 421 608 381"/>
+  <path class="link-soft" d="M252 344 C331 325 398 325 470 336"/>
+  <path class="link-soft" d="M868 344 C787 324 721 324 650 336"/>
+  <path class="link-soft" d="M559 104 C558 168 559 221 559 270"/>
+  <path class="link-soft" d="M559 575 C560 514 560 462 560 407"/>
+
+  <g class="node">
+    <rect x="446" y="274" width="228" height="132" rx="22" class="node-main"/>
+    <text x="560" y="326" text-anchor="middle" class="label-main">비지배 자유</text>
+    <text x="560" y="360" text-anchor="middle" class="small-main">non-domination</text>
+    <text x="560" y="386" text-anchor="middle" class="small-main">주인이 없는 사회적 지위</text>
+  </g>
+
+  <g class="node">
+    <rect x="64" y="292" width="230" height="106" rx="18" class="node-a"/>
+    <text x="179" y="335" text-anchor="middle" class="label">비간섭 자유</text>
+    <text x="179" y="366" text-anchor="middle" class="small">간섭이 없으면 자유로운가</text>
+  </g>
+
+  <g class="node">
+    <rect x="826" y="292" width="230" height="106" rx="18" class="node-b"/>
+    <text x="941" y="335" text-anchor="middle" class="label">자의적 권력</text>
+    <text x="941" y="366" text-anchor="middle" class="small">통제되지 않는 개입 가능성</text>
+  </g>
+
+  <g class="node">
+    <rect x="436" y="54" width="248" height="106" rx="18" class="node-c"/>
+    <text x="560" y="97" text-anchor="middle" class="label">법과 제도</text>
+    <text x="560" y="128" text-anchor="middle" class="small">간섭이면서 자유의 조건</text>
+  </g>
+
+  <g class="node">
+    <rect x="428" y="518" width="264" height="106" rx="18" class="node-c"/>
+    <text x="560" y="561" text-anchor="middle" class="label">이의제기 민주주의</text>
+    <text x="560" y="592" text-anchor="middle" class="small">선출보다 설명 요구와 contestation</text>
+  </g>
+
+  <g class="node">
+    <rect x="130" y="128" width="268" height="106" rx="18" class="node-b"/>
+    <text x="264" y="171" text-anchor="middle" class="label">사적 지배</text>
+    <text x="264" y="202" text-anchor="middle" class="small">가정, 직장, 플랫폼, 임대차</text>
+  </g>
+
+  <g class="node">
+    <rect x="728" y="128" width="268" height="106" rx="18" class="node-a"/>
+    <text x="862" y="171" text-anchor="middle" class="label">공적 지배</text>
+    <text x="862" y="202" text-anchor="middle" class="small">국가, 관료제, 재량 권한</text>
+  </g>
+
+  <g class="node">
+    <rect x="130" y="444" width="268" height="106" rx="18" class="node-a"/>
+    <text x="264" y="487" text-anchor="middle" class="label">시장과 노동</text>
+    <text x="264" y="518" text-anchor="middle" class="small">교섭력과 거절할 힘</text>
+  </g>
+
+  <g class="node">
+    <rect x="728" y="444" width="268" height="106" rx="18" class="node-b"/>
+    <text x="862" y="487" text-anchor="middle" class="label">비판과 확장</text>
+    <text x="862" y="518" text-anchor="middle" class="small">젠더, 이주, 세계질서, AI</text>
+  </g>
+
+  <text x="560" y="660" text-anchor="middle" class="caption">자유는 선택지의 개수가 아니라, 누구의 자의적 힘에도 종속되지 않는 관계의 구조다.</text>
+</svg>

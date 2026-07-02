@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI 업무 웹진 - 2026년 6월 20일</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1b1f24;
+      --muted: #667085;
+      --line: #dde3ea;
+      --bg: #f6f8fb;
+      --panel: #ffffff;
+      --accent: #0f766e;
+      --accent-soft: #e6f4f1;
+      --warn: #8a5a00;
+      --warn-soft: #fff7df;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      line-height: 1.65;
+    }
+    .wrap {
+      width: min(720px, 100%);
+      margin: 0 auto;
+      padding: 28px 18px 44px;
+    }
+    header {
+      padding: 26px 0 18px;
+      border-bottom: 2px solid var(--ink);
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 9vw, 48px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+    .date {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    section {
+      margin-top: 22px;
+      padding: 22px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 21px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+    h3 {
+      margin: 18px 0 8px;
+      font-size: 17px;
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+    p { margin: 0 0 12px; }
+    ul, ol {
+      margin: 10px 0 0;
+      padding-left: 21px;
+    }
+    li { margin: 7px 0; }
+    a {
+      color: #0b5cad;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+    .core {
+      background: var(--accent-soft);
+      border-color: #b7ded7;
+    }
+    .core ol { padding-left: 24px; }
+    .tag {
+      display: inline-block;
+      margin-bottom: 8px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .news-title {
+      font-size: 22px;
+      font-weight: 850;
+      line-height: 1.25;
+      margin: 0 0 10px;
+    }
+    .updates {
+      display: grid;
+      gap: 14px;
+    }
+    .update {
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
+    .update:first-child {
+      padding-top: 0;
+      border-top: 0;
+    }
+    .caution {
+      background: var(--warn-soft);
+      border-color: #f1d58a;
+    }
+    .small {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 520px) {
+      .wrap { padding: 20px 14px 34px; }
+      section { padding: 18px; }
+      h2 { font-size: 19px; }
+      .news-title { font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <p class="eyebrow">Daily AI Work Brief</p>
+      <h1>AI 업무 웹진</h1>
+      <p class="date">발행일: 2026년 6월 20일</p>
+    </header>
+
+    <section class="core">
+      <h2>오늘의 핵심 3줄</h2>
+      <ol>
+        <li>Google Gemini가 Google Business Profile과 연결되어 리뷰 답변, 영업시간 수정, 성과 요약까지 돕는 소상공인형 AI 비서로 확장됩니다.</li>
+        <li>Canva는 ChatGPT, Codex, Gemini 안에서 디자인 생성과 편집 흐름을 강화해 “대화에서 바로 홍보물 초안 만들기”가 더 쉬워졌습니다.</li>
+        <li>Notion, Zapier, HubSpot은 AI를 단순 작성 보조가 아니라 업무 자동화와 성과 기반 과금 쪽으로 옮기고 있습니다.</li>
+      </ol>
+    </section>
+
+    <section>
+      <span class="tag">메인 뉴스</span>
+      <p class="news-title">Gemini, 작은 사업장의 Google Business Profile을 직접 읽고 실행하는 AI 비서로 확장</p>
+      <p>Google은 2026년 6월 10일 Gemini 앱에 소상공인용 기능을 공개했습니다. 핵심은 Google Business Profile 연결입니다. 사업자가 프로필을 연결하면 Gemini가 리뷰, 고객 질문, 검색 노출, 길찾기 요청, 통화 데이터 같은 실제 비즈니스 맥락을 참고해 답변과 제안을 만들 수 있습니다.</p>
+      <p>비개발자에게 중요한 포인트는 “새 도구를 배워야 하는 부담”이 낮다는 점입니다. 이미 Google 지도와 검색에서 매장/서비스 프로필을 관리하던 사람이라면, Gemini에 “이번 달 성과가 어땠어?”, “최근 리뷰에 우리 톤으로 답장해줘”, “휴무일 안내를 올려줘”처럼 요청하는 방식으로 시작할 수 있습니다.</p>
+      <p>같이 발표된 Business notebooks는 채팅, 자료, 웹사이트, Google Business Profile 정보를 한곳에 모아 Gemini가 계속 참조하도록 하는 기능입니다. 작은 회사가 마케팅 캘린더, 리뷰 응대, 프로모션 아이디어를 한 공간에 쌓아두는 용도로 적합합니다.</p>
+      <p class="small">적합한 사용자: 오프라인 매장, 병원/학원/로컬 서비스, 예약과 리뷰가 매출에 중요한 1인 사업자.</p>
+    </section>
+
+    <section>
+      <h2>써볼 만한 업데이트</h2>
+      <div class="updates">
+        <div class="update">
+          <h3>1. Canva를 ChatGPT와 Codex 안에서 바로 사용</h3>
+          <p>Canva는 6월 3일 ChatGPT 안에서 디자인 생성, 미리보기, 텍스트 수정 등을 대화형으로 처리하는 흐름을 확장하고, Codex 플러그인 지원도 공개했습니다. 개발자가 아니어도 “이번 주 세일용 인스타그램 이미지 3종을 브랜드 톤으로 만들어줘”처럼 요청해 Canva 편집 화면으로 넘기는 식의 작업이 유용합니다.</p>
+        </div>
+        <div class="update">
+          <h3>2. Canva Magic Layers, Gemini와 ChatGPT에서 AI 이미지를 편집 가능한 디자인으로 변환</h3>
+          <p>6월 7일 공개된 Magic Layers 확장은 AI가 만든 납작한 이미지를 Canva의 레이어형 디자인으로 바꿔 텍스트, 배경, 오브젝트를 따로 수정하게 해줍니다. 광고 배너나 썸네일에서 “문구만 바꾸고 싶다”는 작업 시간을 줄일 수 있습니다.</p>
+        </div>
+        <div class="update">
+          <h3>3. Notion Workers, 반복 업무를 Notion 안에서 자동 실행</h3>
+          <p>Notion은 Developer Platform과 Workers를 통해 웹훅, 외부 데이터 동기화, 에이전트 도구를 Notion 인프라에서 실행하도록 했습니다. 베타 기간에는 무료로 시도할 수 있지만, 2026년 8월 11일부터 Notion credits 기반 과금이 시작된다고 안내되어 있습니다. 비개발 팀은 외주/자동화 담당자에게 “CRM 변경 시 Notion 고객 페이지 생성” 같은 작업을 맡길 때 검토할 만합니다.</p>
+        </div>
+        <div class="update">
+          <h3>4. Zapier, 업무 자동화용 AI 모델 선택 가이드 업데이트</h3>
+          <p>Zapier는 6월 10일 OpenAI, Anthropic, Gemini 등 주요 모델을 자동화 워크플로에 연결하는 기준을 정리했습니다. 중요한 변화는 AI 모델을 단순 챗봇이 아니라 Gmail, CRM, 문서, 데이터 테이블 사이에서 여러 단계를 처리하는 자동화 부품으로 보는 관점입니다.</p>
+        </div>
+        <div class="update">
+          <h3>5. HubSpot Breeze Agents, 일부 기능을 성과 기반 가격으로 전환</h3>
+          <p>HubSpot은 4월 14일부터 Customer Agent와 Prospecting Agent를 과업 완료 기준 가격으로 전환한다고 밝혔습니다. Customer Agent는 해결된 대화당 0.50달러, Prospecting Agent는 추천 리드당 1달러 기준입니다. 고객응대나 영업 리드 발굴을 자동화하려는 작은 팀은 월정액보다 실사용 비용을 예측하기 쉬울 수 있습니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>바로 해볼 액션</h2>
+      <ul>
+        <li>Google Business Profile의 영업시간, 서비스 설명, 자주 묻는 질문, 최근 리뷰가 최신인지 먼저 정리합니다.</li>
+        <li>Gemini 또는 ChatGPT에 붙여 넣을 “우리 브랜드 말투 5줄”을 만들어 두고 리뷰 답변과 홍보 문안에 반복 사용합니다.</li>
+        <li>Canva에서 최근 만든 홍보물 3개를 골라 AI 이미지나 초안을 레이어로 편집할 수 있는지 테스트합니다.</li>
+        <li>반복 업무 하나를 고릅니다. 예: 문의 접수 → 답변 초안 → CRM 기록 → 후속 메일. Zapier나 Notion 자동화로 옮길 수 있는지 점검합니다.</li>
+      </ul>
+    </section>
+
+    <section class="caution">
+      <h2>주의할 점</h2>
+      <ul>
+        <li>AI가 고객 리뷰에 자동 답변하더라도 최종 게시 전에는 민감 표현, 환불/보상 약속, 법적 표현을 사람이 확인해야 합니다.</li>
+        <li>Google Business Profile, CRM, Notion 같은 내부 데이터를 연결하면 편해지지만 권한 설정과 데이터 사용 정책을 먼저 확인해야 합니다.</li>
+        <li>성과 기반 가격은 저렴해 보일 수 있으나 대화량이나 리드 수가 늘면 빠르게 비용이 커질 수 있습니다.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>출처 링크</h2>
+      <ul>
+        <li><a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/">Google Blog - New Gemini app features for small businesses</a></li>
+        <li><a href="https://www.canva.com/newsroom/news/deep-research-integration-mcp-server/">Canva - Create with Canva inside ChatGPT and Codex</a></li>
+        <li><a href="https://www.canva.com/newsroom/news/magic-layers-ai-assistants/">Canva - Magic Layers inside Gemini and ChatGPT</a></li>
+        <li><a href="https://www.notion.com/releases/2026-05-13">Notion - 3.5 Developer Platform</a></li>
+        <li><a href="https://www.notion.com/releases">Notion - What's New, Workers and webhooks</a></li>
+        <li><a href="https://zapier.com/blog/ai-models-on-zapier/">Zapier - Which AI models can you automate on Zapier?</a></li>
+        <li><a href="https://www.hubspot.com/company-news/hubspots-customer-agent-and-prospecting-agent-now-you-pay-when-the-task-is-complete">HubSpot - Customer Agent and Prospecting Agent pricing</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>확인 필요 목록</h2>
+      <ul>
+        <li>Gemini의 Google Business Profile 연동과 Business notebooks가 한국 계정/한국어 환경에 즉시 제공되는지 계정별 확인 필요.</li>
+        <li>Canva의 ChatGPT, Codex, Gemini 연동은 계정 유형, 지역, 플러그인/앱 활성화 상태에 따라 접근 가능 여부 확인 필요.</li>
+        <li>Notion Workers의 2026년 8월 11일 이후 credit 단가와 포함량은 실제 사용 전 최신 가격표 확인 필요.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

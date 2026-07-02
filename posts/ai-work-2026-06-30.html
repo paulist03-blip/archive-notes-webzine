@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>문서·메일·회의 AI, 이제 '따로 쓰는 도구'가 아니다</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --paper: #ffffff;
+      --ink: #1f2933;
+      --muted: #5d6778;
+      --line: #dde3ea;
+      --accent: #136f63;
+      --accent-soft: #e7f4f1;
+      --warn: #8a5a00;
+      --warn-bg: #fff5d8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Arial, sans-serif;
+      line-height: 1.68;
+      letter-spacing: 0;
+    }
+    a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .wrap {
+      width: min(760px, 100%);
+      margin: 0 auto;
+      padding: 22px 16px 40px;
+    }
+    .issue {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(31, 41, 51, 0.06);
+    }
+    header {
+      padding: 34px 28px 26px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #ffffff 0%, #f9fbfb 100%);
+    }
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(28px, 5vw, 40px);
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .date {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    main { padding: 0 28px 30px; }
+    section {
+      padding: 26px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    section:last-child { border-bottom: 0; }
+    h2 {
+      margin: 0 0 14px;
+      font-size: 21px;
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+    p { margin: 0 0 14px; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol {
+      margin: 0;
+      padding-left: 22px;
+    }
+    li { margin: 8px 0; }
+    .brief {
+      background: var(--accent-soft);
+      border: 1px solid #c5e4dd;
+      border-radius: 8px;
+      padding: 18px 18px 16px;
+    }
+    .brief ol { padding-left: 20px; }
+    .news {
+      font-size: 17px;
+    }
+    .updates li strong {
+      color: #111827;
+    }
+    .action {
+      background: #f1f5f9;
+      border: 1px solid #d8e0e8;
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .prompt {
+      margin-top: 12px;
+      padding: 14px;
+      border-left: 4px solid var(--accent);
+      background: #ffffff;
+      color: #25313f;
+      font-weight: 600;
+    }
+    .warning {
+      background: var(--warn-bg);
+      border: 1px solid #ead28d;
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .warning h2 { color: var(--warn); }
+    .sources {
+      word-break: break-word;
+      font-size: 15px;
+    }
+    footer {
+      padding: 18px 28px 28px;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--line);
+      background: #fbfcfd;
+    }
+    @media (max-width: 560px) {
+      .wrap { padding: 0; }
+      .issue {
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+      }
+      header { padding: 28px 20px 22px; }
+      main { padding: 0 20px 24px; }
+      section { padding: 22px 0; }
+      h1 { font-size: 30px; }
+      h2 { font-size: 20px; }
+      footer { padding: 16px 20px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <article class="issue">
+      <header>
+        <p class="eyebrow">데일리 AI 업무 웹진</p>
+        <h1>문서·메일·회의 AI, 이제 '따로 쓰는 도구'가 아니다</h1>
+        <p class="date">발행일: 2026년 6월 30일</p>
+      </header>
+
+      <main>
+        <section class="brief" aria-labelledby="brief-title">
+          <h2 id="brief-title">오늘의 핵심 3줄</h2>
+          <ol>
+            <li>Google이 6월 Workspace Drop에서 Gemini 기반 회의 메모, 문서 정리, 보안·운영 기능을 묶어 발표했습니다.</li>
+            <li>Anthropic의 Claude Tag는 반복 업무별로 AI 작업 방식을 저장해두는 방향이라, 상담 답변·제안서 검토 같은 루틴에 유용합니다.</li>
+            <li>Canva Grow 2.0과 ChatGPT Business 업데이트는 광고 제작, 고객 응대, 내부 지식 검색을 “한 번에 이어지는 업무 흐름”으로 만드는 쪽에 초점이 있습니다.</li>
+          </ol>
+        </section>
+
+        <section class="news" aria-labelledby="main-news">
+          <h2 id="main-news">메인 뉴스: Google Workspace 안으로 더 깊게 들어온 Gemini</h2>
+          <p>Google은 2026년 6월 Workspace Drop에서 Gmail, Docs, Meet, Chat, 관리 콘솔 전반의 Gemini 업데이트를 정리했습니다. 작은 회사 입장에서는 화려한 생성 기능보다 “회의 후 정리”, “문서 초안 다듬기”, “팀원이 놓친 내용을 빠르게 따라잡기”가 실질적인 포인트입니다.</p>
+          <p>특히 Google Meet의 Gemini 기반 회의 메모와 요약, Google Docs·Gmail의 작성 보조, Workspace 관리 기능 강화는 이미 Google Workspace를 쓰는 팀이라면 별도 도구 도입 없이 업무 습관을 바꿀 수 있는 영역입니다. 예를 들어 고객 미팅 후 회의록을 정리하고, 그 내용을 바탕으로 견적 메일 초안을 만들고, 내부 담당자에게 후속 작업을 넘기는 식의 흐름을 한 번에 만들 수 있습니다.</p>
+          <p>1인 사업자와 작은 팀에게 중요한 판단 기준은 “우리 팀이 Gemini를 얼마나 잘 프롬프트하느냐”가 아니라 “회의와 메일을 다시 읽는 시간을 얼마나 줄이느냐”입니다. 이미 Google Workspace 비용을 내고 있다면, 이번 달에는 새 도구 결제보다 현재 플랜에서 Gemini 기능이 어디까지 열려 있는지 확인하는 것이 먼저입니다.</p>
+        </section>
+
+        <section class="updates" aria-labelledby="updates-title">
+          <h2 id="updates-title">써볼 만한 업데이트</h2>
+          <ul>
+            <li><strong>Google Workspace:</strong> 6월 Workspace Drop에서 Gemini 기반 업무 보조 기능을 묶어 발표했습니다. Gmail 답장 초안, Docs 문서 정리, Meet 회의 요약처럼 매일 반복되는 사무 업무에 바로 연결하기 좋습니다.</li>
+            <li><strong>Anthropic:</strong> Claude Tag는 특정 업무 방식과 지침을 저장해 반복 적용하는 기능입니다. “고객 문의 답변 톤”, “제안서 검토 기준”, “블로그 초안 편집 기준”처럼 루틴이 있는 업무에 맞습니다.</li>
+            <li><strong>ChatGPT Business:</strong> OpenAI release notes 기준으로 업무용 계정에는 기록 모드, 커넥터, 팀 협업 관련 기능이 계속 추가되고 있습니다. Slack, Google Drive, GitHub 같은 외부 자료를 연결할 때는 권한 범위를 먼저 확인해야 합니다.</li>
+            <li><strong>Canva Grow 2.0:</strong> 웹사이트와 브랜드 자산을 바탕으로 광고 소재를 만들고 Meta, TikTok, LinkedIn 캠페인 흐름까지 연결하는 방향입니다. 전문 광고 대행 전 단계의 빠른 실험용으로 적합합니다.</li>
+            <li><strong>Zapier AI 단계 과금:</strong> 2026년 6월 15일부터 AI by Zapier가 모델 등급별 과금 구조로 바뀌었습니다. 자동화에 AI 단계를 넣어둔 팀은 실행 횟수와 모델 등급을 확인해야 합니다.</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="action-title">
+          <h2 id="action-title">바로 해볼 액션</h2>
+          <div class="action">
+            <p>오늘 회의나 고객 상담 1건을 고른 뒤, 회의록 AI를 “기록”이 아니라 “후속 업무 생성기”로 써보세요.</p>
+            <div class="prompt">이 회의 내용을 1) 고객에게 보낼 답장 초안, 2) 내부 담당자별 할 일, 3) 확인해야 할 금액·일정·조건, 4) 다음 미팅 전에 준비할 자료로 나눠줘.</div>
+            <p>Google Workspace를 쓰는 팀은 Meet 요약과 Gmail 초안을 연결해보고, ChatGPT나 Claude를 쓰는 팀은 같은 내용을 붙여 넣어 결과 차이를 비교해보면 됩니다. 중요한 것은 가장 똑똑한 답변보다, 팀원이 다음 행동을 바로 알 수 있는 출력입니다.</p>
+          </div>
+        </section>
+
+        <section class="warning" aria-labelledby="cautions-title">
+          <h2 id="cautions-title">주의할 점</h2>
+          <ul>
+            <li>회의 요약 AI는 결정 사항과 금액, 일정, 담당자를 틀릴 수 있으므로 최종 발송 전 사람이 확인해야 합니다.</li>
+            <li>Workspace, ChatGPT Business, Claude, Canva의 기능 노출은 지역, 계정 유형, 플랜, 관리자 설정에 따라 달라질 수 있습니다.</li>
+            <li>외부 커넥터를 켤 때는 고객 정보, 계약서, 내부 재무 문서가 AI 도구에 어디까지 검색되는지 확인해야 합니다.</li>
+            <li>Zapier처럼 실행량 기반 자동화 도구는 “기능 추가”가 곧 비용 증가로 이어질 수 있습니다.</li>
+          </ul>
+        </section>
+
+        <section class="sources" aria-labelledby="sources-title">
+          <h2 id="sources-title">출처 링크</h2>
+          <ul>
+            <li><a href="https://workspace.google.com/blog/product-announcements/june-2026-workspace-feature-drop">Google Workspace Blog: June 2026 Workspace Feature Drop</a></li>
+            <li><a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">OpenAI Help Center: ChatGPT Release Notes</a></li>
+            <li><a href="https://www.anthropic.com/news/claude-tag">Anthropic News: Claude Tag</a></li>
+            <li><a href="https://www.canva.com/newsroom/news/canva-grow/">Canva Newsroom: Introducing Canva Grow 2.0</a></li>
+            <li><a href="https://help.zapier.com/hc/en-us/articles/46597632373389-AI-by-Zapier-new-model-based-pricing-starting-June-15-2026">Zapier Help Center: AI by Zapier model-based pricing starting June 15, 2026</a></li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="verify-title">
+          <h2 id="verify-title">확인 필요 목록</h2>
+          <ul>
+            <li>Google Workspace Gemini 기능의 한국 계정별 실제 노출 범위와 관리자 설정 조건.</li>
+            <li>Claude Tag의 한국 사용자 계정 적용 여부, 지원 플랜, 조직 계정 정책.</li>
+            <li>ChatGPT Business 커넥터별 권한 범위와 회사 문서 검색 설정.</li>
+            <li>Canva Grow 2.0의 한국 광고 계정 연동 가능 여부와 지원 채널 제한.</li>
+            <li>Zapier 기존 자동화의 AI 단계가 어떤 모델 등급으로 계산되는지 여부.</li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        이 웹진은 공개 자료를 바탕으로 업무 활용 관점에서 요약했습니다. 기능과 가격은 지역, 플랜, 계정 설정에 따라 달라질 수 있습니다.
+      </footer>
+    </article>
+  </div>
+</body>
+</html>

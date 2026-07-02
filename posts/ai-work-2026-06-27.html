@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>데일리 AI 업무 웹진 - 2026년 6월 27일</title>
+  <style>
+    :root {
+      --ink: #17202a;
+      --muted: #5d6978;
+      --line: #d9e0e8;
+      --bg: #f6f8fb;
+      --paper: #ffffff;
+      --accent: #0f766e;
+      --accent-soft: #e6f4f1;
+      --warn: #8a5a00;
+      --warn-bg: #fff6df;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      line-height: 1.65;
+    }
+    .wrap {
+      width: min(760px, 100%);
+      margin: 0 auto;
+      padding: 22px 16px 40px;
+    }
+    header {
+      padding: 28px 0 18px;
+      border-bottom: 2px solid var(--ink);
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(28px, 6vw, 42px);
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+    .date {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    section {
+      margin-top: 22px;
+      padding: 22px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    h2 {
+      margin: 0 0 14px;
+      font-size: 21px;
+      line-height: 1.3;
+      letter-spacing: 0;
+    }
+    h3 {
+      margin: 18px 0 8px;
+      font-size: 17px;
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+    p { margin: 0 0 12px; }
+    ul, ol { margin: 0; padding-left: 22px; }
+    li { margin: 7px 0; }
+    a { color: #0b5cad; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .brief {
+      background: var(--accent-soft);
+      border-color: #b8ddd6;
+    }
+    .brief ol {
+      padding-left: 20px;
+      font-weight: 700;
+    }
+    .tag {
+      display: inline-block;
+      margin-bottom: 8px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .note {
+      background: var(--warn-bg);
+      border-color: #f0d28d;
+      color: var(--warn);
+    }
+    .source-list li {
+      overflow-wrap: anywhere;
+    }
+    footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+    @media (max-width: 520px) {
+      .wrap { padding: 16px 12px 32px; }
+      section { padding: 18px 16px; }
+      header { padding-top: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <p class="eyebrow">Daily AI Work Webzine</p>
+      <h1>스프레드시트 오류, 이제 AI가 바로 고쳐주는 쪽으로 간다</h1>
+      <p class="date">발행일: 2026년 6월 27일</p>
+    </header>
+
+    <section class="brief">
+      <h2>오늘의 핵심 3줄</h2>
+      <ol>
+        <li>Google Sheets의 Gemini가 수식 오류를 설명하고 수정안을 제안하는 기능을 공개했다. 작은 회사의 견적서, 정산표, 광고 리포트 관리에 즉시 도움이 된다.</li>
+        <li>ChatGPT Business는 Slack에서 검색을 넘어 일부 행동 실행까지 확장했고, Claude는 Slack 안에서 태그해 일을 맡기는 Claude Tag 베타를 내놨다.</li>
+        <li>Notion과 Canva는 각각 업무 데이터/에이전트 연결, 마케팅 제작-배포-개선 흐름으로 확장 중이다. 다만 일부 기능은 베타, 팀/엔터프라이즈 한정, 사용량 제한 확인이 필요하다.</li>
+      </ol>
+    </section>
+
+    <section>
+      <span class="tag">메인 뉴스</span>
+      <h2>Gemini in Sheets: 수식 오류를 한 번에 진단하고 고치는 기능</h2>
+      <p>Google Workspace Updates는 2026년 6월 26일 주간 요약에서 Gemini in Google Sheets의 새 기능을 소개했다. 시트에서 수식 오류가 발생하면 Gemini가 주변 데이터 구조를 분석해 오류 원인을 쉬운 설명으로 보여주고, 수정된 수식 버전을 제안하는 방식이다.</p>
+      <p>비개발자 업무자에게 중요한 점은 “AI로 새 문서를 만든다”보다 “매일 쓰는 표의 막히는 부분을 바로 해결한다”는 데 있다. 매출표, 고객 리스트, 세금계산서 정리표, 콘텐츠 성과표처럼 이미 Google Sheets로 굴러가는 업무가 있다면 학습 부담이 낮다.</p>
+      <p>주의할 점도 있다. 개선된 Gemini in Sheets 경험은 2026년 7월 15일까지 더 높은 한도의 프로모션 접근이 제공되며, 이후에는 사용자별 사용량 제한이 적용될 예정이라고 공지되어 있다. 실제 한도와 적용 플랜은 Workspace 관리 화면 또는 도움말에서 확인해야 한다.</p>
+    </section>
+
+    <section>
+      <h2>써볼 만한 업데이트</h2>
+      <h3>1. ChatGPT Business: Slack 커넥터가 일부 행동 실행까지 확장</h3>
+      <p>OpenAI의 ChatGPT Business 릴리스 노트에 따르면 2026년 6월 19일부터 Slack 앱이 연결되고 액션이 활성화된 워크스페이스에서 Slack 검색뿐 아니라 채널 참여, 리마인더 생성, 파일 업로드, 프로필 업데이트 같은 지원 액션을 요청할 수 있다. 고객 응대팀이나 운영팀이 Slack에 쌓인 요청을 처리할 때 “찾기”에서 “간단한 실행”으로 넘어가는 신호다.</p>
+
+      <h3>2. Claude Tag: Slack 채널에서 @Claude로 일을 맡기는 팀용 AI</h3>
+      <p>Anthropic은 Claude Tag를 공개하며 Slack에서 Claude를 팀원처럼 태그해 업무를 맡길 수 있다고 설명했다. 선택한 채널과 연결 도구에 접근 권한을 주면 Claude가 대화 맥락을 기억하고 향후 작업을 계획할 수 있다. 현재는 Claude Enterprise 및 Team 고객 대상 베타로 확인된다.</p>
+
+      <h3>3. Notion: 외부 데이터 동기화, 커스텀 툴, 외부 워크플로 트리거</h3>
+      <p>Notion 릴리스 페이지는 Workers 기반 데이터베이스 동기화, 에이전트용 커스텀 툴, 외부에서 Notion 워크플로를 트리거하는 기능을 안내하고 있다. Zendesk, Salesforce 같은 업무 데이터를 Notion 데이터베이스로 끌어오고 에이전트가 그 위에서 초안을 만들게 하는 흐름이 핵심이다. 다만 여러 기능이 Alpha/Beta로 표기되어 운영 적용 전 테스트가 필요하다.</p>
+
+      <h3>4. Canva Creative Operating System: 디자인 도구에서 마케팅 실행 도구로 이동</h3>
+      <p>Canva는 Creative Operating System을 통해 Visual Suite, 디자인 AI, Canva Grow를 함께 강조하고 있다. Canva Grow는 광고 아이디어 생성, 제작, 배포, 개선 흐름을 겨냥한다. 혼자 일하는 사업자에게는 SNS 광고와 콘텐츠 소재를 한곳에서 빠르게 변형하는 용도로 검토할 만하다. 단, 지역별 제공 기능과 플랜별 차이는 실제 계정에서 확인해야 한다.</p>
+    </section>
+
+    <section>
+      <h2>바로 해볼 액션</h2>
+      <ul>
+        <li>오늘 자주 쓰는 Google Sheets 파일 1개를 열고, 일부러 오류가 난 수식이나 깨진 참조가 있는 열을 Gemini로 설명시켜 본다.</li>
+        <li>Slack을 쓰는 팀이라면 “반복 리마인더 만들기”, “파일 올리기”, “채널 요청 정리”처럼 위험 낮은 업무부터 ChatGPT Business 또는 Claude Tag 적용 후보를 적어본다.</li>
+        <li>Notion을 CRM이나 프로젝트 관리로 쓰고 있다면, 외부 데이터 동기화가 필요한 데이터 소스 1개만 정한다. 처음부터 전사 자동화를 노리지 않는다.</li>
+        <li>Canva 사용자는 최근 광고/릴스/뉴스레터 소재 1개를 골라 Canva Grow 또는 AI 기능으로 3가지 변형안을 만드는 실험을 한다.</li>
+      </ul>
+    </section>
+
+    <section class="note">
+      <h2>주의할 점</h2>
+      <ul>
+        <li>Slack 안에서 AI가 행동을 실행하는 기능은 권한 설정이 핵심이다. 고객정보, 견적, 계약 관련 채널은 먼저 제외하고 테스트하는 편이 안전하다.</li>
+        <li>Gemini in Sheets의 사용량 한도는 2026년 7월 15일 이후 달라질 수 있다. 자동화 업무로 고정하기 전에 플랜별 제한을 확인해야 한다.</li>
+        <li>Notion의 Workers, 커스텀 툴, 외부 트리거는 비개발자에게도 결과물은 유용하지만 초기 설정은 기술 지원이 필요할 수 있다.</li>
+        <li>AI가 제안한 수식, 고객 답변, 광고 문구는 그대로 발송하지 말고 숫자와 표현을 사람이 확인해야 한다.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>출처 링크</h2>
+      <ul class="source-list">
+        <li><a href="https://workspaceupdates.googleblog.com/2026/06/weekly-recap-06-26-2026.html?m=1">Google Workspace Updates: Google Workspace Weekly Recap - June 26, 2026</a></li>
+        <li><a href="https://workspaceupdates.googleblog.com/2026/06/troubleshoot-formula-errors-in-sheets.html">Google Workspace Updates: Troubleshoot formula errors quickly with Gemini in Google Sheets</a></li>
+        <li><a href="https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes">OpenAI Help Center: ChatGPT Business - Release Notes</a></li>
+        <li><a href="https://www.anthropic.com/news/introducing-claude-tag">Anthropic: Introducing Claude Tag</a></li>
+        <li><a href="https://www.notion.com/releases">Notion: What's New</a></li>
+        <li><a href="https://www.canva.com/newsroom/news/creative-operating-system/">Canva: Introducing Canva's Creative Operating System</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>확인 필요 목록</h2>
+      <ul>
+        <li>Google Sheets의 Gemini 오류 수정 기능이 현재 사용하는 Workspace 플랜과 언어/지역에서 보이는지 확인 필요.</li>
+        <li>2026년 7월 15일 이후 Gemini in Sheets의 사용자별 사용량 제한 상세 확인 필요.</li>
+        <li>ChatGPT Business Slack 액션의 실제 지원 액션 범위와 관리자 승인/OAuth 범위 확인 필요.</li>
+        <li>Claude Tag의 국내 계정 제공 여부, 베타 신청 방식, 추가 비용 또는 크레딧 조건 확인 필요.</li>
+        <li>Canva Grow 및 Creative Operating System 관련 기능의 한국 계정 제공 범위와 플랜별 제한 확인 필요.</li>
+      </ul>
+    </section>
+
+    <footer>
+      이 웹진은 공개된 공식 릴리스 노트와 제품 블로그를 기준으로 작성되었습니다. 실제 외부 공개 URL이 필요하면 정적 호스팅 또는 별도 배포가 필요합니다.
+    </footer>
+  </main>
+</body>
+</html>

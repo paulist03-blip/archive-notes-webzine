@@ -12,6 +12,19 @@
   const searchInput = document.querySelector("[data-book-search]");
   const themeSelect = document.querySelector("[data-book-theme]");
 
+  const cleanMeta = (value) =>
+    String(value || "")
+      .split(/[·|]/)
+      .map((part) => part.trim())
+      .filter(Boolean)
+      .filter(
+        (part) =>
+          !/^(?:ISBN|ItemId)/i.test(part) &&
+          !/(?:전\s*\d+\s*권|양장본?|반양장|개정판|\d+\s*쪽|UHQCD|SHM-CD|SACD|MQA|Hybrid|\d+CD|수입반|중고|최상|상태)/i.test(part)
+      )
+      .slice(0, 4)
+      .join(" · ");
+
   const escapeHtml = (value) =>
     String(value)
       .replaceAll("&", "&amp;")
@@ -61,31 +74,17 @@
       ${
         book.reviewUrl
           ? `<a ${linkAttributes(book.reviewUrl, "preview-link")}>우리 리뷰 읽기</a>`
-          : `<span class="preview-link preview-link--disabled">${escapeHtml(book.reviewStatus === "검수 초안" ? "검수 초안" : "리뷰 준비 중")}</span>`
+          : '<span class="preview-link preview-link--disabled">리뷰 준비 중</span>'
       }
-      <a ${linkAttributes(book.itemUrl, "book-secondary-link")}>서지 확인</a>
+      <a ${linkAttributes(book.itemUrl, "book-secondary-link")}>외부 링크</a>
     </div>
   `;
-
-  const archiveNote = (book) => {
-    if (!book.archiveReview && !book.readWith) return "";
-    return `
-      <div class="book-archive-note">
-        ${
-          book.archiveReview
-            ? `<p><strong>아카이브 리뷰</strong> ${escapeHtml(book.archiveReview)}</p>`
-            : ""
-        }
-        ${book.readWith ? `<p><strong>함께 읽기</strong> ${escapeHtml(book.readWith)}</p>` : ""}
-      </div>
-    `;
-  };
 
   function renderSource() {
     if (!sourceTarget) return;
     sourceTarget.innerHTML = `
-      <strong>${escapeHtml(data.source.label)}</strong>
-      <span>${escapeHtml(data.source.seller)} 서가 · ${escapeHtml(data.source.capturedAt)} 갱신 · ${data.source.pagesScanned}페이지 스캔 · ${data.source.eligibleCount}권 보관</span>
+      <strong>기준 서가</strong>
+      <span>${escapeHtml(data.source.capturedAt)} 기준 선별 · ${data.source.eligibleCount}권 리뷰 큐</span>
       <a href="${escapeHtml(data.source.url)}" target="_blank" rel="noopener noreferrer">기준 서가 열기</a>
     `;
   }
@@ -102,7 +101,7 @@
               <h3>${bookTitle(book)}</h3>
               <p class="book-subtitle">${escapeHtml(book.subtitle || "")}</p>
               <p>${escapeHtml(book.review || "")}</p>
-              <div class="book-card-meta">${escapeHtml(book.metadata)}</div>
+              <div class="book-card-meta">${escapeHtml(cleanMeta(book.metadata))}</div>
               ${bookActions(book)}
             </div>
           </article>
@@ -148,7 +147,7 @@
     listTarget.innerHTML = books
       .map(
         (book) => `
-          <article class="book-card${book.archiveReview || book.readWith ? " has-archive-note" : ""}" id="${escapeHtml(bookAnchorId(book))}">
+          <article class="book-card" id="${escapeHtml(bookAnchorId(book))}">
             ${bookImage(book)}
             <div class="book-card-body">
               <div class="book-card-topline">
@@ -156,8 +155,7 @@
                 <em>${escapeHtml(reviewStatusLabel(book))}</em>
               </div>
               <h3>${bookTitle(book)}</h3>
-              <p>${escapeHtml(book.metadata)}</p>
-              ${archiveNote(book)}
+              <p>${escapeHtml(cleanMeta(book.metadata))}</p>
               ${bookActions(book)}
             </div>
           </article>

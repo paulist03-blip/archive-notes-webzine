@@ -7,6 +7,12 @@
   var MAX_ITEMS_PER_REQUEST = 42;
   var MAX_CHARS_PER_REQUEST = 7600;
   var pageItems = null;
+  var REVIEW_SENTENCE_PATTERNS = [
+    /(알라딘|YES24|교보문고?|국회도서관|Presto(?: Music)?|Qobuz|Apple Music|Warner Classics|Decca Classics|DG 공식 카탈로그|공개 서지|로컬(?:\s+[A-Za-z가-힣]+)?|보유 데이터|재고|품목|카탈로그|바코드|ItemId)[^.!?]*[.!?]/gi,
+    /ISBN\s*[0-9Xx-]+[^.!?]*[.!?]/gi,
+    /(?:수입반|중고-?최상|중고|최상 상태|양장본?|반양장|전\s*\d+\s*권|\d+\s*쪽|판형)[^.!?]*[.!?]/gi,
+    /(?:서지상으로는|소장자의 노트는 분명하다|소장자의 관점에서는|로컬 Bernstein Record Room 자료는|로컬 Bernstein Record Room 자료와)[^.!?]*[.!?]/gi
+  ];
   var EXCLUDED_SELECTOR = [
     ".notranslate",
     ".pan-language-switcher",
@@ -46,6 +52,205 @@
       "@media (max-width:380px){.pan-language-switcher button{font-size:.58rem;padding:5px 6px}}"
     ].join("\n");
     document.head.appendChild(style);
+  }
+
+  function normalizeText(text) {
+    return String(text || "")
+      .replace(/\s+/g, " ")
+      .replace(/\s+([,.;:!?])/g, "$1")
+      .replace(/\(\s+/g, "(")
+      .replace(/\s+\)/g, ")")
+      .trim();
+  }
+
+  function textContentOf(selector) {
+    var node = document.querySelector(selector);
+    return node ? normalizeText(node.textContent) : "";
+  }
+
+  function detectReviewMode() {
+    var context = [
+      textContentOf(".article .eyebrow"),
+      textContentOf(".article-signoff"),
+      textContentOf(".article-meta")
+    ].join(" ");
+
+    if (/오늘의 책|Book note|Archive · Books|Issue \d+ · Books|Book review board|게시판 리뷰|Contribution/i.test(context) && !/오늘의 그림|Image note/i.test(context)) {
+      return "book";
+    }
+
+    if (/오늘의 음반|Record note|Archive · Records|Issue \d+ · Records|Bernstein Record Room/i.test(context)) {
+      return "record";
+    }
+
+    if (
+      document.querySelector('link[href*="report.css"]') &&
+      document.querySelector(".cover-frame img[alt*='표지']")
+    ) {
+      return "book";
+    }
+
+    return null;
+  }
+
+  function isBibliographicPart(part) {
+    return /^(?:ISBN|ItemId)/i.test(part) ||
+      /(?:전\s*\d+\s*권|양장본?|반양장|개정판|\d+\s*쪽|UHQCD|SHM-CD|SACD|MQA|Hybrid|\d+CD|수입반|중고|최상|상태)/i.test(part) ||
+      /^[A-Z]{2,}[- ]?\d[\w-]*$/i.test(part);
+  }
+
+  function sanitizeMetaText(text, mode) {
+    var parts = String(text || "")
+      .split(/[·|]/)
+      .map(function (part) {
+        return normalizeText(part);
+      })
+      .filter(Boolean)
+      .filter(function (part) {
+        return !isBibliographicPart(part);
+      });
+
+    if (mode === "book" && parts.length > 4) {
+      parts = parts.slice(0, 4);
+    }
+
+    if (mode === "record" && parts.length > 5) {
+      parts = parts.slice(0, 5);
+    }
+
+    return normalizeText(parts.join(" · "));
+  }
+
+  function sanitizeParagraphHtml(html) {
+    var cleaned = String(html || "");
+    REVIEW_SENTENCE_PATTERNS.forEach(function (pattern) {
+      cleaned = cleaned.replace(pattern, " ");
+    });
+    return normalizeText(cleaned);
+  }
+
+  function isEmptyHtml(html) {
+    var probe = document.createElement("div");
+    probe.innerHTML = html;
+    return !normalizeText(probe.textContent);
+  }
+
+  function cleanDisplayText(text) {
+    return normalizeText(
+      String(text || "")
+        .replace(/\b(?:\d+)?(?:UHQCD|SHM-CD|SACD(?:\s*Hybrid)?|MQA)\b/gi, "")
+        .replace(/\b\d+CD\b/gi, "")
+        .replace(/\b(?:중고-?최상|중고|최상 상태|양장본?)\b/gi, "")
+        .replace(/\b전\s*\d+\s*권\b/gi, "")
+        .replace(/\bISBN\s*[0-9Xx-]+\b/gi, "")
+        .replace(/\b(?:DG|Decca|Warner|Universal Music Japan)?\s*(?:UHQCD|SHM-CD|SACD(?:\s*Hybrid)?)\s*판본\b/gi, "녹음")
+        .replace(/\b(?:UHQCD|SHM-CD|SACD(?:\s*Hybrid)?|판본)\b/gi, "")
+    );
+  }
+
+  function sanitizeReviewPage(mode) {
+    if (!mode) {
+      return;
+    }
+
+    document.querySelectorAll(".article-meta").forEach(function (node) {
+      node.textContent = sanitizeMetaText(node.textContent, mode);
+    });
+
+    document.querySelectorAll(".bibliography").forEach(function (node) {
+      node.remove();
+    });
+
+    document.querySelectorAll(".article-side .article-note").forEach(function (node) {
+      node.remove();
+    });
+
+    document.querySelectorAll(".article-body p").forEach(function (paragraph) {
+      if (paragraph.classList.contains("article-signoff")) {
+        return;
+      }
+
+      var rawText = normalizeText(paragraph.textContent);
+      if (!rawText) {
+        return;
+      }
+
+      if (/소장자의|소장 노트|소장 메모/.test(rawText)) {
+        paragraph.remove();
+        return;
+      }
+
+      var cleanedHtml = sanitizeParagraphHtml(paragraph.innerHTML);
+      if (isEmptyHtml(cleanedHtml)) {
+        paragraph.remove();
+        return;
+      }
+
+      paragraph.innerHTML = cleanedHtml;
+    });
+
+    document.querySelectorAll(".article-cover img, .archive-row img, .thumb img").forEach(function (image) {
+      image.alt = cleanDisplayText(image.alt);
+    });
+
+    document.querySelectorAll(".source-list a").forEach(function (link) {
+      var href = link.getAttribute("href") || "";
+      var text = normalizeText(link.textContent);
+      if (/(yes24|aladin|kyobobook|google\.com\/books|nanam\.net)/i.test(href) || /서지|품목|기록/.test(text)) {
+        link.remove();
+      }
+    });
+
+    document.querySelectorAll(".side-block").forEach(function (block) {
+      var linkCount = block.querySelectorAll("a").length;
+      var hasSourceList = !!block.querySelector(".source-list");
+      if (hasSourceList && linkCount === 0) {
+        block.remove();
+      }
+    });
+  }
+
+  function sanitizeArchiveSurface() {
+    document.querySelectorAll(".archive-row p, .archive-row h3, .book-card-meta, .book-card-body p, .book-daily-body .book-card-meta").forEach(function (node) {
+      node.textContent = cleanDisplayText(node.textContent);
+    });
+
+    document.querySelectorAll("a.book-secondary-link").forEach(function (link) {
+      if (normalizeText(link.textContent) === "서지 확인") {
+        link.textContent = "외부 링크";
+      }
+    });
+  }
+
+  function sanitizeSiteChrome() {
+    document.querySelectorAll("a").forEach(function (link) {
+      var label = normalizeText(link.textContent);
+      if (label === "알라딘 책 서가" || label === "알라딘 책 작업 서가") {
+        link.textContent = "기준 서가";
+      }
+      if (label === "알라딘 음반 서가") {
+        link.textContent = "기준 음반 목록";
+      }
+    });
+
+    document.querySelectorAll(".pill").forEach(function (pill) {
+      var label = normalizeText(pill.textContent);
+      if ([
+        "고해상도 표지 우선",
+        "거래 세부 문구 비노출",
+        "판본 확인 비노출",
+        "오늘의 책장 선별",
+        "상세 리뷰 확장"
+      ].indexOf(label) >= 0) {
+        pill.remove();
+      }
+    });
+  }
+
+  function sanitizeContentPolicy() {
+    sanitizeReviewPage(detectReviewMode());
+    sanitizeArchiveSurface();
+    sanitizeSiteChrome();
   }
 
   function getStoredLanguage() {
@@ -367,6 +572,7 @@
   function init() {
     injectStyle();
     clearLegacyGoogleTranslateCookie();
+    sanitizeContentPolicy();
     var host = mountSwitcher();
     var language = getStoredLanguage();
     setActiveButton(host, language);

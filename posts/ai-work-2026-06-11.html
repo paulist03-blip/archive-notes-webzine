@@ -1,302 +1,290 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>데일리 AI 업무 웹진 | 2026-06-11</title>
-  <style>
-    :root {
-      --bg: #f5efe6;
-      --paper: #fffdfa;
-      --ink: #1f2933;
-      --muted: #607081;
-      --line: #ded4c8;
-      --accent: #0d6b4d;
-      --accent-soft: #e6f4ee;
-      --news: #fff3e2;
-      --action: #edf7ff;
-      --warning: #fff2eb;
-      --shadow: 0 18px 48px rgba(31, 41, 51, 0.08);
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      color: var(--ink);
-      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
-      line-height: 1.7;
-      background:
-        radial-gradient(circle at top right, rgba(13, 107, 77, 0.12), transparent 28%),
-        linear-gradient(180deg, #f8f2ea 0%, #efe5d9 100%);
-    }
-    .wrap {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 20px 14px 42px;
-    }
-    .card {
-      overflow: hidden;
-      border: 1px solid rgba(222, 212, 200, 0.9);
-      border-radius: 28px;
-      background: var(--paper);
-      box-shadow: var(--shadow);
-    }
-    .hero {
-      padding: 30px 24px 22px;
-      border-bottom: 1px solid var(--line);
-      background:
-        linear-gradient(140deg, rgba(13, 107, 77, 0.12), rgba(209, 126, 33, 0.12)),
-        var(--paper);
-    }
-    .eyebrow {
-      display: inline-block;
-      padding: 6px 11px;
-      border-radius: 999px;
-      background: rgba(13, 107, 77, 0.1);
-      color: var(--accent);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-    }
-    h1, h2, h3, p { margin: 0; }
-    h1 {
-      margin-top: 14px;
-      font-size: 32px;
-      line-height: 1.22;
-      letter-spacing: -0.03em;
-    }
-    h2 {
-      margin-bottom: 14px;
-      font-size: 21px;
-      letter-spacing: -0.02em;
-    }
-    h3 {
-      margin-bottom: 8px;
-      font-size: 17px;
-    }
-    .date {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-    .intro {
-      margin-top: 14px;
-      color: var(--muted);
-      font-size: 15px;
-    }
-    .summary {
-      display: grid;
-      gap: 10px;
-      margin-top: 20px;
-    }
-    .summary div {
-      padding: 14px 16px;
-      border: 1px solid rgba(222, 212, 200, 0.85);
-      border-radius: 16px;
-      background: rgba(255, 255, 255, 0.84);
-      font-size: 15px;
-    }
-    .content {
-      padding: 24px;
-    }
-    section + section {
-      margin-top: 28px;
-      padding-top: 28px;
-      border-top: 1px solid var(--line);
-    }
-    .item {
-      padding: 18px;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      background: #fffdfa;
-    }
-    .item + .item {
-      margin-top: 14px;
-    }
-    .lead {
-      background: var(--news);
-    }
-    .meta {
-      margin-top: 8px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-    ul {
-      margin: 10px 0 0;
-      padding-left: 18px;
-    }
-    li + li {
-      margin-top: 8px;
-    }
-    .panel {
-      padding: 16px 18px;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-    }
-    .action { background: var(--action); }
-    .warning { background: var(--warning); }
-    .sources a {
-      display: block;
-      margin-top: 8px;
-      word-break: break-word;
-    }
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      margin-top: 18px;
-      color: var(--muted);
-      text-align: center;
-      font-size: 13px;
-    }
-    @media (max-width: 640px) {
-      .wrap { padding: 12px 10px 30px; }
-      .hero { padding: 22px 16px 18px; }
-      .content { padding: 20px 16px 24px; }
-      h1 { font-size: 26px; }
-      .item, .panel, .summary div { padding: 14px; }
-    }
-  </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>데일리 AI 업무 웹진 | 2026-06-11</title>
+ <style>
+  :root {
+   --bg: #f5efe6;
+   --paper: #fffdfa;
+   --ink: #1f2933;
+   --muted: #607081;
+   --line: #ded4c8;
+   --accent: #0d6b4d;
+   --accent-soft: #e6f4ee;
+   --news: #fff3e2;
+   --action: #edf7ff;
+   --warning: #fff2eb;
+   --shadow: 0 18px 48px rgba(31, 41, 51, 0.08);
+  }
+  * { box-sizing: border-box; }
+  body {
+   margin: 0;
+   color: var(--ink);
+   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+   line-height: 1.7;
+   background:
+    radial-gradient(circle at top right, rgba(13, 107, 77, 0.12), transparent 28%),
+    linear-gradient(180deg, #f8f2ea 0%, #efe5d9 100%);
+  }
+  .wrap {
+   max-width: 900px;
+   margin: 0 auto;
+   padding: 20px 14px 42px;
+  }
+  .card {
+   overflow: hidden;
+   border: 1px solid rgba(222, 212, 200, 0.9);
+   border-radius: 28px;
+   background: var(--paper);
+   box-shadow: var(--shadow);
+  }
+  .hero {
+   padding: 30px 24px 22px;
+   border-bottom: 1px solid var(--line);
+   background:
+    linear-gradient(140deg, rgba(13, 107, 77, 0.12), rgba(209, 126, 33, 0.12)),
+    var(--paper);
+  }
+  .eyebrow {
+   display: inline-block;
+   padding: 6px 11px;
+   border-radius: 999px;
+   background: rgba(13, 107, 77, 0.1);
+   color: var(--accent);
+   font-size: 12px;
+   font-weight: 700;
+   letter-spacing: 0.04em;
+   text-transform: uppercase;
+  }
+  h1, h2, h3, p { margin: 0; }
+  h1 {
+   margin-top: 14px;
+   font-size: 32px;
+   line-height: 1.22;
+   letter-spacing: -0.03em;
+  }
+  h2 {
+   margin-bottom: 14px;
+   font-size: 21px;
+   letter-spacing: -0.02em;
+  }
+  h3 {
+   margin-bottom: 8px;
+   font-size: 17px;
+  }
+  .date {
+   margin-top: 10px;
+   color: var(--muted);
+   font-size: 14px;
+  }
+  .intro {
+   margin-top: 14px;
+   color: var(--muted);
+   font-size: 15px;
+  }
+  .summary {
+   display: grid;
+   gap: 10px;
+   margin-top: 20px;
+  }
+  .summary div {
+   padding: 14px 16px;
+   border: 1px solid rgba(222, 212, 200, 0.85);
+   border-radius: 16px;
+   background: rgba(255, 255, 255, 0.84);
+   font-size: 15px;
+  }
+  .content {
+   padding: 24px;
+  }
+  section + section {
+   margin-top: 28px;
+   padding-top: 28px;
+   border-top: 1px solid var(--line);
+  }
+  .item {
+   padding: 18px;
+   border: 1px solid var(--line);
+   border-radius: 18px;
+   background: #fffdfa;
+  }
+  .item + .item {
+   margin-top: 14px;
+  }
+  .lead {
+   background: var(--news);
+  }
+  .meta {
+   margin-top: 8px;
+   color: var(--muted);
+   font-size: 14px;
+  }
+  ul {
+   margin: 10px 0 0;
+   padding-left: 18px;
+  }
+  li + li {
+   margin-top: 8px;
+  }
+  .panel {
+   padding: 16px 18px;
+   border: 1px solid var(--line);
+   border-radius: 18px;
+  }
+  .action { background: var(--action); }
+  .warning { background: var(--warning); }
+  .sources a {
+   display: block;
+   margin-top: 8px;
+   word-break: break-word;
+  }
+  a {
+   color: var(--accent);
+   text-decoration: none;
+  }
+  a:hover {
+   text-decoration: underline;
+  }
+  footer {
+   margin-top: 18px;
+   color: var(--muted);
+   text-align: center;
+   font-size: 13px;
+  }
+  @media (max-width: 640px) {
+   .wrap { padding: 12px 10px 30px; }
+   .hero { padding: 22px 16px 18px; }
+   .content { padding: 20px 16px 24px; }
+   h1 { font-size: 26px; }
+   .item, .panel, .summary div { padding: 14px; }
+  }
+ </style>
 </head>
 <body>
-  <div class="wrap">
-    <article class="card">
-      <header class="hero">
-        <span class="eyebrow">Daily AI Work Brief</span>
-        <h1>데일리 AI 업무 웹진</h1>
-        <p class="date">발행일: 2026-06-11 (KST)</p>
-        <p class="intro">대상 독자: 1인 사업가, 프리랜서, 작은 회사 대표. 기준은 단순합니다. 오늘 바로 써볼 수 있고, 배울 게 많지 않으며, 마케팅·문서·고객응대·운영·콘텐츠 제작에 실제로 도움이 되는가입니다.</p>
-        <div class="summary">
-          <div>Canva가 ChatGPT와 Codex 안에서 바로 디자인을 만들고 수정하는 흐름을 넓혔습니다. 초안 만들기보다 “브랜드 맞춤 결과물을 바로 꺼내는 일”이 쉬워졌습니다.</div>
-          <div>ChatGPT Business는 현재 가격 페이지 기준 60개 이상 앱, record mode, 데이터 분석, 공유 프로젝트를 묶어 제공합니다. 여기에 6월 초 릴리스 노트로 내부 사이트 미리보기와 보안 세션 관리가 추가됐습니다.</div>
-          <div>Notion, Google Workspace, Zapier는 회의·메일·문서·자동화를 한 덩어리로 묶는 방향으로 빨라지고 있습니다. 다만 권한 범위와 과금 구조는 먼저 확인해야 합니다.</div>
-        </div>
-      </header>
-      <main class="content">
-        <section>
-          <h2>메인 뉴스</h2>
-          <div class="item lead">
-            <h3>Canva가 ChatGPT와 Codex 안으로 더 깊게 들어왔습니다</h3>
-            <p>Canva 공식 뉴스룸에 따르면, 이제 ChatGPT 안에서 Canva 디자인을 생성·미리보기·수정할 수 있고, Codex에서도 Canva 플러그인을 통해 아이디어를 바로 편집 가능한 디자인으로 이어갈 수 있습니다. 같은 글에서 Canva는 Brand Kits를 ChatGPT 흐름에 연결해 폰트·색상·톤을 기본값으로 적용하고, 디자인 전체 텍스트를 대화형으로 한 번에 바꾸는 사용 방식을 강조했습니다.</p>
-            <ul>
-              <li>“인스타그램 세일 포스트 만들어줘” 같은 요청만으로 편집 가능한 Canva 디자인을 바로 띄우는 흐름이 핵심입니다.</li>
-              <li>50장짜리 발표 자료도 “더 쉽게 써줘”, “더 대화체로 바꿔줘” 같은 지시로 한 번에 손볼 수 있다는 점을 Canva가 전면에 내세웠습니다.</li>
-              <li>기존 deep research 연결로 Canva 안의 지난 제안서, 전략 덱, 자료를 ChatGPT에서 요약해 쓰는 흐름도 함께 밀고 있습니다.</li>
-              <li>현재 Canva는 이 ChatGPT 기능이 Free, Plus, Pro 플랜 사용자에게 순차 제공 중이며 EU 제외 문구가 명시돼 있습니다.</li>
-            </ul>
-            <p class="meta">왜 중요한가: 작은 팀에게 디자인 AI의 진짜 가치는 “한 장 더 예쁘게”가 아니라 “브랜드에 맞는 결과물을 반복해서 빨리 꺼내는가”에 있습니다. 이번 변화는 콘텐츠 제작이 채팅창 안으로 들어오고 있다는 신호입니다.</p>
-          </div>
-        </section>
+ <div class="wrap">
+  <article class="card">
+   <header class="hero">
+    <span class="eyebrow">Daily AI Work Brief</span>
+    <h1>데일리 AI 업무 웹진</h1>
+    <p class="date">발행일: 2026-06-11 (KST)</p>
+    <p class="intro">대상 독자: 1인 사업가, 프리랜서, 작은 회사 대표. 기준은 단순합니다. 오늘 바로 써볼 수 있고, 배울 게 많지 않으며, 마케팅·문서·고객응대·운영·콘텐츠 제작에 실제로 도움이 되는가입니다.</p>
+    <div class="summary">
+     <div>Canva가 ChatGPT와 Codex 안에서 바로 디자인을 만들고 수정하는 흐름을 넓혔습니다. 초안 만들기보다 “브랜드 맞춤 결과물을 바로 꺼내는 일”이 쉬워졌습니다.</div>
+     <div>ChatGPT Business는 현재 가격 페이지 기준 60개 이상 앱, record mode, 데이터 분석, 공유 프로젝트를 묶어 제공합니다. 여기에 6월 초 릴리스 노트로 내부 사이트 미리보기와 보안 세션 관리가 추가됐습니다.</div>
+     <div>Notion, Google Workspace, Zapier는 회의·메일·문서·자동화를 한 덩어리로 묶는 방향으로 빨라지고 있습니다. 다만 권한 범위와 과금 구조는 먼저 확인해야 합니다.</div>
+    </div>
+   </header>
+   <main class="content">
+    <section>
+     <div class="item lead">
+      <p>Canva 공식 뉴스룸에 따르면, 이제 ChatGPT 안에서 Canva 디자인을 생성·미리보기·수정할 수 있고, Codex에서도 Canva 플러그인을 통해 아이디어를 바로 편집 가능한 디자인으로 이어갈 수 있습니다. 같은 글에서 Canva는 Brand Kits를 ChatGPT 흐름에 연결해 폰트·색상·톤을 기본값으로 적용하고, 디자인 전체 텍스트를 대화형으로 한 번에 바꾸는 사용 방식을 강조했습니다.</p>
+      <ul>
+       <li>“인스타그램 세일 포스트 만들어줘” 같은 요청만으로 편집 가능한 Canva 디자인을 바로 띄우는 흐름이 핵심입니다.</li>
+       <li>50장짜리 발표 자료도 “더 쉽게 써줘”, “더 대화체로 바꿔줘” 같은 지시로 한 번에 손볼 수 있다는 점을 Canva가 전면에 내세웠습니다.</li>
+       <li>기존 deep research 연결로 Canva 안의 지난 제안서, 전략 덱, 자료를 ChatGPT에서 요약해 쓰는 흐름도 함께 밀고 있습니다.</li>
+       <li>현재 Canva는 이 ChatGPT 기능이 Free, Plus, Pro 플랜 사용자에게 순차 제공 중이며 EU 제외 문구가 명시돼 있습니다.</li>
+      </ul>
+      <p class="meta">왜 중요한가: 작은 팀에게 디자인 AI의 진짜 가치는 “한 장 더 예쁘게”가 아니라 “브랜드에 맞는 결과물을 반복해서 빨리 꺼내는가”에 있습니다. 이번 변화는 콘텐츠 제작이 채팅창 안으로 들어오고 있다는 신호입니다.</p>
+     </div>
+    </section>
 
-        <section>
-          <h2>써볼 만한 업데이트</h2>
-          <div class="item">
-            <h3>1. ChatGPT Business: 60+ 앱, record mode, 공유 프로젝트가 기본 패키지로 묶였습니다</h3>
-            <p>현재 ChatGPT 공식 가격 페이지에는 Business ChatGPT &amp; Codex가 스타트업과 성장형 비즈니스를 위한 협업 워크스페이스로 소개되며, Slack·Google Drive·SharePoint·GitHub·Atlassian 등 60개 이상 앱, record mode, canvas, shared projects, custom workspace GPTs가 포함된다고 안내합니다.</p>
-            <ul>
-              <li>문서 요약, 회의 기록, 데이터 분석, 앱 연결을 한 계정 체계 안에서 관리하려는 팀에 유리한 구조입니다.</li>
-              <li>6월 2일 Business 릴리스 노트에는 내부용 사이트를 만드는 ChatGPT Sites 미리보기와 Active sessions 보안 기능도 추가됐습니다.</li>
-              <li>정확한 사용자당 월 요금은 현재 접근 가능한 가격 페이지 캡처에서 숫자 노출이 불완전해 별도 확인이 필요합니다.</li>
-            </ul>
-          </div>
+    <section>
+     <div class="item">
+      <p>현재 ChatGPT 공식 가격 페이지에는 Business ChatGPT &amp; Codex가 스타트업과 성장형 비즈니스를 위한 협업 워크스페이스로 소개되며, Slack·Google Drive·SharePoint·GitHub·Atlassian 등 60개 이상 앱, record mode, canvas, shared projects, custom workspace GPTs가 포함된다고 안내합니다.</p>
+      <ul>
+       <li>문서 요약, 회의 기록, 데이터 분석, 앱 연결을 한 계정 체계 안에서 관리하려는 팀에 유리한 구조입니다.</li>
+       <li>6월 2일 Business 릴리스 노트에는 내부용 사이트를 만드는 ChatGPT Sites 미리보기와 Active sessions 보안 기능도 추가됐습니다.</li>
+       <li>정확한 사용자당 월 요금은 현재 접근 가능한 가격 페이지 캡처에서 숫자 노출이 불완전해 별도 확인이 필요합니다.</li>
+      </ul>
+     </div>
 
-          <div class="item">
-            <h3>2. ChatGPT for Excel·Google Sheets가 Business에 글로벌 제공됐습니다</h3>
-            <p>OpenAI Business 릴리스 노트의 2026년 5월 5일 항목에 따르면, ChatGPT for Excel and Google Sheets가 전 세계 Business 고객에게 제공됩니다. 스프레드시트 안에 ChatGPT 사이드바가 붙어 정리, 설명, 업데이트, 구조화 작업을 바로 수행하는 방식입니다.</p>
-            <ul>
-              <li>매출표 정리, 고객 목록 클리닝, FAQ 테이블 만들기, 카테고리 분류 작업에 바로 연결하기 좋습니다.</li>
-              <li>관리자가 워크스페이스 설정에서 켜야 하며, 연결 앱과 원본 데이터 권한에 따라 동작 범위가 달라집니다.</li>
-            </ul>
-          </div>
+     <div class="item">
+      <p>OpenAI Business 릴리스 노트의 2026년 5월 5일 항목에 따르면, ChatGPT for Excel and Google Sheets가 전 세계 Business 고객에게 제공됩니다. 스프레드시트 안에 ChatGPT 사이드바가 붙어 정리, 설명, 업데이트, 구조화 작업을 바로 수행하는 방식입니다.</p>
+      <ul>
+       <li>매출표 정리, 고객 목록 클리닝, FAQ 테이블 만들기, 카테고리 분류 작업에 바로 연결하기 좋습니다.</li>
+       <li>관리자가 워크스페이스 설정에서 켜야 하며, 연결 앱과 원본 데이터 권한에 따라 동작 범위가 달라집니다.</li>
+      </ul>
+     </div>
 
-          <div class="item">
-            <h3>3. Notion은 Custom Agents를 private Slack 채널까지 확장했습니다</h3>
-            <p>Notion 릴리스 페이지의 2026년 5월 1일 업데이트에 따르면, Custom Agents가 이제 private Slack 채널에서도 읽고 답변할 수 있습니다. 단, 초대된 비공개 채널만 볼 수 있다고 명시돼 있습니다.</p>
-            <ul>
-              <li>고객 응대, 내부 운영, 캠페인 실행 채널처럼 실무 대화가 private에 몰려 있는 팀엔 체감이 큽니다.</li>
-              <li>현재 Notion 가격 페이지 기준 Business는 사용자당 월 20달러이며, AI Meeting Notes와 Notion Agent가 포함됩니다.</li>
-              <li>Slack 비공개 채널을 연결할 때는 어떤 채널까지 읽게 할지 먼저 정하는 편이 안전합니다.</li>
-            </ul>
-          </div>
+     <div class="item">
+      <p>Notion 릴리스 페이지의 2026년 5월 1일 업데이트에 따르면, Custom Agents가 이제 private Slack 채널에서도 읽고 답변할 수 있습니다. 단, 초대된 비공개 채널만 볼 수 있다고 명시돼 있습니다.</p>
+      <ul>
+       <li>고객 응대, 내부 운영, 캠페인 실행 채널처럼 실무 대화가 private에 몰려 있는 팀엔 체감이 큽니다.</li>
+       <li>현재 Notion 가격 페이지 기준 Business는 사용자당 월 20달러이며, AI Meeting Notes와 Notion Agent가 포함됩니다.</li>
+       <li>Slack 비공개 채널을 연결할 때는 어떤 채널까지 읽게 할지 먼저 정하는 편이 안전합니다.</li>
+      </ul>
+     </div>
 
-          <div class="item">
-            <h3>4. Google Workspace는 음성 중심 업무 흐름을 더 밀고 있습니다</h3>
-            <p>Google Workspace 공식 블로그의 2026년 5월 19일 글은 Gmail, Docs, Keep의 대화형 음성 기능, Google Pics, AI Inbox, 24시간 개인형 AI 에이전트인 Gemini Spark를 한 번에 발표했습니다.</p>
-            <ul>
-              <li>핵심은 “작성”보다 “찾기·정리·요약”을 음성으로 당겨오는 데 있습니다.</li>
-              <li>공식 비즈니스 요금 페이지에는 Business Starter·Standard·Plus가 모두 AI 포함 패키지로 노출되며 월별 USD 가격이 표시됩니다.</li>
-              <li>새 음성 기능과 Gemini Spark의 실제 플랜별 가용 범위는 기능마다 달라 확인이 필요합니다.</li>
-            </ul>
-          </div>
+     <div class="item">
+      <p>Google Workspace 공식 블로그의 2026년 5월 19일 글은 Gmail, Docs, Keep의 대화형 음성 기능, Google Pics, AI Inbox, 24시간 개인형 AI 에이전트인 Gemini Spark를 한 번에 발표했습니다.</p>
+      <ul>
+       <li>핵심은 “작성”보다 “찾기·정리·요약”을 음성으로 당겨오는 데 있습니다.</li>
+       <li>공식 비즈니스 요금 페이지에는 Business Starter·Standard·Plus가 모두 AI 포함 패키지로 노출되며 월별 USD 가격이 표시됩니다.</li>
+       <li>새 음성 기능과 Gemini Spark의 실제 플랜별 가용 범위는 기능마다 달라 확인이 필요합니다.</li>
+      </ul>
+     </div>
 
-          <div class="item">
-            <h3>5. Zapier MCP는 “AI가 말만 하지 않고 실제로 움직이게” 만드는 가장 쉬운 다리입니다</h3>
-            <p>Zapier MCP 페이지는 현재 open beta 상태로, ChatGPT·Claude 같은 AI 도구를 Gmail, Slack, Salesforce 포함 9,000개 이상 앱에 연결한다고 설명합니다. 공식 페이지에는 모든 Zapier 플랜에서 사용 가능하며, beta 기간에는 무료라고 표시돼 있습니다.</p>
-            <ul>
-              <li>비개발자 관점에서 강점은 “노코드로 연결한다”는 점입니다.</li>
-              <li>ChatGPT가 초안을 쓰는 단계에서 멈추지 않고, 실제로 메일 확인·시트 업데이트·태스크 등록까지 이어지게 만들 수 있습니다.</li>
-              <li>다만 beta 종료 후 과금 방식과 작업량 제한은 별도 확인이 필요합니다.</li>
-            </ul>
-          </div>
-        </section>
+     <div class="item">
+      <p>Zapier MCP 페이지는 현재 open beta 상태로, ChatGPT·Claude 같은 AI 도구를 Gmail, Slack, Salesforce 포함 9,000개 이상 앱에 연결한다고 설명합니다. 공식 페이지에는 모든 Zapier 플랜에서 사용 가능하며, beta 기간에는 무료라고 표시돼 있습니다.</p>
+      <ul>
+       <li>비개발자 관점에서 강점은 “노코드로 연결한다”는 점입니다.</li>
+       <li>ChatGPT가 초안을 쓰는 단계에서 멈추지 않고, 실제로 메일 확인·시트 업데이트·태스크 등록까지 이어지게 만들 수 있습니다.</li>
+       <li>다만 beta 종료 후 과금 방식과 작업량 제한은 별도 확인이 필요합니다.</li>
+      </ul>
+     </div>
+    </section>
 
-        <section>
-          <h2>바로 해볼 액션</h2>
-          <div class="panel action">
-            <ul>
-              <li>콘텐츠 제작이 잦다면: ChatGPT 안에서 Canva로 “이번 주 행사 안내 세트”를 만들어 보고, SNS 카드 2종과 이메일 헤더 1종까지 한 번에 뽑아보세요.</li>
-              <li>표 정리가 많다면: 매출표나 문의 목록 하나를 골라 ChatGPT for Excel 또는 Sheets로 정리 규칙을 먼저 실험해 보세요.</li>
-              <li>Slack으로 일한다면: Notion Agent를 private 채널 한 곳에만 연결해 요약과 할 일 추출 정확도를 3일만 체크해 보세요.</li>
-              <li>자동화를 늘리고 싶다면: Zapier MCP로 “새 문의 메일이 오면 시트에 기록하고 Slack에 알림” 같은 1개 흐름만 먼저 붙이세요.</li>
-            </ul>
-          </div>
-        </section>
+    <section>
+     <div class="panel action">
+      <ul>
+       <li>콘텐츠 제작이 잦다면: ChatGPT 안에서 Canva로 “이번 주 행사 안내 세트”를 만들어 보고, SNS 카드 2종과 이메일 헤더 1종까지 한 번에 뽑아보세요.</li>
+       <li>표 정리가 많다면: 매출표나 문의 목록 하나를 골라 ChatGPT for Excel 또는 Sheets로 정리 규칙을 먼저 실험해 보세요.</li>
+       <li>Slack으로 일한다면: Notion Agent를 private 채널 한 곳에만 연결해 요약과 할 일 추출 정확도를 3일만 체크해 보세요.</li>
+       <li>자동화를 늘리고 싶다면: Zapier MCP로 “새 문의 메일이 오면 시트에 기록하고 Slack에 알림” 같은 1개 흐름만 먼저 붙이세요.</li>
+      </ul>
+     </div>
+    </section>
 
-        <section>
-          <h2>주의할 점</h2>
-          <div class="panel warning">
-            <ul>
-              <li>rollout 중인 기능은 발표와 실제 계정 활성화 시점이 다를 수 있습니다.</li>
-              <li>회의 기록, private Slack 채널, 드라이브 연결 기능은 편리하지만 고객 정보와 내부 자료 접근 권한을 먼저 점검해야 합니다.</li>
-              <li>Business 요금과 beta 이후 과금은 지역, 결제 주기, 계약 방식에 따라 달라질 수 있습니다.</li>
-            </ul>
-          </div>
-        </section>
+    <section>
+     <div class="panel warning">
+      <ul>
+       <li>rollout 중인 기능은 발표와 실제 계정 활성화 시점이 다를 수 있습니다.</li>
+       <li>회의 기록, private Slack 채널, 드라이브 연결 기능은 편리하지만 고객 정보와 내부 자료 접근 권한을 먼저 점검해야 합니다.</li>
+       <li>Business 요금과 beta 이후 과금은 지역, 결제 주기, 계약 방식에 따라 달라질 수 있습니다.</li>
+      </ul>
+     </div>
+    </section>
 
-        <section class="sources">
-          <h2>출처 링크</h2>
-          <a href="https://www.canva.com/newsroom/news/deep-research-integration-mcp-server/">Canva: Create with Canva inside ChatGPT and Codex</a>
-          <a href="https://www.canva.com/newsroom/news/magic-layers-ai-assistants/">Canva: Magic Layers is now inside ChatGPT and Gemini</a>
-          <a href="https://www.canva.com/newsroom/news/canva-create-2026-ai/">Canva: Introducing Canva AI 2.0</a>
-          <a href="https://chatgpt.com/pricing/">ChatGPT Pricing</a>
-          <a href="https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes">OpenAI Help: ChatGPT Business Release Notes</a>
-          <a href="https://www.notion.com/releases">Notion: What's New</a>
-          <a href="https://www.notion.com/pricing">Notion Pricing</a>
-          <a href="https://blog.google/products-and-platforms/products/workspace/workspace-updates/">Google Workspace Updates</a>
-          <a href="https://workspace.google.com/intl/en_US/business/">Google Workspace Business Pricing</a>
-          <a href="https://zapier.com/mcp">Zapier MCP</a>
-        </section>
+    <section class="sources">
+     <h2>출처 링크</h2>
+     <a href="https://www.canva.com/newsroom/news/deep-research-integration-mcp-server/">Canva: Create with Canva inside ChatGPT and Codex</a>
+     <a href="https://www.canva.com/newsroom/news/magic-layers-ai-assistants/">Canva: Magic Layers is now inside ChatGPT and Gemini</a>
+     <a href="https://www.canva.com/newsroom/news/canva-create-2026-ai/">Canva: Introducing Canva AI 2.0</a>
+     <a href="https://chatgpt.com/pricing/">ChatGPT Pricing</a>
+     <a href="https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes">OpenAI Help: ChatGPT Business Release Notes</a>
+     <a href="https://www.notion.com/releases">Notion: What's New</a>
+     <a href="https://www.notion.com/pricing">Notion Pricing</a>
+     <a href="https://blog.google/products-and-platforms/products/workspace/workspace-updates/">Google Workspace Updates</a>
+     <a href="https://workspace.google.com/intl/en_US/business/">Google Workspace Business Pricing</a>
+     <a href="https://zapier.com/mcp">Zapier MCP</a>
+    </section>
 
-        <section>
-          <h2>확인 필요 목록</h2>
-          <div class="item">
-            <ul>
-              <li>ChatGPT Business ChatGPT &amp; Codex의 현재 사용자당 월 요금 숫자 노출이 접근 페이지에서 불완전해 정확한 금액 재확인 필요</li>
-              <li>Canva의 ChatGPT 기능과 Magic Layers의 국가별 rollout 범위, 특히 한국 계정 가용 여부 확인 필요</li>
-              <li>Google Workspace의 새 음성 기능과 Gemini Spark의 플랜별 제공 범위 확인 필요</li>
-              <li>Zapier MCP beta 종료 후 과금 방식과 작업 제한 확인 필요</li>
-            </ul>
-          </div>
-        </section>
-      </main>
-    </article>
-    <footer>외부 공개 URL이 필요하면 이 HTML 파일을 별도 정적 호스팅 또는 배포해야 합니다.</footer>
-  </div>
-  <script src="../assets/audio-preview.js" defer></script>
-  <script src="../assets/language-toggle.js"></script>
+    <section>
+     <div class="item">
+      <ul>
+       <li>ChatGPT Business ChatGPT &amp; Codex의 현재 사용자당 월 요금 숫자 노출이 접근 페이지에서 불완전해 정확한 금액 재확인 필요</li>
+       <li>Canva의 ChatGPT 기능과 Magic Layers의 국가별 rollout 범위, 특히 한국 계정 가용 여부 확인 필요</li>
+       <li>Google Workspace의 새 음성 기능과 Gemini Spark의 플랜별 제공 범위 확인 필요</li>
+       <li>Zapier MCP beta 종료 후 과금 방식과 작업 제한 확인 필요</li>
+      </ul>
+     </div>
+    </section>
+   </main>
+  </article>
+  <footer>외부 공개 URL이 필요하면 이 HTML 파일을 별도 정적 호스팅 또는 배포해야 합니다.</footer>
+ </div>
+ <script src="../assets/language-toggle.js"></script>
 </body>
 </html>

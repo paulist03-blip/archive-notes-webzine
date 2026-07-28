@@ -1,287 +1,276 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>데일리 AI 업무 웹진 | 2026-06-13</title>
-  <style>
-    :root {
-      --bg: #f4efe7;
-      --paper: #fffdf9;
-      --ink: #22303a;
-      --muted: #667784;
-      --line: #dccfbe;
-      --accent: #0b6b57;
-      --lead: #fff1df;
-      --panel: #eef6ff;
-      --warn: #fff4ea;
-      --shadow: 0 18px 48px rgba(34, 48, 58, 0.08);
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      color: var(--ink);
-      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
-      line-height: 1.72;
-      background:
-        radial-gradient(circle at top right, rgba(11, 107, 87, 0.12), transparent 24%),
-        linear-gradient(180deg, #f7f1e8 0%, #efe4d8 100%);
-    }
-    .wrap {
-      max-width: 920px;
-      margin: 0 auto;
-      padding: 18px 14px 42px;
-    }
-    .card {
-      overflow: hidden;
-      border: 1px solid rgba(220, 207, 190, 0.9);
-      border-radius: 28px;
-      background: var(--paper);
-      box-shadow: var(--shadow);
-    }
-    .hero {
-      padding: 30px 24px 22px;
-      border-bottom: 1px solid var(--line);
-      background:
-        linear-gradient(135deg, rgba(11, 107, 87, 0.12), rgba(214, 133, 38, 0.1)),
-        var(--paper);
-    }
-    .eyebrow {
-      display: inline-block;
-      padding: 6px 11px;
-      border-radius: 999px;
-      background: rgba(11, 107, 87, 0.1);
-      color: var(--accent);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-    }
-    h1, h2, h3, p { margin: 0; }
-    h1 {
-      margin-top: 14px;
-      font-size: 32px;
-      line-height: 1.2;
-      letter-spacing: -0.03em;
-    }
-    h2 {
-      margin-bottom: 14px;
-      font-size: 21px;
-      letter-spacing: -0.02em;
-    }
-    h3 {
-      margin-bottom: 8px;
-      font-size: 17px;
-    }
-    .date {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-    .intro {
-      margin-top: 14px;
-      color: var(--muted);
-      font-size: 15px;
-    }
-    .summary {
-      display: grid;
-      gap: 10px;
-      margin-top: 20px;
-    }
-    .summary div {
-      padding: 14px 16px;
-      border: 1px solid rgba(220, 207, 190, 0.85);
-      border-radius: 16px;
-      background: rgba(255, 255, 255, 0.88);
-      font-size: 15px;
-    }
-    .content {
-      padding: 24px;
-    }
-    section + section {
-      margin-top: 28px;
-      padding-top: 28px;
-      border-top: 1px solid var(--line);
-    }
-    .item {
-      padding: 18px;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      background: #fffdfa;
-    }
-    .item + .item {
-      margin-top: 14px;
-    }
-    .lead {
-      background: var(--lead);
-    }
-    .meta {
-      margin-top: 8px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-    ul {
-      margin: 10px 0 0;
-      padding-left: 18px;
-    }
-    li + li {
-      margin-top: 8px;
-    }
-    .panel {
-      padding: 16px 18px;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-    }
-    .action { background: var(--panel); }
-    .warning { background: var(--warn); }
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    a:hover { text-decoration: underline; }
-    .sources a {
-      display: block;
-      margin-top: 8px;
-      word-break: break-word;
-    }
-    footer {
-      margin-top: 18px;
-      color: var(--muted);
-      text-align: center;
-      font-size: 13px;
-    }
-    @media (max-width: 640px) {
-      .wrap { padding: 12px 10px 30px; }
-      .hero { padding: 22px 16px 18px; }
-      .content { padding: 20px 16px 24px; }
-      h1 { font-size: 26px; }
-      .item, .panel, .summary div { padding: 14px; }
-    }
-  </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>데일리 AI 업무 웹진 | 2026-06-13</title>
+ <style>
+  :root {
+   --bg: #f4efe7;
+   --paper: #fffdf9;
+   --ink: #22303a;
+   --muted: #667784;
+   --line: #dccfbe;
+   --accent: #0b6b57;
+   --lead: #fff1df;
+   --panel: #eef6ff;
+   --warn: #fff4ea;
+   --shadow: 0 18px 48px rgba(34, 48, 58, 0.08);
+  }
+  * { box-sizing: border-box; }
+  body {
+   margin: 0;
+   color: var(--ink);
+   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+   line-height: 1.72;
+   background:
+    radial-gradient(circle at top right, rgba(11, 107, 87, 0.12), transparent 24%),
+    linear-gradient(180deg, #f7f1e8 0%, #efe4d8 100%);
+  }
+  .wrap {
+   max-width: 920px;
+   margin: 0 auto;
+   padding: 18px 14px 42px;
+  }
+  .card {
+   overflow: hidden;
+   border: 1px solid rgba(220, 207, 190, 0.9);
+   border-radius: 28px;
+   background: var(--paper);
+   box-shadow: var(--shadow);
+  }
+  .hero {
+   padding: 30px 24px 22px;
+   border-bottom: 1px solid var(--line);
+   background:
+    linear-gradient(135deg, rgba(11, 107, 87, 0.12), rgba(214, 133, 38, 0.1)),
+    var(--paper);
+  }
+  .eyebrow {
+   display: inline-block;
+   padding: 6px 11px;
+   border-radius: 999px;
+   background: rgba(11, 107, 87, 0.1);
+   color: var(--accent);
+   font-size: 12px;
+   font-weight: 700;
+   letter-spacing: 0.04em;
+   text-transform: uppercase;
+  }
+  h1, h2, h3, p { margin: 0; }
+  h1 {
+   margin-top: 14px;
+   font-size: 32px;
+   line-height: 1.2;
+   letter-spacing: -0.03em;
+  }
+  h2 {
+   margin-bottom: 14px;
+   font-size: 21px;
+   letter-spacing: -0.02em;
+  }
+  h3 {
+   margin-bottom: 8px;
+   font-size: 17px;
+  }
+  .date {
+   margin-top: 10px;
+   color: var(--muted);
+   font-size: 14px;
+  }
+  .intro {
+   margin-top: 14px;
+   color: var(--muted);
+   font-size: 15px;
+  }
+  .summary {
+   display: grid;
+   gap: 10px;
+   margin-top: 20px;
+  }
+  .summary div {
+   padding: 14px 16px;
+   border: 1px solid rgba(220, 207, 190, 0.85);
+   border-radius: 16px;
+   background: rgba(255, 255, 255, 0.88);
+   font-size: 15px;
+  }
+  .content {
+   padding: 24px;
+  }
+  section + section {
+   margin-top: 28px;
+   padding-top: 28px;
+   border-top: 1px solid var(--line);
+  }
+  .item {
+   padding: 18px;
+   border: 1px solid var(--line);
+   border-radius: 18px;
+   background: #fffdfa;
+  }
+  .item + .item {
+   margin-top: 14px;
+  }
+  .lead {
+   background: var(--lead);
+  }
+  .meta {
+   margin-top: 8px;
+   color: var(--muted);
+   font-size: 14px;
+  }
+  ul {
+   margin: 10px 0 0;
+   padding-left: 18px;
+  }
+  li + li {
+   margin-top: 8px;
+  }
+  .panel {
+   padding: 16px 18px;
+   border: 1px solid var(--line);
+   border-radius: 18px;
+  }
+  .action { background: var(--panel); }
+  .warning { background: var(--warn); }
+  a {
+   color: var(--accent);
+   text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+  .sources a {
+   display: block;
+   margin-top: 8px;
+   word-break: break-word;
+  }
+  footer {
+   margin-top: 18px;
+   color: var(--muted);
+   text-align: center;
+   font-size: 13px;
+  }
+  @media (max-width: 640px) {
+   .wrap { padding: 12px 10px 30px; }
+   .hero { padding: 22px 16px 18px; }
+   .content { padding: 20px 16px 24px; }
+   h1 { font-size: 26px; }
+   .item, .panel, .summary div { padding: 14px; }
+  }
+ </style>
 </head>
 <body>
-  <div class="wrap">
-    <article class="card">
-      <header class="hero">
-        <span class="eyebrow">Daily AI Work Brief</span>
-        <h1>데일리 AI 업무 웹진</h1>
-        <p class="date">발행일: 2026-06-13 (KST)</p>
-        <p class="intro">대상 독자: 1인 사업가, 프리랜서, 작은 회사 대표. 오늘 바로 써볼 수 있고, 학습 부담이 낮으며, 마케팅·문서·고객응대·운영·콘텐츠 제작에 실질적으로 도움이 되는 변화만 골랐습니다.</p>
-        <div class="summary">
-          <div>Canva는 ChatGPT와 Codex 안에서 브랜드 맞춤 디자인 생성·수정 흐름을 밀고 있습니다. 외주 전 단계 시안을 훨씬 빠르게 만들 수 있습니다.</div>
-          <div>OpenAI는 2026년 6월 8일과 10일 기준으로 ChatGPT 안에서 이메일 초안 발송, 장문 문서 전체 편집, 인터랙티브 차트, 단순화된 모델 선택을 내놨습니다.</div>
-          <div>Notion과 Google Workspace는 가격과 자동화 구조가 더 분명해졌습니다. Notion은 에이전트 과금 기준이 보이고, Google Workspace는 Gemini 포함 플랜과 3개월 할인 구간이 명확합니다.</div>
-        </div>
-      </header>
-      <main class="content">
-        <section>
-          <h2>메인 뉴스</h2>
-          <div class="item lead">
-            <h3>Canva가 ChatGPT와 Codex를 실무용 브랜드 콘텐츠 작업실로 밀고 있습니다</h3>
-            <p>Canva 공식 뉴스룸 최신 게시물 기준으로, ChatGPT 안에서 Canva 디자인을 생성·미리보기·수정할 수 있고, Codex에서도 Canva 플러그인으로 아이디어를 편집 가능한 디자인으로 이어갈 수 있습니다. Brand Kits를 불러와 폰트·색상·보이스를 기본 적용하고, 프레젠테이션 전체 텍스트도 대화형으로 한 번에 수정하는 흐름을 전면에 내세웠습니다.</p>
-            <ul>
-              <li>“이번 주 세일용 인스타 카드 3종”처럼 요청하면 초안 제작과 수정이 같은 대화 안에서 이어집니다.</li>
-              <li>브랜드 규칙을 미리 넣어두면, 외주 전달 전 내부 초안 품질이 크게 올라갑니다.</li>
-              <li>Canva는 기존 자료를 ChatGPT deep research로 요약해 새 콘텐츠에 재활용하는 흐름도 함께 강조했습니다.</li>
-              <li>ChatGPT 안의 Canva 앱은 Free, Plus, Pro 플랜 사용자에게 EU 외 지역 기준으로 순차 제공 중이라고 Canva가 밝혔습니다.</li>
-            </ul>
-            <p class="meta">왜 중요한가: 작은 팀은 “더 화려한 디자인”보다 “브랜드에 맞는 시안을 빠르게 반복 생산”하는 편이 더 중요합니다. 이번 변화는 바로 그 비용을 줄입니다.</p>
-          </div>
-        </section>
+ <div class="wrap">
+  <article class="card">
+   <header class="hero">
+    <span class="eyebrow">Daily AI Work Brief</span>
+    <h1>데일리 AI 업무 웹진</h1>
+    <p class="date">발행일: 2026-06-13 (KST)</p>
+    <p class="intro">대상 독자: 1인 사업가, 프리랜서, 작은 회사 대표. 오늘 바로 써볼 수 있고, 학습 부담이 낮으며, 마케팅·문서·고객응대·운영·콘텐츠 제작에 실질적으로 도움이 되는 변화만 골랐습니다.</p>
+    <div class="summary">
+     <div>Canva는 ChatGPT와 Codex 안에서 브랜드 맞춤 디자인 생성·수정 흐름을 밀고 있습니다. 외주 전 단계 시안을 훨씬 빠르게 만들 수 있습니다.</div>
+     <div>OpenAI는 2026년 6월 8일과 10일 기준으로 ChatGPT 안에서 이메일 초안 발송, 장문 문서 전체 편집, 인터랙티브 차트, 단순화된 모델 선택을 내놨습니다.</div>
+     <div>Notion과 Google Workspace는 가격과 자동화 구조가 더 분명해졌습니다. Notion은 에이전트 과금 기준이 보이고, Google Workspace는 Gemini 포함 플랜과 3개월 할인 구간이 명확합니다.</div>
+    </div>
+   </header>
+   <main class="content">
+    <section>
+     <div class="item lead">
+      <p>Canva 공식 뉴스룸 최신 게시물 기준으로, ChatGPT 안에서 Canva 디자인을 생성·미리보기·수정할 수 있고, Codex에서도 Canva 플러그인으로 아이디어를 편집 가능한 디자인으로 이어갈 수 있습니다. Brand Kits를 불러와 폰트·색상·보이스를 기본 적용하고, 프레젠테이션 전체 텍스트도 대화형으로 한 번에 수정하는 흐름을 전면에 내세웠습니다.</p>
+      <ul>
+       <li>“이번 주 세일용 인스타 카드 3종”처럼 요청하면 초안 제작과 수정이 같은 대화 안에서 이어집니다.</li>
+       <li>브랜드 규칙을 미리 넣어두면, 외주 전달 전 내부 초안 품질이 크게 올라갑니다.</li>
+       <li>Canva는 기존 자료를 ChatGPT deep research로 요약해 새 콘텐츠에 재활용하는 흐름도 함께 강조했습니다.</li>
+       <li>ChatGPT 안의 Canva 앱은 Free, Plus, Pro 플랜 사용자에게 EU 외 지역 기준으로 순차 제공 중이라고 Canva가 밝혔습니다.</li>
+      </ul>
+      <p class="meta">왜 중요한가: 작은 팀은 “더 화려한 디자인”보다 “브랜드에 맞는 시안을 빠르게 반복 생산”하는 편이 더 중요합니다. 이번 변화는 바로 그 비용을 줄입니다.</p>
+     </div>
+    </section>
 
-        <section>
-          <h2>써볼 만한 업데이트</h2>
-          <div class="item">
-            <h3>1. ChatGPT 안에서 이메일 초안 발송과 장문 문서 편집이 더 실용적으로 바뀌었습니다</h3>
-            <p>OpenAI의 ChatGPT 릴리스 노트에서 2026년 6월 8일 업데이트로, Gmail 또는 Outlook을 연결한 Plus·Pro·Business·Enterprise 사용자는 웹에서 채팅 안에서 이메일 초안을 만들고 바로 발송할 수 있습니다. 같은 날 장문 문서용 전체 화면 편집과 인터랙티브 차트도 추가됐습니다.</p>
-            <ul>
-              <li>문의 답장, 견적 안내, 미팅 후속 메일처럼 반복되는 문장을 바로 처리하기 좋습니다.</li>
-              <li>보고서나 제안서 초안을 긴 대화에서 빼내 별도 편집기로 다듬는 수고가 줄어듭니다.</li>
-              <li>표 데이터를 붙여 넣은 뒤 차트까지 바로 뽑을 수 있어 매출·광고 성과 공유가 빨라집니다.</li>
-            </ul>
-          </div>
+    <section>
+     <div class="item">
+      <p>OpenAI의 ChatGPT 릴리스 노트에서 2026년 6월 8일 업데이트로, Gmail 또는 Outlook을 연결한 Plus·Pro·Business·Enterprise 사용자는 웹에서 채팅 안에서 이메일 초안을 만들고 바로 발송할 수 있습니다. 같은 날 장문 문서용 전체 화면 편집과 인터랙티브 차트도 추가됐습니다.</p>
+      <ul>
+       <li>문의 답장, 견적 안내, 미팅 후속 메일처럼 반복되는 문장을 바로 처리하기 좋습니다.</li>
+       <li>보고서나 제안서 초안을 긴 대화에서 빼내 별도 편집기로 다듬는 수고가 줄어듭니다.</li>
+       <li>표 데이터를 붙여 넣은 뒤 차트까지 바로 뽑을 수 있어 매출·광고 성과 공유가 빨라집니다.</li>
+      </ul>
+     </div>
 
-          <div class="item">
-            <h3>2. ChatGPT 유료 사용자는 모델 선택이 더 단순해졌습니다</h3>
-            <p>OpenAI는 2026년 6월 10일 모델 선택기를 Instant, Medium, High, Extra High 등으로 단순화했습니다. 기능 이름보다 “빠름 vs 더 깊은 추론” 관점으로 고르기 쉬워졌습니다.</p>
-            <ul>
-              <li>빠른 초안 작성은 Instant, 보고서·제안서 검토는 Medium 이상처럼 업무 규칙을 세우기 쉽습니다.</li>
-              <li>직원 교육이나 외주 협업 시 “어떤 모델을 써야 하나” 설명 시간이 줄어듭니다.</li>
-            </ul>
-          </div>
+     <div class="item">
+      <p>OpenAI는 2026년 6월 10일 모델 선택기를 Instant, Medium, High, Extra High 등으로 단순화했습니다. 기능 이름보다 “빠름 vs 더 깊은 추론” 관점으로 고르기 쉬워졌습니다.</p>
+      <ul>
+       <li>빠른 초안 작성은 Instant, 보고서·제안서 검토는 Medium 이상처럼 업무 규칙을 세우기 쉽습니다.</li>
+       <li>직원 교육이나 외주 협업 시 “어떤 모델을 써야 하나” 설명 시간이 줄어듭니다.</li>
+      </ul>
+     </div>
 
-          <div class="item">
-            <h3>3. Notion은 Business 플랜과 에이전트 과금 구조가 더 명확합니다</h3>
-            <p>Notion 가격 페이지 기준으로 Business는 사용자당 월 20달러이며 Notion Agent와 AI Meeting Notes가 포함됩니다. 같은 페이지에서 Custom Agents는 무료로 시작할 수 있고 이후 월간 1,000 Notion credits당 10달러, Workers 베타는 2026년 8월 11일부터 credits를 사용한다고 명시합니다.</p>
-            <ul>
-              <li>회의록 자동 정리, 반복 리포트 생성, 내부 문서 질의응답처럼 시간을 잘 잡아먹는 업무에 바로 붙이기 좋습니다.</li>
-              <li>과금 단위가 보여서 “일단 써보다가 비용 폭탄 맞는 것 아닌가”라는 불안을 줄여줍니다.</li>
-              <li>도입 초반에는 Business 플랜 한두 좌석으로 시작해 쓰임새를 본 뒤 확장하는 접근이 합리적입니다.</li>
-            </ul>
-          </div>
+     <div class="item">
+      <p>Notion 가격 페이지 기준으로 Business는 사용자당 월 20달러이며 Notion Agent와 AI Meeting Notes가 포함됩니다. 같은 페이지에서 Custom Agents는 무료로 시작할 수 있고 이후 월간 1,000 Notion credits당 10달러, Workers 베타는 2026년 8월 11일부터 credits를 사용한다고 명시합니다.</p>
+      <ul>
+       <li>회의록 자동 정리, 반복 리포트 생성, 내부 문서 질의응답처럼 시간을 잘 잡아먹는 업무에 바로 붙이기 좋습니다.</li>
+       <li>과금 단위가 보여서 “일단 써보다가 비용 폭탄 맞는 것 아닌가”라는 불안을 줄여줍니다.</li>
+       <li>도입 초반에는 Business 플랜 한두 좌석으로 시작해 쓰임새를 본 뒤 확장하는 접근이 합리적입니다.</li>
+      </ul>
+     </div>
 
-          <div class="item">
-            <h3>4. Google Workspace는 Gemini 포함 가격과 할인 구간이 실무 판단용으로 더 명확합니다</h3>
-            <p>Google Workspace 가격 페이지 기준으로 연간 약정 시 Business Starter는 사용자당 월 7달러, Standard는 14달러, Plus는 22달러이며, 2026년 6월 27일부터 9월 27일까지는 첫 3개월 20% 할인 프로모션이 걸려 있습니다. 같은 페이지에서 Starter는 Gmail용 Gemini AI, Standard부터는 Gmail·Docs·Meet 등 더 넓은 Gemini AI 범위를 보여줍니다.</p>
-            <ul>
-              <li>이미 Gmail과 Docs를 쓰는 팀이라면 별도 AI 도구를 더 사기 전에 포함 기능부터 점검할 이유가 생깁니다.</li>
-              <li>메일 작성, 문서 초안, 회의 요약을 한 곳에서 처리하려는 팀에 비용 비교 기준이 생깁니다.</li>
-              <li>특정 신기능의 실제 즉시 제공 범위는 계정·릴리스 단계에 따라 다를 수 있어 확인이 필요합니다.</li>
-            </ul>
-          </div>
-        </section>
+     <div class="item">
+      <p>Google Workspace 가격 페이지 기준으로 연간 약정 시 Business Starter는 사용자당 월 7달러, Standard는 14달러, Plus는 22달러이며, 2026년 6월 27일부터 9월 27일까지는 첫 3개월 20% 할인 프로모션이 걸려 있습니다. 같은 페이지에서 Starter는 Gmail용 Gemini AI, Standard부터는 Gmail·Docs·Meet 등 더 넓은 Gemini AI 범위를 보여줍니다.</p>
+      <ul>
+       <li>이미 Gmail과 Docs를 쓰는 팀이라면 별도 AI 도구를 더 사기 전에 포함 기능부터 점검할 이유가 생깁니다.</li>
+       <li>메일 작성, 문서 초안, 회의 요약을 한 곳에서 처리하려는 팀에 비용 비교 기준이 생깁니다.</li>
+       <li>특정 신기능의 실제 즉시 제공 범위는 계정·릴리스 단계에 따라 다를 수 있어 확인이 필요합니다.</li>
+      </ul>
+     </div>
+    </section>
 
-        <section>
-          <h2>바로 해볼 액션</h2>
-          <div class="panel action">
-            <ul>
-              <li>ChatGPT에서 Canva를 불러 “이번 주 프로모션용 인스타 카드 3종과 이메일 헤더 1개”를 한 번에 만들어 보세요.</li>
-              <li>반복 메일이 많다면 ChatGPT에 Gmail 또는 Outlook을 연결하고 문의 답장 초안을 실제 한 건 발송 흐름까지 시험해 보세요.</li>
-              <li>Notion은 Business 한 좌석만 켜서 회의록 자동 정리나 주간 리포트 초안 생성부터 테스트해 보세요.</li>
-              <li>Google Workspace를 이미 쓰고 있다면 새 AI 구독을 추가하기 전에 현재 플랜에 포함된 Gemini 범위를 먼저 확인해 보세요.</li>
-            </ul>
-          </div>
-        </section>
+    <section>
+     <div class="panel action">
+      <ul>
+       <li>ChatGPT에서 Canva를 불러 “이번 주 프로모션용 인스타 카드 3종과 이메일 헤더 1개”를 한 번에 만들어 보세요.</li>
+       <li>반복 메일이 많다면 ChatGPT에 Gmail 또는 Outlook을 연결하고 문의 답장 초안을 실제 한 건 발송 흐름까지 시험해 보세요.</li>
+       <li>Notion은 Business 한 좌석만 켜서 회의록 자동 정리나 주간 리포트 초안 생성부터 테스트해 보세요.</li>
+       <li>Google Workspace를 이미 쓰고 있다면 새 AI 구독을 추가하기 전에 현재 플랜에 포함된 Gemini 범위를 먼저 확인해 보세요.</li>
+      </ul>
+     </div>
+    </section>
 
-        <section>
-          <h2>주의할 점</h2>
-          <div class="panel warning">
-            <ul>
-              <li>발표 시점과 실제 계정 활성화 시점은 다를 수 있습니다.</li>
-              <li>메일 연결, 문서 연결, 디자인 자산 연결은 편리한 대신 권한 범위를 반드시 확인해야 합니다.</li>
-              <li>Canva 뉴스룸 기사에는 게시일이 현재 페이지 본문에서 명확히 보이지 않아 정확한 게시일은 추가 확인이 필요합니다.</li>
-              <li>Google Workspace의 Gemini 세부 기능은 플랜 표기와 실제 계정 노출 시점이 다를 수 있습니다.</li>
-            </ul>
-          </div>
-        </section>
+    <section>
+     <div class="panel warning">
+      <ul>
+       <li>발표 시점과 실제 계정 활성화 시점은 다를 수 있습니다.</li>
+       <li>메일 연결, 문서 연결, 디자인 자산 연결은 편리한 대신 권한 범위를 반드시 확인해야 합니다.</li>
+       <li>Canva 뉴스룸 기사에는 게시일이 현재 페이지 본문에서 명확히 보이지 않아 정확한 게시일은 추가 확인이 필요합니다.</li>
+       <li>Google Workspace의 Gemini 세부 기능은 플랜 표기와 실제 계정 노출 시점이 다를 수 있습니다.</li>
+      </ul>
+     </div>
+    </section>
 
-        <section class="sources">
-          <h2>출처 링크</h2>
-          <a href="https://www.canva.com/newsroom/news/deep-research-integration-mcp-server/">Canva: Create with Canva inside ChatGPT and Codex</a>
-          <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">OpenAI: ChatGPT Release Notes</a>
-          <a href="https://openai.com/business/chatgpt-pricing/">OpenAI: ChatGPT Pricing</a>
-          <a href="https://www.notion.com/releases">Notion: What's New</a>
-          <a href="https://www.notion.com/pricing">Notion: Pricing</a>
-          <a href="https://workspace.google.com/pricing.html">Google Workspace Pricing</a>
-          <a href="https://workspaceupdates.googleblog.com/">Google Workspace Updates</a>
-        </section>
+    <section class="sources">
+     <h2>출처 링크</h2>
+     <a href="https://www.canva.com/newsroom/news/deep-research-integration-mcp-server/">Canva: Create with Canva inside ChatGPT and Codex</a>
+     <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">OpenAI: ChatGPT Release Notes</a>
+     <a href="https://openai.com/business/chatgpt-pricing/">OpenAI: ChatGPT Pricing</a>
+     <a href="https://www.notion.com/releases">Notion: What's New</a>
+     <a href="https://www.notion.com/pricing">Notion: Pricing</a>
+     <a href="https://workspace.google.com/pricing.html">Google Workspace Pricing</a>
+     <a href="https://workspaceupdates.googleblog.com/">Google Workspace Updates</a>
+    </section>
 
-        <section>
-          <h2>확인 필요 목록</h2>
-          <div class="item">
-            <ul>
-              <li>Canva의 ChatGPT/Codex 관련 뉴스룸 글 정확한 게시일</li>
-              <li>Canva ChatGPT 기능의 한국 계정 rollout 범위</li>
-              <li>Google Workspace의 Gemini 세부 기능별 실제 즉시 제공 범위</li>
-              <li>ChatGPT Business 좌석 가격의 지역별 표시 차이와 청구 통화 기준</li>
-            </ul>
-          </div>
-        </section>
-      </main>
-    </article>
-    <footer>외부 공개 URL이 필요하면 이 HTML을 별도 정적 호스팅 또는 배포 환경에 올려야 합니다.</footer>
-  </div>
-  <script src="../assets/audio-preview.js" defer></script>
-  <script src="../assets/language-toggle.js"></script>
+    <section>
+     <div class="item">
+      <ul>
+       <li>Canva의 ChatGPT/Codex 관련 뉴스룸 글 정확한 게시일</li>
+       <li>Canva ChatGPT 기능의 한국 계정 rollout 범위</li>
+       <li>Google Workspace의 Gemini 세부 기능별 실제 즉시 제공 범위</li>
+       <li>ChatGPT Business 좌석 가격의 지역별 표시 차이와 청구 통화 기준</li>
+      </ul>
+     </div>
+    </section>
+   </main>
+  </article>
+  <footer>외부 공개 URL이 필요하면 이 HTML을 별도 정적 호스팅 또는 배포 환경에 올려야 합니다.</footer>
+ </div>
+ <script src="../assets/language-toggle.js"></script>
 </body>
 </html>

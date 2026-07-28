@@ -8,7 +8,6 @@
   const dailyTarget = document.querySelector("[data-book-daily]");
   const listTarget = document.querySelector("[data-book-list]");
   const countTarget = document.querySelector("[data-book-count]");
-  const sourceTarget = document.querySelector("[data-book-source]");
   const searchInput = document.querySelector("[data-book-search]");
   const themeSelect = document.querySelector("[data-book-theme]");
 
@@ -48,18 +47,18 @@
 
   const bookAnchorId = (book) => `book-${String(book.id).replace(/[^a-zA-Z0-9_-]/g, "")}`;
 
-  const reviewStatusLabel = (book) => (book.reviewUrl ? "우리 리뷰" : "리뷰 준비 중");
+  const reviewStatusLabel = (book) => (book.reviewUrl ? "장문 리뷰" : "원고 준비 중");
 
   const bookImage = (book) => `
     ${
       book.reviewUrl
         ? `<a ${linkAttributes(book.reviewUrl, "book-cover-frame")} aria-label="${escapeHtml(`${book.title} 리뷰 읽기`)}">
             <img src="${escapeHtml(book.imageUrl)}" alt="${escapeHtml(book.title)} 표지" loading="lazy" />
-            <span class="book-cover-badge">Review</span>
+            <span class="book-cover-badge">Essay</span>
           </a>`
         : `<div class="book-cover-frame book-cover-frame--pending" aria-label="${escapeHtml(`${book.title} 리뷰 준비 중`)}">
             <img src="${escapeHtml(book.imageUrl)}" alt="${escapeHtml(book.title)} 표지" loading="lazy" />
-            <span class="book-cover-badge">Queue</span>
+            <span class="book-cover-badge">Next</span>
           </div>`
     }
   `;
@@ -73,21 +72,11 @@
     <div class="book-card-actions">
       ${
         book.reviewUrl
-          ? `<a ${linkAttributes(book.reviewUrl, "preview-link")}>우리 리뷰 읽기</a>`
-          : '<span class="preview-link preview-link--disabled">리뷰 준비 중</span>'
+          ? `<a ${linkAttributes(book.reviewUrl, "preview-link")}>장문 리뷰 읽기</a>`
+          : '<span class="preview-link preview-link--disabled">원고 준비 중</span>'
       }
-      <a ${linkAttributes(book.itemUrl, "book-secondary-link")}>외부 링크</a>
     </div>
   `;
-
-  function renderSource() {
-    if (!sourceTarget) return;
-    sourceTarget.innerHTML = `
-      <strong>기준 서가</strong>
-      <span>${escapeHtml(data.source.capturedAt)} 기준 선별 · ${data.source.eligibleCount}권 리뷰 큐</span>
-      <a href="${escapeHtml(data.source.url)}" target="_blank" rel="noopener noreferrer">기준 서가 열기</a>
-    `;
-  }
 
   function renderDaily() {
     if (!dailyTarget) return;
@@ -136,7 +125,7 @@
     const books = filteredBooks();
 
     if (countTarget) {
-      countTarget.textContent = `${books.length}권 표시 / ${data.source.eligibleCount}권 보관`;
+      countTarget.textContent = `${books.length}권의 기록`;
     }
 
     if (!books.length) {
@@ -164,7 +153,6 @@
       .join("");
   }
 
-  renderSource();
   renderDaily();
   renderThemeOptions();
   renderList();

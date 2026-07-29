@@ -1,0 +1,61 @@
+name: Webzine Guard
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: webzine-production-guard
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  validate-and-heal:
+    name: Validate and keep Vercel on main
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check out current main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Validate static site and Korean text
+        run: |
+          python3 work/check_static_site.py
+          python3 work/check_text_quality.py
+          python3 -m json.tool vercel.json >/dev/null
+
+      - name: Wait for the expected production commit
+        id: initial-health
+        continue-on-error: true
+        run: |
+          expected_sha="$(git rev-parse HEAD)"
+          python3 work/check_production_health.py \
+            --expected-sha "$expected_sha" \
+            --attempts 12 \
+            --delay 15
+
+      - name: Trigger a self-healing Git deployment
+        if: steps.initial-health.outcome == 'failure'
+        run: |
+          git config user.name "Paul Archive Webzine Guard"
+          git config user.email "webzine-guard@users.noreply.github.com"
+          git commit --allow-empty -m "chore: restore Vercel production to main"
+          git push origin HEAD:main
+
+      - name: Verify recovered production
+        if: steps.initial-health.outcome == 'failure'
+        run: |
+          expected_sha="$(git rev-parse HEAD)"
+          python3 work/check_production_health.py \
+            --expected-sha "$expected_sha" \
+            --attempts 20 \
+            --delay 15

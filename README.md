@@ -50,3 +50,27 @@ python3 work/build_book_archive_data.py --input-dir /tmp --pages 10 --min-price 
 
 5. Commit and push to `main`.
 6. The connected hosting platform deploys the latest `main` branch automatically.
+
+## Automatic Vercel Operation
+
+GitHub `main` is the only production source of truth. Do not deploy a detached
+checkout or a dirty local worktree directly to production.
+
+The `Webzine Guard` GitHub Actions workflow runs after every push to `main` and
+once an hour. It:
+
+1. validates internal links, visible-text quality, and `vercel.json`;
+2. compares the public `/api/health` commit with the current `main` commit;
+3. creates and pushes an empty recovery commit only when production is stale;
+4. waits for Vercel's existing Git integration to deploy that recovery commit;
+5. fails visibly if production still does not match `main`.
+
+No Vercel token is stored in the repository. Recovery uses GitHub's short-lived
+workflow token and the project's existing Vercel Git integration.
+
+Manual health check:
+
+```bash
+python3 work/check_production_health.py \
+  --expected-sha "$(git rev-parse origin/main)"
+```

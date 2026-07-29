@@ -27,3 +27,6 @@ for path in files:
                 missing.append((str(path), attr, value))
 
 print({"checked": [str(path) for path in files], "missing": missing})
+
+if missing:
+    raise SystemExit(1)

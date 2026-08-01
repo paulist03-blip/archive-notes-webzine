@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 119,
+    "reviewLinkedCount": 122,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -305,21 +305,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "사춘기",
       "metadata": "베티 스텔리 지음, 하주현 옮김 | 푸른씨앗",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35266/52/cover500/k142934350_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/35266/52/cover500/k142934350_1.jpg",
+      "reviewUrl": "posts/adolescence-sacred-passage-staley.html"
     },
     {
       "id": "389350532",
       "title": "파리의 농부",
       "metadata": "루이 아라공 지음, 오종은 옮김 | 이모션북스",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/17549/66/cover500/k382534400_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/17549/66/cover500/k382534400_1.jpg",
+      "reviewUrl": "posts/paris-peasant-aragon.html"
     },
     {
       "id": "389004788",
       "title": "비트코인의 시대",
       "metadata": "김창익 지음 | 다산북스",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36241/78/cover500/k872038819_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/36241/78/cover500/k872038819_1.jpg",
+      "reviewUrl": "posts/age-of-bitcoin-kim-changik.html"
     },
     {
       "id": "389004774",

@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 134,
+    "reviewLinkedCount": 137,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -433,21 +433,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "미생물의 참모습",
       "metadata": "파스칼 코사르 지음, 장철훈 외 옮김 | 부산대학교출판문화원",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/28953/41/cover500/8973167324_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/28953/41/cover500/8973167324_1.jpg",
+      "reviewUrl": "posts/new-microbiology-cossart.html"
     },
     {
       "id": "387504779",
       "title": "매너의 역사",
       "metadata": "설혜심 지음 | 휴머니스트",
       "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/34938/82/cover500/k552934469_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/34938/82/cover500/k552934469_1.jpg",
+      "reviewUrl": "posts/history-of-manners-seol.html"
     },
     {
       "id": "387504775",
       "title": "21세기 최고의 세계사 수업",
       "metadata": "에드워드 로스 디킨슨 지음, 정영은 옮김 | 아름다운사람들",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/24741/75/cover500/8965136091_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/24741/75/cover500/8965136091_1.jpg",
+      "reviewUrl": "posts/world-long-twentieth-century-dickinson.html"
     },
     {
       "id": "387504652",

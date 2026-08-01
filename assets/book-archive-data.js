@@ -7045,10 +7045,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "366320542",
       "title": "피에 젖은 땅",
       "metadata": "티머시 스나이더 지음, 함규진 옮김 | 글항아리",
-      "theme": "문학/언어",
+      "theme": "역사",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366320542",
       "imageUrl": "https://image.aladin.co.kr/product/26606/23/cover500/8967358717_1.jpg",
-      "sourcePage": 16
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/bloodlands-snyder.html"
     },
     {
       "id": "366320505",
@@ -11491,10 +11492,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "365944125",
       "title": "유럽 1914-1949",
       "metadata": "이언 커쇼 지음, 류한수 옮김 | 이데아",
-      "theme": "인문/교양",
+      "theme": "역사",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365944125",
       "imageUrl": "https://image.aladin.co.kr/product/26028/43/cover500/k622737958_1.jpg",
-      "sourcePage": 27
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/europe-1914-1949-kershaw.html"
     },
     {
       "id": "365944106",

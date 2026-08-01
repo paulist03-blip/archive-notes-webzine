@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 113,
+    "reviewLinkedCount": 116,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -241,7 +241,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "정관정요",
       "metadata": "오긍 지음, 신동준 옮김 | 을유문화사",
       "theme": "철학/고전",
-      "imageUrl": "https://image.aladin.co.kr/product/2521/26/cover500/8932472041_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/2521/26/cover500/8932472041_1.jpg",
+      "reviewUrl": "posts/zhenguan-zhengyao-sin-dongjun.html"
     },
     {
       "id": "392078900",
@@ -256,7 +257,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "다시 보는 러시아 현대사",
       "metadata": "마이크 헤인스 지음, 이수현 옮김 | 책갈피",
       "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/25967/83/cover500/8979662025_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/25967/83/cover500/8979662025_1.jpg",
+      "reviewUrl": "posts/russia-modern-history-haynes.html"
     },
     {
       "id": "392078527",
@@ -271,7 +273,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "정복왕 윌리엄",
       "metadata": "폴 쥠토르 지음, 김동섭 옮김 | 글항아리",
       "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/23815/58/cover500/8967357648_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/23815/58/cover500/8967357648_1.jpg",
+      "reviewUrl": "posts/william-conqueror-zumthor.html"
     },
     {
       "id": "392078212",

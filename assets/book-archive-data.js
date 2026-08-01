@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 116,
+    "reviewLinkedCount": 119,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -281,21 +281,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "기계는 왜 학습하는가",
       "metadata": "아닐 아난타스와미 지음, 노승영 옮김 | 까치",
       "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/35901/75/cover500/8972918660_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/35901/75/cover500/8972918660_1.jpg",
+      "reviewUrl": "posts/why-machines-learn-ananthaswamy.html"
     },
     {
       "id": "391780544",
       "title": "프랑스 쿡북",
       "metadata": "지네트 마티오.클로틸드 뒤술리에 지음, 정연주 옮김 | 세미콜론",
       "theme": "예술/문화",
-      "imageUrl": "https://image.aladin.co.kr/product/26994/58/cover500/k662730729_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/26994/58/cover500/k662730729_1.jpg",
+      "reviewUrl": "posts/france-cookbook-mathiot.html"
     },
     {
       "id": "391771273",
       "title": "마음을 어떻게 비울 것인가",
       "metadata": "M. 스캇 펙 지음, 박윤정 옮김 | 율리시즈",
       "theme": "철학/고전",
-      "imageUrl": "https://image.aladin.co.kr/product/32400/56/cover500/k452935887_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/32400/56/cover500/k452935887_1.jpg",
+      "reviewUrl": "posts/different-drum-scott-peck.html"
     },
     {
       "id": "391768738",

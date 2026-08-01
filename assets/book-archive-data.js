@@ -3,14 +3,14 @@ window.PAUL_BOOK_ARCHIVE = {
     "label": "Paul 편집 서가 + 알라딘 책 서고",
     "seller": "하이데거",
     "url": "https://www.aladin.co.kr/shop/usedshop/wshopitem.aspx?SC=1025829",
-    "capturedAt": "2026-08-01",
+    "capturedAt": "2026-08-02",
     "pagesScanned": 48,
     "shelfCount": 2266,
     "baselineCount": 245,
-    "shelfImportedCount": 1936,
+    "shelfImportedCount": 1924,
     "reviewLinkedCount": 104,
-    "duplicateExcludedCount": 330,
-    "publicCount": 2181,
+    "duplicateExcludedCount": 342,
+    "publicCount": 2169,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
@@ -1979,9 +1979,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "review-power-and-space-foucault",
       "rank": 9030,
       "title": "권력과 공간",
-      "metadata": "미셸 푸코 · 문학과지성사",
+      "metadata": "미셸 푸코 · 이상길 편역 · 문학과지성사",
       "theme": "철학/권력",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=393756825",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=330619290",
       "imageUrl": "https://image.aladin.co.kr/product/33061/92/cover500/893204239x_1.jpg",
       "reviewStatus": "우리 리뷰",
       "reviewUrl": "posts/power-and-space-foucault.html"
@@ -2128,6 +2128,44 @@ window.PAUL_BOOK_ARCHIVE = {
       "imageUrl": "https://image.aladin.co.kr/product/4350/20/cover500/8958627093_1.jpg",
       "reviewStatus": "우리 리뷰",
       "reviewUrl": "posts/state-of-africa-meredith.html"
+    },
+    {
+      "id": "366320542",
+      "title": "피에 젖은 땅",
+      "metadata": "티머시 스나이더 지음, 함규진 옮김 | 글항아리",
+      "theme": "역사",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366320542",
+      "imageUrl": "https://image.aladin.co.kr/product/26606/23/cover500/8967358717_1.jpg",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/bloodlands-snyder.html"
+    },
+    {
+      "id": "365944125",
+      "title": "유럽 1914-1949",
+      "metadata": "이언 커쇼 지음, 류한수 옮김 | 이데아",
+      "theme": "역사",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365944125",
+      "imageUrl": "https://image.aladin.co.kr/product/26028/43/cover500/k622737958_1.jpg",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/europe-1914-1949-kershaw.html"
+    },
+    {
+      "id": "364347077",
+      "title": "장소 특정적 미술",
+      "metadata": "권미원 지음, 김인규 외 옮김 | 현실문화",
+      "theme": "미술/디자인",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364347077",
+      "imageUrl": "https://image.aladin.co.kr/product/3127/50/cover500/8965640806_1.jpg",
+      "reviewUrl": "posts/site-specific-art-kwon-miwon.html"
+    },
+    {
+      "id": "318158017",
+      "title": "예술과 탈역사",
+      "metadata": "아서 C. 단토.데메트리오 파파로니 지음, 박준영 옮김 | 미술문화",
+      "theme": "미술/디자인",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=318158017",
+      "imageUrl": "https://image.aladin.co.kr/product/31815/80/cover500/k932833410_1.jpg",
+      "reviewUrl": "posts/art-and-post-history-danto.html"
     },
     {
       "id": "399625382",
@@ -3300,15 +3338,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 7
     },
     {
-      "id": "374635557",
-      "title": "아비뇽의 여인들 또는 폭력의 두 얼굴",
-      "metadata": "정항균 지음 | 서울대학교출판문화원",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374635557",
-      "imageUrl": "https://image.aladin.co.kr/product/12259/46/cover500/8952119290_1.jpg",
-      "sourcePage": 7
-    },
-    {
       "id": "374635376",
       "title": "선, 초기불교와 포스트모더니즘 너머",
       "metadata": "송준영 지음 | 소명출판",
@@ -3873,15 +3902,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "문학/언어",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=369512871",
       "imageUrl": "https://image.aladin.co.kr/product/30766/80/cover500/8932040591_1.jpg",
-      "sourcePage": 8
-    },
-    {
-      "id": "369512756",
-      "title": "옛 음악 새 연주",
-      "metadata": "이준형 지음 | 풍월당",
-      "theme": "음악/공연",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=369512756",
-      "imageUrl": "https://image.aladin.co.kr/product/34322/2/cover500/k822932488_1.jpg",
       "sourcePage": 8
     },
     {
@@ -5433,15 +5453,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 12
     },
     {
-      "id": "366961218",
-      "title": "한스 큉의 이슬람",
-      "metadata": "한스 큉 지음, 손성현 옮김 | 시와진실",
-      "theme": "종교/신학",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366961218",
-      "imageUrl": "https://image.aladin.co.kr/product/1975/13/cover500/8990890403_1.jpg",
-      "sourcePage": 12
-    },
-    {
       "id": "366961214",
       "title": "형평과 정의 (양장)",
       "metadata": "임의영 지음 | 한울(한울아카데미)",
@@ -5593,15 +5604,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366960749",
       "imageUrl": "https://image.aladin.co.kr/product/12058/67/cover500/k322531145_1.jpg",
       "sourcePage": 12
-    },
-    {
-      "id": "366960746",
-      "title": "도미니언",
-      "metadata": "톰 홀랜드 저자, 이종인 역자 | 책과함께",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366960746",
-      "imageUrl": "https://image.aladin.co.kr/product/24790/60/cover500/k632632851_1.jpg",
-      "sourcePage": 13
     },
     {
       "id": "366960729",
@@ -6648,15 +6650,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 15
     },
     {
-      "id": "366340714",
-      "title": "권력과 공간",
-      "metadata": "미셀 푸코 지음, 이상길 옮김 | 문학과지성사",
-      "theme": "건축/도시",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366340714",
-      "imageUrl": "https://image.aladin.co.kr/product/33061/92/cover500/893204239x_1.jpg",
-      "sourcePage": 15
-    },
-    {
       "id": "366340696",
       "title": "사도 바오로",
       "metadata": "E. P. 샌더스 지음, 전경훈 옮김 | 교유서가",
@@ -7051,16 +7044,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366320548",
       "imageUrl": "https://image.aladin.co.kr/product/23652/23/cover500/8952751078_1.jpg",
       "sourcePage": 16
-    },
-    {
-      "id": "366320542",
-      "title": "피에 젖은 땅",
-      "metadata": "티머시 스나이더 지음, 함규진 옮김 | 글항아리",
-      "theme": "역사",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366320542",
-      "imageUrl": "https://image.aladin.co.kr/product/26606/23/cover500/8967358717_1.jpg",
-      "reviewStatus": "우리 리뷰",
-      "reviewUrl": "posts/bloodlands-snyder.html"
     },
     {
       "id": "366320505",
@@ -9790,15 +9773,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 22
     },
     {
-      "id": "366105841",
-      "title": "위대한 여성 예술가들",
-      "metadata": "파이돈 편집부.리베카 모릴 지음, 진주 K. 가드너 옮김 | 을유문화사",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366105841",
-      "imageUrl": "https://image.aladin.co.kr/product/25210/89/cover500/8932474230_2.jpg",
-      "sourcePage": 23
-    },
-    {
       "id": "366105824",
       "title": "20세기 포토 다큐 세계사 3",
       "metadata": "브라이언 모이나한 지음, 애너벨 메럴로.세러 잭슨 사진편집, 김남섭 옮김 | 북폴리오",
@@ -10762,15 +10736,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 25
     },
     {
-      "id": "366005525",
-      "title": "조상의 눈 아래에서",
-      "metadata": "마르티나 도이힐러 지음, 김우영.문옥표 옮김 | 너머북스",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366005525",
-      "imageUrl": "https://image.aladin.co.kr/product/17400/15/cover500/8994606548_1.jpg",
-      "sourcePage": 25
-    },
-    {
       "id": "366005376",
       "title": "탈사회주의 체제전환과 발트3국의 길",
       "metadata": "정근식 외 지음 | 서울대학교출판문화원",
@@ -11005,15 +10970,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 26
     },
     {
-      "id": "365961310",
-      "title": "증언",
-      "metadata": "쇼스타코비치 (Dmitri Shostakovich) 지음, 솔로몬 볼코프 엮음, 김병화 옮 | 온다프레스",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365961310",
-      "imageUrl": "https://image.aladin.co.kr/product/19210/92/cover500/k772635901_1.jpg",
-      "sourcePage": 26
-    },
-    {
       "id": "365961285",
       "title": "프랑스어식 사고법",
       "metadata": "박만규 지음 | 씨엘",
@@ -11182,15 +11138,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "문학/언어",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365960407",
       "imageUrl": "https://image.aladin.co.kr/product/10308/60/cover500/8993818851_1.jpg",
-      "sourcePage": 26
-    },
-    {
-      "id": "365960386",
-      "title": "음악과 음악가",
-      "metadata": "슈만 (Robert Schumann) 지음, 이기숙 옮김 | 포노(PHONO)",
-      "theme": "음악/공연",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365960386",
-      "imageUrl": "https://image.aladin.co.kr/product/7910/21/cover500/8993818800_1.jpg",
       "sourcePage": 26
     },
     {
@@ -11401,15 +11348,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 27
     },
     {
-      "id": "365944405",
-      "title": "시간 지도의 탄생",
-      "metadata": "대니얼 로젠버그.앤서니 그래프턴 지음, 김형규 옮김 | 현실문화",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365944405",
-      "imageUrl": "https://image.aladin.co.kr/product/2956/8/cover500/8965640768_2.jpg",
-      "sourcePage": 27
-    },
-    {
       "id": "365944382",
       "title": "공자의 仁, 타자의 윤리로 다시 읽다",
       "metadata": "오효명 지음, 임해순.홍린 옮김 | 예문서원",
@@ -11500,16 +11438,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 27
     },
     {
-      "id": "365944125",
-      "title": "유럽 1914-1949",
-      "metadata": "이언 커쇼 지음, 류한수 옮김 | 이데아",
-      "theme": "역사",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365944125",
-      "imageUrl": "https://image.aladin.co.kr/product/26028/43/cover500/k622737958_1.jpg",
-      "reviewStatus": "우리 리뷰",
-      "reviewUrl": "posts/europe-1914-1949-kershaw.html"
-    },
-    {
       "id": "365944106",
       "title": "니체 극장",
       "metadata": "고명섭 지음 | 김영사",
@@ -11543,15 +11471,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365944013",
       "imageUrl": "https://image.aladin.co.kr/product/4129/74/cover500/8930623522_1.jpg",
-      "sourcePage": 27
-    },
-    {
-      "id": "365944005",
-      "title": "일본 제국 패망사",
-      "metadata": "존 톨랜드 지음, 박병화.이두영 옮김, 권성욱 감수 | 글항아리",
-      "theme": "역사/정치",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365944005",
-      "imageUrl": "https://image.aladin.co.kr/product/20006/61/cover500/8967356528_2.jpg",
       "sourcePage": 27
     },
     {
@@ -15731,24 +15650,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 38
     },
     {
-      "id": "364347077",
-      "title": "장소 특정적 미술",
-      "metadata": "권미원 지음, 김인규 외 옮김 | 현실문화",
-      "theme": "미술/디자인",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364347077",
-      "imageUrl": "https://image.aladin.co.kr/product/3127/50/cover500/8965640806_1.jpg",
-      "reviewUrl": "posts/site-specific-art-kwon-miwon.html"
-    },
-    {
-      "id": "318158017",
-      "title": "예술과 탈역사",
-      "metadata": "아서 C. 단토.데메트리오 파파로니 지음, 박준영 옮김 | 미술문화",
-      "theme": "미술/디자인",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=318158017",
-      "imageUrl": "https://image.aladin.co.kr/product/31815/80/cover500/k932833410_1.jpg",
-      "reviewUrl": "posts/art-and-post-history-danto.html"
-    },
-    {
       "id": "364337055",
       "title": "아인슈타인의 주사위와 슈뢰딩거의 고양이",
       "metadata": "폴 핼펀 지음, 김성훈 옮김, 이강영 감수 | 플루토",
@@ -18455,15 +18356,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364103356",
       "imageUrl": "https://image.aladin.co.kr/product/250/70/cover500/8958622547_1.jpg",
-      "sourcePage": 45
-    },
-    {
-      "id": "364103186",
-      "title": "증오의 세기",
-      "metadata": "니얼 퍼거슨 지음, 이현주 옮김 | 민음사",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364103186",
-      "imageUrl": "https://image.aladin.co.kr/product/842/16/cover500/8937483289_1.jpg",
       "sourcePage": 45
     },
     {

@@ -192,13 +192,23 @@ def merge_archive(
     existing, existing_duplicates = choose_existing(editorial_rows)
     ids = {str(book.get("id", "")) for book in existing}
     keys = {book_key(book) for book in existing}
+    # Editorial rows often begin metadata with a section label instead of the
+    # author name (for example, "역사 · 니얼 퍼거슨").  When a reviewed title
+    # is also present on the seller shelf, the reviewed row is the canonical
+    # public record even if that metadata shape prevents an author-key match.
+    review_titles = {
+        normalize(str(book.get("title", "")))
+        for book in existing
+        if book.get("reviewUrl")
+    }
 
     added: list[dict[str, object]] = []
     shelf_duplicates = 0
     for raw in shelf:  # registration order: newest first
         item_id = str(raw["id"])
         key = book_key(raw)
-        if item_id in ids or key in keys:
+        title_key = normalize(str(raw.get("title", "")))
+        if item_id in ids or key in keys or title_key in review_titles:
             shelf_duplicates += 1
             continue
         book = public_shelf_book(raw)

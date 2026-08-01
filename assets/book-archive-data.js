@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 131,
+    "reviewLinkedCount": 134,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -409,21 +409,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "인지 패러다임 2",
       "metadata": "월터 킨취 지음, 김지홍.문선모 옮김 | 나남출판",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/806/39/cover500/8930084842_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/806/39/cover500/8930084842_1.jpg",
+      "reviewUrl": "posts/comprehension-cognitive-paradigm-2-kintsch.html"
     },
     {
       "id": "388214568",
       "title": "주역계사 강의",
       "metadata": "남회근 지음, 신원봉 옮김 | 부키",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/1098/55/cover500/8960511595_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/1098/55/cover500/8960511595_1.jpg",
+      "reviewUrl": "posts/yijing-xici-lecture.html"
     },
     {
       "id": "387577509",
       "title": "권력과 진보",
       "metadata": "대런 애쓰모글루.사이먼 존슨 지음, 김승진 옮김 | 생각의힘",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/31953/94/cover500/k422833258_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/31953/94/cover500/k422833258_1.jpg",
+      "reviewUrl": "posts/power-and-progress-acemoglu-johnson.html"
     },
     {
       "id": "387577408",

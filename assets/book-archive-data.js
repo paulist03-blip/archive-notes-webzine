@@ -2119,6 +2119,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "reviewUrl": "posts/violence-of-freedom-park-guyong.html"
     },
     {
+      "id": "review-state-of-africa-meredith",
+      "rank": 9043,
+      "title": "아프리카의 운명",
+      "metadata": "마틴 메러디스 · 이순희 옮김 · 김광수 감수 · 휴머니스트",
+      "theme": "역사",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=43502019",
+      "imageUrl": "https://image.aladin.co.kr/product/4350/20/cover500/8958627093_1.jpg",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/state-of-africa-meredith.html"
+    },
+    {
       "id": "399625382",
       "title": "열하일기 1",
       "metadata": "박지원 지음, 김혈조 옮김 | 돌베개",

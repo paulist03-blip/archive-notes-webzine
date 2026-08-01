@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 128,
+    "reviewLinkedCount": 131,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -385,21 +385,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "들뢰즈 개념어 사전",
       "metadata": "아르노 빌라니 & 로베르 싸소 책임편집, 신지영 옮김 | 갈무리",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/1603/32/cover500/s252531155_2.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/1603/32/cover500/s252531155_2.jpg",
+      "reviewUrl": "posts/deleuze-vocabulary-villani-sasso.html"
     },
     {
       "id": "388492946",
       "title": "구조와 모순",
       "metadata": "강경덕 지음 | 서광사",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/3845/43/cover500/8930617107_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/3845/43/cover500/8930617107_1.jpg",
+      "reviewUrl": "posts/structure-and-contradiction-kang.html"
     },
     {
       "id": "388492193",
       "title": "무정부사회",
       "metadata": "헤들리 불 지음, 진석용 옮김 | 나남출판",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/1539/36/cover500/8930085679_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/1539/36/cover500/8930085679_1.jpg",
+      "reviewUrl": "posts/anarchical-society-hedley-bull.html"
     },
     {
       "id": "388491202",

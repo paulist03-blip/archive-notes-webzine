@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 140,
+    "reviewLinkedCount": 143,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -481,21 +481,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "뜨거운 얼음 : 글렌 굴드의 삶과 예술",
       "metadata": "케빈 바자나 지음, 진원 옮김 | 마르코폴로",
       "theme": "예술/문화",
-      "imageUrl": "assets/book-covers/hot-ice-glenn-gould.jpg"
+      "imageUrl": "assets/book-covers/hot-ice-glenn-gould.jpg",
+      "reviewUrl": "posts/hot-ice-glenn-gould-bazzana.html"
     },
     {
       "id": "387504397",
       "title": "폭력의 유산",
       "metadata": "캐럴라인 엘킨스 지음, 김현정 옮김, 윤영휘 감수 | 상상스퀘어",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36885/4/cover500/k772030605_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/36885/4/cover500/k772030605_1.jpg",
+      "reviewUrl": "posts/legacy-of-violence-elkins.html"
     },
     {
       "id": "387504356",
       "title": "안준걸의 프리미엄 펜화 강의",
       "metadata": "안준걸 지음 | 황금부엉이",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35950/92/cover500/8960306452_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/35950/92/cover500/8960306452_1.jpg",
+      "reviewUrl": "posts/premium-pen-drawing-ahn-jungeol.html"
     },
     {
       "id": "387504354",

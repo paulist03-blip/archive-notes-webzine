@@ -6,11 +6,11 @@ window.PAUL_BOOK_ARCHIVE = {
     "capturedAt": "2026-08-01",
     "pagesScanned": 48,
     "shelfCount": 2266,
-    "baselineCount": 242,
-    "shelfImportedCount": 1938,
-    "reviewLinkedCount": 101,
-    "duplicateExcludedCount": 328,
-    "publicCount": 2180,
+    "baselineCount": 245,
+    "shelfImportedCount": 1936,
+    "reviewLinkedCount": 104,
+    "duplicateExcludedCount": 330,
+    "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [

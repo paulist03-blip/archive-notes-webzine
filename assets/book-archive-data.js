@@ -577,21 +577,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "자신에 대한 배우의 작업 2",
       "metadata": "콘스탄틴 세르게예비치 스타니슬랍스키 지음, 박상하.윤현숙 옮김 | 아카넷",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35241/30/cover500/8957339493_2.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/35241/30/cover500/8957339493_2.jpg",
+      "reviewUrl": "posts/actor-work-self-2-stanislavski.html"
     },
     {
       "id": "385986561",
       "title": "자신에 대한 배우의 작업 1",
       "metadata": "콘스탄틴 세르게예비치 스타니슬랍스키 지음, 박상하.윤현숙 옮김 | 아카넷",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35241/32/cover500/8957339485_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/35241/32/cover500/8957339485_1.jpg",
+      "reviewUrl": "posts/actor-work-self-1-stanislavski.html"
     },
     {
       "id": "385719814",
       "title": "크로스오버 하이데거",
       "metadata": "이승종 지음 | 동연출판사",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27349/73/cover500/8964476514_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/27349/73/cover500/8964476514_1.jpg",
+      "reviewUrl": "posts/crossover-heidegger-lee.html"
     },
     {
       "id": "385719764",

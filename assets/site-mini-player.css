@@ -269,16 +269,6 @@ img {
   border-bottom: 1px solid currentColor;
 }
 
-.mini-player-services {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 12px;
-}
-
-.mini-player-services a {
-  justify-self: auto;
-}
-
 .icon-button {
   width: 38px;
   height: 38px;

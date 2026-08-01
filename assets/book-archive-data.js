@@ -15,37 +15,37 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
-      "id": "room-history-perrot",
-      "title": "방의 역사",
-      "metadata": "미셸 페로",
-      "theme": "사회사/공간",
-      "imageUrl": "assets/book-covers/michelle-perrot-room-history.jpg",
-      "reviewUrl": "posts/room-history-perrot.html",
-      "label": "Issue 39 · 오늘의 책장",
-      "subtitle": "문을 닫는 순간 시작되는 역사",
-      "review": "방을 사생활의 따뜻한 피난처로만 보지 않고, 휴식과 노동, 친밀성과 감시가 교차하는 역사적 장치로 읽는다."
+      "id": "386231819",
+      "title": "가차없는 자본주의",
+      "metadata": "조이스 애플비",
+      "theme": "역사/자본주의",
+      "imageUrl": "assets/book-covers/relentless-capitalism-appleby.jpg",
+      "reviewUrl": "posts/relentless-capitalism-appleby.html",
+      "label": "Issue 50 · 오늘의 책장",
+      "subtitle": "자본주의는 언제 인간의 본성이 되었는가",
+      "review": "영국 농업과 산업화, 기업가 문화와 국가, 제국과 세계시장이 자본주의를 만든 과정을 읽는다."
     },
     {
-      "id": "what-is-a-people-badiou",
-      "title": "인민이란 무엇인가",
-      "metadata": "알랭 바디우 외",
-      "theme": "정치철학",
-      "imageUrl": "assets/book-covers/what-is-a-people-badiou.jpg",
-      "reviewUrl": "posts/what-is-a-people-badiou.html",
-      "label": "Issue 39 · 오늘의 책장",
-      "subtitle": "정치는 누구를 하나의 이름으로 부르는가",
-      "review": "인민이라는 이름이 누구를 대표하고 누구를 지우는지, 해방의 언어가 새로운 경계를 만드는 순간까지 함께 묻는다."
+      "id": "387364662",
+      "title": "자연의 악",
+      "metadata": "알렉산더 에트킨트",
+      "theme": "사상/환경사",
+      "imageUrl": "assets/book-covers/natures-evil-etkind.jpg",
+      "reviewUrl": "posts/natures-evil-etkind.html",
+      "label": "Issue 50 · 오늘의 책장",
+      "subtitle": "국가는 무엇을 태우며 커지는가",
+      "review": "곡물과 모피, 석탄과 석유가 노동과 세금, 제국과 민주주의를 다르게 배치한 방식을 읽는다."
     },
     {
-      "id": "bourdieu-wacquant-reflexive-sociology",
-      "title": "성찰적 사회학으로의 초대",
-      "metadata": "피에르 부르디외 · 로익 바캉",
-      "theme": "사회학/지식",
-      "imageUrl": "assets/book-covers/bourdieu-wacquant-reflexive-sociology.jpg",
-      "reviewUrl": "posts/bourdieu-wacquant-reflexive-sociology.html",
-      "label": "Issue 39 · 오늘의 책장",
-      "subtitle": "보는 사람의 자리까지 분석하는 사회학",
-      "review": "장과 자본, 아비투스를 고정된 개념표가 아니라 관찰자의 조건까지 검토하는 연구의 태도로 읽는다."
+      "id": "385052207",
+      "title": "풍경의 깊이",
+      "metadata": "강요배",
+      "theme": "예술/풍경과 기억",
+      "imageUrl": "assets/book-covers/depth-of-landscape-kang.jpg",
+      "reviewUrl": "posts/depth-of-landscape-kang.html",
+      "label": "Issue 50 · 오늘의 책장",
+      "subtitle": "풍경은 어떻게 역사의 표정을 얻는가",
+      "review": "제주의 바람과 돌, 4·3의 기억 속에서 장소를 오래 본다는 일의 책임을 읽는다."
     }
   ],
   "books": [
@@ -153,11 +153,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "imageUrl": "https://image.aladin.co.kr/product/2442/58/cover500/8994963677_2.jpg"
     },
     {
-      "id": "394591622",
+      "id": "second-world-war-beevor",
       "title": "제2차 세계대전",
-      "metadata": "앤터니 비버 지음, 김규태 외 옮김, 김추성 감수 | 글항아리",
-      "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/10441/91/cover500/8967354169_1.jpg"
+      "metadata": "앤터니 비버",
+      "theme": "역사/세계대전",
+      "imageUrl": "assets/book-covers/second-world-war-beevor.jpg",
+      "reviewUrl": "posts/second-world-war-beevor.html"
     },
     {
       "id": "394523161",
@@ -390,11 +391,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "imageUrl": "https://image.aladin.co.kr/product/28953/41/cover500/8973167324_1.jpg"
     },
     {
-      "id": "387504779",
+      "id": "history-of-manners-seol",
       "title": "매너의 역사",
-      "metadata": "설혜심 지음 | 휴머니스트",
-      "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/34938/82/cover500/k552934469_1.jpg"
+      "metadata": "설혜심",
+      "theme": "역사/매너사",
+      "imageUrl": "assets/book-covers/history-of-manners-seol.jpg",
+      "reviewUrl": "posts/history-of-manners-seol.html"
     },
     {
       "id": "387504775",
@@ -414,8 +416,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504604",
       "title": "미술, 마음, 뇌",
       "metadata": "에릭 캔델 지음, 이한음 옮김 | 프시케의숲",
-      "theme": "철학/고전",
-      "imageUrl": "https://image.aladin.co.kr/product/36492/78/cover500/k252039117_1.jpg"
+      "theme": "철학/신경미학",
+      "imageUrl": "assets/book-covers/art-mind-brain-kandel.jpg",
+      "reviewUrl": "posts/art-mind-brain-kandel.html"
     },
     {
       "id": "387504595",
@@ -483,16 +486,18 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "387364662",
       "title": "자연의 악",
-      "metadata": "알렉산드르 옛킨트 지음, 김홍옥 옮김 | 에코리브르",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/32762/42/cover500/8962632594_1.jpg"
+      "metadata": "알렉산더 에트킨트",
+      "theme": "사상/환경사",
+      "imageUrl": "assets/book-covers/natures-evil-etkind.jpg",
+      "reviewUrl": "posts/natures-evil-etkind.html"
     },
     {
-      "id": "387364648",
+      "id": "political-emotions-nussbaum",
       "title": "정치적 감정",
-      "metadata": "마사 C. 누스바움 지음, 박용준 옮김 | 글항아리",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/21108/47/cover500/896735665x_1.jpg"
+      "metadata": "마사 C. 누스바움",
+      "theme": "철학/정치철학",
+      "imageUrl": "assets/book-covers/political-emotions-nussbaum.jpg",
+      "reviewUrl": "posts/political-emotions-nussbaum.html"
     },
     {
       "id": "387364522",
@@ -643,11 +648,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "imageUrl": "https://image.aladin.co.kr/product/36489/77/cover500/k392039110_1.jpg"
     },
     {
-      "id": "385063142",
+      "id": "eclipse-reason-horkheimer",
       "title": "도구적 이성 비판",
-      "metadata": "막스 호르크하이머 지음, 박구용 옮김 | 문예출판사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35979/63/cover500/8931022832_1.jpg"
+      "metadata": "막스 호르크하이머",
+      "theme": "철학/비판이론",
+      "imageUrl": "assets/book-covers/eclipse-reason-horkheimer.jpg",
+      "reviewUrl": "posts/eclipse-reason-horkheimer.html"
     },
     {
       "id": "385054457",
@@ -678,11 +684,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "imageUrl": "https://image.aladin.co.kr/product/32764/93/cover500/k672936283_1.jpg"
     },
     {
-      "id": "385053570",
+      "id": "consuming-romantic-utopia-illouz",
       "title": "낭만적 유토피아 소비하기",
-      "metadata": "에바 일루즈 지음, 박형신.권오현 옮김 | 이학사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/3899/63/cover500/8961471902_2.jpg"
+      "metadata": "에바 일루즈",
+      "theme": "사회/감정사회학",
+      "imageUrl": "assets/book-covers/consuming-romantic-utopia-illouz.jpg",
+      "reviewUrl": "posts/consuming-romantic-utopia-illouz.html"
     },
     {
       "id": "385053482",
@@ -800,16 +807,18 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385052207",
       "title": "풍경의 깊이",
-      "metadata": "강요배 지음 | 돌베개",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/24790/60/cover500/8971995955_1.jpg"
+      "metadata": "강요배",
+      "theme": "예술/풍경과 기억",
+      "imageUrl": "assets/book-covers/depth-of-landscape-kang.jpg",
+      "reviewUrl": "posts/depth-of-landscape-kang.html"
     },
     {
       "id": "385051973",
       "title": "살과 돌",
-      "metadata": "리차드 세넷 지음, 임동근 옮김 | 문학동네",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27279/52/cover500/8954679765_1.jpg"
+      "metadata": "리처드 세넷",
+      "theme": "도시사회학/몸",
+      "imageUrl": "assets/book-covers/sennett-flesh-and-stone.jpg",
+      "reviewUrl": "posts/sennett-flesh-and-stone.html"
     },
     {
       "id": "385051956",
@@ -980,11 +989,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "imageUrl": "https://image.aladin.co.kr/product/26361/31/cover500/8959407526_1.jpg"
     },
     {
-      "id": "382513960",
+      "id": "portrait-wardrobe-kim",
       "title": "초상화의 옷장",
-      "metadata": "김정연 지음 | 눌와",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35685/69/cover500/k942036925_1.jpg"
+      "metadata": "김정연",
+      "theme": "미술/복식문화",
+      "imageUrl": "assets/book-covers/portrait-wardrobe-kim.jpg",
+      "reviewUrl": "posts/portrait-wardrobe-kim.html"
     },
     {
       "id": "382506901",
@@ -1197,8 +1207,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379052243",
       "title": "색의 역사",
       "metadata": "알렉산드라 로스케 지음, 조원호.조한혁 옮김 | 미술문화",
-      "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/24581/39/cover500/k062631170_2.jpg"
+      "theme": "역사/색채사",
+      "imageUrl": "assets/book-covers/color-visual-history-loske.jpg",
+      "reviewUrl": "posts/color-visual-history-loske.html"
     },
     {
       "id": "379052234",
@@ -1240,15 +1251,15 @@ window.PAUL_BOOK_ARCHIVE = {
       "reviewUrl": "posts/yamang-class-theory.html"
     },
     {
-      "id": "394591541",
+      "id": "vienna-1900-brandstatter",
       "rank": 3,
       "title": "비엔나 1900년",
-      "metadata": "크리스티안 브란트슈태터 지음, 박수철 옮김 | 예경",
-      "theme": "예술/문화",
+      "metadata": "크리스티안 브란트슈태터",
+      "theme": "예술/문화사",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=394591541",
-      "imageUrl": "https://image.aladin.co.kr/product/2616/92/cover500/897084497x_2.jpg",
+      "imageUrl": "assets/book-covers/vienna-1900-brandstatter.jpg",
       "reviewStatus": "우리 리뷰",
-      "reviewUrl": "posts/vienna-1900.html"
+      "reviewUrl": "posts/vienna-1900-brandstatter.html"
     },
     {
       "id": "391780512",
@@ -1368,13 +1379,13 @@ window.PAUL_BOOK_ARCHIVE = {
       "readWith": "에드워드 W. 사이드 『말년의 양식에 관하여』, 롤랑 바르트 『애도 일기』, 제프 다이어 『꼼짝도 하기 싫은 사람들을 위한 요가』"
     },
     {
-      "id": "389004296",
+      "id": "rethinking-japanese-history-amino",
       "rank": 34,
       "title": "일본의 역사를 새로 읽는다",
-      "metadata": "아미노 요시히코 지음, 임경택 옮김 | 돌베개",
-      "theme": "역사",
+      "metadata": "아미노 요시히코",
+      "theme": "역사/일본중세사",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004296",
-      "imageUrl": "https://image.aladin.co.kr/product/6870/61/cover500/8971996927_2.jpg",
+      "imageUrl": "assets/book-covers/rethinking-japanese-history-amino.jpg",
       "reviewStatus": "우리 리뷰",
       "reviewUrl": "posts/rethinking-japanese-history-amino.html",
       "archiveReview": "일본사를 중앙 권력의 연표만이 아니라 주변부, 바다, 장인, 비국가적 삶의 층위에서 다시 읽게 하는 책이다. 동아시아사를 국가 단위로만 읽는 습관을 흔든다.",
@@ -1528,11 +1539,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "rank": 62,
       "title": "취미와 사회 권력",
       "metadata": "가타오카 에미 지음, 이은주 옮김 | 소명출판",
-      "theme": "인문/문학",
+      "theme": "사회/문화사회학",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504561",
-      "imageUrl": "https://image.aladin.co.kr/product/34033/87/cover500/k132931269_1.jpg",
+      "imageUrl": "assets/book-covers/taste-social-power-kataoka.jpg",
       "reviewStatus": "우리 리뷰",
-      "reviewUrl": "posts/sociology-of-taste-kataoka.html",
+      "reviewUrl": "posts/taste-social-power-kataoka.html",
       "archiveReview": "취미가 순수한 개인 선택이라는 믿음을 흔들고, 문화적 선호가 계급과 교육 자본의 언어가 되는 방식을 보여준다. 우리 책장 작업의 기준을 점검하게 만드는 책이다.",
       "readWith": "피에르 부르디외 『구별짓기』, 엘리자베스 커리드핼킷 『야망계급론』, 토르스타인 베블런 『유한계급론』"
     },
@@ -1553,10 +1564,10 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "386231819",
       "rank": 76,
       "title": "가차없는 자본주의",
-      "metadata": "조이스 애플비 지음, 주경철.안민석 옮김 | 까치",
-      "theme": "인문/문학",
+      "metadata": "조이스 애플비",
+      "theme": "역사/자본주의",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=386231819",
-      "imageUrl": "https://image.aladin.co.kr/product/1536/97/cover500/897291519x_1.jpg",
+      "imageUrl": "assets/book-covers/relentless-capitalism-appleby.jpg",
       "reviewStatus": "우리 리뷰",
       "reviewUrl": "posts/relentless-capitalism-appleby.html",
       "archiveReview": "자본주의를 경제 제도의 이름이 아니라 끝없이 팽창하고 적응하는 역사적 힘으로 읽게 한다. 시장의 자연스러움을 의심했던 우리 기존 글들과 잘 이어진다.",
@@ -1602,13 +1613,13 @@ window.PAUL_BOOK_ARCHIVE = {
       "readWith": "애나 칭 『세계 끝의 버섯』, 브뤼노 라투르 『지구와 충돌하지 않고 착륙하는 방법』, 에두아르두 비베이루스 지 카스트루 『식인의 형이상학』"
     },
     {
-      "id": "378994523",
+      "id": "epistemic-injustice-fricker",
       "rank": 183,
       "title": "인식적 부정의",
-      "metadata": "미란다 프리커 지음, 유기훈 외 옮김 | 오월의봄",
-      "theme": "인문/문학",
+      "metadata": "미란다 프리커",
+      "theme": "철학/사회인식론",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378994523",
-      "imageUrl": "https://image.aladin.co.kr/product/35586/29/cover500/k612036795_1.jpg",
+      "imageUrl": "assets/book-covers/epistemic-injustice-fricker.jpg",
       "reviewStatus": "우리 리뷰",
       "reviewUrl": "posts/epistemic-injustice-fricker.html",
       "archiveReview": "누가 말할 자격을 얻고 누가 믿어지지 않는가를 묻는 현대 윤리학의 중요한 책이다. 지식과 권력의 관계를 일상 언어 속에서 보게 한다.",
@@ -4026,13 +4037,14 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 9
     },
     {
-      "id": "368088596",
+      "id": "psychology-and-alchemy-jung",
       "title": "심리학과 연금술",
-      "metadata": "칼 구스타프 융 지음, 정명진 옮김 | 부글북스",
-      "theme": "인문/교양",
+      "metadata": "칼 구스타프 융",
+      "theme": "분석심리학/상징",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=368088596",
-      "imageUrl": "https://image.aladin.co.kr/product/30905/92/cover500/k862831482_1.jpg",
-      "sourcePage": 9
+      "imageUrl": "assets/book-covers/psychology-and-alchemy-jung.jpg",
+      "sourcePage": 9,
+      "reviewUrl": "posts/psychology-and-alchemy-jung.html"
     },
     {
       "id": "368088540",
@@ -8697,12 +8709,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 20
     },
     {
-      "id": "366108204",
+      "id": "385054457",
       "title": "니체",
-      "metadata": "이진우 지음 | arte(아르테)",
-      "theme": "철학/사상",
+      "metadata": "뤼디거 자프란스키 지음, 오윤희.육혜원 옮김 | 이화북스",
+      "theme": "인문/문학",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366108204",
-      "imageUrl": "https://image.aladin.co.kr/product/14113/19/cover500/8950974118_1.jpg",
+      "imageUrl": "https://image.aladin.co.kr/product/26770/35/cover500/k162730487_1.jpg",
       "sourcePage": 20
     },
     {
@@ -9498,13 +9510,14 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 22
     },
     {
-      "id": "366107262",
+      "id": "human-condition-arendt",
       "title": "인간의 조건",
-      "metadata": "지그문트 바우만.스타니스와프 오비레크 지음, 안규남 옮김 | 동녘",
-      "theme": "인문/교양",
+      "metadata": "한나 아렌트",
+      "theme": "정치철학/인간활동",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366107262",
-      "imageUrl": "https://image.aladin.co.kr/product/9424/19/cover500/8972978434_1.jpg",
-      "sourcePage": 22
+      "imageUrl": "assets/book-covers/human-condition-arendt.jpg",
+      "sourcePage": 22,
+      "reviewUrl": "posts/human-condition-arendt.html"
     },
     {
       "id": "366107229",
@@ -15978,13 +15991,14 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 38
     },
     {
-      "id": "364251989",
+      "id": "385320999",
       "title": "한국미술의 역사",
-      "metadata": "김원룡.안휘준 지음 | 시공사",
-      "theme": "미술/디자인",
+      "metadata": "김원용, 안휘준 지음 | 시공사",
+      "theme": "미술사",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364251989",
-      "imageUrl": "https://image.aladin.co.kr/product/42/93/cover500/8952730216_1.jpg",
-      "sourcePage": 38
+      "imageUrl": "assets/issue-12-covers/history-of-korean-art.jpg",
+      "sourcePage": 38,
+      "reviewUrl": "posts/history-of-korean-art.html"
     },
     {
       "id": "364251896",
@@ -19585,6 +19599,140 @@ window.PAUL_BOOK_ARCHIVE = {
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364034146",
       "imageUrl": "https://image.aladin.co.kr/product/14898/89/cover500/8971998520_1.jpg",
       "sourcePage": 48
+    },
+    {
+      "id": "children-childhood-cunningham",
+      "title": "Children and Childhood in Western Society Since 1500",
+      "metadata": "휴 커닝햄",
+      "theme": "역사/아동사",
+      "imageUrl": "assets/book-covers/children-childhood-cunningham.jpg",
+      "reviewUrl": "posts/children-childhood-cunningham.html"
+    },
+    {
+      "id": "loves-labor-kittay",
+      "title": "Love’s Labor",
+      "metadata": "에바 페더 키테이",
+      "theme": "철학/돌봄 윤리",
+      "imageUrl": "assets/book-covers/loves-labor-kittay.jpg",
+      "reviewUrl": "posts/loves-labor-kittay.html"
+    },
+    {
+      "id": "vision-difference-pollock",
+      "title": "Vision and Difference",
+      "metadata": "그리젤다 폴록",
+      "theme": "미술사/페미니즘",
+      "imageUrl": "assets/book-covers/vision-difference-pollock.jpg",
+      "reviewUrl": "posts/vision-difference-pollock.html"
+    },
+    {
+      "id": "bohemian-paris-seigel",
+      "title": "Bohemian Paris",
+      "metadata": "제럴드 시걸",
+      "theme": "역사/문화사",
+      "imageUrl": "assets/book-covers/bohemian-paris-seigel.jpg",
+      "reviewUrl": "posts/bohemian-paris-seigel.html"
+    },
+    {
+      "id": "arcades-project-benjamin",
+      "title": "The Arcades Project",
+      "metadata": "발터 벤야민",
+      "theme": "철학/역사철학",
+      "imageUrl": "assets/book-covers/arcades-project-benjamin.jpg",
+      "reviewUrl": "posts/arcades-project-benjamin.html"
+    },
+    {
+      "id": "fall-public-man-sennett",
+      "title": "The Fall of Public Man",
+      "metadata": "리처드 세넷",
+      "theme": "사회학/공공성",
+      "imageUrl": "assets/book-covers/fall-public-man-sennett.jpg",
+      "reviewUrl": "posts/fall-public-man-sennett.html"
+    },
+    {
+      "id": "spectacular-realities-schwartz",
+      "title": "Spectacular Realities",
+      "metadata": "바네사 R. 슈워츠",
+      "theme": "역사/대중문화",
+      "imageUrl": "assets/book-covers/spectacular-realities-schwartz.jpg",
+      "reviewUrl": "posts/spectacular-realities-schwartz.html"
+    },
+    {
+      "id": "aisthesis-ranciere",
+      "title": "Aisthesis",
+      "metadata": "자크 랑시에르",
+      "theme": "철학/미학",
+      "imageUrl": "assets/book-covers/aisthesis-ranciere.jpg",
+      "reviewUrl": "posts/aisthesis-ranciere.html"
+    },
+    {
+      "id": "presentation-self-goffman",
+      "title": "The Presentation of Self in Everyday Life",
+      "metadata": "어빙 고프먼",
+      "theme": "사회학/상호작용",
+      "imageUrl": "assets/book-covers/presentation-self-goffman.jpg",
+      "reviewUrl": "posts/presentation-self-goffman.html"
+    },
+    {
+      "id": "making-english-working-class-thompson",
+      "title": "영국 노동계급의 형성",
+      "metadata": "E. P. 톰슨",
+      "theme": "역사/노동사",
+      "imageUrl": "assets/book-covers/making-english-working-class-thompson.jpg",
+      "reviewUrl": "posts/making-english-working-class-thompson.html"
+    },
+    {
+      "id": "craftsman-sennett",
+      "title": "장인",
+      "metadata": "리처드 세넷",
+      "theme": "사회학/숙련",
+      "imageUrl": "assets/book-covers/craftsman-sennett.jpg",
+      "reviewUrl": "posts/craftsman-sennett.html"
+    },
+    {
+      "id": "age-of-capital-hobsbawm",
+      "title": "자본의 시대",
+      "metadata": "에릭 홉스봄",
+      "theme": "역사/자본주의",
+      "imageUrl": "assets/book-covers/age-of-capital-hobsbawm.jpg",
+      "reviewUrl": "posts/age-of-capital-hobsbawm.html"
+    },
+    {
+      "id": "philosophy-of-money-simmel",
+      "title": "화폐의 철학",
+      "metadata": "게오르크 짐멜",
+      "theme": "철학/사회이론",
+      "imageUrl": "assets/book-covers/philosophy-of-money-simmel.jpg",
+      "reviewUrl": "posts/philosophy-of-money-simmel.html"
+    },
+    {
+      "id": "painting-of-modern-life-clark",
+      "title": "근대 생활의 회화",
+      "metadata": "T. J. 클라크",
+      "theme": "미술사/도시문화",
+      "imageUrl": "assets/book-covers/painting-of-modern-life-clark.jpg",
+      "reviewUrl": "posts/painting-of-modern-life-clark.html"
+    },
+    {
+      "id": "place-theory-maruta",
+      "title": "장소론",
+      "metadata": "마루타 하지메",
+      "theme": "장소/네트워크",
+      "imageUrl": "assets/book-covers/place-theory-maruta.jpg",
+      "reviewUrl": "posts/place-theory-maruta.html"
+    },
+    {
+      "id": "382504995",
+      "title": "기술복제시대의 예술작품 / 사진의 작은 역사 외",
+      "metadata": "발터 벤야민 지음, 최성만 옮김 | 길(도서출판)",
+      "theme": "역사",
+      "imageUrl": "https://image.aladin.co.kr/product/101/79/cover500/8987671828_1.jpg"
+    },
+    {
+      "id": "378806301",
+      "title": "디어 아마존",
+      "metadata": "뱅상 노르망 외 지음 | 현실문화A",
+      "theme": "인문/문학",
+      "imageUrl": "https://image.aladin.co.kr/product/26079/6/cover500/8965642590_1.jpg"
     }
   ]
 };

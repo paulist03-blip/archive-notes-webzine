@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="김명현 목사가 피터 싱어의 우리 시대의 동물 해방을 바탕으로 정리한 의학 연구 윤리 비주얼 리포트." />
+  <meta property="og:title" content="우리 시대의 동물 해방과 의학 연구 윤리" />
+  <meta property="og:description" content="동물 실험, 3R 원칙, 연구실 윤리, 기독교계 논의 흐름과 참고 자료를 함께 읽는 비주얼 리포트." />
+  <meta property="og:image" content="assets/animal-liberation-medical-lab-preview.png" />
+  <title>우리 시대의 동물 해방과 의학 연구 윤리</title>
+  <style>
+    @font-face {
+      font-family: "MaruBuri";
+      src: url("assets/fonts/maruburi-Regular.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "MaruBuri";
+      src: url("assets/fonts/maruburi-Semibold.woff2") format("woff2");
+      font-weight: 650;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --ink: #17201d;
+      --muted: #63706b;
+      --paper: #fbfaf4;
+      --surface: #ffffff;
+      --soft: #eef3ef;
+      --line: #d7ded9;
+      --green: #2f6f5f;
+      --blue: #365f76;
+      --gold: #b68b35;
+      --rose: #a85f51;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #e8ece9;
+      color: var(--ink);
+      font-family: "Noto Sans KR", "Apple SD Gothic Neo", Arial, sans-serif;
+      line-height: 1.74;
+      word-spacing: 0.045em;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .page {
+      background: var(--paper);
+      min-height: 100vh;
+    }
+
+    .wrap {
+      width: min(1120px, calc(100% - 36px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      min-height: 92vh;
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
+      gap: 44px;
+      align-items: center;
+      padding: 54px 0 46px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      margin: 0 0 18px;
+      color: var(--green);
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: "Noto Serif KR", "MaruBuri", Georgia, serif;
+      letter-spacing: 0;
+      word-break: keep-all;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 720px;
+      font-size: clamp(2.35rem, 4.6vw, 4rem);
+      line-height: 1.14;
+      font-weight: 650;
+    }
+
+    .lead {
+      max-width: 610px;
+      margin: 26px 0 0;
+      color: var(--muted);
+      font-size: clamp(1.05rem, 2.2vw, 1.32rem);
+      word-break: keep-all;
+    }
+
+    .byline {
+      margin: 20px 0 0;
+      color: var(--green);
+      font-size: 1rem;
+      font-weight: 850;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 28px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .meta li {
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.58);
+      padding: 8px 12px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 34px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 11px 18px;
+      border: 1px solid var(--green);
+      background: var(--green);
+      color: #fff;
+      font-size: 0.96rem;
+      font-weight: 850;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--green);
+    }
+
+    .preview {
+      position: relative;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      padding: 10px;
+      box-shadow: 0 30px 70px rgba(33, 51, 45, 0.16);
+    }
+
+    .preview img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      background: #dfe5e1;
+    }
+
+    .preview-note {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .section {
+      padding: 74px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: 0.35fr 0.65fr;
+      gap: 42px;
+      align-items: end;
+      margin-bottom: 34px;
+    }
+
+    .section-number {
+      color: var(--gold);
+      font-family: "MaruBuri", Georgia, serif;
+      font-size: 3.5rem;
+      line-height: 1;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(1.9rem, 4vw, 3.25rem);
+      line-height: 1.18;
+      font-weight: 650;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .grid.three {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid.two {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tile,
+    .quote-box,
+    .question {
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.72);
+      padding: 26px;
+    }
+
+    .summary-box {
+      border: 1px solid rgba(47, 111, 95, 0.28);
+      background:
+        linear-gradient(135deg, rgba(47, 111, 95, 0.09), transparent 62%),
+        var(--surface);
+      padding: 34px;
+    }
+
+    .summary-box p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .summary-box p + p {
+      margin-top: 18px;
+    }
+
+    .tile h3,
+    .question h3 {
+      margin: 0 0 12px;
+      color: var(--green);
+      font-size: 1.35rem;
+      line-height: 1.28;
+    }
+
+    .tile p,
+    .question p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .marker {
+      display: inline-grid;
+      place-items: center;
+      width: 40px;
+      height: 40px;
+      margin-bottom: 18px;
+      border: 1px solid currentColor;
+      color: var(--blue);
+      font-weight: 900;
+    }
+
+    .quote-box {
+      border-left: 6px solid var(--green);
+      font-family: "Noto Serif KR", "MaruBuri", Georgia, serif;
+      font-size: clamp(1.45rem, 3vw, 2.25rem);
+      line-height: 1.42;
+    }
+
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      counter-reset: step;
+    }
+
+    .step {
+      min-height: 220px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      padding: 24px;
+    }
+
+    .flow .step::before {
+      counter-increment: step;
+      content: "0" counter(step);
+      display: block;
+      margin-bottom: 20px;
+      color: var(--rose);
+      font-weight: 900;
+      letter-spacing: 0.08em;
+    }
+
+    .step h3 {
+      margin: 0 0 10px;
+      font-size: 1.25rem;
+    }
+
+    .step p,
+    .step li {
+      color: var(--muted);
+    }
+
+    .step ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .principles {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 36px;
+      align-items: center;
+    }
+
+    .triangle {
+      min-height: 360px;
+      position: relative;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(120deg, rgba(47, 111, 95, 0.1), transparent 58%),
+        var(--surface);
+    }
+
+    .tri-item {
+      position: absolute;
+      width: min(42%, 230px);
+      border: 1px solid var(--line);
+      background: var(--paper);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .tri-item strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--green);
+      font-family: "MaruBuri", Georgia, serif;
+      font-size: 1.24rem;
+    }
+
+    .tri-item span {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .tri-top {
+      top: 28px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .tri-left {
+      left: 28px;
+      bottom: 28px;
+    }
+
+    .tri-right {
+      right: 28px;
+      bottom: 28px;
+    }
+
+    .critical .tile:first-child {
+      border-top: 4px solid var(--green);
+    }
+
+    .critical .tile:last-child {
+      border-top: 4px solid var(--gold);
+    }
+
+    .trend-list {
+      display: grid;
+      gap: 14px;
+      counter-reset: trend;
+    }
+
+    .trend-item {
+      display: grid;
+      grid-template-columns: 72px 1fr;
+      gap: 18px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      padding: 24px;
+    }
+
+    .trend-item::before {
+      counter-increment: trend;
+      content: "0" counter(trend);
+      color: var(--gold);
+      font-family: "MaruBuri", Georgia, serif;
+      font-size: 2rem;
+      line-height: 1;
+    }
+
+    .trend-item h3 {
+      margin: 0 0 8px;
+      color: var(--green);
+      font-size: 1.28rem;
+    }
+
+    .trend-item p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .resource-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .resource-card {
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.72);
+      padding: 24px;
+    }
+
+    .resource-card h3 {
+      margin: 0 0 10px;
+      color: var(--green);
+      font-size: 1.18rem;
+    }
+
+    .resource-card p {
+      margin: 0 0 14px;
+      color: var(--muted);
+    }
+
+    .resource-card a,
+    .text-link {
+      color: var(--green);
+      font-weight: 850;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 4px;
+    }
+
+    .questions {
+      background: #21332d;
+      color: #fff;
+    }
+
+    .questions .section {
+      border-bottom: 0;
+    }
+
+    .questions .eyebrow,
+    .questions .section-number {
+      color: #d7b263;
+    }
+
+    .questions h2 {
+      color: #fff;
+    }
+
+    .questions .question {
+      border-color: rgba(255, 255, 255, 0.18);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .questions .question h3 {
+      color: #fff;
+    }
+
+    .questions .question p {
+      color: rgba(255, 255, 255, 0.78);
+    }
+
+    .closing {
+      margin-top: 36px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.26);
+      font-family: "Noto Serif KR", "MaruBuri", Georgia, serif;
+      font-size: clamp(1.55rem, 3vw, 2.35rem);
+      line-height: 1.45;
+    }
+
+    .footer {
+      padding: 28px 0;
+      background: #17201d;
+      color: rgba(255, 255, 255, 0.72);
+      font-size: 0.9rem;
+    }
+
+    .footer .wrap {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .footer a {
+      color: #fff;
+      font-weight: 800;
+    }
+
+    @media (max-width: 900px) {
+      .hero,
+      .section-head,
+      .principles {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: auto;
+        gap: 34px;
+        padding-top: 38px;
+      }
+
+      .grid.three,
+      .grid.two,
+      .flow,
+      .resource-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .trend-item {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 56px 0;
+      }
+
+      .section-number {
+        font-size: 2.8rem;
+      }
+
+      .triangle {
+        min-height: auto;
+        display: grid;
+        gap: 12px;
+        padding: 16px;
+      }
+
+      .tri-item {
+        position: static;
+        width: 100%;
+        transform: none;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .wrap {
+        width: min(100% - 26px, 1120px);
+      }
+
+      .actions {
+        display: grid;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .tile,
+      .quote-box,
+      .question,
+      .step {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="wrap hero">
+      <div>
+        <p class="eyebrow">Medical Ethics Visual Report</p>
+        <h1>우리 시대의 동물 해방과 의학 연구 윤리</h1>
+        <p class="lead">피터 싱어의 문제 제기를 의대 연구실의 언어로 옮겨, 동물 실험의 정당화 책임과 3R 원칙, 그리고 기독교적 관점에서 남는 물음을 한 장의 흐름으로 정리했다.</p>
+        <p class="byline">글 김명현 목사</p>
+        <ul class="meta" aria-label="리포트 정보">
+          <li>김명현 목사 작성</li>
+          <li>Peter Singer</li>
+          <li>Animal Liberation Now</li>
+          <li>의대 연구실 제출용</li>
+        </ul>
+        <div class="actions">
+          <a class="button" href="assets/animal-liberation-medical-lab-report.pdf">PDF 열기</a>
+          <a class="button secondary" href="https://www.canva.com/d/-29oaMBuc4rihvI" target="_blank" rel="noopener noreferrer">Canva 보기</a>
+          <a class="button secondary" href="#references">참고자료 보기</a>
+        </div>
+      </div>
+      <figure class="preview">
+        <img src="assets/animal-liberation-medical-lab-preview.png" alt="우리 시대의 동물 해방과 의학 연구 윤리 비주얼 리포트 표지" />
+        <figcaption class="preview-note">
+          <span>web report by Kim Myung-hyun</span>
+          <span>PDF included</span>
+        </figcaption>
+      </figure>
+    </header>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Core Concept</p>
+            <div class="section-number">01</div>
+          </div>
+          <h2>종차별주의: 누가 고통을 중요하게 인정받는가</h2>
+        </div>
+        <div class="grid two">
+          <div class="quote-box">고통을 느낄 수 있는 존재의 고통은 윤리적 계산에서 배제될 수 없다.</div>
+          <div class="grid">
+            <article class="tile">
+              <span class="marker">H</span>
+              <h3>인간 중심 관성</h3>
+              <p>인간의 고통은 크게, 동물의 고통은 작게 평가하는 습관은 연구실의 편익 계산 안에서도 반복될 수 있다.</p>
+            </article>
+            <article class="tile">
+              <span class="marker">E</span>
+              <h3>윤리의 확장</h3>
+              <p>싱어의 핵심은 지능이나 언어가 아니라 고통을 느끼는 능력을 윤리적 고려의 출발점으로 삼는 데 있다.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Text Summary</p>
+            <div class="section-number">02</div>
+          </div>
+          <h2>『우리 시대의 동물 해방』은 무엇을 묻는 책인가</h2>
+        </div>
+        <div class="summary-box">
+          <p>피터 싱어의 『Animal Liberation』은 1975년에 처음 출간된 뒤 동물권 논의의 기준점을 바꾼 책이고, 2023년 개정판 『Animal Liberation Now』에서 공장식 축산, 실험동물, 소비 윤리의 자료를 현재 상황에 맞게 다시 정리했다. 이 리포트는 그 책을 의학 연구실의 문제로 좁혀 읽는다.</p>
+          <p>책의 핵심은 “인간과 동물이 같으냐”가 아니라 “고통을 느낄 수 있는 존재의 고통을 어떤 이유로 덜 중요하게 취급할 수 있느냐”이다. 싱어는 이를 종차별주의라는 말로 설명하고, 동물 실험을 인간의 이익이라는 이름으로 너무 쉽게 정당화해 온 관행을 비판한다.</p>
+          <p>의대 연구실에서 이 책을 읽는다는 것은 모든 동물 실험을 즉시 같은 방식으로 금지하자는 결론보다 먼저, 실험의 필요성·대체 가능성·고통의 정도·보고의 투명성을 실질적으로 묻는 일이다. 기독교적 독해는 여기에 한 가지 질문을 더한다. 인간 생명을 돌보는 연구가 하나님의 피조물을 대하는 방식에서도 생명 존중의 흔적을 남기고 있는가?</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Lab Question</p>
+            <div class="section-number">03</div>
+          </div>
+          <h2>의대 연구실은 무엇을 추가로 물어야 하는가</h2>
+        </div>
+        <div class="flow">
+          <article class="step">
+            <h3>연구 질문</h3>
+            <p>의학적 필요와 기대 편익을 명확히 한다.</p>
+          </article>
+          <article class="step">
+            <h3>대체 검토</h3>
+            <p>동물 없이 답할 수 있는 방법을 먼저 찾는다.</p>
+          </article>
+          <article class="step">
+            <h3>윤리 심의</h3>
+            <p>고통과 편익의 균형을 공개적으로 점검한다.</p>
+          </article>
+          <article class="step">
+            <h3>보고 책임</h3>
+            <p>재현 가능한 방식으로 결과를 남긴다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Decision Checklist</p>
+            <div class="section-number">04</div>
+          </div>
+          <h2>동물 실험 판단을 위한 세 가지 체크포인트</h2>
+        </div>
+        <div class="grid three">
+          <article class="step">
+            <h3>대체 가능성</h3>
+            <ul>
+              <li>세포 배양</li>
+              <li>오가노이드</li>
+              <li>컴퓨터 모델</li>
+              <li>인체 유래 데이터</li>
+            </ul>
+          </article>
+          <article class="step">
+            <h3>고통 최소화</h3>
+            <ul>
+              <li>마취와 진통</li>
+              <li>사육 환경</li>
+              <li>스트레스 감소</li>
+              <li>실험 종료 기준</li>
+            </ul>
+          </article>
+          <article class="step">
+            <h3>과학적 필요성</h3>
+            <ul>
+              <li>엄밀한 설계</li>
+              <li>충분한 검정력</li>
+              <li>재현 가능성</li>
+              <li>불필요한 반복 방지</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap principles">
+        <div>
+          <p class="eyebrow">3R Framework</p>
+          <div class="section-number">05</div>
+          <h2>3R 원칙으로 실험 윤리를 구조화하기</h2>
+          <p class="lead">3R은 동물 실험을 자동으로 정당화하는 문구가 아니라, 연구자가 매 단계에서 입증해야 할 최소 기준이다.</p>
+        </div>
+        <div class="triangle" aria-label="3R 원칙">
+          <div class="tri-item tri-top"><strong>Replacement</strong><span>가능한 경우 동물 사용을 대체한다.</span></div>
+          <div class="tri-item tri-left"><strong>Reduction</strong><span>필요한 동물 수를 줄인다.</span></div>
+          <div class="tri-item tri-right"><strong>Refinement</strong><span>고통과 스트레스를 줄인다.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Lab Practice</p>
+            <div class="section-number">06</div>
+          </div>
+          <h2>연구실 실천 과제: 실험 전, 중, 후</h2>
+        </div>
+        <div class="grid three">
+          <article class="tile">
+            <span class="marker">전</span>
+            <h3>실험 전</h3>
+            <p>목적과 필요성을 기록하고, 대체 가능성과 고통 완화 계획을 먼저 검토한다.</p>
+          </article>
+          <article class="tile">
+            <span class="marker">중</span>
+            <h3>실험 중</h3>
+            <p>마취와 진통, 사육 환경, 중단 기준을 지속적으로 점검한다.</p>
+          </article>
+          <article class="tile">
+            <span class="marker">후</span>
+            <h3>실험 후</h3>
+            <p>ARRIVE 기준에 맞춰 보고하고, 재현 가능성을 확보해 불필요한 반복을 줄인다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Christian Ethics Today</p>
+            <div class="section-number">07</div>
+          </div>
+          <h2>오늘날 기독교계 논의는 어디로 움직이는가</h2>
+        </div>
+        <div class="trend-list">
+          <article class="trend-item">
+            <div>
+              <h3>무제한 허용이 아니라 조건부 허용으로</h3>
+              <p>가톨릭 교리서와 프란치스코 교황의 『찬미받으소서』는 동물 실험을 인간 생명 돌봄에 기여하고 합리적 한계 안에 있을 때만 도덕적으로 허용될 수 있다고 말한다. 흐름은 “인간에게 필요하면 된다”에서 “필요성, 한계, 고통 방지가 입증되어야 한다”로 옮겨 간다.</p>
+            </div>
+          </article>
+          <article class="trend-item">
+            <div>
+              <h3>지배의 언어에서 청지기직과 피조물 돌봄으로</h3>
+              <p>창세기의 다스림은 점점 착취의 면허가 아니라 책임 있는 돌봄으로 해석된다. 동물은 인간의 도구일 뿐이라는 관점보다, 하나님이 기뻐하시는 피조세계의 구성원이라는 관점이 더 강하게 부상한다.</p>
+            </div>
+          </article>
+          <article class="trend-item">
+            <div>
+              <h3>폐지론과 개선론 사이의 실천적 수렴</h3>
+              <p>기독교 내부에는 동물권·채식·비거니즘까지 요청하는 급진적 동물신학도 있지만, 의학 연구 현장에서는 즉각 폐지보다 대체, 축소, 고통 완화, 투명한 보고, 심의 강화라는 실천적 기준으로 논의가 모인다.</p>
+            </div>
+          </article>
+          <article class="trend-item">
+            <div>
+              <h3>연구실 윤리를 영성의 문제로 다시 묻기</h3>
+              <p>오늘의 질문은 “실험이 합법인가”에 머물지 않는다. 기독교적 연구자는 연구비, 성과, 논문 생산의 압력 속에서 말하지 못하는 생명의 고통을 제도적으로 보이지 않게 만들고 있지는 않은지 묻게 된다.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section critical">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Critical Review</p>
+            <div class="section-number">08</div>
+          </div>
+          <h2>싱어의 주장을 어떻게 비판적으로 읽을 것인가</h2>
+        </div>
+        <div class="grid two">
+          <article class="tile">
+            <h3>강점: 윤리의 기준을 명료하게 확장한다</h3>
+            <p>고통이라는 기준은 직관적이며, 동물 실험의 정당화 책임을 연구자에게 되돌려준다. 연구 설계의 투명성과 엄밀성을 요구한다는 점에서도 실천적 힘이 있다.</p>
+          </article>
+          <article class="tile">
+            <h3>한계: 인간 생명의 고유성을 충분히 설명하지 못할 수 있다</h3>
+            <p>모든 판단을 고통과 편익 비교로 환원할 위험이 있다. 현실적 결론은 즉각적 폐지보다 기준 강화, 대체 연구 확대, 보고 책임의 제도화에 가깝다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="references">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Further Reading</p>
+            <div class="section-number">09</div>
+          </div>
+          <h2>함께 읽을 논문, 지침, 관련 서적</h2>
+        </div>
+        <div class="resource-grid">
+          <article class="resource-card">
+            <h3>ARRIVE Guidelines 2.0</h3>
+            <p>동물실험 논문이 방법, 표본 수, 무작위화, 눈가림, 결과 해석을 어떻게 보고해야 하는지 제시하는 대표 가이드라인이다.</p>
+            <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000410" target="_blank" rel="noopener noreferrer">PLOS Biology 논문 보기</a>
+          </article>
+          <article class="resource-card">
+            <h3>NC3Rs: Replacement, Reduction, Refinement</h3>
+            <p>3R 원칙의 현재적 설명과 연구기관·규제·펀딩에서 이 원칙이 어떻게 쓰이는지 확인할 수 있다.</p>
+            <a href="https://nc3rs.org.uk/who-we-are/3rs" target="_blank" rel="noopener noreferrer">NC3Rs 3R 자료 보기</a>
+          </article>
+          <article class="resource-card">
+            <h3>Nuffield Council: The Ethics of Research Involving Animals</h3>
+            <p>동물 연구 논쟁을 찬반 구도로만 보지 않고, 과학적 필요성과 윤리적 비용을 함께 검토하는 보고서다.</p>
+            <a href="https://www.nuffieldbioethics.org/publication/the-ethics-of-research-involving-animals/" target="_blank" rel="noopener noreferrer">Nuffield 보고서 보기</a>
+          </article>
+          <article class="resource-card">
+            <h3>Stanford Encyclopedia: The Moral Status of Animals</h3>
+            <p>동물에게 도덕적 지위가 있는가, 있다면 그 근거가 고통·권리·관계 중 어디에 놓이는가를 개관한다.</p>
+            <a href="https://plato.stanford.edu/entries/moral-animal/" target="_blank" rel="noopener noreferrer">SEP 항목 보기</a>
+          </article>
+          <article class="resource-card">
+            <h3>가톨릭 교리서와 『찬미받으소서』</h3>
+            <p>동물 실험의 조건부 허용, 인간 권력의 한계, 피조세계의 온전성에 대한 기독교적 기준을 확인할 수 있다.</p>
+            <a href="https://www.vatican.va/content/catechism/en/part_three/section_two/chapter_two/article_7/ii_respect_for_persons_and_their_goods.html" target="_blank" rel="noopener noreferrer">교리서 2417-2418 보기</a>
+          </article>
+          <article class="resource-card">
+            <h3>European Commission: Animals in Science</h3>
+            <p>유럽의 동물실험 규제는 3R과 투명성, 장기적 대체 방향을 제도화하는 흐름을 보여준다.</p>
+            <a href="https://environment.ec.europa.eu/topics/chemicals/animals-science_en" target="_blank" rel="noopener noreferrer">EU 자료 보기</a>
+          </article>
+          <article class="resource-card">
+            <h3>Peter Singer, Animal Liberation Now</h3>
+            <p>이 리포트의 출발점이 되는 개정판. 종차별주의, 고통의 동등 고려, 공장식 축산과 실험동물 문제를 다룬다.</p>
+            <a href="https://www.harpercollins.com/products/animal-liberation-now-peter-singer" target="_blank" rel="noopener noreferrer">HarperCollins 책 정보 보기</a>
+          </article>
+          <article class="resource-card">
+            <h3>Tom Regan, The Case for Animal Rights</h3>
+            <p>싱어의 공리주의와 달리 권리론의 관점에서 동물 윤리를 전개하는 고전이다.</p>
+            <a href="https://www.ucpress.edu/flyer/books/the-case-for-animal-rights/paper" target="_blank" rel="noopener noreferrer">UC Press 책 정보 보기</a>
+          </article>
+          <article class="resource-card">
+            <h3>Andrew Linzey, Animal Theology</h3>
+            <p>기독교 전통 안에서 동물을 신학적으로 어떻게 보아야 하는지 본격적으로 다룬 대표 저작이다.</p>
+            <a href="https://www.press.uillinois.edu/books/?id=p064678" target="_blank" rel="noopener noreferrer">University of Illinois Press 보기</a>
+          </article>
+          <article class="resource-card">
+            <h3>David Clough, On Animals Vol. II</h3>
+            <p>동물에 대한 기독교 윤리를 식생활, 연구, 인간 실천 전반으로 확장해 분석한다.</p>
+            <a href="https://www.bloomsbury.com/us/on-animals-9780567689528/" target="_blank" rel="noopener noreferrer">Bloomsbury 책 정보 보기</a>
+          </article>
+          <article class="resource-card">
+            <h3>Martha C. Nussbaum, Justice for Animals</h3>
+            <p>고통 최소화만이 아니라 동물이 자기 종다운 삶을 펼칠 수 있는 능력의 조건을 묻는 최근 논의다.</p>
+            <a href="https://www.simonandschuster.com/books/Justice-for-Animals/Martha-C-Nussbaum/9781982102517" target="_blank" rel="noopener noreferrer">Simon & Schuster 책 정보 보기</a>
+          </article>
+          <article class="resource-card">
+            <h3>Charles Camosy, For Love of Animals</h3>
+            <p>동물에 대한 기독교 윤리를 대중 독자가 읽을 수 있게 정리한 책으로, 연구·식생활·반려동물 문제를 함께 다룬다.</p>
+            <a href="https://www.charlescamosy.com/for-love-of-animals" target="_blank" rel="noopener noreferrer">저자 책 소개 보기</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="questions">
+      <section class="section">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Christian Questions</p>
+              <div class="section-number">10</div>
+            </div>
+            <h2>기독교적 관점에서 던질 수 있는 물음</h2>
+          </div>
+          <div class="grid three">
+            <article class="question">
+              <h3>다스림의 의미</h3>
+              <p>창세기의 다스림은 착취의 허가인가, 돌봄과 책임의 명령인가?</p>
+            </article>
+            <article class="question">
+              <h3>연구의 한계</h3>
+              <p>인간 생명을 살리기 위한 연구라면 동물의 고통은 어디까지 감수될 수 있는가?</p>
+            </article>
+            <article class="question">
+              <h3>피조물의 고통</h3>
+              <p>말하지 못하는 피조물의 고통은 신앙의 책임 밖에 있는가?</p>
+            </article>
+          </div>
+          <div class="closing">하나님의 창조 세계 안에서 인간의 지식 추구는 생명을 얼마나 겸손하게 대하고 있는가?</div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span>Paul Archive Notes / 글 김명현 목사 / 2026.06.22</span>
+      <span><a href="assets/animal-liberation-medical-lab-report.pdf">웹 리포트 PDF 다운로드</a></span>
+    </div>
+  </footer>
+</body>
+</html>

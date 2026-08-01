@@ -6,11 +6,11 @@ window.PAUL_BOOK_ARCHIVE = {
     "capturedAt": "2026-08-02",
     "pagesScanned": 48,
     "shelfCount": 2266,
-    "baselineCount": 245,
+    "baselineCount": 246,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 104,
+    "reviewLinkedCount": 105,
     "duplicateExcludedCount": 342,
-    "publicCount": 2169,
+    "publicCount": 2170,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
@@ -49,6 +49,15 @@ window.PAUL_BOOK_ARCHIVE = {
     }
   ],
   "books": [
+    {
+      "id": "332295098",
+      "title": "독일인의 전쟁 1939-1945",
+      "metadata": "니콜라스 스타가르트 지음, 김학이 옮김 | 교유서가",
+      "theme": "역사/전쟁",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=332295098",
+      "imageUrl": "assets/book-covers/german-war-stargardt.jpg",
+      "reviewUrl": "posts/german-war-stargardt.html"
+    },
     {
       "id": "room-history-perrot",
       "title": "방의 역사",

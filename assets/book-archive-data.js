@@ -6,10 +6,10 @@ window.PAUL_BOOK_ARCHIVE = {
     "capturedAt": "2026-08-01",
     "pagesScanned": 48,
     "shelfCount": 2266,
-    "baselineCount": 240,
-    "shelfImportedCount": 1941,
-    "reviewLinkedCount": 99,
-    "duplicateExcludedCount": 325,
+    "baselineCount": 242,
+    "shelfImportedCount": 1939,
+    "reviewLinkedCount": 101,
+    "duplicateExcludedCount": 327,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
@@ -1027,7 +1027,7 @@ window.PAUL_BOOK_ARCHIVE = {
       "metadata": "토마스 엘새서.말테 하게너 지음, 윤종욱 옮김 | 커뮤니케이션북스",
       "theme": "인문/문학",
       "imageUrl": "https://image.aladin.co.kr/product/1736/46/cover500/8966800262_1.jpg",
-      "reviewUrl": "posts/film-theory-introduction.html"
+      "reviewUrl": "posts/film-theory-elsaesser-hagener.html"
     },
     {
       "id": "382506185",
@@ -1802,10 +1802,10 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "review-emancipated-spectator",
       "rank": 9013,
       "title": "해방된 관객",
-      "metadata": "미학 · 자크 랑시에르 · 현실문화연구",
+      "metadata": "자크 랑시에르 지음, 양창렬 옮김 | 현실문화",
       "theme": "미학",
-      "itemUrl": "https://www.yes24.com/Product/UsedShopHub/Hub/171097076",
-      "imageUrl": "https://image.yes24.com/goods/171097076/L",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366107268",
+      "imageUrl": "https://image.aladin.co.kr/product/7492/7/cover500/8965641861_1.jpg",
       "reviewStatus": "우리 리뷰",
       "reviewUrl": "posts/emancipated-spectator.html"
     },
@@ -9489,15 +9489,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 22
     },
     {
-      "id": "366107268",
-      "title": "해방된 관객",
-      "metadata": "자크 랑시에르 지음, 양창렬 옮김 | 현실문화",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366107268",
-      "imageUrl": "https://image.aladin.co.kr/product/7492/7/cover500/8965641861_1.jpg",
-      "sourcePage": 22
-    },
-    {
       "id": "366107262",
       "title": "인간의 조건",
       "metadata": "지그문트 바우만.스타니스와프 오비레크 지음, 안규남 옮김 | 동녘",
@@ -15732,7 +15723,16 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "미술/디자인",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364347077",
       "imageUrl": "https://image.aladin.co.kr/product/3127/50/cover500/8965640806_1.jpg",
-      "sourcePage": 38
+      "reviewUrl": "posts/site-specific-art-kwon-miwon.html"
+    },
+    {
+      "id": "318158017",
+      "title": "예술과 탈역사",
+      "metadata": "아서 C. 단토.데메트리오 파파로니 지음, 박준영 옮김 | 미술문화",
+      "theme": "미술/디자인",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=318158017",
+      "imageUrl": "https://image.aladin.co.kr/product/31815/80/cover500/k932833410_1.jpg",
+      "reviewUrl": "posts/art-and-post-history-danto.html"
     },
     {
       "id": "364337055",

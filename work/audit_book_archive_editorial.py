@@ -32,6 +32,7 @@ class ArticleInspector(HTMLParser):
         self.paragraphs = 0
         self.sources = 0
         self.has_description = False
+        self.has_editorial_rewrite = False
 
     def inside(self, class_name: str) -> bool:
         return any(class_name in classes for _, classes in self.stack)
@@ -41,6 +42,8 @@ class ArticleInspector(HTMLParser):
         classes = set((attributes.get("class") or "").split())
         if tag == "meta" and attributes.get("name", "").casefold() == "description":
             self.has_description = len((attributes.get("content") or "").strip()) >= 40
+        if "article-body" in classes and attributes.get("data-editorial-rewrite"):
+            self.has_editorial_rewrite = True
 
         in_article = self.inside("article-body") or "article-body" in classes
         in_bibliography = self.inside("bibliography") or "bibliography" in classes
@@ -81,6 +84,7 @@ def inspect_review(path: Path) -> dict[str, object]:
         "paragraphs": paragraphs >= MIN_PARAGRAPHS,
         "metaDescription": has_description,
         "sources": sources >= MIN_SOURCES,
+        "editorialRewrite": inspector.has_editorial_rewrite,
     }
     return {
         "status": "ready" if all(checks.values()) else "revise",
@@ -89,6 +93,7 @@ def inspect_review(path: Path) -> dict[str, object]:
         "paragraphs": paragraphs,
         "sources": sources,
         "hasMetaDescription": has_description,
+        "hasEditorialRewrite": inspector.has_editorial_rewrite,
         "failedChecks": [name for name, passed in checks.items() if not passed],
     }
 
@@ -114,6 +119,7 @@ def main() -> None:
             "minParagraphs": MIN_PARAGRAPHS,
             "minSources": MIN_SOURCES,
             "metaDescription": True,
+            "editorialRewriteMarker": True,
         },
         "books": len(books),
         "booksWithReviewLink": len(linked),

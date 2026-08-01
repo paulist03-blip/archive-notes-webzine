@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 107,
+    "reviewLinkedCount": 110,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -169,14 +169,16 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "미학으로 동양 인문학을 꿰뚫다",
       "metadata": "주량즈 지음, 신원봉 옮김 | 알마",
       "theme": "예술/문화",
-      "imageUrl": "https://image.aladin.co.kr/product/2442/58/cover500/8994963677_2.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/2442/58/cover500/8994963677_2.jpg",
+      "reviewUrl": "posts/zhu-liangzhi-eastern-aesthetics.html"
     },
     {
       "id": "394591622",
       "title": "제2차 세계대전",
       "metadata": "앤터니 비버 지음, 김규태 외 옮김, 김추성 감수 | 글항아리",
       "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/10441/91/cover500/8967354169_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/10441/91/cover500/8967354169_1.jpg",
+      "reviewUrl": "posts/second-world-war-beevor.html"
     },
     {
       "id": "394523161",
@@ -191,7 +193,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "제2차 세계대전 - 상",
       "metadata": "윈스턴 처칠 지음, 차병직 옮김 | 까치",
       "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/8490/43/cover500/8972916110_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/8490/43/cover500/8972916110_1.jpg",
+      "reviewUrl": "posts/second-world-war-churchill-vol1.html"
     },
     {
       "id": "392079529",

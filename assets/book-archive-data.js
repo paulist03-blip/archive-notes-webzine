@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 125,
+    "reviewLinkedCount": 128,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -361,21 +361,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "한비자 정독",
       "metadata": "김예호 역주 | 삼양미디어",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/14794/6/cover500/8958973544_3.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/14794/6/cover500/8958973544_3.jpg",
+      "reviewUrl": "posts/hanfeizi-close-reading-kim-yeho.html"
     },
     {
       "id": "389004130",
       "title": "아틀라스 1",
       "metadata": "에인 랜드 지음, 민승남 옮김 | 휴머니스트",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/3400/29/cover500/8958626666_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/3400/29/cover500/8958626666_1.jpg",
+      "reviewUrl": "posts/atlas-shrugged-vol1-rand.html"
     },
     {
       "id": "389003848",
       "title": "동기와 성격",
       "metadata": "에이브러햄 매슬로 지음, 오혜경 옮김 | 연암서가",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/26620/78/cover500/k592739133_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/26620/78/cover500/k592739133_1.jpg",
+      "reviewUrl": "posts/motivation-and-personality-maslow.html"
     },
     {
       "id": "388859637",

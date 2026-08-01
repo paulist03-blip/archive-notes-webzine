@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 106,
+    "reviewLinkedCount": 107,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -7439,6 +7439,7 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366243539",
       "imageUrl": "https://image.aladin.co.kr/product/20312/2/cover500/8984077682_2.jpg",
+      "reviewUrl": "posts/manguel-library-at-night.html",
       "sourcePage": 17
     },
     {

@@ -553,21 +553,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "정치적 감정",
       "metadata": "마사 C. 누스바움 지음, 박용준 옮김 | 글항아리",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/21108/47/cover500/896735665x_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/21108/47/cover500/896735665x_1.jpg",
+      "reviewUrl": "posts/political-emotions-nussbaum.html"
     },
     {
       "id": "387364522",
       "title": "보살의 뇌",
       "metadata": "오웬 플래나간 지음, 박병기 외 옮김 | 씨아이알(CIR)",
       "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/2844/59/cover500/8997776800_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/2844/59/cover500/8997776800_1.jpg",
+      "reviewUrl": "posts/bodhisattvas-brain-flanagan.html"
     },
     {
       "id": "387330005",
       "title": "튜더스",
       "metadata": "G. J. 마이어 지음, 채은진 옮김 | 말글빛냄",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/1319/90/cover500/8992114729_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/1319/90/cover500/8992114729_1.jpg",
+      "reviewUrl": "posts/tudors-gj-meyer.html"
     },
     {
       "id": "385986569",

@@ -6,11 +6,11 @@ window.PAUL_BOOK_ARCHIVE = {
     "capturedAt": "2026-08-02",
     "pagesScanned": 48,
     "shelfCount": 2266,
-    "baselineCount": 246,
+    "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 105,
+    "reviewLinkedCount": 106,
     "duplicateExcludedCount": 342,
-    "publicCount": 2170,
+    "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
@@ -49,6 +49,15 @@ window.PAUL_BOOK_ARCHIVE = {
     }
   ],
   "books": [
+    {
+      "id": "198322383",
+      "title": "모든 것은 영원했다, 사라지기 전까지는",
+      "metadata": "알렉세이 유르착 지음, 김수환 옮김 | 문학과지성사",
+      "theme": "사회/역사",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=198322383",
+      "imageUrl": "https://image.aladin.co.kr/product/19832/23/cover500/893203575x_1.jpg",
+      "reviewUrl": "posts/everything-was-forever-yurchak.html"
+    },
     {
       "id": "332295098",
       "title": "독일인의 전쟁 1939-1945",

@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 122,
+    "reviewLinkedCount": 125,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -329,7 +329,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "이 문장은 누구의 것인가",
       "metadata": "데이비드 벨로스.알렉상드르 몬터규 지음, 이영아 옮김 | 현암사",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35221/68/cover500/8932323917_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/35221/68/cover500/8932323917_1.jpg",
+      "reviewUrl": "posts/who-owns-this-sentence-bellos-montagu.html"
     },
     {
       "id": "389004732",
@@ -344,14 +345,16 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "성서의 이야기 기술",
       "metadata": "로버트 알터 지음, 황규홍 외 옮김 | 아모르문디",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/32131/96/cover500/k162834303_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/32131/96/cover500/k162834303_1.jpg",
+      "reviewUrl": "posts/art-of-biblical-narrative-alter.html"
     },
     {
       "id": "389004208",
       "title": "하이브리드 한의학",
       "metadata": "김종영 지음 | 돌베개",
       "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/21312/52/cover500/8971999837_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/21312/52/cover500/8971999837_1.jpg",
+      "reviewUrl": "posts/hybrid-korean-medicine-kim.html"
     },
     {
       "id": "389004193",

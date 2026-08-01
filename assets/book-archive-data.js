@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 137,
+    "reviewLinkedCount": 140,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -457,21 +457,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "작가를 위한 세계관 구축법 : 생성 편",
       "metadata": "티머시 힉슨 지음, 정아영 옮김 | 다른",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/29677/15/cover500/k242838288_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/29677/15/cover500/k242838288_1.jpg",
+      "reviewUrl": "posts/on-writing-worldbuilding-creation-hickson.html"
     },
     {
       "id": "387504604",
       "title": "미술, 마음, 뇌",
       "metadata": "에릭 캔델 지음, 이한음 옮김 | 프시케의숲",
       "theme": "철학/고전",
-      "imageUrl": "https://image.aladin.co.kr/product/36492/78/cover500/k252039117_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/36492/78/cover500/k252039117_1.jpg",
+      "reviewUrl": "posts/art-mind-brain-kandel.html"
     },
     {
       "id": "387504595",
       "title": "세계-사이",
       "metadata": "최정우 지음 | 타이피스트",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/34403/35/cover500/k012932613_2.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/34403/35/cover500/k012932613_2.jpg",
+      "reviewUrl": "posts/between-world-choi-jungwoo.html"
     },
     {
       "id": "387504418",

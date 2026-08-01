@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 110,
+    "reviewLinkedCount": 113,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -209,14 +209,16 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "롤랑의 노래",
       "metadata": "김준한 옮김 | 휴머니스트",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27509/16/cover500/k262837373_2.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/27509/16/cover500/k262837373_2.jpg",
+      "reviewUrl": "posts/song-of-roland-kim-junhan.html"
     },
     {
       "id": "392079304",
       "title": "의학적 증상 비주얼 가이드",
       "metadata": "디나 코프먼 외 지음, 최영은 옮김 | 시그마북스",
       "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/30795/89/cover500/k032831467_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/30795/89/cover500/k032831467_1.jpg",
+      "reviewUrl": "posts/visual-guide-medical-symptoms.html"
     },
     {
       "id": "392079279",
@@ -231,7 +233,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "유대인, 발명된 신화",
       "metadata": "정의길 지음 | 한겨레출판",
       "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/30764/22/cover500/k922830553_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/30764/22/cover500/k922830553_1.jpg",
+      "reviewUrl": "posts/jews-invented-myth-jeong.html"
     },
     {
       "id": "392079025",

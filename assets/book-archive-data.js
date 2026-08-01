@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 146,
+    "reviewLinkedCount": 149,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -529,21 +529,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "설계자 덩샤오핑",
       "metadata": "알렉산더 V. 판초프 외 지음, 유희복 옮김 | 알마",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/16234/14/cover500/k842534788_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/16234/14/cover500/k842534788_1.jpg",
+      "reviewUrl": "posts/deng-xiaoping-pantsov-levine.html"
     },
     {
       "id": "387413127",
       "title": "모두의 미술사",
       "metadata": "마이클 버드 지음, 케이트 에번스 그림, 박재연 옮김 | 이마주",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27796/77/cover500/k372734067_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/27796/77/cover500/k372734067_1.jpg",
+      "reviewUrl": "posts/art-history-for-everyone-bird.html"
     },
     {
       "id": "387364662",
       "title": "자연의 악",
       "metadata": "알렉산드르 옛킨트 지음, 김홍옥 옮김 | 에코리브르",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/32762/42/cover500/8962632594_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/32762/42/cover500/8962632594_1.jpg",
+      "reviewUrl": "posts/natures-evil-etkind.html"
     },
     {
       "id": "387364648",

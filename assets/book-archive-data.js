@@ -601,21 +601,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "AI 경제학",
       "metadata": "어제이 애그러월.조슈아 갠스.애비 골드파브 지음, 천형석 옮김 | 에코리브르",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/34175/61/cover500/8962632799_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/34175/61/cover500/8962632799_1.jpg",
+      "reviewUrl": "posts/ai-economics-power-prediction.html"
     },
     {
       "id": "385719738",
       "title": "조선시대 양반과 선비 1~2 세트 - 전2권",
       "metadata": "정진영 지음 | 산처럼",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/33896/18/cover500/k482930820_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/33896/18/cover500/k482930820_1.jpg",
+      "reviewUrl": "posts/joseon-yangban-seonbi-jeong.html"
     },
     {
       "id": "385719685",
       "title": "아우슈비츠는 멀리 있지 않다",
       "metadata": "조너선 프리드랜드 지음, 김재경 옮김 | 아카넷",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36990/74/cover500/8957339965_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/36990/74/cover500/8957339965_1.jpg",
+      "reviewUrl": "posts/auschwitz-not-far-freedland.html"
     },
     {
       "id": "385719084",

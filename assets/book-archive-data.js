@@ -7,10 +7,10 @@ window.PAUL_BOOK_ARCHIVE = {
     "pagesScanned": 48,
     "shelfCount": 2266,
     "baselineCount": 242,
-    "shelfImportedCount": 1939,
+    "shelfImportedCount": 1938,
     "reviewLinkedCount": 101,
-    "duplicateExcludedCount": 327,
-    "publicCount": 2181,
+    "duplicateExcludedCount": 328,
+    "publicCount": 2180,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
@@ -140,9 +140,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385320999",
       "title": "한국미술의 역사",
-      "metadata": "김원용, 안휘준 지음 | 시공사",
+      "metadata": "김원룡.안휘준 지음 | 시공사",
       "theme": "미술사",
-      "imageUrl": "assets/issue-12-covers/history-of-korean-art.jpg",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=429359",
+      "imageUrl": "https://image.aladin.co.kr/product/42/93/cover500/8952730216_1.jpg",
       "reviewUrl": "posts/history-of-korean-art.html"
     },
     {
@@ -15975,15 +15976,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364252024",
       "imageUrl": "https://image.aladin.co.kr/product/25306/6/cover500/8993596999_1.jpg",
-      "sourcePage": 38
-    },
-    {
-      "id": "364251989",
-      "title": "한국미술의 역사",
-      "metadata": "김원룡.안휘준 지음 | 시공사",
-      "theme": "미술/디자인",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364251989",
-      "imageUrl": "https://image.aladin.co.kr/product/42/93/cover500/8952730216_1.jpg",
       "sourcePage": 38
     },
     {

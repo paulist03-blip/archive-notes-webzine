@@ -1008,6 +1008,21 @@ h1 span {
   letter-spacing: 0.16em;
 }
 
+.chapter-reading {
+  margin: 2.35em 0 2em;
+  padding-top: 0.45em;
+  border-top: 1px solid rgba(23, 23, 23, 0.16);
+}
+
+.chapter-reading-note {
+  color: #4f4940;
+}
+
+.chapter-reading h3 {
+  margin-top: 1.55em;
+  color: var(--red);
+}
+
 .article-signoff {
   margin-top: 1.8em;
   color: var(--red);
@@ -1906,6 +1921,29 @@ a.book-cover-frame:hover {
   border-radius: 8px;
   background: var(--surface);
   color: var(--muted);
+}
+
+.book-load-more-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.book-load-more {
+  min-width: 12rem;
+  padding: 0.8rem 1.25rem;
+  border: 1px solid rgba(23, 23, 23, 0.24);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+
+.book-load-more:hover,
+.book-load-more:focus-visible {
+  border-color: var(--red);
+  color: var(--red);
 }
 
 .book-method-note h2 {

@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 247,
     "shelfImportedCount": 1924,
-    "reviewLinkedCount": 143,
+    "reviewLinkedCount": 146,
     "duplicateExcludedCount": 342,
     "publicCount": 2171,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
@@ -505,21 +505,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "한 권으로 끝내는 미술 수업 가이드북",
       "metadata": "김유미.최소라.정선혜 지음 | 교육과학사",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/31340/91/cover500/8925417634_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/31340/91/cover500/8925417634_1.jpg",
+      "reviewUrl": "posts/art-class-guidebook-kim-choi-jung.html"
     },
     {
       "id": "387504319",
       "title": "지도를 따라가는 반 고흐의 삶과 여행",
       "metadata": "닌커 데너캄프 외 지음, 유동익 옮김 | 이론과실천",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/8779/58/cover500/8931360673_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/8779/58/cover500/8931360673_1.jpg",
+      "reviewUrl": "posts/vincent-van-gogh-atlas-denekamp.html"
     },
     {
       "id": "387504314",
       "title": "초보 드링커를 위한 위스키 안내서",
       "metadata": "김성욱 지음 | 성안당",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/28661/20/cover500/8931557884_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/28661/20/cover500/8931557884_1.jpg",
+      "reviewUrl": "posts/whisky-guide-for-beginners-kim.html"
     },
     {
       "id": "387504305",

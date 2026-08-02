@@ -657,21 +657,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "내셔널 갤러리에서 보낸 500일",
       "metadata": "유승연 지음 | 하준서림",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/34919/70/cover500/k542933350_2.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/34919/70/cover500/k542933350_2.jpg",
+      "reviewUrl": "posts/national-gallery-500-days-yoo.html"
     },
     {
       "id": "385718134",
       "title": "지능의 기원",
       "metadata": "맥스 베넷 지음, 김성훈 옮김, 정재승 감수 | 더퀘스트",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35571/44/cover500/k042036578_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/35571/44/cover500/k042036578_1.jpg",
+      "reviewUrl": "posts/origin-of-intelligence-bennett.html"
     },
     {
       "id": "385718051",
       "title": "코뮤니스트",
       "metadata": "로버트 서비스 지음, 김남섭 옮김 | 교양인",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/1800/80/cover500/8991799744_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/1800/80/cover500/8991799744_1.jpg",
+      "reviewUrl": "posts/comrades-world-history-communism-service.html"
     },
     {
       "id": "385576063",

@@ -753,21 +753,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "인간 딜레마",
       "metadata": "이용범 지음 | 노마드",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/33330/38/cover500/k612938590_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/33330/38/cover500/k612938590_1.jpg",
+      "reviewUrl": "posts/human-dilemma-lee-yongbeom.html"
     },
     {
       "id": "385053577",
       "title": "또 다른 현대미술",
       "metadata": "뱅자맹 올리벤느 지음, 김정인 옮김 | 크루",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/32764/93/cover500/k672936283_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/32764/93/cover500/k672936283_1.jpg",
+      "reviewUrl": "posts/another-contemporary-art-olivennes.html"
     },
     {
       "id": "385053570",
       "title": "낭만적 유토피아 소비하기",
-      "metadata": "에바 일루즈 지음, 박형신.권오현 옮김 | 이학사",
+      "metadata": "에바 일루즈 지음, 박형신·권오헌 옮김 | 이학사",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/3899/63/cover500/8961471902_2.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/3899/63/cover500/8961471902_2.jpg",
+      "reviewUrl": "posts/consuming-romantic-utopia-illouz.html"
     },
     {
       "id": "385053482",

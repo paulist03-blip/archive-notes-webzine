@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 186,
+    "reviewLinkedCount": 187,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385718242",
+      "title": "근육운동가이드 프리웨이트",
+      "metadata": "프레데릭 데라비에·마이클 건딜 지음, 장덕순 옮김, 정구중 감수 | 삼호미디어",
+      "theme": "운동해부학/동작·부하와 프로그램",
+      "imageUrl": "assets/book-covers/strength-training-anatomy-workout-delavier-gundill.jpg",
+      "reviewUrl": "posts/strength-training-anatomy-workout-delavier-gundill.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "해부학 그림은 운동의 정답을 줄 수 있는가",
+      "review": "사진과 해부학 삽화가 동작을 이해시키는 방식, 목표·기록·점진성이 프로그램을 만드는 원리와 함께 프리웨이트 우월론과 표준 신체의 한계를 읽는다."
+    },
     {
       "id": "385718899",
       "title": "지리학과 지정학으로 읽는 중동 사전",
@@ -957,9 +968,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385718242",
       "title": "근육운동가이드 프리웨이트",
-      "metadata": "프레데릭 데라비에.마이클 건딜 지음, 장덕순 옮김, 정구중 감수 | 삼호미디어",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36236/27/cover500/8978497160_1.jpg"
+      "metadata": "프레데릭 데라비에·마이클 건딜 지음, 장덕순 옮김, 정구중 감수 | 삼호미디어",
+      "theme": "운동해부학/동작·부하와 프로그램",
+      "imageUrl": "assets/book-covers/strength-training-anatomy-workout-delavier-gundill.jpg",
+      "reviewUrl": "posts/strength-training-anatomy-workout-delavier-gundill.html"
     },
     {
       "id": "385718201",

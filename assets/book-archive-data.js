@@ -8,44 +8,44 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 102,
+    "reviewLinkedCount": 105,
     "duplicateExcludedCount": 325,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
     {
-      "id": "364349300",
-      "title": "프랑스 대혁명",
-      "metadata": "알베르 소불 지음, 양영란 옮김 | 두레",
-      "theme": "역사/정치",
-      "imageUrl": "assets/book-covers/french-revolution-soboul.jpg",
-      "reviewUrl": "posts/french-revolution-soboul.html",
-      "label": "Issue 52 · 오늘의 책장",
-      "subtitle": "혁명은 누구의 승리로 끝나는가",
-      "review": "구체제의 위기에서 총재정부까지, 부르주아지와 농민, 도시 민중의 동맹과 분열을 읽는다."
+      "id": "385053266",
+      "title": "설탕",
+      "metadata": "윌버 보스마 지음, 조행복 옮김 | 책과함께",
+      "theme": "역사/상품과 노동",
+      "imageUrl": "assets/book-covers/world-of-sugar-bosma.jpg",
+      "reviewUrl": "posts/world-of-sugar-bosma.html",
+      "label": "Issue 53 · 오늘의 책장",
+      "subtitle": "달콤함은 어떻게 세계의 노동을 감추는가",
+      "review": "사탕수수와 사탕무, 노예제와 계약노동, 산업화와 소비의 연쇄에서 설탕이 만든 세계를 읽는다."
     },
     {
-      "id": "366408978",
-      "title": "젠더",
-      "metadata": "래윈 코넬.리베카 피어스 지음, 유정미 옮김 | 현실문화",
-      "theme": "인문/교양",
-      "imageUrl": "assets/book-covers/gender-connell-pearse.jpg",
-      "reviewUrl": "posts/gender-connell-pearse.html",
-      "label": "Issue 52 · 오늘의 책장",
-      "subtitle": "젠더는 어떻게 관계의 질서가 되는가",
-      "review": "몸과 노동, 권력과 욕망이 개인의 정체성을 넘어 제도와 세계경제를 조직하는 방식을 읽는다."
+      "id": "385052588",
+      "title": "코무니타스 : 공동체의 기원과 운명",
+      "metadata": "로베르토 에스포지토 지음, 윤병언 옮김 | Critica(크리티카)",
+      "theme": "철학/공동체",
+      "imageUrl": "assets/book-covers/communitas-esposito.jpg",
+      "reviewUrl": "posts/communitas-esposito.html",
+      "label": "Issue 53 · 오늘의 책장",
+      "subtitle": "공동체는 왜 소유가 아니라 빚인가",
+      "review": "공통의 정체성 대신 우리를 타인에게 내어 주는 의무와 선물에서 공동체의 역설을 읽는다."
     },
     {
-      "id": "366108326",
-      "title": "프랑스 박물관 정책과 관람객",
-      "metadata": "자클린 에델망.멜라니 루스탕 지음, 이보아.조예슬 옮김 | 북코리아",
-      "theme": "미술/디자인",
-      "imageUrl": "assets/book-covers/french-museum-policy-visitors.jpg",
-      "reviewUrl": "posts/french-museum-policy-visitors.html",
-      "label": "Issue 52 · 오늘의 책장",
-      "subtitle": "박물관은 관람객을 어떻게 알게 되는가",
-      "review": "관람객 연구와 참여가 전시의 수용, 문화 민주화와 박물관의 실제 결정에 들어가는 방식을 읽는다."
+      "id": "384516331",
+      "title": "미학사 입문",
+      "metadata": "베르너 융 지음, 장희창 옮김 | 필로소픽",
+      "theme": "미학/사상사",
+      "imageUrl": "assets/book-covers/history-of-aesthetics-jung.jpg",
+      "reviewUrl": "posts/history-of-aesthetics-jung.html",
+      "label": "Issue 53 · 오늘의 책장",
+      "subtitle": "아름다움의 역사는 무엇을 감각하게 했는가",
+      "review": "고대의 미에서 근대의 취미와 자율적 예술, 아방가르드까지 미학의 질문이 바뀐 과정을 읽는다."
     }
   ],
   "books": [
@@ -719,8 +719,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385053266",
       "title": "설탕",
       "metadata": "윌버 보스마 지음, 조행복 옮김, 석운디자인 북디자이너 | 책과함께",
-      "theme": "예술/문화",
-      "imageUrl": "https://image.aladin.co.kr/product/33182/71/cover500/k812937434_1.jpg"
+      "theme": "역사/상품과 노동",
+      "imageUrl": "assets/book-covers/world-of-sugar-bosma.jpg",
+      "reviewUrl": "posts/world-of-sugar-bosma.html"
     },
     {
       "id": "385053027",
@@ -768,8 +769,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385052588",
       "title": "코무니타스 : 공동체의 기원과 운명",
       "metadata": "로베르토 에스포지토 지음, 윤병언 옮김 | Critica(크리티카)",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/30569/66/cover500/k582830606_1.jpg"
+      "theme": "철학/공동체",
+      "imageUrl": "assets/book-covers/communitas-esposito.jpg",
+      "reviewUrl": "posts/communitas-esposito.html"
     },
     {
       "id": "385052571",
@@ -861,8 +863,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "384516331",
       "title": "미학사 입문",
       "metadata": "베르너 융 지음, 장희창 옮김 | 필로소픽",
-      "theme": "예술/문화",
-      "imageUrl": "https://image.aladin.co.kr/product/26651/35/cover500/k312739334_1.jpg"
+      "theme": "미학/사상사",
+      "imageUrl": "assets/book-covers/history-of-aesthetics-jung.jpg",
+      "reviewUrl": "posts/history-of-aesthetics-jung.html"
     },
     {
       "id": "384515725",

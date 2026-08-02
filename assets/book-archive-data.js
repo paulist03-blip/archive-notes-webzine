@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 169,
+    "reviewLinkedCount": 170,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387504595",
+      "title": "세계-사이",
+      "metadata": "최정우 지음 | 타이피스트",
+      "theme": "예술비평/사이-미학",
+      "imageUrl": "assets/book-covers/world-between-choi-jungwoo.jpg",
+      "reviewUrl": "posts/world-between-choi-jungwoo.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "사이는 어떻게 비평의 장소가 되는가",
+      "review": "파리와 서울, 예술과 정치, 시와 산문, 내부와 외부를 오가는 200여 편의 예술일기를 따라 파편적 사이-미학의 성취와 난해함을 함께 읽는다."
+    },
     {
       "id": "387504652",
       "title": "작가를 위한 세계관 구축법 : 생성 편",
@@ -596,8 +607,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504595",
       "title": "세계-사이",
       "metadata": "최정우 지음 | 타이피스트",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/34403/35/cover500/k012932613_2.jpg"
+      "theme": "예술비평/사이-미학",
+      "imageUrl": "assets/book-covers/world-between-choi-jungwoo.jpg",
+      "reviewUrl": "posts/world-between-choi-jungwoo.html"
     },
     {
       "id": "387504418",

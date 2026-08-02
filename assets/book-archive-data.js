@@ -633,21 +633,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "루터의 탁상담화",
       "metadata": "마르틴 루터 지음, 이길상 옮김 | CH북스(크리스천다이제스트)",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/19474/23/cover500/8944785368_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/19474/23/cover500/8944785368_1.jpg",
+      "reviewUrl": "posts/luther-table-talk.html"
     },
     {
       "id": "385718899",
       "title": "지리학과 지정학으로 읽는 중동 사전",
       "metadata": "이완 W. 앤더슨 지음, 이주성 옮김 | 메디치미디어",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35653/79/cover500/k062036814_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/35653/79/cover500/k062036814_1.jpg",
+      "reviewUrl": "posts/middle-east-geography-geopolitics-anderson.html"
     },
     {
       "id": "385718242",
       "title": "근육운동가이드 프리웨이트",
       "metadata": "프레데릭 데라비에.마이클 건딜 지음, 장덕순 옮김, 정구중 감수 | 삼호미디어",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36236/27/cover500/8978497160_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/36236/27/cover500/8978497160_1.jpg",
+      "reviewUrl": "posts/strength-training-anatomy-free-weights.html"
     },
     {
       "id": "385718201",

@@ -8,44 +8,44 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 105,
+    "reviewLinkedCount": 108,
     "duplicateExcludedCount": 325,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
     {
-      "id": "385053266",
-      "title": "설탕",
-      "metadata": "윌버 보스마 지음, 조행복 옮김 | 책과함께",
-      "theme": "역사/상품과 노동",
-      "imageUrl": "assets/book-covers/world-of-sugar-bosma.jpg",
-      "reviewUrl": "posts/world-of-sugar-bosma.html",
-      "label": "Issue 53 · 오늘의 책장",
-      "subtitle": "달콤함은 어떻게 세계의 노동을 감추는가",
-      "review": "사탕수수와 사탕무, 노예제와 계약노동, 산업화와 소비의 연쇄에서 설탕이 만든 세계를 읽는다."
+      "id": "387504397",
+      "title": "폭력의 유산",
+      "metadata": "캐럴라인 엘킨스 지음, 김현정 옮김, 윤영휘 감수 | 상상스퀘어",
+      "theme": "역사/제국과 폭력",
+      "imageUrl": "assets/book-covers/legacy-of-violence-elkins.jpg",
+      "reviewUrl": "posts/legacy-of-violence-elkins.html",
+      "label": "Issue 54 · 오늘의 책장",
+      "subtitle": "제국은 어떻게 폭력을 법으로 바꾸는가",
+      "review": "자유주의와 인종적 위계, 비상통치와 기록 말소를 통해 영국 제국의 강제가 행정으로 조직된 역사를 읽는다."
     },
     {
-      "id": "385052588",
-      "title": "코무니타스 : 공동체의 기원과 운명",
-      "metadata": "로베르토 에스포지토 지음, 윤병언 옮김 | Critica(크리티카)",
-      "theme": "철학/공동체",
-      "imageUrl": "assets/book-covers/communitas-esposito.jpg",
-      "reviewUrl": "posts/communitas-esposito.html",
-      "label": "Issue 53 · 오늘의 책장",
-      "subtitle": "공동체는 왜 소유가 아니라 빚인가",
-      "review": "공통의 정체성 대신 우리를 타인에게 내어 주는 의무와 선물에서 공동체의 역설을 읽는다."
+      "id": "388492193",
+      "title": "무정부사회",
+      "metadata": "헤들리 불 지음, 진석용 옮김 | 나남출판",
+      "theme": "정치사상/국제질서",
+      "imageUrl": "assets/book-covers/anarchical-society-bull.jpg",
+      "reviewUrl": "posts/anarchical-society-bull.html",
+      "label": "Issue 54 · 오늘의 책장",
+      "subtitle": "무정부 상태에도 질서는 있는가",
+      "review": "국제법과 외교, 세력균형과 강대국이 중앙정부 없는 세계에서 질서를 만드는 방식과 정의의 긴장을 읽는다."
     },
     {
-      "id": "384516331",
-      "title": "미학사 입문",
-      "metadata": "베르너 융 지음, 장희창 옮김 | 필로소픽",
-      "theme": "미학/사상사",
-      "imageUrl": "assets/book-covers/history-of-aesthetics-jung.jpg",
-      "reviewUrl": "posts/history-of-aesthetics-jung.html",
-      "label": "Issue 53 · 오늘의 책장",
-      "subtitle": "아름다움의 역사는 무엇을 감각하게 했는가",
-      "review": "고대의 미에서 근대의 취미와 자율적 예술, 아방가르드까지 미학의 질문이 바뀐 과정을 읽는다."
+      "id": "385053325",
+      "title": "여기서 Here",
+      "metadata": "리처드 맥과이어 지음, 홍유진 옮김 | 미메시스",
+      "theme": "시각문화/장소와 시간",
+      "imageUrl": "assets/book-covers/here-richard-mcguire.jpg",
+      "reviewUrl": "posts/here-richard-mcguire.html",
+      "label": "Issue 54 · 오늘의 책장",
+      "subtitle": "한 장소에는 몇 개의 시간이 사는가",
+      "review": "고정된 한 시점에 가족사와 자연사, 선사시대와 미래를 겹친 그래픽노블의 시간을 읽는다."
     }
   ],
   "books": [
@@ -361,8 +361,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "388492193",
       "title": "무정부사회",
       "metadata": "헤들리 불 지음, 진석용 옮김 | 나남출판",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/1539/36/cover500/8930085679_1.jpg"
+      "theme": "정치사상/국제질서",
+      "imageUrl": "assets/book-covers/anarchical-society-bull.jpg",
+      "reviewUrl": "posts/anarchical-society-bull.html"
     },
     {
       "id": "388491202",
@@ -440,8 +441,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504397",
       "title": "폭력의 유산",
       "metadata": "캐럴라인 엘킨스 지음, 김현정 옮김, 윤영휘 감수 | 상상스퀘어",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36885/4/cover500/k772030605_1.jpg"
+      "theme": "역사/제국과 폭력",
+      "imageUrl": "assets/book-covers/legacy-of-violence-elkins.jpg",
+      "reviewUrl": "posts/legacy-of-violence-elkins.html"
     },
     {
       "id": "387504356",
@@ -704,8 +706,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385053325",
       "title": "여기서 Here",
       "metadata": "리처드 맥과이어 지음, 홍유진 옮김 | 미메시스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/11297/79/cover500/k312531996_2.jpg"
+      "theme": "시각문화/장소와 시간",
+      "imageUrl": "assets/book-covers/here-richard-mcguire.jpg",
+      "reviewUrl": "posts/here-richard-mcguire.html"
     },
     {
       "id": "385053293",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 177,
+    "reviewLinkedCount": 178,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387330005",
+      "title": "튜더스",
+      "metadata": "G. J. 마이어 지음, 채은진 옮김 | 말글빛냄",
+      "theme": "영국사/튜더 왕조와 종교개혁",
+      "imageUrl": "assets/book-covers/the-tudors-gj-meyer.jpg",
+      "reviewUrl": "posts/the-tudors-gj-meyer.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "왕의 욕망은 어떻게 국가의 제도가 되었는가",
+      "review": "보스워스 전투부터 엘리자베스 1세의 죽음까지, 왕위 계승과 종교개혁 의회, 수도원 해산과 신앙의 강제가 왕의 욕망을 국가의 질서로 바꾼 과정을 읽는다."
+    },
     {
       "id": "387364522",
       "title": "보살의 뇌",
@@ -779,8 +790,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387330005",
       "title": "튜더스",
       "metadata": "G. J. 마이어 지음, 채은진 옮김 | 말글빛냄",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/1319/90/cover500/8992114729_1.jpg"
+      "theme": "영국사/튜더 왕조와 종교개혁",
+      "imageUrl": "assets/book-covers/the-tudors-gj-meyer.jpg",
+      "reviewUrl": "posts/the-tudors-gj-meyer.html"
     },
     {
       "id": "385986569",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 189,
+    "reviewLinkedCount": 190,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385718051",
+      "title": "코뮤니스트",
+      "metadata": "로버트 서비스 지음, 김남섭 옮김 | 교양인",
+      "theme": "세계공산주의사/당 조직과 혁명 국가",
+      "imageUrl": "assets/book-covers/comrades-robert-service.jpg",
+      "reviewUrl": "posts/comrades-robert-service.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "하나의 이상은 왜 하나의 당이 되었는가",
+      "review": "마르크스 이전의 기원에서 소련·중국·동유럽·탈식민 세계와 체제 붕괴까지를 따라가며 당 조직과 폭력을 설명하는 비교사의 힘, 소련 중심 서술의 한계를 함께 읽는다."
+    },
     {
       "id": "385718134",
       "title": "지능의 기원",
@@ -1015,8 +1026,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385718051",
       "title": "코뮤니스트",
       "metadata": "로버트 서비스 지음, 김남섭 옮김 | 교양인",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/1800/80/cover500/8991799744_1.jpg"
+      "theme": "세계공산주의사/당 조직과 혁명 국가",
+      "imageUrl": "assets/book-covers/comrades-robert-service.jpg",
+      "reviewUrl": "posts/comrades-robert-service.html"
     },
     {
       "id": "385576063",

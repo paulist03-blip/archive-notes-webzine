@@ -8,12 +8,23 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 118,
+    "reviewLinkedCount": 119,
     "duplicateExcludedCount": 325,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "391780544",
+      "title": "프랑스 쿡북",
+      "metadata": "지네트 마티오·클로틸드 뒤술리에 지음, 정연주 옮김 | 세미콜론",
+      "theme": "가정식/조리문화",
+      "imageUrl": "assets/book-covers/france-cookbook-mathiot.jpg",
+      "reviewUrl": "posts/france-cookbook-mathiot.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 나라의 맛은 어떻게 집의 기술이 되는가",
+      "review": "소스와 재료, 조리법의 변주를 따라 프랑스 가정식이 반복 가능한 지식으로 표준화되는 과정과 그 성취, 지역성과 돌봄 노동의 긴장을 읽는다."
+    },
     {
       "id": "392078212",
       "title": "기계는 왜 학습하는가",
@@ -35,17 +46,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "한 번의 승리는 어떻게 하나의 질서가 되는가",
       "review": "1066년의 전투를 넘어 토지와 교회, 문서와 언어가 재편되는 과정을 따라 정복이 일상의 질서로 굳는 시간을 읽는다."
-    },
-    {
-      "id": "392078828",
-      "title": "다시 보는 러시아 현대사",
-      "metadata": "마이크 헤인스 지음, 이수현 옮김 | 책갈피",
-      "theme": "러시아사/계급권력",
-      "imageUrl": "assets/book-covers/russia-modern-history-haynes.jpg",
-      "reviewUrl": "posts/russia-modern-history-haynes.html",
-      "label": "Book Archive · 오늘의 장문 리뷰",
-      "subtitle": "노동자의 국가에서 노동자는 어디에 있었는가",
-      "review": "1917년의 대중혁명과 스탈린주의의 단절, 국가자본주의론을 통해 국가 소유와 노동자 통제가 얼마나 다른 문제인지 읽는다."
     }
   ],
   "books": [
@@ -268,9 +268,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "391780544",
       "title": "프랑스 쿡북",
-      "metadata": "지네트 마티오.클로틸드 뒤술리에 지음, 정연주 옮김 | 세미콜론",
-      "theme": "예술/문화",
-      "imageUrl": "https://image.aladin.co.kr/product/26994/58/cover500/k662730729_1.jpg"
+      "metadata": "지네트 마티오·클로틸드 뒤술리에 지음, 정연주 옮김 | 세미콜론",
+      "theme": "가정식/조리문화",
+      "imageUrl": "assets/book-covers/france-cookbook-mathiot.jpg",
+      "reviewUrl": "posts/france-cookbook-mathiot.html"
     },
     {
       "id": "391771273",

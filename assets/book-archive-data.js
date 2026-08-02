@@ -8,12 +8,23 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 111,
+    "reviewLinkedCount": 112,
     "duplicateExcludedCount": 325,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "392081478",
+      "title": "제2차 세계대전 - 상",
+      "metadata": "윈스턴 처칠 지음, 차병직 옮김 | 까치",
+      "theme": "역사/회고록",
+      "imageUrl": "assets/book-covers/second-world-war-churchill.jpg",
+      "reviewUrl": "posts/second-world-war-churchill.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "승리의 역사는 누가 먼저 쓰는가",
+      "review": "전쟁을 지휘한 정치가의 기록을 문서의 권위와 자기서사, 1940년의 수사와 제국적 시야의 한계 속에서 읽는다."
+    },
     {
       "id": "382504292",
       "title": "옥스퍼드 세계사",
@@ -35,17 +46,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Issue 55 · 오늘의 책장",
       "subtitle": "좋은 통치는 왜 듣는 일에서 시작되는가",
       "review": "간언과 인재 등용, 절약과 법을 통해 권력이 스스로를 제한하는 조건과 군주 중심 통치론의 한계를 읽는다."
-    },
-    {
-      "id": "382505101",
-      "title": "샤넬 : 자유, 사랑 그리고 미학",
-      "metadata": "키아라 파스콸레티 존슨 지음, 조은형 옮김 | 동글디자인",
-      "theme": "패션/문화",
-      "imageUrl": "assets/book-covers/coco-chanel-pasqualetti-johnson.jpg",
-      "reviewUrl": "posts/coco-chanel-pasqualetti-johnson.html",
-      "label": "Issue 55 · 오늘의 책장",
-      "subtitle": "자유로운 옷은 누구의 몸을 상상했는가",
-      "review": "저지와 슈트, 검정과 향수가 넓힌 이동성을 보고 브랜드 신화가 가린 노동과 정치적 논쟁을 읽는다."
     }
   ],
   "books": [
@@ -173,8 +173,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "392081478",
       "title": "제2차 세계대전 - 상",
       "metadata": "윈스턴 처칠 지음, 차병직 옮김 | 까치",
-      "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/8490/43/cover500/8972916110_1.jpg"
+      "theme": "역사/회고록",
+      "imageUrl": "assets/book-covers/second-world-war-churchill.jpg",
+      "reviewUrl": "posts/second-world-war-churchill.html"
     },
     {
       "id": "392079529",

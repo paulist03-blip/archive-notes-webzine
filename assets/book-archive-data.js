@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 163,
+    "reviewLinkedCount": 164,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "388491202",
+      "title": "인지 패러다임 2",
+      "metadata": "월터 킨취 지음, 김지홍·문선모 옮김 | 나남출판",
+      "theme": "인지심리학/담화이해",
+      "imageUrl": "assets/book-covers/comprehension-cognitive-paradigm-2-kintsch.jpg",
+      "reviewUrl": "posts/comprehension-cognitive-paradigm-2-kintsch.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "독자는 문장을 저장하지 않고 세계를 짓는다",
+      "review": "구성-통합 모형과 덩잇글 기저, 상황모형, 작업기억과 학습을 따라 독자가 문장 너머의 세계를 구성하는 과정을 읽고 계산 모형의 성취와 한계를 살핀다."
+    },
     {
       "id": "388492946",
       "title": "구조와 모순",
@@ -477,8 +488,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "388491202",
       "title": "인지 패러다임 2",
       "metadata": "월터 킨취 지음, 김지홍.문선모 옮김 | 나남출판",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/806/39/cover500/8930084842_1.jpg"
+      "theme": "인지심리학/담화이해",
+      "imageUrl": "assets/book-covers/comprehension-cognitive-paradigm-2-kintsch.jpg",
+      "reviewUrl": "posts/comprehension-cognitive-paradigm-2-kintsch.html"
     },
     {
       "id": "388214568",

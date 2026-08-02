@@ -881,21 +881,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "안데르센 메르헨",
       "metadata": "한스 크리스티안 안데르센 지음, 김서정 옮김, 니콜라우스 하이델바흐 그림 | 문학과지성사",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/1487/45/cover500/8932022666_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/1487/45/cover500/8932022666_1.jpg",
+      "reviewUrl": "posts/andersen-marchen-heidelbach.html"
     },
     {
       "id": "385052276",
       "title": "안현배의 예술수업 1",
       "metadata": "안현배 지음 | 민음사",
       "theme": "예술/문화",
-      "imageUrl": "https://image.aladin.co.kr/product/21410/18/cover500/8937479672_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/21410/18/cover500/8937479672_1.jpg",
+      "reviewUrl": "posts/ahn-hyunbae-art-lesson-1-orsay-modernism.html"
     },
     {
       "id": "385052230",
       "title": "노 시그널",
       "metadata": "브리스 포르톨라노 지음, 최정수 옮김 | 복복서가",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/30343/44/cover500/k822839445_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/30343/44/cover500/k822839445_1.jpg",
+      "reviewUrl": "posts/no-signal-portolano.html"
     },
     {
       "id": "385052207",

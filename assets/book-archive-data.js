@@ -8,44 +8,44 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 99,
+    "reviewLinkedCount": 102,
     "duplicateExcludedCount": 325,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
     {
-      "id": "389350532",
-      "title": "파리의 농부",
-      "metadata": "루이 아라공 지음, 오종은 옮김 | 이모션북스",
-      "theme": "문학/도시문화",
-      "imageUrl": "assets/book-covers/paris-peasant-aragon.jpg",
-      "reviewUrl": "posts/paris-peasant-aragon.html",
-      "label": "Issue 51 · 오늘의 책장",
-      "subtitle": "도시는 언제 낯선 신화가 되는가",
-      "review": "사라져 가는 오페라 통로와 뷔트쇼몽 공원에서 일상의 사물이 현대의 신화로 바뀌는 순간을 읽는다."
+      "id": "364349300",
+      "title": "프랑스 대혁명",
+      "metadata": "알베르 소불 지음, 양영란 옮김 | 두레",
+      "theme": "역사/정치",
+      "imageUrl": "assets/book-covers/french-revolution-soboul.jpg",
+      "reviewUrl": "posts/french-revolution-soboul.html",
+      "label": "Issue 52 · 오늘의 책장",
+      "subtitle": "혁명은 누구의 승리로 끝나는가",
+      "review": "구체제의 위기에서 총재정부까지, 부르주아지와 농민, 도시 민중의 동맹과 분열을 읽는다."
     },
     {
-      "id": "364174771",
-      "title": "보들레르의 파리",
-      "metadata": "발터 벤야민 지음, 조형준 옮김 | 새물결",
-      "theme": "사상/문화사",
-      "imageUrl": "assets/book-covers/paris-of-baudelaire-benjamin.jpg",
-      "reviewUrl": "posts/paris-of-baudelaire-benjamin.html",
-      "label": "Issue 51 · 오늘의 책장",
-      "subtitle": "파리는 무엇을 감추며 근대가 되는가",
-      "review": "수집가와 실내, 흔적과 보들레르를 따라 상품의 환등상과 근대 도시의 기억을 읽는다."
+      "id": "366408978",
+      "title": "젠더",
+      "metadata": "래윈 코넬.리베카 피어스 지음, 유정미 옮김 | 현실문화",
+      "theme": "인문/교양",
+      "imageUrl": "assets/book-covers/gender-connell-pearse.jpg",
+      "reviewUrl": "posts/gender-connell-pearse.html",
+      "label": "Issue 52 · 오늘의 책장",
+      "subtitle": "젠더는 어떻게 관계의 질서가 되는가",
+      "review": "몸과 노동, 권력과 욕망이 개인의 정체성을 넘어 제도와 세계경제를 조직하는 방식을 읽는다."
     },
     {
-      "id": "364180702",
-      "title": "계급론",
-      "metadata": "에릭 올린 라이트 지음, 이한 옮김 | 한울(한울아카데미)",
-      "theme": "사회/계급이론",
-      "imageUrl": "assets/book-covers/understanding-class-wright.jpg",
-      "reviewUrl": "posts/understanding-class-wright.html",
-      "label": "Issue 51 · 오늘의 책장",
-      "subtitle": "계급은 어디에서 관계가 되는가",
-      "review": "착취와 시장 기회, 기회 독점과 자산 분배를 하나의 관계적 분석으로 묶는 시도를 읽는다."
+      "id": "366108326",
+      "title": "프랑스 박물관 정책과 관람객",
+      "metadata": "자클린 에델망.멜라니 루스탕 지음, 이보아.조예슬 옮김 | 북코리아",
+      "theme": "미술/디자인",
+      "imageUrl": "assets/book-covers/french-museum-policy-visitors.jpg",
+      "reviewUrl": "posts/french-museum-policy-visitors.html",
+      "label": "Issue 52 · 오늘의 책장",
+      "subtitle": "박물관은 관람객을 어떻게 알게 되는가",
+      "review": "관람객 연구와 참여가 전시의 수용, 문화 민주화와 박물관의 실제 결정에 들어가는 방식을 읽는다."
     }
   ],
   "books": [
@@ -6061,7 +6061,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "metadata": "래윈 코넬.리베카 피어스 지음, 유정미 옮김 | 현실문화",
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366408978",
-      "imageUrl": "https://image.aladin.co.kr/product/10044/23/cover500/8965642728_1.jpg",
+      "imageUrl": "assets/book-covers/gender-connell-pearse.jpg",
+      "reviewUrl": "posts/gender-connell-pearse.html",
       "sourcePage": 14
     },
     {
@@ -8491,7 +8492,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "metadata": "자클린 에델망.멜라니 루스탕 지음, 이보아.조예슬 옮김 | 북코리아",
       "theme": "미술/디자인",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366108326",
-      "imageUrl": "https://image.aladin.co.kr/product/22934/28/cover500/8963246655_1.jpg",
+      "imageUrl": "assets/book-covers/french-museum-policy-visitors.jpg",
+      "reviewUrl": "posts/french-museum-policy-visitors.html",
       "sourcePage": 19
     },
     {
@@ -15458,7 +15460,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "metadata": "알베르 소불 지음, 양영란 옮김 | 두레",
       "theme": "역사/정치",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364349300",
-      "imageUrl": "https://image.aladin.co.kr/product/7492/10/cover500/8974431084_1.jpg",
+      "imageUrl": "assets/book-covers/french-revolution-soboul.jpg",
+      "reviewUrl": "posts/french-revolution-soboul.html",
       "sourcePage": 37
     },
     {

@@ -729,21 +729,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "도구적 이성 비판",
       "metadata": "막스 호르크하이머 지음, 박구용 옮김 | 문예출판사",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35979/63/cover500/8931022832_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/35979/63/cover500/8931022832_1.jpg",
+      "reviewUrl": "posts/critique-instrumental-reason-horkheimer.html"
     },
     {
       "id": "385054457",
       "title": "니체",
       "metadata": "뤼디거 자프란스키 지음, 오윤희.육혜원 옮김 | 이화북스",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/26770/35/cover500/k162730487_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/26770/35/cover500/k162730487_1.jpg",
+      "reviewUrl": "posts/nietzsche-safranski.html"
     },
     {
       "id": "385054253",
       "title": "투명기계",
       "metadata": "김곡 지음 | 갈무리",
       "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/16234/14/cover500/8961951866_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/16234/14/cover500/8961951866_1.jpg",
+      "reviewUrl": "posts/transparent-machine-kim-gok.html"
     },
     {
       "id": "385054228",

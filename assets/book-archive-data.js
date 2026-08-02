@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 167,
+    "reviewLinkedCount": 168,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387504775",
+      "title": "21세기 최고의 세계사 수업",
+      "metadata": "에드워드 로스 디킨슨 지음, 정영은 옮김 | 아름다운사람들",
+      "theme": "근현대 세계사/지구적 연결",
+      "imageUrl": "assets/book-covers/world-in-long-twentieth-century-dickinson.jpg",
+      "reviewUrl": "posts/world-in-long-twentieth-century-dickinson.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "긴 20세기는 어떻게 하나의 세계를 만들었는가",
+      "review": "인구와 이주, 기술과 세계경제, 제국주의와 전쟁, 고도 근대와 생태 전환을 따라 지난 150년을 하나의 연결된 과정으로 읽고 거시적 종합의 성취와 결정론적 한계를 살핀다."
+    },
     {
       "id": "387577408",
       "title": "미생물의 참모습",
@@ -550,8 +561,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504775",
       "title": "21세기 최고의 세계사 수업",
       "metadata": "에드워드 로스 디킨슨 지음, 정영은 옮김 | 아름다운사람들",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/24741/75/cover500/8965136091_1.jpg"
+      "theme": "근현대 세계사/지구적 연결",
+      "imageUrl": "assets/book-covers/world-in-long-twentieth-century-dickinson.jpg",
+      "reviewUrl": "posts/world-in-long-twentieth-century-dickinson.html"
     },
     {
       "id": "387504652",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 181,
+    "reviewLinkedCount": 182,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385719764",
+      "title": "AI 경제학",
+      "metadata": "어제이 애그러월·조슈아 갠스·애비 골드파브 지음, 천형석 옮김 | 에코리브르",
+      "theme": "AI 경제학/예측·판단과 시스템 재설계",
+      "imageUrl": "assets/book-covers/ai-economics-power-prediction-agrawal-gans-goldfarb.jpg",
+      "reviewUrl": "posts/ai-economics-power-prediction-agrawal-gans-goldfarb.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "인공지능은 왜 한 번의 예측이 아니라 시스템을 바꾸는가",
+      "review": "인공지능을 예측 비용의 하락으로 읽고, 판단과 규칙, 상호 의존하는 결정과 권력의 재배치를 따라 도구 도입이 시스템 혁신으로 넘어가는 조건과 한계를 살핀다."
+    },
     {
       "id": "385719814",
       "title": "크로스오버 하이데거",
@@ -854,9 +865,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385719764",
       "title": "AI 경제학",
-      "metadata": "어제이 애그러월.조슈아 갠스.애비 골드파브 지음, 천형석 옮김 | 에코리브르",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/34175/61/cover500/8962632799_1.jpg"
+      "metadata": "어제이 애그러월·조슈아 갠스·애비 골드파브 지음, 천형석 옮김 | 에코리브르",
+      "theme": "AI 경제학/예측·판단과 시스템 재설계",
+      "imageUrl": "assets/book-covers/ai-economics-power-prediction-agrawal-gans-goldfarb.jpg",
+      "reviewUrl": "posts/ai-economics-power-prediction-agrawal-gans-goldfarb.html"
     },
     {
       "id": "385719738",

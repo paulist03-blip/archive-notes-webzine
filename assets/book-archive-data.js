@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 187,
+    "reviewLinkedCount": 188,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385718201",
+      "title": "내셔널 갤러리에서 보낸 500일",
+      "metadata": "유승연 지음 | 하준서림",
+      "theme": "미술관/반복 관람과 서양미술사",
+      "imageUrl": "assets/book-covers/national-gallery-500-days-yoo-seungyeon.jpg",
+      "reviewUrl": "posts/national-gallery-500-days-yoo-seungyeon.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "오래 본다는 것은 그림을 어떻게 바꾸는가",
+      "review": "500일의 반복 관람과 도슨트 서사가 작품을 보는 문턱을 낮추는 방식을 읽고, 연대기와 화가의 생애, 국립 컬렉션이 만드는 정전의 성취와 한계를 함께 짚는다."
+    },
     {
       "id": "385718242",
       "title": "근육운동가이드 프리웨이트",
@@ -977,8 +988,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385718201",
       "title": "내셔널 갤러리에서 보낸 500일",
       "metadata": "유승연 지음 | 하준서림",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/34919/70/cover500/k542933350_2.jpg"
+      "theme": "미술관/반복 관람과 서양미술사",
+      "imageUrl": "assets/book-covers/national-gallery-500-days-yoo-seungyeon.jpg",
+      "reviewUrl": "posts/national-gallery-500-days-yoo-seungyeon.html"
     },
     {
       "id": "385718134",

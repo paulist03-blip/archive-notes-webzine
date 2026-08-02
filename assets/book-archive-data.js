@@ -857,21 +857,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "코무니타스 : 공동체의 기원과 운명",
       "metadata": "로베르토 에스포지토 지음, 윤병언 옮김 | Critica(크리티카)",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/30569/66/cover500/k582830606_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/30569/66/cover500/k582830606_1.jpg",
+      "reviewUrl": "posts/communitas-esposito.html"
     },
     {
       "id": "385052571",
       "title": "불안의 기원",
       "metadata": "지그문트 바우만 지음, 박지선 옮김 | 다산초당",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36162/36/cover500/k352038880_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/36162/36/cover500/k352038880_1.jpg",
+      "reviewUrl": "posts/liquid-fear-bauman.html"
     },
     {
       "id": "385052330",
       "title": "칼 라르손, 오늘도 행복을 그리는 이유 (양장 특별판)",
       "metadata": "이소영 지음 | 알에이치코리아(RHK)",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/33605/63/cover500/8925575272_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/33605/63/cover500/8925575272_1.jpg",
+      "reviewUrl": "posts/carl-larsson-happiness-lee-soyoung.html"
     },
     {
       "id": "385052323",

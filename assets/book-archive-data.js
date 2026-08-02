@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 188,
+    "reviewLinkedCount": 189,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385718134",
+      "title": "지능의 기원",
+      "metadata": "맥스 베넷 지음, 김성훈 옮김, 정재승 감수 | 더퀘스트",
+      "theme": "진화신경과학/다섯 혁신과 인공지능",
+      "imageUrl": "assets/book-covers/origin-of-intelligence-max-bennett.jpg",
+      "reviewUrl": "posts/origin-of-intelligence-max-bennett.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "지능은 어떻게 과거의 뇌를 겹쳐 쓰는가",
+      "review": "조종·강화·시뮬레이션·정신화·언어의 다섯 혁신으로 인간 지능의 계통사를 읽고, 진화신경과학과 AI의 생산적 비유 및 계통 사다리·수렴 진화의 한계를 짚는다."
+    },
     {
       "id": "385718201",
       "title": "내셔널 갤러리에서 보낸 500일",
@@ -996,8 +1007,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385718134",
       "title": "지능의 기원",
       "metadata": "맥스 베넷 지음, 김성훈 옮김, 정재승 감수 | 더퀘스트",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35571/44/cover500/k042036578_1.jpg"
+      "theme": "진화신경과학/다섯 혁신과 인공지능",
+      "imageUrl": "assets/book-covers/origin-of-intelligence-max-bennett.jpg",
+      "reviewUrl": "posts/origin-of-intelligence-max-bennett.html"
     },
     {
       "id": "385718051",

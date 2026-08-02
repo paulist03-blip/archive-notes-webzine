@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 153,
+    "reviewLinkedCount": 154,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004774",
+      "title": "이 문장은 누구의 것인가",
+      "metadata": "데이비드 벨로스·알렉상드르 몬터규 지음, 이영아 옮김 | 현암사",
+      "theme": "저작권/문화사",
+      "imageUrl": "assets/book-covers/who-owns-this-sentence-bellos-montagu.jpg",
+      "reviewUrl": "posts/who-owns-this-sentence-bellos-montagu.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "문장은 언제 재산이 되는가",
+      "review": "인쇄 특권과 앤 법, 베른협약에서 기업의 권리 집중과 인공지능까지, 창작자의 권리와 공공영역 사이의 긴장을 저작권의 역사로 읽는다."
+    },
     {
       "id": "389004788",
       "title": "비트코인의 시대",
@@ -308,9 +319,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "389004774",
       "title": "이 문장은 누구의 것인가",
-      "metadata": "데이비드 벨로스.알렉상드르 몬터규 지음, 이영아 옮김 | 현암사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35221/68/cover500/8932323917_1.jpg"
+      "metadata": "데이비드 벨로스·알렉상드르 몬터규 지음, 이영아 옮김 | 현암사",
+      "theme": "저작권/문화사",
+      "imageUrl": "assets/book-covers/who-owns-this-sentence-bellos-montagu.jpg",
+      "reviewUrl": "posts/who-owns-this-sentence-bellos-montagu.html"
     },
     {
       "id": "389004732",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 184,
+    "reviewLinkedCount": 185,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385719058",
+      "title": "루터의 탁상담화",
+      "metadata": "마르틴 루터 지음, 이길상 옮김 | CH북스(크리스천다이제스트)",
+      "theme": "종교개혁사/구술·편집과 기억",
+      "imageUrl": "assets/book-covers/luther-table-talk.jpg",
+      "reviewUrl": "posts/luther-table-talk.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "식탁의 말은 어떻게 종교개혁자의 초상이 되었는가",
+      "review": "루터의 구술과 참석자들의 필기, 아우리파버의 사후 편집을 따라 종교개혁 신학이 일상에서 작동하는 방식과 반유대주의·권위주의의 한계를 함께 읽는다."
+    },
     {
       "id": "385719685",
       "title": "아우슈비츠는 멀리 있지 않다",
@@ -920,8 +931,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385719058",
       "title": "루터의 탁상담화",
       "metadata": "마르틴 루터 지음, 이길상 옮김 | CH북스(크리스천다이제스트)",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/19474/23/cover500/8944785368_1.jpg"
+      "theme": "종교개혁사/구술·편집과 기억",
+      "imageUrl": "assets/book-covers/luther-table-talk.jpg",
+      "reviewUrl": "posts/luther-table-talk.html"
     },
     {
       "id": "385718899",

@@ -8,12 +8,23 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 114,
+    "reviewLinkedCount": 115,
     "duplicateExcludedCount": 325,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "392079223",
+      "title": "유대인, 발명된 신화",
+      "metadata": "정의길 지음 | 한겨레출판",
+      "theme": "유대사/민족주의",
+      "imageUrl": "assets/book-covers/jews-invented-myth-jeong.jpg",
+      "reviewUrl": "posts/jews-invented-myth-jeong.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "귀환의 서사는 누구의 자리를 지우는가",
+      "review": "추방과 이산, 박해와 귀환을 잇는 서사가 공동체의 기억에서 국가의 권리증서로 바뀌는 과정과 그 논쟁적 한계를 읽는다."
+    },
     {
       "id": "392079304",
       "title": "의학적 증상 비주얼 가이드",
@@ -35,17 +46,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "용기는 언제 판단을 잃는가",
       "review": "롤랑과 올리비에의 논쟁, 늦게 울린 뿔나팔을 통해 영웅적 명예와 공동체적 판단이 충돌하는 순간을 읽는다."
-    },
-    {
-      "id": "392081478",
-      "title": "제2차 세계대전 - 상",
-      "metadata": "윈스턴 처칠 지음, 차병직 옮김 | 까치",
-      "theme": "역사/회고록",
-      "imageUrl": "assets/book-covers/second-world-war-churchill.jpg",
-      "reviewUrl": "posts/second-world-war-churchill.html",
-      "label": "Book Archive · 오늘의 장문 리뷰",
-      "subtitle": "승리의 역사는 누가 먼저 쓰는가",
-      "review": "전쟁을 지휘한 정치가의 기록을 문서의 권위와 자기서사, 1940년의 수사와 제국적 시야의 한계 속에서 읽는다."
     }
   ],
   "books": [
@@ -213,8 +213,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "392079223",
       "title": "유대인, 발명된 신화",
       "metadata": "정의길 지음 | 한겨레출판",
-      "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/30764/22/cover500/k922830553_1.jpg"
+      "theme": "유대사/민족주의",
+      "imageUrl": "assets/book-covers/jews-invented-myth-jeong.jpg",
+      "reviewUrl": "posts/jews-invented-myth-jeong.html"
     },
     {
       "id": "392079025",

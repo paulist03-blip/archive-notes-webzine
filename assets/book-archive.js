@@ -10,9 +10,6 @@
   const countTarget = document.querySelector("[data-book-count]");
   const searchInput = document.querySelector("[data-book-search]");
   const themeSelect = document.querySelector("[data-book-theme]");
-  const loadMoreButton = document.querySelector("[data-book-load-more]");
-  const PAGE_SIZE = 48;
-  let visibleLimit = PAGE_SIZE;
 
   const cleanMeta = (value) =>
     String(value || "")
@@ -126,21 +123,9 @@
   function renderList() {
     if (!listTarget) return;
     const books = filteredBooks();
-    const visibleBooks = books.slice(0, visibleLimit);
 
     if (countTarget) {
-      countTarget.textContent =
-        books.length > visibleBooks.length
-          ? `${books.length}권의 기록 · ${visibleBooks.length}권 표시`
-          : `${books.length}권의 기록`;
-    }
-
-    if (loadMoreButton) {
-      const remaining = Math.max(0, books.length - visibleBooks.length);
-      loadMoreButton.hidden = remaining === 0;
-      loadMoreButton.textContent = remaining
-        ? `다음 ${Math.min(PAGE_SIZE, remaining)}권 보기`
-        : "모두 표시했습니다";
+      countTarget.textContent = `${books.length}권의 기록`;
     }
 
     if (!books.length) {
@@ -148,7 +133,7 @@
       return;
     }
 
-    listTarget.innerHTML = visibleBooks
+    listTarget.innerHTML = books
       .map(
         (book) => `
           <article class="book-card" id="${escapeHtml(bookAnchorId(book))}">
@@ -173,23 +158,10 @@
   renderList();
 
   if (searchInput) {
-    searchInput.addEventListener("input", () => {
-      visibleLimit = PAGE_SIZE;
-      renderList();
-    });
+    searchInput.addEventListener("input", renderList);
   }
 
   if (themeSelect) {
-    themeSelect.addEventListener("change", () => {
-      visibleLimit = PAGE_SIZE;
-      renderList();
-    });
-  }
-
-  if (loadMoreButton) {
-    loadMoreButton.addEventListener("click", () => {
-      visibleLimit += PAGE_SIZE;
-      renderList();
-    });
+    themeSelect.addEventListener("change", renderList);
   }
 })();

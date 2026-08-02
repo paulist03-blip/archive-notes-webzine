@@ -1,9 +1,10 @@
 .DS_Store
 .bkit/
+.playwright-cli/
 .vercel/
+.deploy_keys/
 node_modules/
 *.log
-.deploy_keys/
 outputs/
 work/*.tmp
 work/*.token

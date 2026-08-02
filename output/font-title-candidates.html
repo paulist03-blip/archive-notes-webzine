@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paul Archive Notes - Book title type specimens</title>
+  <style>
+    @font-face {
+      font-family: "Mapo Flower Island";
+      src: url("../assets/fonts/mapo-flower-island.woff") format("woff");
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "Eulyoo 1945";
+      src: url("../assets/fonts/Eulyoo1945-SemiBold.woff2") format("woff2");
+      font-weight: 600;
+    }
+
+    @font-face {
+      font-family: "Arita Buri";
+      src: url("../assets/fonts/arita-buri-semibold.woff") format("woff");
+      font-weight: 600;
+    }
+
+    @font-face {
+      font-family: "MaruBuri";
+      src: url("../assets/fonts/maruburi-Semibold.woff2") format("woff2");
+      font-weight: 600;
+    }
+
+    @font-face {
+      font-family: "KoPub Batang";
+      src: url("../assets/fonts/kopub-batang-bold.woff2") format("woff2");
+      font-weight: 700;
+    }
+
+    :root {
+      --ink: #1e211e;
+      --muted: #6c716c;
+      --paper: #f4f5f2;
+      --line: #c9cec8;
+      --green: #29443a;
+      --red: #8b342d;
+    }
+
+    * {
+      box-sizing: border-box;
+      letter-spacing: 0;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Apple SD Gothic Neo", sans-serif;
+    }
+
+    main {
+      width: min(1320px, calc(100% - 72px));
+      margin: 0 auto;
+      padding: 44px 0 64px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--ink);
+    }
+
+    header p,
+    header h1 {
+      margin: 0;
+    }
+
+    header p {
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    header h1 {
+      font-family: Georgia, serif;
+      font-size: 27px;
+      font-weight: 400;
+    }
+
+    .specimen {
+      display: grid;
+      grid-template-columns: 190px minmax(0, 1fr);
+      gap: 38px;
+      padding: 30px 0 32px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .label strong,
+    .label span {
+      display: block;
+    }
+
+    .label strong {
+      color: var(--red);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .label span {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .section-name {
+      margin: 0 0 22px;
+      font-size: 45px;
+      line-height: 1.08;
+      font-weight: inherit;
+    }
+
+    .book-titles {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 30px;
+    }
+
+    .book-titles p {
+      margin: 0;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      font-size: 24px;
+      line-height: 1.35;
+      font-weight: inherit;
+      word-break: keep-all;
+    }
+
+    .current .sample {
+      font-family: "Mapo Flower Island", serif;
+      font-weight: 400;
+      -webkit-text-stroke: 0.35px currentColor;
+    }
+
+    .eulyoo .sample {
+      font-family: "Eulyoo 1945", serif;
+      font-weight: 600;
+    }
+
+    .arita .sample {
+      font-family: "Arita Buri", serif;
+      font-weight: 600;
+    }
+
+    .maru .sample {
+      font-family: "MaruBuri", serif;
+      font-weight: 600;
+    }
+
+    .kopub .sample {
+      font-family: "KoPub Batang", serif;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <p>Paul Archive Notes · Type Study</p>
+        <h1>오늘의 책장 제목 서체 비교</h1>
+      </div>
+      <p>Section title + book titles</p>
+    </header>
+
+    <section class="specimen current">
+      <div class="label"><strong>현재</strong><span>마포꽃섬체<br />문학적이지만 획의 힘이 약함</span></div>
+      <div class="sample">
+        <h2 class="section-name">오늘의 책장</h2>
+        <div class="book-titles">
+          <p>멈추지 않는 인간은 무엇을 파괴하는가</p>
+          <p>천재는 누구에게 영혼을 빚지는가</p>
+          <p>개발의 꿈은 누구의 집을 지우는가</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="specimen eulyoo">
+      <div class="label"><strong>1안 · 추천</strong><span>을유1945 SemiBold<br />고전적이고 힘 있는 출판 인상</span></div>
+      <div class="sample">
+        <h2 class="section-name">오늘의 책장</h2>
+        <div class="book-titles">
+          <p>멈추지 않는 인간은 무엇을 파괴하는가</p>
+          <p>천재는 누구에게 영혼을 빚지는가</p>
+          <p>개발의 꿈은 누구의 집을 지우는가</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="specimen arita">
+      <div class="label"><strong>2안</strong><span>아리따부리 SemiBold<br />세련되고 균형 잡힌 잡지 인상</span></div>
+      <div class="sample">
+        <h2 class="section-name">오늘의 책장</h2>
+        <div class="book-titles">
+          <p>멈추지 않는 인간은 무엇을 파괴하는가</p>
+          <p>천재는 누구에게 영혼을 빚지는가</p>
+          <p>개발의 꿈은 누구의 집을 지우는가</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="specimen maru">
+      <div class="label"><strong>3안</strong><span>마루부리 SemiBold<br />현대적이고 안정적인 가독성</span></div>
+      <div class="sample">
+        <h2 class="section-name">오늘의 책장</h2>
+        <div class="book-titles">
+          <p>멈추지 않는 인간은 무엇을 파괴하는가</p>
+          <p>천재는 누구에게 영혼을 빚지는가</p>
+          <p>개발의 꿈은 누구의 집을 지우는가</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="specimen kopub">
+      <div class="label"><strong>4안</strong><span>KoPub 바탕 Bold<br />가장 견고하지만 학술적인 인상</span></div>
+      <div class="sample">
+        <h2 class="section-name">오늘의 책장</h2>
+        <div class="book-titles">
+          <p>멈추지 않는 인간은 무엇을 파괴하는가</p>
+          <p>천재는 누구에게 영혼을 빚지는가</p>
+          <p>개발의 꿈은 누구의 집을 지우는가</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

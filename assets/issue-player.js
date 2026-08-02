@@ -188,21 +188,14 @@
     return "";
   }
 
-  function findMusicLinks(html) {
+  function findAppleUrl(html) {
     var doc = new DOMParser().parseFromString(html, "text/html");
     var links = Array.prototype.slice.call(doc.querySelectorAll("a[href*='music.apple.com']"));
     var found = links.find(function (link) {
       return !SEARCH_PATTERN.test(link.getAttribute("href") || "");
     });
 
-    var spotify = doc.querySelector("[data-music-service='spotify'], a[href*='open.spotify.com']");
-    var youtubeMusic = doc.querySelector("[data-music-service='youtube-music'], a[href*='music.youtube.com']");
-
-    return {
-      appleUrl: found ? found.href : "",
-      spotifyUrl: spotify ? spotify.href : "",
-      youtubeMusicUrl: youtubeMusic ? youtubeMusic.href : ""
-    };
+    return found ? found.href : "";
   }
 
   function fetchRecordLink(record) {
@@ -218,18 +211,16 @@
         return response.text();
       })
       .then(function (html) {
-        var links = findMusicLinks(html);
+        var appleUrl = findAppleUrl(html);
         var result = {
-          appleUrl: links.appleUrl,
-          spotifyUrl: links.spotifyUrl,
-          youtubeMusicUrl: links.youtubeMusicUrl,
-          embedUrl: appleUrlToEmbed(links.appleUrl)
+          appleUrl: appleUrl,
+          embedUrl: appleUrlToEmbed(appleUrl)
         };
         linkCache[record.href] = result;
         return result;
       })
       .catch(function () {
-        var empty = { appleUrl: "", spotifyUrl: "", youtubeMusicUrl: "", embedUrl: "" };
+        var empty = { appleUrl: "", embedUrl: "" };
         linkCache[record.href] = empty;
         return empty;
       });
@@ -284,12 +275,6 @@
       var media = record.embedUrl
         ? '<iframe title="Apple Music player: ' + encodeAttr(record.title) + '" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" src="' + encodeAttr(record.embedUrl) + '"></iframe>'
         : '<p class="mini-player-empty">공식 Apple Music 임베드를 찾지 못해 리뷰로 연결합니다.</p>';
-      var serviceLinks = [
-        record.appleUrl ? '<a href="' + encodeAttr(record.appleUrl) + '" target="_blank" rel="noopener noreferrer">Apple Music</a>' : "",
-        record.spotifyUrl ? '<a href="' + encodeAttr(record.spotifyUrl) + '" target="_blank" rel="noopener noreferrer">Spotify</a>' : "",
-        record.youtubeMusicUrl ? '<a href="' + encodeAttr(record.youtubeMusicUrl) + '" target="_blank" rel="noopener noreferrer">YouTube Music</a>' : "",
-        '<a href="' + encodeAttr(record.href) + '">리뷰 읽기</a>'
-      ].filter(Boolean).join("");
 
       return [
         '<article class="mini-player-track">',
@@ -298,7 +283,7 @@
         '<strong>' + encodeHtml(record.title) + '</strong>',
         '</div>',
         media,
-        '<div class="mini-player-services" aria-label="음악 서비스">' + serviceLinks + '</div>',
+        '<a href="' + encodeAttr(record.href) + '">리뷰 읽기</a>',
         '</article>'
       ].join("");
     }).join("");

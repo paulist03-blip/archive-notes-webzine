@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 170,
+    "reviewLinkedCount": 171,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387504418",
+      "title": "뜨거운 얼음 : 글렌 굴드의 삶과 예술",
+      "metadata": "케빈 바자나 지음, 진원 옮김 | 마르코폴로",
+      "theme": "음악평전/글렌 굴드",
+      "imageUrl": "assets/book-covers/hot-ice-glenn-gould.jpg",
+      "reviewUrl": "posts/hot-ice-glenn-gould-bazzana.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "신화가 걷힌 자리에서 다시 만나는 글렌 굴드",
+      "review": "토론토의 문화환경과 게레로의 교육, 무대 은퇴와 녹음 미학, CBC 방송과 레퍼토리, 자기 연출과 고립을 따라 괴짜 천재라는 신화를 증거 속에서 다시 읽는다."
+    },
     {
       "id": "387504595",
       "title": "세계-사이",
@@ -615,8 +626,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504418",
       "title": "뜨거운 얼음 : 글렌 굴드의 삶과 예술",
       "metadata": "케빈 바자나 지음, 진원 옮김 | 마르코폴로",
-      "theme": "예술/문화",
-      "imageUrl": "assets/book-covers/hot-ice-glenn-gould.jpg"
+      "theme": "음악평전/글렌 굴드",
+      "imageUrl": "assets/book-covers/hot-ice-glenn-gould.jpg",
+      "reviewUrl": "posts/hot-ice-glenn-gould-bazzana.html"
     },
     {
       "id": "387504397",

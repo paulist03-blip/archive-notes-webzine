@@ -905,21 +905,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "풍경의 깊이",
       "metadata": "강요배 지음 | 돌베개",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/24790/60/cover500/8971995955_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/24790/60/cover500/8971995955_1.jpg",
+      "reviewUrl": "posts/depth-of-landscape-kang-yobae.html"
     },
     {
       "id": "385051973",
       "title": "살과 돌",
       "metadata": "리차드 세넷 지음, 임동근 옮김 | 문학동네",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27279/52/cover500/8954679765_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/27279/52/cover500/8954679765_1.jpg",
+      "reviewUrl": "posts/sennett-flesh-and-stone.html"
     },
     {
       "id": "385051956",
       "title": "원전으로 읽는 그리스 신화",
       "metadata": "아폴로도로스 지음, 천병희 옮김 | 도서출판 숲",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/50/30/cover500/8991290000_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/50/30/cover500/8991290000_1.jpg",
+      "reviewUrl": "posts/apollodorus-library-greek-mythology.html"
     },
     {
       "id": "385051861",

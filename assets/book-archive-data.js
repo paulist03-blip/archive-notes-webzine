@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 174,
+    "reviewLinkedCount": 175,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387504314",
+      "title": "초보 드링커를 위한 위스키 안내서",
+      "metadata": "김성욱 글·그림 | 성안당",
+      "theme": "음료문화/증류와 숙성",
+      "imageUrl": "assets/book-covers/whisky-guide-kim-sungwook.jpg",
+      "reviewUrl": "posts/whisky-guide-kim-sungwook.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "위스키의 맛은 어디에서 만들어지는가",
+      "review": "곡물과 발효, 증류와 오크통, 법적 분류와 지역의 역사, 테이스팅의 언어를 따라 명성과 연수의 위계 대신 한 잔의 맛을 만든 공정과 선택을 읽는다."
+    },
     {
       "id": "387504319",
       "title": "지도를 따라가는 반 고흐의 삶과 여행",
@@ -698,9 +709,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "387504314",
       "title": "초보 드링커를 위한 위스키 안내서",
-      "metadata": "김성욱 지음 | 성안당",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/28661/20/cover500/8931557884_1.jpg"
+      "metadata": "김성욱 글·그림 | 성안당",
+      "theme": "음료문화/증류와 숙성",
+      "imageUrl": "assets/book-covers/whisky-guide-kim-sungwook.jpg",
+      "reviewUrl": "posts/whisky-guide-kim-sungwook.html"
     },
     {
       "id": "387504305",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 182,
+    "reviewLinkedCount": 183,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385719738",
+      "title": "조선시대 양반과 선비 1·2",
+      "metadata": "정진영 지음 | 산처럼",
+      "theme": "조선사회사/신분·향촌과 생활",
+      "imageUrl": "assets/book-covers/joseon-yangban-seonbi-jeong-jinyoung-set.jpg",
+      "reviewUrl": "posts/joseon-yangban-seonbi-jeong-jinyoung.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "양반은 태어나는가, 만들어지는가",
+      "review": "족보와 향안, 과거와 서원, 토지와 노비, 혼인과 의례를 따라 양반이라는 지위가 반복해 승인되고 선비의 이상과 향촌 지배가 충돌한 조선의 생활 세계를 읽는다."
+    },
     {
       "id": "385719764",
       "title": "AI 경제학",
@@ -872,10 +883,11 @@ window.PAUL_BOOK_ARCHIVE = {
     },
     {
       "id": "385719738",
-      "title": "조선시대 양반과 선비 1~2 세트 - 전2권",
+      "title": "조선시대 양반과 선비 1·2",
       "metadata": "정진영 지음 | 산처럼",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/33896/18/cover500/k482930820_1.jpg"
+      "theme": "조선사회사/신분·향촌과 생활",
+      "imageUrl": "assets/book-covers/joseon-yangban-seonbi-jeong-jinyoung-set.jpg",
+      "reviewUrl": "posts/joseon-yangban-seonbi-jeong-jinyoung.html"
     },
     {
       "id": "385719685",

@@ -8,12 +8,23 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 115,
+    "reviewLinkedCount": 116,
     "duplicateExcludedCount": 325,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "392078828",
+      "title": "다시 보는 러시아 현대사",
+      "metadata": "마이크 헤인스 지음, 이수현 옮김 | 책갈피",
+      "theme": "러시아사/계급권력",
+      "imageUrl": "assets/book-covers/russia-modern-history-haynes.jpg",
+      "reviewUrl": "posts/russia-modern-history-haynes.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "노동자의 국가에서 노동자는 어디에 있었는가",
+      "review": "1917년의 대중혁명과 스탈린주의의 단절, 국가자본주의론을 통해 국가 소유와 노동자 통제가 얼마나 다른 문제인지 읽는다."
+    },
     {
       "id": "392079223",
       "title": "유대인, 발명된 신화",
@@ -35,17 +46,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "몸의 신호는 어디까지 읽을 수 있는가",
       "review": "몸의 감각을 의료 언어로 옮기는 정보 디자인과 긴급도 안내의 효용, 시각적 명료함이 자가진단의 확신으로 바뀔 위험을 읽는다."
-    },
-    {
-      "id": "392079505",
-      "title": "롤랑의 노래",
-      "metadata": "김준한 옮김 | 휴머니스트",
-      "theme": "중세문학/서사시",
-      "imageUrl": "assets/book-covers/song-of-roland.jpg",
-      "reviewUrl": "posts/song-of-roland.html",
-      "label": "Book Archive · 오늘의 장문 리뷰",
-      "subtitle": "용기는 언제 판단을 잃는가",
-      "review": "롤랑과 올리비에의 논쟁, 늦게 울린 뿔나팔을 통해 영웅적 명예와 공동체적 판단이 충돌하는 순간을 읽는다."
     }
   ],
   "books": [
@@ -237,8 +237,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "392078828",
       "title": "다시 보는 러시아 현대사",
       "metadata": "마이크 헤인스 지음, 이수현 옮김 | 책갈피",
-      "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/25967/83/cover500/8979662025_1.jpg"
+      "theme": "러시아사/계급권력",
+      "imageUrl": "assets/book-covers/russia-modern-history-haynes.jpg",
+      "reviewUrl": "posts/russia-modern-history-haynes.html"
     },
     {
       "id": "392078527",

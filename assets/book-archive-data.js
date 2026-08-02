@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 162,
+    "reviewLinkedCount": 163,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "388492946",
+      "title": "구조와 모순",
+      "metadata": "강경덕 지음 | 서광사",
+      "theme": "구조주의적 마르크스주의/역사인과성",
+      "imageUrl": "assets/book-covers/structure-and-contradiction-kang.jpg",
+      "reviewUrl": "posts/structure-and-contradiction-kang.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "역사는 구조를 따르는가, 모순에서 갈라지는가",
+      "review": "역사인과성과 과잉결정, 인식론적 절단, 이데올로기의 물질성과 마주침의 유물론을 따라 구조주의적 마르크스주의의 성취와 한계를 읽는다."
+    },
     {
       "id": "388859637",
       "title": "들뢰즈 개념어 사전",
@@ -450,8 +461,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "388492946",
       "title": "구조와 모순",
       "metadata": "강경덕 지음 | 서광사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/3845/43/cover500/8930617107_1.jpg"
+      "theme": "구조주의적 마르크스주의/역사인과성",
+      "imageUrl": "assets/book-covers/structure-and-contradiction-kang.jpg",
+      "reviewUrl": "posts/structure-and-contradiction-kang.html"
     },
     {
       "id": "388492193",

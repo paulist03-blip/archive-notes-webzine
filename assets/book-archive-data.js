@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 157,
+    "reviewLinkedCount": 159,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004193",
+      "title": "한비자 정독",
+      "metadata": "김예호 역주 | 삼양미디어",
+      "theme": "법가/고대중국 정치철학",
+      "imageUrl": "assets/book-covers/hanfeizi-jeongdok-kim.jpg",
+      "reviewUrl": "posts/hanfeizi-legalist-statecraft.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "질서는 왜 덕보다 먼저 기술이 되는가",
+      "review": "법·술·세와 형명, 상벌과 무위의 통치술을 따라 도덕적 예외보다 제도적 기준을 앞세운 한비의 현실주의와 군주 권력의 치명적 역설을 읽는다."
+    },
     {
       "id": "389004208",
       "title": "하이브리드 한의학",
@@ -374,8 +385,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389004193",
       "title": "한비자 정독",
       "metadata": "김예호 역주 | 삼양미디어",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/14794/6/cover500/8958973544_3.jpg"
+      "theme": "법가/고대중국 정치철학",
+      "imageUrl": "assets/book-covers/hanfeizi-jeongdok-kim.jpg",
+      "reviewUrl": "posts/hanfeizi-legalist-statecraft.html"
     },
     {
       "id": "389004130",
@@ -11653,10 +11665,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "365943694",
       "title": "한비자",
       "metadata": "한비자 지음, 김원중 옮김 | 휴머니스트",
-      "theme": "인문/교양",
+      "theme": "법가/고대중국 정치철학",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365943694",
       "imageUrl": "https://image.aladin.co.kr/product/8126/15/cover500/s432636514_1.jpg",
-      "sourcePage": 27
+      "sourcePage": 27,
+      "reviewUrl": "posts/hanfeizi-legalist-statecraft.html"
     },
     {
       "id": "365943570",

@@ -19,7 +19,7 @@ for path in files:
         for value in re.findall(fr'{attr}="([^"]+)"', text):
             if value.startswith(("http", "#", "mailto:")):
                 continue
-            clean = value.split("#", 1)[0]
+            clean = re.split(r"[?#]", value, maxsplit=1)[0]
             if not clean:
                 continue
             target = (path.parent / clean).resolve()

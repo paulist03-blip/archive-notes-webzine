@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 164,
+    "reviewLinkedCount": 166,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387577509",
+      "title": "권력과 진보",
+      "metadata": "대런 애쓰모글루·사이먼 존슨 지음, 김승진 옮김 | 생각의힘",
+      "theme": "기술정치경제/노동과 혁신",
+      "imageUrl": "assets/book-covers/power-and-progress-acemoglu-johnson.jpg",
+      "reviewUrl": "posts/power-and-progress-acemoglu-johnson.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "기술은 누구의 진보를 설계하는가",
+      "review": "설득 권력과 생산성 밴드왜건, 자동화와 새 과업, 기계 유용성의 구별을 따라 기술의 방향이 권력과 제도에 의해 선택되는 과정을 읽고 역사적 서사의 성취와 한계를 살핀다."
+    },
     {
       "id": "388491202",
       "title": "인지 패러다임 2",
@@ -496,15 +507,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "388214568",
       "title": "주역계사 강의",
       "metadata": "남회근 지음, 신원봉 옮김 | 부키",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/1098/55/cover500/8960511595_1.jpg"
+      "theme": "동양고전/주역",
+      "imageUrl": "assets/book-covers/yijing-xici-lecture.jpg",
+      "reviewUrl": "posts/yijing-xici-lecture.html"
     },
     {
       "id": "387577509",
       "title": "권력과 진보",
-      "metadata": "대런 애쓰모글루.사이먼 존슨 지음, 김승진 옮김 | 생각의힘",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/31953/94/cover500/k422833258_1.jpg"
+      "metadata": "대런 애쓰모글루·사이먼 존슨 지음, 김승진 옮김 | 생각의힘",
+      "theme": "기술정치경제/노동과 혁신",
+      "imageUrl": "assets/book-covers/power-and-progress-acemoglu-johnson.jpg",
+      "reviewUrl": "posts/power-and-progress-acemoglu-johnson.html"
     },
     {
       "id": "387577408",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 175,
+    "reviewLinkedCount": 176,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387504305",
+      "title": "설계자 덩샤오핑",
+      "metadata": "알렉산더 V. 판초프·스티븐 I. 레빈 지음, 유희복 옮김 | 알마",
+      "theme": "중국현대사/혁명과 개혁",
+      "imageUrl": "assets/book-covers/deng-xiaoping-pantsov-levine.jpg",
+      "reviewUrl": "posts/deng-xiaoping-revolutionary-life-pantsov-levine.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "덩샤오핑은 무엇을 개혁하고 무엇을 지켰는가",
+      "review": "프랑스와 모스크바의 혁명 훈련부터 마오 시대의 당 관료 경력, 개혁개방과 네 가지 기본 원칙, 1989년과 남순강화까지 경제적 유연성과 당 권력 수호가 공존한 생애를 읽는다."
+    },
     {
       "id": "387504314",
       "title": "초보 드링커를 위한 위스키 안내서",
@@ -717,9 +728,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "387504305",
       "title": "설계자 덩샤오핑",
-      "metadata": "알렉산더 V. 판초프 외 지음, 유희복 옮김 | 알마",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/16234/14/cover500/k842534788_1.jpg"
+      "metadata": "알렉산더 V. 판초프·스티븐 I. 레빈 지음, 유희복 옮김 | 알마",
+      "theme": "중국현대사/혁명과 개혁",
+      "imageUrl": "assets/book-covers/deng-xiaoping-pantsov-levine.jpg",
+      "reviewUrl": "posts/deng-xiaoping-revolutionary-life-pantsov-levine.html"
     },
     {
       "id": "387413127",

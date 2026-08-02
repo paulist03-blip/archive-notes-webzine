@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 178,
+    "reviewLinkedCount": 179,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385986569",
+      "title": "자신에 대한 배우의 작업 2",
+      "metadata": "콘스탄틴 세르게예비치 스타니슬랍스키 지음, 박상하·윤현숙 옮김 | 아카넷",
+      "theme": "연기론/신체와 언어의 구현",
+      "imageUrl": "assets/book-covers/actors-work-self-2-stanislavski.jpg",
+      "reviewUrl": "posts/actors-work-self-2-stanislavski.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "내면은 어떻게 무대 위의 행동이 되는가",
+      "review": "몸 표현력과 소리·말, 템포리듬과 성격화의 훈련을 따라 내적 체험이 반복 가능하고 관객에게 읽히는 무대 행동으로 구현되는 과정을 살핀다."
+    },
     {
       "id": "387330005",
       "title": "튜더스",
@@ -797,9 +808,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385986569",
       "title": "자신에 대한 배우의 작업 2",
-      "metadata": "콘스탄틴 세르게예비치 스타니슬랍스키 지음, 박상하.윤현숙 옮김 | 아카넷",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35241/30/cover500/8957339493_2.jpg"
+      "metadata": "콘스탄틴 세르게예비치 스타니슬랍스키 지음, 박상하·윤현숙 옮김 | 아카넷",
+      "theme": "연기론/신체와 언어의 구현",
+      "imageUrl": "assets/book-covers/actors-work-self-2-stanislavski.jpg",
+      "reviewUrl": "posts/actors-work-self-2-stanislavski.html"
     },
     {
       "id": "385986561",

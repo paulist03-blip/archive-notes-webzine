@@ -8,12 +8,23 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 117,
+    "reviewLinkedCount": 118,
     "duplicateExcludedCount": 325,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "392078212",
+      "title": "기계는 왜 학습하는가",
+      "metadata": "아닐 아난타스와미 지음, 노승영 옮김 | 까치",
+      "theme": "기계학습/수학",
+      "imageUrl": "assets/book-covers/why-machines-learn-ananthaswamy.jpg",
+      "reviewUrl": "posts/why-machines-learn-ananthaswamy.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "오차를 줄이는 일이 어떻게 학습이 되는가",
+      "review": "벡터와 경사하강법, 확률과 커널, 역전파와 일반화의 수학을 따라 기계의 학습이 가능한 조건과 아직 풀리지 않은 질문을 읽는다."
+    },
     {
       "id": "392078350",
       "title": "정복왕 윌리엄",
@@ -35,17 +46,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "노동자의 국가에서 노동자는 어디에 있었는가",
       "review": "1917년의 대중혁명과 스탈린주의의 단절, 국가자본주의론을 통해 국가 소유와 노동자 통제가 얼마나 다른 문제인지 읽는다."
-    },
-    {
-      "id": "392079223",
-      "title": "유대인, 발명된 신화",
-      "metadata": "정의길 지음 | 한겨레출판",
-      "theme": "유대사/민족주의",
-      "imageUrl": "assets/book-covers/jews-invented-myth-jeong.jpg",
-      "reviewUrl": "posts/jews-invented-myth-jeong.html",
-      "label": "Book Archive · 오늘의 장문 리뷰",
-      "subtitle": "귀환의 서사는 누구의 자리를 지우는가",
-      "review": "추방과 이산, 박해와 귀환을 잇는 서사가 공동체의 기억에서 국가의 권리증서로 바뀌는 과정과 그 논쟁적 한계를 읽는다."
     }
   ],
   "books": [
@@ -261,8 +261,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "392078212",
       "title": "기계는 왜 학습하는가",
       "metadata": "아닐 아난타스와미 지음, 노승영 옮김 | 까치",
-      "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/35901/75/cover500/8972918660_1.jpg"
+      "theme": "기계학습/수학",
+      "imageUrl": "assets/book-covers/why-machines-learn-ananthaswamy.jpg",
+      "reviewUrl": "posts/why-machines-learn-ananthaswamy.html"
     },
     {
       "id": "391780544",

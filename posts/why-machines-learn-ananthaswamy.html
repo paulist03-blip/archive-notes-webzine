@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta name="description" content="아닐 아난타스와미의 기계는 왜 학습하는가를 벡터와 경사하강법, 확률, 커널, 역전파와 일반화의 수학을 중심으로 읽습니다." />
+ <title>오차를 줄이는 일이 어떻게 학습이 되는가 - Paul Archive Notes</title>
+ <link rel="stylesheet" href="../assets/site.css" />
+</head>
+<body>
+ <header class="masthead">
+  <nav class="nav" aria-label="주요 메뉴">
+   <div class="nav-links"><a href="../index.html#notes">글</a><a href="../index.html#art">미술</a><a href="../index.html#records">음반</a><a href="../index.html#books">책</a><a href="../forum.html">포럼</a></div>
+   <a class="brand" href="../index.html">Paul Archive Notes</a>
+   <div class="nav-actions"><a href="../archive.html">아카이브</a></div>
+  </nav>
+ </header>
+
+ <main class="article-shell">
+  <article class="article-layout">
+   <div class="article">
+    <p class="eyebrow">Book Archive · Mathematics of Machine Learning</p>
+    <h1>오차를 줄이는 일이 어떻게 학습이 되는가</h1>
+    <div class="article-meta">2026.08.02 · 아닐 아난타스와미 · Critical reading</div>
+    <div class="article-body">
+     <p>기계가 학습한다는 말은 너무 자연스러워져서 오히려 뜻을 잃기 쉽다. 컴퓨터가 이해하고 깨닫는다는 인상을 주지만, 기계 학습에서 벌어지는 일은 훨씬 구체적이다. 입력을 수로 나타내고, 원하는 출력과 실제 출력 사이의 오차를 재며, 그 오차가 작아지도록 수많은 매개변수를 고친다. <strong>기계는 왜 학습하는가</strong>는 이 반복을 지능의 마술로 포장하지 않는다. 어떤 조건에서 수정이 답에 가까워지는지, 무엇을 두고 가까워졌다고 판단하며, 훈련에 없던 사례까지 맞힐 수 있는 까닭은 어디까지 설명되었는지를 수학의 언어로 묻는다.</p>
+     <p>아닐 아난타스와미는 열두 장을 단순한 알고리즘 목록이 아니라 하나의 지적 계보로 배열한다. 오리 새끼의 각인과 패턴 인식에서 출발해 퍼셉트론, 경사하강법, 베이즈 추론, 최근접 이웃과 주성분 분석, 서포트 벡터 머신, 홉필드 네트워크와 역전파를 거쳐 합성곱 신경망과 오늘날의 심층학습에 이른다. 이때 방정식은 역사적 일화 뒤에 붙인 장식이 아니다. 어떤 아이디어가 가능했고 무엇이 막혔는지를 설명하는 사건의 일부다. 그 여정의 첫 질문은 패턴이 무엇이냐는 것이다. 같은 색의 두 물체를 본 오리 새끼가 나중에 다른 색의 두 물체에서도 ‘같음’이라는 관계를 알아보는 장면은 학습의 최소 조건을 드러낸다. 보았던 대상을 그대로 기억하는 것과 보지 못한 대상에 규칙을 적용하는 것은 다르다. 이 책이 말하는 학습은 기억의 양보다 일반화의 능력에 가깝다.</p>
+     <p>그런데 기계가 관계를 찾으려면 먼저 세계가 숫자가 되어야 한다. 사진의 픽셀, 새의 울음, 행성의 위치는 각각 긴 벡터로 바뀌고, 하나의 이미지는 수천 또는 수백만 차원의 공간에 찍힌 점이 된다. 이 변환 덕분에 서로 닮은 대상의 거리와 방향을 계산할 수 있지만, 여기서 이미 중요한 선택이 일어난다. 무엇을 특징으로 삼고 어떤 차원을 버릴지 정하는 순간 현실의 일부는 선명해지고 다른 일부는 사라진다. 데이터는 세계의 중립적 복사본이 아니라, 계산할 수 있도록 세계를 잘라 낸 표현이다.</p>
+     <p>프랭크 로젠블랫의 퍼셉트론은 이 숫자 공간에서 두 부류를 가르는 경계를 찾는다. 예측이 틀릴 때마다 가중치를 고치며 경계를 움직이고, 자료가 직선이나 평면 같은 하나의 경계로 분리될 수 있다면 유한한 횟수 안에 해답에 도달한다. 퍼셉트론 수렴 정리의 아름다움은 단순한 갱신 규칙이 끝없이 헤매지 않는다는 보증에 있다. 그러나 보증에는 조건이 붙는다. 자료가 선형으로 나뉘지 않으면 단층 퍼셉트론은 수렴하지 않는다. 학습 가능성에 관한 정리는 언제나 모델의 표현력과 자료의 구조에 관한 가정을 함께 품는다.</p>
+     <p>버나드 위드로와 테드 호프의 최소 제곱 평균 알고리즘을 다루는 대목에서 ‘배운다’는 동사의 내부가 더 또렷해진다. 모델의 틀린 정도를 손실 함수로 만들면, 가능한 매개변수 조합은 높고 낮은 지형을 이룬다. 경사는 어느 방향으로 움직여야 손실이 가장 빠르게 줄어드는지를 알려 주고, 경사하강법은 그 비탈을 조금씩 내려간다. 모든 자료를 한꺼번에 계산하지 않고 일부 사례로 방향을 어림하는 확률적 경사하강법은 거칠지만 대규모 학습을 가능하게 한다. 기계의 진보는 완벽한 계산보다 유용한 근사를 반복하는 데서 나온다.</p>
+     <p>확률을 다루는 장은 오차를 줄이는 일과 불확실성을 다루는 일이 같은 문제가 아님을 보여 준다. 관측된 자료가 주어졌을 때 어떤 모수가 가장 그럴듯한지 찾는 최대우도 추정, 사전 지식과 새 증거를 결합하는 베이즈 추론은 예측을 확신이 아니라 갱신 가능한 믿음으로 만든다. 다만 숫자로 표시된 확률이 저절로 객관성을 보장하지는 않는다. 사전분포와 모형, 자료를 모은 방식이 달라지면 같은 계산도 다른 세계를 가리킨다. 불확실성을 정량화하는 일은 가정을 없애는 것이 아니라 드러내는 일이다.</p>
+     <p>최근접 이웃 알고리즘은 새 점 주변에 어떤 점들이 모여 있는지를 보고 분류한다. 설명은 직관적이지만 차원이 늘어나면 공간이 급격히 성기게 되고, 가까움이라는 말 자체가 불안정해진다. 주성분 분석은 자료가 가장 크게 변하는 방향을 찾아 차원을 줄이며 이 난점을 완화한다. 행렬의 고유벡터와 고유값이 거대한 자료에서 주요 축을 뽑아내는 순간은 이 책이 말하는 수학의 우아함을 잘 보여 준다. 그러나 변동이 크다는 사실이 반드시 의미가 크다는 뜻은 아니다. 압축은 정보를 보존하는 동시에 중요성의 기준을 선택한다.</p>
+     <p>블라디미르 바프니크로 이어지는 서포트 벡터 머신의 역사는 분류 문제를 더 영리하게 바꾸는 법을 보여 준다. 복잡하게 얽힌 점들을 더 높은 차원의 공간으로 옮기면 하나의 평면으로 나눌 수 있지만, 그 공간을 실제로 모두 계산하면 비용이 감당되지 않는다. 커널 수법은 원래 공간에 놓인 두 점만으로 높은 차원에서의 내적을 계산한다. 어려운 문제를 더 큰 공간으로 보내면서도 그 공간을 직접 방문하지 않는 셈이다. 학습의 진전이 언제나 더 많은 계산에서 오는 것이 아니라, 계산해야 할 대상을 바꾸는 표현의 발명에서 오기도 한다.</p>
+     <p>물리학자 존 홉필드가 만든 네트워크에서는 기억이 에너지 지형의 골짜기로 나타난다. 불완전하거나 잡음이 섞인 입력을 주면 네트워크의 상태가 가까운 안정점으로 흘러가며 저장된 패턴을 복원한다. 기억을 주소가 붙은 서랍 속 항목이 아니라 전체 연결망의 집단적 상태로 보는 관점이다. 통계물리학의 에너지와 안정성 개념이 신경망의 연상 기억을 설명하는 이 장은 서로 멀어 보이는 학문이 같은 수학적 구조를 공유할 수 있음을 설득력 있게 보여 준다. 동시에 인공 신경망이 생물학적 뇌의 충실한 복제라는 오해도 경계하게 한다.</p>
+     <p>마빈 민스키와 시모어 페퍼트가 퍼셉트론의 한계를 분석한 뒤 신경망 연구가 얼어붙었다는 익숙한 이야기도 이 책에서는 수정된다. 단층 모델이 배타적 논리합 같은 문제를 풀지 못한다는 비판은 타당했지만, 한 권의 책이 곧바로 ‘AI 겨울’을 만들었다는 서사는 연구비의 흐름과 계산 자원의 제약, 당시의 과도한 약속을 너무 쉽게 지운다. 기술의 역사를 영웅과 악당의 교대로 설명하면 알고리즘이 왜 한때 가능하지 않았고 나중에 다시 작동했는지를 놓친다. 아난타스와미의 인물사는 발견을 인간적으로 만들면서도 그 단순화를 바로잡는다.</p>
+     <p>다층 신경망의 난점은 마지막 오차를 안쪽 층의 어느 연결에 얼마나 돌려야 하는가에 있었다. 역전파는 미적분의 연쇄법칙을 이용해 출력의 오차를 층마다 거꾸로 전달하고 각 가중치가 져야 할 몫을 계산한다. 1986년 럼멜하트, 힌턴, 윌리엄스의 논문은 이 절차가 숨은 층에서 과제에 유용한 특징을 형성한다는 점을 선명하게 보였다. 학습은 사람이 특징을 하나씩 지정하는 일에서, 오차를 통해 내부 표현 자체를 조직하는 일로 이동했다. 다만 뇌가 정확히 같은 방식으로 신호를 되돌린다는 증거는 없으며, 계산적 성공과 생물학적 설명은 구별해야 한다.</p>
+     <p>시각을 다루는 장에서는 그 내부 표현이 구체적인 형태를 얻는다. 합성곱 신경망의 필터는 영상의 모든 위치에서 같은 작은 연산을 반복하며 모서리와 질감, 더 복잡한 형태를 단계적으로 포착한다. 고양이 시각피질 연구에서 발견된 특징의 위계가 중요한 영감을 주었지만, 현대의 필터는 대개 사람이 그 모양을 미리 새겨 넣은 것이 아니라 훈련 과정에서 조정된다. 여기서 신경망의 힘은 층의 깊이만이 아니라, 위치가 달라도 같은 특징을 찾도록 만든 구조적 편향과 충분한 자료, 계산 자원이 결합한 결과로 드러난다.</p>
+     <p>마지막 장에 이르면 제목의 ‘왜’는 다시 어려워진다. 보편 근사 정리는 충분히 큰 신경망이 매우 넓은 범위의 함수를 근사할 수 있다고 말하지만, 실제 훈련이 그 함수를 효율적으로 찾는지 또는 새 자료에 잘 일반화하는지는 별개의 문제다. 매개변수 수가 훈련 사례 수보다 많은 모델도 예상과 달리 잘 작동한다. 이중 하강과 양성 과적합, 한동안 외우기만 하던 네트워크가 갑자기 규칙을 깨우친 듯 일반화하는 그로킹은 기존 직관을 흔든다. 기계가 학습한다는 사실은 분명하지만, 큰 신경망이 왜 이토록 잘 학습하는지는 아직 열린 연구 문제다.</p>
+     <p>이 책의 가장 큰 성취는 수식을 없애지 않고도 수학을 이야기로 만든 데 있다. 벡터와 행렬, 미분과 확률을 피해 가는 입문서가 아니라, 연필을 들고 그림과 식 사이를 오갈 독자를 요구한다. 그만큼 가벼운 해설을 기대하면 중반부터 버거울 수 있고, 정오표를 따로 확인해야 할 만큼 기호의 정확성도 중요하다. 또 알고리즘의 계보에 집중한 탓에 훈련 자료를 만드는 노동, 거대한 연산 기반 시설, 기업의 이해관계와 자동화된 판단이 낳는 사회적 비용은 상대적으로 짧게 다뤄진다. 그것은 결함이라기보다 이 책이 택한 초점의 경계지만, 독자는 그 바깥을 다른 책으로 보충해야 한다.</p>
+     <p>그럼에도 이 책은 AI를 둘러싼 과장과 공포를 함께 낮추는 드문 설명서다. 학습을 신비한 각성으로 부르지 않고 표현, 손실, 최적화, 일반화의 연쇄로 나누면 능력의 근거와 실패의 조건을 같은 자리에서 볼 수 있다. 대규모 언어 모델이 유창한 문장을 만든다는 사실은 중요하지만, 그것만으로 인과를 이해하거나 인간과 같은 방식으로 세계를 안다는 결론이 나오지는 않는다. 안전하게 쓰기 위해 필요한 것은 기계를 하찮게 보는 태도도 전능하게 보는 태도도 아니다. 무엇을 수로 바꾸었고 어떤 오차를 줄였으며, 그 과정에서 무엇을 보지 못하게 되었는지 끝까지 묻는 습관이다.</p>
+
+     <section class="bibliography" aria-labelledby="sources-title">
+      <h2 id="sources-title">참고 자료와 함께 읽기</h2>
+      <ol>
+       <li><a href="https://www.penguinrandomhouse.com/books/677608/why-machines-learn-by-anil-ananthaswamy/9780593185759/" target="_blank" rel="noopener noreferrer">Penguin Random House, <em>Why Machines Learn</em></a></li>
+       <li><a href="https://anilananthaswamy.com/why-machines-learn" target="_blank" rel="noopener noreferrer">Anil Ananthaswamy, <em>Why Machines Learn</em> 공식 소개</a></li>
+       <li><a href="https://nautil.us/the-elegant-math-of-machine-learning-727842" target="_blank" rel="noopener noreferrer">Anil Ananthaswamy, “The Elegant Math of Machine Learning”</a></li>
+       <li><a href="https://anilananthaswamy.com/why-machines-learn-codebook-blog/credit-assignment" target="_blank" rel="noopener noreferrer">Anil Ananthaswamy, “Whose Fault Is It Anyway? The Problem of Credit Assignment”</a></li>
+       <li><a href="https://www.nature.com/articles/323533a0" target="_blank" rel="noopener noreferrer">Rumelhart, Hinton &amp; Williams, “Learning Representations by Back-propagating Errors”</a></li>
+       <li><a href="https://www.quantamagazine.org/how-do-machines-grok-data-20240412/" target="_blank" rel="noopener noreferrer">Quanta Magazine, “How Do Machines ‘Grok’ Data?”</a></li>
+       <li><a href="https://anilananthaswamy.com/whymachineslearn-errata" target="_blank" rel="noopener noreferrer">저자 공식 정오표</a></li>
+       <li><a href="book-calculating-machine-thinking.html">계산하는 기계는 생각하는 기계가 될 수 있을까?</a></li>
+       <li><a href="surfaces-and-essences-hofstadter.html">더글러스 호프스태터·에마뉘엘 상데, <em>사고의 본질</em> 리뷰</a></li>
+       <li><a href="from-signal-to-symbol-ai-pragmatics.html">말은 언제 신호를 넘어 의미가 되는가</a></li>
+      </ol>
+     </section>
+     <p class="article-signoff">Paul Archive Notes · Book Archive · 장문 리뷰</p>
+    </div>
+   </div>
+   <aside class="article-side">
+    <div class="article-cover">
+     <img src="../assets/book-covers/why-machines-learn-ananthaswamy.jpg" alt="기계는 왜 학습하는가 표지" />
+    </div>
+   </aside>
+  </article>
+ </main>
+
+ <footer class="footer article-contact-footer">
+  <span>Paul Archive Notes는 책과 음반, 이미지 작업을 매일의 글로 쌓는 개인 웹진입니다.</span>
+  <nav class="footer-links" aria-label="글 하단 링크">
+   <a href="../index.html">Paul Archive Notes</a>
+   <a href="../archive.html">아카이브</a>
+   <a href="../book-archive.html">북 아카이브</a>
+   <a href="mailto:Paulist03@icloud.com">Contact: Paulist03@icloud.com</a>
+  </nav>
+ </footer>
+ <script src="../assets/language-toggle.js"></script>
+</body>
+</html>

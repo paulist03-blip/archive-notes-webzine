@@ -777,14 +777,16 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "영화를 찍으며 생각한 것 (리커버 특별판)",
       "metadata": "고레에다 히로카즈 지음, 이지수 옮김 | 바다출판사",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/29578/70/cover500/k252838261_2.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/29578/70/cover500/k252838261_2.jpg",
+      "reviewUrl": "posts/thoughts-while-making-films-koreeda.html"
     },
     {
       "id": "385053325",
       "title": "여기서 Here",
       "metadata": "리처드 맥과이어 지음, 홍유진 옮김 | 미메시스",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/11297/79/cover500/k312531996_2.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/11297/79/cover500/k312531996_2.jpg",
+      "reviewUrl": "posts/here-richard-mcguire.html"
     },
     {
       "id": "385053293",
@@ -799,7 +801,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "설탕",
       "metadata": "윌버 보스마 지음, 조행복 옮김, 석운디자인 북디자이너 | 책과함께",
       "theme": "예술/문화",
-      "imageUrl": "https://image.aladin.co.kr/product/33182/71/cover500/k812937434_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/33182/71/cover500/k812937434_1.jpg",
+      "reviewUrl": "posts/world-of-sugar-bosma.html"
     },
     {
       "id": "385053027",

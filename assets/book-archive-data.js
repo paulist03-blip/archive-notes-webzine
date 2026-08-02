@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 161,
+    "reviewLinkedCount": 162,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "388859637",
+      "title": "들뢰즈 개념어 사전",
+      "metadata": "아르노 빌라니 & 로베르 싸소 책임편집, 신지영 옮김 | 갈무리",
+      "theme": "현대철학/들뢰즈",
+      "imageUrl": "assets/book-covers/deleuze-concept-dictionary.jpg",
+      "reviewUrl": "posts/deleuze-concept-dictionary.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "개념은 어떻게 서로를 움직이는가",
+      "review": "차이와 다수성, 잠재성, 사건, 배치와 탈영토화가 이루는 연결망을 따라 들뢰즈의 개념 창조를 읽고 공동 집필 사전 형식의 성취와 한계를 함께 살핀다."
+    },
     {
       "id": "389003848",
       "title": "동기와 성격",
@@ -431,8 +442,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "388859637",
       "title": "들뢰즈 개념어 사전",
       "metadata": "아르노 빌라니 & 로베르 싸소 책임편집, 신지영 옮김 | 갈무리",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/1603/32/cover500/s252531155_2.jpg"
+      "theme": "현대철학/들뢰즈",
+      "imageUrl": "assets/book-covers/deleuze-concept-dictionary.jpg",
+      "reviewUrl": "posts/deleuze-concept-dictionary.html"
     },
     {
       "id": "388492946",

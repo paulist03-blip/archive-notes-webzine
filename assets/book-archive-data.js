@@ -8,12 +8,23 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 113,
+    "reviewLinkedCount": 114,
     "duplicateExcludedCount": 325,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "392079304",
+      "title": "의학적 증상 비주얼 가이드",
+      "metadata": "디나 코프먼 외 지음, 최영은 옮김 | 시그마북스",
+      "theme": "의학/건강문해력",
+      "imageUrl": "assets/book-covers/medical-symptoms-visual-guide.jpg",
+      "reviewUrl": "posts/medical-symptoms-visual-guide.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "몸의 신호는 어디까지 읽을 수 있는가",
+      "review": "몸의 감각을 의료 언어로 옮기는 정보 디자인과 긴급도 안내의 효용, 시각적 명료함이 자가진단의 확신으로 바뀔 위험을 읽는다."
+    },
     {
       "id": "392079505",
       "title": "롤랑의 노래",
@@ -35,17 +46,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "승리의 역사는 누가 먼저 쓰는가",
       "review": "전쟁을 지휘한 정치가의 기록을 문서의 권위와 자기서사, 1940년의 수사와 제국적 시야의 한계 속에서 읽는다."
-    },
-    {
-      "id": "392079025",
-      "title": "정관정요",
-      "metadata": "오긍 지음, 신동준 옮김 | 을유문화사",
-      "theme": "정치사상/고전",
-      "imageUrl": "assets/book-covers/zhenguan-zhengyao-wu-jing.jpg",
-      "reviewUrl": "posts/zhenguan-zhengyao-wu-jing.html",
-      "label": "Issue 55 · 오늘의 책장",
-      "subtitle": "좋은 통치는 왜 듣는 일에서 시작되는가",
-      "review": "간언과 인재 등용, 절약과 법을 통해 권력이 스스로를 제한하는 조건과 군주 중심 통치론의 한계를 읽는다."
     }
   ],
   "books": [
@@ -197,8 +197,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "392079304",
       "title": "의학적 증상 비주얼 가이드",
       "metadata": "디나 코프먼 외 지음, 최영은 옮김 | 시그마북스",
-      "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/30795/89/cover500/k032831467_1.jpg"
+      "theme": "의학/건강문해력",
+      "imageUrl": "assets/book-covers/medical-symptoms-visual-guide.jpg",
+      "reviewUrl": "posts/medical-symptoms-visual-guide.html"
     },
     {
       "id": "392079279",

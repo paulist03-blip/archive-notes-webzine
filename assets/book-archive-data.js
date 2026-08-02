@@ -953,21 +953,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "루저 아들",
       "metadata": "아비탈 로넬 지음, 염인수 옮김 | 현실문화",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/17579/54/cover500/8965642256_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/17579/54/cover500/8965642256_1.jpg",
+      "reviewUrl": "posts/loser-sons-avital-ronell.html"
     },
     {
       "id": "384516331",
       "title": "미학사 입문",
       "metadata": "베르너 융 지음, 장희창 옮김 | 필로소픽",
       "theme": "예술/문화",
-      "imageUrl": "https://image.aladin.co.kr/product/26651/35/cover500/k312739334_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/26651/35/cover500/k312739334_1.jpg",
+      "reviewUrl": "posts/history-of-aesthetics-werner-jung.html"
     },
     {
       "id": "384515725",
       "title": "기계 속의 악마",
       "metadata": "폴 데이비스 지음, 류운 옮김 | 바다출판사",
       "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/32359/48/cover500/k962935467_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/32359/48/cover500/k962935467_1.jpg",
+      "reviewUrl": "posts/demon-in-machine-paul-davies.html"
     },
     {
       "id": "384515643",

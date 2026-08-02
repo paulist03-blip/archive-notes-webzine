@@ -8,12 +8,23 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 119,
+    "reviewLinkedCount": 120,
     "duplicateExcludedCount": 325,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "391771273",
+      "title": "마음을 어떻게 비울 것인가",
+      "metadata": "M. 스캇 펙 지음, 박윤정 옮김 | 율리시즈",
+      "theme": "공동체/평화윤리",
+      "imageUrl": "assets/book-covers/different-drum-scott-peck.jpg",
+      "reviewUrl": "posts/different-drum-scott-peck.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "공동체는 왜 좋은 뜻만으로 만들어지지 않는가",
+      "review": "가짜 공동체, 혼란, 비움, 진정한 공동체의 네 단계를 따라 차이를 지우지 않는 경청의 윤리와 그것을 제도와 국제 정치로 확장할 때의 가능성 및 한계를 읽는다."
+    },
     {
       "id": "391780544",
       "title": "프랑스 쿡북",
@@ -35,17 +46,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "오차를 줄이는 일이 어떻게 학습이 되는가",
       "review": "벡터와 경사하강법, 확률과 커널, 역전파와 일반화의 수학을 따라 기계의 학습이 가능한 조건과 아직 풀리지 않은 질문을 읽는다."
-    },
-    {
-      "id": "392078350",
-      "title": "정복왕 윌리엄",
-      "metadata": "폴 쥠토르 지음, 김동섭 옮김 | 글항아리",
-      "theme": "노르만정복/중세권력",
-      "imageUrl": "assets/book-covers/william-conqueror-zumthor.jpg",
-      "reviewUrl": "posts/william-conqueror-zumthor.html",
-      "label": "Book Archive · 오늘의 장문 리뷰",
-      "subtitle": "한 번의 승리는 어떻게 하나의 질서가 되는가",
-      "review": "1066년의 전투를 넘어 토지와 교회, 문서와 언어가 재편되는 과정을 따라 정복이 일상의 질서로 굳는 시간을 읽는다."
     }
   ],
   "books": [
@@ -277,8 +277,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "391771273",
       "title": "마음을 어떻게 비울 것인가",
       "metadata": "M. 스캇 펙 지음, 박윤정 옮김 | 율리시즈",
-      "theme": "철학/고전",
-      "imageUrl": "https://image.aladin.co.kr/product/32400/56/cover500/k452935887_1.jpg"
+      "theme": "공동체/평화윤리",
+      "imageUrl": "assets/book-covers/different-drum-scott-peck.jpg",
+      "reviewUrl": "posts/different-drum-scott-peck.html"
     },
     {
       "id": "391768738",

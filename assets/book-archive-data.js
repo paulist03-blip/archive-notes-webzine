@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 176,
+    "reviewLinkedCount": 177,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387364522",
+      "title": "보살의 뇌",
+      "metadata": "오웬 플래나간 지음, 박병기·이슬비 옮김 | 씨아이알(CIR)",
+      "theme": "불교철학/자연주의와 마음",
+      "imageUrl": "assets/book-covers/bodhisattvas-brain-flanagan.jpg",
+      "reviewUrl": "posts/bodhisattvas-brain-flanagan.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "불교는 뇌과학의 증명을 필요로 하는가",
+      "review": "명상하는 뇌가 불교의 진리와 행복을 증명한다는 기대를 비판하고, 무아와 연기, 자비와 덕 윤리를 자연주의 안에서 재구성하는 철학적 실험의 성취와 한계를 읽는다."
+    },
     {
       "id": "387504305",
       "title": "설계자 덩샤오핑",
@@ -759,9 +770,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "387364522",
       "title": "보살의 뇌",
-      "metadata": "오웬 플래나간 지음, 박병기 외 옮김 | 씨아이알(CIR)",
-      "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/2844/59/cover500/8997776800_1.jpg"
+      "metadata": "오웬 플래나간 지음, 박병기·이슬비 옮김 | 씨아이알(CIR)",
+      "theme": "불교철학/자연주의와 마음",
+      "imageUrl": "assets/book-covers/bodhisattvas-brain-flanagan.jpg",
+      "reviewUrl": "posts/bodhisattvas-brain-flanagan.html"
     },
     {
       "id": "387330005",

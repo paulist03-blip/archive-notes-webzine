@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 154,
+    "reviewLinkedCount": 156,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004600",
+      "title": "성서의 이야기 기술",
+      "metadata": "로버트 알터 지음, 황규홍·박영희·정미현 옮김 | 아모르문디",
+      "theme": "성서문학/서사학",
+      "imageUrl": "assets/book-covers/art-of-biblical-narrative-alter.jpg",
+      "reviewUrl": "posts/art-of-biblical-narrative-alter.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "말하지 않음은 어떻게 이야기가 되는가",
+      "review": "전형장면과 대화, 반복과 침묵, 복합 편집과 서술자의 앎을 따라 히브리 성서가 인간의 자유와 역사의 불투명성을 이야기로 만드는 방식을 읽는다."
+    },
     {
       "id": "389004774",
       "title": "이 문장은 누구의 것인가",
@@ -335,9 +346,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "389004600",
       "title": "성서의 이야기 기술",
-      "metadata": "로버트 알터 지음, 황규홍 외 옮김 | 아모르문디",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/32131/96/cover500/k162834303_1.jpg"
+      "metadata": "로버트 알터 지음, 황규홍·박영희·정미현 옮김 | 아모르문디",
+      "theme": "성서문학/서사학",
+      "imageUrl": "assets/book-covers/art-of-biblical-narrative-alter.jpg",
+      "reviewUrl": "posts/art-of-biblical-narrative-alter.html"
     },
     {
       "id": "389004208",

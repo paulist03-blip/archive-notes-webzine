@@ -8,44 +8,44 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 108,
+    "reviewLinkedCount": 111,
     "duplicateExcludedCount": 325,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
     {
-      "id": "387504397",
-      "title": "폭력의 유산",
-      "metadata": "캐럴라인 엘킨스 지음, 김현정 옮김, 윤영휘 감수 | 상상스퀘어",
-      "theme": "역사/제국과 폭력",
-      "imageUrl": "assets/book-covers/legacy-of-violence-elkins.jpg",
-      "reviewUrl": "posts/legacy-of-violence-elkins.html",
-      "label": "Issue 54 · 오늘의 책장",
-      "subtitle": "제국은 어떻게 폭력을 법으로 바꾸는가",
-      "review": "자유주의와 인종적 위계, 비상통치와 기록 말소를 통해 영국 제국의 강제가 행정으로 조직된 역사를 읽는다."
+      "id": "382504292",
+      "title": "옥스퍼드 세계사",
+      "metadata": "펠리페 페르난데스아르메스토 외 지음, 이재만 옮김 | 교유서가",
+      "theme": "역사/세계사",
+      "imageUrl": "assets/book-covers/oxford-illustrated-history-world.jpg",
+      "reviewUrl": "posts/oxford-illustrated-history-world.html",
+      "label": "Issue 55 · 오늘의 책장",
+      "subtitle": "세계사는 어떻게 하나의 문장이 되는가",
+      "review": "인류의 발산과 수렴, 환경과 교류를 따라 거대한 역사 서술의 성취와 압축의 비용을 읽는다."
     },
     {
-      "id": "388492193",
-      "title": "무정부사회",
-      "metadata": "헤들리 불 지음, 진석용 옮김 | 나남출판",
-      "theme": "정치사상/국제질서",
-      "imageUrl": "assets/book-covers/anarchical-society-bull.jpg",
-      "reviewUrl": "posts/anarchical-society-bull.html",
-      "label": "Issue 54 · 오늘의 책장",
-      "subtitle": "무정부 상태에도 질서는 있는가",
-      "review": "국제법과 외교, 세력균형과 강대국이 중앙정부 없는 세계에서 질서를 만드는 방식과 정의의 긴장을 읽는다."
+      "id": "392079025",
+      "title": "정관정요",
+      "metadata": "오긍 지음, 신동준 옮김 | 을유문화사",
+      "theme": "정치사상/고전",
+      "imageUrl": "assets/book-covers/zhenguan-zhengyao-wu-jing.jpg",
+      "reviewUrl": "posts/zhenguan-zhengyao-wu-jing.html",
+      "label": "Issue 55 · 오늘의 책장",
+      "subtitle": "좋은 통치는 왜 듣는 일에서 시작되는가",
+      "review": "간언과 인재 등용, 절약과 법을 통해 권력이 스스로를 제한하는 조건과 군주 중심 통치론의 한계를 읽는다."
     },
     {
-      "id": "385053325",
-      "title": "여기서 Here",
-      "metadata": "리처드 맥과이어 지음, 홍유진 옮김 | 미메시스",
-      "theme": "시각문화/장소와 시간",
-      "imageUrl": "assets/book-covers/here-richard-mcguire.jpg",
-      "reviewUrl": "posts/here-richard-mcguire.html",
-      "label": "Issue 54 · 오늘의 책장",
-      "subtitle": "한 장소에는 몇 개의 시간이 사는가",
-      "review": "고정된 한 시점에 가족사와 자연사, 선사시대와 미래를 겹친 그래픽노블의 시간을 읽는다."
+      "id": "382505101",
+      "title": "샤넬 : 자유, 사랑 그리고 미학",
+      "metadata": "키아라 파스콸레티 존슨 지음, 조은형 옮김 | 동글디자인",
+      "theme": "패션/문화",
+      "imageUrl": "assets/book-covers/coco-chanel-pasqualetti-johnson.jpg",
+      "reviewUrl": "posts/coco-chanel-pasqualetti-johnson.html",
+      "label": "Issue 55 · 오늘의 책장",
+      "subtitle": "자유로운 옷은 누구의 몸을 상상했는가",
+      "review": "저지와 슈트, 검정과 향수가 넓힌 이동성을 보고 브랜드 신화가 가린 노동과 정치적 논쟁을 읽는다."
     }
   ],
   "books": [
@@ -217,8 +217,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "392079025",
       "title": "정관정요",
       "metadata": "오긍 지음, 신동준 옮김 | 을유문화사",
-      "theme": "철학/고전",
-      "imageUrl": "https://image.aladin.co.kr/product/2521/26/cover500/8932472041_1.jpg"
+      "theme": "정치사상/고전",
+      "imageUrl": "assets/book-covers/zhenguan-zhengyao-wu-jing.jpg",
+      "reviewUrl": "posts/zhenguan-zhengyao-wu-jing.html"
     },
     {
       "id": "392078900",
@@ -1117,8 +1118,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382505101",
       "title": "샤넬 : 자유, 사랑 그리고 미학",
       "metadata": "키아라 파스콸레티 존슨 지음, 조은형 옮김 | 동글디자인",
-      "theme": "예술/문화",
-      "imageUrl": "https://image.aladin.co.kr/product/29809/45/cover500/k612838211_1.jpg"
+      "theme": "패션/문화",
+      "imageUrl": "assets/book-covers/coco-chanel-pasqualetti-johnson.jpg",
+      "reviewUrl": "posts/coco-chanel-pasqualetti-johnson.html"
     },
     {
       "id": "382504869",
@@ -1145,8 +1147,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382504292",
       "title": "옥스퍼드 세계사",
       "metadata": "펠리페 페르난데스아르메스토 외 지음, 이재만 옮김 | 교유서가",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/25809/65/cover500/k712736332_1.jpg"
+      "theme": "역사/세계사",
+      "imageUrl": "assets/book-covers/oxford-illustrated-history-world.jpg",
+      "reviewUrl": "posts/oxford-illustrated-history-world.html"
     },
     {
       "id": "382504209",

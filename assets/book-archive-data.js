@@ -8,12 +8,23 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 112,
+    "reviewLinkedCount": 113,
     "duplicateExcludedCount": 325,
     "publicCount": 2181,
     "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "392079505",
+      "title": "롤랑의 노래",
+      "metadata": "김준한 옮김 | 휴머니스트",
+      "theme": "중세문학/서사시",
+      "imageUrl": "assets/book-covers/song-of-roland.jpg",
+      "reviewUrl": "posts/song-of-roland.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "용기는 언제 판단을 잃는가",
+      "review": "롤랑과 올리비에의 논쟁, 늦게 울린 뿔나팔을 통해 영웅적 명예와 공동체적 판단이 충돌하는 순간을 읽는다."
+    },
     {
       "id": "392081478",
       "title": "제2차 세계대전 - 상",
@@ -24,17 +35,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "승리의 역사는 누가 먼저 쓰는가",
       "review": "전쟁을 지휘한 정치가의 기록을 문서의 권위와 자기서사, 1940년의 수사와 제국적 시야의 한계 속에서 읽는다."
-    },
-    {
-      "id": "382504292",
-      "title": "옥스퍼드 세계사",
-      "metadata": "펠리페 페르난데스아르메스토 외 지음, 이재만 옮김 | 교유서가",
-      "theme": "역사/세계사",
-      "imageUrl": "assets/book-covers/oxford-illustrated-history-world.jpg",
-      "reviewUrl": "posts/oxford-illustrated-history-world.html",
-      "label": "Issue 55 · 오늘의 책장",
-      "subtitle": "세계사는 어떻게 하나의 문장이 되는가",
-      "review": "인류의 발산과 수렴, 환경과 교류를 따라 거대한 역사 서술의 성취와 압축의 비용을 읽는다."
     },
     {
       "id": "392079025",
@@ -189,8 +189,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "392079505",
       "title": "롤랑의 노래",
       "metadata": "김준한 옮김 | 휴머니스트",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27509/16/cover500/k262837373_2.jpg"
+      "theme": "중세문학/서사시",
+      "imageUrl": "assets/book-covers/song-of-roland.jpg",
+      "reviewUrl": "posts/song-of-roland.html"
     },
     {
       "id": "392079304",

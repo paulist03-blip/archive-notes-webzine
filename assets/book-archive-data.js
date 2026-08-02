@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 159,
+    "reviewLinkedCount": 160,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004130",
+      "title": "아틀라스 1",
+      "metadata": "에인 랜드 지음, 민승남 옮김 | 휴머니스트",
+      "theme": "철학소설/객관주의",
+      "imageUrl": "assets/book-covers/atlas-shrugged-volume-one-rand.jpg",
+      "reviewUrl": "posts/atlas-shrugged-volume-one-rand.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "세계를 움직이는 사람은 왜 사라지는가",
+      "review": "대그니 태거트와 행크 리어든, 존 골트 선을 따라 생산적 자아와 강제의 윤리를 읽고, 객관주의가 밝히는 성취와 개인주의적 생산관의 한계를 함께 묻는다."
+    },
     {
       "id": "389004193",
       "title": "한비자 정독",
@@ -393,8 +404,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389004130",
       "title": "아틀라스 1",
       "metadata": "에인 랜드 지음, 민승남 옮김 | 휴머니스트",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/3400/29/cover500/8958626666_1.jpg"
+      "theme": "철학소설/객관주의",
+      "imageUrl": "assets/book-covers/atlas-shrugged-volume-one-rand.jpg",
+      "reviewUrl": "posts/atlas-shrugged-volume-one-rand.html"
     },
     {
       "id": "389003848",

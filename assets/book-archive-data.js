@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 166,
+    "reviewLinkedCount": 167,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387577408",
+      "title": "미생물의 참모습",
+      "metadata": "파스칼 코사르 지음, 장철훈·박형섭 옮김 | 부산대학교출판문화원",
+      "theme": "미생물학/세균과 공생",
+      "imageUrl": "assets/book-covers/new-microbiology-cossart.jpg",
+      "reviewUrl": "posts/new-microbiology-cossart.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "세균은 어떻게 세계를 함께 만드는가",
+      "review": "세균의 세포 조직과 RNA 조절, 생물막과 정족수 인식, 숙주와의 공생, 감염과 원헬스, CRISPR와 환경 기술을 따라 새 미생물학의 관계적 시야와 한계를 읽는다."
+    },
     {
       "id": "387577509",
       "title": "권력과 진보",
@@ -522,9 +533,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "387577408",
       "title": "미생물의 참모습",
-      "metadata": "파스칼 코사르 지음, 장철훈 외 옮김 | 부산대학교출판문화원",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/28953/41/cover500/8973167324_1.jpg"
+      "metadata": "파스칼 코사르 지음, 장철훈·박형섭 옮김 | 부산대학교출판문화원",
+      "theme": "미생물학/세균과 공생",
+      "imageUrl": "assets/book-covers/new-microbiology-cossart.jpg",
+      "reviewUrl": "posts/new-microbiology-cossart.html"
     },
     {
       "id": "history-of-manners-seol",

@@ -681,21 +681,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "뮤지엄",
       "metadata": "마누엘 마르솔 그림, 하비에르 사에스 카스탄 기획 | 로그프레스",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/22159/89/cover500/k462636310_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/22159/89/cover500/k462636310_1.jpg",
+      "reviewUrl": "posts/museum-marsol-saez-castan.html"
     },
     {
       "id": "385502407",
       "title": "마지막 황태자 세트 - 전4권",
       "metadata": "송우혜 지음 | 푸른역사",
       "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/1650/54/cover500/8994079424_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/1650/54/cover500/8994079424_1.jpg",
+      "reviewUrl": "posts/last-crown-prince-yi-un-song.html"
     },
     {
       "id": "385502109",
       "title": "베르디 오페라",
       "metadata": "박종호 지음 | 풍월당",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/26676/26/cover500/k902730881_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/26676/26/cover500/k902730881_1.jpg",
+      "reviewUrl": "posts/verdi-operas-park-jongho.html"
     },
     {
       "id": "385502093",

@@ -929,21 +929,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "도시전설의 모든 것",
       "metadata": "얀 해럴드 브룬반드 지음, 박중서 옮김 | 위즈덤하우스",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/33881/7/cover500/k062930712_3.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/33881/7/cover500/k062930712_3.jpg",
+      "reviewUrl": "posts/urban-legends-brunvand-encyclopedia.html"
     },
     {
       "id": "385051792",
       "title": "기계, 권력, 사회",
       "metadata": "박승일 지음 | 사월의책",
       "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/27709/92/cover500/8997186825_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/27709/92/cover500/8997186825_1.jpg",
+      "reviewUrl": "posts/machine-power-society-park-seungil.html"
     },
     {
       "id": "384925886",
       "title": "경계선",
       "metadata": "앤 E. 캐서린 지음, 정화숙 외 옮김 | 하나의학사",
       "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/36836/77/cover500/k262030106_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/36836/77/cover500/k262030106_1.jpg",
+      "reviewUrl": "posts/boundaries-anne-katherine.html"
     },
     {
       "id": "384516383",

@@ -157,7 +157,7 @@
       node.textContent = sanitizeMetaText(node.textContent, mode);
     });
 
-    document.querySelectorAll(".bibliography").forEach(function (node) {
+    document.querySelectorAll(".bibliography:not([data-language-preserve])").forEach(function (node) {
       node.remove();
     });
 

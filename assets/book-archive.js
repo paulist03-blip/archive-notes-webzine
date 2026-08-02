@@ -11,6 +11,33 @@
   const searchInput = document.querySelector("[data-book-search]");
   const themeSelect = document.querySelector("[data-book-theme]");
 
+  const explicitlyExcludedTitles = new Set([
+    "모두의 미술사",
+    "안데르센 메르헨",
+    "피카소와 나",
+    "헤르메스 이야기",
+  ]);
+
+  const foreignLanguagePattern =
+    /(영어|영문|프랑스어|독일어|일본어|중국어|스페인어|라틴어|외국어|토익|토플|어학)/i;
+  const cookingAndHomePattern =
+    /(요리|레시피|쿡북|베이킹|디저트|가정식|반찬|살림법|정리수납|집안일|청소법|수납법)/i;
+  const youthPattern =
+    /(청소년|어린이|아동문학|사춘기|그림책|초등학생|중학생|고등학생|수험서|문제집|참고서)/i;
+
+  const isArchiveEligible = (book) => {
+    const title = String(book.title || "");
+    const searchable = `${title} ${book.theme || ""}`;
+    return (
+      !explicitlyExcludedTitles.has(title) &&
+      !foreignLanguagePattern.test(title) &&
+      !cookingAndHomePattern.test(searchable) &&
+      !youthPattern.test(title)
+    );
+  };
+
+  const archiveBooks = data.books.filter(isArchiveEligible);
+
   const cleanMeta = (value) =>
     String(value || "")
       .split(/[·|]/)
@@ -81,6 +108,7 @@
   function renderDaily() {
     if (!dailyTarget) return;
     dailyTarget.innerHTML = data.dailyPicks
+      .filter(isArchiveEligible)
       .map(
         (book) => `
           <article class="book-daily-card" id="${escapeHtml(bookAnchorId(book))}">
@@ -101,7 +129,7 @@
 
   function renderThemeOptions() {
     if (!themeSelect) return;
-    const themes = Array.from(new Set(data.books.map((book) => book.theme))).sort((a, b) =>
+    const themes = Array.from(new Set(archiveBooks.map((book) => book.theme))).sort((a, b) =>
       a.localeCompare(b, "ko")
     );
     themeSelect.innerHTML = [
@@ -113,7 +141,7 @@
   function filteredBooks() {
     const query = (searchInput && searchInput.value.trim().toLowerCase()) || "";
     const theme = (themeSelect && themeSelect.value) || "all";
-    return data.books.filter((book) => {
+    return archiveBooks.filter((book) => {
       const inTheme = theme === "all" || book.theme === theme;
       const haystack = `${book.title} ${book.metadata} ${book.theme}`.toLowerCase();
       return inTheme && (!query || haystack.includes(query));

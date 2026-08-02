@@ -8,10 +8,11 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 120,
+    "reviewLinkedCount": 119,
     "duplicateExcludedCount": 325,
-    "publicCount": 2181,
-    "publicNote": "가격·상태·거래 정보는 공개하지 않고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
+    "editorialExcludedCount": 13,
+    "publicCount": 2185,
+    "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
     {
@@ -26,17 +27,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "review": "가짜 공동체, 혼란, 비움, 진정한 공동체의 네 단계를 따라 차이를 지우지 않는 경청의 윤리와 그것을 제도와 국제 정치로 확장할 때의 가능성 및 한계를 읽는다."
     },
     {
-      "id": "391780544",
-      "title": "프랑스 쿡북",
-      "metadata": "지네트 마티오·클로틸드 뒤술리에 지음, 정연주 옮김 | 세미콜론",
-      "theme": "가정식/조리문화",
-      "imageUrl": "assets/book-covers/france-cookbook-mathiot.jpg",
-      "reviewUrl": "posts/france-cookbook-mathiot.html",
-      "label": "Book Archive · 오늘의 장문 리뷰",
-      "subtitle": "한 나라의 맛은 어떻게 집의 기술이 되는가",
-      "review": "소스와 재료, 조리법의 변주를 따라 프랑스 가정식이 반복 가능한 지식으로 표준화되는 과정과 그 성취, 지역성과 돌봄 노동의 긴장을 읽는다."
-    },
-    {
       "id": "392078212",
       "title": "기계는 왜 학습하는가",
       "metadata": "아닐 아난타스와미 지음, 노승영 옮김 | 까치",
@@ -46,6 +36,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "오차를 줄이는 일이 어떻게 학습이 되는가",
       "review": "벡터와 경사하강법, 확률과 커널, 역전파와 일반화의 수학을 따라 기계의 학습이 가능한 조건과 아직 풀리지 않은 질문을 읽는다."
+    },
+    {
+      "id": "392078350",
+      "title": "정복왕 윌리엄",
+      "metadata": "폴 쥠토르 지음, 김동섭 옮김 | 글항아리",
+      "theme": "노르만정복/중세권력",
+      "imageUrl": "assets/book-covers/william-conqueror-zumthor.jpg",
+      "reviewUrl": "posts/william-conqueror-zumthor.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 번의 승리는 어떻게 하나의 질서가 되는가",
+      "review": "1066년의 전투를 넘어 토지와 교회, 문서와 언어가 재편되며 정복이 일상의 질서로 굳는 시간을 읽는다."
     }
   ],
   "books": [

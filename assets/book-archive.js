@@ -16,6 +16,7 @@
     "안데르센 메르헨",
     "피카소와 나",
     "헤르메스 이야기",
+    "뮤지엄",
   ]);
 
   const foreignLanguagePattern =

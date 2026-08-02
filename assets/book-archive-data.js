@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 190,
+    "reviewLinkedCount": 191,
     "duplicateExcludedCount": 325,
-    "editorialExcludedCount": 13,
-    "publicCount": 2185,
+    "editorialExcludedCount": 14,
+    "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385502407",
+      "title": "마지막 황태자",
+      "metadata": "송우혜 지음 | 푸른역사",
+      "theme": "대한제국사/황실과 식민 권력",
+      "imageUrl": "assets/book-covers/last-crown-prince-song-woohye.jpg",
+      "reviewUrl": "posts/last-crown-prince-song-woohye.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "인질의 생애는 제국을 어디까지 설명하는가",
+      "review": "엄귀비의 궁중 정치에서 이은의 일본 유학·군사교육·정략결혼과 해방 뒤 귀환까지를 따라가며 사료 기반 서사의 힘, 황실 가족사와 식민 권력을 겹쳐 읽을 때 생기는 성취와 한계를 짚는다."
+    },
     {
       "id": "385718051",
       "title": "코뮤니스트",
@@ -1039,10 +1050,11 @@ window.PAUL_BOOK_ARCHIVE = {
     },
     {
       "id": "385502407",
-      "title": "마지막 황태자 세트 - 전4권",
+      "title": "마지막 황태자",
       "metadata": "송우혜 지음 | 푸른역사",
-      "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/1650/54/cover500/8994079424_1.jpg"
+      "theme": "대한제국사/황실과 식민 권력",
+      "imageUrl": "assets/book-covers/last-crown-prince-song-woohye.jpg",
+      "reviewUrl": "posts/last-crown-prince-song-woohye.html"
     },
     {
       "id": "385502109",

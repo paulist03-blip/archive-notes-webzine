@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 173,
+    "reviewLinkedCount": 174,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387504319",
+      "title": "지도를 따라가는 반 고흐의 삶과 여행",
+      "metadata": "닌커 데너캄프·르네 판 블레르크·테이오 메이덴도르프 지음, 유동익 옮김 | 이론과실천",
+      "theme": "미술가론/장소와 이동",
+      "imageUrl": "assets/book-covers/vincent-van-gogh-atlas-denekamp.jpg",
+      "reviewUrl": "posts/vincent-van-gogh-atlas-denekamp.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "장소는 어떻게 반 고흐를 화가로 만들었는가",
+      "review": "준데르트에서 오베르까지 지도와 옛 사진, 편지와 작품을 겹쳐 보며 고독한 천재의 신화 대신 장소와 철도, 관계와 작업 조건이 변화시킨 반 고흐의 시선을 읽는다."
+    },
     {
       "id": "387504354",
       "title": "한 권으로 끝내는 미술 수업 가이드북",
@@ -679,9 +690,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "387504319",
       "title": "지도를 따라가는 반 고흐의 삶과 여행",
-      "metadata": "닌커 데너캄프 외 지음, 유동익 옮김 | 이론과실천",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/8779/58/cover500/8931360673_1.jpg"
+      "metadata": "닌커 데너캄프·르네 판 블레르크·테이오 메이덴도르프 지음, 유동익 옮김 | 이론과실천",
+      "theme": "미술가론/장소와 이동",
+      "imageUrl": "assets/book-covers/vincent-van-gogh-atlas-denekamp.jpg",
+      "reviewUrl": "posts/vincent-van-gogh-atlas-denekamp.html"
     },
     {
       "id": "387504314",

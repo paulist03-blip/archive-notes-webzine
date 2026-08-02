@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 156,
+    "reviewLinkedCount": 157,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004208",
+      "title": "하이브리드 한의학",
+      "metadata": "김종영 지음 | 돌베개",
+      "theme": "의학사회학/과학기술학",
+      "imageUrl": "assets/book-covers/hybrid-korean-medicine-kim.jpg",
+      "reviewUrl": "posts/hybrid-korean-medicine-kim.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "전통은 어떻게 실험실에 들어가는가",
+      "review": "식민지기의 지식 위계와 제도화, 한약 분쟁, 실험실의 과학적 번역, 협진과 바이오경제를 따라 한의학이 혼종적 근대로 만들어진 과정과 그 한계를 읽는다."
+    },
     {
       "id": "389004600",
       "title": "성서의 이야기 기술",
@@ -355,8 +366,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389004208",
       "title": "하이브리드 한의학",
       "metadata": "김종영 지음 | 돌베개",
-      "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/21312/52/cover500/8971999837_1.jpg"
+      "theme": "의학사회학/과학기술학",
+      "imageUrl": "assets/book-covers/hybrid-korean-medicine-kim.jpg",
+      "reviewUrl": "posts/hybrid-korean-medicine-kim.html"
     },
     {
       "id": "389004193",

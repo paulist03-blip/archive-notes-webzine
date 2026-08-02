@@ -15,15 +15,15 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
-      "id": "386231819",
-      "title": "가차없는 자본주의",
-      "metadata": "조이스 애플비",
-      "theme": "역사/자본주의",
-      "imageUrl": "assets/book-covers/relentless-capitalism-appleby.jpg",
-      "reviewUrl": "posts/relentless-capitalism-appleby.html",
-      "label": "Issue 50 · 오늘의 책장",
-      "subtitle": "자본주의는 언제 인간의 본성이 되었는가",
-      "review": "영국 농업과 산업화, 기업가 문화와 국가, 제국과 세계시장이 자본주의를 만든 과정을 읽는다."
+      "id": "395345172",
+      "title": "미학으로 동양 인문학을 꿰뚫다",
+      "metadata": "주량즈 지음, 신원봉 옮김 | 알마",
+      "theme": "예술/문화",
+      "imageUrl": "assets/book-covers/chinese-aesthetics-fifteen-lectures-zhu.jpg",
+      "reviewUrl": "posts/chinese-aesthetics-fifteen-lectures-zhu.html",
+      "label": "Book Archive · 순차 리뷰 001",
+      "subtitle": "비어 있음은 어떻게 세계를 넓히는가",
+      "review": "물아의 회통과 기화하는 우주, 무언과 여백, 경계와 묘오를 따라 중국 미학이 세계와 관계 맺는 방식을 읽는다."
     },
     {
       "id": "387364662",
@@ -150,7 +150,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "미학으로 동양 인문학을 꿰뚫다",
       "metadata": "주량즈 지음, 신원봉 옮김 | 알마",
       "theme": "예술/문화",
-      "imageUrl": "https://image.aladin.co.kr/product/2442/58/cover500/8994963677_2.jpg"
+      "imageUrl": "assets/book-covers/chinese-aesthetics-fifteen-lectures-zhu.jpg",
+      "reviewUrl": "posts/chinese-aesthetics-fifteen-lectures-zhu.html"
     },
     {
       "id": "second-world-war-beevor",

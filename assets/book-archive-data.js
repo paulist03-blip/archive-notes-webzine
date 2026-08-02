@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 168,
+    "reviewLinkedCount": 169,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387504652",
+      "title": "작가를 위한 세계관 구축법 : 생성 편",
+      "metadata": "티머시 힉슨 지음, 정아영 옮김 | 다른",
+      "theme": "창작론/서사와 세계관",
+      "imageUrl": "assets/book-covers/on-writing-worldbuilding-hickson.jpg",
+      "reviewUrl": "posts/on-writing-worldbuilding-hickson.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "세계는 얼마나 만들어져야 이야기가 움직이는가",
+      "review": "도입부와 인물, 마법 체계와 종교, 제국의 작동을 따라 세계관이 설정의 전시장이 아니라 선택과 갈등에 압력을 가하는 서사 환경이 되는 조건을 읽는다."
+    },
     {
       "id": "387504775",
       "title": "21세기 최고의 세계사 수업",
@@ -569,8 +580,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504652",
       "title": "작가를 위한 세계관 구축법 : 생성 편",
       "metadata": "티머시 힉슨 지음, 정아영 옮김 | 다른",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/29677/15/cover500/k242838288_1.jpg"
+      "theme": "창작론/서사와 세계관",
+      "imageUrl": "assets/book-covers/on-writing-worldbuilding-hickson.jpg",
+      "reviewUrl": "posts/on-writing-worldbuilding-hickson.html"
     },
     {
       "id": "387504604",

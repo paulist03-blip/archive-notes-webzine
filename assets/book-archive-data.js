@@ -15,37 +15,37 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
-      "id": "395345172",
-      "title": "미학으로 동양 인문학을 꿰뚫다",
-      "metadata": "주량즈 지음, 신원봉 옮김 | 알마",
-      "theme": "예술/문화",
-      "imageUrl": "assets/book-covers/chinese-aesthetics-fifteen-lectures-zhu.jpg",
-      "reviewUrl": "posts/chinese-aesthetics-fifteen-lectures-zhu.html",
-      "label": "Book Archive · 순차 리뷰 001",
-      "subtitle": "비어 있음은 어떻게 세계를 넓히는가",
-      "review": "물아의 회통과 기화하는 우주, 무언과 여백, 경계와 묘오를 따라 중국 미학이 세계와 관계 맺는 방식을 읽는다."
+      "id": "389350532",
+      "title": "파리의 농부",
+      "metadata": "루이 아라공 지음, 오종은 옮김 | 이모션북스",
+      "theme": "문학/도시문화",
+      "imageUrl": "assets/book-covers/paris-peasant-aragon.jpg",
+      "reviewUrl": "posts/paris-peasant-aragon.html",
+      "label": "Issue 51 · 오늘의 책장",
+      "subtitle": "도시는 언제 낯선 신화가 되는가",
+      "review": "사라져 가는 오페라 통로와 뷔트쇼몽 공원에서 일상의 사물이 현대의 신화로 바뀌는 순간을 읽는다."
     },
     {
-      "id": "387364662",
-      "title": "자연의 악",
-      "metadata": "알렉산더 에트킨트",
-      "theme": "사상/환경사",
-      "imageUrl": "assets/book-covers/natures-evil-etkind.jpg",
-      "reviewUrl": "posts/natures-evil-etkind.html",
-      "label": "Issue 50 · 오늘의 책장",
-      "subtitle": "국가는 무엇을 태우며 커지는가",
-      "review": "곡물과 모피, 석탄과 석유가 노동과 세금, 제국과 민주주의를 다르게 배치한 방식을 읽는다."
+      "id": "364174771",
+      "title": "보들레르의 파리",
+      "metadata": "발터 벤야민 지음, 조형준 옮김 | 새물결",
+      "theme": "사상/문화사",
+      "imageUrl": "assets/book-covers/paris-of-baudelaire-benjamin.jpg",
+      "reviewUrl": "posts/paris-of-baudelaire-benjamin.html",
+      "label": "Issue 51 · 오늘의 책장",
+      "subtitle": "파리는 무엇을 감추며 근대가 되는가",
+      "review": "수집가와 실내, 흔적과 보들레르를 따라 상품의 환등상과 근대 도시의 기억을 읽는다."
     },
     {
-      "id": "385052207",
-      "title": "풍경의 깊이",
-      "metadata": "강요배",
-      "theme": "예술/풍경과 기억",
-      "imageUrl": "assets/book-covers/depth-of-landscape-kang.jpg",
-      "reviewUrl": "posts/depth-of-landscape-kang.html",
-      "label": "Issue 50 · 오늘의 책장",
-      "subtitle": "풍경은 어떻게 역사의 표정을 얻는가",
-      "review": "제주의 바람과 돌, 4·3의 기억 속에서 장소를 오래 본다는 일의 책임을 읽는다."
+      "id": "364180702",
+      "title": "계급론",
+      "metadata": "에릭 올린 라이트 지음, 이한 옮김 | 한울(한울아카데미)",
+      "theme": "사회/계급이론",
+      "imageUrl": "assets/book-covers/understanding-class-wright.jpg",
+      "reviewUrl": "posts/understanding-class-wright.html",
+      "label": "Issue 51 · 오늘의 책장",
+      "subtitle": "계급은 어디에서 관계가 되는가",
+      "review": "착취와 시장 기회, 기회 독점과 자산 분배를 하나의 관계적 분석으로 묶는 시도를 읽는다."
     }
   ],
   "books": [
@@ -283,7 +283,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "파리의 농부",
       "metadata": "루이 아라공 지음, 오종은 옮김 | 이모션북스",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/17549/66/cover500/k382534400_1.jpg"
+      "imageUrl": "assets/book-covers/paris-peasant-aragon.jpg",
+      "reviewUrl": "posts/paris-peasant-aragon.html"
     },
     {
       "id": "389004788",
@@ -16727,7 +16728,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "metadata": "에릭 올린 라이트 지음, 이한 옮김 | 한울(한울아카데미)",
       "theme": "사회/경제",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364180702",
-      "imageUrl": "https://image.aladin.co.kr/product/25211/26/cover500/8946069449_1.jpg",
+      "imageUrl": "assets/book-covers/understanding-class-wright.jpg",
+      "reviewUrl": "posts/understanding-class-wright.html",
       "sourcePage": 40
     },
     {
@@ -17411,7 +17413,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "metadata": "발터 벤야민 지음, 조형준 옮김 | 새물결",
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364174771",
-      "imageUrl": "https://image.aladin.co.kr/product/250/42/cover500/8955592574_1.jpg",
+      "imageUrl": "assets/book-covers/paris-of-baudelaire-benjamin.jpg",
+      "reviewUrl": "posts/paris-of-baudelaire-benjamin.html",
       "sourcePage": 42
     },
     {

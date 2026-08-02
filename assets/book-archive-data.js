@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 172,
+    "reviewLinkedCount": 173,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387504354",
+      "title": "한 권으로 끝내는 미술 수업 가이드북",
+      "metadata": "김유미·최소라·정선혜 지음 | 교육과학사",
+      "theme": "미술교육/수업 설계",
+      "imageUrl": "assets/book-covers/art-class-guidebook-kim-choi-jeong.jpg",
+      "reviewUrl": "posts/art-class-guidebook-kim-choi-jeong.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "미술 수업은 어떻게 생각하는 법을 가르치는가",
+      "review": "감각과 발상, 제작과 성찰, 생태·시민·디지털 소양을 잇는 수업 모형을 따라 미술이 결과물의 솜씨를 넘어 생각의 과정을 가르치는 조건을 읽는다."
+    },
     {
       "id": "387504356",
       "title": "안준걸의 프리미엄 펜화 강의",
@@ -660,9 +671,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "387504354",
       "title": "한 권으로 끝내는 미술 수업 가이드북",
-      "metadata": "김유미.최소라.정선혜 지음 | 교육과학사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/31340/91/cover500/8925417634_1.jpg"
+      "metadata": "김유미·최소라·정선혜 지음 | 교육과학사",
+      "theme": "미술교육/수업 설계",
+      "imageUrl": "assets/book-covers/art-class-guidebook-kim-choi-jeong.jpg",
+      "reviewUrl": "posts/art-class-guidebook-kim-choi-jeong.html"
     },
     {
       "id": "387504319",

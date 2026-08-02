@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 152,
+    "reviewLinkedCount": 153,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004788",
+      "title": "비트코인의 시대",
+      "metadata": "김창익 지음 | 다산북스",
+      "theme": "화폐질서/디지털 희소성",
+      "imageUrl": "assets/book-covers/age-of-bitcoin-kim-changik.jpg",
+      "reviewUrl": "posts/age-of-bitcoin-kim-changik.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "비트코인은 어떻게 화폐의 질문이 되었는가",
+      "review": "화폐의 신뢰와 달러 질서, 디지털 희소성과 현물 상장지수상품의 제도화를 따라 비트코인이 바꾼 질문과 아직 넘지 못한 통화적 한계를 읽는다."
+    },
     {
       "id": "391771273",
       "title": "마음을 어떻게 비울 것인가",
@@ -36,17 +47,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "오차를 줄이는 일이 어떻게 학습이 되는가",
       "review": "벡터와 경사하강법, 확률과 커널, 역전파와 일반화의 수학을 따라 기계의 학습이 가능한 조건과 아직 풀리지 않은 질문을 읽는다."
-    },
-    {
-      "id": "392078350",
-      "title": "정복왕 윌리엄",
-      "metadata": "폴 쥠토르 지음, 김동섭 옮김 | 글항아리",
-      "theme": "노르만정복/중세권력",
-      "imageUrl": "assets/book-covers/william-conqueror-zumthor.jpg",
-      "reviewUrl": "posts/william-conqueror-zumthor.html",
-      "label": "Book Archive · 오늘의 장문 리뷰",
-      "subtitle": "한 번의 승리는 어떻게 하나의 질서가 되는가",
-      "review": "1066년의 전투를 넘어 토지와 교회, 문서와 언어가 재편되며 정복이 일상의 질서로 굳는 시간을 읽는다."
     }
   ],
   "books": [
@@ -301,8 +301,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389004788",
       "title": "비트코인의 시대",
       "metadata": "김창익 지음 | 다산북스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36241/78/cover500/k872038819_1.jpg"
+      "theme": "화폐질서/디지털 희소성",
+      "imageUrl": "assets/book-covers/age-of-bitcoin-kim-changik.jpg",
+      "reviewUrl": "posts/age-of-bitcoin-kim-changik.html"
     },
     {
       "id": "389004774",

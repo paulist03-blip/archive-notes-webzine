@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 160,
+    "reviewLinkedCount": 161,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389003848",
+      "title": "동기와 성격",
+      "metadata": "에이브러햄 매슬로 지음, 오혜경 옮김 | 연암서가",
+      "theme": "인본주의 심리학/동기이론",
+      "imageUrl": "assets/book-covers/motivation-personality-maslow.jpg",
+      "reviewUrl": "posts/motivation-personality-maslow.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "사람은 결핍만으로 움직이지 않는다",
+      "review": "욕구의 상대적 우선성과 부분 충족, 자아실현과 심리적 건강, 인간과학의 방법론을 따라 매슬로의 성취를 읽고 피라미드 도식과 실증적 한계를 함께 검토한다."
+    },
     {
       "id": "389004130",
       "title": "아틀라스 1",
@@ -412,8 +423,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389003848",
       "title": "동기와 성격",
       "metadata": "에이브러햄 매슬로 지음, 오혜경 옮김 | 연암서가",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/26620/78/cover500/k592739133_1.jpg"
+      "theme": "인본주의 심리학/동기이론",
+      "imageUrl": "assets/book-covers/motivation-personality-maslow.jpg",
+      "reviewUrl": "posts/motivation-personality-maslow.html"
     },
     {
       "id": "388859637",

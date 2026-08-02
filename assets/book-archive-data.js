@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 171,
+    "reviewLinkedCount": 172,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387504356",
+      "title": "안준걸의 프리미엄 펜화 강의",
+      "metadata": "안준걸 지음 | 황금부엉이",
+      "theme": "미술실기/펜화와 관찰",
+      "imageUrl": "assets/book-covers/premium-pen-drawing-ahn.jpg",
+      "reviewUrl": "posts/premium-pen-drawing-ahn.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "선은 어떻게 보는 법을 바꾸는가",
+      "review": "형태와 시점, 명암과 펜선, 정물·자연·풍경·인물·동물·채색을 따라 사진의 복제를 넘어 대상을 선택하고 선으로 번역하는 관찰의 방법을 읽는다."
+    },
     {
       "id": "387504418",
       "title": "뜨거운 얼음 : 글렌 굴드의 삶과 예술",
@@ -642,8 +653,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504356",
       "title": "안준걸의 프리미엄 펜화 강의",
       "metadata": "안준걸 지음 | 황금부엉이",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35950/92/cover500/8960306452_1.jpg"
+      "theme": "미술실기/펜화와 관찰",
+      "imageUrl": "assets/book-covers/premium-pen-drawing-ahn.jpg",
+      "reviewUrl": "posts/premium-pen-drawing-ahn.html"
     },
     {
       "id": "387504354",

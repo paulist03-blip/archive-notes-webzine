@@ -833,21 +833,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "오즈의 오즈마",
       "metadata": "라이먼 프랭크 바움 지음, 존 R. 닐 그림, 강석주 옮김 | 지식을만드는지식",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36298/80/cover500/k362038247_2.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/36298/80/cover500/k362038247_2.jpg",
+      "reviewUrl": "posts/ozma-of-oz-baum.html"
     },
     {
       "id": "385052766",
       "title": "한국전쟁에서 싸운 일본인",
       "metadata": "후지와라 가즈키 지음, 박용준 옮김 | 소명출판",
       "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/31644/76/cover500/k862833376_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/31644/76/cover500/k862833376_1.jpg",
+      "reviewUrl": "posts/japanese-fighters-in-korean-war-fujiwara.html"
     },
     {
       "id": "385052739",
       "title": "19세기 가문 주인을 위한 하인 관리 예법서 & 19세기 상류층 가문 식사 시중 예법서",
-      "metadata": "A Member of The Aristocracy 지음, 이미경 외 옮김 | 루아르북스",
+      "metadata": "A Member of the Aristocracy 지음, 이미경·홍수연·원희래 옮김 | 루아르북스",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/31865/56/cover500/s352833741_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/31865/56/cover500/s352833741_1.jpg",
+      "reviewUrl": "posts/victorian-servant-management-table-service.html"
     },
     {
       "id": "385052588",

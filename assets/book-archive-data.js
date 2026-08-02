@@ -705,21 +705,24 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "아랍, 그곳에도 사람들이 살고 있다",
       "metadata": "팀 매킨토시-스미스 지음, 마틴 요먼 그림, 신해경 옮김 | 봄날의책",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/7489/94/cover500/k062434604_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/7489/94/cover500/k062434604_1.jpg",
+      "reviewUrl": "posts/travels-with-a-tangerine-mackintosh-smith.html"
     },
     {
       "id": "385501950",
       "title": "미켈란젤로, 생의 마지막 도전",
       "metadata": "윌리엄 E. 월리스 지음, 이종인 옮김 | 책과함께",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/28388/99/cover500/k622835810_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/28388/99/cover500/k622835810_1.jpg",
+      "reviewUrl": "posts/michelangelo-gods-architect-wallace.html"
     },
     {
       "id": "385501847",
       "title": "씨앗에서 먼지로",
       "metadata": "마크 헤이머 지음, 정연희 옮김 | 1984Books",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36489/77/cover500/k392039110_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/36489/77/cover500/k392039110_1.jpg",
+      "reviewUrl": "posts/seed-to-dust-marc-hamer.html"
     },
     {
       "id": "385063142",

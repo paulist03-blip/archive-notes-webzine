@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 185,
+    "reviewLinkedCount": 186,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385718899",
+      "title": "지리학과 지정학으로 읽는 중동 사전",
+      "metadata": "이완 W. 앤더슨 지음, 이주성 옮김 | 메디치미디어",
+      "theme": "중동지리/자원·경계와 지정학",
+      "imageUrl": "assets/book-covers/middle-east-geography-geopolitics-anderson.jpg",
+      "reviewUrl": "posts/middle-east-geography-geopolitics-anderson.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "지도는 중동을 얼마나 설명할 수 있는가",
+      "review": "지형과 기후, 물과 석유, 인구와 국경을 따라 중동 정치의 물질적 조건을 읽고, 지리결정론의 위험과 2000년 원저 이후 필요한 업데이트를 함께 짚는다."
+    },
     {
       "id": "385719058",
       "title": "루터의 탁상담화",
@@ -939,8 +950,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385718899",
       "title": "지리학과 지정학으로 읽는 중동 사전",
       "metadata": "이완 W. 앤더슨 지음, 이주성 옮김 | 메디치미디어",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35653/79/cover500/k062036814_1.jpg"
+      "theme": "중동지리/자원·경계와 지정학",
+      "imageUrl": "assets/book-covers/middle-east-geography-geopolitics-anderson.jpg",
+      "reviewUrl": "posts/middle-east-geography-geopolitics-anderson.html"
     },
     {
       "id": "385718242",

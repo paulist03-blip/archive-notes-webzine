@@ -807,23 +807,26 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385053027",
       "title": "제2언어 습득",
-      "metadata": "비비언 쿡.데이비드 싱글턴 지음, 이승연 옮김 | 역락",
+      "metadata": "비비언 쿡·데이비드 싱글턴 지음, 이승연 옮김 | 역락",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27355/93/cover500/k832732521_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/27355/93/cover500/k832732521_1.jpg",
+      "reviewUrl": "posts/second-language-acquisition-cook-singleton.html"
     },
     {
       "id": "385053013",
       "title": "중독의 신경과학",
       "metadata": "프란체스카 마푸아 필비 지음, 홍욱희 옮김 | 에코리브르",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36747/10/cover500/8962633140_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/36747/10/cover500/8962633140_1.jpg",
+      "reviewUrl": "posts/neuroscience-of-addiction-filbey.html"
     },
     {
       "id": "385052988",
       "title": "트러블과 함께하기",
       "metadata": "도나 해러웨이 지음, 최유미 옮김 | 마농지",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27639/36/cover500/k622733125_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/27639/36/cover500/k622733125_1.jpg",
+      "reviewUrl": "posts/haraway-staying-with-the-trouble.html"
     },
     {
       "id": "385052877",

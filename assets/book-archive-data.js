@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 180,
+    "reviewLinkedCount": 181,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385719814",
+      "title": "크로스오버 하이데거",
+      "metadata": "이승종 지음 | 동연출판사",
+      "theme": "현대철학/분석적 해석학과 기술",
+      "imageUrl": "assets/book-covers/crossover-heidegger-lee-seungjong.jpg",
+      "reviewUrl": "posts/crossover-heidegger-lee-seungjong.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "하이데거는 분석철학의 언어로 읽힐 수 있는가",
+      "review": "후설의 지향성에서 비트겐슈타인의 언어, 도구와 진리, 정보·매체·기술과 허무주의까지, 분석적 명료성과 해석학적 사유를 교차시키는 시도의 성취와 긴장을 읽는다."
+    },
     {
       "id": "385986561",
       "title": "자신에 대한 배우의 작업 1",
@@ -836,8 +847,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385719814",
       "title": "크로스오버 하이데거",
       "metadata": "이승종 지음 | 동연출판사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27349/73/cover500/8964476514_1.jpg"
+      "theme": "현대철학/분석적 해석학과 기술",
+      "imageUrl": "assets/book-covers/crossover-heidegger-lee-seungjong.jpg",
+      "reviewUrl": "posts/crossover-heidegger-lee-seungjong.html"
     },
     {
       "id": "385719764",

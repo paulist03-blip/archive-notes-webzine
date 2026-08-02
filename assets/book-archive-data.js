@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 183,
+    "reviewLinkedCount": 184,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 13,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385719685",
+      "title": "아우슈비츠는 멀리 있지 않다",
+      "metadata": "조너선 프리드랜드 지음, 김재경 옮김 | 아카넷",
+      "theme": "홀로코스트사/증언·경고와 행동",
+      "imageUrl": "assets/book-covers/auschwitz-not-far-freedland.jpg",
+      "reviewUrl": "posts/auschwitz-not-far-freedland.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "진실은 도착하는 것만으로 사람을 구할 수 있는가",
+      "review": "루돌프 브르바와 알프레드 베츨러의 탈출, 보고서의 검증과 국제적 이동을 따라 진실이 행동으로 바뀌는 조건과 단독 영웅 서사의 한계를 읽는다."
+    },
     {
       "id": "385719738",
       "title": "조선시대 양반과 선비 1·2",
@@ -893,8 +904,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385719685",
       "title": "아우슈비츠는 멀리 있지 않다",
       "metadata": "조너선 프리드랜드 지음, 김재경 옮김 | 아카넷",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36990/74/cover500/8957339965_1.jpg"
+      "theme": "홀로코스트사/증언·경고와 행동",
+      "imageUrl": "assets/book-covers/auschwitz-not-far-freedland.jpg",
+      "reviewUrl": "posts/auschwitz-not-far-freedland.html"
     },
     {
       "id": "385719084",

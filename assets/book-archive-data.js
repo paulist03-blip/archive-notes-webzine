@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 203,
+    "reviewLinkedCount": 204,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385053577",
+      "title": "또 다른 현대미술",
+      "metadata": "뱅자맹 올리벤느 지음, 김정인 옮김 | 크루",
+      "theme": "미술비평/구상회화와 대항 정전",
+      "imageUrl": "assets/book-covers/another-contemporary-art-olivennes.jpg",
+      "reviewUrl": "posts/another-contemporary-art-olivennes.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "다른 현대미술은 누구의 정전이 되는가",
+      "review": "아방가르드의 진보 서사와 제도·시장의 권력을 비판하고 프랑스 구상미술의 다른 계보를 복원하는 성취를 읽되, 진짜와 가짜의 이분법이 또 하나의 배타적 정전이 되는 한계를 함께 짚는다."
+    },
     {
       "id": "385054228",
       "title": "인간 딜레마",
@@ -1237,8 +1248,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385053577",
       "title": "또 다른 현대미술",
       "metadata": "뱅자맹 올리벤느 지음, 김정인 옮김 | 크루",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/32764/93/cover500/k672936283_1.jpg"
+      "theme": "미술비평/구상회화와 대항 정전",
+      "imageUrl": "assets/book-covers/another-contemporary-art-olivennes.jpg",
+      "reviewUrl": "posts/another-contemporary-art-olivennes.html"
     },
     {
       "id": "consuming-romantic-utopia-illouz",

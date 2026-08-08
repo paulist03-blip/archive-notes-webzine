@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 196,
+    "reviewLinkedCount": 197,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "387413127",
+      "title": "모두의 미술사",
+      "metadata": "마이클 버드 지음, 케이트 에번스 그림, 박재연 옮김 | 이마주",
+      "theme": "미술사/서사와 세계 미술 정전",
+      "imageUrl": "assets/book-covers/everyones-art-history-michael-bird.jpg",
+      "reviewUrl": "posts/everyones-art-history-michael-bird.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "미술사는 어떻게 한 장면이 되는가",
+      "review": "4만 년의 미술을 68편의 제작 장면으로 되살리는 서사적 입문의 힘을 읽고, 장인·후원자·관람자의 목소리가 넓힌 정전과 연대기·상상적 복원이 남기는 한계를 함께 짚는다."
+    },
     {
       "id": "391768738",
       "title": "사춘기",
@@ -947,8 +958,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387413127",
       "title": "모두의 미술사",
       "metadata": "마이클 버드 지음, 케이트 에번스 그림, 박재연 옮김 | 이마주",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27796/77/cover500/k372734067_1.jpg"
+      "theme": "미술사/서사와 세계 미술 정전",
+      "imageUrl": "assets/book-covers/everyones-art-history-michael-bird.jpg",
+      "reviewUrl": "posts/everyones-art-history-michael-bird.html"
     },
     {
       "id": "387364662",

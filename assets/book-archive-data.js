@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 201,
+    "reviewLinkedCount": 203,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385054228",
+      "title": "인간 딜레마",
+      "metadata": "이용범 지음 | 노마드",
+      "theme": "인간학/도덕적 선택과 협력",
+      "imageUrl": "assets/book-covers/human-dilemma-lee-yongbeom.jpg",
+      "reviewUrl": "posts/human-dilemma-lee-yongbeom.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "딜레마는 인간의 본성을 어디까지 설명하는가",
+      "review": "도덕적 선택과 협력, 유전자와 문화, 성차를 하나의 인간 본성론으로 엮는 방식을 읽고, 사고실험의 개념적 확장과 진화·성차 설명이 남기는 한계를 함께 짚는다."
+    },
     {
       "id": "385501847",
       "title": "씨앗에서 먼지로",
@@ -1211,14 +1222,16 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "투명기계",
       "metadata": "김곡 지음 | 갈무리",
       "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/16234/14/cover500/8961951866_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/16234/14/cover500/8961951866_1.jpg",
+      "reviewUrl": "posts/transparent-machine-kim-gok.html"
     },
     {
       "id": "385054228",
       "title": "인간 딜레마",
       "metadata": "이용범 지음 | 노마드",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/33330/38/cover500/k612938590_1.jpg"
+      "theme": "인간학/도덕적 선택과 협력",
+      "imageUrl": "assets/book-covers/human-dilemma-lee-yongbeom.jpg",
+      "reviewUrl": "posts/human-dilemma-lee-yongbeom.html"
     },
     {
       "id": "385053577",

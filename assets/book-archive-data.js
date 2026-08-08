@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 200,
+    "reviewLinkedCount": 201,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385501847",
+      "title": "씨앗에서 먼지로",
+      "metadata": "마크 헤이머 지음, 정연희 옮김 | 1984Books",
+      "theme": "자연에세이/정원 노동과 유한성",
+      "imageUrl": "assets/book-covers/seed-to-dust-marc-hamer.jpg",
+      "reviewUrl": "posts/seed-to-dust-marc-hamer.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "돌보는 사람은 무엇을 소유하는가",
+      "review": "한 해의 정원 노동을 따라 돌봄과 소유, 노화와 죽음의 순환을 읽고, 정원사와 고용주 사이의 계급 관계 및 회고적 자연관의 성취와 한계를 함께 짚는다."
+    },
     {
       "id": "385502093",
       "title": "아랍, 그곳에도 사람들이 살고 있다",
@@ -1175,8 +1186,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385501847",
       "title": "씨앗에서 먼지로",
       "metadata": "마크 헤이머 지음, 정연희 옮김 | 1984Books",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36489/77/cover500/k392039110_1.jpg"
+      "theme": "자연에세이/정원 노동과 유한성",
+      "imageUrl": "assets/book-covers/seed-to-dust-marc-hamer.jpg",
+      "reviewUrl": "posts/seed-to-dust-marc-hamer.html"
     },
     {
       "id": "eclipse-reason-horkheimer",

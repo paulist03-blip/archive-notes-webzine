@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 204,
+    "reviewLinkedCount": 205,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385053482",
+      "title": "영화를 찍으며 생각한 것",
+      "metadata": "고레에다 히로카즈 지음, 이지수 옮김 | 바다출판사",
+      "theme": "영화론/다큐멘터리 윤리와 발견의 연출",
+      "imageUrl": "assets/book-covers/filmmaking-thoughts-koreeda.jpg",
+      "reviewUrl": "posts/filmmaking-thoughts-koreeda.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "영화는 언제 계획을 버리고 발견을 시작하는가",
+      "review": "다큐멘터리에서 출발한 연출론과 콘티를 버리는 발견, 부재와 가족, 감독을 요리인으로 보는 제작론을 읽고 자기회고가 만든 작가 신화와 촬영 관계의 윤리적 한계를 함께 짚는다."
+    },
     {
       "id": "385053577",
       "title": "또 다른 현대미술",
@@ -1262,10 +1273,11 @@ window.PAUL_BOOK_ARCHIVE = {
     },
     {
       "id": "385053482",
-      "title": "영화를 찍으며 생각한 것 (리커버 특별판)",
+      "title": "영화를 찍으며 생각한 것",
       "metadata": "고레에다 히로카즈 지음, 이지수 옮김 | 바다출판사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/29578/70/cover500/k252838261_2.jpg"
+      "theme": "영화론/다큐멘터리 윤리와 발견의 연출",
+      "imageUrl": "assets/book-covers/filmmaking-thoughts-koreeda.jpg",
+      "reviewUrl": "posts/filmmaking-thoughts-koreeda.html"
     },
     {
       "id": "385053325",

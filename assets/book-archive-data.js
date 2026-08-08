@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 198,
+    "reviewLinkedCount": 199,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385502109",
+      "title": "베르디 오페라",
+      "metadata": "박종호 지음 | 풍월당",
+      "theme": "음악사/오페라와 예술가의 생애",
+      "imageUrl": "assets/book-covers/verdi-opera-park-jongho.jpg",
+      "reviewUrl": "posts/verdi-opera-park-jongho.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 작곡가의 삶은 어떻게 스물여섯 편의 무대가 되는가",
+      "review": "26편의 오페라를 생애의 사건으로 배열한 연대기적 안내의 힘을 읽고, 개정판이 겹치는 작품 수와 리소르지멘토 영웅 서사, 작곡가 중심 공연사의 한계를 함께 짚는다."
+    },
     {
       "id": "385576063",
       "title": "뮤지엄",
@@ -1129,8 +1140,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385502109",
       "title": "베르디 오페라",
       "metadata": "박종호 지음 | 풍월당",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/26676/26/cover500/k902730881_1.jpg"
+      "theme": "음악사/오페라와 예술가의 생애",
+      "imageUrl": "assets/book-covers/verdi-opera-park-jongho.jpg",
+      "reviewUrl": "posts/verdi-opera-park-jongho.html"
     },
     {
       "id": "385502093",

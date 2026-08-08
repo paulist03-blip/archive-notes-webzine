@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 197,
+    "reviewLinkedCount": 198,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385576063",
+      "title": "뮤지엄",
+      "metadata": "마누엘 마르솔 그림, 하비에르 사에스 카스탄 기획 | 로그프레스",
+      "theme": "그림책/미술관과 시선의 역전",
+      "imageUrl": "assets/book-covers/museum-marsol-saez-castan.jpg",
+      "reviewUrl": "posts/museum-marsol-saez-castan.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "미술관은 언제 관람자를 전시하는가",
+      "review": "고장 난 차에서 시작된 말 없는 미술관 스릴러를 호퍼의 고독, 마그리트의 재현, 히치콕의 공간과 보르헤스의 순환으로 읽고, 능동적 시각 서사의 성취와 서구 정전·비제도적 미술관의 한계를 짚는다."
+    },
     {
       "id": "387413127",
       "title": "모두의 미술사",
@@ -1102,8 +1113,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385576063",
       "title": "뮤지엄",
       "metadata": "마누엘 마르솔 그림, 하비에르 사에스 카스탄 기획 | 로그프레스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/22159/89/cover500/k462636310_1.jpg"
+      "theme": "그림책/미술관과 시선의 역전",
+      "imageUrl": "assets/book-covers/museum-marsol-saez-castan.jpg",
+      "reviewUrl": "posts/museum-marsol-saez-castan.html"
     },
     {
       "id": "385502407",

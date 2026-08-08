@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 191,
+    "reviewLinkedCount": 195,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "378994636",
+      "title": "얄타",
+      "metadata": "세르히 플로히 지음, 허승철 옮김 | 역사비평사",
+      "theme": "외교사/얄타 회담과 전후 질서",
+      "imageUrl": "assets/book-covers/yalta-serhii-plokhy.jpg",
+      "reviewUrl": "posts/yalta-serhii-plokhy.html",
+      "label": "Issue 56 · 오늘의 장문 리뷰",
+      "subtitle": "평화의 가격은 누가 치르는가",
+      "review": "1945년 2월 얄타의 여드레를 유엔·폴란드·독일·대일전 참전의 연동 속에서 복원하고, 루스벨트 재평가의 성취와 강대국 회담이 배제한 사람들의 비용을 함께 읽는다."
+    },
+    {
+      "id": "385054457",
+      "title": "니체",
+      "metadata": "뤼디거 자프란스키 지음, 오윤희·육혜원 옮김 | 이화북스",
+      "theme": "철학전기/자기형성과 가치 비판",
+      "imageUrl": "assets/book-covers/nietzsche-safranski.jpg",
+      "reviewUrl": "posts/nietzsche-safranski.html",
+      "label": "Issue 56 · 오늘의 장문 리뷰",
+      "subtitle": "한 사상은 어떻게 한 생애를 발명하는가",
+      "review": "쇼펜하우어와 바그너, 자유정신과 영원회귀, 자기양식화와 사후 수용을 따라 니체의 개념이 삶의 조건을 다시 쓰는 실험이 된 과정과 철학전기의 한계를 읽는다."
+    },
+    {
+      "id": "385501950",
+      "title": "미켈란젤로, 생의 마지막 도전",
+      "metadata": "윌리엄 E. 월리스 지음, 이종인 옮김 | 책과함께",
+      "theme": "미술사/노년의 건축과 성 베드로",
+      "imageUrl": "assets/book-covers/michelangelo-gods-architect-wallace.jpg",
+      "reviewUrl": "posts/michelangelo-gods-architect-wallace.html",
+      "label": "Issue 56 · 오늘의 장문 리뷰",
+      "subtitle": "노년의 조각가는 어떻게 건축가가 되었는가",
+      "review": "성 베드로 대성당의 설계와 철거, 자재와 인력, 교황청 정치와 후계 문제를 따라 미켈란젤로를 현장의 건축가로 복원하고 영웅 전기의 성취와 한계를 짚는다."
+    },
     {
       "id": "385502407",
       "title": "마지막 황태자",
@@ -1074,8 +1107,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385501950",
       "title": "미켈란젤로, 생의 마지막 도전",
       "metadata": "윌리엄 E. 월리스 지음, 이종인 옮김 | 책과함께",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/28388/99/cover500/k622835810_1.jpg"
+      "theme": "미술사/노년의 건축과 성 베드로",
+      "imageUrl": "assets/book-covers/michelangelo-gods-architect-wallace.jpg",
+      "reviewUrl": "posts/michelangelo-gods-architect-wallace.html"
     },
     {
       "id": "385501847",
@@ -1095,9 +1129,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385054457",
       "title": "니체",
-      "metadata": "뤼디거 자프란스키 지음, 오윤희.육혜원 옮김 | 이화북스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/26770/35/cover500/k162730487_1.jpg"
+      "metadata": "뤼디거 자프란스키 지음, 오윤희·육혜원 옮김 | 이화북스",
+      "theme": "철학전기/자기형성과 가치 비판",
+      "imageUrl": "assets/book-covers/nietzsche-safranski.jpg",
+      "reviewUrl": "posts/nietzsche-safranski.html"
     },
     {
       "id": "385054253",
@@ -1672,8 +1707,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "378994636",
       "title": "얄타",
       "metadata": "세르히 플로히 지음, 허승철 옮김 | 역사비평사",
-      "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/23178/93/cover500/8976962990_1.jpg"
+      "theme": "외교사/얄타 회담과 전후 질서",
+      "imageUrl": "assets/book-covers/yalta-serhii-plokhy.jpg",
+      "reviewUrl": "posts/yalta-serhii-plokhy.html"
     },
     {
       "id": "378994538",
@@ -9156,11 +9192,12 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385054457",
       "title": "니체",
-      "metadata": "뤼디거 자프란스키 지음, 오윤희.육혜원 옮김 | 이화북스",
-      "theme": "인문/문학",
+      "metadata": "뤼디거 자프란스키 지음, 오윤희·육혜원 옮김 | 이화북스",
+      "theme": "철학전기/자기형성과 가치 비판",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366108204",
-      "imageUrl": "https://image.aladin.co.kr/product/26770/35/cover500/k162730487_1.jpg",
-      "sourcePage": 20
+      "imageUrl": "assets/book-covers/nietzsche-safranski.jpg",
+      "sourcePage": 20,
+      "reviewUrl": "posts/nietzsche-safranski.html"
     },
     {
       "id": "366108197",

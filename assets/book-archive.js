@@ -29,6 +29,7 @@
   const isArchiveEligible = (book) => {
     const title = String(book.title || "");
     const searchable = `${title} ${book.theme || ""}`;
+    if (book.reviewUrl) return true;
     return (
       !explicitlyExcludedTitles.has(title) &&
       !foreignLanguagePattern.test(title) &&

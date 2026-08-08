@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 195,
+    "reviewLinkedCount": 196,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
-    "publicNote": "외국어 학습서, 요리·살림, 청소년 도서를 제외하고 서지와 Paul Archive Notes의 장문 리뷰만 연결합니다."
+    "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "391768738",
+      "title": "사춘기",
+      "metadata": "베티 스텔리 지음, 하주현 옮김 | 푸른씨앗",
+      "theme": "청소년교육/파르치팔과 자아 형성",
+      "imageUrl": "assets/book-covers/adolescence-betty-staley.jpg",
+      "reviewUrl": "posts/adolescence-betty-staley.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "사춘기는 왜 질문을 배우는 여정인가",
+      "review": "파르치팔의 성배 여정과 초기·중기·후기 청소년기를 겹쳐 생각·감정·의지의 통합을 읽고, 신화적 교육론이 여는 가능성과 발달 단계·성별 이분법의 한계를 함께 짚는다."
+    },
     {
       "id": "378994636",
       "title": "얄타",
@@ -704,8 +715,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "391768738",
       "title": "사춘기",
       "metadata": "베티 스텔리 지음, 하주현 옮김 | 푸른씨앗",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35266/52/cover500/k142934350_1.jpg"
+      "theme": "청소년교육/파르치팔과 자아 형성",
+      "imageUrl": "assets/book-covers/adolescence-betty-staley.jpg",
+      "reviewUrl": "posts/adolescence-betty-staley.html"
     },
     {
       "id": "389350532",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 199,
+    "reviewLinkedCount": 200,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385502093",
+      "title": "아랍, 그곳에도 사람들이 살고 있다",
+      "metadata": "팀 매킨토시-스미스 지음, 마틴 요먼 그림, 신해경 옮김 | 봄날의책",
+      "theme": "여행문학/이븐 바투타와 겹쳐 걷기",
+      "imageUrl": "assets/book-covers/arabs-people-mackintosh-smith.jpg",
+      "reviewUrl": "posts/arabs-people-mackintosh-smith.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 여행은 다른 여행의 각주가 될 수 있는가",
+      "review": "이븐 바투타의 첫 여정을 현재의 장소와 겹쳐 읽는 답사 기행의 힘을 살피고, 구술·편집된 원전의 매개성과 남성 이동망, 넓은 '아랍' 표제가 가리는 지역 차이를 함께 짚는다."
+    },
     {
       "id": "385502109",
       "title": "베르디 오페라",
@@ -1148,8 +1159,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385502093",
       "title": "아랍, 그곳에도 사람들이 살고 있다",
       "metadata": "팀 매킨토시-스미스 지음, 마틴 요먼 그림, 신해경 옮김 | 봄날의책",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/7489/94/cover500/k062434604_1.jpg"
+      "theme": "여행문학/이븐 바투타와 겹쳐 걷기",
+      "imageUrl": "assets/book-covers/arabs-people-mackintosh-smith.jpg",
+      "reviewUrl": "posts/arabs-people-mackintosh-smith.html"
     },
     {
       "id": "385501950",

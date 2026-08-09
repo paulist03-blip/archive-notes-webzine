@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 211,
+    "reviewLinkedCount": 212,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385052739",
+      "title": "19세기 가문 주인을 위한 하인 관리 예법서 & 19세기 상류층 가문 식사 시중 예법서",
+      "metadata": "A Member of The Aristocracy 지음, 이미경·홍수연·원희래 옮김 | 루아르북스",
+      "theme": "사회문화사/가사 노동의 위계와 식탁의 의례",
+      "imageUrl": "assets/book-covers/victorian-servants-household-table-guide.jpg",
+      "reviewUrl": "posts/victorian-servants-household-table-guide.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 가문의 품격은 누구의 손끝에서 만들어지는가",
+      "review": "하인 고용과 감독, 집사·가정부·요리사의 위계에서 식탁 시중의 정밀한 안무까지를 따라가며 상류층의 품격이 숙련된 노동을 보이지 않게 만드는 방식을 읽는다."
+    },
     {
       "id": "385052877",
       "title": "오즈의 오즈마",
@@ -1401,9 +1412,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385052739",
       "title": "19세기 가문 주인을 위한 하인 관리 예법서 & 19세기 상류층 가문 식사 시중 예법서",
-      "metadata": "A Member of The Aristocracy 지음, 이미경 외 옮김 | 루아르북스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/31865/56/cover500/s352833741_1.jpg"
+      "metadata": "A Member of The Aristocracy 지음, 이미경·홍수연·원희래 옮김 | 루아르북스",
+      "theme": "사회문화사/가사 노동의 위계와 식탁의 의례",
+      "imageUrl": "assets/book-covers/victorian-servants-household-table-guide.jpg",
+      "reviewUrl": "posts/victorian-servants-household-table-guide.html"
     },
     {
       "id": "385052588",

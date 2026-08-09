@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 221,
+    "reviewLinkedCount": 222,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384515725",
+      "title": "기계 속의 악마",
+      "metadata": "폴 데이비스 지음, 류운 옮김 | 바다출판사",
+      "theme": "생명물리학/정보와 하향 인과의 조직",
+      "imageUrl": "assets/book-covers/demon-in-the-machine-paul-davies.jpg",
+      "reviewUrl": "posts/demon-in-the-machine-paul-davies.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "생명의 정보는 어디에서 힘을 얻는가",
+      "review": "정보열역학과 분자기계, 하향 인과와 후성유전, 양자생물학을 따라 정보가 생명의 물질적 조직에서 작동하는 방식과 대담한 전망이 남기는 설명의 한계를 읽는다."
+    },
     {
       "id": "384516383",
       "title": "루저 아들",
@@ -1621,8 +1632,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "384515725",
       "title": "기계 속의 악마",
       "metadata": "폴 데이비스 지음, 류운 옮김 | 바다출판사",
-      "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/32359/48/cover500/k962935467_1.jpg"
+      "theme": "생명물리학/정보와 하향 인과의 조직",
+      "imageUrl": "assets/book-covers/demon-in-the-machine-paul-davies.jpg",
+      "reviewUrl": "posts/demon-in-the-machine-paul-davies.html"
     },
     {
       "id": "384515643",

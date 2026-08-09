@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 215,
+    "reviewLinkedCount": 216,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385052230",
+      "title": "노 시그널",
+      "metadata": "브리스 포르톨라노 지음, 최정수 옮김 | 복복서가",
+      "theme": "사진/오프그리드 삶의 노동과 연결",
+      "imageUrl": "assets/book-covers/no-signal-portolano.jpg",
+      "reviewUrl": "posts/no-signal-brice-portolano.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "신호가 끊긴 곳에서도 삶은 무엇과 연결되는가",
+      "review": "다섯 해 동안 만난 열 사람의 돌봄과 목축, 집 수리와 자급 노동을 따라 자연 가까이 산다는 말의 물질성을 읽고 자발적 이탈을 보편적 자유로 만드는 사진의 한계를 짚는다."
+    },
     {
       "id": "385052276",
       "title": "안현배의 예술수업 1",
@@ -1494,8 +1505,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385052230",
       "title": "노 시그널",
       "metadata": "브리스 포르톨라노 지음, 최정수 옮김 | 복복서가",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/30343/44/cover500/k822839445_1.jpg"
+      "theme": "사진/오프그리드 삶의 노동과 연결",
+      "imageUrl": "assets/book-covers/no-signal-portolano.jpg",
+      "reviewUrl": "posts/no-signal-brice-portolano.html"
     },
     {
       "id": "385052207",

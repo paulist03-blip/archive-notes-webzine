@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 213,
+    "reviewLinkedCount": 214,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385052323",
+      "title": "안데르센 메르헨",
+      "metadata": "한스 크리스티안 안데르센 지음, 김서정 옮김, 니콜라우스 하이델바흐 그림 | 문학과지성사",
+      "theme": "문학/메르헨의 아이러니와 사물의 목소리",
+      "imageUrl": "assets/book-covers/andersen-marchen-heidelbach.jpg",
+      "reviewUrl": "posts/andersen-marchen-heidelbach.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "동화는 왜 착한 결말만 약속하지 않는가",
+      "review": "43편의 구어적 목소리와 계급 상승의 욕망, 사물의 자율성, 죽음과 풍자를 따라 안데르센의 메르헨이 어린이를 위한 교훈을 넘어 근대의 모순을 드러내는 방식을 읽는다."
+    },
     {
       "id": "385052330",
       "title": "칼 라르손, 오늘도 행복을 그리는 이유",
@@ -1456,8 +1467,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385052323",
       "title": "안데르센 메르헨",
       "metadata": "한스 크리스티안 안데르센 지음, 김서정 옮김, 니콜라우스 하이델바흐 그림 | 문학과지성사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/1487/45/cover500/8932022666_1.jpg"
+      "theme": "문학/메르헨의 아이러니와 사물의 목소리",
+      "imageUrl": "assets/book-covers/andersen-marchen-heidelbach.jpg",
+      "reviewUrl": "posts/andersen-marchen-heidelbach.html"
     },
     {
       "id": "385052276",

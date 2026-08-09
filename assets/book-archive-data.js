@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 214,
+    "reviewLinkedCount": 215,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385052276",
+      "title": "안현배의 예술수업 1",
+      "metadata": "안현배 지음 | 민음사",
+      "theme": "미술사/오르세와 프랑스 모더니즘의 사회사",
+      "imageUrl": "assets/book-covers/ahn-art-lessons-1.jpg",
+      "reviewUrl": "posts/ahn-art-lessons-orsay-modernism.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "오르세의 한 세기는 어떻게 개인의 시대가 되는가",
+      "review": "오르세의 1848~1914년을 혁명 이후 개인과 사회의 재편으로 읽으며 살롱과 국가 수집, 사실주의와 인상주의, 상징주의가 경쟁한 프랑스 모더니즘의 성취와 한계를 짚는다."
+    },
     {
       "id": "385052323",
       "title": "안데르센 메르헨",
@@ -1475,8 +1486,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385052276",
       "title": "안현배의 예술수업 1",
       "metadata": "안현배 지음 | 민음사",
-      "theme": "예술/문화",
-      "imageUrl": "https://image.aladin.co.kr/product/21410/18/cover500/8937479672_1.jpg"
+      "theme": "미술사/오르세와 프랑스 모더니즘의 사회사",
+      "imageUrl": "assets/book-covers/ahn-art-lessons-1.jpg",
+      "reviewUrl": "posts/ahn-art-lessons-orsay-modernism.html"
     },
     {
       "id": "385052230",

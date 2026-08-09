@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 217,
+    "reviewLinkedCount": 218,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385051861",
+      "title": "도시전설의 모든 것",
+      "metadata": "얀 해럴드 브룬반드 지음, 박중서 옮김 | 위즈덤하우스",
+      "theme": "민속학/현대전설과 믿음의 유통",
+      "imageUrl": "assets/book-covers/urban-legends-brunvand.jpg",
+      "reviewUrl": "posts/too-good-to-be-true-urban-legends-brunvand.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "거짓말은 어떻게 공동체의 진실을 운반하는가",
+      "review": "친구의 친구라는 신뢰 장치와 270편의 변이를 따라 도시전설이 공포와 편견, 불확실성을 전파 가능한 서사로 조직하는 방식과 방대한 수집의 성취와 한계를 읽는다."
+    },
     {
       "id": "385051956",
       "title": "원전으로 읽는 그리스 신화",
@@ -1548,8 +1559,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385051861",
       "title": "도시전설의 모든 것",
       "metadata": "얀 해럴드 브룬반드 지음, 박중서 옮김 | 위즈덤하우스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/33881/7/cover500/k062930712_3.jpg"
+      "theme": "민속학/현대전설과 믿음의 유통",
+      "imageUrl": "assets/book-covers/urban-legends-brunvand.jpg",
+      "reviewUrl": "posts/too-good-to-be-true-urban-legends-brunvand.html"
     },
     {
       "id": "385051792",

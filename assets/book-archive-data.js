@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 212,
+    "reviewLinkedCount": 213,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385052330",
+      "title": "칼 라르손, 오늘도 행복을 그리는 이유",
+      "metadata": "이소영 지음 | 알에이치코리아(RHK)",
+      "theme": "미술/가족 수채화와 생활의 공동 창작",
+      "imageUrl": "assets/book-covers/carl-larsson-happiness-lee-soyoung.jpg",
+      "reviewUrl": "posts/carl-larsson-happiness-lee-soyoung.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "행복은 왜 한 채의 집으로 그려졌는가",
+      "review": "가난에서 수채화로 향한 생애와 가족 이미지, 릴라 히트나스와 카린의 디자인을 따라 행복이 발견된 감정이 아니라 함께 만든 생활의 형식이 되는 과정을 읽는다."
+    },
     {
       "id": "385052739",
       "title": "19세기 가문 주인을 위한 하인 관리 예법서 & 19세기 상류층 가문 식사 시중 예법서",
@@ -1435,10 +1446,11 @@ window.PAUL_BOOK_ARCHIVE = {
     },
     {
       "id": "385052330",
-      "title": "칼 라르손, 오늘도 행복을 그리는 이유 (양장 특별판)",
+      "title": "칼 라르손, 오늘도 행복을 그리는 이유",
       "metadata": "이소영 지음 | 알에이치코리아(RHK)",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/33605/63/cover500/8925575272_1.jpg"
+      "theme": "미술/가족 수채화와 생활의 공동 창작",
+      "imageUrl": "assets/book-covers/carl-larsson-happiness-lee-soyoung.jpg",
+      "reviewUrl": "posts/carl-larsson-happiness-lee-soyoung.html"
     },
     {
       "id": "385052323",

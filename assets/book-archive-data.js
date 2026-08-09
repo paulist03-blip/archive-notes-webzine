@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 206,
+    "reviewLinkedCount": 209,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385052766",
+      "title": "한국전쟁에서 싸운 일본인",
+      "metadata": "후지와라 가즈키 지음, 박용준 옮김 | 소명출판",
+      "theme": "한국전쟁사/점령과 지워진 전쟁 협력",
+      "imageUrl": "assets/book-covers/japanese-fought-korean-war-fujiwara.jpg",
+      "reviewUrl": "posts/japanese-fought-korean-war-fujiwara.html",
+      "label": "Issue 57 · 오늘의 장문 리뷰",
+      "subtitle": "전쟁의 명부에서 지워진 사람들은 누구였는가",
+      "review": "1,033쪽의 비밀 해제 심문기록과 생존자·유족·동료의 증언을 교차해 미군 작전 속 일본인의 모호한 지위, 평화헌법 아래의 동원과 전후 책임의 공백을 읽는다."
+    },
+    {
+      "id": "385052571",
+      "title": "불안의 기원",
+      "metadata": "지그문트 바우만 지음, 박지선 옮김 | 다산초당",
+      "theme": "사회이론/유동하는 공포와 안전의 정치",
+      "imageUrl": "assets/book-covers/liquid-fear-bauman.jpg",
+      "reviewUrl": "posts/liquid-fear-bauman.html",
+      "label": "Issue 57 · 오늘의 장문 리뷰",
+      "subtitle": "두려움은 어떻게 주소를 잃고 떠도는가",
+      "review": "파생적 공포가 죽음과 악, 통제 불가능한 세계 위험을 거쳐 사적 안전 시장과 배제의 정치로 번역되는 과정을 읽고, 유동성이라는 비유가 경험의 차이를 평평하게 만드는 한계도 함께 짚는다."
+    },
+    {
+      "id": "385053013",
+      "title": "중독의 신경과학",
+      "metadata": "프란체스카 마푸아 필비 지음, 홍욱희 옮김 | 에코리브르",
+      "theme": "신경과학/보상·갈망과 중독의 과정",
+      "imageUrl": "assets/book-covers/neuroscience-of-addiction-filbey.jpg",
+      "reviewUrl": "posts/neuroscience-of-addiction-filbey.html",
+      "label": "Issue 57 · 오늘의 장문 리뷰",
+      "subtitle": "욕망은 언제 선택을 앞질러 가는가",
+      "review": "보상과 동기, 도취와 금단, 갈망과 충동성이 중독의 과정에서 어떻게 맞물리는지 읽고, 신경영상의 상관관계를 인과로 확대하는 위험과 사회적 환경을 충분히 설명하지 못하는 한계를 함께 짚는다."
+    },
     {
       "id": "385053027",
       "title": "제2언어 습득",
@@ -1326,8 +1359,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385053013",
       "title": "중독의 신경과학",
       "metadata": "프란체스카 마푸아 필비 지음, 홍욱희 옮김 | 에코리브르",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36747/10/cover500/8962633140_1.jpg"
+      "theme": "신경과학/보상·갈망과 중독의 과정",
+      "imageUrl": "assets/book-covers/neuroscience-of-addiction-filbey.jpg",
+      "reviewUrl": "posts/neuroscience-of-addiction-filbey.html"
     },
     {
       "id": "385052988",
@@ -1347,8 +1381,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385052766",
       "title": "한국전쟁에서 싸운 일본인",
       "metadata": "후지와라 가즈키 지음, 박용준 옮김 | 소명출판",
-      "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/31644/76/cover500/k862833376_1.jpg"
+      "theme": "한국전쟁사/점령과 지워진 전쟁 협력",
+      "imageUrl": "assets/book-covers/japanese-fought-korean-war-fujiwara.jpg",
+      "reviewUrl": "posts/japanese-fought-korean-war-fujiwara.html"
     },
     {
       "id": "385052739",
@@ -1369,8 +1404,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385052571",
       "title": "불안의 기원",
       "metadata": "지그문트 바우만 지음, 박지선 옮김 | 다산초당",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36162/36/cover500/k352038880_1.jpg"
+      "theme": "사회이론/유동하는 공포와 안전의 정치",
+      "imageUrl": "assets/book-covers/liquid-fear-bauman.jpg",
+      "reviewUrl": "posts/liquid-fear-bauman.html"
     },
     {
       "id": "385052330",

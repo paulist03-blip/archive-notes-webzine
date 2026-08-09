@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 209,
+    "reviewLinkedCount": 211,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385052877",
+      "title": "오즈의 오즈마",
+      "metadata": "라이먼 프랭크 바움 지음, 존 R. 닐 그림, 강석주 옮김 | 지식을만드는지식",
+      "theme": "판타지/생명·책임과 오즈의 확장",
+      "imageUrl": "assets/book-covers/ozma-of-oz-baum.jpg",
+      "reviewUrl": "posts/ozma-of-oz-baum.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "누가 살아 있고, 누가 책임질 수 있는가",
+      "review": "도로시·오즈마·빌리나의 연대와 틱톡의 기계적 사고, 놈 왕의 소유와 변신을 따라 생명과 책임의 관계를 읽고 왕정 복원과 지하 종족의 악역화가 남기는 한계를 함께 짚는다."
+    },
     {
       "id": "385052766",
       "title": "한국전쟁에서 싸운 일본인",
@@ -1367,15 +1378,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385052988",
       "title": "트러블과 함께하기",
       "metadata": "도나 해러웨이 지음, 최유미 옮김 | 마농지",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27639/36/cover500/k622733125_1.jpg"
+      "theme": "생태철학/다종적 친족과 응답 가능성",
+      "imageUrl": "https://image.aladin.co.kr/product/27639/36/cover500/k622733125_1.jpg",
+      "reviewUrl": "posts/haraway-staying-with-the-trouble.html"
     },
     {
       "id": "385052877",
       "title": "오즈의 오즈마",
       "metadata": "라이먼 프랭크 바움 지음, 존 R. 닐 그림, 강석주 옮김 | 지식을만드는지식",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36298/80/cover500/k362038247_2.jpg"
+      "theme": "판타지/생명·책임과 오즈의 확장",
+      "imageUrl": "assets/book-covers/ozma-of-oz-baum.jpg",
+      "reviewUrl": "posts/ozma-of-oz-baum.html"
     },
     {
       "id": "385052766",

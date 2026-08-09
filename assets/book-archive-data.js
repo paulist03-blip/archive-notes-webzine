@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 220,
+    "reviewLinkedCount": 221,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384516383",
+      "title": "루저 아들",
+      "metadata": "아비탈 로넬 지음, 염인수 옮김 | 현실문화",
+      "theme": "정치철학/부권과 패배가 되풀이하는 권위",
+      "imageUrl": "assets/book-covers/loser-sons-ronell.jpg",
+      "reviewUrl": "posts/loser-sons-politics-authority-ronell.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "패배한 아들은 왜 권위의 아버지가 되는가",
+      "review": "부권의 문법과 유년의 잔여, 카프카의 훌륭한 루저를 따라 반역이 권위를 되풀이하는 방식과 정치적 책임을 심리화하는 독법의 성취와 한계를 읽는다."
+    },
     {
       "id": "384925886",
       "title": "경계선",
@@ -1594,8 +1605,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "384516383",
       "title": "루저 아들",
       "metadata": "아비탈 로넬 지음, 염인수 옮김 | 현실문화",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/17579/54/cover500/8965642256_1.jpg"
+      "theme": "정치철학/부권과 패배가 되풀이하는 권위",
+      "imageUrl": "assets/book-covers/loser-sons-ronell.jpg",
+      "reviewUrl": "posts/loser-sons-politics-authority-ronell.html"
     },
     {
       "id": "384516331",

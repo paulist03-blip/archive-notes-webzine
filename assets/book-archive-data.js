@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 205,
+    "reviewLinkedCount": 206,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385053027",
+      "title": "제2언어 습득",
+      "metadata": "비비언 쿡·데이비드 싱글턴 지음, 이승연 옮김 | 역락",
+      "theme": "언어학/제2언어 습득과 다중능력",
+      "imageUrl": "assets/book-covers/second-language-acquisition-cook-singleton.jpg",
+      "reviewUrl": "posts/second-language-acquisition-cook-singleton.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "두 번째 언어 사용자는 왜 불완전한 원어민이 아닌가",
+      "review": "나이·어휘·문법·쓰기·동기·교수법에 관한 통념을 여덟 질문으로 바꾸고 제2언어 사용자를 독자적인 다중언어 화자로 재정의하는 성취와, 성급한 일반화·연구 범위의 한계를 함께 읽는다."
+    },
     {
       "id": "385053482",
       "title": "영화를 찍으며 생각한 것",
@@ -1306,9 +1317,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385053027",
       "title": "제2언어 습득",
-      "metadata": "비비언 쿡.데이비드 싱글턴 지음, 이승연 옮김 | 역락",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27355/93/cover500/k832732521_1.jpg"
+      "metadata": "비비언 쿡·데이비드 싱글턴 지음, 이승연 옮김 | 역락",
+      "theme": "언어학/제2언어 습득과 다중능력",
+      "imageUrl": "assets/book-covers/second-language-acquisition-cook-singleton.jpg",
+      "reviewUrl": "posts/second-language-acquisition-cook-singleton.html"
     },
     {
       "id": "385053013",

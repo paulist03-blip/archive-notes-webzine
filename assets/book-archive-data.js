@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 216,
+    "reviewLinkedCount": 217,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "385051956",
+      "title": "원전으로 읽는 그리스 신화",
+      "metadata": "아폴로도로스 지음, 천병희 옮김 | 도서출판 숲",
+      "theme": "신화학/계보와 문헌 집성의 질서",
+      "imageUrl": "assets/book-covers/apollodorus-greek-mythology.jpg",
+      "reviewUrl": "posts/apollodorus-library-greek-mythology.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "신화는 어떻게 하나의 계보가 되는가",
+      "review": "우라노스와 가이아에서 오뒷세우스의 죽음까지 이어지는 계보와 지리의 편집을 따라 신화 변이를 하나의 질서로 묶는 문헌 집성의 성취와 정전화의 한계를 읽는다."
+    },
     {
       "id": "385052230",
       "title": "노 시그널",
@@ -1529,8 +1540,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385051956",
       "title": "원전으로 읽는 그리스 신화",
       "metadata": "아폴로도로스 지음, 천병희 옮김 | 도서출판 숲",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/50/30/cover500/8991290000_1.jpg"
+      "theme": "신화학/계보와 문헌 집성의 질서",
+      "imageUrl": "assets/book-covers/apollodorus-greek-mythology.jpg",
+      "reviewUrl": "posts/apollodorus-library-greek-mythology.html"
     },
     {
       "id": "385051861",

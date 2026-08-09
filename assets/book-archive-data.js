@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 218,
+    "reviewLinkedCount": 220,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384925886",
+      "title": "경계선",
+      "metadata": "앤 E. 캐서린 지음, 정화숙·김미자 옮김 | 하나의학사",
+      "theme": "심리학/개인 경계와 친밀감의 조건",
+      "imageUrl": "assets/book-covers/boundaries-anne-katherine.jpg",
+      "reviewUrl": "posts/boundaries-where-you-end-katherine.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "나와 타인의 사이에는 어떤 울타리가 필요한가",
+      "review": "신체와 정서의 한계, 맥락에 따른 가변성, 경계 침해와 회복을 따라 거리가 친밀감을 가능하게 하는 조건과 개인 책임 중심 설명의 성취와 한계를 읽는다."
+    },
     {
       "id": "385051861",
       "title": "도시전설의 모든 것",
@@ -1568,14 +1579,16 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "기계, 권력, 사회",
       "metadata": "박승일 지음 | 사월의책",
       "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/27709/92/cover500/8997186825_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/27709/92/cover500/8997186825_1.jpg",
+      "reviewUrl": "posts/machine-power-society-park-seungil.html"
     },
     {
       "id": "384925886",
       "title": "경계선",
-      "metadata": "앤 E. 캐서린 지음, 정화숙 외 옮김 | 하나의학사",
-      "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/36836/77/cover500/k262030106_1.jpg"
+      "metadata": "앤 E. 캐서린 지음, 정화숙·김미자 옮김 | 하나의학사",
+      "theme": "심리학/개인 경계와 친밀감의 조건",
+      "imageUrl": "assets/book-covers/boundaries-anne-katherine.jpg",
+      "reviewUrl": "posts/boundaries-where-you-end-katherine.html"
     },
     {
       "id": "384516383",

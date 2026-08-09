@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 222,
+    "reviewLinkedCount": 223,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384515643",
+      "title": "순수이성비판 (보정판)",
+      "metadata": "임마누엘 칸트 지음, 최재희 옮김 | 박영사",
+      "theme": "비판철학/경험의 조건과 형이상학의 한계",
+      "imageUrl": "assets/book-covers/critique-of-pure-reason-kant.jpg",
+      "reviewUrl": "posts/critique-of-pure-reason-kant.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "이성은 어디까지 세계를 말할 수 있는가",
+      "review": "선천적 종합판단과 공간·시간의 형식, 범주의 선험적 연역, 이율배반과 물자체를 따라 경험의 객관성을 세우는 비판철학의 성취와 한계를 읽는다."
+    },
     {
       "id": "384515725",
       "title": "기계 속의 악마",
@@ -1640,8 +1651,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "384515643",
       "title": "순수이성비판 (보정판)",
       "metadata": "임마누엘 칸트 지음, 최재희 옮김 | 박영사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/18930/28/cover500/k792635282_1.jpg"
+      "theme": "비판철학/경험의 조건과 형이상학의 한계",
+      "imageUrl": "assets/book-covers/critique-of-pure-reason-kant.jpg",
+      "reviewUrl": "posts/critique-of-pure-reason-kant.html"
     },
     {
       "id": "384515514",

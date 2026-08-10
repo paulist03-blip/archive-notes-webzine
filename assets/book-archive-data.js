@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 232,
+    "reviewLinkedCount": 233,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384267705",
+      "title": "개념어 사전 (리커버)",
+      "metadata": "남경태 지음 | 휴머니스트",
+      "theme": "인문학/개념의 맥락과 연결망",
+      "imageUrl": "assets/book-covers/concept-dictionary-nam-kyungtae.jpg",
+      "reviewUrl": "posts/concept-dictionary-nam-kyungtae.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "개념은 어디에서 뜻을 얻는가",
+      "review": "정의를 지식의 종착지가 아니라 역사와 이론, 인접한 말들이 만든 임시선으로 읽으며 횡단적 설명의 성취와 저자적 확신, 시대성, 검증 장치의 한계를 함께 살핀다."
+    },
     {
       "id": "384398225",
       "title": "빈센트 반 고흐 2",
@@ -1830,8 +1841,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "384267705",
       "title": "개념어 사전 (리커버)",
       "metadata": "남경태 지음 | 휴머니스트",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/22453/71/cover500/k882636422_1.jpg"
+      "theme": "인문학/개념의 맥락과 연결망",
+      "imageUrl": "assets/book-covers/concept-dictionary-nam-kyungtae.jpg",
+      "reviewUrl": "posts/concept-dictionary-nam-kyungtae.html"
     },
     {
       "id": "384267583",

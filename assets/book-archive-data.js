@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 225,
+    "reviewLinkedCount": 226,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384514748",
+      "title": "한국 산문선 2",
+      "metadata": "권근 외 지음, 이종묵·장유승 편역 | 민음사",
+      "theme": "고전산문/관각 문장과 사림의 수양",
+      "imageUrl": "assets/book-covers/korean-prose-selection-2.jpg",
+      "reviewUrl": "posts/korean-prose-selection-2.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "문장은 누구를 위해 흐르는가",
+      "review": "조선 개국에서 중종 연간까지의 산문을 따라 국가를 설계하는 관각 문장과 자신을 다스리는 사림의 글쓰기를 읽고, 현대 선집의 선택과 번역이 만드는 문학사의 성취와 한계를 살핀다."
+    },
     {
       "id": "384515481",
       "title": "우리말 어원사전",
@@ -1696,9 +1707,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "384514748",
       "title": "한국 산문선 2",
-      "metadata": "권근 외 지음, 이종묵.장유승 옮김 | 민음사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/12457/70/cover500/8937415682_1.jpg"
+      "metadata": "권근 외 지음, 이종묵·장유승 편역 | 민음사",
+      "theme": "고전산문/관각 문장과 사림의 수양",
+      "imageUrl": "assets/book-covers/korean-prose-selection-2.jpg",
+      "reviewUrl": "posts/korean-prose-selection-2.html"
     },
     {
       "id": "384514343",

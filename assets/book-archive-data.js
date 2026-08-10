@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 223,
+    "reviewLinkedCount": 224,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384515514",
+      "title": "언던 사이언스",
+      "metadata": "데이비드 헤스 지음, 김동광·김명진 옮김 | 돌베개",
+      "theme": "과학기술학/미수행 과학과 산업 전환의 정치",
+      "imageUrl": "assets/book-covers/undone-science-david-hess.jpg",
+      "reviewUrl": "posts/undone-science-david-hess.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "연구되지 않은 질문은 누가 결정하는가",
+      "review": "미수행 과학과 인식론적 기회구조, 동원된 공중과 산업 전환 운동을 따라 지식의 공백이 만들어지는 정치와 연구 의제 민주화의 조건을 읽는다."
+    },
     {
       "id": "384515643",
       "title": "순수이성비판 (보정판)",
@@ -1658,9 +1669,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "384515514",
       "title": "언던 사이언스",
-      "metadata": "데이비드 헤스 지음, 김동광 외 옮김 | 돌베개",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/23596/56/cover500/8971992182_1.jpg"
+      "metadata": "데이비드 헤스 지음, 김동광·김명진 옮김 | 돌베개",
+      "theme": "과학기술학/미수행 과학과 산업 전환의 정치",
+      "imageUrl": "assets/book-covers/undone-science-david-hess.jpg",
+      "reviewUrl": "posts/undone-science-david-hess.html"
     },
     {
       "id": "384515481",

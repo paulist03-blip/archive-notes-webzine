@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 229,
+    "reviewLinkedCount": 230,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384514173",
+      "title": "토머스 쿤, 미완의 혁명",
+      "metadata": "천현득 지음 | 서울대학교출판문화원",
+      "theme": "과학철학/개념 변화와 존재론적 전환",
+      "imageUrl": "assets/book-covers/thomas-kuhn-unfinished-revolution-cheon.jpg",
+      "reviewUrl": "posts/thomas-kuhn-unfinished-revolution-cheon.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "패러다임이 바뀔 때 세계도 바뀌는가",
+      "review": "패러다임과 공약불가능성에서 후기의 어휘집과 언어적 전회로 이어지는 사상적 연속성을 따라가고, 개념 이론의 자연주의적 재구성과 분류학을 넘어선 존재론적 전환의 성취와 한계를 읽는다."
+    },
     {
       "id": "384514246",
       "title": "분석 심리학 강의",
@@ -1773,8 +1784,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "384514173",
       "title": "토머스 쿤, 미완의 혁명",
       "metadata": "천현득 지음 | 서울대학교출판문화원",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/31959/42/cover500/8952131797_1.jpg"
+      "theme": "과학철학/개념 변화와 존재론적 전환",
+      "imageUrl": "assets/book-covers/thomas-kuhn-unfinished-revolution-cheon.jpg",
+      "reviewUrl": "posts/thomas-kuhn-unfinished-revolution-cheon.html"
     },
     {
       "id": "384512860",

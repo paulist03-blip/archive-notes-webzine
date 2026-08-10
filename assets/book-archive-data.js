@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 226,
+    "reviewLinkedCount": 227,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384514343",
+      "title": "물리의 정석: 특수 상대성 이론과 고전 장론 편",
+      "metadata": "레너드 서스킨드·아트 프리드먼 지음, 이종필 옮김 | 사이언스북스",
+      "theme": "이론물리학/불변량과 장의 문법",
+      "imageUrl": "assets/book-covers/theoretical-minimum-special-relativity-field-theory.jpg",
+      "reviewUrl": "posts/theoretical-minimum-special-relativity-field-theory.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "법칙은 좌표를 바꾸어도 무엇을 지키는가",
+      "review": "로런츠 변환과 불변량, 작용 원리, 입자와 장의 상호작용, 게이지 대칭과 맥스웰 방정식을 따라 상대론과 고전 장론이 하나의 문법이 되는 과정을 읽는다."
+    },
     {
       "id": "384514748",
       "title": "한국 산문선 2",
@@ -1715,9 +1726,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "384514343",
       "title": "물리의 정석: 특수 상대성 이론과 고전 장론 편",
-      "metadata": "레너드 서스킨드.아트 프리드먼 지음, 이종필 옮김 | 사이언스북스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/29152/0/cover500/k772837275_1.jpg"
+      "metadata": "레너드 서스킨드·아트 프리드먼 지음, 이종필 옮김 | 사이언스북스",
+      "theme": "이론물리학/불변량과 장의 문법",
+      "imageUrl": "assets/book-covers/theoretical-minimum-special-relativity-field-theory.jpg",
+      "reviewUrl": "posts/theoretical-minimum-special-relativity-field-theory.html"
     },
     {
       "id": "384514316",

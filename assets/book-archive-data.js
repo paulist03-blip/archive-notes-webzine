@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 231,
+    "reviewLinkedCount": 232,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384398225",
+      "title": "빈센트 반 고흐 2",
+      "metadata": "김영숙 지음 | 유화컴퍼니",
+      "theme": "미술/고흐 후기의 작품 배열과 보는 법",
+      "imageUrl": "assets/book-covers/vincent-van-gogh-2-kim-youngsook.jpg",
+      "reviewUrl": "posts/vincent-van-gogh-2-kim-youngsook.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "유명한 그림은 어떻게 다시 낯설어지는가",
+      "review": "일본 판화의 번역에서 파리의 색채 실험, 아를의 초상과 실내, 생레미의 관찰과 기억, 오베르의 마지막 화면으로 이어지는 작품 배열을 따라 도슨트 서술의 성취와 한계를 읽는다."
+    },
     {
       "id": "384512860",
       "title": "고흐로 읽는 심리 수업",
@@ -1811,8 +1822,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "384398225",
       "title": "빈센트 반 고흐 2",
       "metadata": "김영숙 지음 | 유화컴퍼니",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/18935/75/cover500/k292635285_1.jpg"
+      "theme": "미술/고흐 후기의 작품 배열과 보는 법",
+      "imageUrl": "assets/book-covers/vincent-van-gogh-2-kim-youngsook.jpg",
+      "reviewUrl": "posts/vincent-van-gogh-2-kim-youngsook.html"
     },
     {
       "id": "384267705",

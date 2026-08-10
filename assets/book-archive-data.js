@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 224,
+    "reviewLinkedCount": 225,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384515481",
+      "title": "우리말 어원사전",
+      "metadata": "이재운 외 엮음 | 노마드",
+      "theme": "국어사/어원 이야기와 문헌 증거의 긴장",
+      "imageUrl": "assets/book-covers/korean-etymology-dictionary-lee-jae-woon.jpg",
+      "reviewUrl": "posts/korean-etymology-dictionary-lee-jae-woon.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "말의 뿌리는 이야기인가 증거인가",
+      "review": "시대순 어휘 문화사와 고유어·한자어·외래어를 아우르는 언어관을 읽고, 흥미로운 유래담이 최초 문헌형과 음운·의미 변화의 증거를 대신할 때 생기는 한계를 짚는다."
+    },
     {
       "id": "384515514",
       "title": "언던 사이언스",
@@ -1677,9 +1688,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "384515481",
       "title": "우리말 어원사전",
-      "metadata": "이재운 지음 | 노마드",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/33575/52/cover500/k012939392_1.jpg"
+      "metadata": "이재운 외 엮음 | 노마드",
+      "theme": "국어사/어원 이야기와 문헌 증거의 긴장",
+      "imageUrl": "assets/book-covers/korean-etymology-dictionary-lee-jae-woon.jpg",
+      "reviewUrl": "posts/korean-etymology-dictionary-lee-jae-woon.html"
     },
     {
       "id": "384514748",

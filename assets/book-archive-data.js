@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 230,
+    "reviewLinkedCount": 231,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384512860",
+      "title": "고흐로 읽는 심리 수업",
+      "metadata": "김동훈 지음, 빈센트 반 고흐 그림 | 민음사",
+      "theme": "예술심리/고흐의 감정과 해석의 윤리",
+      "imageUrl": "assets/book-covers/gogh-psychology-lessons-kim-donghoon.jpg",
+      "reviewUrl": "posts/gogh-psychology-lessons-kim-donghoon.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "상처의 이름은 그림을 얼마나 설명하는가",
+      "review": "삶과 편지, 풍부하게 수록된 그림을 심리 개념으로 잇는 책의 방법을 따라가며 감정 독해의 성취와 사후 진단, 상징의 환원, 서로 다른 이론을 한 생애에 적용할 때의 한계를 함께 읽는다."
+    },
     {
       "id": "384514173",
       "title": "토머스 쿤, 미완의 혁명",
@@ -1792,8 +1803,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "384512860",
       "title": "고흐로 읽는 심리 수업",
       "metadata": "김동훈 지음, 빈센트 반 고흐 그림 | 민음사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35688/84/cover500/8937428512_1.jpg"
+      "theme": "예술심리/고흐의 감정과 해석의 윤리",
+      "imageUrl": "assets/book-covers/gogh-psychology-lessons-kim-donghoon.jpg",
+      "reviewUrl": "posts/gogh-psychology-lessons-kim-donghoon.html"
     },
     {
       "id": "384398225",

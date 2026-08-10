@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 227,
+    "reviewLinkedCount": 228,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384514316",
+      "title": "장자 강의",
+      "metadata": "전호근 지음 | 동녘",
+      "theme": "도가철학/쓸모없음과 소요의 자유",
+      "imageUrl": "assets/book-covers/zhuangzi-lectures-jeon-ho-geun.jpg",
+      "reviewUrl": "posts/zhuangzi-lectures-jeon-ho-geun.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "쓸모없음은 어떻게 자유의 자리가 되는가",
+      "review": "내편 일곱 편의 우언과 주석 전통을 따라 소요와 시비, 양생과 공동 생존, 삶과 죽음, 타인을 빚지 않는 권력의 윤리를 읽고 유가적 수용과 현대적 독법의 한계를 살핀다."
+    },
     {
       "id": "384514343",
       "title": "물리의 정석: 특수 상대성 이론과 고전 장론 편",
@@ -1735,8 +1746,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "384514316",
       "title": "장자 강의",
       "metadata": "전호근 지음 | 동녘",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/5214/13/cover500/8972977284_1.jpg"
+      "theme": "도가철학/쓸모없음과 소요의 자유",
+      "imageUrl": "assets/book-covers/zhuangzi-lectures-jeon-ho-geun.jpg",
+      "reviewUrl": "posts/zhuangzi-lectures-jeon-ho-geun.html"
     },
     {
       "id": "384514246",

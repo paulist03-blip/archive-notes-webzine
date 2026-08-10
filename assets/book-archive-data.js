@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 228,
+    "reviewLinkedCount": 229,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384514246",
+      "title": "분석 심리학 강의",
+      "metadata": "칼 구스타프 융 지음, 정명진 옮김 | 부글북스",
+      "theme": "분석심리학/무의식의 구조와 임상 방법",
+      "imageUrl": "assets/book-covers/analytical-psychology-tavistock-jung.jpg",
+      "reviewUrl": "posts/analytical-psychology-tavistock-jung.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "무의식은 어떻게 관찰 가능한 사건이 되는가",
+      "review": "1935년 타비스톡 강연의 의식 기능과 콤플렉스, 연상검사와 꿈 분석, 집단적 무의식, 전이와 능동적 상상을 따라 분석심리학의 임상적 성취와 증거·인종 관념의 한계를 함께 읽는다."
+    },
     {
       "id": "384514316",
       "title": "장자 강의",
@@ -1754,8 +1765,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "384514246",
       "title": "분석 심리학 강의",
       "metadata": "칼 구스타프 융 지음, 정명진 옮김 | 부글북스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/20814/12/cover500/k042636777_1.jpg"
+      "theme": "분석심리학/무의식의 구조와 임상 방법",
+      "imageUrl": "assets/book-covers/analytical-psychology-tavistock-jung.jpg",
+      "reviewUrl": "posts/analytical-psychology-tavistock-jung.html"
     },
     {
       "id": "384514173",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 246,
+    "reviewLinkedCount": 247,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382506160",
+      "title": "중국의 전제, 일본의 봉건",
+      "metadata": "아다치 게이지 지음, 박훈 옮김 | 빈서재",
+      "theme": "동아시아 비교사/전제국가와 봉건사회의 근대 이행",
+      "imageUrl": "assets/book-covers/china-despotism-japan-feudalism-adachi.jpg",
+      "reviewUrl": "posts/china-despotism-japan-feudalism-adachi.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "근대의 길은 왜 서로 다른 곳에서 갈라졌는가",
+      "review": "전제국가와 봉건사회의 결합 원리에서 시장·중간집단·혁명·당국가의 서로 다른 경로를 읽고, 단선적 발전론을 넘는 구조사적 성취와 중국을 대립항으로 고정하는 유형론의 한계를 함께 살핀다."
+    },
     {
       "id": "382506185",
       "title": "독일 미감",
@@ -2101,8 +2112,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382506160",
       "title": "중국의 전제, 일본의 봉건",
       "metadata": "아다치 게이지 지음, 박훈 옮김 | 빈서재",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/30860/61/cover500/k982831579_1.jpg"
+      "theme": "동아시아 비교사/전제국가와 봉건사회의 근대 이행",
+      "imageUrl": "assets/book-covers/china-despotism-japan-feudalism-adachi.jpg",
+      "reviewUrl": "posts/china-despotism-japan-feudalism-adachi.html"
     },
     {
       "id": "382505955",

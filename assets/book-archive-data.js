@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 242,
+    "reviewLinkedCount": 243,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382506739",
+      "title": "요즘 미술은 진짜 모르겠더라",
+      "metadata": "정서연 지음 | 21세기북스",
+      "theme": "현대미술/미니멀리즘에서 인공지능까지",
+      "imageUrl": "assets/book-covers/contemporary-art-twelve-keywords-jeong-seoyeon.jpg",
+      "reviewUrl": "posts/contemporary-art-twelve-keywords-jeong-seoyeon.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "모르는 작품 앞에서 무엇을 물을 것인가",
+      "review": "미니멀리즘에서 인공지능까지 12개 키워드를 따라 작품·관람자·장소·사회의 관계를 읽고, 낯선 미술을 질문하는 언어를 건네는 성취와 압축된 계보·관계·기술 논쟁의 한계를 함께 살핀다."
+    },
     {
       "id": "382506771",
       "title": "아주 가까이 죽음을 마주했을 때",
@@ -2017,8 +2028,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382506739",
       "title": "요즘 미술은 진짜 모르겠더라",
       "metadata": "정서연 지음 | 21세기북스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/31518/86/cover500/8950944960_1.jpg"
+      "theme": "현대미술/미니멀리즘에서 인공지능까지",
+      "imageUrl": "assets/book-covers/contemporary-art-twelve-keywords-jeong-seoyeon.jpg",
+      "reviewUrl": "posts/contemporary-art-twelve-keywords-jeong-seoyeon.html"
     },
     {
       "id": "382506700",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 249,
+    "reviewLinkedCount": 251,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382505141",
+      "title": "식물의 말들",
+      "metadata": "S. 테레사 디에츠 지음, 김미선 옮김 | 사이",
+      "theme": "식물문화사/꽃말과 인간의 상징",
+      "imageUrl": "assets/book-covers/complete-language-flowers-dietz.jpg",
+      "reviewUrl": "posts/complete-language-flowers-dietz.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "꽃은 어떻게 말하지 않고 말하는가",
+      "review": "1,001종의 학명과 꽃말, 신화·민담·역사를 따라 인간이 식물에 감정과 기억을 새겨 온 방식을 읽고, 상징 사전의 풍요와 불일치, 식물 지식의 제국적 이동과 출처가 흐려지는 한계를 함께 살핀다."
+    },
     {
       "id": "382505815",
       "title": "초연결사회",
@@ -2183,14 +2194,16 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "칸트의 『순수이성비판』",
       "metadata": "테오도르 W. 아도르노 지음, 박중목.원당희 옮김 | 세창출판사(세창미디어)",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/27073/71/cover500/k352731588_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/27073/71/cover500/k352731588_1.jpg",
+      "reviewUrl": "posts/adorno-kant-critique-pure-reason.html"
     },
     {
       "id": "382505141",
       "title": "식물의 말들",
       "metadata": "S. 테레사 디에츠 지음, 김미선 옮김 | 사이",
-      "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/28387/90/cover500/899317895x_1.jpg"
+      "theme": "식물문화사/꽃말과 인간의 상징",
+      "imageUrl": "assets/book-covers/complete-language-flowers-dietz.jpg",
+      "reviewUrl": "posts/complete-language-flowers-dietz.html"
     },
     {
       "id": "382505101",

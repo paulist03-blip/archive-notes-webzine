@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 241,
+    "reviewLinkedCount": 242,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382506771",
+      "title": "아주 가까이 죽음을 마주했을 때",
+      "metadata": "엘리자베스 퀴블러 로스 지음, 오혜련 옮김 | 샘솟는기쁨",
+      "theme": "죽음학/어린이의 죽음과 가족의 애도",
+      "imageUrl": "assets/book-covers/on-children-and-death-kubler-ross.jpg",
+      "reviewUrl": "posts/on-children-and-death-kubler-ross.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "아이를 잃은 뒤에도 사랑은 어디에 머무는가",
+      "review": "죽음을 앞둔 어린이의 말과 상징, 부모·형제의 애도, 작별과 장례, 영적 돌봄을 따라 슬픔 곁에 머무는 실천을 읽고 사례 중심 서술과 영적 확신, 단계식 애도 모델의 한계를 함께 살핀다."
+    },
     {
       "id": "382506901",
       "title": "공감의 존재론",
@@ -1998,8 +2009,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382506771",
       "title": "아주 가까이 죽음을 마주했을 때",
       "metadata": "엘리자베스 퀴블러 로스 지음, 오혜련 옮김 | 샘솟는기쁨",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35631/65/cover500/k172036395_1.jpg"
+      "theme": "죽음학/어린이의 죽음과 가족의 애도",
+      "imageUrl": "assets/book-covers/on-children-and-death-kubler-ross.jpg",
+      "reviewUrl": "posts/on-children-and-death-kubler-ross.html"
     },
     {
       "id": "382506739",

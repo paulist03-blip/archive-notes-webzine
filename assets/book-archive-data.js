@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 253,
+    "reviewLinkedCount": 254,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382504712",
+      "title": "미디어 알고리즘의 욕망",
+      "metadata": "마크 안드레예비치 지음, 이희은 옮김 | 컬처룩",
+      "theme": "비판 미디어학/자동화와 판단의 정치",
+      "imageUrl": "assets/book-covers/automated-media-andrejevic.jpg",
+      "reviewUrl": "posts/automated-media-andrejevic.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "알고리즘은 왜 이해보다 반응을 원하는가",
+      "review": "자동 수집·해석·대응의 연쇄와 선점·조작주의·환경성의 편향을 따라 인간의 판단과 욕망을 앞질러 처리하는 미디어를 읽고, 설명과 숙의가 사라지는 정치적 위험과 광범위한 이론화의 한계를 함께 살핀다."
+    },
     {
       "id": "382504751",
       "title": "건축하지 않는 건축가",
@@ -2255,8 +2266,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382504712",
       "title": "미디어 알고리즘의 욕망",
       "metadata": "마크 안드레예비치 지음, 이희은 옮김 | 컬처룩",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/28053/47/cover500/k072734532_1.jpg"
+      "theme": "비판 미디어학/자동화와 판단의 정치",
+      "imageUrl": "assets/book-covers/automated-media-andrejevic.jpg",
+      "reviewUrl": "posts/automated-media-andrejevic.html"
     },
     {
       "id": "382504292",

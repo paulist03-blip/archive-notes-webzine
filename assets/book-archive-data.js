@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 240,
+    "reviewLinkedCount": 241,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382506901",
+      "title": "공감의 존재론",
+      "metadata": "한상연 지음 | 세창출판사(세창미디어)",
+      "theme": "철학/공감·함께-있음과 타자의 초월성",
+      "imageUrl": "assets/book-covers/ontology-empathy-han-sangyeon.jpg",
+      "reviewUrl": "posts/ontology-of-empathy-han-sangyeon.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "타자는 이미 나의 존재 안에 있다",
+      "review": "리스먼 비판에서 슐라이어마허의 자기의식, 사르트르의 시선과 갈등, 하이데거의 불안과 함께-있음으로 나아가는 논증을 따라 공감을 존재 조건으로 세우는 성취와 개념 확장·윤리적 이행·권력 분석의 한계를 함께 살핀다."
+    },
     {
       "id": "382514477",
       "title": "촘스키, 세상의 물음에 답하다 1~3 세트 - 전3권",
@@ -1979,8 +1990,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382506901",
       "title": "공감의 존재론",
       "metadata": "한상연 지음 | 세창출판사(세창미디어)",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/13502/32/cover500/898411734x_1.jpg"
+      "theme": "철학/공감·함께-있음과 타자의 초월성",
+      "imageUrl": "assets/book-covers/ontology-empathy-han-sangyeon.jpg",
+      "reviewUrl": "posts/ontology-of-empathy-han-sangyeon.html"
     },
     {
       "id": "382506771",

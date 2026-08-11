@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 237,
+    "reviewLinkedCount": 238,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
-    "publicCount": 2184,
+    "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "stoner-john-williams",
+      "title": "스토너",
+      "metadata": "존 윌리엄스 지음, 김승욱 옮김 | 알에이치코리아",
+      "theme": "미국소설/예술적 소명과 한 생의 가치",
+      "imageUrl": "assets/book-covers/stoner-john-williams.jpg",
+      "reviewUrl": "posts/stoner-john-williams.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 번뿐인 삶은 어디에서 빛나는가",
+      "review": "문학에 눈뜨는 순간에서 가르침과 전쟁, 대학 정치와 결혼, 딸과 짧은 사랑, 죽음에 이르는 시간을 따라 평범한 한 생이 예술을 향한 충실함으로 얻는 아름다움과 그 침묵의 비용을 함께 읽는다."
+    },
     {
       "id": "383201844",
       "title": "불평등은 어떻게 몸을 갉아먹는가",
@@ -886,6 +897,14 @@ window.PAUL_BOOK_ARCHIVE = {
     }
   ],
   "books": [
+    {
+      "id": "stoner-john-williams",
+      "title": "스토너",
+      "metadata": "존 윌리엄스 지음, 김승욱 옮김 | 알에이치코리아",
+      "theme": "미국소설/예술적 소명과 한 생의 가치",
+      "imageUrl": "assets/book-covers/stoner-john-williams.jpg",
+      "reviewUrl": "posts/stoner-john-williams.html"
+    },
     {
       "id": "room-history-perrot",
       "title": "방의 역사",

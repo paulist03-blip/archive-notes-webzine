@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 252,
+    "reviewLinkedCount": 253,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382504751",
+      "title": "건축하지 않는 건축가",
+      "metadata": "마츠무라 준 지음, 민성휘 옮김 | 인벨로프",
+      "theme": "건축사회학/직업의 해체와 지역의 재구성",
+      "imageUrl": "assets/book-covers/architect-without-building-matsumura.jpg",
+      "reviewUrl": "posts/architect-without-building-matsumura.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "건축가는 건물 없이 무엇을 짓는가",
+      "review": "교육·취향·매체·주택의 역사 속에서 건축가라는 정체성이 만들어지는 과정을 해체하고, 빈집과 리노베이션의 시대에 지역의 관계와 시간을 돌보는 전문가로 다시 그리는 성취와 한계를 살핀다."
+    },
     {
       "id": "382504869",
       "title": "영웅의 여정",
@@ -2236,8 +2247,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382504751",
       "title": "건축하지 않는 건축가",
       "metadata": "마츠무라 준 지음, 민성휘 옮김 | 인벨로프",
-      "theme": "예술/문화",
-      "imageUrl": "https://image.aladin.co.kr/product/33799/5/cover500/k842930578_1.jpg"
+      "theme": "건축사회학/직업의 해체와 지역의 재구성",
+      "imageUrl": "assets/book-covers/architect-without-building-matsumura.jpg",
+      "reviewUrl": "posts/architect-without-building-matsumura.html"
     },
     {
       "id": "382504712",

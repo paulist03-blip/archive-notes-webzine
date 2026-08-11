@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 234,
+    "reviewLinkedCount": 235,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "383203682",
+      "title": "황제내경과 생명과학",
+      "metadata": "남회근 지음, 신원봉 옮김 | 부키",
+      "theme": "동양의학/고전의 생명론과 근거의 경계",
+      "imageUrl": "assets/book-covers/huangdi-neijing-life-science-nan.jpg",
+      "reviewUrl": "posts/huangdi-neijing-life-science-nan.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "고대의 몸은 현대 과학과 만날 수 있는가",
+      "review": "다섯 차례 강의의 음양·오행·양생·정기신 해석을 따라 관계적 신체관과 예방의 통찰을 읽고, 전통 개념을 현대 생리학과 연결할 때 생기는 번역과 근거의 한계를 짚는다."
+    },
     {
       "id": "384267583",
       "title": "화가들의 꽃",
@@ -1868,8 +1879,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "383203682",
       "title": "황제내경과 생명과학",
       "metadata": "남회근 지음, 신원봉 옮김 | 부키",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/6637/29/cover500/896051506x_1.jpg"
+      "theme": "동양의학/고전의 생명론과 근거의 경계",
+      "imageUrl": "assets/book-covers/huangdi-neijing-life-science-nan.jpg",
+      "reviewUrl": "posts/huangdi-neijing-life-science-nan.html"
     },
     {
       "id": "383202770",

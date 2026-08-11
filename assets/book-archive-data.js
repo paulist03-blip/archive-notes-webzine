@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 247,
+    "reviewLinkedCount": 248,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382505955",
+      "title": "오래되고 멋진 클래식 레코드 2",
+      "metadata": "무라카미 하루키 지음, 홍은주 옮김 | 문학동네",
+      "theme": "클래식 음반/비교 청취와 개인적 취향",
+      "imageUrl": "assets/book-covers/old-wonderful-classical-records-2-murakami.jpg",
+      "reviewUrl": "posts/old-wonderful-classical-records-2-murakami.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "같은 곡은 왜 들을 때마다 다른 세계가 되는가",
+      "review": "104곡과 590장의 LP를 오가며 같은 작품이 연주와 청자의 시간에 따라 달라지는 방식을 읽고, 개인적 취향을 청취의 방법으로 세우는 성취와 서구 정전·컬렉션 중심 시야의 한계를 함께 살핀다."
+    },
     {
       "id": "382506160",
       "title": "중국의 전제, 일본의 봉건",
@@ -2120,8 +2131,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382505955",
       "title": "오래되고 멋진 클래식 레코드 2",
       "metadata": "무라카미 하루키 지음, 홍은주 옮김 | 문학동네",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/33934/5/cover500/k182930136_1.jpg"
+      "theme": "클래식 음반/비교 청취와 개인적 취향",
+      "imageUrl": "assets/book-covers/old-wonderful-classical-records-2-murakami.jpg",
+      "reviewUrl": "posts/old-wonderful-classical-records-2-murakami.html"
     },
     {
       "id": "382505907",

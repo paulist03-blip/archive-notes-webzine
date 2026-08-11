@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 254,
+    "reviewLinkedCount": 255,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382504209",
+      "title": "스트레스 : 당신을 병들게 하는 스트레스의 모든 것",
+      "metadata": "로버트 새폴스키 지음, 이재담.이지윤 옮김 | 사이언스북스",
+      "theme": "스트레스 생리학/적응과 만성적 부담",
+      "imageUrl": "assets/book-covers/why-zebras-dont-get-ulcers-sapolsky.jpg",
+      "reviewUrl": "posts/why-zebras-dont-get-ulcers-sapolsky.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "몸은 왜 끝나지 않은 위험을 기억하는가",
+      "review": "짧은 생존 반응이 반복될 때 심혈관·대사·면역·기억에 어떤 비용이 쌓이는지 따라가며, 스트레스 생리학의 통찰과 개인 처방의 한계, 회복을 가능하게 하는 사회적 조건을 함께 살핀다."
+    },
     {
       "id": "382504712",
       "title": "미디어 알고리즘의 욕망",
@@ -2282,8 +2293,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382504209",
       "title": "스트레스 : 당신을 병들게 하는 스트레스의 모든 것",
       "metadata": "로버트 새폴스키 지음, 이재담.이지윤 옮김 | 사이언스북스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/289/27/cover500/8983712325_2.jpg"
+      "theme": "스트레스 생리학/적응과 만성적 부담",
+      "imageUrl": "assets/book-covers/why-zebras-dont-get-ulcers-sapolsky.jpg",
+      "reviewUrl": "posts/why-zebras-dont-get-ulcers-sapolsky.html"
     },
     {
       "id": "382504128",

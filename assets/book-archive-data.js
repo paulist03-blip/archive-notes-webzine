@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 243,
+    "reviewLinkedCount": 244,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382506700",
+      "title": "신학, 과학을 만나다",
+      "metadata": "김도현 지음 | 서강대학교출판부",
+      "theme": "신학/현대 과학과 그리스도교 교의의 대화",
+      "imageUrl": "assets/book-covers/theology-meets-science-kim-dohyun.jpg",
+      "reviewUrl": "posts/theology-meets-science-kim-dohyun.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "과학의 언어는 신학을 어디까지 비출 수 있는가",
+      "review": "양자물리학과 그리스도론·삼위일체론, 빅뱅 우주론과 창조신학, 네트워크 과학과 교회론의 대화를 따라 과학적 유비의 성취와 범주를 넘는 번역의 한계를 함께 읽는다."
+    },
     {
       "id": "382506739",
       "title": "요즘 미술은 진짜 모르겠더라",
@@ -2036,8 +2047,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382506700",
       "title": "신학, 과학을 만나다",
       "metadata": "김도현 지음 | 서강대학교출판부",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/25898/33/cover500/8972733695_1.jpg"
+      "theme": "신학/현대 과학과 그리스도교 교의의 대화",
+      "imageUrl": "assets/book-covers/theology-meets-science-kim-dohyun.jpg",
+      "reviewUrl": "posts/theology-meets-science-kim-dohyun.html"
     },
     {
       "id": "382506681",

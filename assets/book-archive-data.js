@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 233,
+    "reviewLinkedCount": 234,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "384267583",
+      "title": "화가들의 꽃",
+      "metadata": "앵거스 하일랜드·켄드라 윌슨 지음, 안진이 옮김 | 푸른숲",
+      "theme": "미술/꽃 이미지의 선택과 배열",
+      "imageUrl": "assets/book-covers/painters-flowers-hyland-wilson.jpg",
+      "reviewUrl": "posts/painters-flowers-hyland-wilson.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "꽃은 그림 안에서 무엇이 되는가",
+      "review": "108점의 꽃 이미지와 25개 작가 항목을 따라 회화·사진·목판·식물 도감 사이에서 꽃이 색과 상징, 분류와 시간으로 바뀌는 과정을 읽고 편집의 성취와 역사적 맥락의 한계를 살핀다."
+    },
     {
       "id": "384267705",
       "title": "개념어 사전 (리커버)",
@@ -1848,9 +1859,10 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "384267583",
       "title": "화가들의 꽃",
-      "metadata": "앵거스 하일랜드.켄드라 윌슨 지음, 안진이 옮김 | 푸른숲",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/35978/63/cover500/k802037904_1.jpg"
+      "metadata": "앵거스 하일랜드·켄드라 윌슨 지음, 안진이 옮김 | 푸른숲",
+      "theme": "미술/꽃 이미지의 선택과 배열",
+      "imageUrl": "assets/book-covers/painters-flowers-hyland-wilson.jpg",
+      "reviewUrl": "posts/painters-flowers-hyland-wilson.html"
     },
     {
       "id": "383203682",

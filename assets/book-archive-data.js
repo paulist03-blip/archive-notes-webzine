@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 239,
+    "reviewLinkedCount": 240,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382514477",
+      "title": "촘스키, 세상의 물음에 답하다 1~3 세트 - 전3권",
+      "metadata": "노암 촘스키 지음, 피터 R. 미첼·존 쇼펠 엮음, 이종인 옮김, 장봉군 그림 | 시대의창",
+      "theme": "정치사상/언론·제국·시장과 시민의 조직화",
+      "imageUrl": "assets/book-covers/understanding-power-chomsky.jpg",
+      "reviewUrl": "posts/understanding-power-chomsky.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "권력은 어떻게 상식의 얼굴을 얻는가",
+      "review": "공식 명분과 실제 결과의 간극을 추적하는 열 장의 대화와 방대한 편집 주석을 따라 언론·제국·시장·지식인의 권력을 읽고, 시민운동론의 성취와 사례 선택·이론적 매개의 한계를 함께 살핀다."
+    },
     {
       "id": "383201047",
       "title": "마음이 아플 땐 불교심리학",
@@ -1952,8 +1963,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382514477",
       "title": "촘스키, 세상의 물음에 답하다 1~3 세트 - 전3권",
       "metadata": "노암 촘스키 지음, 피터 R. 미첼 외 엮음, 이종인 옮김, 장봉군 삽화 | 시대의창",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/26361/31/cover500/8959407526_1.jpg"
+      "theme": "정치사상/언론·제국·시장과 시민의 조직화",
+      "imageUrl": "assets/book-covers/understanding-power-chomsky.jpg",
+      "reviewUrl": "posts/understanding-power-chomsky.html"
     },
     {
       "id": "portrait-wardrobe-kim",

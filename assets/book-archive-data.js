@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 245,
+    "reviewLinkedCount": 246,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382506185",
+      "title": "독일 미감",
+      "metadata": "박선영 지음 | 모요사",
+      "theme": "예술여행/모더니즘과 장소의 시간",
+      "imageUrl": "assets/book-covers/german-aesthetic-park-sunyoung.jpg",
+      "reviewUrl": "posts/german-aesthetic-park-sunyoung.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "취향은 어떻게 한 나라를 다시 보게 하는가",
+      "review": "바우하우스와 산업 유산, 숲속 미술관과 예술가의 집을 따라 사적인 취향이 장소의 시간층을 읽는 방식을 살피고, 섬세한 관찰과 문화적 관계망 중심 시야의 한계를 함께 읽는다."
+    },
     {
       "id": "382506681",
       "title": "권위주의적 순간",
@@ -2082,8 +2093,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382506185",
       "title": "독일 미감",
       "metadata": "박선영 지음 | 모요사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/30657/58/cover500/8997066781_1.jpg"
+      "theme": "예술여행/모더니즘과 장소의 시간",
+      "imageUrl": "assets/book-covers/german-aesthetic-park-sunyoung.jpg",
+      "reviewUrl": "posts/german-aesthetic-park-sunyoung.html"
     },
     {
       "id": "382506160",

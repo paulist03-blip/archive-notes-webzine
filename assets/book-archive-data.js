@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 251,
+    "reviewLinkedCount": 252,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382504869",
+      "title": "영웅의 여정",
+      "metadata": "조지프 캠벨 지음, 박중서 옮김 | 갈라파고스",
+      "theme": "비교신화학/삶의 통과와 귀환",
+      "imageUrl": "assets/book-covers/heros-journey-joseph-campbell.jpg",
+      "reviewUrl": "posts/heros-journey-joseph-campbell.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "삶은 어떻게 자기만의 신화가 되는가",
+      "review": "주요 강연과 인터뷰를 부름·시험·귀환의 생애로 엮은 지적 초상을 따라 신화가 삶의 문턱과 예술의 책임을 비추는 방식을 읽고, 회고적 필연성과 보편주의·젠더·문화 번역의 한계를 함께 살핀다."
+    },
     {
       "id": "382505141",
       "title": "식물의 말들",
@@ -2217,8 +2228,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382504869",
       "title": "영웅의 여정",
       "metadata": "조지프 캠벨 지음, 박중서 옮김 | 갈라파고스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/24579/53/cover500/k802631073_1.jpg"
+      "theme": "비교신화학/삶의 통과와 귀환",
+      "imageUrl": "assets/book-covers/heros-journey-joseph-campbell.jpg",
+      "reviewUrl": "posts/heros-journey-joseph-campbell.html"
     },
     {
       "id": "382504751",

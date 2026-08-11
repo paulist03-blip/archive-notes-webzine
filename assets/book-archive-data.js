@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 238,
+    "reviewLinkedCount": 239,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "383201047",
+      "title": "마음이 아플 땐 불교심리학",
+      "metadata": "잭 콘필드 지음, 이재석 옮김 | 불광출판사",
+      "theme": "불교심리학/마음챙김과 연민의 치유",
+      "imageUrl": "assets/book-covers/wise-heart-kornfield.jpg",
+      "reviewUrl": "posts/wise-heart-kornfield.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "치유는 마음을 고치는 일이 아니다",
+      "review": "본래적 존엄과 연민에서 출발해 마음챙김과 무아, 욕망·혐오·무지의 전환, 용서와 보살행으로 나아가는 불교심리학의 지도를 읽고 현대적 번역의 성취와 임상적·역사적 한계를 함께 살핀다."
+    },
     {
       "id": "stoner-john-williams",
       "title": "스토너",
@@ -1933,8 +1944,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "383201047",
       "title": "마음이 아플 땐 불교심리학",
       "metadata": "잭 콘필드 지음, 이재석 옮김 | 불광출판사",
-      "theme": "철학/고전",
-      "imageUrl": "https://image.aladin.co.kr/product/24051/94/cover500/8974798123_1.jpg"
+      "theme": "불교심리학/마음챙김과 연민의 치유",
+      "imageUrl": "assets/book-covers/wise-heart-kornfield.jpg",
+      "reviewUrl": "posts/wise-heart-kornfield.html"
     },
     {
       "id": "382514477",

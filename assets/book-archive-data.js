@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 235,
+    "reviewLinkedCount": 237,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "383201844",
+      "title": "불평등은 어떻게 몸을 갉아먹는가",
+      "metadata": "알린 T. 제로니머스 지음, 방진이 옮김 | 돌베개",
+      "theme": "공공보건/구조적 불평등과 생물학적 마모",
+      "imageUrl": "assets/book-covers/weathering-inequality-geronimus.jpg",
+      "reviewUrl": "posts/weathering-inequality-geronimus.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "불평등은 어떻게 몸의 시간이 되는가",
+      "review": "웨더링과 알로스태틱 부하, 모성 건강과 고강도 대처의 논증을 따라 구조적 불평등이 몸의 적응 비용으로 축적되는 과정을 읽고, 측정과 맥락, 정책 전환의 성취와 한계를 살핀다."
+    },
     {
       "id": "383203682",
       "title": "황제내경과 생명과학",
@@ -1888,14 +1899,16 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "일본제국의 ‘동양사’ 개발과 천황제 파시즘",
       "metadata": "이태진 지음 | 사회평론아카데미",
       "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/29039/29/cover500/k062836837_1.jpg"
+      "imageUrl": "https://image.aladin.co.kr/product/29039/29/cover500/k062836837_1.jpg",
+      "reviewUrl": "posts/japanese-oriental-history-tenno-fascism.html"
     },
     {
       "id": "383201844",
       "title": "불평등은 어떻게 몸을 갉아먹는가",
       "metadata": "알린 T. 제로니머스 지음, 방진이 옮김 | 돌베개",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/36185/4/cover500/k252038492_1.jpg"
+      "theme": "공공보건/구조적 불평등과 생물학적 마모",
+      "imageUrl": "assets/book-covers/weathering-inequality-geronimus.jpg",
+      "reviewUrl": "posts/weathering-inequality-geronimus.html"
     },
     {
       "id": "383201047",

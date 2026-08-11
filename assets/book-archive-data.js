@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 248,
+    "reviewLinkedCount": 249,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382505815",
+      "title": "초연결사회",
+      "metadata": "메리 차이코 지음, 배현석 옮김 | 한울(한울아카데미)",
+      "theme": "디지털 사회/기술-사회 생활과 초연결성",
+      "imageUrl": "assets/book-covers/superconnected-mary-chayko.jpg",
+      "reviewUrl": "posts/superconnected-mary-chayko.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "연결은 어떻게 삶의 환경이 되었는가",
+      "review": "인터넷과 디지털 미디어가 관계·자아·감시·불평등·제도를 함께 바꾸는 기술-사회적 환경이 된 과정을 읽고, 온라인·오프라인 이분법을 넘는 성취와 플랫폼 정치경제를 충분히 밀어붙이지 못한 한계를 살핀다."
+    },
     {
       "id": "382505955",
       "title": "오래되고 멋진 클래식 레코드 2",
@@ -2163,8 +2174,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "382505815",
       "title": "초연결사회 (반양장)",
       "metadata": "메리 차이코 지음, 배현석 옮김 | 한울(한울아카데미)",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/22022/42/cover500/8946064625_1.jpg"
+      "theme": "디지털 사회/기술-사회 생활과 초연결성",
+      "imageUrl": "assets/book-covers/superconnected-mary-chayko.jpg",
+      "reviewUrl": "posts/superconnected-mary-chayko.html"
     },
     {
       "id": "382505191",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 265,
+    "reviewLinkedCount": 266,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "379052512",
+      "title": "유쾌한 불교",
+      "metadata": "오사와 마사치·하시즈메 다이사부로 지음, 김보라·이하늘·김태진 옮김 | 북드라망",
+      "theme": "종교사회학/깨달음과 공의 언어 게임",
+      "imageUrl": "assets/book-covers/cheerful-buddhism-osawa-hashizume.jpg",
+      "reviewUrl": "posts/cheerful-buddhism-osawa-hashizume.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "깨달음의 중심은 왜 비어 있어야 하는가",
+      "review": "말할 수 없는 깨달음의 공백에서 초기불교·대승·중관·유식·밀교의 변형을 따라가며 무아와 자비, 인과율과 자유의지의 긴장을 읽고, 불교를 현대적 개인주의와 합리성으로 번역하는 사회학적 해석의 힘과 한계를 함께 살핀다."
+    },
     {
       "id": "379052646",
       "title": "한 사람의 마을",
@@ -2467,8 +2478,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379052512",
       "title": "유쾌한 불교",
       "metadata": "오사와 마사치.하시즈메 다이사부로 지음, 김보라 외 옮김 | 북드라망",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/34705/59/cover500/k602933013_1.jpg"
+      "theme": "종교사회학/깨달음과 공의 언어 게임",
+      "imageUrl": "assets/book-covers/cheerful-buddhism-osawa-hashizume.jpg",
+      "reviewUrl": "posts/cheerful-buddhism-osawa-hashizume.html"
     },
     {
       "id": "379052243",

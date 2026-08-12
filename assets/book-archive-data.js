@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "399601714",
+      "title": "독소 전쟁사 1941~1945",
+      "metadata": "데이비드 M. 글랜츠·조너선 M. 하우스 지음, 권도승·남창우·윤시원 옮김 | 열린책들",
+      "theme": "전쟁사/붉은 군대와 작전술의 회복",
+      "imageUrl": "assets/book-covers/when-titans-clashed-glantz-house.jpg",
+      "reviewUrl": "posts/when-titans-clashed-glantz-house.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "승리는 어떻게 지도 위의 화살표가 되지 않는가",
+      "review": "붕괴와 회복, 스탈린그라드와 쿠르스크, 바그라티온과 보급을 따라 붉은 군대의 승리를 작전술과 사회적 비용의 문제로 읽는다."
+    },
+    {
       "id": "399602117",
       "title": "디 에센셜 조지 오웰",
       "metadata": "조지 오웰 지음, 정회성·강문순 옮김 | 민음사",
@@ -3601,10 +3612,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399601714",
       "title": "독소 전쟁사 1941~1945",
       "metadata": "데이비드 M. 글랜츠,조너선 M. 하우스 지음, 윤시원.남창우.권도승 옮김 | 열린책들",
-      "theme": "역사/정치",
+      "theme": "전쟁사/붉은 군대와 작전술의 회복",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399601714",
-      "imageUrl": "https://image.aladin.co.kr/product/89/37/cover500/8932907439_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/when-titans-clashed-glantz-house.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/when-titans-clashed-glantz-house.html"
     },
     {
       "id": "399601680",

@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "399625235",
+      "title": "뇌 없이도 생각할 수 있는가",
+      "metadata": "파코 칼보 지음, 하인해 옮김 | 휴머니스트",
+      "theme": "식물인지/지능과 지각의 경계",
+      "imageUrl": "assets/book-covers/planta-sapiens-paco-calvo.jpg",
+      "reviewUrl": "posts/planta-sapiens-paco-calvo.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "움직임을 놓친 것은 누구의 시간인가",
+      "review": "식물의 느린 운동과 전기 신호, 체화된 인지를 따라 뇌 없는 지능의 가능성을 읽고, 학습 실험의 논쟁과 인지에서 지각으로 건너가는 추론의 경계를 함께 살핀다."
+    },
+    {
       "id": "399625382",
       "title": "열하일기 1",
       "metadata": "박지원 지음, 김혈조 옮김 | 돌베개",
@@ -3459,10 +3470,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399625235",
       "title": "뇌 없이도 생각할 수 있는가",
       "metadata": "파코 칼보 지음, 하인해 옮김 | 휴머니스트",
-      "theme": "과학/의학",
+      "theme": "식물인지/지능과 지각의 경계",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399625235",
-      "imageUrl": "https://image.aladin.co.kr/product/36408/48/cover500/k372039884_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/planta-sapiens-paco-calvo.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/planta-sapiens-paco-calvo.html"
     },
     {
       "id": "399623490",

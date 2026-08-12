@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 264,
+    "reviewLinkedCount": 265,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "379052646",
+      "title": "한 사람의 마을",
+      "metadata": "류량청 지음, 조은 옮김 | 글항아리",
+      "theme": "자연산문/황사량과 기억의 생태",
+      "imageUrl": "assets/book-covers/a-village-of-one-liu-liangcheng.jpg",
+      "reviewUrl": "posts/a-village-of-one-liu-liangcheng.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "마을이 사라진 뒤 무엇이 삶의 증거가 되는가",
+      "review": "사람과 가축의 공동생활에서 바람·나무·개미의 시간, 폐허가 된 황사량으로 돌아가는 기억까지 따라가며 인간을 세계의 중심에서 옮겨 놓는 자연 산문의 힘과 한 화자의 서정이 실제 공동체를 거두는 한계를 함께 살핀다."
+    },
     {
       "id": "379052725",
       "title": "울림",
@@ -2448,8 +2459,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379052646",
       "title": "한 사람의 마을",
       "metadata": "류량청 지음, 조은 옮김 | 글항아리",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/32509/52/cover500/k572935727_2.jpg"
+      "theme": "자연산문/황사량과 기억의 생태",
+      "imageUrl": "assets/book-covers/a-village-of-one-liu-liangcheng.jpg",
+      "reviewUrl": "posts/a-village-of-one-liu-liangcheng.html"
     },
     {
       "id": "379052512",

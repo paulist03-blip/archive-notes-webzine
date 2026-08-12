@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 261,
+    "reviewLinkedCount": 262,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "379685234",
+      "title": "독일전설 1",
+      "metadata": "그림 형제 지음, 임한순 외 옮김 | 서울대학교출판문화원",
+      "theme": "독일민속/장소와 공동체의 기억",
+      "imageUrl": "assets/book-covers/german-legends-1-brothers-grimm.jpg",
+      "reviewUrl": "posts/german-legends-1-brothers-grimm.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "돌과 우물은 어떻게 오래된 목소리를 간직하는가",
+      "review": "363편의 지역 전설을 따라 돌과 우물, 광산과 폐허에 공동체의 기억이 붙는 방식을 읽고, 짧은 형식과 반복의 힘, 노동과 금기의 질서, 수집의 성취와 민족주의·편견의 한계를 함께 살핀다."
+    },
     {
       "id": "379685513",
       "title": "고고학을 위한 통계학",
@@ -2391,8 +2402,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379685234",
       "title": "독일전설 1",
       "metadata": "그림 형제 지음, 임한순 외 옮김 | 서울대학교출판문화원",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/5162/34/cover500/8952115880_1.jpg"
+      "theme": "독일민속/장소와 공동체의 기억",
+      "imageUrl": "assets/book-covers/german-legends-1-brothers-grimm.jpg",
+      "reviewUrl": "posts/german-legends-1-brothers-grimm.html"
     },
     {
       "id": "379685194",

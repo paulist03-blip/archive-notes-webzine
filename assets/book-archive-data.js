@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "399602177",
+      "title": "철학으로 현대음악 읽기",
+      "metadata": "박영욱 지음 | 바다출판사",
+      "theme": "현대음악철학/소리와 질서의 경계",
+      "imageUrl": "assets/book-covers/philosophy-modern-music-park-youngwook.jpg",
+      "reviewUrl": "posts/philosophy-modern-music-park-youngwook.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "들리지 않던 소리는 어떻게 음악의 자리를 얻는가",
+      "review": "바흐와 리게티, 쇤베르크와 전자음악, 미니멀리즘과 크세나키스를 따라 익숙한 질서 밖의 소리가 음악의 자리를 얻는 과정과 그 철학적 지도의 성취와 한계를 읽는다."
+    },
+    {
       "id": "399602355",
       "title": "영상 글쓰기의 본질",
       "metadata": "짐 머큐리오 지음, 이은주 옮김 | 도레미",
@@ -3549,8 +3560,10 @@ window.PAUL_BOOK_ARCHIVE = {
       "metadata": "박영욱 지음 | 바다출판사",
       "theme": "음악/공연",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399602177",
-      "imageUrl": "https://image.aladin.co.kr/product/32267/43/cover500/k232834844_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/philosophy-modern-music-park-youngwook.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/philosophy-modern-music-park-youngwook.html"
     },
     {
       "id": "399602117",

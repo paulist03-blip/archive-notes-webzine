@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 260,
+    "reviewLinkedCount": 261,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "379685513",
+      "title": "고고학을 위한 통계학",
+      "metadata": "로버트 드레넌 지음, 김범철 옮김 | 진인진",
+      "theme": "고고학/표본과 불확실성의 통계",
+      "imageUrl": "assets/book-covers/statistics-for-archaeologists-drennan.jpg",
+      "reviewUrl": "posts/statistics-for-archaeologists-drennan.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "숫자는 어떻게 묻힌 시간의 불확실성을 드러내는가",
+      "review": "수치 탐색과 표본조사에서 변수의 관계, 공간 표집과 다변량 분석까지 따라가며 통계를 과거의 일부에서 어디까지 말할 수 있는지 가늠하는 절제의 문법으로 읽고, 고전적 검정과 출간 시점의 한계도 함께 살핀다."
+    },
     {
       "id": "379685814",
       "title": "글쓰기의 감각",
@@ -2372,8 +2383,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379685513",
       "title": "고고학을 위한 통계학",
       "metadata": "로버트 드레넌 지음, 김범철 옮김 | 진인진",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/18781/90/cover500/8963474062_1.jpg"
+      "theme": "고고학/표본과 불확실성의 통계",
+      "imageUrl": "assets/book-covers/statistics-for-archaeologists-drennan.jpg",
+      "reviewUrl": "posts/statistics-for-archaeologists-drennan.html"
     },
     {
       "id": "379685234",

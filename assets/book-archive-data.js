@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 263,
+    "reviewLinkedCount": 264,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "379052725",
+      "title": "울림",
+      "metadata": "마틴 슐레스케 지음, 유영미 옮김 | 니케북스",
+      "theme": "장인정신/공명과 삶의 영성",
+      "imageUrl": "assets/book-covers/the-sound-martin-schleske.jpg",
+      "reviewUrl": "posts/the-sound-martin-schleske.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "사람은 무엇에 응답할 때 자기 소리를 얻는가",
+      "review": "나무 선택과 곡면, 공명과 마감, 연주로 이어지는 바이올린 제작의 순서를 따라 장인의 감각이 삶과 신앙의 비유로 건너가는 순간을 읽고, 고통과 소명을 악기의 질서로 옮길 때 생기는 한계도 함께 살핀다."
+    },
     {
       "id": "379685194",
       "title": "걸 클래식 컬렉션 2 세트 - 전4권",
@@ -2429,8 +2440,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379052725",
       "title": "울림",
       "metadata": "마틴 슐레스케 지음, 유영미 옮김 | 니케북스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/29621/70/cover500/k612838371_1.jpg"
+      "theme": "장인정신/공명과 삶의 영성",
+      "imageUrl": "assets/book-covers/the-sound-martin-schleske.jpg",
+      "reviewUrl": "posts/the-sound-martin-schleske.html"
     },
     {
       "id": "379052646",

@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "399625382",
+      "title": "열하일기 1",
+      "metadata": "박지원 지음, 김혈조 옮김 | 돌베개",
+      "theme": "고전기행/관찰과 북학의 시선",
+      "imageUrl": "assets/book-covers/yeolha-ilgi-1-park-jiwon.jpg",
+      "reviewUrl": "posts/yeolha-ilgi-1-park-jiwon.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "길을 건넌 눈은 어떻게 낡은 세계를 의심하는가",
+      "review": "압록강에서 열하까지 이어지는 길 위에서 청의 도시와 기술, 사람과 제도를 관찰하며 조선의 낡은 척도를 흔드는 문장의 힘과 여행하는 시선의 한계를 함께 읽는다."
+    },
+    {
       "id": "378994538",
       "title": "이지 클래식",
       "metadata": "류인하 지음 | 42미디어콘텐츠",
@@ -3437,10 +3448,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399625382",
       "title": "열하일기 1",
       "metadata": "박지원 지음, 김혈조 옮김 | 돌베개",
-      "theme": "인문/교양",
+      "theme": "고전기행/관찰과 북학의 시선",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399625382",
-      "imageUrl": "https://image.aladin.co.kr/product/12241/3/cover500/8971998288_2.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/yeolha-ilgi-1-park-jiwon.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/yeolha-ilgi-1-park-jiwon.html"
     },
     {
       "id": "399625235",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 255,
+    "reviewLinkedCount": 256,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "382504128",
+      "title": "쳇 베이커 : 그대 다시는 고향에 가지 못하리",
+      "metadata": "제임스 개빈 지음, 김현준 옮김 | 을유문화사",
+      "theme": "음악가 평전/쿨 재즈와 파멸의 신화",
+      "imageUrl": "assets/book-covers/deep-in-a-dream-chet-baker-gavin.jpg",
+      "reviewUrl": "posts/deep-in-a-dream-chet-baker-gavin.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "아름다운 소리는 한 사람의 삶을 구원할 수 있는가",
+      "review": "수백 건의 증언과 기록으로 쿨 재즈의 아이콘을 해체하는 전기의 구조를 따라 음악과 삶의 불화를 읽고, 낭만화를 거부하면서도 파멸의 신화를 다시 강화하는 서술의 한계를 함께 살핀다."
+    },
     {
       "id": "382504209",
       "title": "스트레스 : 당신을 병들게 하는 스트레스의 모든 것",
@@ -2299,10 +2310,11 @@ window.PAUL_BOOK_ARCHIVE = {
     },
     {
       "id": "382504128",
-      "title": "쳇 베이커",
+      "title": "쳇 베이커 : 그대 다시는 고향에 가지 못하리",
       "metadata": "제임스 개빈 지음, 김현준 옮김 | 을유문화사",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/33696/57/cover500/8932431566_1.jpg"
+      "theme": "음악가 평전/쿨 재즈와 파멸의 신화",
+      "imageUrl": "assets/book-covers/deep-in-a-dream-chet-baker-gavin.jpg",
+      "reviewUrl": "posts/deep-in-a-dream-chet-baker-gavin.html"
     },
     {
       "id": "379685814",

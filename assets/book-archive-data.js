@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "399623468",
+      "title": "21세기 지정학",
+      "metadata": "아미타브 아차리아 지음, 최준영 옮김 | 21세기북스",
+      "theme": "세계질서사/서구 이후의 멀티플렉스",
+      "imageUrl": "assets/book-covers/once-and-future-world-order-acharya.jpg",
+      "reviewUrl": "posts/once-and-future-world-order-acharya.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "질서는 누구의 기억을 지우고 세계가 되었는가",
+      "review": "수메르와 이집트에서 반둥과 미국 주도 질서까지 5천 년의 역사를 따라 세계질서의 여러 기원을 복원하고, 서구 이후 멀티플렉스 세계의 가능성과 빈틈을 읽는다."
+    },
+    {
       "id": "399623490",
       "title": "세포의 노래",
       "metadata": "싯다르타 무케르지 지음, 이한음 옮김 | 까치",
@@ -3503,10 +3514,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399623468",
       "title": "21세기 지정학",
       "metadata": "아미타브 아차리아 지음, 최준영 옮김 | 21세기북스",
-      "theme": "인문/교양",
+      "theme": "세계질서사/서구 이후의 멀티플렉스",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399623468",
-      "imageUrl": "https://image.aladin.co.kr/product/38327/41/cover500/k462034344_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/once-and-future-world-order-acharya.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/once-and-future-world-order-acharya.html"
     },
     {
       "id": "399602355",

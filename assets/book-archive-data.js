@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "399623490",
+      "title": "세포의 노래",
+      "metadata": "싯다르타 무케르지 지음, 이한음 옮김 | 까치",
+      "theme": "세포생물학/협력과 세포의학의 미래",
+      "imageUrl": "assets/book-covers/song-of-the-cell-mukherjee.jpg",
+      "reviewUrl": "posts/song-of-the-cell-mukherjee.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 사람은 언제 세포들의 노래가 되는가",
+      "review": "세포 발견의 역사에서 혈액과 면역, 기관의 협력, 줄기세포와 CAR-T 치료로 이어지는 길을 따라 생명의 단위와 새로운 인간의 조건을 함께 묻는다."
+    },
+    {
       "id": "399625235",
       "title": "뇌 없이도 생각할 수 있는가",
       "metadata": "파코 칼보 지음, 하인해 옮김 | 휴머니스트",
@@ -3480,11 +3491,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "399623490",
       "title": "세포의 노래",
-      "metadata": "싯다르타 무케르지 외 지음 | 까치",
-      "theme": "과학/의학",
+      "metadata": "싯다르타 무케르지 지음, 이한음 옮김 | 까치",
+      "theme": "세포생물학/협력과 세포의학의 미래",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399623490",
-      "imageUrl": "https://image.aladin.co.kr/product/33493/66/cover500/8972918180_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/song-of-the-cell-mukherjee.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/song-of-the-cell-mukherjee.html"
     },
     {
       "id": "399623468",

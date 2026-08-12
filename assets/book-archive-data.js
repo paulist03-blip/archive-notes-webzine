@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 256,
+    "reviewLinkedCount": 259,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004234",
+      "title": "왜 전쟁까지",
+      "metadata": "가토 요코 지음, 양지연 옮김 | 사계절",
+      "theme": "일본근현대사/선택지와 전쟁의 결정",
+      "imageUrl": "assets/book-covers/why-war-kato-yoko.jpg",
+      "reviewUrl": "posts/why-war-kato-yoko.html",
+      "label": "Issue 58 · 오늘의 장문 리뷰",
+      "subtitle": "전쟁은 언제 선택지의 얼굴을 잃는가",
+      "review": "리턴 조사단 보고서와 삼국동맹, 미일 교섭의 세 갈림길을 되짚어 실제 선택지가 사라진 순서와 필연의 언어가 만들어지는 과정을 읽고, 식민지 피해자의 시간이 멀어지는 한계도 함께 살핀다."
+    },
+    {
+      "id": "399600657",
+      "title": "아리스토텔레스 대도덕학",
+      "metadata": "아리스토텔레스 지음, 김재홍.장미성 옮김 | 그린비",
+      "theme": "고대윤리학/행복·덕과 우정의 실천",
+      "imageUrl": "assets/book-covers/magna-moralia-aristotle.jpg",
+      "reviewUrl": "posts/magna-moralia-aristotle.html",
+      "label": "Issue 58 · 오늘의 장문 리뷰",
+      "subtitle": "좋은 삶은 왜 혼자 완성되지 않는가",
+      "review": "행복과 성품의 덕, 자발성과 선택, 실천적 지혜, 쾌락과 우정을 따라 삶의 좋음이 반복된 행위와 관계 속에서 형성되는 방식을 읽고 저자 논쟁과 고대 폴리스의 배제도 함께 짚는다."
+    },
+    {
+      "id": "399602014",
+      "title": "세잔의 사과",
+      "metadata": "전영백 지음 | 한길사",
+      "theme": "미술이론/현대사상가들의 세잔 읽기",
+      "imageUrl": "assets/book-covers/cezannes-apples-jeon-youngbaek.jpg",
+      "reviewUrl": "posts/cezannes-apples-jeon-youngbaek.html",
+      "label": "Issue 58 · 오늘의 장문 리뷰",
+      "subtitle": "사과 한 알은 어떻게 보는 사람의 시대를 바꾸는가",
+      "review": "크리스테바부터 베르그손까지 일곱 시선이 세잔의 그림을 새로 읽는 과정을 따라 작품과 해석의 역사를 살피고, 회화가 이론의 증거로 물러날 수 있는 위험을 함께 짚는다."
+    },
     {
       "id": "382504128",
       "title": "쳇 베이커 : 그대 다시는 고향에 가지 못하리",
@@ -3358,10 +3391,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399602014",
       "title": "세잔의 사과",
       "metadata": "전영백 지음 | 한길사",
-      "theme": "인문/교양",
+      "theme": "미술이론/현대사상가들의 세잔 읽기",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399602014",
-      "imageUrl": "https://image.aladin.co.kr/product/26846/63/cover500/8935668591_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/cezannes-apples-jeon-youngbaek.jpg",
+      "sourcePage": 1,
+      "reviewUrl": "posts/cezannes-apples-jeon-youngbaek.html"
     },
     {
       "id": "399601714",
@@ -3457,10 +3491,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399600657",
       "title": "아리스토텔레스 대도덕학",
       "metadata": "아리스토텔레스 지음, 김재홍.장미성 옮김 | 그린비",
-      "theme": "인문/교양",
+      "theme": "고대윤리학/행복·덕과 우정의 실천",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399600657",
-      "imageUrl": "https://image.aladin.co.kr/product/34711/98/cover500/8976828763_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/magna-moralia-aristotle.jpg",
+      "sourcePage": 1,
+      "reviewUrl": "posts/magna-moralia-aristotle.html"
     },
     {
       "id": "399600405",
@@ -3952,10 +3987,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389004234",
       "title": "왜 전쟁까지",
       "metadata": "가토 요코 지음, 양지연 옮김 | 사계절",
-      "theme": "역사/정치",
+      "theme": "일본근현대사/선택지와 전쟁의 결정",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004234",
-      "imageUrl": "https://image.aladin.co.kr/product/16234/14/cover500/k682534777_1.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/why-war-kato-yoko.jpg",
+      "sourcePage": 3,
+      "reviewUrl": "posts/why-war-kato-yoko.html"
     },
     {
       "id": "389004172",

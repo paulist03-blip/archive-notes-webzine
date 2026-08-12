@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 266,
+    "reviewLinkedCount": 268,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "379052044",
+      "title": "애드호키즘",
+      "metadata": "찰스 젠크스·네이선 실버 지음, 김정혜·이재희 옮김 | 현실문화",
+      "theme": "디자인이론/즉흥과 다원적 만들기",
+      "imageUrl": "assets/book-covers/adhocism-jencks-silver.jpg",
+      "reviewUrl": "posts/adhocism-jencks-silver.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "쓰임은 어떻게 사물의 운명을 다시 쓰는가",
+      "review": "가용한 사물의 재결합에서 다원적 도시와 소비자 민주주의, 즉흥의 미학으로 이어지는 논의를 따라가며 자유로운 만들기가 무책임한 임시변통을 넘어 돌봄과 책임의 기술이 되기 위한 조건을 살핀다."
+    },
     {
       "id": "379052512",
       "title": "유쾌한 불교",
@@ -2494,15 +2505,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379052234",
       "title": "라디오와 매체",
       "metadata": "발터 벤야민 지음, 고지현 옮김 | 현실문화",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/10044/23/cover500/8965642663_1.jpg"
+      "theme": "매체론/라디오와 공공성",
+      "imageUrl": "assets/book-covers/radio-and-media-benjamin.jpg",
+      "reviewUrl": "posts/benjamin-radio-and-media.html"
     },
     {
       "id": "379052044",
       "title": "애드호키즘",
-      "metadata": "찰스 젠크스.네이선 실버 지음, 김정혜.이재희 옮김 | 현실문화",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/8532/81/cover500/896564187x_1.jpg"
+      "metadata": "찰스 젠크스·네이선 실버 지음, 김정혜·이재희 옮김 | 현실문화",
+      "theme": "디자인이론/즉흥과 다원적 만들기",
+      "imageUrl": "assets/book-covers/adhocism-jencks-silver.jpg",
+      "reviewUrl": "posts/adhocism-jencks-silver.html"
     },
     {
       "id": "378994636",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 262,
+    "reviewLinkedCount": 263,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "379685194",
+      "title": "걸 클래식 컬렉션 2 세트 - 전4권",
+      "metadata": "프랜시스 호지슨 버넷 외 지음, 이경아 외 옮김 | 윌북",
+      "theme": "여성고전/성장과 세계의 문턱",
+      "imageUrl": "assets/book-covers/girl-classic-collection-2.jpg",
+      "reviewUrl": "posts/girl-classic-collection-2.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "닫힌 세계는 누구의 질문 앞에서 열리는가",
+      "review": "《비밀의 화원》·《키다리 아저씨》·《이상한 나라의 앨리스》·《메리 포핀스》의 네 문턱을 따라 여성 인물의 목소리와 성장을 읽고, 현대적 번역의 성취와 식민주의·장애·후원 권력의 한계를 함께 살핀다."
+    },
     {
       "id": "379685234",
       "title": "독일전설 1",
@@ -2410,8 +2421,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379685194",
       "title": "걸 클래식 컬렉션 2 세트 - 전4권",
       "metadata": "프랜시스 호지슨 버넷 외 지음, 이경아 외 옮김 | 윌북",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/23941/29/cover500/k742639005_2.jpg"
+      "theme": "여성고전/성장과 세계의 문턱",
+      "imageUrl": "assets/book-covers/girl-classic-collection-2.jpg",
+      "reviewUrl": "posts/girl-classic-collection-2.html"
     },
     {
       "id": "379052725",

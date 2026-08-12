@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 268,
+    "reviewLinkedCount": 269,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "378994538",
+      "title": "이지 클래식",
+      "metadata": "류인하 지음 | 42미디어콘텐츠",
+      "theme": "클래식입문/친숙한 선율과 듣기의 변화",
+      "imageUrl": "assets/book-covers/easy-classic-ryu-inha.jpg",
+      "reviewUrl": "posts/easy-classic-ryu-inha.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "우리는 어디에서 이미 클래식을 듣고 있었는가",
+      "review": "영화·광고·방송에서 먼저 만난 선율이 작곡가의 삶과 작품 번호, QR 감상을 거쳐 듣기의 언어를 얻는 과정을 읽고, 전기 중심 입문과 서양 남성 정전이 남기는 경계를 함께 살핀다."
+    },
     {
       "id": "379052044",
       "title": "애드호키즘",
@@ -2529,8 +2540,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "378994538",
       "title": "이지 클래식",
       "metadata": "류인하 지음 | 42미디어콘텐츠",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/31333/74/cover500/k392832890_1.jpg"
+      "theme": "클래식입문/친숙한 선율과 듣기의 변화",
+      "imageUrl": "assets/book-covers/easy-classic-ryu-inha.jpg",
+      "reviewUrl": "posts/easy-classic-ryu-inha.html"
     },
     {
       "id": "335335761",

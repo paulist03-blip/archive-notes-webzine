@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "399602355",
+      "title": "영상 글쓰기의 본질",
+      "metadata": "짐 머큐리오 지음, 이은주 옮김 | 도레미",
+      "theme": "장면 쓰기/비트와 반전의 기술",
+      "imageUrl": "assets/book-covers/craft-of-scene-writing-mercurio.jpg",
+      "reviewUrl": "posts/craft-of-scene-writing-mercurio.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 장면은 어떻게 끝난 뒤에도 움직이는가",
+      "review": "비트와 반전, 대사와 행동, 배경 설명과 딜레마, 재작성과 목소리를 따라 한 장면이 관객의 기대를 움직이고 기억으로 남는 과정을 읽는다."
+    },
+    {
       "id": "399623468",
       "title": "21세기 지정학",
       "metadata": "아미타브 아차리아 지음, 최준영 옮김 | 21세기북스",
@@ -3525,10 +3536,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399602355",
       "title": "영상 글쓰기의 본질",
       "metadata": "짐 머큐리오 지음, 이은주 옮김 | 도레미",
-      "theme": "문학/언어",
+      "theme": "장면 쓰기/비트와 반전의 기술",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399602355",
-      "imageUrl": "https://image.aladin.co.kr/product/33247/5/cover500/k012938466_2.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/craft-of-scene-writing-mercurio.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/craft-of-scene-writing-mercurio.html"
     },
     {
       "id": "399602177",

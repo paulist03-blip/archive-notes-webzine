@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 259,
+    "reviewLinkedCount": 260,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "379685814",
+      "title": "글쓰기의 감각",
+      "metadata": "스티븐 핑커 지음, 김명남 옮김 | 사이언스북스",
+      "theme": "글쓰기/인지과학과 문체",
+      "imageUrl": "assets/book-covers/sense-of-style-steven-pinker.jpg",
+      "reviewUrl": "posts/sense-of-style-steven-pinker.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "좋은 문장은 어떻게 타인의 시야를 여는가",
+      "review": "좋은 산문의 역설계에서 고전적 문체, 지식의 저주, 구문과 응집성, 어법 판단으로 이어지는 논증을 따라 명료성을 독자를 향한 환대로 읽고, 영어 중심 규칙과 투명한 창 비유의 한계를 함께 살핀다."
+    },
     {
       "id": "389004234",
       "title": "왜 전쟁까지",
@@ -2353,8 +2364,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379685814",
       "title": "글쓰기의 감각",
       "metadata": "스티븐 핑커 지음, 김명남 옮김 | 사이언스북스",
-      "theme": "인문/문학",
-      "imageUrl": "https://image.aladin.co.kr/product/34403/23/cover500/k602932612_1.jpg"
+      "theme": "글쓰기/인지과학과 문체",
+      "imageUrl": "assets/book-covers/sense-of-style-steven-pinker.jpg",
+      "reviewUrl": "posts/sense-of-style-steven-pinker.html"
     },
     {
       "id": "379685513",

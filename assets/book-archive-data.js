@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "399602117",
+      "title": "디 에센셜 조지 오웰",
+      "metadata": "조지 오웰 지음, 정회성·강문순 옮김 | 민음사",
+      "theme": "정치문학/언어와 진실의 조건",
+      "imageUrl": "assets/book-covers/essential-george-orwell.jpg",
+      "reviewUrl": "posts/essential-george-orwell.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "거짓말은 언제 한 사회의 문법이 되는가",
+      "review": "일곱 편의 에세이와 《1984》를 따라 제국의 폭력에서 정치 언어와 기억의 조작으로 이어지는 사유를 읽고, 진실을 지키는 문장의 힘과 그 시야의 한계를 함께 짚는다."
+    },
+    {
       "id": "399602177",
       "title": "철학으로 현대음악 읽기",
       "metadata": "박영욱 지음 | 바다출판사",
@@ -3568,11 +3579,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "399602117",
       "title": "디 에센셜 조지 오웰 (무선 보급판)",
-      "metadata": "조지 오웰 지음, 정회성 외 옮김 | 민음사",
-      "theme": "인문/교양",
+      "metadata": "조지 오웰 지음, 정회성·강문순 옮김 | 민음사",
+      "theme": "정치문학/언어와 진실의 조건",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399602117",
-      "imageUrl": "https://image.aladin.co.kr/product/28852/57/cover500/8937472910_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/essential-george-orwell.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/essential-george-orwell.html"
     },
     {
       "id": "399602014",

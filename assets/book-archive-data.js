@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 284,
+    "reviewLinkedCount": 285,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399600199",
+      "title": "신호와 소음",
+      "metadata": "네이트 실버 지음, 이경식 옮김 | 더퀘스트",
+      "theme": "통계/확률적 예측과 불확실성",
+      "imageUrl": "assets/book-covers/signal-and-noise-nate-silver.jpg",
+      "reviewUrl": "posts/signal-and-noise-nate-silver.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "미래는 왜 확률로만 모습을 드러내는가",
+      "review": "금융 위기와 선거, 야구와 날씨, 지진과 포커를 따라 데이터의 소음 속에서 확률과 갱신, 지적 겸손이 좋은 예측을 만드는 과정을 읽는다."
+    },
     {
       "id": "399600252",
       "title": "피렌체 비가",
@@ -3952,10 +3963,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399600199",
       "title": "신호와 소음",
       "metadata": "네이트 실버 지음, 이경식 옮김 | 더퀘스트",
-      "theme": "인문/교양",
+      "theme": "통계/확률적 예측과 불확실성",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399600199",
-      "imageUrl": "https://image.aladin.co.kr/product/25977/78/cover500/k022737227_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/signal-and-noise-nate-silver.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/signal-and-noise-nate-silver.html"
     },
     {
       "id": "399600169",

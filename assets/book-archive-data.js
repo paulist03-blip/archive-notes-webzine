@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 269,
+    "reviewLinkedCount": 271,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "364174771",
+      "title": "보들레르의 파리",
+      "metadata": "발터 벤야민 지음, 조형준 옮김 | 새물결",
+      "theme": "도시문화사/상품과 흔적의 근대 파리",
+      "imageUrl": "assets/book-covers/paris-of-baudelaire-benjamin.jpg",
+      "reviewUrl": "posts/paris-of-baudelaire-benjamin.html",
+      "label": "Issue 59 · 오늘의 장문 리뷰",
+      "subtitle": "파리는 무엇을 감추며 근대가 되는가",
+      "review": "수집가와 실내, 흔적과 보들레르의 세 콘볼루트를 따라 상품과 군중, 기억이 근대 도시의 꿈과 균열을 만드는 방식을 읽는다."
+    },
+    {
+      "id": "366186821",
+      "title": "세계사 속 팔레스타인 문제",
+      "metadata": "우스키 아키라 지음, 김윤정 옮김 | 글항아리",
+      "theme": "팔레스타인사/제국·분할과 점령의 구조",
+      "imageUrl": "assets/book-covers/palestine-problem-world-history-usuki.jpg",
+      "reviewUrl": "posts/palestine-problem-world-history-usuki.html",
+      "label": "Issue 59 · 오늘의 장문 리뷰",
+      "subtitle": "한 땅의 역사는 왜 두 개의 시간으로 갈라지는가",
+      "review": "종교와 언어의 오랜 층위에서 제국주의, 위임통치, 나크바와 1967년 이후의 점령, 오슬로 체제로 이어지는 15강을 따라 해결되지 않는 구조의 역사를 읽는다."
+    },
+    {
+      "id": "365804662",
+      "title": "숭고와 미의 근원을 찾아서",
+      "metadata": "에드먼드 버크 지음, 김혜련 옮김 | 한길사",
+      "theme": "미학/공포와 아름다움의 감각",
+      "imageUrl": "assets/book-covers/sublime-beautiful-burke.jpg",
+      "reviewUrl": "posts/sublime-beautiful-burke.html",
+      "label": "Issue 59 · 오늘의 장문 리뷰",
+      "subtitle": "공포는 어떻게 아름다움의 바깥에서 우리를 붙드는가",
+      "review": "고통과 쾌, 광대함과 어둠이 만드는 숭고, 작음과 매끄러움이 부르는 미를 따라 감각의 생리학과 언어의 힘, 젠더화된 범주의 성취와 한계를 읽는다."
+    },
     {
       "id": "399601714",
       "title": "독소 전쟁사 1941~1945",
@@ -9407,7 +9440,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "metadata": "우스키 아키라 지음, 김윤정 옮김 | 글항아리",
       "theme": "역사/정치",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366186821",
-      "imageUrl": "https://image.aladin.co.kr/product/5297/76/cover500/8967351801_1.jpg",
+      "imageUrl": "assets/book-covers/palestine-problem-world-history-usuki.jpg",
+      "reviewUrl": "posts/palestine-problem-world-history-usuki.html",
       "sourcePage": 18
     },
     {
@@ -14091,7 +14125,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "metadata": "에드먼드 버크 지음, 김혜련 옮김 | 한길사",
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365804662",
-      "imageUrl": "https://image.aladin.co.kr/product/728/92/cover500/8935661104_1.jpg",
+      "imageUrl": "assets/book-covers/sublime-beautiful-burke.jpg",
+      "reviewUrl": "posts/sublime-beautiful-burke.html",
       "sourcePage": 30
     },
     {

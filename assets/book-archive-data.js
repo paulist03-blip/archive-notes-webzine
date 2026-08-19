@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 275,
+    "reviewLinkedCount": 276,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399601209",
+      "title": "영어 필사, 지극히 영어적인 문학의 문장들",
+      "metadata": "오석태 지음 | 사람in",
+      "theme": "영어문장/필사와 느린 독해",
+      "imageUrl": "assets/book-covers/english-copy-literary-sentences-oh-seoktae.jpg",
+      "reviewUrl": "posts/english-copy-literary-sentences-oh-seoktae.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "문장은 손을 거칠 때 무엇을 드러내는가",
+      "review": "동시대 영미소설 113편의 문장을 따라 쓰며 어순과 표현을 발견하는 과정을 읽고, 발췌와 맥락, 손글씨와 기억, 모방과 자기 문장 사이의 거리를 짚는다."
+    },
     {
       "id": "399601267",
       "title": "소설쓰기의 모든 것 2: 묘사와 배경",
@@ -3744,10 +3755,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399601209",
       "title": "영어 필사, 지극히 영어적인 문학의 문장들 (사철제본)",
       "metadata": "오석태 지음 | 사람in",
-      "theme": "문학/언어",
+      "theme": "영어문장/필사와 느린 독해",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399601209",
-      "imageUrl": "https://image.aladin.co.kr/product/36853/30/cover500/k592030408_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/english-copy-literary-sentences-oh-seoktae.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/english-copy-literary-sentences-oh-seoktae.html"
     },
     {
       "id": "399601159",

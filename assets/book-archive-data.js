@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 274,
+    "reviewLinkedCount": 275,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399601267",
+      "title": "소설쓰기의 모든 것 2: 묘사와 배경",
+      "metadata": "론 로젤 지음, 송민경 옮김 | 다른",
+      "theme": "소설작법/묘사와 배경의 기술",
+      "imageUrl": "assets/book-covers/description-setting-ron-rozelle.jpg",
+      "reviewUrl": "posts/description-setting-ron-rozelle.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "장면은 어떤 세부에서 살아 움직이는가",
+      "review": "세부 관찰과 오감, 보여주기와 말하기, 인물·시간·장소를 따라 묘사와 배경이 장식을 넘어 이야기를 움직이는 기술이 되는 과정을 읽는다."
+    },
     {
       "id": "399601337",
       "title": "한국적 교양의 실패와 여자들의 공부론",
@@ -3722,10 +3733,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399601267",
       "title": "소설쓰기의 모든 것 2 : 묘사와 배경",
       "metadata": "론 로젤 지음, 송민경 옮김 | 다른",
-      "theme": "문학/언어",
+      "theme": "소설작법/묘사와 배경의 기술",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399601267",
-      "imageUrl": "https://image.aladin.co.kr/product/17449/68/cover500/k192534100_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/description-setting-ron-rozelle.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/description-setting-ron-rozelle.html"
     },
     {
       "id": "399601209",

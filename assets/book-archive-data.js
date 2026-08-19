@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 279,
+    "reviewLinkedCount": 280,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399600787",
+      "title": "처음 읽는 독일 현대철학",
+      "metadata": "철학아카데미 지음 | 동녘",
+      "theme": "현대철학/독일어권 비판사상의 지도",
+      "imageUrl": "assets/book-covers/first-german-contemporary-philosophy.jpg",
+      "reviewUrl": "posts/first-german-contemporary-philosophy.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "생각은 어떻게 시대의 상처를 통과하는가",
+      "review": "마르크스부터 호네트까지 열두 사상가를 따라 노동과 무의식, 현상학과 해석학, 비판이론과 인정의 계보가 시대의 상처를 사유한 방식을 읽는다."
+    },
     {
       "id": "399600997",
       "title": "UFO",
@@ -3832,10 +3843,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399600787",
       "title": "처음 읽는 독일 현대철학",
       "metadata": "철학아카데미 지음 | 동녘",
-      "theme": "철학/사상",
+      "theme": "현대철학/독일어권 비판사상의 지도",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399600787",
-      "imageUrl": "https://image.aladin.co.kr/product/3204/0/cover500/8972976989_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/first-german-contemporary-philosophy.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/first-german-contemporary-philosophy.html"
     },
     {
       "id": "399600657",

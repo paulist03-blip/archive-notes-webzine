@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 271,
+    "reviewLinkedCount": 272,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399601680",
+      "title": "한 권으로 읽는 임석재의 서양건축사",
+      "metadata": "임석재 지음 | 북하우스",
+      "theme": "서양건축사/공간과 시대의 질서",
+      "imageUrl": "assets/book-covers/western-architecture-history-lim-seokjae.jpg",
+      "reviewUrl": "posts/western-architecture-history-lim-seokjae.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "돌과 기둥은 어떻게 한 시대의 질서를 기억하는가",
+      "review": "고대 그리스의 신전에서 고딕 성당과 바로크 도시, 철과 유리의 19세기까지 건축이 시대의 질서와 인간의 몸을 조직해 온 방식을 읽는다."
+    },
     {
       "id": "364174771",
       "title": "보들레르의 파리",
@@ -3656,10 +3667,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399601680",
       "title": "한 권으로 읽는 임석재의 서양건축사",
       "metadata": "임석재 지음 | 북하우스",
-      "theme": "건축/도시",
+      "theme": "서양건축사/공간과 시대의 질서",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399601680",
-      "imageUrl": "https://image.aladin.co.kr/product/1253/70/cover500/8956055335_2.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/western-architecture-history-lim-seokjae.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/western-architecture-history-lim-seokjae.html"
     },
     {
       "id": "399601497",

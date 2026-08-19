@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 280,
+    "reviewLinkedCount": 281,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399600405",
+      "title": "인간지능의 역사",
+      "metadata": "이은수 지음 | 문학동네",
+      "theme": "지성사/인간지능과 인공지능의 공진화",
+      "imageUrl": "assets/book-covers/history-of-human-intelligence-lee-eunsu.jpg",
+      "reviewUrl": "posts/history-of-human-intelligence-lee-eunsu.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "생각은 언제 한 사람의 머리를 떠났는가",
+      "review": "발견과 수집, 읽고 쓰기와 소통의 역사를 따라 인간지능이 도구·제도·타인과 함께 변해 온 과정을 읽고, 인공지능 시대의 지식과 책임을 묻는다."
+    },
     {
       "id": "399600787",
       "title": "처음 읽는 독일 현대철학",
@@ -3864,10 +3875,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399600405",
       "title": "인간지능의 역사",
       "metadata": "이은수 지음 | 문학동네",
-      "theme": "역사/정치",
+      "theme": "지성사/인간지능과 인공지능의 공진화",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399600405",
-      "imageUrl": "https://image.aladin.co.kr/product/37902/49/cover500/k492033737_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/history-of-human-intelligence-lee-eunsu.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/history-of-human-intelligence-lee-eunsu.html"
     },
     {
       "id": "399600347",

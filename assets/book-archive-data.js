@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 288,
+    "reviewLinkedCount": 289,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399599706",
+      "title": "체호프 희곡 전집",
+      "metadata": "안톤 파블로비치 체홉 지음, 김규종 옮김 | 시공사",
+      "theme": "희곡/일상과 시간의 비극",
+      "imageUrl": "assets/book-covers/chekhov-complete-plays.jpg",
+      "reviewUrl": "posts/chekhov-complete-plays.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "사람들은 왜 같은 방에서 서로의 삶을 놓치는가",
+      "review": "초기 단막극부터 네 편의 후기 장막극까지 웃음과 침묵, 어긋난 대화와 흘러가는 시간이 평범한 삶의 비극을 이루는 방식을 읽는다."
+    },
     {
       "id": "399599823",
       "title": "장인의 아틀리에",
@@ -4040,10 +4051,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399599706",
       "title": "체호프 희곡 전집",
       "metadata": "안톤 파블로비치 체홉 지음, 김규종 옮김 | 시공사",
-      "theme": "인문/교양",
+      "theme": "희곡/일상과 시간의 비극",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399599706",
-      "imageUrl": "https://image.aladin.co.kr/product/827/78/cover500/8952760077_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/chekhov-complete-plays.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/chekhov-complete-plays.html"
     },
     {
       "id": "399599644",

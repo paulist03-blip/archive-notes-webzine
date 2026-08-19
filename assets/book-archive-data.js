@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 277,
+    "reviewLinkedCount": 278,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399601044",
+      "title": "태엽 감는 새 연대기 1~3 세트 - 전3권",
+      "metadata": "무라카미 하루키 지음, 김난주 옮김 | 민음사",
+      "theme": "일본문학/기억과 내면의 우물",
+      "imageUrl": "assets/book-covers/wind-up-bird-chronicle-murakami.jpg",
+      "reviewUrl": "posts/wind-up-bird-chronicle-murakami.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "깊은 우물에서는 누구의 과거가 들려오는가",
+      "review": "사라진 고양이와 아내를 찾는 도루의 여정을 따라 마른 우물, 노몬한의 전쟁 기억, 전후 일본의 권력이 한 사람의 내면에서 이어지는 방식을 읽는다."
+    },
     {
       "id": "399601159",
       "title": "조선 사람이 좋아한 당시",
@@ -3788,10 +3799,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399601044",
       "title": "태엽 감는 새 연대기 1~3 세트 - 전3권",
       "metadata": "무라카미 하루키 지음, 김난주 옮김 | 민음사",
-      "theme": "인문/교양",
+      "theme": "일본문학/기억과 내면의 우물",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399601044",
-      "imageUrl": "https://image.aladin.co.kr/product/18810/64/cover500/8937439328_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/wind-up-bird-chronicle-murakami.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/wind-up-bird-chronicle-murakami.html"
     },
     {
       "id": "399600997",

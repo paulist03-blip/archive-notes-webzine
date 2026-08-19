@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 282,
+    "reviewLinkedCount": 283,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399600325",
+      "title": "라두 루푸는 말이 없다",
+      "metadata": "이타가키 지카코 엮음, 김재원 옮김 | 봄날의책",
+      "theme": "음악가론/연주와 침묵의 기억",
+      "imageUrl": "assets/book-covers/radu-lupu-does-not-speak.jpg",
+      "reviewUrl": "posts/radu-lupu-does-not-speak.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "사라진 음은 어디에 머무는가",
+      "review": "스무 음악가와 동료의 증언을 따라 라두 루푸의 연주와 침묵, 녹음과 현존, 사라지는 소리가 타인의 기억 속에 머무는 방식을 읽는다."
+    },
     {
       "id": "399600347",
       "title": "샤를 보들레르",
@@ -3908,10 +3919,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399600325",
       "title": "라두 루푸는 말이 없다",
       "metadata": "이타가키 지카코 엮음, 김재원 옮김 | 봄날의책",
-      "theme": "인문/교양",
+      "theme": "음악가론/연주와 침묵의 기억",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399600325",
-      "imageUrl": "https://image.aladin.co.kr/product/36294/39/cover500/k082038248_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/radu-lupu-does-not-speak.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/radu-lupu-does-not-speak.html"
     },
     {
       "id": "399600252",

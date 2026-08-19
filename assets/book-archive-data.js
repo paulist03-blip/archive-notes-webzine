@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 286,
+    "reviewLinkedCount": 287,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399599876",
+      "title": "회화술의 서",
+      "metadata": "첸니노 첸니니 지음, 구자현 옮김, 츠지 시게루 외 편역 | 미진사",
+      "theme": "미술기법/중세 공방과 재료의 지식",
+      "imageUrl": "assets/book-covers/book-of-art-cennino-cennini.jpg",
+      "reviewUrl": "posts/book-of-art-cennino-cennini.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 점의 빛은 얼마나 많은 손을 거쳐 오는가",
+      "review": "프레스코와 패널화, 금박과 안료의 제작 과정을 따라 중세 공방의 손기술과 그림 안에 축적된 노동과 시간을 읽는다."
+    },
     {
       "id": "399600169",
       "title": "중국의 통치 체제 2",
@@ -3996,10 +4007,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399599876",
       "title": "회화술의 서",
       "metadata": "첸니노 첸니니 지음, 구자현 옮김, 츠지 시게루 외 편역 | 미진사",
-      "theme": "미술/디자인",
+      "theme": "미술기법/중세 공방과 재료의 지식",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399599876",
-      "imageUrl": "https://image.aladin.co.kr/product/31612/64/cover500/8940860748_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/book-of-art-cennino-cennini.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/book-of-art-cennino-cennini.html"
     },
     {
       "id": "399599823",

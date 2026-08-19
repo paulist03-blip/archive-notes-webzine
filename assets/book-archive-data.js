@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 278,
+    "reviewLinkedCount": 279,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399600997",
+      "title": "UFO",
+      "metadata": "개릿 M. 그래프 지음, 지웅배 옮김 | arte(아르테)",
+      "theme": "과학사/UFO와 국가의 비밀",
+      "imageUrl": "assets/book-covers/ufo-garrett-graff.jpg",
+      "reviewUrl": "posts/ufo-garrett-graff.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "우리는 하늘에서 무엇을 보았다고 믿는가",
+      "review": "1947년 비행접시 열풍에서 블루북과 U-2, SETI와 오늘의 UAP 논쟁까지 따라가며 미확인을 둘러싼 과학, 국가 기밀과 대중의 믿음을 읽는다."
+    },
     {
       "id": "399601044",
       "title": "태엽 감는 새 연대기 1~3 세트 - 전3권",
@@ -3810,10 +3821,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399600997",
       "title": "UFO",
       "metadata": "개릿 M. 그래프 지음, 지웅배(우주먼지) 옮김 | arte(아르테)",
-      "theme": "과학/의학",
+      "theme": "과학사/UFO와 국가의 비밀",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399600997",
-      "imageUrl": "https://image.aladin.co.kr/product/38009/98/cover500/k232034882_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/ufo-garrett-graff.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/ufo-garrett-graff.html"
     },
     {
       "id": "399600787",

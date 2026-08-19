@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 272,
+    "reviewLinkedCount": 273,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399601497",
+      "title": "미지의 걸작",
+      "metadata": "오노레 드 발자크 지음, 김호영 옮김 | 녹색광선",
+      "theme": "예술소설/욕망과 창작의 파국",
+      "imageUrl": "assets/book-covers/unknown-masterpiece-balzac.jpg",
+      "reviewUrl": "posts/unknown-masterpiece-balzac.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "걸작은 누구의 삶을 태워 빛나는가",
+      "review": "「영생의 묘약」과 표제작을 따라 생명과 예술의 절대를 소유하려는 욕망, 창작자의 확신과 관객의 눈, 걸작을 위해 거래된 삶의 대가를 읽는다."
+    },
     {
       "id": "399601680",
       "title": "한 권으로 읽는 임석재의 서양건축사",
@@ -3678,10 +3689,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399601497",
       "title": "미지의 걸작",
       "metadata": "오노레 드 발자크 지음, 김호영 옮김 | 녹색광선",
-      "theme": "인문/교양",
+      "theme": "예술소설/욕망과 창작의 파국",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399601497",
-      "imageUrl": "https://image.aladin.co.kr/product/17729/53/cover500/k242534121_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/unknown-masterpiece-balzac.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/unknown-masterpiece-balzac.html"
     },
     {
       "id": "399601337",

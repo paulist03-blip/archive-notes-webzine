@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 281,
+    "reviewLinkedCount": 282,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399600347",
+      "title": "샤를 보들레르",
+      "metadata": "윤영애 지음 | 민음사",
+      "theme": "문학평전/현대적 감각과 예술가의 삶",
+      "imageUrl": "assets/book-covers/charles-baudelaire-yoon-youngae.jpg",
+      "reviewUrl": "posts/charles-baudelaire-yoon-youngae.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "불행은 어떻게 현대의 언어가 되었는가",
+      "review": "가족과 가난, 댄디즘과 비평, 《악의 꽃》의 재판과 《파리의 우울》에 이르는 생애를 따라 한 시인의 불화가 현대적 감각의 언어로 바뀐 과정을 읽는다."
+    },
     {
       "id": "399600405",
       "title": "인간지능의 역사",
@@ -3886,10 +3897,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399600347",
       "title": "샤를 보들레르",
       "metadata": "윤영애 지음 | 민음사",
-      "theme": "인문/교양",
+      "theme": "문학평전/현대적 감각과 예술가의 삶",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399600347",
-      "imageUrl": "https://image.aladin.co.kr/product/38384/96/cover500/8937446278_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/charles-baudelaire-yoon-youngae.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/charles-baudelaire-yoon-youngae.html"
     },
     {
       "id": "399600325",

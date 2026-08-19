@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 273,
+    "reviewLinkedCount": 274,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399601337",
+      "title": "한국적 교양의 실패와 여자들의 공부론",
+      "metadata": "김영민 지음 | 글항아리",
+      "theme": "생활철학/교양과 약자의 공부",
+      "imageUrl": "assets/book-covers/korean-culture-failure-womens-study-kim-youngmin.jpg",
+      "reviewUrl": "posts/korean-culture-failure-womens-study-kim-youngmin.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "배운 것은 언제 삶의 태도가 되는가",
+      "review": "식당의 환대와 신뢰, 행지와 해석, 정치적 교양과 여자들의 공부를 따라 지식이 타인과 함께 사는 생활의 태도로 이어지는 길을 읽는다."
+    },
     {
       "id": "399601497",
       "title": "미지의 걸작",
@@ -3700,10 +3711,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399601337",
       "title": "한국적 교양의 실패와 여자들의 공부론",
       "metadata": "김영민 지음 | 글항아리",
-      "theme": "인문/교양",
+      "theme": "생활철학/교양과 약자의 공부",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399601337",
-      "imageUrl": "https://image.aladin.co.kr/product/37628/4/cover500/k262032046_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/korean-culture-failure-womens-study-kim-youngmin.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/korean-culture-failure-womens-study-kim-youngmin.html"
     },
     {
       "id": "399601267",

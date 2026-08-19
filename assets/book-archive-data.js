@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 285,
+    "reviewLinkedCount": 286,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399600169",
+      "title": "중국의 통치 체제 2",
+      "metadata": "조영남 지음 | 21세기북스",
+      "theme": "중국정치/공산당의 통제 기제",
+      "imageUrl": "assets/book-covers/china-governance-system-2-cho-youngnam.jpg",
+      "reviewUrl": "posts/china-governance-system-2-cho-youngnam.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "보이지 않는 권력은 어떻게 일상을 조직하는가",
+      "review": "인사·조직·사상·무력·경제라는 다섯 통제 기제를 따라 중국공산당의 조직 능력이 당-국가 체제를 지탱하는 방식과 그 효율의 정치적 비용을 읽는다."
+    },
     {
       "id": "399600199",
       "title": "신호와 소음",
@@ -3974,10 +3985,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399600169",
       "title": "중국의 통치 체제 2",
       "metadata": "조영남 지음 | 21세기북스",
-      "theme": "인문/교양",
+      "theme": "중국정치/공산당의 통제 기제",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399600169",
-      "imageUrl": "https://image.aladin.co.kr/product/30141/75/cover500/8950941503_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/china-governance-system-2-cho-youngnam.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/china-governance-system-2-cho-youngnam.html"
     },
     {
       "id": "399599876",

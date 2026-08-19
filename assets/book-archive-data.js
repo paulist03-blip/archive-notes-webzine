@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 283,
+    "reviewLinkedCount": 284,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399600252",
+      "title": "피렌체 비가",
+      "metadata": "문광훈 지음 | 풍월당",
+      "theme": "예술기행/르네상스 도시와 자기 형성",
+      "imageUrl": "assets/book-covers/florentine-elegy-moon-kwanghoon.jpg",
+      "reviewUrl": "posts/florentine-elegy-moon-kwanghoon.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "도시는 어떻게 한 사람의 내면이 되는가",
+      "review": "피렌체의 산책과 회화, 건축과 공화정, 원근법과 휴머니즘을 따라 오래된 도시의 형식이 오늘의 삶을 다시 읽는 언어가 되는 과정을 살핀다."
+    },
     {
       "id": "399600325",
       "title": "라두 루푸는 말이 없다",
@@ -3930,10 +3941,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399600252",
       "title": "피렌체 비가",
       "metadata": "문광훈 지음 | 풍월당",
-      "theme": "인문/교양",
+      "theme": "예술기행/르네상스 도시와 자기 형성",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399600252",
-      "imageUrl": "https://image.aladin.co.kr/product/37949/13/cover500/k682033556_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/florentine-elegy-moon-kwanghoon.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/florentine-elegy-moon-kwanghoon.html"
     },
     {
       "id": "399600199",

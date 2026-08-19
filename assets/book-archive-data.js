@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 287,
+    "reviewLinkedCount": 288,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399599823",
+      "title": "장인의 아틀리에",
+      "metadata": "이지은 지음, 이동섭 사진 | 모요사",
+      "theme": "공예/유럽 장인의 공방과 기술 전승",
+      "imageUrl": "assets/book-covers/artisans-atelier-lee-jieun.jpg",
+      "reviewUrl": "posts/artisans-atelier-lee-jieun.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "손은 어떻게 시간을 다음 사람에게 건네는가",
+      "review": "열두 공방의 소리와 복원, 반복과 전승을 따라 사라지는 손기술이 다음 세대에 도착하기 위해 필요한 조건과 책임을 읽는다."
+    },
     {
       "id": "399599876",
       "title": "회화술의 서",
@@ -4018,10 +4029,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399599823",
       "title": "장인의 아틀리에",
       "metadata": "이지은 지음, 이동섭 사진 | 모요사",
-      "theme": "미술/디자인",
+      "theme": "공예/유럽 장인의 공방과 기술 전승",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399599823",
-      "imageUrl": "https://image.aladin.co.kr/product/31538/30/cover500/899706682x_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/artisans-atelier-lee-jieun.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/artisans-atelier-lee-jieun.html"
     },
     {
       "id": "399599706",

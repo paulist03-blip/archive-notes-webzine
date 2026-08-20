@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 289,
+    "reviewLinkedCount": 290,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399599644",
+      "title": "과부하 인간",
+      "metadata": "제이미 배런 지음, 박다솜 옮김 | 알에이치코리아(RHK)",
+      "theme": "심리/자기계발과 만족의 역설",
+      "imageUrl": "assets/book-covers/overloaded-human-jamie-varon.jpg",
+      "reviewUrl": "posts/overloaded-human-jamie-varon.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "충분함은 왜 늘 내일로 미뤄지는가",
+      "review": "불만족과 자기계발의 순환, 수치심의 동력을 살피고 만족과 자기 신뢰를 되찾는 방법과 그 한계를 함께 읽는다."
+    },
     {
       "id": "399599706",
       "title": "체호프 희곡 전집",
@@ -4062,10 +4073,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "399599644",
       "title": "과부하 인간",
       "metadata": "제이미 배런 지음, 박다솜 옮김 | 알에이치코리아(RHK)",
-      "theme": "인문/교양",
+      "theme": "심리/자기계발과 만족의 역설",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399599644",
-      "imageUrl": "https://image.aladin.co.kr/product/33006/80/cover500/8925575663_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/overloaded-human-jamie-varon.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/overloaded-human-jamie-varon.html"
     },
     {
       "id": "399599618",

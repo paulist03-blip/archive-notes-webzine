@@ -258,15 +258,15 @@ window.PAUL_BOOK_ARCHIVE = {
       "review": "수집가와 실내, 흔적과 보들레르의 세 콘볼루트를 따라 상품과 군중, 기억이 근대 도시의 꿈과 균열을 만드는 방식을 읽는다."
     },
     {
-      "id": "366186821",
-      "title": "세계사 속 팔레스타인 문제",
-      "metadata": "우스키 아키라 지음, 김윤정 옮김 | 글항아리",
-      "theme": "팔레스타인사/제국·분할과 점령의 구조",
-      "imageUrl": "assets/book-covers/palestine-problem-world-history-usuki.jpg",
-      "reviewUrl": "posts/palestine-problem-world-history-usuki.html",
+      "id": "385051973",
+      "title": "살과 돌",
+      "metadata": "리처드 세넷 지음 | 문화과학사",
+      "theme": "도시사회학/몸과 공공 공간",
+      "imageUrl": "assets/book-covers/sennett-flesh-and-stone.jpg",
+      "reviewUrl": "posts/sennett-flesh-and-stone.html",
       "label": "Issue 59 · 오늘의 장문 리뷰",
-      "subtitle": "한 땅의 역사는 왜 두 개의 시간으로 갈라지는가",
-      "review": "종교와 언어의 오랜 층위에서 제국주의, 위임통치, 나크바와 1967년 이후의 점령, 오슬로 체제로 이어지는 15강을 따라 해결되지 않는 구조의 역사를 읽는다."
+      "subtitle": "도시는 몸을 어떻게 기억하게 하는가",
+      "review": "광장과 성벽, 게토와 대로를 따라 도시의 공간과 제도가 몸의 움직임과 접촉, 시민적 감각을 조직해 온 방식을 읽는다."
     },
     {
       "id": "365804662",

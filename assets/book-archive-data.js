@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "stoner-john-williams",
+      "title": "스토너",
+      "metadata": "존 윌리엄스 지음, 김승욱 옮김 | 알에이치코리아",
+      "theme": "미국소설/한 생을 지탱하는 조용한 집중",
+      "imageUrl": "assets/artworks/hammershoi-interior-young-man-reading.jpg",
+      "reviewUrl": "posts/stoner-john-williams.html",
+      "label": "Book Archive · 함메르쇠이와 다시 읽기",
+      "subtitle": "사람은 무엇을 조용히 지키며 한 생을 건너는가",
+      "review": "함메르쇠이의 독서하는 젊은이와 함께 문학에 눈뜨는 순간, 가르침과 전쟁, 사랑과 죽음을 지나며 한 사람의 생을 지탱한 오래된 집중의 아름다움을 읽는다."
+    },
+    {
       "id": "399599644",
       "title": "과부하 인간",
       "metadata": "제이미 배런 지음, 박다솜 옮김 | 알에이치코리아(RHK)",
@@ -663,17 +674,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "치유는 마음을 고치는 일이 아니다",
       "review": "본래적 존엄과 연민에서 출발해 마음챙김과 무아, 욕망·혐오·무지의 전환, 용서와 보살행으로 나아가는 불교심리학의 지도를 읽고 현대적 번역의 성취와 임상적·역사적 한계를 함께 살핀다."
-    },
-    {
-      "id": "stoner-john-williams",
-      "title": "스토너",
-      "metadata": "존 윌리엄스 지음, 김승욱 옮김 | 알에이치코리아",
-      "theme": "미국소설/예술적 소명과 한 생의 가치",
-      "imageUrl": "assets/book-covers/stoner-john-williams.jpg",
-      "reviewUrl": "posts/stoner-john-williams.html",
-      "label": "Book Archive · 오늘의 장문 리뷰",
-      "subtitle": "한 번뿐인 삶은 어디에서 빛나는가",
-      "review": "문학에 눈뜨는 순간에서 가르침과 전쟁, 대학 정치와 결혼, 딸과 짧은 사랑, 죽음에 이르는 시간을 따라 평범한 한 생이 예술을 향한 충실함으로 얻는 아름다움과 그 침묵의 비용을 함께 읽는다."
     },
     {
       "id": "383201844",

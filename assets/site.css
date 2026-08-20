@@ -2127,6 +2127,10 @@ a.book-cover-frame:hover {
   word-break: keep-all;
 }
 
+.article-mobile-feature {
+  display: none;
+}
+
 .footer {
   display: flex;
   align-items: center;
@@ -2238,6 +2242,16 @@ a.book-cover-frame:hover {
   .article-side,
   .forum-auth-panel {
     position: static;
+  }
+
+  .stoner-essay .article-mobile-feature {
+    display: block;
+    width: min(100%, 320px);
+    margin: 28px 0 36px;
+  }
+
+  .stoner-essay > .article-side {
+    display: none;
   }
 
   .article-cover:not(.artwork-cover):not(.wide-artwork-cover) {

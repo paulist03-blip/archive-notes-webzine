@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "385054253",
+      "title": "투명기계",
+      "metadata": "김곡 지음 | 갈무리",
+      "theme": "영화철학/소멸과 변신의 기계",
+      "imageUrl": "assets/book-covers/transparent-machine-kim-gok.jpg",
+      "reviewUrl": "posts/transparent-machine-kim-gok.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "영화는 무엇을 지우며 다른 존재가 되는가",
+      "review": "필름의 간헐적 프레임과 화이트헤드의 소멸에서 출발해 몽타주·다큐멘터리·장르·한국영화·데모스로 나아가는 영화철학을 읽고, 개념의 대담한 횡단과 역사적 변별의 한계를 함께 살핀다."
+    },
+    {
       "id": "stoner-john-williams",
       "title": "스토너",
       "metadata": "존 윌리엄스 지음, 김승욱 옮김 | 알에이치코리아",
@@ -2230,8 +2241,8 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385054253",
       "title": "투명기계",
       "metadata": "김곡 지음 | 갈무리",
-      "theme": "과학/지식",
-      "imageUrl": "https://image.aladin.co.kr/product/16234/14/cover500/8961951866_1.jpg",
+      "theme": "영화철학/소멸과 변신의 기계",
+      "imageUrl": "assets/book-covers/transparent-machine-kim-gok.jpg",
       "reviewUrl": "posts/transparent-machine-kim-gok.html"
     },
     {

@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "385053293",
+      "title": "지금, 역사란 무엇인가",
+      "metadata": "헬렌 카·수재너 립스컴 엮음, 최파일 옮김 | 까치",
+      "theme": "역사학/과거와 현재의 대화",
+      "imageUrl": "assets/book-covers/what-is-history-now-carr-lipscomb.jpg",
+      "reviewUrl": "posts/what-is-history-now.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "과거는 누구의 질문 앞에서 다시 쓰이는가",
+      "review": "세계사와 제국사, 퀴어사와 장애사, 감정사와 원주민 역사, 박물관과 환경사를 잇는 열아홉 편을 따라 역사 다시 쓰기의 방법과 다성적 앤솔로지의 성취·한계를 읽는다."
+    },
+    {
       "id": "385054253",
       "title": "투명기계",
       "metadata": "김곡 지음 | 갈무리",
@@ -2288,9 +2299,9 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385053293",
       "title": "지금, 역사란 무엇인가",
-      "metadata": "헬렌 카.수재너 립스컴 엮음, 최파일 옮김 | 까치",
-      "theme": "역사",
-      "imageUrl": "https://image.aladin.co.kr/product/31190/75/cover500/897291794x_2.jpg",
+      "metadata": "헬렌 카·수재너 립스컴 엮음, 최파일 옮김 | 까치",
+      "theme": "역사학/과거와 현재의 대화",
+      "imageUrl": "assets/book-covers/what-is-history-now-carr-lipscomb.jpg",
       "reviewUrl": "posts/what-is-history-now.html"
     },
     {

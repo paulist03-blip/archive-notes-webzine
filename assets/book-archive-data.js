@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "385052988",
+      "title": "트러블과 함께하기",
+      "metadata": "도나 J. 해러웨이 지음, 최유미 옮김 | 마농지",
+      "theme": "생태철학/다종적 친척과 응답-능력",
+      "imageUrl": "assets/book-covers/haraway-staying-with-the-trouble.jpg",
+      "reviewUrl": "posts/haraway-staying-with-the-trouble.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "상처 입은 세계는 누구와 함께 계속되는가",
+      "review": "반려종의 실뜨기와 쑬루세, 공-산과 과학-예술 행동주의, 친척 만들기와 카밀 이야기를 따라 손상된 세계에서 관계와 책임을 다시 짜는 해러웨이의 제안을 읽는다."
+    },
+    {
       "id": "385053293",
       "title": "지금, 역사란 무엇인가",
       "metadata": "헬렌 카·수재너 립스컴 엮음, 최파일 옮김 | 까치",
@@ -2331,9 +2342,9 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385052988",
       "title": "트러블과 함께하기",
-      "metadata": "도나 해러웨이 지음, 최유미 옮김 | 마농지",
-      "theme": "생태철학/다종적 친족과 응답 가능성",
-      "imageUrl": "https://image.aladin.co.kr/product/27639/36/cover500/k622733125_1.jpg",
+      "metadata": "도나 J. 해러웨이 지음, 최유미 옮김 | 마농지",
+      "theme": "생태철학/다종적 친척과 응답-능력",
+      "imageUrl": "assets/book-covers/haraway-staying-with-the-trouble.jpg",
       "reviewUrl": "posts/haraway-staying-with-the-trouble.html"
     },
     {

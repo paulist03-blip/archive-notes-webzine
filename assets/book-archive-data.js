@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 303,
+    "reviewLinkedCount": 304,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "398335778",
+      "title": "칭기스 칸, 신 앞에 평등한 제국을 꿈꾸다",
+      "metadata": "잭 웨더포드 지음, 이종인 옮김 | 책과함께",
+      "theme": "몽골제국사/종교적 다원주의와 통치",
+      "imageUrl": "assets/book-covers/genghis-khan-quest-for-god-weatherford.jpg",
+      "reviewUrl": "posts/genghis-khan-quest-for-god-weatherford.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "정복자의 하늘은 왜 여러 신을 허락했는가",
+      "review": "테무진의 초원 신앙에서 카라키타이와 구처기, 몽케 칸의 종교 논쟁과 제퍼슨을 향한 가설까지 따라가며 몽골 제국의 관용이 신념과 통치, 자유와 복종 사이에서 작동한 방식을 읽는다."
+    },
     {
       "id": "398690702",
       "title": "무엇이 개인을 이렇게 만드는가?",
@@ -4194,10 +4205,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "398335778",
       "title": "칭기스 칸, 신 앞에 평등한 제국을 꿈꾸다",
       "metadata": "잭 웨더포드 지음, 이종인 옮김 | 책과함께",
-      "theme": "역사/정치",
+      "theme": "몽골제국사/종교적 다원주의와 통치",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=398335778",
-      "imageUrl": "https://image.aladin.co.kr/product/11238/45/cover500/k052531688_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/genghis-khan-quest-for-god-weatherford.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/genghis-khan-quest-for-god-weatherford.html"
     },
     {
       "id": "397514351",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 308,
+    "reviewLinkedCount": 309,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397514086",
+      "title": "자연 상징",
+      "metadata": "메리 더글러스 지음, 방원일 옮김 | 이학사",
+      "theme": "상징인류학/집단·격자와 두 개의 몸",
+      "imageUrl": "assets/book-covers/mary-douglas-natural-symbols.jpg",
+      "reviewUrl": "posts/mary-douglas-natural-symbols.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "몸은 어떻게 사회의 질서를 말하는가",
+      "review": "반의례주의에서 집단과 격자, 두 개의 몸과 악의 우주론으로 나아가며 사회관계가 몸·의례·책임의 언어를 만들고 되돌려 받는 과정과 이론의 한계를 읽는다."
+    },
     {
       "id": "397514107",
       "title": "새로운 시각 이론에 관한 시론",
@@ -4304,10 +4315,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397514086",
       "title": "자연 상징",
       "metadata": "메리 더글러스 지음, 방원일 옮김 | 이학사",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397514086",
-      "imageUrl": "https://image.aladin.co.kr/product/4909/76/cover500/8961471945_1.jpg",
-      "sourcePage": 1
+      "theme": "상징인류학/집단·격자와 두 개의 몸",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=49097672",
+      "imageUrl": "assets/book-covers/mary-douglas-natural-symbols.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/mary-douglas-natural-symbols.html"
     },
     {
       "id": "397513781",

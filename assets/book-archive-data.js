@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 315,
+    "reviewLinkedCount": 316,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397511992",
+      "title": "음악이란 무엇인가",
+      "metadata": "빅토르 주커칸들 지음, 서인화 옮김 | 민속원",
+      "theme": "음악미학/음운동과 조성적 힘",
+      "imageUrl": "assets/book-covers/victor-zuckerkandl-sense-of-music.jpg",
+      "reviewUrl": "posts/victor-zuckerkandl-sense-of-music.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 음은 어떻게 다음 음을 기다리게 하는가",
+      "review": "음의 역동적 성질과 조성의 중심에서 선율의 운동, 시간의 파동, 다성부의 독립성과 화성의 깊이로 이어지는 주커칸들의 청취론과 그 역사적 경계를 읽는다."
+    },
     {
       "id": "397513431",
       "title": "새로운 철학 교과서",
@@ -4447,10 +4458,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397511992",
       "title": "음악이란 무엇인가",
       "metadata": "빅토르 주커칸들 지음, 서인화 옮김 | 민속원",
-      "theme": "음악/공연",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397511992",
-      "imageUrl": "https://image.aladin.co.kr/product/852/11/cover500/8956387583_1.jpg",
-      "sourcePage": 1
+      "theme": "음악미학/음운동과 조성적 힘",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=8521122",
+      "imageUrl": "assets/book-covers/victor-zuckerkandl-sense-of-music.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/victor-zuckerkandl-sense-of-music.html"
     },
     {
       "id": "397511903",

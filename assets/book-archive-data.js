@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 306,
+    "reviewLinkedCount": 307,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397514132",
+      "title": "도덕형이상학 정초 실천이성비판",
+      "metadata": "임마누엘 칸트 지음, 김석수·김종국 옮김 | 한길사",
+      "theme": "실천철학/정언명령과 자유",
+      "imageUrl": "assets/book-covers/kant-groundwork-practical-reason.jpg",
+      "reviewUrl": "posts/kant-groundwork-practical-reason.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "무엇이 우리를 의무 앞에 멈춰 세우는가",
+      "review": "《도덕형이상학 정초》의 선의지·정언명령·인간성·자율에서 《실천이성비판》의 이성의 사실·존경·최고선으로 나아가며 도덕법칙이 자유의 근거와 인간의 동기가 되는 과정과 그 한계를 읽는다."
+    },
     {
       "id": "397514278",
       "title": "도덕형이상학",
@@ -4259,11 +4270,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "397514132",
       "title": "도덕형이상학 정초 실천이성비판",
-      "metadata": "임마누엘 칸트 지음, 김석수.김종국 옮김 | 한길사",
-      "theme": "철학/사상",
+      "metadata": "임마누엘 칸트 지음, 김석수·김종국 옮김 | 한길사",
+      "theme": "실천철학/정언명령과 자유",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397514132",
-      "imageUrl": "https://image.aladin.co.kr/product/18466/58/cover500/8935667854_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/kant-groundwork-practical-reason.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/kant-groundwork-practical-reason.html"
     },
     {
       "id": "397514107",

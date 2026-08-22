@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 309,
+    "reviewLinkedCount": 310,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397513781",
+      "title": "차크라와 요가",
+      "metadata": "마리옹 세비 지음, 박서영 옮김 | 동글디자인",
+      "theme": "요가/쿤달리니와 계절의 리듬",
+      "imageUrl": "assets/book-covers/marion-sebih-chakras-yoga.jpg",
+      "reviewUrl": "posts/marion-sebih-chakras-yoga.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "몸은 어떻게 계절의 리듬을 되찾는가",
+      "review": "여섯 단계 수련과 다섯 계절의 리추얼을 따라 호흡·목소리·휴식이 몸의 시간을 조율하는 방식을 읽고, 차크라와 현대 쿤달리니 요가의 역사적 맥락과 건강 주장의 경계를 살핀다."
+    },
     {
       "id": "397514086",
       "title": "자연 상징",
@@ -4326,10 +4337,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397513781",
       "title": "차크라와 요가",
       "metadata": "마리옹 세비 지음, 박서영 옮김 | 동글디자인",
-      "theme": "미술/디자인",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397513781",
-      "imageUrl": "https://image.aladin.co.kr/product/34468/92/cover500/k922932530_1.jpg",
-      "sourcePage": 1
+      "theme": "요가/쿤달리니와 계절의 리듬",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=344689243",
+      "imageUrl": "assets/book-covers/marion-sebih-chakras-yoga.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/marion-sebih-chakras-yoga.html"
     },
     {
       "id": "397513764",

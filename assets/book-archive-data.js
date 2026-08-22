@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 311,
+    "reviewLinkedCount": 312,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397513742",
+      "title": "고대 이집트의 역사 1",
+      "metadata": "제임스 헨리 브레스테드 지음, 김태경 옮김 | 한국문화사",
+      "theme": "고대사/비문과 왕조사의 형성",
+      "imageUrl": "assets/book-covers/james-henry-breasted-history-egypt-1.jpg",
+      "reviewUrl": "posts/james-henry-breasted-history-egypt-1.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "돌에 새긴 이름은 어떻게 한 나라의 시간이 되는가",
+      "review": "원비문 대조와 왕조 연대기의 구성에서 고왕국·중왕국·힉소스 서사로 나아가며 초기 이집트학의 실증적 성취와 왕·엘리트 중심 시야, 문명 진보론의 한계를 함께 읽는다."
+    },
     {
       "id": "397513764",
       "title": "칸트의 『미적 판단력 비판』 입문",
@@ -4370,10 +4381,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397513742",
       "title": "고대 이집트의 역사 1",
       "metadata": "제임스 헨리 브레스테드 지음, 김태경 옮김 | 한국문화사",
-      "theme": "역사/정치",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397513742",
-      "imageUrl": "https://image.aladin.co.kr/product/23307/85/cover500/8968178275_2.jpg",
-      "sourcePage": 1
+      "theme": "고대사/비문과 왕조사의 형성",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=233078505",
+      "imageUrl": "assets/book-covers/james-henry-breasted-history-egypt-1.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/james-henry-breasted-history-egypt-1.html"
     },
     {
       "id": "397513656",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 305,
+    "reviewLinkedCount": 306,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397514278",
+      "title": "도덕형이상학",
+      "metadata": "임마누엘 칸트 지음, 이충진·김수배 옮김 | 한길사",
+      "theme": "실천철학/법론과 덕론",
+      "imageUrl": "assets/book-covers/kant-metaphysics-of-morals.jpg",
+      "reviewUrl": "posts/kant-metaphysics-of-morals.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "자유는 왜 법과 덕을 모두 필요로 하는가",
+      "review": "외적 자유를 보장하는 법론에서 소유·국가·세계시민법을, 내적 자유를 다루는 덕론에서 자기완성과 타인의 행복·존중의 의무를 읽고 보편주의의 성취와 역사적 배제를 함께 살핀다."
+    },
     {
       "id": "397514351",
       "title": "한국미술의 탄생",
@@ -4237,11 +4248,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "397514278",
       "title": "도덕형이상학",
-      "metadata": "임마누엘 칸트 지음, 이충진 옮김 | 한길사",
-      "theme": "철학/사상",
+      "metadata": "임마누엘 칸트 지음, 이충진·김수배 옮김 | 한길사",
+      "theme": "실천철학/법론과 덕론",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397514278",
-      "imageUrl": "https://image.aladin.co.kr/product/13177/22/cover500/893566782x_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/kant-metaphysics-of-morals.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/kant-metaphysics-of-morals.html"
     },
     {
       "id": "397514132",

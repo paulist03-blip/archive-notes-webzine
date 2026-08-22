@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 310,
+    "reviewLinkedCount": 311,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397513764",
+      "title": "칸트의 『미적 판단력 비판』 입문",
+      "metadata": "피오나 휴즈 지음, 임성훈 옮김 | 서광사",
+      "theme": "미학/주관적 보편성과 반성적 판단",
+      "imageUrl": "assets/book-covers/fiona-hughes-kant-aesthetic-judgement.jpg",
+      "reviewUrl": "posts/fiona-hughes-kant-aesthetic-judgement.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "아름답다는 말은 왜 타인의 동의를 기다리는가",
+      "review": "반성적 판단력과 네 계기, 상상력과 오성의 이중 조화, 숭고의 부조화와 공통감각을 따라 아름다움이 인식·도덕·공동체 사이에서 작동하는 방식과 그 한계를 읽는다."
+    },
     {
       "id": "397513781",
       "title": "차크라와 요가",
@@ -4348,10 +4359,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397513764",
       "title": "칸트의 『미적 판단력 비판』 입문",
       "metadata": "피오나 휴즈 지음, 임성훈 옮김 | 서광사",
-      "theme": "철학/사상",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397513764",
-      "imageUrl": "https://image.aladin.co.kr/product/24222/53/cover500/8930662196_1.jpg",
-      "sourcePage": 1
+      "theme": "미학/주관적 보편성과 반성적 판단",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=242225384",
+      "imageUrl": "assets/book-covers/fiona-hughes-kant-aesthetic-judgement.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/fiona-hughes-kant-aesthetic-judgement.html"
     },
     {
       "id": "397513742",

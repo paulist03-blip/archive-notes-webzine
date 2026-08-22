@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 302,
+    "reviewLinkedCount": 303,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "398690702",
+      "title": "무엇이 개인을 이렇게 만드는가?",
+      "metadata": "칼 구스타프 융 지음, 김세영 옮김 | 부글북스",
+      "theme": "분석심리학/대중사회와 자기인식",
+      "imageUrl": "assets/book-covers/jung-what-makes-the-individual.jpg",
+      "reviewUrl": "posts/jung-what-makes-the-individual.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "개인은 군중 속에서 어떻게 자기 이름을 지키는가",
+      "review": "통계적 평균이 지우는 개인에서 대중사회의 선동, 종교적 경험, 무의식의 그림자와 투사로 나아가며 자기인식이 도덕적 판단과 관계를 회복하는 길을 읽는다."
+    },
     {
       "id": "399599126",
       "title": "중국과 일본",
@@ -4172,10 +4183,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "398690702",
       "title": "무엇이 개인을 이렇게 만드는가?",
       "metadata": "칼 구스타프 융 지음, 김세영 옮김 | 부글북스",
-      "theme": "인문/교양",
+      "theme": "분석심리학/대중사회와 자기인식",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=398690702",
-      "imageUrl": "https://image.aladin.co.kr/product/2244/10/cover500/8992307713_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/jung-what-makes-the-individual.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/jung-what-makes-the-individual.html"
     },
     {
       "id": "398335778",

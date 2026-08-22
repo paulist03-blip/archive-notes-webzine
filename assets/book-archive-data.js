@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 312,
+    "reviewLinkedCount": 313,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397513656",
+      "title": "괴델, 에셔, 바흐",
+      "metadata": "더글러스 호프스태터 지음, 박여성·안병서 옮김 | 까치",
+      "theme": "인지과학/형식체계와 이상한 고리",
+      "imageUrl": "assets/book-covers/douglas-hofstadter-godel-escher-bach.jpg",
+      "reviewUrl": "posts/douglas-hofstadter-godel-escher-bach.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "규칙은 언제 자신을 돌아보는 마음이 되는가",
+      "review": "MIU 체계와 괴델 부호화에서 대위법적 대화, 창발과 자기지시, 인공지능과 자아로 이어지는 이상한 고리의 논증을 읽고 수학적 정리와 의식의 은유 사이에 남는 경계를 살핀다."
+    },
     {
       "id": "397513742",
       "title": "고대 이집트의 역사 1",
@@ -4391,11 +4402,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "397513656",
       "title": "괴델, 에셔, 바흐",
-      "metadata": "더글러스 호프스태터 지음, 박여성.안병서 옮김 | 까치",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397513656",
-      "imageUrl": "https://image.aladin.co.kr/product/11328/50/cover500/8972916382_1.jpg",
-      "sourcePage": 1
+      "metadata": "더글러스 호프스태터 지음, 박여성·안병서 옮김 | 까치",
+      "theme": "인지과학/형식체계와 이상한 고리",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=113285054",
+      "imageUrl": "assets/book-covers/douglas-hofstadter-godel-escher-bach.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/douglas-hofstadter-godel-escher-bach.html"
     },
     {
       "id": "397513483",

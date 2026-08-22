@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 313,
+    "reviewLinkedCount": 315,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397513431",
+      "title": "새로운 철학 교과서",
+      "metadata": "이와우치 쇼타로 지음, 이신철 옮김 | 비(도서출판b)",
+      "theme": "현대철학/실재론과 보편성",
+      "imageUrl": "assets/book-covers/iwauchi-new-philosophy-textbook.jpg",
+      "reviewUrl": "posts/iwauchi-new-philosophy-textbook.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "세계가 하나가 아니라면 우리는 어디에서 함께 서는가",
+      "review": "메이야수의 우연성과 하먼의 객체, 테일러·드레이퍼스의 접촉설, 가브리엘의 의미의 장을 따라 실재의 높이와 보편성의 넓이를 되찾는 논증, 현상학적 선택과 멜랑콜리의 출구를 읽는다."
+    },
     {
       "id": "397513656",
       "title": "괴델, 에셔, 바흐",
@@ -4417,16 +4428,20 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397513483",
       "imageUrl": "https://image.aladin.co.kr/product/25605/26/cover500/k282735110_1.jpg",
-      "sourcePage": 1
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/experience-as-art-dewey.html"
     },
     {
       "id": "397513431",
       "title": "새로운 철학 교과서",
       "metadata": "이와우치 쇼타로 지음, 이신철 옮김 | 비(도서출판b)",
-      "theme": "철학/사상",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397513431",
-      "imageUrl": "https://image.aladin.co.kr/product/24919/73/cover500/k132632477_1.jpg",
-      "sourcePage": 1
+      "theme": "현대철학/실재론과 보편성",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=249197391",
+      "imageUrl": "assets/book-covers/iwauchi-new-philosophy-textbook.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/iwauchi-new-philosophy-textbook.html"
     },
     {
       "id": "397511992",

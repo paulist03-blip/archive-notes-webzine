@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 301,
+    "reviewLinkedCount": 302,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399599126",
+      "title": "중국과 일본",
+      "metadata": "에즈라 보걸 지음, 김규태 옮김 | 까치",
+      "theme": "동아시아사/중일 관계와 기억 정치",
+      "imageUrl": "assets/book-covers/ezra-vogel-china-and-japan.jpg",
+      "reviewUrl": "posts/ezra-vogel-china-and-japan.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "가까운 두 나라는 왜 같은 과거 앞에서 멀어지는가",
+      "review": "1,500년간 방향을 바꿔 온 배움과 경쟁, 전쟁과 식민 지배, 전후 협력과 기억 정치에서 중국과 일본이 서로의 현재를 만드는 방식을 읽는다."
+    },
     {
       "id": "399599412",
       "title": "4 3 2 1",
@@ -4153,7 +4164,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399599126",
       "imageUrl": "https://image.aladin.co.kr/product/27053/10/cover500/8972917370_1.jpg",
-      "sourcePage": 1
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/ezra-vogel-china-and-japan.html"
     },
     {
       "id": "398690702",

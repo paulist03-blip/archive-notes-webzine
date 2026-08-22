@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 304,
+    "reviewLinkedCount": 305,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397514351",
+      "title": "한국미술의 탄생",
+      "metadata": "강우방 지음 | 솔출판사",
+      "theme": "한국미술사/영기문과 조형언어",
+      "imageUrl": "assets/book-covers/korean-art-birth-kang-woobang.jpg",
+      "reviewUrl": "posts/korean-art-birth-kang-woobang.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "무늬는 어떻게 세계를 낳는가",
+      "review": "고구려 고분벽화의 영기문에서 백제 금동대향로와 신라 금관, 고려 불화와 청자, 조선의 공포와 단청까지 따라가며 무늬를 생성의 조형언어로 읽는 채색분석의 성취와 한계를 살핀다."
+    },
     {
       "id": "398335778",
       "title": "칭기스 칸, 신 앞에 평등한 제국을 꿈꾸다",
@@ -4216,10 +4227,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397514351",
       "title": "한국미술의 탄생",
       "metadata": "강우방 지음 | 솔출판사",
-      "theme": "미술/디자인",
+      "theme": "한국미술사/영기문과 조형언어",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397514351",
-      "imageUrl": "https://image.aladin.co.kr/product/100/30/cover500/8981338736_1.jpg",
-      "sourcePage": 1
+      "imageUrl": "assets/book-covers/korean-art-birth-kang-woobang.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/korean-art-birth-kang-woobang.html"
     },
     {
       "id": "397514278",

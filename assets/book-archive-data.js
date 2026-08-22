@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 307,
+    "reviewLinkedCount": 308,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397514107",
+      "title": "새로운 시각 이론에 관한 시론",
+      "metadata": "조지 버클리 지음, 이재영 옮김 | 아카넷",
+      "theme": "지각철학/시각과 촉각의 학습",
+      "imageUrl": "assets/book-covers/berkeley-new-theory-of-vision.jpg",
+      "reviewUrl": "posts/berkeley-new-theory-of-vision.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "눈은 어떻게 거리를 배우는가",
+      "review": "거리·크기·위치가 눈에 직접 주어지는지 묻고, 시각과 촉각의 이질성·몰리뉴 문제·학습된 암시에서 자연의 시각 언어까지 이어지는 버클리의 논증과 현대적 한계를 읽는다."
+    },
     {
       "id": "397514132",
       "title": "도덕형이상학 정초 실천이성비판",
@@ -4282,10 +4293,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397514107",
       "title": "새로운 시각 이론에 관한 시론",
       "metadata": "조지 버클리 지음, 이재영 옮김 | 아카넷",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397514107",
-      "imageUrl": "https://image.aladin.co.kr/product/608/31/cover500/8957331743_1.jpg",
-      "sourcePage": 1
+      "theme": "지각철학/시각과 촉각의 학습",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=6083188",
+      "imageUrl": "assets/book-covers/berkeley-new-theory-of-vision.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/berkeley-new-theory-of-vision.html"
     },
     {
       "id": "397514086",

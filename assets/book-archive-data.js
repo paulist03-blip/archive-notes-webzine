@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 290,
+    "reviewLinkedCount": 301,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "399599412",
+      "title": "4 3 2 1",
+      "metadata": "폴 오스터 지음, 김현우 옮김 | 열린책들",
+      "theme": "미국소설/우연과 네 갈래 성장",
+      "imageUrl": "assets/book-covers/paul-auster-4321-set.jpg",
+      "reviewUrl": "posts/paul-auster-4321.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 사람은 몇 번의 생을 지나 자신이 되는가",
+      "review": "같은 날 태어난 아치 퍼거슨의 네 생애를 따라 가족과 계급, 사랑과 사고, 1960년대 미국의 역사와 글쓰기가 한 사람의 가능성을 열고 닫는 방식을 읽는다."
+    },
     {
       "id": "385052988",
       "title": "트러블과 함께하기",
@@ -4120,7 +4131,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399599618",
       "imageUrl": "https://image.aladin.co.kr/product/12661/37/cover500/k362532170_1.jpg",
-      "sourcePage": 1
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/peter-watson-convergence.html"
     },
     {
       "id": "399599412",
@@ -4129,7 +4142,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399599412",
       "imageUrl": "https://image.aladin.co.kr/product/32881/83/cover500/893292371x_1.jpg",
-      "sourcePage": 1
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/paul-auster-4321.html"
     },
     {
       "id": "399599126",
@@ -13118,7 +13133,9 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365944610",
       "imageUrl": "https://image.aladin.co.kr/product/32881/74/cover500/8932923736_1.jpg",
-      "sourcePage": 27
+      "sourcePage": 27,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/paul-auster-4321.html"
     },
     {
       "id": "365944598",

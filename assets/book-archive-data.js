@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 318,
+    "reviewLinkedCount": 319,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397511800",
+      "title": "영원한 소년과 창조성",
+      "metadata": "마리-루이제 폰 프란츠 지음, 홍숙기 옮김 | 한국융연구원",
+      "theme": "분석심리학/영원한 소년과 창조성",
+      "imageUrl": "assets/book-covers/puer-aeternus-creativity-von-franz.jpg",
+      "reviewUrl": "posts/puer-aeternus-creativity-von-franz.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "가능성은 언제 한 사람의 삶이 되는가",
+      "review": "《어린 왕자》와 실제 꿈 사례, 《공간 없는 나라》를 따라 영원한 소년 원형의 창조적 힘과 현실 회피, 개인과 집단에서 나타나는 양면을 읽는다."
+    },
     {
       "id": "397511872",
       "title": "한국의 미술가",
@@ -4513,10 +4524,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397511800",
       "title": "영원한 소년과 창조성",
       "metadata": "마리-루이제 폰 프란츠 지음, 홍숙기 옮김 | 한국융연구원",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397511800",
-      "imageUrl": "https://image.aladin.co.kr/product/11476/40/cover500/k772531208_1.jpg",
-      "sourcePage": 2
+      "theme": "분석심리학/영원한 소년과 창조성",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=114764012",
+      "imageUrl": "assets/book-covers/puer-aeternus-creativity-von-franz.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/puer-aeternus-creativity-von-franz.html"
     },
     {
       "id": "397511784",

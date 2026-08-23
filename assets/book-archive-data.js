@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 316,
+    "reviewLinkedCount": 317,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397511903",
+      "title": "화가들의 마스터피스",
+      "metadata": "데브라 N. 맨커프 지음, 조아라 옮김 | 마로니에북스",
+      "theme": "미술사/명작의 사회적 생애",
+      "imageUrl": "assets/book-covers/debra-mancoff-making-a-masterpiece.jpg",
+      "reviewUrl": "posts/debra-mancoff-making-a-masterpiece.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 점의 그림은 어떻게 모두의 기억이 되는가",
+      "review": "보티첼리에서 에이미 셰럴드까지 열두 작품의 제작과 후원, 소유와 복원, 복제와 정치가 명작의 지위를 함께 만드는 과정을 읽는다."
+    },
     {
       "id": "397511992",
       "title": "음악이란 무엇인가",
@@ -4469,10 +4480,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397511903",
       "title": "화가들의 마스터피스",
       "metadata": "데브라 N. 맨커프 지음, 조아라 옮김 | 마로니에북스",
-      "theme": "미술/디자인",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397511903",
-      "imageUrl": "https://image.aladin.co.kr/product/32112/0/cover500/8960536369_1.jpg",
-      "sourcePage": 1
+      "theme": "미술사/명작의 사회적 생애",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=321120036",
+      "imageUrl": "assets/book-covers/debra-mancoff-making-a-masterpiece.jpg",
+      "sourcePage": 1,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/debra-mancoff-making-a-masterpiece.html"
     },
     {
       "id": "397511872",

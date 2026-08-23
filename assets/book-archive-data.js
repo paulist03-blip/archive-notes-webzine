@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 317,
+    "reviewLinkedCount": 318,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397511872",
+      "title": "한국의 미술가",
+      "metadata": "안휘준 외 지음 | 사회평론",
+      "theme": "한국미술사/작가와 제도의 변화",
+      "imageUrl": "assets/book-covers/korean-artists-ahn-hwi-joon.jpg",
+      "reviewUrl": "posts/korean-artists-ahn-hwi-joon.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 사람의 이름은 어떻게 한 시대의 붓이 되는가",
+      "review": "안견에서 장욱진까지 열세 화가의 생애와 작품을 따라 미술가의 이름을 만든 궁중·사대부 사회·사찰 공동체·근대 제도의 변화를 읽는다."
+    },
     {
       "id": "397511903",
       "title": "화가들의 마스터피스",
@@ -4491,10 +4502,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397511872",
       "title": "한국의 미술가",
       "metadata": "안휘준 외 지음 | 사회평론",
-      "theme": "미술/디자인",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397511872",
-      "imageUrl": "https://image.aladin.co.kr/product/6852/43/cover500/k402434977_1.jpg",
-      "sourcePage": 2
+      "theme": "한국미술사/작가와 제도의 변화",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=621798",
+      "imageUrl": "assets/book-covers/korean-artists-ahn-hwi-joon.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/korean-artists-ahn-hwi-joon.html"
     },
     {
       "id": "397511800",

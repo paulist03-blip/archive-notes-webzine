@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 319,
+    "reviewLinkedCount": 320,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397511784",
+      "title": "멘델스존, 그 삶과 음악",
+      "metadata": "닐 웬본 지음, 김병화 옮김 | 포노(PHONO)",
+      "theme": "음악가전기/창작과 음악제도",
+      "imageUrl": "assets/book-covers/mendelssohn-life-music-neil-wenborn.jpg",
+      "reviewUrl": "posts/mendelssohn-life-music-neil-wenborn.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "밝음은 어떻게 한 시대의 노동이 되는가",
+      "review": "신동의 명성 뒤에 놓인 가족과 종교적 정체성, 파니 헨젤과의 창작 관계, 지휘·교육·작곡이 맞물린 생애와 사후 수용의 굴곡을 읽는다."
+    },
     {
       "id": "397511800",
       "title": "영원한 소년과 창조성",
@@ -4535,10 +4546,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397511784",
       "title": "멘델스존, 그 삶과 음악",
       "metadata": "닐 웬본 지음, 김병화 옮김 | 포노(PHONO)",
-      "theme": "음악/공연",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397511784",
-      "imageUrl": "https://image.aladin.co.kr/product/800/90/cover500/8993818150_1.jpg",
-      "sourcePage": 2
+      "theme": "음악가전기/창작과 음악제도",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=8009003",
+      "imageUrl": "assets/book-covers/mendelssohn-life-music-neil-wenborn.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/mendelssohn-life-music-neil-wenborn.html"
     },
     {
       "id": "397511763",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 321,
+    "reviewLinkedCount": 322,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397511549",
+      "title": "불평등의 담론",
+      "metadata": "브랑코 밀라노비치 지음, 이혜진 옮김, 이태환 감수 | 세종연구원",
+      "theme": "경제사상/소득 분배와 계급",
+      "imageUrl": "assets/book-covers/visions-of-inequality-milanovic.jpg",
+      "reviewUrl": "posts/visions-of-inequality-milanovic.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "불평등은 어떻게 한 시대의 상식이 되는가",
+      "review": "케네에서 쿠즈네츠까지 여섯 경제학자를 따라 소득 분배를 보는 틀이 법적 신분과 경제적 계급에서 엘리트와 개인으로 이동하고, 냉전기에 사라졌다 돌아온 역사를 읽는다."
+    },
     {
       "id": "397511763",
       "title": "조용한 날들의 기록",
@@ -4579,10 +4590,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397511549",
       "title": "불평등의 담론",
       "metadata": "브랑코 밀라노비치 지음, 이혜진 옮김, 이태환 감수 | 세종연구원",
-      "theme": "사회/경제",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397511549",
-      "imageUrl": "https://image.aladin.co.kr/product/37042/43/cover500/k702030031_1.jpg",
-      "sourcePage": 2
+      "theme": "경제사상/소득 분배와 계급",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=370424300",
+      "imageUrl": "assets/book-covers/visions-of-inequality-milanovic.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/visions-of-inequality-milanovic.html"
     },
     {
       "id": "397511253",

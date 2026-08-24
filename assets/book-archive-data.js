@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 324,
+    "reviewLinkedCount": 325,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397510935",
+      "title": "곤충과 들꽃",
+      "metadata": "정부희 글·사진 | 보리",
+      "theme": "생태학/곤충과 식물의 관계",
+      "imageUrl": "assets/book-covers/insects-and-wildflowers-jeong-buhee.jpg",
+      "reviewUrl": "posts/insects-and-wildflowers-jeong-buhee.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "꽃 한 송이에는 몇 개의 생이 겹쳐 있는가",
+      "review": "들꽃 28종에 모이는 곤충의 먹이·산란·수분·짝짓기 장면을 따라 관계를 보는 관찰법과 공진화라는 설명의 성취·한계를 읽는다."
+    },
     {
       "id": "397510987",
       "title": "시간을 길들이다",
@@ -4644,11 +4655,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "397510935",
       "title": "곤충과 들꽃",
-      "metadata": "정부희 지음 | 보리",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397510935",
-      "imageUrl": "https://image.aladin.co.kr/product/30255/86/cover500/k522839608_1.jpg",
-      "sourcePage": 2
+      "metadata": "정부희 글·사진 | 보리",
+      "theme": "생태학/곤충과 식물의 관계",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=302558632",
+      "imageUrl": "assets/book-covers/insects-and-wildflowers-jeong-buhee.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/insects-and-wildflowers-jeong-buhee.html"
     },
     {
       "id": "397510854",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 323,
+    "reviewLinkedCount": 324,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397510987",
+      "title": "시간을 길들이다",
+      "metadata": "니컬러스 포크스 지음, 조현욱 옮김 | 까치",
+      "theme": "시간측정사/시계와 사회 질서",
+      "imageUrl": "assets/book-covers/time-tamed-nicholas-foulkes.jpg",
+      "reviewUrl": "posts/time-tamed-nicholas-foulkes.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "우리는 언제 같은 시간을 살기 시작했는가",
+      "review": "달의 흔적과 물시계에서 항해용 시계·표준시·손목시계까지, 시간을 재는 물건이 문명의 질서를 바꾼 방식과 선택된 기계식 계보의 한계를 읽는다."
+    },
     {
       "id": "397511253",
       "title": "사랑의 단상",
@@ -4623,10 +4634,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397510987",
       "title": "시간을 길들이다",
       "metadata": "니컬러스 포크스 지음, 조현욱 옮김 | 까치",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397510987",
-      "imageUrl": "https://image.aladin.co.kr/product/27509/17/cover500/8972917478_1.jpg",
-      "sourcePage": 2
+      "theme": "시간측정사/시계와 사회 질서",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=275091700",
+      "imageUrl": "assets/book-covers/time-tamed-nicholas-foulkes.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/time-tamed-nicholas-foulkes.html"
     },
     {
       "id": "397510935",

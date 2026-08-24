@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 322,
+    "reviewLinkedCount": 323,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397511253",
+      "title": "사랑의 단상",
+      "metadata": "롤랑 바르트 지음, 김희영 옮김 | 동문선",
+      "theme": "기호학/사랑하는 주체의 언어",
+      "imageUrl": "assets/book-covers/lovers-discourse-roland-barthes.jpg",
+      "reviewUrl": "posts/lovers-discourse-roland-barthes.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "사랑은 왜 끝없이 혼잣말을 만드는가",
+      "review": "기다림과 부재, 기호와 고백이 사랑하는 주체의 끝없는 혼잣말을 만드는 방식과 그 언어가 열어 놓은 보편성의 성취·한계를 읽는다."
+    },
     {
       "id": "397511549",
       "title": "불평등의 담론",
@@ -4601,10 +4612,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397511253",
       "title": "사랑의 단상",
       "metadata": "롤랑 바르트 지음, 김희영 옮김 | 동문선",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397511253",
-      "imageUrl": "https://image.aladin.co.kr/product/31797/44/cover500/8980389485_1.jpg",
-      "sourcePage": 2
+      "theme": "기호학/사랑하는 주체의 언어",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=317974498",
+      "imageUrl": "assets/book-covers/lovers-discourse-roland-barthes.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/lovers-discourse-roland-barthes.html"
     },
     {
       "id": "397510987",

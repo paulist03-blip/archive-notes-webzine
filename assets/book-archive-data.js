@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 320,
+    "reviewLinkedCount": 321,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397511763",
+      "title": "조용한 날들의 기록",
+      "metadata": "김진영 지음 | 한겨레출판",
+      "theme": "일기산문/멜랑콜리와 일상의 기록",
+      "imageUrl": "assets/book-covers/quiet-days-record-kim-jinyoung.jpg",
+      "reviewUrl": "posts/quiet-days-record-kim-jinyoung.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "조용한 하루는 어떻게 한 생의 문장이 되는가",
+      "review": "2010년부터 2016년까지 남긴 1,348편의 단상을 따라 일상과 멜랑콜리, 비평과 사랑이 한 생의 문장으로 이어지는 방식과 사후 선집의 한계를 읽는다."
+    },
     {
       "id": "397511784",
       "title": "멘델스존, 그 삶과 음악",
@@ -4557,10 +4568,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397511763",
       "title": "조용한 날들의 기록",
       "metadata": "김진영 지음 | 한겨레출판",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397511763",
-      "imageUrl": "https://image.aladin.co.kr/product/31055/83/cover500/k212831420_1.jpg",
-      "sourcePage": 2
+      "theme": "일기산문/멜랑콜리와 일상의 기록",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=310558304",
+      "imageUrl": "assets/book-covers/quiet-days-record-kim-jinyoung.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/quiet-days-record-kim-jinyoung.html"
     },
     {
       "id": "397511549",

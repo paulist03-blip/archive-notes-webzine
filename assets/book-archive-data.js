@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 326,
+    "reviewLinkedCount": 327,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397510724",
+      "title": "20세기 이데올로기",
+      "metadata": "윌리 톰슨 지음, 전경훈 옮김 | 산처럼",
+      "theme": "이념사/자유주의·보수주의·공산주의·파시즘",
+      "imageUrl": "assets/book-covers/ideologies-age-extremes-willie-thompson.jpg",
+      "reviewUrl": "posts/ideologies-age-extremes-willie-thompson.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "이념은 왜 적의 옷을 빌려 입는가",
+      "review": "자유주의·보수주의·공산주의·파시즘이 전쟁과 혁명, 복지국가와 위기 속에서 서로의 언어와 수단을 빌리며 현실의 제도로 작동한 역사를 읽는다."
+    },
     {
       "id": "397510854",
       "title": "신경미학",
@@ -4689,10 +4700,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "397510724",
       "title": "20세기 이데올로기",
       "metadata": "윌리 톰슨 지음, 전경훈 옮김 | 산처럼",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397510724",
-      "imageUrl": "https://image.aladin.co.kr/product/11634/81/cover500/8990062772_1.jpg",
-      "sourcePage": 2
+      "theme": "이념사/자유주의·보수주의·공산주의·파시즘",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=116348105",
+      "imageUrl": "assets/book-covers/ideologies-age-extremes-willie-thompson.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/ideologies-age-extremes-willie-thompson.html"
     },
     {
       "id": "394491693",

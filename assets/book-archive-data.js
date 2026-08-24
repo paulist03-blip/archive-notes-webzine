@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 327,
+    "reviewLinkedCount": 328,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "394491693",
+      "title": "예수 평전",
+      "metadata": "조철수 지음 | 김영사",
+      "theme": "역사적 예수/제2성전기 유대교",
+      "imageUrl": "assets/book-covers/jesus-biography-cho-chulsoo.jpg",
+      "reviewUrl": "posts/jesus-biography-cho-chulsoo.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "갈릴래아의 한 사람은 어떻게 천상의 빛이 되는가",
+      "review": "제2성전기 유대교와 사해문헌, 복음서와 랍비 전승을 가로질러 역사적 예수가 천상의 그리스도로 기억되는 긴 변화와 그 재구성의 한계를 읽는다."
+    },
     {
       "id": "397510724",
       "title": "20세기 이데올로기",
@@ -4711,10 +4722,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "394491693",
       "title": "예수 평전",
       "metadata": "조철수 지음 | 김영사",
-      "theme": "종교/신학",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=394491693",
-      "imageUrl": "https://image.aladin.co.kr/product/627/73/cover500/893493705x_1.jpg",
-      "sourcePage": 2
+      "theme": "역사적 예수/제2성전기 유대교",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=6277368",
+      "imageUrl": "assets/book-covers/jesus-biography-cho-chulsoo.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/jesus-biography-cho-chulsoo.html"
     },
     {
       "id": "393325100",

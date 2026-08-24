@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 325,
+    "reviewLinkedCount": 326,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "397510854",
+      "title": "신경미학",
+      "metadata": "마르틴 스코프·오신 바타니안 엮음, 강미정·민철홍 옮김 | 북코리아",
+      "theme": "신경미학/미적 경험과 뇌",
+      "imageUrl": "assets/book-covers/neuroaesthetics-skov-vartanian.jpg",
+      "reviewUrl": "posts/neuroaesthetics-skov-vartanian.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "아름다움은 뇌 속 한 점에 머무는가",
+      "review": "지각·감정·쾌락·의미를 잇는 14개 장을 따라 미적 경험의 신경적 조건을 읽고, 예술을 뇌영상의 상관관계로 환원할 때 생기는 개념적·방법론적 한계를 살핀다."
+    },
     {
       "id": "397510935",
       "title": "곤충과 들꽃",
@@ -4666,11 +4677,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "397510854",
       "title": "신경미학",
-      "metadata": "마르틴 스코프.오신 바타니안 엮음, 강미정.민철홍 옮김 | 북코리아",
-      "theme": "미술/디자인",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397510854",
-      "imageUrl": "https://image.aladin.co.kr/product/19555/77/cover500/8963246418_2.jpg",
-      "sourcePage": 2
+      "metadata": "마르틴 스코프·오신 바타니안 엮음, 강미정·민철홍 옮김 | 북코리아",
+      "theme": "신경미학/미적 경험과 뇌",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=195557778",
+      "imageUrl": "assets/book-covers/neuroaesthetics-skov-vartanian.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/neuroaesthetics-skov-vartanian.html"
     },
     {
       "id": "397510724",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 330,
+    "reviewLinkedCount": 331,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "391771552",
+      "title": "참여의 건축",
+      "metadata": "잔카를로 데 카를로 지음, 윤병언 옮김 | 이유출판",
+      "theme": "건축이론/참여 설계와 권력",
+      "imageUrl": "assets/book-covers/architecture-of-participation-de-carlo.jpg",
+      "reviewUrl": "posts/architecture-of-participation-de-carlo.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "건축은 언제 그 안에 사는 사람의 것이 되는가",
+      "review": "설계 권력과 비선형 과정, 리미니 계획의 실패와 테르니 주거 실험을 따라 참여가 건축을 바꾸는 조건과 그 안에 남는 비대칭을 읽는다."
+    },
     {
       "id": "391771748",
       "title": "마음을 다쳐 돌아가는 저녁",
@@ -4777,10 +4788,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "391771552",
       "title": "참여의 건축",
       "metadata": "잔카를로 데 카를로 지음, 윤병언 옮김 | 이유출판",
-      "theme": "건축/도시",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391771552",
-      "imageUrl": "https://image.aladin.co.kr/product/27212/6/cover500/k952732298_1.jpg",
-      "sourcePage": 2
+      "theme": "건축이론/참여 설계와 권력",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=272120633",
+      "imageUrl": "assets/book-covers/architecture-of-participation-de-carlo.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/architecture-of-participation-de-carlo.html"
     },
     {
       "id": "391770975",

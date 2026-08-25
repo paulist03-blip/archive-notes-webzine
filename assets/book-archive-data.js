@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 331,
+    "reviewLinkedCount": 332,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "391770975",
+      "title": "문학이론",
+      "metadata": "조너선 컬러 지음, 조규형 옮김 | 교유서가",
+      "theme": "문학이론/읽기·의미와 수행성",
+      "imageUrl": "assets/book-covers/literary-theory-jonathan-culler.jpg",
+      "reviewUrl": "posts/literary-theory-jonathan-culler.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "읽기는 언제 익숙한 세계를 낯설게 만드는가",
+      "review": "문학성에서 의미와 해석, 서사와 수행적 언어, 정체성과 윤리로 이어지는 아홉 개의 질문을 따라 이론이 읽기의 상식을 바꾸는 방식을 살핀다."
+    },
     {
       "id": "391771552",
       "title": "참여의 건축",
@@ -4799,10 +4810,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "391770975",
       "title": "문학이론",
       "metadata": "조너선 컬러 지음, 조규형 옮김 | 교유서가",
-      "theme": "문학/언어",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391770975",
-      "imageUrl": "https://image.aladin.co.kr/product/32694/32/cover500/k022936668_1.jpg",
-      "sourcePage": 2
+      "theme": "문학이론/읽기·의미와 수행성",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=326943290",
+      "imageUrl": "assets/book-covers/literary-theory-jonathan-culler.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/literary-theory-jonathan-culler.html"
     },
     {
       "id": "391770528",

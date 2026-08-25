@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 333,
+    "reviewLinkedCount": 334,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "391768420",
+      "title": "연결의 법칙",
+      "metadata": "데이비드 롭슨 지음, 김수진 옮김 | 까치",
+      "theme": "사회심리학/관계 형성과 수선",
+      "imageUrl": "assets/book-covers/laws-of-connection-david-robson.jpg",
+      "reviewUrl": "posts/laws-of-connection-david-robson.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "우리는 왜 서로에게 닿기 직전 먼저 물러서는가",
+      "review": "공유 현실과 호감 격차, 자기개방과 감사, 도움 요청과 갈등 수선의 연구를 따라 관계를 타고난 성격이 아니라 배울 수 있는 연습으로 보는 성취와 개인화의 한계를 읽는다."
+    },
     {
       "id": "391769493",
       "title": "무너진 세계에서 꿈꾸기",
@@ -4832,10 +4843,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "391768420",
       "title": "연결의 법칙",
       "metadata": "데이비드 롭슨 지음, 김수진 옮김 | 까치",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391768420",
-      "imageUrl": "https://image.aladin.co.kr/product/37117/46/cover500/8972918814_1.jpg",
-      "sourcePage": 2
+      "theme": "사회심리학/관계 형성과 수선",
+      "itemUrl": "https://www.yes24.com/product/goods/152841598",
+      "imageUrl": "assets/book-covers/laws-of-connection-david-robson.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/laws-of-connection-david-robson.html"
     },
     {
       "id": "389004981",

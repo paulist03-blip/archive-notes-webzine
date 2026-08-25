@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 328,
+    "reviewLinkedCount": 329,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "393325100",
+      "title": "체르니 30을 넘어 재즈 피아노",
+      "metadata": "고희안 지음 | MMJAZZ(웨스트브릿지 Ent.)",
+      "theme": "재즈 피아노/즉흥연주와 리듬",
+      "imageUrl": "assets/book-covers/beyond-czerny-jazz-piano-ko-hee-an.jpg",
+      "reviewUrl": "posts/beyond-czerny-jazz-piano-ko-hee-an.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "악보가 끝난 자리에서 피아노는 어떻게 다시 말하는가",
+      "review": "악보 중심의 피아노 경험이 리듬과 코드 톤, 왼손 컴핑과 즉흥연주라는 재즈의 언어로 옮겨 가는 과정과 ‘체르니 30’이라는 문턱의 성취·한계를 읽는다."
+    },
     {
       "id": "394491693",
       "title": "예수 평전",
@@ -4733,10 +4744,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "393325100",
       "title": "체르니 30을 넘어 재즈 피아노",
       "metadata": "고희안 (Ko Hee An) 지음 | MMJAZZ(웨스트브릿지 Ent.)",
-      "theme": "음악/공연",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=393325100",
-      "imageUrl": "https://image.aladin.co.kr/product/26333/83/cover500/k752738028_1.jpg",
-      "sourcePage": 2
+      "theme": "재즈 피아노/즉흥연주와 리듬",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=263338319",
+      "imageUrl": "assets/book-covers/beyond-czerny-jazz-piano-ko-hee-an.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/beyond-czerny-jazz-piano-ko-hee-an.html"
     },
     {
       "id": "391771748",

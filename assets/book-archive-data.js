@@ -8,10 +8,10 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 332,
+    "reviewLinkedCount": 331,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
-    "publicCount": 2185,
+    "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
@@ -47,17 +47,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "상처 입은 마음은 어떻게 타인의 저녁에 닿는가",
       "review": "보이지 않는 절망과 가족의 기억, 사연을 문학으로 옮기는 거리와 환대·퇴고의 윤리를 따라 타인의 고통을 훼손하지 않고 말할 가능성을 읽는다."
-    },
-    {
-      "id": "393325100",
-      "title": "체르니 30을 넘어 재즈 피아노",
-      "metadata": "고희안 지음 | MMJAZZ(웨스트브릿지 Ent.)",
-      "theme": "재즈 피아노/즉흥연주와 리듬",
-      "imageUrl": "assets/book-covers/beyond-czerny-jazz-piano-ko-hee-an.jpg",
-      "reviewUrl": "posts/beyond-czerny-jazz-piano-ko-hee-an.html",
-      "label": "Book Archive · 오늘의 장문 리뷰",
-      "subtitle": "악보가 끝난 자리에서 피아노는 어떻게 다시 말하는가",
-      "review": "악보 중심의 피아노 경험이 리듬과 코드 톤, 왼손 컴핑과 즉흥연주라는 재즈의 언어로 옮겨 가는 과정과 ‘체르니 30’이라는 문턱의 성취·한계를 읽는다."
     },
     {
       "id": "394491693",
@@ -4772,17 +4761,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "sourcePage": 2,
       "reviewStatus": "우리 리뷰",
       "reviewUrl": "posts/jesus-biography-cho-chulsoo.html"
-    },
-    {
-      "id": "393325100",
-      "title": "체르니 30을 넘어 재즈 피아노",
-      "metadata": "고희안 (Ko Hee An) 지음 | MMJAZZ(웨스트브릿지 Ent.)",
-      "theme": "재즈 피아노/즉흥연주와 리듬",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=263338319",
-      "imageUrl": "assets/book-covers/beyond-czerny-jazz-piano-ko-hee-an.jpg",
-      "sourcePage": 2,
-      "reviewStatus": "우리 리뷰",
-      "reviewUrl": "posts/beyond-czerny-jazz-piano-ko-hee-an.html"
     },
     {
       "id": "391771748",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 335,
+    "reviewLinkedCount": 336,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004882",
+      "title": "들뢰즈 이해하기",
+      "metadata": "클레어 콜브룩 지음, 한정헌 옮김 | 그린비",
+      "theme": "현대철학/차이·내재성과 잠재성",
+      "imageUrl": "assets/book-covers/claire-colebrook-understanding-deleuze.jpg",
+      "reviewUrl": "posts/understanding-deleuze-claire-colebrook.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "아직 존재하지 않는 삶은 어디에서 시작되는가",
+      "review": "표상 너머의 차이에서 내재성의 윤리, 생산하는 욕망, 문체와 영화의 시간, 잠재적 자유로 이어지는 사유를 따라 들뢰즈 입문의 성취와 한계를 읽는다."
+    },
     {
       "id": "389004981",
       "title": "아르헤리치의 말",
@@ -4876,10 +4887,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389004882",
       "title": "들뢰즈 이해하기",
       "metadata": "클레어 콜브룩 지음, 한정헌 옮김 | 그린비",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004882",
-      "imageUrl": "https://image.aladin.co.kr/product/102/36/cover500/8976823060_1.jpg",
-      "sourcePage": 2
+      "theme": "현대철학/차이·내재성과 잠재성",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=1023631",
+      "imageUrl": "assets/book-covers/claire-colebrook-understanding-deleuze.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/understanding-deleuze-claire-colebrook.html"
     },
     {
       "id": "389004715",

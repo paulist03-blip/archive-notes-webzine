@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 329,
+    "reviewLinkedCount": 330,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2185,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "391771748",
+      "title": "마음을 다쳐 돌아가는 저녁",
+      "metadata": "손홍규 지음 | 교유서가",
+      "theme": "산문/절망·기억과 문학의 윤리",
+      "imageUrl": "assets/book-covers/heart-hurt-evening-son-hong-gyu.jpg",
+      "reviewUrl": "posts/heart-hurt-evening-son-hong-gyu.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "상처 입은 마음은 어떻게 타인의 저녁에 닿는가",
+      "review": "보이지 않는 절망과 가족의 기억, 사연을 문학으로 옮기는 거리와 환대·퇴고의 윤리를 따라 타인의 고통을 훼손하지 않고 말할 가능성을 읽는다."
+    },
     {
       "id": "393325100",
       "title": "체르니 30을 넘어 재즈 피아노",
@@ -4755,10 +4766,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "391771748",
       "title": "마음을 다쳐 돌아가는 저녁",
       "metadata": "손홍규 지음 | 교유서가",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391771748",
-      "imageUrl": "https://image.aladin.co.kr/product/34012/44/cover500/k662931965_1.jpg",
-      "sourcePage": 2
+      "theme": "산문/절망·기억과 문학의 윤리",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=340124464",
+      "imageUrl": "assets/book-covers/heart-hurt-evening-son-hong-gyu.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/heart-hurt-evening-son-hong-gyu.html"
     },
     {
       "id": "391771552",

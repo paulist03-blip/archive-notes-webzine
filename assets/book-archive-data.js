@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 334,
+    "reviewLinkedCount": 335,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004981",
+      "title": "아르헤리치의 말",
+      "metadata": "마르타 아르헤리치·올리비에 벨라미 지음, 이세진 옮김 | 마음산책",
+      "theme": "음악가 인터뷰/자유·우정과 협업",
+      "imageUrl": "assets/book-covers/martha-argerich-raconte.jpg",
+      "reviewUrl": "posts/martha-argerich-raconte.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "음악은 왜 혼자 완성되지 않는가",
+      "review": "2004~2019년 네 차례 인터뷰와 서른네 편의 단상을 따라 독주회의 고독, 실내악의 상호작용, 젊은 연주자를 위한 축제와 우정이 아르헤리치의 자유를 이루는 방식을 읽는다."
+    },
     {
       "id": "391768420",
       "title": "연결의 법칙",
@@ -4853,11 +4864,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "389004981",
       "title": "아르헤리치의 말",
-      "metadata": "마르타 아르헤리치.올리비에 벨라미 지음, 이세진 옮김 | 마음산책",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004981",
-      "imageUrl": "https://image.aladin.co.kr/product/30986/53/cover500/8960907944_1.jpg",
-      "sourcePage": 2
+      "metadata": "마르타 아르헤리치·올리비에 벨라미 지음, 이세진 옮김 | 마음산책",
+      "theme": "음악가 인터뷰/자유·우정과 협업",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309865356",
+      "imageUrl": "assets/book-covers/martha-argerich-raconte.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/martha-argerich-raconte.html"
     },
     {
       "id": "389004882",

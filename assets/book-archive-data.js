@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 331,
+    "reviewLinkedCount": 333,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "391769493",
+      "title": "무너진 세계에서 꿈꾸기",
+      "metadata": "이정현 지음 | 비(도서출판b)",
+      "theme": "전쟁·예술/파국의 선택과 기억",
+      "imageUrl": "assets/book-covers/dreaming-in-a-broken-world-lee-junghyun.jpg",
+      "reviewUrl": "posts/dreaming-in-a-broken-world-lee-junghyun.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "폐허는 누구의 이름을 먼저 지우는가",
+      "review": "무너진 자들, 통과한 자들, 누락된 자들, 꿈꾸는 자들의 네 갈래를 따라 전쟁과 파국이 강요한 선택, 예술이 공식 기억에서 지워진 삶을 되돌려 놓는 방식과 그 한계를 읽는다."
+    },
     {
       "id": "391770975",
       "title": "문학이론",
@@ -4799,19 +4810,23 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "391770528",
       "title": "다른 방식으로 보기",
       "metadata": "존 버거 지음, 최민 옮김 | 열화당",
-      "theme": "인문/교양",
+      "theme": "시각문화/이미지·소유와 젠더",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391770528",
-      "imageUrl": "https://image.aladin.co.kr/product/1875/91/cover500/8930104274_2.jpg",
-      "sourcePage": 2
+      "imageUrl": "assets/book-covers/john-berger-ways-of-seeing.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/john-berger-ways-of-seeing.html"
     },
     {
       "id": "391769493",
       "title": "무너진 세계에서 꿈꾸기",
       "metadata": "이정현 지음 | 비(도서출판b)",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391769493",
-      "imageUrl": "https://image.aladin.co.kr/product/35395/93/cover500/k342035915_1.jpg",
-      "sourcePage": 2
+      "theme": "전쟁·예술/파국의 선택과 기억",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=353959314",
+      "imageUrl": "assets/book-covers/dreaming-in-a-broken-world-lee-junghyun.jpg",
+      "sourcePage": 2,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/dreaming-in-a-broken-world-lee-junghyun.html"
     },
     {
       "id": "391768420",

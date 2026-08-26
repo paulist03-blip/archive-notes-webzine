@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 340,
+    "reviewLinkedCount": 341,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004583",
+      "title": "알츠하이머 기록자",
+      "metadata": "사이토 마사히코 지음, 조지혜 옮김 | 글항아리",
+      "theme": "인지증/일기·자각과 돌봄의 주체",
+      "imageUrl": "assets/book-covers/saito-alzheimer-diary.jpg",
+      "reviewUrl": "posts/saito-alzheimer-diary.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "기억이 흐려져도 하루는 누구의 것인가",
+      "review": "어머니 레이코가 67세부터 87세까지 쓴 일기와 아들의 동시기 기록을 포개어, 인지 기능 저하에 대한 당사자의 자각과 두려움, 돌봄의 객관화, 사후 해석의 윤리적 한계를 읽는다."
+    },
     {
       "id": "389004633",
       "title": "신이 된 시장",
@@ -4975,10 +4986,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389004583",
       "title": "알츠하이머 기록자",
       "metadata": "사이토 마사히코 지음, 조지혜 옮김 | 글항아리",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004583",
-      "imageUrl": "https://image.aladin.co.kr/product/36114/15/cover500/k662038064_1.jpg",
-      "sourcePage": 3
+      "theme": "인지증/일기·자각과 돌봄의 주체",
+      "itemUrl": "https://www.yes24.com/product/goods/144026760",
+      "imageUrl": "assets/book-covers/saito-alzheimer-diary.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/saito-alzheimer-diary.html"
     },
     {
       "id": "389004275",

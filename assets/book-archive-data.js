@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "388011400",
+      "title": "뉴욕의사의 건강백신",
+      "metadata": "고수민 지음 | 북폴리오",
+      "theme": "건강교양/생활습관·예방과 건강 문해력",
+      "imageUrl": "assets/book-covers/ko-soomin-health-vaccine.jpg",
+      "reviewUrl": "posts/ko-soomin-health-vaccine.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "몸의 작은 신호를 어떻게 읽을 것인가",
+      "review": "생활 증상과 습관, 예방과 선별검사를 이해하는 설명법을 따라 건강 문해력의 기초와 2013년 건강 교양서의 현재적 한계를 읽는다."
+    },
+    {
       "id": "388491240",
       "title": "서정시에 관하여",
       "metadata": "리디야 긴즈부르크 지음, 최종술·이지연 옮김 | 나남출판",
@@ -5073,10 +5084,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "388011400",
       "title": "뉴욕의사의 건강백신",
       "metadata": "고수민 지음 | 북폴리오",
-      "theme": "인문/교양",
+      "theme": "건강교양/생활습관·예방과 건강 문해력",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388011400",
-      "imageUrl": "https://image.aladin.co.kr/product/2426/24/cover500/8937834103_1.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/ko-soomin-health-vaccine.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/ko-soomin-health-vaccine.html"
     },
     {
       "id": "387577442",

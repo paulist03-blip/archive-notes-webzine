@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "389004275",
+      "title": "난처한 클래식 수업 3",
+      "metadata": "민은기 지음, 강한 그림 | 사회평론",
+      "theme": "바흐/루터교 전통·대위법과 직업 음악가",
+      "imageUrl": "assets/book-covers/nancho-classic-3-bach.jpg",
+      "reviewUrl": "posts/nancho-classic-3-bach.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "오래된 선율은 어떻게 다시 미래가 되는가",
+      "review": "바흐의 생애와 루터교 음악 전통, 오르간과 대위법, 쾨텐과 라이프치히의 직무를 따라 오래된 음악이 새로워지는 조건과 입문서의 성취·한계를 읽는다."
+    },
+    {
       "id": "389004583",
       "title": "알츠하이머 기록자",
       "metadata": "사이토 마사히코 지음, 조지혜 옮김 | 글항아리",
@@ -4997,10 +5008,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389004275",
       "title": "난처한 클래식 수업 3",
       "metadata": "민은기 지음, 강한 그림 | 사회평론",
-      "theme": "음악/공연",
+      "theme": "바흐/루터교 전통·대위법과 직업 음악가",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004275",
-      "imageUrl": "https://image.aladin.co.kr/product/24265/74/cover500/k902630670_1.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/nancho-classic-3-bach.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/nancho-classic-3-bach.html"
     },
     {
       "id": "389004234",

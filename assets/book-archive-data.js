@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "389004172",
+      "title": "독이 든 양분",
+      "metadata": "마이클 아이건 지음, 이재훈 옮김 | 한국심리치료연구소",
+      "theme": "정신분석/양분과 독·생명감과 자기-무화",
+      "imageUrl": "assets/book-covers/michael-eigen-toxic-nourishment.jpg",
+      "reviewUrl": "posts/michael-eigen-toxic-nourishment.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "사랑은 왜 우리를 살리면서 해치는가",
+      "review": "사랑과 파괴성, 생명감과 죽음이 뒤섞인 관계에서 자기-무화와 방음 처리된 정상성, 욕망과 정신분석적 돌봄이 다른 양분을 찾는 과정과 그 한계를 읽는다."
+    },
+    {
       "id": "389004275",
       "title": "난처한 클래식 수업 3",
       "metadata": "민은기 지음, 강한 그림 | 사회평론",
@@ -5029,10 +5040,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389004172",
       "title": "독이 든 양분",
       "metadata": "마이클 아이건 지음, 이재훈 옮김 | 한국심리치료연구소",
-      "theme": "인문/교양",
+      "theme": "정신분석/양분과 독·생명감과 자기-무화",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004172",
-      "imageUrl": "https://image.aladin.co.kr/product/359/71/cover500/8987279901_1.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/michael-eigen-toxic-nourishment.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/michael-eigen-toxic-nourishment.html"
     },
     {
       "id": "388491240",

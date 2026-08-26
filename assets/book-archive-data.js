@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 337,
+    "reviewLinkedCount": 339,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004650",
+      "title": "마음이 소모되기 전에 생각할 것들",
+      "metadata": "모로토미 요시히코 지음, 나지윤 옮김 | 유노책주",
+      "theme": "의미치료/허무·책임과 세 가치",
+      "imageUrl": "assets/book-covers/morotomi-frankl-psychology-meaning.jpg",
+      "reviewUrl": "posts/morotomi-frankl-psychology-meaning.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "빈 마음은 무엇을 기다리고 있는가",
+      "review": "인정 욕구와 실존적 허무에서 삶이 던지는 질문, 창조·체험·태도 가치로 이어지는 일곱 장을 따라 의미치료 입문의 성취와 절대 긍정이 개인화하는 고통의 한계를 읽는다."
+    },
     {
       "id": "389004715",
       "title": "철학적 생각을 배우는 작은 수업",
@@ -4920,19 +4931,23 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389004674",
       "title": "다른 방식으로 듣기",
       "metadata": "데이먼 크루코프스키 지음, 정은주 옮김 | 마티",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004674",
+      "theme": "청취문화/신호·소음과 권력",
+      "itemUrl": "https://www.yes24.com/product/goods/123385220",
       "imageUrl": "https://image.aladin.co.kr/product/31313/38/cover500/k082832881_1.jpg",
-      "sourcePage": 3
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/ways-of-hearing-krukowski.html"
     },
     {
       "id": "389004650",
       "title": "마음이 소모되기 전에 생각할 것들",
       "metadata": "모로토미 요시히코 지음, 나지윤 옮김 | 유노책주",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004650",
-      "imageUrl": "https://image.aladin.co.kr/product/34584/74/cover500/k442933478_1.jpg",
-      "sourcePage": 3
+      "theme": "의미치료/허무·책임과 세 가치",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=345847459",
+      "imageUrl": "assets/book-covers/morotomi-frankl-psychology-meaning.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/morotomi-frankl-psychology-meaning.html"
     },
     {
       "id": "389004633",

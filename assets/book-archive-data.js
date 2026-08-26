@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 336,
+    "reviewLinkedCount": 337,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004715",
+      "title": "철학적 생각을 배우는 작은 수업",
+      "metadata": "칼 야스퍼스 지음, 한충수 옮김 | 이학사",
+      "theme": "실존철학/과학의 한계·공개성과 초월",
+      "imageUrl": "assets/book-covers/karl-jaspers-small-school-philosophical-thinking.jpg",
+      "reviewUrl": "posts/karl-jaspers-small-school-philosophical-thinking.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "대답이 끝난 자리에서 우리는 무엇을 시작하는가",
+      "review": "1964년 텔레비전 대학의 열세 강의를 따라 과학의 한계와 열린 역사, 정치적 공개성, 초월의 암호와 사랑·죽음이 최종 답보다 자유로운 질문을 훈련하는 방식을 읽는다."
+    },
     {
       "id": "389004882",
       "title": "들뢰즈 이해하기",
@@ -4898,10 +4909,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389004715",
       "title": "철학적 생각을 배우는 작은 수업",
       "metadata": "칼 야스퍼스 지음, 한충수 옮김 | 이학사",
-      "theme": "음악/공연",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004715",
-      "imageUrl": "https://image.aladin.co.kr/product/25653/44/cover500/896147376x_1.jpg",
-      "sourcePage": 3
+      "theme": "실존철학/과학의 한계·공개성과 초월",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256534451",
+      "imageUrl": "assets/book-covers/karl-jaspers-small-school-philosophical-thinking.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/karl-jaspers-small-school-philosophical-thinking.html"
     },
     {
       "id": "389004674",

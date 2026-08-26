@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 339,
+    "reviewLinkedCount": 340,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389004633",
+      "title": "신이 된 시장",
+      "metadata": "하비 콕스 지음, 유강은 옮김 | 문예출판사",
+      "theme": "시장신학/경제 언어·우상과 공동선",
+      "imageUrl": "assets/book-covers/harvey-cox-market-as-god.jpg",
+      "reviewUrl": "posts/harvey-cox-market-as-god.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "시장은 언제 우리의 기도를 받기 시작했는가",
+      "review": "전지전능한 시장과 기업의 인격, 성장의 교리와 소비의 축일을 따라 경제 언어가 신성을 얻은 과정을 읽고, 시장을 인간의 하인으로 되돌리려는 공공신학의 성취와 유비의 한계를 살핀다."
+    },
     {
       "id": "389004650",
       "title": "마음이 소모되기 전에 생각할 것들",
@@ -4953,10 +4964,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "389004633",
       "title": "신이 된 시장",
       "metadata": "하비 콕스 지음, 유강은 옮김 | 문예출판사",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=389004633",
-      "imageUrl": "https://image.aladin.co.kr/product/13658/85/cover500/8931010796_1.jpg",
-      "sourcePage": 3
+      "theme": "시장신학/경제 언어·우상과 공동선",
+      "itemUrl": "https://www.yes24.com/product/goods/59157748",
+      "imageUrl": "assets/book-covers/harvey-cox-market-as-god.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/harvey-cox-market-as-god.html"
     },
     {
       "id": "389004583",

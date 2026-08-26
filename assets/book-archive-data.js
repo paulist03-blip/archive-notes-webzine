@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "388491240",
+      "title": "서정시에 관하여",
+      "metadata": "리디야 긴즈부르크 지음, 최종술·이지연 옮김 | 나남출판",
+      "theme": "러시아문학/서정시·문맥과 작가 의식",
+      "imageUrl": "assets/book-covers/lidiya-ginzburg-on-lyric-poetry.jpg",
+      "reviewUrl": "posts/lidiya-ginzburg-on-lyric-poetry.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "시는 누구의 목소리로 우리에게 오는가",
+      "review": "러시아 서정시 한 세기를 따라 전통과 혁신, 시적 언어와 문맥, 서정적 주체와 현실, 사물과 연상이 한 편의 목소리를 이루는 방식을 읽는다."
+    },
+    {
       "id": "389004172",
       "title": "독이 든 양분",
       "metadata": "마이클 아이건 지음, 이재훈 옮김 | 한국심리치료연구소",
@@ -5050,11 +5061,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "388491240",
       "title": "서정시에 관하여",
-      "metadata": "리디야 긴즈부르크 지음, 최종술.이지연 옮김 | 나남출판",
-      "theme": "인문/교양",
+      "metadata": "리디야 긴즈부르크 지음, 최종술·이지연 옮김 | 나남출판",
+      "theme": "러시아문학/서정시·문맥과 작가 의식",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=388491240",
-      "imageUrl": "https://image.aladin.co.kr/product/677/75/cover500/8930084311_2.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/lidiya-ginzburg-on-lyric-poetry.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/lidiya-ginzburg-on-lyric-poetry.html"
     },
     {
       "id": "388011400",

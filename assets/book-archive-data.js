@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387577341",
+      "title": "연애의 기억",
+      "metadata": "줄리언 반스 지음, 크빈트 부흐홀츠 그림, 정영목 옮김 | 다산책방",
+      "theme": "영미소설/첫사랑·기억과 돌봄의 윤리",
+      "imageUrl": "assets/book-covers/julian-barnes-the-only-story.jpg",
+      "reviewUrl": "posts/julian-barnes-the-only-story.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "사랑은 몇 번이나 다른 이야기로 기억되는가",
+      "review": "첫사랑과 고통, 알코올 의존과 돌봄을 따라 1인칭에서 2인칭과 3인칭으로 멀어지는 기억의 방어와 수전의 침묵을 읽는다."
+    },
+    {
       "id": "387577427",
       "title": "인간의 품성",
       "metadata": "크리스찬 B. 밀러 지음, 김태훈 옮김 | 글로벌콘텐츠",
@@ -5139,10 +5150,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387577341",
       "title": "연애의 기억",
       "metadata": "줄리언 반스 지음, 크빈트 부흐홀츠 그림, 정영목 옮김 | 다산책방",
-      "theme": "미술/디자인",
+      "theme": "영미소설/첫사랑·기억과 돌봄의 윤리",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387577341",
-      "imageUrl": "https://image.aladin.co.kr/product/32759/72/cover500/k342936182_1.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/julian-barnes-the-only-story.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/julian-barnes-the-only-story.html"
     },
     {
       "id": "387504814",

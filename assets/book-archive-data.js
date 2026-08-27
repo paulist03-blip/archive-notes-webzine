@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387577427",
+      "title": "인간의 품성",
+      "metadata": "크리스찬 B. 밀러 지음, 김태훈 옮김 | 글로벌콘텐츠",
+      "theme": "도덕심리학/혼합 품성·상황과 덕의 형성",
+      "imageUrl": "assets/book-covers/christian-miller-character-gap.jpg",
+      "reviewUrl": "posts/christian-miller-character-gap.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "선한 사람은 어떤 순간에 사라지는가",
+      "review": "도움과 가해, 거짓말과 부정행위 실험을 따라 선인도 악인도 아닌 혼합된 품성을 진단하고, 상황 관리와 역할모델, 종교적 전략의 가능성과 한계를 읽는다."
+    },
+    {
       "id": "387577442",
       "title": "세상 친절한 유전자 이야기",
       "metadata": "에블린 에예르 지음, 윤여연 옮김 | 미래의창",
@@ -5117,10 +5128,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387577427",
       "title": "인간의 품성",
       "metadata": "크리스찬 B. 밀러 지음, 김태훈 옮김 | 글로벌콘텐츠",
-      "theme": "인문/교양",
+      "theme": "도덕심리학/혼합 품성·상황과 덕의 형성",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387577427",
-      "imageUrl": "https://image.aladin.co.kr/product/27144/79/cover500/k422731447_1.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/christian-miller-character-gap.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/christian-miller-character-gap.html"
     },
     {
       "id": "387577341",

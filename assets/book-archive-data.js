@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387577442",
+      "title": "세상 친절한 유전자 이야기",
+      "metadata": "에블린 에예르 지음, 윤여연 옮김 | 미래의창",
+      "theme": "유전자인류학/진화·문화와 인간 다양성",
+      "imageUrl": "assets/book-covers/evelyne-heyer-secret-life-genes.jpg",
+      "reviewUrl": "posts/evelyne-heyer-secret-life-genes.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "우리는 무엇을 물려받고 무엇을 바꾸는가",
+      "review": "네안데르탈인의 유산과 인류의 이동, 유전율과 문화, 인종 개념과 우연을 따라 유전자가 운명의 판결문이 아니라 인간사의 기록이 되는 방식을 읽는다."
+    },
+    {
       "id": "388011400",
       "title": "뉴욕의사의 건강백신",
       "metadata": "고수민 지음 | 북폴리오",
@@ -5095,10 +5106,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387577442",
       "title": "세상 친절한 유전자 이야기",
       "metadata": "에블린 에예르 지음, 윤여연 옮김 | 미래의창",
-      "theme": "과학/의학",
+      "theme": "유전자인류학/진화·문화와 인간 다양성",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387577442",
-      "imageUrl": "https://image.aladin.co.kr/product/33898/91/cover500/k252930825_2.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/evelyne-heyer-secret-life-genes.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/evelyne-heyer-secret-life-genes.html"
     },
     {
       "id": "387577427",

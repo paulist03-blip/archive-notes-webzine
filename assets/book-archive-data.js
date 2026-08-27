@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387504796",
+      "title": "스토아적 삶의 권유",
+      "metadata": "마르코스 바스케스 지음, 김유경 옮김 | 레드스톤",
+      "theme": "스토아철학/통제·덕과 일상의 훈련",
+      "imageUrl": "assets/book-covers/marcos-vazquez-invicto.jpg",
+      "reviewUrl": "posts/marcos-vazquez-invicto.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "흔들리지 않는 삶은 무엇을 붙들고 무엇을 놓는가",
+      "review": "통제의 이분법과 덕, 선호되는 무관심사, 감정과 행동 훈련을 따라 열 가지 스토아적 도구의 효용과 자기계발적 번역의 한계를 읽는다."
+    },
+    {
       "id": "387504814",
       "title": "글렌 굴드, 피아노 솔로",
       "metadata": "미셸 슈나이더 지음, 이창실 옮김 | 동문선",
@@ -5183,10 +5194,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504796",
       "title": "스토아적 삶의 권유",
       "metadata": "마르코스 바스케스 지음, 김유경 옮김 | 레드스톤",
-      "theme": "인문/교양",
+      "theme": "스토아철학/통제·덕과 일상의 훈련",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504796",
-      "imageUrl": "https://image.aladin.co.kr/product/28568/47/cover500/k792835144_1.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/marcos-vazquez-invicto.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/marcos-vazquez-invicto.html"
     },
     {
       "id": "387504715",

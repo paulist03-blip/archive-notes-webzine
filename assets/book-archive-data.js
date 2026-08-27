@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387504814",
+      "title": "글렌 굴드, 피아노 솔로",
+      "metadata": "미셸 슈나이더 지음, 이창실 옮김 | 동문선",
+      "theme": "음악평전/고독·녹음과 변주의 형식",
+      "imageUrl": "assets/book-covers/michel-schneider-glenn-gould-piano-solo.jpg",
+      "reviewUrl": "posts/michel-schneider-glenn-gould-piano-solo.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "침묵은 어떻게 한 연주자의 마지막 악기가 되는가",
+      "review": "아리아와 서른 변주의 형식을 따라 굴드의 몸과 고독, 무대 은퇴와 녹음, 말과 음악이 서로의 침묵을 바꾸는 방식을 읽는다."
+    },
+    {
       "id": "387577341",
       "title": "연애의 기억",
       "metadata": "줄리언 반스 지음, 크빈트 부흐홀츠 그림, 정영목 옮김 | 다산책방",
@@ -5161,10 +5172,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504814",
       "title": "글렌 굴드, 피아노 솔로",
       "metadata": "미셸 슈나이더 지음, 이창실 옮김 | 동문선",
-      "theme": "음악/공연",
+      "theme": "음악평전/고독·녹음과 변주의 형식",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504814",
-      "imageUrl": "https://image.aladin.co.kr/product/34441/1/cover500/8980389515_1.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/michel-schneider-glenn-gould-piano-solo.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/michel-schneider-glenn-gould-piano-solo.html"
     },
     {
       "id": "387504796",

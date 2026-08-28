@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "385738636",
+      "title": "VERMEER",
+      "metadata": "파스칼 보나푸 지음, 최민 옮김 | 열화당",
+      "theme": "미술사/베르메르·빛과 침묵의 실내",
+      "imageUrl": "assets/book-covers/pascal-bonafoux-vermeer.jpg",
+      "reviewUrl": "posts/pascal-bonafoux-vermeer.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "빛은 어떻게 한 방의 시간을 멈추는가",
+      "review": "희박한 생애 기록과 남은 작품을 따라 역사화에서 델프트의 실내로 향한 변화, 빛과 원근법, 편지와 지도, 일상의 몸짓을 읽고 오래된 화집의 성취와 오늘의 연구가 보탠 한계를 짚는다."
+    },
+    {
       "id": "387504563",
       "title": "고용, 이자, 화폐의 일반이론",
       "metadata": "존 메이나드 케인스 지음, 이주명 옮김 | 필맥",
@@ -5315,10 +5326,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385738636",
       "title": "VERMEER",
       "metadata": "파스칼 보나푸 지음, 최민 옮김 | 열화당",
-      "theme": "인문/교양",
+      "theme": "미술사/베르메르·빛과 침묵의 실내",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385738636",
-      "imageUrl": "https://image.aladin.co.kr/product/18/62/cover500/8930100139_1.jpg",
-      "sourcePage": 4
+      "imageUrl": "assets/book-covers/pascal-bonafoux-vermeer.jpg",
+      "sourcePage": 4,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/pascal-bonafoux-vermeer.html"
     },
     {
       "id": "385718745",

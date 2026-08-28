@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387504631",
+      "title": "릴케의 로댕",
+      "metadata": "라이너 마리아 릴케 지음, 안상원 옮김 | 미술문화",
+      "theme": "미술비평/조각·표면과 사물시의 탄생",
+      "imageUrl": "assets/book-covers/rainer-maria-rilke-auguste-rodin.jpg",
+      "reviewUrl": "posts/rainer-maria-rilke-auguste-rodin.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "돌은 어떻게 한 시인의 문장을 바꾸었는가",
+      "review": "1903년 로댕론과 1907년 강연을 따라 표면과 움직임, 파편과 노동이라는 조각의 원리가 릴케의 시선과 사물시를 바꾸는 과정, 고독한 천재를 향한 찬미의 성취와 한계를 읽는다."
+    },
+    {
       "id": "387504646",
       "title": "음악을 한다는 것",
       "metadata": "베네데타 로발보 엮음, 임진모 옮김 | 지노",
@@ -5271,10 +5282,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504631",
       "title": "릴케의 로댕",
       "metadata": "라이너 마리아 릴케 지음, 안상원 옮김 | 미술문화",
-      "theme": "미술/디자인",
+      "theme": "미술비평/조각·표면과 사물시의 탄생",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504631",
-      "imageUrl": "https://image.aladin.co.kr/product/37082/97/cover500/k992030059_1.jpg",
-      "sourcePage": 4
+      "imageUrl": "assets/book-covers/rainer-maria-rilke-auguste-rodin.jpg",
+      "sourcePage": 4,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/rainer-maria-rilke-auguste-rodin.html"
     },
     {
       "id": "387504563",

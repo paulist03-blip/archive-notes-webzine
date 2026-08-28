@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387504715",
+      "title": "백팔번뇌 이야기",
+      "metadata": "마쓰나미 고도 지음, 최성호 옮김 | 바다출판사",
+      "theme": "불교/번뇌·자비와 생활의 지혜",
+      "imageUrl": "assets/book-covers/kodo-matsunami-108-afflictions.jpg",
+      "reviewUrl": "posts/kodo-matsunami-108-afflictions.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "마음의 먼지는 왜 닦아도 다시 앉는가",
+      "review": "70여 불전에서 고른 108개의 가르침을 따라 미혹과 관계, 기쁨과 자비, 삶과 죽음에 관한 생활 상담의 성취와 역사적 층위를 평평하게 만드는 한계를 읽는다."
+    },
+    {
       "id": "387504796",
       "title": "스토아적 삶의 권유",
       "metadata": "마르코스 바스케스 지음, 김유경 옮김 | 레드스톤",
@@ -5205,10 +5216,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504715",
       "title": "백팔번뇌 이야기",
       "metadata": "마쓰나미 고도 지음, 최성호 옮김 | 바다출판사",
-      "theme": "과학/의학",
+      "theme": "불교/번뇌·자비와 생활의 지혜",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504715",
-      "imageUrl": "https://image.aladin.co.kr/product/35637/30/cover500/k002036503_1.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/kodo-matsunami-108-afflictions.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/kodo-matsunami-108-afflictions.html"
     },
     {
       "id": "387504686",

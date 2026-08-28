@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387504646",
+      "title": "음악을 한다는 것",
+      "metadata": "베네데타 로발보 엮음, 임진모 옮김 | 지노",
+      "theme": "음악/창작·연습과 음악가의 말",
+      "imageUrl": "assets/book-covers/benedetta-lobalbo-the-musician-says.jpg",
+      "reviewUrl": "posts/benedetta-lobalbo-the-musician-says.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "음악은 어떤 말들을 서로의 곁에 앉히는가",
+      "review": "130여 음악가의 발언을 악곡처럼 배치한 인용 선집을 따라 창작과 연습, 독창성과 전통, 무대와 침묵이 서로 응답하는 방식과 문맥을 덜어 낸 편집의 한계를 읽는다."
+    },
+    {
       "id": "387504686",
       "title": "현재의 역사가 미셸 푸코",
       "metadata": "사라 밀스 지음, 임경규 옮김 | 앨피",
@@ -5249,10 +5260,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504646",
       "title": "음악을 한다는 것",
       "metadata": "베네데타 로발보 엮음, 임진모 옮김 | 지노",
-      "theme": "음악/공연",
+      "theme": "음악/창작·연습과 음악가의 말",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504646",
-      "imageUrl": "https://image.aladin.co.kr/product/31746/12/cover500/k322833901_1.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/benedetta-lobalbo-the-musician-says.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/benedetta-lobalbo-the-musician-says.html"
     },
     {
       "id": "387504631",

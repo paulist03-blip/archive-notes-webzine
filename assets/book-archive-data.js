@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387504686",
+      "title": "현재의 역사가 미셸 푸코",
+      "metadata": "사라 밀스 지음, 임경규 옮김 | 앨피",
+      "theme": "철학/푸코·권력과 담론의 계보학",
+      "imageUrl": "assets/book-covers/sara-mills-michel-foucault.jpg",
+      "reviewUrl": "posts/sara-mills-michel-foucault.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "현재는 어떻게 하나의 진실이 되는가",
+      "review": "권력과 제도, 담론과 권력/지식, 몸과 섹슈얼리티, 주체의 긴장을 따라 푸코를 사용하는 방법과 그 역사적·규범적 한계를 읽는다."
+    },
+    {
       "id": "387504715",
       "title": "백팔번뇌 이야기",
       "metadata": "마쓰나미 고도 지음, 최성호 옮김 | 바다출판사",
@@ -5227,10 +5238,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "387504686",
       "title": "현재의 역사가 미셸 푸코",
       "metadata": "사라 밀스 지음, 임경규 옮김 | 앨피",
-      "theme": "역사/정치",
+      "theme": "철학/푸코·권력과 담론의 계보학",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504686",
-      "imageUrl": "https://image.aladin.co.kr/product/274/13/cover500/8992151225_1.jpg",
-      "sourcePage": 3
+      "imageUrl": "assets/book-covers/sara-mills-michel-foucault.jpg",
+      "sourcePage": 3,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/sara-mills-michel-foucault.html"
     },
     {
       "id": "387504646",

@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "387504563",
+      "title": "고용, 이자, 화폐의 일반이론",
+      "metadata": "존 메이나드 케인스 지음, 이주명 옮김 | 필맥",
+      "theme": "경제학/유효수요·불확실성과 고용",
+      "imageUrl": "assets/book-covers/keynes-general-theory-employment-interest-money.jpg",
+      "reviewUrl": "posts/keynes-general-theory-employment-interest-money.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "경제는 왜 스스로 일자리를 되찾지 못하는가",
+      "review": "유효수요와 소비성향, 승수와 장기 기대, 유동성 선호와 임금 논증을 따라 시장이 불완전고용에 머무는 이유를 읽고, 투자 안정화라는 개혁 구상과 총량 분석의 성취와 한계를 짚는다."
+    },
+    {
       "id": "387504631",
       "title": "릴케의 로댕",
       "metadata": "라이너 마리아 릴케 지음, 안상원 옮김 | 미술문화",
@@ -5292,11 +5303,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "387504563",
       "title": "고용, 이자, 화폐의 일반이론",
-      "metadata": "존 메이나드 케인즈 지음, 이주명 옮김 | 필맥",
-      "theme": "인문/교양",
+      "metadata": "존 메이나드 케인스 지음, 이주명 옮김 | 필맥",
+      "theme": "경제학/유효수요·불확실성과 고용",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=387504563",
-      "imageUrl": "https://image.aladin.co.kr/product/656/49/cover500/8991071767_1.jpg",
-      "sourcePage": 4
+      "imageUrl": "assets/book-covers/keynes-general-theory-employment-interest-money.jpg",
+      "sourcePage": 4,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/keynes-general-theory-employment-interest-money.html"
     },
     {
       "id": "385738636",

@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "385718745",
+      "title": "난처한 미술 이야기 4",
+      "metadata": "양정무 지음 | 사회평론",
+      "theme": "중세미술/순례·정복과 고딕 성당의 빛",
+      "imageUrl": "assets/book-covers/yang-jeongmu-nancho-art-story-4.jpg",
+      "reviewUrl": "posts/yang-jeongmu-nancho-art-story-4.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "돌로 세운 하늘은 누구의 믿음을 품었는가",
+      "review": "순례와 성유물에서 노르만의 정복, 로마네스크의 돌 천장과 고딕 성당의 빛으로 이어지는 중세 미술을 따라 신앙·권력·도시·노동이 한 건축 안에서 만나는 방식과 선형적 서술의 한계를 읽는다."
+    },
+    {
       "id": "385738636",
       "title": "VERMEER",
       "metadata": "파스칼 보나푸 지음, 최민 옮김 | 열화당",
@@ -5337,10 +5348,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385718745",
       "title": "난처한 미술 이야기 4",
       "metadata": "양정무 지음 | 사회평론",
-      "theme": "미술/디자인",
+      "theme": "중세미술/순례·정복과 고딕 성당의 빛",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385718745",
-      "imageUrl": "https://image.aladin.co.kr/product/10044/20/cover500/s102831588_1.jpg",
-      "sourcePage": 4
+      "imageUrl": "assets/book-covers/yang-jeongmu-nancho-art-story-4.jpg",
+      "sourcePage": 4,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/yang-jeongmu-nancho-art-story-4.html"
     },
     {
       "id": "385718334",

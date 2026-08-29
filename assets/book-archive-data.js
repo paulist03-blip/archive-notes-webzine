@@ -16,6 +16,28 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "364177025",
+      "title": "몸의 인지과학",
+      "metadata": "프란시스코 바렐라·에반 톰슨·엘리너 로시 지음, 석봉래 옮김, 이인식 해제 | 김영사",
+      "theme": "인지과학/체화·행위화와 마음의 경험",
+      "imageUrl": "assets/book-covers/varela-thompson-rosch-embodied-mind.jpg",
+      "reviewUrl": "posts/varela-thompson-rosch-embodied-mind.html",
+      "label": "Issue 61 · 오늘의 장문 리뷰",
+      "subtitle": "마음은 왜 몸 밖의 세계 없이 생각할 수 없는가",
+      "review": "표상주의와 연결주의의 한계를 지나 마음챙김, 무아, 자율생산과 행위화된 인지로 나아가며 몸과 환경이 함께 의미 있는 세계를 만드는 방식과 불교·과학의 대화가 남긴 긴장을 읽는다."
+    },
+    {
+      "id": "364249135",
+      "title": "존재와 예술",
+      "metadata": "염재철 지음 | 서울대학교출판문화원",
+      "theme": "철학/하이데거·작품과 존재의 진리",
+      "imageUrl": "assets/book-covers/yeom-jaecheol-existence-and-art.jpg",
+      "reviewUrl": "posts/yeom-jaecheol-existence-and-art.html",
+      "label": "Issue 61 · 오늘의 장문 리뷰",
+      "subtitle": "예술은 존재의 숨은 얼굴을 어떻게 열어 보이는가",
+      "review": "세계와 대지의 다툼, 창작과 보존, 시와 언어, 거주와 건축을 따라 작품에서 비은폐의 진리가 일어나는 방식과 하이데거 예술론의 해석적·정치적 한계를 읽는다."
+    },
+    {
       "id": "385718334",
       "title": "금강경, 깨지지 않는 법",
       "metadata": "성본 지음 | 민족사",
@@ -18542,10 +18564,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "364249135",
       "title": "존재와 예술",
       "metadata": "염재철 지음 | 서울대학교출판문화원",
-      "theme": "인문/교양",
+      "theme": "철학/하이데거·작품과 존재의 진리",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364249135",
-      "imageUrl": "https://image.aladin.co.kr/product/4560/59/cover500/8952115821_1.jpg",
-      "sourcePage": 39
+      "imageUrl": "assets/book-covers/yeom-jaecheol-existence-and-art.jpg",
+      "sourcePage": 39,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/yeom-jaecheol-existence-and-art.html"
     },
     {
       "id": "364249102",
@@ -19650,10 +19674,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "364177025",
       "title": "몸의 인지과학",
       "metadata": "프란시스코 바렐라 외 지음, 석봉래 옮김, 이인식 해제 | 김영사",
-      "theme": "과학/의학",
+      "theme": "인지과학/체화·행위화와 마음의 경험",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364177025",
-      "imageUrl": "https://image.aladin.co.kr/product/2870/44/cover500/8934963891_1.jpg",
-      "sourcePage": 41
+      "imageUrl": "assets/book-covers/varela-thompson-rosch-embodied-mind.jpg",
+      "sourcePage": 41,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/varela-thompson-rosch-embodied-mind.html"
     },
     {
       "id": "364177009",

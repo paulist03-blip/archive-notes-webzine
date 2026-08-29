@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 343,
+    "reviewLinkedCount": 344,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -58,6 +58,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "곧장 가지 않는 사람은 무엇을 발견하는가",
       "review": "표제작 「산책」을 비롯한 마흔두 편을 따라 걷기와 글쓰기, 노동과 가난, 작아지는 화자의 시선이 주변의 삶을 문학으로 바꾸는 방식과 우회의 산문이 품은 성취·한계를 읽는다."
+    },
+    {
+      "id": "385500901",
+      "title": "마커스 보그의 고백",
+      "metadata": "마커스 J. 보그 지음, 민경찬·손승우 옮김 | 비아",
+      "theme": "신학/진보적 그리스도교·기억과 회심의 여정",
+      "imageUrl": "assets/book-covers/marcus-borg-convictions.jpg",
+      "reviewUrl": "posts/marcus-borg-convictions.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "믿음은 무엇을 버리고도 믿음으로 남는가",
+      "review": "기억과 회심, 확신의 여정을 따라 하느님과 성서, 구원과 십자가, 정의와 비폭력에 관한 진보적 그리스도교의 언어를 읽고 그 목회적 성취와 미국 중심 시야의 한계를 살핀다."
     },
     {
       "id": "385718334",
@@ -5446,11 +5457,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385500901",
       "title": "마커스 보그의 고백",
-      "metadata": "마커스 J. 보그 지음, 민경찬 외 옮김 | 비아",
-      "theme": "인문/교양",
+      "metadata": "마커스 J. 보그 지음, 민경찬·손승우 옮김 | 비아",
+      "theme": "신학/진보적 그리스도교·기억과 회심의 여정",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385500901",
-      "imageUrl": "https://image.aladin.co.kr/product/36899/47/cover500/k592030018_1.jpg",
-      "sourcePage": 4
+      "imageUrl": "assets/book-covers/marcus-borg-convictions.jpg",
+      "sourcePage": 4,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/marcus-borg-convictions.html"
     },
     {
       "id": "385052776",

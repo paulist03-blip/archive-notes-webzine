@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 341,
+    "reviewLinkedCount": 342,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -36,6 +36,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Issue 61 · 오늘의 장문 리뷰",
       "subtitle": "예술은 존재의 숨은 얼굴을 어떻게 열어 보이는가",
       "review": "세계와 대지의 다툼, 창작과 보존, 시와 언어, 거주와 건축을 따라 작품에서 비은폐의 진리가 일어나는 방식과 하이데거 예술론의 해석적·정치적 한계를 읽는다."
+    },
+    {
+      "id": "385501860",
+      "title": "데리다와 비트겐슈타인",
+      "metadata": "뉴턴 가버·이승종 지음, 조성우 옮김 | 동연출판사",
+      "theme": "철학/언어·문법과 해체의 교차",
+      "imageUrl": "assets/book-covers/newton-garver-lee-seungjong-derrida-wittgenstein.jpg",
+      "reviewUrl": "posts/newton-garver-lee-seungjong-derrida-wittgenstein.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "서로 다른 문장은 어디에서 같은 철학을 만나는가",
+      "review": "구조와 은유, 논리학과 수사학, 문법과 형이상학, 문체의 문제를 따라 데리다와 비트겐슈타인이 언어 앞에서 만나는 자리와 갈라지는 지점을 읽고, 비교가 번역과 길들이기 사이에서 맞닥뜨리는 한계를 살핀다."
     },
     {
       "id": "385718334",
@@ -5402,11 +5413,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385501860",
       "title": "데리다와 비트겐슈타인",
-      "metadata": "뉴턴 가버.이승종 지음, 조성우 옮김 | 동연출판사",
-      "theme": "인문/교양",
+      "metadata": "뉴턴 가버·이승종 지음, 조성우 옮김 | 동연출판사",
+      "theme": "철학/언어·문법과 해체의 교차",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385501860",
-      "imageUrl": "https://image.aladin.co.kr/product/826/66/cover500/8964471229_1.jpg",
-      "sourcePage": 4
+      "imageUrl": "assets/book-covers/newton-garver-lee-seungjong-derrida-wittgenstein.jpg",
+      "sourcePage": 4,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/newton-garver-lee-seungjong-derrida-wittgenstein.html"
     },
     {
       "id": "385500939",

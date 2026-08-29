@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 342,
+    "reviewLinkedCount": 343,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -47,6 +47,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "서로 다른 문장은 어디에서 같은 철학을 만나는가",
       "review": "구조와 은유, 논리학과 수사학, 문법과 형이상학, 문체의 문제를 따라 데리다와 비트겐슈타인이 언어 앞에서 만나는 자리와 갈라지는 지점을 읽고, 비교가 번역과 길들이기 사이에서 맞닥뜨리는 한계를 살핀다."
+    },
+    {
+      "id": "385500939",
+      "title": "산책자",
+      "metadata": "로베르트 발저 지음, 배수아 옮김 | 한겨레출판",
+      "theme": "문학/산책·주변부와 우회의 문장",
+      "imageUrl": "assets/book-covers/robert-walser-walker.jpg",
+      "reviewUrl": "posts/robert-walser-walker.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "곧장 가지 않는 사람은 무엇을 발견하는가",
+      "review": "표제작 「산책」을 비롯한 마흔두 편을 따라 걷기와 글쓰기, 노동과 가난, 작아지는 화자의 시선이 주변의 삶을 문학으로 바꾸는 방식과 우회의 산문이 품은 성취·한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5425,10 +5436,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385500939",
       "title": "산책자",
       "metadata": "로베르트 발저 지음, 배수아 옮김 | 한겨레출판",
-      "theme": "인문/교양",
+      "theme": "문학/산책·주변부와 우회의 문장",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385500939",
-      "imageUrl": "https://image.aladin.co.kr/product/34286/91/cover500/k762932179_1.jpg",
-      "sourcePage": 4
+      "imageUrl": "assets/book-covers/robert-walser-walker.jpg",
+      "sourcePage": 4,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/robert-walser-walker.html"
     },
     {
       "id": "385500901",

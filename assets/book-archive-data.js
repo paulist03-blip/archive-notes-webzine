@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 344,
+    "reviewLinkedCount": 345,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -69,6 +69,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "믿음은 무엇을 버리고도 믿음으로 남는가",
       "review": "기억과 회심, 확신의 여정을 따라 하느님과 성서, 구원과 십자가, 정의와 비폭력에 관한 진보적 그리스도교의 언어를 읽고 그 목회적 성취와 미국 중심 시야의 한계를 살핀다."
+    },
+    {
+      "id": "385052776",
+      "title": "전쟁은 어떻게 기술을 발전시켰나?",
+      "metadata": "김영서 지음 | 팬덤북스",
+      "theme": "기술사/제1차 세계대전·파괴와 민간 전용",
+      "imageUrl": "assets/book-covers/kim-youngseo-war-technology.jpg",
+      "reviewUrl": "posts/kim-youngseo-war-technology.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "우리가 편리라 부르는 것에는 어떤 전쟁이 남아 있는가",
+      "review": "제1차 세계대전의 무기와 통신, 항공, 생활용품, 의료 기술을 따라 전쟁이 발명을 무에서 낳기보다 투자와 표준화, 대량 보급을 가속한 방식과 기술 시스템의 윤리적 양면성을 읽는다."
     },
     {
       "id": "385718334",
@@ -5469,10 +5480,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385052776",
       "title": "전쟁은 어떻게 기술을 발전시켰나?",
       "metadata": "김영서 지음 | 팬덤북스",
-      "theme": "역사/정치",
+      "theme": "기술사/제1차 세계대전·파괴와 민간 전용",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052776",
-      "imageUrl": "https://image.aladin.co.kr/product/32628/92/cover500/k892935457_1.jpg",
-      "sourcePage": 5
+      "imageUrl": "assets/book-covers/kim-youngseo-war-technology.jpg",
+      "sourcePage": 5,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/kim-youngseo-war-technology.html"
     },
     {
       "id": "385052627",

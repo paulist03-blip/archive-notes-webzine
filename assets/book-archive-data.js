@@ -16,6 +16,17 @@ window.PAUL_BOOK_ARCHIVE = {
   },
   "dailyPicks": [
     {
+      "id": "385718334",
+      "title": "금강경, 깨지지 않는 법",
+      "metadata": "성본 지음 | 민족사",
+      "theme": "불교/반야·무주보시와 집착 없는 보살행",
+      "imageUrl": "assets/book-covers/seongbon-diamond-sutra-unbreakable-dharma.jpg",
+      "reviewUrl": "posts/seongbon-diamond-sutra-unbreakable-dharma.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "붙잡지 않는 마음은 어떻게 세상을 건너는가",
+      "review": "원문과 독음, 번역과 32분 강의를 따라 무주보시와 사상, 얻을 법도 설할 법도 없다는 반야의 문장이 집착 없는 보살행으로 이어지는 길과 선종적 해석의 성취·한계를 읽는다."
+    },
+    {
       "id": "385718745",
       "title": "난처한 미술 이야기 4",
       "metadata": "양정무 지음 | 사회평론",
@@ -5359,10 +5370,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "385718334",
       "title": "금강경, 깨지지 않는 법",
       "metadata": "성본 지음 | 민족사",
-      "theme": "인문/교양",
+      "theme": "불교/반야·무주보시와 집착 없는 보살행",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385718334",
-      "imageUrl": "https://image.aladin.co.kr/product/2021/27/cover500/8970092218_1.jpg",
-      "sourcePage": 4
+      "imageUrl": "assets/book-covers/seongbon-diamond-sutra-unbreakable-dharma.jpg",
+      "sourcePage": 4,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/seongbon-diamond-sutra-unbreakable-dharma.html"
     },
     {
       "id": "385501860",

@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 345,
+    "reviewLinkedCount": 346,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -80,6 +80,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "우리가 편리라 부르는 것에는 어떤 전쟁이 남아 있는가",
       "review": "제1차 세계대전의 무기와 통신, 항공, 생활용품, 의료 기술을 따라 전쟁이 발명을 무에서 낳기보다 투자와 표준화, 대량 보급을 가속한 방식과 기술 시스템의 윤리적 양면성을 읽는다."
+    },
+    {
+      "id": "385052627",
+      "title": "마르케스의 서재에서",
+      "metadata": "탕누어 지음, 김태성·김영화 옮김 | 글항아리",
+      "theme": "독서론/미로·기억과 가능성의 세계",
+      "imageUrl": "assets/book-covers/tangnuo-marquez-study.jpg",
+      "reviewUrl": "posts/tangnuo-marquez-study.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "책의 미로에서 우리는 무엇을 잃고 다시 얻는가",
+      "review": "《미로 속의 장군》을 길잡이 삼아 이해하지 못함과 망각, 첫 책과 다시 읽기, 이류의 책과 독자의 무정부 우주를 지나며 유한한 삶에 다른 세계가 머물 자리를 만드는 독서를 읽는다."
     },
     {
       "id": "385718334",
@@ -5490,11 +5501,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "385052627",
       "title": "마르케스의 서재에서",
-      "metadata": "탕누어 지음, 김태성.김영화 옮김 | 글항아리",
-      "theme": "인문/교양",
+      "metadata": "탕누어 지음, 김태성·김영화 옮김 | 글항아리",
+      "theme": "독서론/미로·기억과 가능성의 세계",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385052627",
-      "imageUrl": "https://image.aladin.co.kr/product/10225/49/cover500/8967354118_1.jpg",
-      "sourcePage": 5
+      "imageUrl": "assets/book-covers/tangnuo-marquez-study.jpg",
+      "sourcePage": 5,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/tangnuo-marquez-study.html"
     },
     {
       "id": "384515449",

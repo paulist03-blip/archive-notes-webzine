@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 346,
+    "reviewLinkedCount": 347,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -91,6 +91,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "책의 미로에서 우리는 무엇을 잃고 다시 얻는가",
       "review": "《미로 속의 장군》을 길잡이 삼아 이해하지 못함과 망각, 첫 책과 다시 읽기, 이류의 책과 독자의 무정부 우주를 지나며 유한한 삶에 다른 세계가 머물 자리를 만드는 독서를 읽는다."
+    },
+    {
+      "id": "384515449",
+      "title": "나는 왜 내가 낯설까",
+      "metadata": "티모시 D. 윌슨 지음, 정명진 옮김 | 부글북스",
+      "theme": "심리학/적응 무의식·자기 지식과 행동",
+      "imageUrl": "assets/book-covers/timothy-wilson-strangers-self.jpg",
+      "reviewUrl": "posts/timothy-wilson-strangers-self.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "마음은 언제 나보다 먼저 움직이는가",
+      "review": "적응 무의식과 행동의 원인, 감정 예측과 자기 서사를 따라 말로 설명하는 나와 먼저 움직이는 마음 사이의 틈을 읽고, 관찰과 행동으로 자신을 바꾸는 가능성과 한계를 살핀다."
     },
     {
       "id": "385718334",
@@ -5512,11 +5523,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "384515449",
       "title": "나는 왜 내가 낯설까",
-      "metadata": "티모시 윌슨 지음, 정명진 옮김 | 부글북스",
-      "theme": "문학/언어",
+      "metadata": "티모시 D. 윌슨 지음, 정명진 옮김 | 부글북스",
+      "theme": "심리학/적응 무의식·자기 지식과 행동",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384515449",
-      "imageUrl": "https://image.aladin.co.kr/product/26666/1/cover500/k172730676_1.jpg",
-      "sourcePage": 5
+      "imageUrl": "assets/book-covers/timothy-wilson-strangers-self.jpg",
+      "sourcePage": 5,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/timothy-wilson-strangers-self.html"
     },
     {
       "id": "384511351",

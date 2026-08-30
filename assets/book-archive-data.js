@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 347,
+    "reviewLinkedCount": 348,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -102,6 +102,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "마음은 언제 나보다 먼저 움직이는가",
       "review": "적응 무의식과 행동의 원인, 감정 예측과 자기 서사를 따라 말로 설명하는 나와 먼저 움직이는 마음 사이의 틈을 읽고, 관찰과 행동으로 자신을 바꾸는 가능성과 한계를 살핀다."
+    },
+    {
+      "id": "384511351",
+      "title": "6시간 15분 철학 강의",
+      "metadata": "비톨트 곰브로비치 지음, 김용석 옮김 | 신북스",
+      "theme": "철학/근대 사유의 계보·형식과 실존",
+      "imageUrl": "assets/book-covers/witold-gombrowicz-philosophy-six-hours.jpg",
+      "reviewUrl": "posts/witold-gombrowicz-philosophy-six-hours.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "철학은 왜 마지막 순간에도 삶을 붙드는가",
+      "review": "칸트와 쇼펜하우어, 헤겔과 실존주의, 마르크스주의를 거쳐 미완의 구조주의에 이르는 마지막 강의를 따라 타인의 시선과 관계가 인간의 형식을 빚는 방식을 읽는다."
     },
     {
       "id": "385718334",
@@ -5535,10 +5546,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "384511351",
       "title": "6시간 15분 철학 강의",
       "metadata": "비톨트 곰브로비치 지음, 김용석 옮김 | 신북스",
-      "theme": "철학/사상",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384511351",
-      "imageUrl": "https://image.aladin.co.kr/product/36379/58/cover500/k922039574_1.jpg",
-      "sourcePage": 5
+      "theme": "철학/근대 사유의 계보·형식과 실존",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=363795892",
+      "imageUrl": "assets/book-covers/witold-gombrowicz-philosophy-six-hours.jpg",
+      "sourcePage": 5,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/witold-gombrowicz-philosophy-six-hours.html"
     },
     {
       "id": "384511193",

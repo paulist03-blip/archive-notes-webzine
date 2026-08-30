@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 351,
+    "reviewLinkedCount": 352,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -146,6 +146,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "국가는 누구의 힘을 두려워하고 누구의 손을 잡는가",
       "review": "세력균형을 위협균형으로 고쳐 쓴 현실주의 이론과 1955~1979년 중동의 동맹 이동을 따라 균형과 편승, 이념과 원조, 공격 의도와 위협 인식의 성취 및 한계를 읽는다."
+    },
+    {
+      "id": "379052946",
+      "title": "종교가 사악해질 때",
+      "metadata": "찰스 킴볼 지음, 김승욱 옮김 | 현암사",
+      "theme": "종교학/타락의 징후·종교와 폭력",
+      "imageUrl": "assets/book-covers/charles-kimball-when-religion-becomes-evil.jpg",
+      "reviewUrl": "posts/charles-kimball-when-religion-becomes-evil.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "믿음은 언제 타인의 삶을 해치는 명령이 되는가",
+      "review": "절대적 진리 주장과 맹목적 복종, 이상 시대와 정당화된 수단, 성전이라는 다섯 징후를 따라 종교가 폭력의 언어로 변하는 과정과 포용적 믿음의 가능성 및 진단 틀의 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5623,10 +5634,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379052946",
       "title": "종교가 사악해질 때",
       "metadata": "찰스 킴볼 지음, 김승욱 옮김 | 현암사",
-      "theme": "종교/신학",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379052946",
-      "imageUrl": "https://image.aladin.co.kr/product/24790/60/cover500/8932320802_1.jpg",
-      "sourcePage": 6
+      "theme": "종교학/타락의 징후·종교와 폭력",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=247906021",
+      "imageUrl": "assets/book-covers/charles-kimball-when-religion-becomes-evil.jpg",
+      "sourcePage": 6,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/charles-kimball-when-religion-becomes-evil.html"
     },
     {
       "id": "379052497",

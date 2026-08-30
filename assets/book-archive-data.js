@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 348,
+    "reviewLinkedCount": 349,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -113,6 +113,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "철학은 왜 마지막 순간에도 삶을 붙드는가",
       "review": "칸트와 쇼펜하우어, 헤겔과 실존주의, 마르크스주의를 거쳐 미완의 구조주의에 이르는 마지막 강의를 따라 타인의 시선과 관계가 인간의 형식을 빚는 방식을 읽는다."
+    },
+    {
+      "id": "384511193",
+      "title": "예술, 진리를 훔치다",
+      "metadata": "김동국 지음 | 파라북스",
+      "theme": "미학/현대철학과 예술의 진리",
+      "imageUrl": "assets/book-covers/kim-dongguk-art-steals-truth.jpg",
+      "reviewUrl": "posts/kim-dongguk-art-steals-truth.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "진리는 왜 작품 속에서 다른 얼굴을 얻는가",
+      "review": "하이데거와 횔덜린부터 보드리야르와 워홀까지 여덟 철학자와 여덟 예술가의 만남을 따라 작품이 존재와 지각, 언어와 정치, 실재의 문제를 다시 여는 방식을 읽는다."
     },
     {
       "id": "385718334",
@@ -5557,10 +5568,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "384511193",
       "title": "예술, 진리를 훔치다",
       "metadata": "김동국 지음 | 파라북스",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=384511193",
-      "imageUrl": "https://image.aladin.co.kr/product/28708/80/cover500/k212836466_1.jpg",
-      "sourcePage": 5
+      "theme": "미학/현대철학과 예술의 진리",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=287088027",
+      "imageUrl": "assets/book-covers/kim-dongguk-art-steals-truth.jpg",
+      "sourcePage": 5,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/kim-dongguk-art-steals-truth.html"
     },
     {
       "id": "382505429",

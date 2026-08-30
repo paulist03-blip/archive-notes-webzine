@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 354,
+    "reviewLinkedCount": 355,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -179,6 +179,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "모든 것을 의심한 뒤에도 나는 남는가",
       "review": "방법적 회의가 감각과 꿈, 수학을 흔든 뒤 코기토와 신, 참과 거짓, 물질 세계와 심신의 구별 및 결합을 다시 세우는 논증의 성취와 한계를 읽는다."
+    },
+    {
+      "id": "379052263",
+      "title": "돌파의 시간",
+      "metadata": "커털린 커리코 지음, 조은영 옮김 | 까치",
+      "theme": "과학자 회고록/mRNA·연구 노동과 제도",
+      "imageUrl": "assets/book-covers/katalin-kariko-breaking-through.jpg",
+      "reviewUrl": "posts/katalin-kariko-breaking-through.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "세상을 바꾼 발견은 얼마나 오래 아무도 보지 못했는가",
+      "review": "헝가리의 어린 시절과 이민, 학계의 주변부에서 이어 간 mRNA 연구를 따라 실패를 지식으로 바꾸는 실험 노동과 협업, 평가 제도의 책임을 함께 읽는다."
     },
     {
       "id": "385718334",
@@ -5689,10 +5700,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379052263",
       "title": "돌파의 시간",
       "metadata": "커털린 커리코 지음, 조은영 옮김 | 까치",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379052263",
-      "imageUrl": "https://image.aladin.co.kr/product/34262/90/cover500/8972918431_1.jpg",
-      "sourcePage": 6
+      "theme": "과학자 회고록/mRNA·연구 노동과 제도",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=342629065",
+      "imageUrl": "assets/book-covers/katalin-kariko-breaking-through.jpg",
+      "sourcePage": 6,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/katalin-kariko-breaking-through.html"
     },
     {
       "id": "378806302",

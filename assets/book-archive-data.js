@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 352,
+    "reviewLinkedCount": 353,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -157,6 +157,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "믿음은 언제 타인의 삶을 해치는 명령이 되는가",
       "review": "절대적 진리 주장과 맹목적 복종, 이상 시대와 정당화된 수단, 성전이라는 다섯 징후를 따라 종교가 폭력의 언어로 변하는 과정과 포용적 믿음의 가능성 및 진단 틀의 한계를 읽는다."
+    },
+    {
+      "id": "379052497",
+      "title": "불교 철학",
+      "metadata": "데이비드 J. 칼루파하나 지음, 나성 옮김 | 이학사",
+      "theme": "불교철학/연기·무아·철학사",
+      "imageUrl": "assets/book-covers/david-kalupahana-buddhist-philosophy.jpg",
+      "reviewUrl": "posts/david-kalupahana-buddhist-philosophy.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "무아의 가르침은 어떻게 하나의 철학사가 되었는가",
+      "review": "초기 불교의 인식론과 연기, 무아, 업과 열반에서 아비달마·중관·유식으로 이어지는 사유를 따라 반실체주의적 중도라는 해석의 성취와 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5645,10 +5656,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379052497",
       "title": "불교 철학",
       "metadata": "데이비드 J. 칼루파하나 지음, 나성 옮김 | 이학사",
-      "theme": "철학/사상",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379052497",
-      "imageUrl": "https://image.aladin.co.kr/product/17854/70/cover500/8961473352_1.jpg",
-      "sourcePage": 6
+      "theme": "불교철학/연기·무아·철학사",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=178547039",
+      "imageUrl": "assets/book-covers/david-kalupahana-buddhist-philosophy.jpg",
+      "sourcePage": 6,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/david-kalupahana-buddhist-philosophy.html"
     },
     {
       "id": "379052295",

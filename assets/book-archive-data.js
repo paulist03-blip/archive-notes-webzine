@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 349,
+    "reviewLinkedCount": 350,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -124,6 +124,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "진리는 왜 작품 속에서 다른 얼굴을 얻는가",
       "review": "하이데거와 횔덜린부터 보드리야르와 워홀까지 여덟 철학자와 여덟 예술가의 만남을 따라 작품이 존재와 지각, 언어와 정치, 실재의 문제를 다시 여는 방식을 읽는다."
+    },
+    {
+      "id": "382505429",
+      "title": "내 마음 내가 치유한다 : 알기 쉬운 인지행동치료 CBT",
+      "metadata": "세스 J. 길리한 지음, 신인수·전철우 옮김 | 씨아이알(CIR)",
+      "theme": "심리학/인지행동치료·생각과 행동의 변화",
+      "imageUrl": "assets/book-covers/seth-gillihan-cbt-made-simple.jpg",
+      "reviewUrl": "posts/seth-gillihan-cbt-made-simple.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "마음은 어떻게 생각과 행동 사이에서 길을 바꾸는가",
+      "review": "생각과 감정, 행동이 서로를 되먹이는 과정을 따라 목표 설정과 행동 활성화, 인지 재구성, 마음챙김과 자기 친절이 마음의 다른 길을 여는 방식과 자기치유의 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5578,11 +5589,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "382505429",
       "title": "내 마음 내가 치유한다 : 알기 쉬운 인지행동치료 CBT",
-      "metadata": "세스 J. 길리한 지음, 신인수.전철우 옮김 | 씨아이알(CIR)",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382505429",
-      "imageUrl": "https://image.aladin.co.kr/product/27640/55/cover500/k002733228_1.jpg",
-      "sourcePage": 6
+      "metadata": "세스 J. 길리한 지음, 신인수·전철우 옮김 | 씨아이알(CIR)",
+      "theme": "심리학/인지행동치료·생각과 행동의 변화",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=276405554",
+      "imageUrl": "assets/book-covers/seth-gillihan-cbt-made-simple.jpg",
+      "sourcePage": 6,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/seth-gillihan-cbt-made-simple.html"
     },
     {
       "id": "379685339",

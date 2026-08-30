@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 350,
+    "reviewLinkedCount": 351,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -135,6 +135,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "마음은 어떻게 생각과 행동 사이에서 길을 바꾸는가",
       "review": "생각과 감정, 행동이 서로를 되먹이는 과정을 따라 목표 설정과 행동 활성화, 인지 재구성, 마음챙김과 자기 친절이 마음의 다른 길을 여는 방식과 자기치유의 한계를 읽는다."
+    },
+    {
+      "id": "379685339",
+      "title": "동맹의 기원",
+      "metadata": "스티븐 M. 월트 지음, 이준상 옮김 | 김앤김북스",
+      "theme": "국제정치/위협균형·동맹 형성",
+      "imageUrl": "assets/book-covers/stephen-walt-origins-of-alliances.jpg",
+      "reviewUrl": "posts/stephen-walt-origins-of-alliances.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "국가는 누구의 힘을 두려워하고 누구의 손을 잡는가",
+      "review": "세력균형을 위협균형으로 고쳐 쓴 현실주의 이론과 1955~1979년 중동의 동맹 이동을 따라 균형과 편승, 이념과 원조, 공격 의도와 위협 인식의 성취 및 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5601,10 +5612,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379685339",
       "title": "동맹의 기원",
       "metadata": "스티븐 M. 월트 지음, 이준상 옮김 | 김앤김북스",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379685339",
-      "imageUrl": "https://image.aladin.co.kr/product/33935/86/cover500/8989566908_1.jpg",
-      "sourcePage": 6
+      "theme": "국제정치/위협균형·동맹 형성",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=339358613",
+      "imageUrl": "assets/book-covers/stephen-walt-origins-of-alliances.jpg",
+      "sourcePage": 6,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/stephen-walt-origins-of-alliances.html"
     },
     {
       "id": "379052946",

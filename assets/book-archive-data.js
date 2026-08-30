@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 353,
+    "reviewLinkedCount": 354,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -168,6 +168,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "무아의 가르침은 어떻게 하나의 철학사가 되었는가",
       "review": "초기 불교의 인식론과 연기, 무아, 업과 열반에서 아비달마·중관·유식으로 이어지는 사유를 따라 반실체주의적 중도라는 해석의 성취와 한계를 읽는다."
+    },
+    {
+      "id": "379052295",
+      "title": "제일철학에 관한 성찰",
+      "metadata": "르네 데카르트 지음, 이현복 옮김 | 문예출판사",
+      "theme": "근대철학/방법적 회의·코기토와 심신",
+      "imageUrl": "assets/book-covers/rene-descartes-meditations-first-philosophy.jpg",
+      "reviewUrl": "posts/rene-descartes-meditations-first-philosophy.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "모든 것을 의심한 뒤에도 나는 남는가",
+      "review": "방법적 회의가 감각과 꿈, 수학을 흔든 뒤 코기토와 신, 참과 거짓, 물질 세계와 심신의 구별 및 결합을 다시 세우는 논증의 성취와 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5667,10 +5678,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "379052295",
       "title": "제일철학에 관한 성찰",
       "metadata": "르네 데카르트 지음, 이현복 옮김 | 문예출판사",
-      "theme": "철학/사상",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=379052295",
-      "imageUrl": "https://image.aladin.co.kr/product/26861/96/cover500/s192137014_1.jpg",
-      "sourcePage": 6
+      "theme": "근대철학/방법적 회의·코기토와 심신",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=268619645",
+      "imageUrl": "assets/book-covers/rene-descartes-meditations-first-philosophy.jpg",
+      "sourcePage": 6,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/rene-descartes-meditations-first-philosophy.html"
     },
     {
       "id": "379052263",

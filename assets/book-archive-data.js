@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 357,
+    "reviewLinkedCount": 358,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -212,6 +212,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "한 화가는 어떻게 자기 눈을 만들어 가는가",
       "review": "안톤 반 라파르트에게 보낸 1881~1885년의 편지를 따라 도구와 데생, 노동하는 사람들, 예술가적 양심, 우정과 비평 속에서 한 화가의 눈이 만들어지는 과정을 읽는다."
+    },
+    {
+      "id": "374637679",
+      "title": "손에 잡히는 서양미술사",
+      "metadata": "박일호 지음 | 미진사",
+      "theme": "서양미술사/사회문화적 맥락과 이성·감성의 형식",
+      "imageUrl": "assets/book-covers/park-ilho-western-art-history.jpg",
+      "reviewUrl": "posts/park-ilho-western-art-history.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 시대는 어떻게 눈에 보이는 형식이 되는가",
+      "review": "원시 동굴벽화에서 포스트모더니즘까지 사회와 문화의 변화가 재현과 종교적 이미지, 이성과 감성, 추상과 다원주의의 형식으로 나타나는 과정을 읽고 그 명료한 서술 틀의 성취와 한계를 살핀다."
     },
     {
       "id": "385718334",
@@ -5755,10 +5766,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374637679",
       "title": "손에 잡히는 서양미술사",
       "metadata": "박일호 지음 | 미진사",
-      "theme": "미술/디자인",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374637679",
-      "imageUrl": "https://image.aladin.co.kr/product/17300/96/cover500/8940805690_1.jpg",
-      "sourcePage": 7
+      "theme": "서양미술사/사회문화적 맥락과 이성·감성의 형식",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=173009680",
+      "imageUrl": "assets/book-covers/park-ilho-western-art-history.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/park-ilho-western-art-history.html"
     },
     {
       "id": "374637653",

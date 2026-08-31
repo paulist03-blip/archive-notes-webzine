@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 360,
+    "reviewLinkedCount": 361,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -245,6 +245,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "말은 왜 뜻밖의 일을 찾아 사람들 사이를 떠도는가",
       "review": "동물의 신호와 인간 언어의 차이, 음운·통사·의미의 기능적 진화에서 서사와 논증, 명성과 동맹을 만드는 대화의 정치적 기능과 그 적응주의적 한계를 읽는다."
+    },
+    {
+      "id": "374637603",
+      "title": "A. 코난 도일: 셜록은 셜록",
+      "metadata": "헤스케드 피어슨 지음, 김지연 옮김 | TENDEDERO(뗀데데로)",
+      "theme": "문학가 전기/코난 도일·셜록 홈즈와 심령주의",
+      "imageUrl": "assets/book-covers/hesketh-pearson-conan-doyle-sherlock.jpg",
+      "reviewUrl": "posts/hesketh-pearson-conan-doyle-sherlock.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "셜록 홈즈를 만든 사람은 왜 셜록보다 더 설명하기 어려운가",
+      "review": "의사와 작가, 모험가와 심령주의자 사이를 오간 코난 도일의 생애를 따라 셜록 홈즈의 탄생과 그늘, 오심 사건과 행동주의, 피어슨의 논쟁적인 전기 쓰기가 남긴 성취와 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5819,12 +5830,14 @@ window.PAUL_BOOK_ARCHIVE = {
     },
     {
       "id": "374637603",
-      "title": "A.코난 도일 : 셜록은 셜록",
+      "title": "A. 코난 도일: 셜록은 셜록",
       "metadata": "헤스케드 피어슨 지음, 김지연 옮김 | TENDEDERO(뗀데데로)",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374637603",
-      "imageUrl": "https://image.aladin.co.kr/product/17663/43/cover500/k012534510_1.jpg",
-      "sourcePage": 7
+      "theme": "문학가 전기/코난 도일·셜록 홈즈와 심령주의",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=176634391",
+      "imageUrl": "assets/book-covers/hesketh-pearson-conan-doyle-sherlock.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/hesketh-pearson-conan-doyle-sherlock.html"
     },
     {
       "id": "374637415",

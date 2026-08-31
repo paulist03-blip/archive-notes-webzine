@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 358,
+    "reviewLinkedCount": 359,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -223,6 +223,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "한 시대는 어떻게 눈에 보이는 형식이 되는가",
       "review": "원시 동굴벽화에서 포스트모더니즘까지 사회와 문화의 변화가 재현과 종교적 이미지, 이성과 감성, 추상과 다원주의의 형식으로 나타나는 과정을 읽고 그 명료한 서술 틀의 성취와 한계를 살핀다."
+    },
+    {
+      "id": "374637653",
+      "title": "죽음 부활 영원한 생명 바로 알기",
+      "metadata": "게르하르트 로핑크 지음, 김혁태 옮김 | 생활성서사",
+      "theme": "그리스도교 종말론/죽음·부활과 새 창조",
+      "imageUrl": "assets/book-covers/gerhard-lohfink-death-resurrection-eternal-life.jpg",
+      "reviewUrl": "posts/gerhard-lohfink-death-resurrection-eternal-life.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "부활은 무엇을 다시 일으키는가",
+      "review": "현대의 죽음관에서 이스라엘의 신앙과 예수의 부활, 심판과 정화, 한 인간·역사·피조물 전체의 완성으로 나아가는 그리스도교 종말론의 논증과 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5777,10 +5788,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374637653",
       "title": "죽음 부활 영원한 생명 바로 알기",
       "metadata": "게르하르트 로핑크 지음, 김혁태 옮김 | 생활성서사",
-      "theme": "과학/의학",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374637653",
-      "imageUrl": "https://image.aladin.co.kr/product/28690/52/cover500/8984816108_1.jpg",
-      "sourcePage": 7
+      "theme": "그리스도교 종말론/죽음·부활과 새 창조",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=286905229",
+      "imageUrl": "assets/book-covers/gerhard-lohfink-death-resurrection-eternal-life.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/gerhard-lohfink-death-resurrection-eternal-life.html"
     },
     {
       "id": "374637632",

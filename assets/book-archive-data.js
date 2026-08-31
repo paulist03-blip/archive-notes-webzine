@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 361,
+    "reviewLinkedCount": 362,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -256,6 +256,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "셜록 홈즈를 만든 사람은 왜 셜록보다 더 설명하기 어려운가",
       "review": "의사와 작가, 모험가와 심령주의자 사이를 오간 코난 도일의 생애를 따라 셜록 홈즈의 탄생과 그늘, 오심 사건과 행동주의, 피어슨의 논쟁적인 전기 쓰기가 남긴 성취와 한계를 읽는다."
+    },
+    {
+      "id": "374637415",
+      "title": "피렌체 사람들 이야기",
+      "metadata": "폴 스트래던 지음, 이종인 옮김 | 책과함께",
+      "theme": "르네상스사/도시·금융과 인물의 연결망",
+      "imageUrl": "assets/book-covers/paul-strathern-florentines.jpg",
+      "reviewUrl": "posts/paul-strathern-florentines.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "피렌체의 천재들은 어떻게 서로의 시대가 되었는가",
+      "review": "단테에서 갈릴레이까지, 상업과 금융·공화정과 후원·예술과 과학이 한 도시에서 서로를 바꾼 과정을 따라 피렌체 르네상스의 관계망과 그 서사의 성취 및 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5843,10 +5854,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374637415",
       "title": "피렌체 사람들 이야기",
       "metadata": "폴 스트래던 지음, 이종인 옮김 | 책과함께",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374637415",
-      "imageUrl": "https://image.aladin.co.kr/product/32131/73/cover500/k592834302_1.jpg",
-      "sourcePage": 7
+      "theme": "르네상스사/도시·금융과 인물의 연결망",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=321317399",
+      "imageUrl": "assets/book-covers/paul-strathern-florentines.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/paul-strathern-florentines.html"
     },
     {
       "id": "374637292",

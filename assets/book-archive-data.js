@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 359,
+    "reviewLinkedCount": 360,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -234,6 +234,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "부활은 무엇을 다시 일으키는가",
       "review": "현대의 죽음관에서 이스라엘의 신앙과 예수의 부활, 심판과 정화, 한 인간·역사·피조물 전체의 완성으로 나아가는 그리스도교 종말론의 논증과 한계를 읽는다."
+    },
+    {
+      "id": "374637632",
+      "title": "말의 자연사",
+      "metadata": "장-루이 데살 지음, 박정준.이현주 옮김 | 교유서가",
+      "theme": "언어 진화/서사·논증과 정치적 신호",
+      "imageUrl": "assets/book-covers/jean-louis-dessalles-natural-history-speech.jpg",
+      "reviewUrl": "posts/jean-louis-dessalles-natural-history-speech.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "말은 왜 뜻밖의 일을 찾아 사람들 사이를 떠도는가",
+      "review": "동물의 신호와 인간 언어의 차이, 음운·통사·의미의 기능적 진화에서 서사와 논증, 명성과 동맹을 만드는 대화의 정치적 기능과 그 적응주의적 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5799,10 +5810,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374637632",
       "title": "말의 자연사",
       "metadata": "장-루이 데살 지음, 박정준.이현주 옮김 | 교유서가",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374637632",
-      "imageUrl": "https://image.aladin.co.kr/product/30986/44/cover500/k962831307_1.jpg",
-      "sourcePage": 7
+      "theme": "언어 진화/서사·논증과 정치적 신호",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309864423",
+      "imageUrl": "assets/book-covers/jean-louis-dessalles-natural-history-speech.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/jean-louis-dessalles-natural-history-speech.html"
     },
     {
       "id": "374637603",

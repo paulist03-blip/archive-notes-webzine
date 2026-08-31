@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 355,
+    "reviewLinkedCount": 356,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -190,6 +190,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "세상을 바꾼 발견은 얼마나 오래 아무도 보지 못했는가",
       "review": "헝가리의 어린 시절과 이민, 학계의 주변부에서 이어 간 mRNA 연구를 따라 실패를 지식으로 바꾸는 실험 노동과 협업, 평가 제도의 책임을 함께 읽는다."
+    },
+    {
+      "id": "378806302",
+      "title": "동시대 이후 : 시간-경험-이미지",
+      "metadata": "서동진 지음 | 현실문화A",
+      "theme": "미술비평/기억·경험과 역사적 시간",
+      "imageUrl": "assets/book-covers/seo-dongjin-after-contemporaneity.jpg",
+      "reviewUrl": "posts/seo-dongjin-after-contemporaneity.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "지금은 왜 과거와 미래를 잃어버렸는가",
+      "review": "음악과 영화, 사진과 미술을 가로지르며 기억과 역사, 경험과 의식, 참여와 금융화의 관계를 따라 시간 없는 현재를 역사적 시간으로 다시 잇는 비평의 성취와 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5711,10 +5722,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "378806302",
       "title": "동시대 이후 : 시간-경험-이미지",
       "metadata": "서동진 지음 | 현실문화A",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378806302",
-      "imageUrl": "https://image.aladin.co.kr/product/13850/74/cover500/8965642132_1.jpg",
-      "sourcePage": 6
+      "theme": "미술비평/기억·경험과 역사적 시간",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=138507495",
+      "imageUrl": "assets/book-covers/seo-dongjin-after-contemporaneity.jpg",
+      "sourcePage": 6,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/seo-dongjin-after-contemporaneity.html"
     },
     {
       "id": "378806300",

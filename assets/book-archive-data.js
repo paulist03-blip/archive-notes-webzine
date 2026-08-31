@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 356,
+    "reviewLinkedCount": 357,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -201,6 +201,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "지금은 왜 과거와 미래를 잃어버렸는가",
       "review": "음악과 영화, 사진과 미술을 가로지르며 기억과 역사, 경험과 의식, 참여와 금융화의 관계를 따라 시간 없는 현재를 역사적 시간으로 다시 잇는 비평의 성취와 한계를 읽는다."
+    },
+    {
+      "id": "378806300",
+      "title": "반 고흐, 영원한 예술의 시작",
+      "metadata": "빈센트 반 고흐 지음, 박은영 옮김 | 위즈덤하우스",
+      "theme": "예술가의 편지/데생·우정과 예술가적 양심",
+      "imageUrl": "assets/book-covers/vincent-van-gogh-eternal-beginning-art.jpg",
+      "reviewUrl": "posts/vincent-van-gogh-eternal-beginning-art.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 화가는 어떻게 자기 눈을 만들어 가는가",
+      "review": "안톤 반 라파르트에게 보낸 1881~1885년의 편지를 따라 도구와 데생, 노동하는 사람들, 예술가적 양심, 우정과 비평 속에서 한 화가의 눈이 만들어지는 과정을 읽는다."
     },
     {
       "id": "385718334",
@@ -5733,10 +5744,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "378806300",
       "title": "반 고흐, 영원한 예술의 시작",
       "metadata": "빈센트 반 고흐 지음, 박은영 옮김 | 위즈덤하우스",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=378806300",
-      "imageUrl": "https://image.aladin.co.kr/product/35328/65/cover500/k972035578_1.jpg",
-      "sourcePage": 7
+      "theme": "예술가의 편지/데생·우정과 예술가적 양심",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=353286526",
+      "imageUrl": "assets/book-covers/vincent-van-gogh-eternal-beginning-art.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/vincent-van-gogh-eternal-beginning-art.html"
     },
     {
       "id": "374637679",

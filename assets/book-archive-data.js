@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 362,
+    "reviewLinkedCount": 363,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -267,6 +267,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "피렌체의 천재들은 어떻게 서로의 시대가 되었는가",
       "review": "단테에서 갈릴레이까지, 상업과 금융·공화정과 후원·예술과 과학이 한 도시에서 서로를 바꾼 과정을 따라 피렌체 르네상스의 관계망과 그 서사의 성취 및 한계를 읽는다."
+    },
+    {
+      "id": "374637292",
+      "title": "인학본체론",
+      "metadata": "천라이 지음, 이원석 옮김 | 글항아리",
+      "theme": "현대 유가철학/인·본체와 생생의 우주론",
+      "imageUrl": "assets/book-covers/chen-lai-humaneness-ontology.jpg",
+      "reviewUrl": "posts/chen-lai-humaneness-ontology.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "인은 어떻게 사람의 마음에서 세계의 바탕이 되는가",
+      "review": "공자와 맹자의 인에서 송명 유학의 만물일체·생생, 슝스리의 체용론과 리쩌허우의 정감본체론, 현대의 자유·평등·공정으로 이어지는 철학적 재구성의 성취와 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5865,10 +5876,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374637292",
       "title": "인학본체론",
       "metadata": "천라이 지음, 이원석 옮김 | 글항아리",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374637292",
-      "imageUrl": "https://image.aladin.co.kr/product/27884/2/cover500/8967359357_1.jpg",
-      "sourcePage": 7
+      "theme": "현대 유가철학/인·본체와 생생의 우주론",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=278840238",
+      "imageUrl": "assets/book-covers/chen-lai-humaneness-ontology.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/chen-lai-humaneness-ontology.html"
     },
     {
       "id": "374637211",

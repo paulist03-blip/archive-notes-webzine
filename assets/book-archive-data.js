@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 364,
+    "reviewLinkedCount": 365,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -289,6 +289,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "한 장의 레코드는 어떻게 다음 음악을 불러오는가",
       "review": "레코드와 영화, 여행과 일상에서 시작해 한국 재즈 1세대, 보컬·퓨전·ECM의 음악가들로 이어지는 사적인 듣기의 지도와 그 선곡의 성취 및 한계를 읽는다."
+    },
+    {
+      "id": "374637118",
+      "title": "아바도 평전",
+      "metadata": "볼프강 슈라이버 지음, 이기숙 옮김 | 풍월당",
+      "theme": "음악가 전기/경청·지휘와 조용한 리더십",
+      "imageUrl": "assets/book-covers/wolfgang-schreiber-claudio-abbado.jpg",
+      "reviewUrl": "posts/wolfgang-schreiber-claudio-abbado.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "지휘자는 어떻게 명령하지 않고 하나의 소리를 만드는가",
+      "review": "밀라노의 음악가 집안에서 라 스칼라와 빈·베를린, 청소년 오케스트라와 루체른까지 이어진 생애를 따라 명령보다 경청을 앞세운 지휘와 조용한 리더십의 성취 및 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5909,10 +5920,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374637118",
       "title": "아바도 평전",
       "metadata": "볼프강 슈라이버 지음, 이기숙 옮김 | 풍월당",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374637118",
-      "imageUrl": "https://image.aladin.co.kr/product/25314/12/cover500/k402633403_1.jpg",
-      "sourcePage": 7
+      "theme": "음악가 전기/경청·지휘와 조용한 리더십",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=253141201",
+      "imageUrl": "assets/book-covers/wolfgang-schreiber-claudio-abbado.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/wolfgang-schreiber-claudio-abbado.html"
     },
     {
       "id": "374637104",

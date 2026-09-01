@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 367,
+    "reviewLinkedCount": 368,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -322,6 +322,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "몸은 어떻게 정해진 사용법을 벗어나는가",
       "review": "자연적인 성이라는 규범, 대항성 계약과 딜도기술학, 항문과 보철의 정치를 따라 몸을 다시 사용하는 실천의 성취와 계약·자율·보편성의 한계를 읽는다."
+    },
+    {
+      "id": "374636904",
+      "title": "질 들뢰즈의 시간기계",
+      "metadata": "데이비드 노먼 로도윅 지음, 김지훈 옮김 | 그린비",
+      "theme": "영화철학/시간-이미지와 저항",
+      "imageUrl": "assets/book-covers/d-n-rodowick-gilles-deleuze-time-machine.jpg",
+      "reviewUrl": "posts/d-n-rodowick-gilles-deleuze-time-machine.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "영화는 어떻게 시간을 생각하게 하는가",
+      "review": "운동-이미지와 시간-이미지, 베르그송의 기억과 퍼스의 기호, 거짓의 역량과 소수적 영화를 따라 영화가 사유와 저항의 가능성을 만드는 방식을 읽는다."
     },
     {
       "id": "385718334",
@@ -5975,10 +5986,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374636904",
       "title": "질 들뢰즈의 시간기계",
       "metadata": "데이비드 노먼 로도윅 지음, 김지훈 옮김 | 그린비",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374636904",
-      "imageUrl": "https://image.aladin.co.kr/product/56/41/cover500/8976829506_2.jpg",
-      "sourcePage": 7
+      "theme": "영화철학/시간-이미지와 저항",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=564181",
+      "imageUrl": "assets/book-covers/d-n-rodowick-gilles-deleuze-time-machine.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/d-n-rodowick-gilles-deleuze-time-machine.html"
     },
     {
       "id": "374636602",

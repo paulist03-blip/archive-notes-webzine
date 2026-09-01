@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 363,
+    "reviewLinkedCount": 364,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -278,6 +278,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "인은 어떻게 사람의 마음에서 세계의 바탕이 되는가",
       "review": "공자와 맹자의 인에서 송명 유학의 만물일체·생생, 슝스리의 체용론과 리쩌허우의 정감본체론, 현대의 자유·평등·공정으로 이어지는 철학적 재구성의 성취와 한계를 읽는다."
+    },
+    {
+      "id": "374637211",
+      "title": "재즈 라이프 Jazz Life",
+      "metadata": "남무성 글·그림 | BOOKERS(북커스)",
+      "theme": "재즈/음반·영화와 사적인 듣기의 지도",
+      "imageUrl": "assets/book-covers/nam-museong-jazz-life.jpg",
+      "reviewUrl": "posts/nam-museong-jazz-life.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 장의 레코드는 어떻게 다음 음악을 불러오는가",
+      "review": "레코드와 영화, 여행과 일상에서 시작해 한국 재즈 1세대, 보컬·퓨전·ECM의 음악가들로 이어지는 사적인 듣기의 지도와 그 선곡의 성취 및 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5886,11 +5897,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "374637211",
       "title": "재즈 라이프 Jazz Life",
-      "metadata": "남무성 지음 | BOOKERS(북커스)",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374637211",
-      "imageUrl": "https://image.aladin.co.kr/product/19723/15/cover500/k632635937_1.jpg",
-      "sourcePage": 7
+      "metadata": "남무성 글·그림 | BOOKERS(북커스)",
+      "theme": "재즈/음반·영화와 사적인 듣기의 지도",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=197231557",
+      "imageUrl": "assets/book-covers/nam-museong-jazz-life.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/nam-museong-jazz-life.html"
     },
     {
       "id": "374637118",

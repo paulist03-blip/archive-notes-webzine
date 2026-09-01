@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 365,
+    "reviewLinkedCount": 366,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -300,6 +300,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "지휘자는 어떻게 명령하지 않고 하나의 소리를 만드는가",
       "review": "밀라노의 음악가 집안에서 라 스칼라와 빈·베를린, 청소년 오케스트라와 루체른까지 이어진 생애를 따라 명령보다 경청을 앞세운 지휘와 조용한 리더십의 성취 및 한계를 읽는다."
+    },
+    {
+      "id": "374637104",
+      "title": "단순한 그림, 단순한 사람 장욱진",
+      "metadata": "정영목 지음 | 소요서가",
+      "theme": "미술비평/작은 화면·형식과 반복의 우주",
+      "imageUrl": "assets/book-covers/jeong-youngmok-jang-ucchin.jpg",
+      "reviewUrl": "posts/jeong-youngmok-jang-ucchin.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "작은 그림은 어떻게 하나의 세계를 품는가",
+      "review": "작은 화면의 크기와 구성, 반복되는 나무·집·가족, 자화상과 먹그림, 불교적 태도를 따라 장욱진 회화의 단순함 속에 응축된 조형의 질서와 형식주의 비평의 성취 및 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5931,10 +5942,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374637104",
       "title": "단순한 그림, 단순한 사람 장욱진",
       "metadata": "정영목 지음 | 소요서가",
-      "theme": "미술/디자인",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374637104",
-      "imageUrl": "https://image.aladin.co.kr/product/32996/16/cover500/k032937867_1.jpg",
-      "sourcePage": 7
+      "theme": "미술비평/작은 화면·형식과 반복의 우주",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=329961679",
+      "imageUrl": "assets/book-covers/jeong-youngmok-jang-ucchin.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/jeong-youngmok-jang-ucchin.html"
     },
     {
       "id": "374636923",

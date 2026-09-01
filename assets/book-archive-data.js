@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 369,
+    "reviewLinkedCount": 370,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -344,6 +344,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "달러는 어떻게 무너질 때마다 다시 중심이 되는가",
       "review": "브레턴우즈 체제의 탄생과 붕괴, 인플레이션과 남미 외채 위기, 플라자·루브르 합의를 따라 준비통화의 신뢰와 국제 공조, 미국 리더십의 책임과 한계를 읽는다."
+    },
+    {
+      "id": "374636584",
+      "title": "레코드 맨",
+      "metadata": "가레스 머피 지음, 배순탁 옮김 | 그래서음악(somusic)",
+      "theme": "음악산업사/레코드 레이블·기술과 취향의 중개",
+      "imageUrl": "assets/book-covers/gareth-murphy-record-man.jpg",
+      "reviewUrl": "posts/gareth-murphy-record-man.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "누가 한 사람의 노래를 시대의 소리로 만드는가",
+      "review": "축음기와 음반 포맷에서 선·모타운·아일랜드·러프 트레이드, CD와 디지털 전환까지 음악을 발견하고 시장과 연결한 중개자의 안목과 권력, 독립 레이블의 성취와 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -6019,10 +6030,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374636584",
       "title": "레코드 맨",
       "metadata": "가레스 머피 지음, 배순탁 옮김 | 그래서음악(somusic)",
-      "theme": "음악/공연",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374636584",
-      "imageUrl": "https://image.aladin.co.kr/product/35871/61/cover500/k922037788_1.jpg",
-      "sourcePage": 7
+      "theme": "음악산업사/레코드 레이블·기술과 취향의 중개",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=358716174",
+      "imageUrl": "assets/book-covers/gareth-murphy-record-man.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/gareth-murphy-record-man.html"
     },
     {
       "id": "374636550",

@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 368,
+    "reviewLinkedCount": 369,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -333,6 +333,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "영화는 어떻게 시간을 생각하게 하는가",
       "review": "운동-이미지와 시간-이미지, 베르그송의 기억과 퍼스의 기호, 거짓의 역량과 소수적 영화를 따라 영화가 사유와 저항의 가능성을 만드는 방식을 읽는다."
+    },
+    {
+      "id": "374636602",
+      "title": "달러의 부활",
+      "metadata": "폴 볼커·교텐 토요오 지음, 안근모 옮김 | 어바웃어북",
+      "theme": "국제통화질서/달러·정책 공조와 리더십",
+      "imageUrl": "assets/book-covers/paul-volcker-toyoo-gyohten-changing-fortunes.jpg",
+      "reviewUrl": "posts/paul-volcker-toyoo-gyohten-changing-fortunes.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "달러는 어떻게 무너질 때마다 다시 중심이 되는가",
+      "review": "브레턴우즈 체제의 탄생과 붕괴, 인플레이션과 남미 외채 위기, 플라자·루브르 합의를 따라 준비통화의 신뢰와 국제 공조, 미국 리더십의 책임과 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -5996,11 +6007,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "374636602",
       "title": "달러의 부활",
-      "metadata": "폴 볼커.교텐 토요오 지음, 안근모 옮김 | 어바웃어북",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374636602",
-      "imageUrl": "https://image.aladin.co.kr/product/24341/86/cover500/k942630705_1.jpg",
-      "sourcePage": 7
+      "metadata": "폴 볼커·교텐 토요오 지음, 안근모 옮김 | 어바웃어북",
+      "theme": "국제통화질서/달러·정책 공조와 리더십",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=243418666",
+      "imageUrl": "assets/book-covers/paul-volcker-toyoo-gyohten-changing-fortunes.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/paul-volcker-toyoo-gyohten-changing-fortunes.html"
     },
     {
       "id": "374636584",

@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 370,
+    "reviewLinkedCount": 371,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -355,6 +355,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "누가 한 사람의 노래를 시대의 소리로 만드는가",
       "review": "축음기와 음반 포맷에서 선·모타운·아일랜드·러프 트레이드, CD와 디지털 전환까지 음악을 발견하고 시장과 연결한 중개자의 안목과 권력, 독립 레이블의 성취와 한계를 읽는다."
+    },
+    {
+      "id": "374636550",
+      "title": "통계가 빨라지는 수학력",
+      "metadata": "나가노 히로유키 지음, 위정훈 옮김, 오카다 겐스케·홍종선 감수, 기타미 류지 그림 | 비전코리아",
+      "theme": "통계수학/기술통계·확률분포와 추론의 기초",
+      "imageUrl": "assets/book-covers/nagano-hiroyuki-statistics-math-power.jpg",
+      "reviewUrl": "posts/nagano-hiroyuki-statistics-math-power.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "숫자의 흩어짐은 어떻게 하나의 판단이 되는가",
+      "review": "평균과 분산, 함수와 상관계수, 경우의 수와 확률분포, 극한·적분과 정규분포를 따라 통계를 떠받치는 수학의 역할과 계산 중심 입문서의 성취 및 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -6040,11 +6051,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "374636550",
       "title": "통계가 빨라지는 수학력",
-      "metadata": "나가노 히로유키 지음, 위정훈 옮김, 오카다 겐스케.홍종선 감수, 기타미 류지 그림 | 비전비엔피(비전코리아)",
-      "theme": "미술/디자인",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374636550",
-      "imageUrl": "https://image.aladin.co.kr/product/31516/6/cover500/8963222071_1.jpg",
-      "sourcePage": 7
+      "metadata": "나가노 히로유키 지음, 위정훈 옮김, 오카다 겐스케·홍종선 감수, 기타미 류지 그림 | 비전코리아",
+      "theme": "통계수학/기술통계·확률분포와 추론의 기초",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=315160652",
+      "imageUrl": "assets/book-covers/nagano-hiroyuki-statistics-math-power.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/nagano-hiroyuki-statistics-math-power.html"
     },
     {
       "id": "374636510",

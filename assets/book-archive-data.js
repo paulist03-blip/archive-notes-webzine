@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 371,
+    "reviewLinkedCount": 372,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -366,6 +366,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "숫자의 흩어짐은 어떻게 하나의 판단이 되는가",
       "review": "평균과 분산, 함수와 상관계수, 경우의 수와 확률분포, 극한·적분과 정규분포를 따라 통계를 떠받치는 수학의 역할과 계산 중심 입문서의 성취 및 한계를 읽는다."
+    },
+    {
+      "id": "374636510",
+      "title": "경이로운 지구의 생명들",
+      "metadata": "데이비드 애튼버러 지음, 이한음 옮김 | 까치",
+      "theme": "생태학/서식지·적응과 생명의 상호의존",
+      "imageUrl": "assets/book-covers/david-attenborough-living-planet.jpg",
+      "reviewUrl": "posts/david-attenborough-living-planet.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "살 곳은 어떻게 삶의 모양이 되는가",
+      "review": "화산과 빙원에서 숲과 초원, 사막과 강어귀, 섬과 먼바다, 도시로 이어지는 열두 서식지를 따라 환경이 생명의 몸과 관계를 빚는 방식과 파노라마식 자연사의 성취·한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -6063,10 +6074,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374636510",
       "title": "경이로운 지구의 생명들",
       "metadata": "데이비드 애튼버러 지음, 이한음 옮김 | 까치",
-      "theme": "과학/의학",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374636510",
-      "imageUrl": "https://image.aladin.co.kr/product/31630/89/cover500/8972917974_1.jpg",
-      "sourcePage": 7
+      "theme": "생태학/서식지·적응과 생명의 상호의존",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=316308960",
+      "imageUrl": "assets/book-covers/david-attenborough-living-planet.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/david-attenborough-living-planet.html"
     },
     {
       "id": "374636485",

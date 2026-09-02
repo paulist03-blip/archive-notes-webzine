@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 380,
+    "reviewLinkedCount": 381,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "374635806",
+      "title": "루소의 식물학 강의",
+      "metadata": "장 자크 루소 지음, 카랭 되랭 프로제 그림, 황은주 옮김 | 에디투스",
+      "theme": "식물학/관찰·식물 분류와 자연교육",
+      "imageUrl": "assets/book-covers/jean-jacques-rousseau-botanical-letters.jpg",
+      "reviewUrl": "posts/jean-jacques-rousseau-botanical-letters.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "이름을 알기 전에 우리는 식물을 볼 수 있는가",
+      "review": "백합에서 십자화과와 완두꽃, 데이지와 식물표본집으로 이어지는 여덟 편지를 따라 이름을 외우기 전에 식물의 구조와 차이를 보는 눈, 계절과 사물의 속도에 맞춘 배움의 성취와 한계를 읽는다."
+    },
     {
       "id": "364248072",
       "title": "감정의 역사",
@@ -6238,11 +6249,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "374635806",
       "title": "루소의 식물학 강의",
-      "metadata": "장 자크 루소 | 에디투스",
-      "theme": "과학/의학",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374635806",
-      "imageUrl": "https://image.aladin.co.kr/product/33286/20/cover500/k202938088_2.jpg",
-      "sourcePage": 7
+      "metadata": "장 자크 루소 지음, 카랭 되랭 프로제 그림, 황은주 옮김 | 에디투스",
+      "theme": "식물학/관찰·식물 분류와 자연교육",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=332862016",
+      "imageUrl": "assets/book-covers/jean-jacques-rousseau-botanical-letters.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/jean-jacques-rousseau-botanical-letters.html"
     },
     {
       "id": "374635762",

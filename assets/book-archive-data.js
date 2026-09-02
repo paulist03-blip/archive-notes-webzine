@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 372,
+    "reviewLinkedCount": 373,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -377,6 +377,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "살 곳은 어떻게 삶의 모양이 되는가",
       "review": "화산과 빙원에서 숲과 초원, 사막과 강어귀, 섬과 먼바다, 도시로 이어지는 열두 서식지를 따라 환경이 생명의 몸과 관계를 빚는 방식과 파노라마식 자연사의 성취·한계를 읽는다."
+    },
+    {
+      "id": "374636485",
+      "title": "센티언스",
+      "metadata": "니컬러스 험프리 지음, 박한선 옮김 | arte(아르테)",
+      "theme": "의식과학/현상적 감각·자아와 지각의 진화",
+      "imageUrl": "assets/book-covers/nicholas-humphrey-sentience.jpg",
+      "reviewUrl": "posts/nicholas-humphrey-sentience.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "느낌은 어떻게 한 생명을 자기 자신으로 만드는가",
+      "review": "맹시와 현상적 감각, 센티션과 감각-운동 되먹임, 끌개와 자아, 온혈동물 가설을 따라 의식이 삶을 자기 자신에게 중요한 것으로 만드는 방식과 그 논쟁적 경계를 읽는다."
     },
     {
       "id": "385718334",
@@ -6085,10 +6096,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374636485",
       "title": "센티언스",
       "metadata": "니컬러스 험프리 지음, 박한선 옮김 | arte(아르테)",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374636485",
-      "imageUrl": "https://image.aladin.co.kr/product/32286/7/cover500/k762834753_1.jpg",
-      "sourcePage": 7
+      "theme": "의식과학/현상적 감각·자아와 지각의 진화",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=322860735",
+      "imageUrl": "assets/book-covers/nicholas-humphrey-sentience.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/nicholas-humphrey-sentience.html"
     },
     {
       "id": "374636470",

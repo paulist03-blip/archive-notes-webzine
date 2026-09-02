@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 375,
+    "reviewLinkedCount": 376,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "364248072",
+      "title": "감정의 역사",
+      "metadata": "김학이 지음 | 푸른역사",
+      "theme": "감정사/독일 근현대·공포와 노동의 감정 질서",
+      "imageUrl": "assets/book-covers/kim-haki-history-of-emotions.jpg",
+      "reviewUrl": "posts/kim-haki-history-of-emotions.html",
+      "label": "Issue 62 · 오늘의 장문 리뷰",
+      "subtitle": "마음속 가장 사적인 감정은 누구의 시대를 살고 있는가",
+      "review": "근대 초의 신성한 공포와 30년전쟁의 감정, 지멘스의 노동 기쁨, 나치의 차분함과 전후 서독의 심리학을 따라 감정이 시대의 제도와 언어 속에서 만들어지고 다시 역사를 움직이는 과정을 읽는다."
+    },
     {
       "id": "364177025",
       "title": "몸의 인지과학",
@@ -19152,10 +19163,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "364248072",
       "title": "감정의 역사",
       "metadata": "김학이 지음 | 푸른역사",
-      "theme": "역사/정치",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364248072",
-      "imageUrl": "https://image.aladin.co.kr/product/31356/75/cover500/k612832099_1.jpg",
-      "sourcePage": 39
+      "theme": "감정사/독일 근현대·공포와 노동의 감정 질서",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=313567578",
+      "imageUrl": "assets/book-covers/kim-haki-history-of-emotions.jpg",
+      "sourcePage": 39,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/kim-haki-history-of-emotions.html"
     },
     {
       "id": "364247997",

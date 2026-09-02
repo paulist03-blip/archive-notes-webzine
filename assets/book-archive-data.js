@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 373,
+    "reviewLinkedCount": 374,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -388,6 +388,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "느낌은 어떻게 한 생명을 자기 자신으로 만드는가",
       "review": "맹시와 현상적 감각, 센티션과 감각-운동 되먹임, 끌개와 자아, 온혈동물 가설을 따라 의식이 삶을 자기 자신에게 중요한 것으로 만드는 방식과 그 논쟁적 경계를 읽는다."
+    },
+    {
+      "id": "374636470",
+      "title": "창조적 유전자",
+      "metadata": "에드윈 게일 지음, 노승영 옮김 | 문학동네",
+      "theme": "인간생물학/표현형 가소성·풍요와 자기 길들이기",
+      "imageUrl": "assets/book-covers/edwin-gale-creative-gene.jpg",
+      "reviewUrl": "posts/edwin-gale-creative-gene.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "우리가 만든 세계는 어떻게 다시 우리의 몸이 되는가",
+      "review": "표현형 가소성과 태아기 발달에서 키·비만·감염병·노화, 마음과 자기 길들이기로 이어지며 인간이 만든 환경이 다시 몸과 사회를 바꾸는 과정과 풍요의 불균등한 조건을 읽는다."
     },
     {
       "id": "385718334",
@@ -6107,10 +6118,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374636470",
       "title": "창조적 유전자",
       "metadata": "에드윈 게일 지음, 노승영 옮김 | 문학동네",
-      "theme": "과학/의학",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374636470",
-      "imageUrl": "https://image.aladin.co.kr/product/32177/6/cover500/8954694284_1.jpg",
-      "sourcePage": 7
+      "theme": "인간생물학/표현형 가소성·풍요와 자기 길들이기",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=321770638",
+      "imageUrl": "assets/book-covers/edwin-gale-creative-gene.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/edwin-gale-creative-gene.html"
     },
     {
       "id": "374636439",

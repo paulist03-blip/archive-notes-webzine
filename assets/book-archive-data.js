@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 376,
+    "reviewLinkedCount": 377,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -25,6 +25,28 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Issue 62 · 오늘의 장문 리뷰",
       "subtitle": "마음속 가장 사적인 감정은 누구의 시대를 살고 있는가",
       "review": "근대 초의 신성한 공포와 30년전쟁의 감정, 지멘스의 노동 기쁨, 나치의 차분함과 전후 서독의 심리학을 따라 감정이 시대의 제도와 언어 속에서 만들어지고 다시 역사를 움직이는 과정을 읽는다."
+    },
+    {
+      "id": "364738800",
+      "title": "인간과 동물의 감정 표현",
+      "metadata": "찰스 다윈 지음, 김홍표 옮김 | 지식을만드는지식",
+      "theme": "진화생물학/표정·습관과 감정 표현의 계보",
+      "imageUrl": "assets/book-covers/darwin-expression-emotions.jpg",
+      "reviewUrl": "posts/darwin-expression-emotions.html",
+      "label": "Issue 62 · 오늘의 장문 리뷰",
+      "subtitle": "얼굴은 얼마나 오래된 기억을 드러내는가",
+      "review": "유용한 연합 습관과 대립, 신경계의 직접 작용이라는 세 원리에서 사진·아동 관찰·설문으로 이어지는 다윈의 감정 연구를 따라 표정과 몸짓에 남은 진화의 시간과 보편주의·식민주의적 시선의 한계를 읽는다."
+    },
+    {
+      "id": "397514107",
+      "title": "새로운 시각 이론에 관한 시론",
+      "metadata": "조지 버클리 지음, 이재영 옮김 | 아카넷",
+      "theme": "지각철학/시각과 촉각의 학습",
+      "imageUrl": "assets/book-covers/berkeley-new-theory-of-vision.jpg",
+      "reviewUrl": "posts/berkeley-new-theory-of-vision.html",
+      "label": "Issue 62 · 오늘의 장문 리뷰",
+      "subtitle": "눈은 어떻게 거리를 배우는가",
+      "review": "거리·크기·위치가 눈에 직접 주어지는지 묻고, 시각과 촉각의 이질성·몰리뉴 문제·학습된 암시에서 자연의 시각 언어까지 이어지는 버클리의 논증과 현대적 한계를 읽는다."
     },
     {
       "id": "364177025",
@@ -938,17 +960,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "몸은 어떻게 사회의 질서를 말하는가",
       "review": "반의례주의에서 집단과 격자, 두 개의 몸과 악의 우주론으로 나아가며 사회관계가 몸·의례·책임의 언어를 만들고 되돌려 받는 과정과 이론의 한계를 읽는다."
-    },
-    {
-      "id": "397514107",
-      "title": "새로운 시각 이론에 관한 시론",
-      "metadata": "조지 버클리 지음, 이재영 옮김 | 아카넷",
-      "theme": "지각철학/시각과 촉각의 학습",
-      "imageUrl": "assets/book-covers/berkeley-new-theory-of-vision.jpg",
-      "reviewUrl": "posts/berkeley-new-theory-of-vision.html",
-      "label": "Book Archive · 오늘의 장문 리뷰",
-      "subtitle": "눈은 어떻게 거리를 배우는가",
-      "review": "거리·크기·위치가 눈에 직접 주어지는지 묻고, 시각과 촉각의 이질성·몰리뉴 문제·학습된 암시에서 자연의 시각 언어까지 이어지는 버클리의 논증과 현대적 한계를 읽는다."
     },
     {
       "id": "397514132",
@@ -16927,10 +16938,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "364738800",
       "title": "인간과 동물의 감정 표현",
       "metadata": "찰스 다윈 지음, 김홍표 옮김 | 지식을만드는지식",
-      "theme": "인문/교양",
+      "theme": "진화생물학/표정·습관과 감정 표현의 계보",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364738800",
-      "imageUrl": "https://image.aladin.co.kr/product/4152/39/cover500/1130412334_2.jpg",
-      "sourcePage": 33
+      "imageUrl": "assets/book-covers/darwin-expression-emotions.jpg",
+      "sourcePage": 33,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/darwin-expression-emotions.html"
     },
     {
       "id": "364738774",

@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 378,
+    "reviewLinkedCount": 379,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -454,6 +454,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "괴물이라 불린 여자는 누구의 두려움을 입고 있는가",
       "review": "마녀와 전사, 불운의 전령과 광포하거나 너그러운 정령으로 불린 세계 신화의 여성 쉰 명을 다시 만나며 빼앗긴 목소리를 되찾는 성취와 서로 다른 전승을 현대적 강인함으로 묶는 한계를 읽는다."
+    },
+    {
+      "id": "374636256",
+      "title": "새뮤얼슨 vs 프리드먼",
+      "metadata": "니컬러스 웝숏 지음, 이가영 옮김 | 부키",
+      "theme": "경제사상/케인스주의·통화주의와 정부의 역할",
+      "imageUrl": "assets/book-covers/nicholas-wapshott-samuelson-friedman.jpg",
+      "reviewUrl": "posts/nicholas-wapshott-samuelson-friedman.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "시장은 얼마나 자유로워야 위기를 견딜 수 있는가",
+      "review": "새뮤얼슨과 프리드먼의 18년 칼럼 논쟁을 따라 케인스주의와 통화주의, 인플레이션과 실업, 정부와 시장의 역할이 실제 정책의 성취와 비용으로 이어지는 과정과 양자 대결 구도의 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -6195,10 +6206,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374636256",
       "title": "새뮤얼슨 vs 프리드먼",
       "metadata": "니컬러스 웝숏 지음, 이가영 옮김 | 부키",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374636256",
-      "imageUrl": "https://image.aladin.co.kr/product/29604/90/cover500/8960519286_1.jpg",
-      "sourcePage": 7
+      "theme": "경제사상/케인스주의·통화주의와 정부의 역할",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=296049057",
+      "imageUrl": "assets/book-covers/nicholas-wapshott-samuelson-friedman.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/nicholas-wapshott-samuelson-friedman.html"
     },
     {
       "id": "374635820",

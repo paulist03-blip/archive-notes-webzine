@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 379,
+    "reviewLinkedCount": 380,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -465,6 +465,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "시장은 얼마나 자유로워야 위기를 견딜 수 있는가",
       "review": "새뮤얼슨과 프리드먼의 18년 칼럼 논쟁을 따라 케인스주의와 통화주의, 인플레이션과 실업, 정부와 시장의 역할이 실제 정책의 성취와 비용으로 이어지는 과정과 양자 대결 구도의 한계를 읽는다."
+    },
+    {
+      "id": "374635820",
+      "title": "신약 성경 연구 방법론",
+      "metadata": "빌헬름 엑거·페터 비크 지음, 염철호 옮김 | 성바오로출판사",
+      "theme": "성서학/신약 주해·공시와 통시의 통합",
+      "imageUrl": "assets/book-covers/wilhelm-egger-peter-wick-new-testament-methodology.jpg",
+      "reviewUrl": "posts/wilhelm-egger-peter-wick-new-testament-methodology.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "성경의 한 문장은 어떻게 낯선 세계를 다시 여는가",
+      "review": "관계적 텍스트 모델에서 출발해 본문 비평과 번역, 언어·의미·서사·화용 분석과 문학·전승·편집 비평으로 이어지는 주해의 절차를 따라, 정확한 성경 읽기를 가능하게 하는 검증과 겸손의 태도를 살핀다."
     },
     {
       "id": "385718334",
@@ -6216,11 +6227,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "374635820",
       "title": "신약 성경 연구 방법론",
-      "metadata": "빌헬름 엑거.페터 비크 지음, 염철호 옮김 | 성바오로출판사",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374635820",
-      "imageUrl": "https://image.aladin.co.kr/product/6580/73/cover500/8980158661_1.jpg",
-      "sourcePage": 7
+      "metadata": "빌헬름 엑거·페터 비크 지음, 염철호 옮김 | 성바오로출판사",
+      "theme": "성서학/신약 주해·공시와 통시의 통합",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=65807334",
+      "imageUrl": "assets/book-covers/wilhelm-egger-peter-wick-new-testament-methodology.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/wilhelm-egger-peter-wick-new-testament-methodology.html"
     },
     {
       "id": "374635806",

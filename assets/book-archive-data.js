@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 374,
+    "reviewLinkedCount": 375,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -399,6 +399,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "우리가 만든 세계는 어떻게 다시 우리의 몸이 되는가",
       "review": "표현형 가소성과 태아기 발달에서 키·비만·감염병·노화, 마음과 자기 길들이기로 이어지며 인간이 만든 환경이 다시 몸과 사회를 바꾸는 과정과 풍요의 불균등한 조건을 읽는다."
+    },
+    {
+      "id": "374636439",
+      "title": "흥미로운 베이지안 통계",
+      "metadata": "윌 커트 지음, 윤정미 옮김 | 에이콘출판",
+      "theme": "통계학/베이지안 추론·불확실성과 믿음의 갱신",
+      "imageUrl": "assets/book-covers/will-kurt-bayesian-statistics.jpg",
+      "reviewUrl": "posts/will-kurt-bayesian-statistics.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "새로운 증거는 믿음의 무게를 어떻게 바꾸는가",
+      "review": "조건부확률과 사전·우도·사후에서 베타분포와 모수 추정, A/B 테스트와 베이즈 요인으로 이어지며 불확실한 믿음을 증거에 따라 갱신하는 문법과 입문서의 범위를 읽는다."
     },
     {
       "id": "385718334",
@@ -6129,10 +6140,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374636439",
       "title": "흥미로운 베이지안 통계",
       "metadata": "윌 커트 지음, 윤정미 옮김 | 에이콘출판",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374636439",
-      "imageUrl": "https://image.aladin.co.kr/product/25900/58/cover500/k702737878_1.jpg",
-      "sourcePage": 7
+      "theme": "통계학/베이지안 추론·불확실성과 믿음의 갱신",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=259005804",
+      "imageUrl": "assets/book-covers/will-kurt-bayesian-statistics.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/will-kurt-bayesian-statistics.html"
     },
     {
       "id": "374636300",

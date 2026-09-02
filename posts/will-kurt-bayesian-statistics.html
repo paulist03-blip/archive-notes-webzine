@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta name="description" content="윌 커트의 《흥미로운 베이지안 통계》를 따라 조건부확률과 사전·우도·사후, 베타분포와 모수 추정, A/B 테스트와 베이즈 요인을 살피며 불확실한 믿음을 증거로 갱신하는 법을 읽는다." />
+ <title>새로운 증거는 믿음의 무게를 어떻게 바꾸는가 - Paul Archive Notes</title>
+ <link rel="stylesheet" href="../assets/site.css" />
+</head>
+<body>
+ <header class="masthead">
+  <nav class="nav" aria-label="주요 메뉴">
+   <div class="nav-links"><a href="../index.html#notes">글</a><a href="../index.html#art">미술</a><a href="../index.html#records">음반</a><a href="../index.html#books">책</a><a href="../forum.html">포럼</a></div>
+   <a class="brand" href="../index.html">Paul Archive Notes</a>
+   <div class="nav-actions"><a href="../archive.html">아카이브</a><a href="../book-archive.html">북 아카이브</a></div>
+  </nav>
+ </header>
+
+ <main class="article-shell">
+  <article class="article-layout">
+   <div class="article">
+    <p class="eyebrow">Book Archive · Long-form review</p>
+    <h1>새로운 증거는 믿음의 무게를 어떻게 바꾸는가</h1>
+    <div class="article-meta">2026.09.02 · 윌 커트 《흥미로운 베이지안 통계》 · 에이콘출판</div>
+    <div class="article-body">
+     <p>밤의 창밖에 밝은 빛이 떠 있다. 비행기일 수도 있고, 별이나 드론일 수도 있으며, 아주 희박하게는 미확인 비행물체일지도 모른다. 우리는 대개 계산식 없이도 가능성을 늘어놓고 그럴듯한 순서를 매긴다. 빛이 갑자기 방향을 바꾸거나 굉음이 들리면 순서는 다시 달라진다. 윌 커트의 《흥미로운 베이지안 통계》는 이 평범한 마음의 움직임에서 출발한다. 알지 못한다는 사실을 멈춤의 이유로 삼지 않고, 지금 가진 정보만큼 믿은 뒤 새 증거가 올 때마다 그 믿음을 고쳐 쓰는 법이다.</p>
+
+     <p>베이지안 추론의 중심에는 간단한 약속이 있다. 어떤 가설에 처음 부여한 가능성을 ‘사전확률’이라 하고, 그 가설이 참일 때 지금의 자료가 나타날 가능성을 ‘우도’라 부른다. 둘을 결합해 증거를 본 뒤의 가능성인 ‘사후확률’을 얻는다. 사후확률은 다음 자료를 만날 때 다시 사전확률이 된다. 베이즈 정리는 이 갱신을 일관되게 수행하는 수학적 관계다. 확신과 의심을 서로 적대하는 마음의 상태가 아니라 같은 척도 위에서 움직이는 값으로 다룬다는 데 그 매력이 있다.</p>
+
+     <p>책은 확률의 기초에서 시작해 베이지안 확률, 모수 추정, 가설 검정으로 나아가는 네 부와 열아홉 장으로 짜였다. 첫 부에서는 동전과 교통수단, 가챠 게임으로 확률의 문법을 익힌다. 둘째 부는 조건부확률과 레고 블록을 거쳐 사전·우도·사후를 한 식 안에 모은다. 셋째 부에서는 평균과 산포도, 정규분포와 분포 함수를 사용해 알 수 없는 값을 추정한다. 마지막 부는 이메일 A/B 테스트와 베이즈 요인, 초능력과 사기 게임으로 경쟁하는 가설의 무게를 비교한다. R과 미적분은 부록에서 필요한 만큼 보충한다.</p>
+
+     <p>커트는 확률을 장기간 반복했을 때 나타나는 빈도에만 묶어 두지 않는다. 어떤 주장을 얼마나 믿는지 나타내는 값으로도 읽는다. 내일 비가 올 확률, 창밖의 빛이 외계인의 비행체일 확률처럼 같은 사건을 무한히 되풀이하기 어려운 질문도 이 언어 안에 들어온다. 그렇다고 느낌대로 숫자를 붙이면 된다는 뜻은 아니다. 서로 배타적인 가능성의 합, 동시에 일어날 사건의 곱, 이미 알려진 조건을 반영하는 규칙을 지켜야 한다. 주관적인 출발점도 확률의 문법을 통과해야 서로 비교하고 수정할 수 있다.</p>
+
+     <p>초반의 AND와 OR 규칙, 이항분포와 베타분포는 뒤에 나올 추론의 뼈대를 만든다. 가챠 게임에서 원하는 카드를 몇 번 만에 뽑을지 묻는 장면은 성공과 실패가 반복되는 이항 구조를 드러낸다. 마법의 동전 상자가 어느 비율로 동전을 내놓는지 거꾸로 추정할 때는 베타분포가 등장한다. 예제의 우스운 외피를 벗기면 질문은 진지하다. 관찰한 결과는 숨은 확률에 관해 무엇을 말할 수 있는가. 한 번의 성공과 백 번 중 백 번의 성공이 같은 확신을 주지 않는 까닭을 분포의 모양으로 읽게 한다.</p>
+
+     <p>조건부확률에서 가장 자주 생기는 실수는 방향을 뒤집는 일이다. 질병이 있을 때 검사 결과가 양성일 확률과, 양성 결과를 받은 사람이 실제로 질병을 가졌을 확률은 다르다. 후자를 알려면 검사의 정확도만이 아니라 그 질병이 원래 얼마나 드문지도 알아야 한다. 희귀한 질병에서는 작은 위양성률도 실제 환자보다 많은 양성자를 만들 수 있다. 베이즈 정리는 자료가 가설 아래에서 얼마나 그럴듯한지를 묻는 우도에, 가설의 출발 빈도인 사전을 함께 넣어 이 뒤집힘을 바로잡는다.</p>
+
+     <p>레고 블록을 이용한 7장은 책의 교육적 방법이 가장 잘 작동하는 곳이다. 조건에 맞는 블록을 색과 돌기의 수로 나누고 다시 모으면, 분모와 분자 사이에서 추상적으로 보이던 계산이 눈앞의 면적으로 바뀐다. 정리는 새로운 마술 공식이 아니라 같은 표본 공간을 다른 조건에서 다시 세는 일임을 알게 된다. 이후 범죄 현장과 「스타워즈」의 소행성대가 등장해도 독자는 같은 구조를 알아본다. 이야기와 그림은 장식을 담당하는 것이 아니라 문제에서 무엇을 조건으로 삼았는지 눈으로 확인하는 작업대가 된다.</p>
+
+     <p>사전확률은 베이지안 통계를 둘러싼 가장 오래된 불편함을 데려온다. 자료를 보기 전에 믿음을 넣는다면 결론도 마음대로 만들 수 있지 않을까. 책은 사전을 이전 경험과 배경지식을 수량화한 값으로 설명하고, 모르는 경우에는 여러 가능성을 넓게 허용하는 분포를 택한다. 사전은 몰래 숨기는 편견이 아니라 공개하고 논쟁할 모형의 일부다. 자료가 충분하면 서로 다른 사전이 비슷한 사후로 모이기도 하지만, 자료가 적으면 출발점의 영향은 오래 남는다. 그러므로 사전의 선택과 그 선택에 따른 결론의 민감도를 함께 밝히는 일이 필요하다.</p>
+
+     <p>모수 추정으로 넘어가면 ‘정답 하나’보다 가능한 값의 범위를 보는 습관이 자리 잡는다. 적설량의 평균을 구하는 일에서 출발해 평균절대편차, 분산과 표준편차로 관찰값의 흩어짐을 잰다. 정규분포는 평균과 표준편차를 연결해 어느 값이 얼마나 드문지 나타낸다. 확률밀도함수와 누적분포함수, 분위수 함수는 같은 분포를 서로 다른 질문으로 읽는 도구다. 이메일 전환율이 정확히 몇 퍼센트인지 선언하기보다 어느 구간에 있을 가능성이 큰지, 특정 기준을 넘을 확률이 얼마인지를 묻게 된다.</p>
+
+     <p>베타분포와 이항자료의 결합은 갱신의 모양을 특히 선명하게 드러낸다. 성공 확률에 관한 사전분포에 새 성공과 실패를 더하면 사후분포도 베타분포로 남는다. 계산이 간단해지는 이 켤레 구조 덕분에 표본이 쌓일수록 봉우리가 어디로 움직이고 얼마나 좁아지는지 직접 볼 수 있다. 데이터는 기존 믿음을 지워 버리지 않고 무게를 보탠다. 약한 사전은 금세 자료에 밀리고, 충분한 경험을 담은 사전은 몇 번의 우연에 쉽게 흔들리지 않는다. 학습을 한 번의 판결이 아니라 분포가 자리를 옮기는 과정으로 이해하게 한다.</p>
+
+     <p>A/B 테스트에서는 두 개의 불확실한 값이 맞붙는다. 새 이메일 문구의 전환율이 기존 문구보다 높은지 알려면 각각의 사후분포를 구하고, 하나에서 뽑은 값이 다른 하나보다 큰 경우를 반복해 센다. 몬테카를로 시뮬레이션은 복잡한 적분을 수많은 무작위 표본으로 바꾼다. 결과는 ‘차이가 있다’거나 ‘없다’는 한 줄의 판정에 머물지 않는다. 새 문구가 더 나을 확률, 개선 폭이 실무적으로 의미 있을 가능성, 아직 남은 불확실성을 함께 볼 수 있다. 통계적 판단과 실제 의사결정 사이의 거리가 눈에 들어온다.</p>
+
+     <p>가설 검정에 들어서면 베이즈 요인이 두 설명의 경쟁을 맡는다. 어떤 증거가 한 가설 아래에서 다른 가설보다 몇 배 더 잘 예상되는지를 비교해 사전 오즈를 사후 오즈로 바꾼다. 「트와일라잇 존」의 점쟁이 기계와 초능력자 친구, 주사위와 친척의 음모론은 자료가 생각만큼 강한 증거가 아닐 때를 보여 주는 무대다. 놀라운 적중 한 번은 평범한 우연보다 초능력 가설에서 더 예상될 수 있지만, 가능한 시행과 실패를 어떻게 셌는지에 따라 무게는 달라진다. 증거는 가설을 홀로 증명하지 않고 경쟁 가설 사이의 간격을 바꾼다.</p>
+
+     <p>이 책의 가장 큰 성취는 수식을 피하는 데 있지 않다. 식이 가리키는 사고의 순서를 일상의 언어로 되돌리는 데 있다. 무엇을 알고 있었는가, 관찰한 자료는 각 가설에서 얼마나 예상되는가, 관찰 뒤에는 어느 쪽에 얼마만큼 무게를 둘 것인가. 레고와 러버 덕, 한 솔로와 UFO는 이 세 질문을 기억하게 한다. 기본 대수학만으로 출발해 분포와 추정, 가설 비교까지 한 길로 이어지는 구성도 단단하다. 재미있는 예제가 끝난 뒤 같은 문법이 의료검사와 실험, 제품 의사결정에 남는다.</p>
+
+     <p>입문서의 명료함은 현실의 복잡성을 덜어 낸 결과이기도 하다. 예제는 계산이 손으로 닫히는 베타-이항과 정규분포에 집중하고, 계층모형이나 회귀, 마르코프 연쇄 몬테카를로 같은 현대 베이지안 계산은 다루지 않는다. 사전·우도·사후를 구했다고 분석이 끝나는 것도 아니다. 사전에서 터무니없는 자료가 생성되지 않는지, 사후모형이 관찰된 패턴을 재현하는지, 다른 모형과 결론이 얼마나 달라지는지 점검해야 한다. 특히 베이즈 요인은 모형과 사전의 선택에 민감하므로 숫자 하나를 증거의 절대 등급처럼 읽어서는 안 된다.</p>
+
+     <p>《흥미로운 베이지안 통계》가 건네는 것은 미래를 맞히는 기계가 아니라 틀릴 가능성을 품은 채 생각하는 자세다. 처음의 믿음을 감추지 않고, 증거가 들어오는 길을 분명히 하며, 얼마만큼 달라졌는지 기록한다. 확률은 망설임을 없애지 않는다. 막연한 불안을 비교할 수 있는 크기로 바꾸고, 확신이 어디에서 왔는지 되짚게 한다. 세상은 한 번의 관찰로 뜻을 다 내주지 않지만 우리는 새 자료가 올 때마다 조금 덜 틀릴 수 있다. 좋은 판단은 처음부터 옳았다는 자부심보다 고쳐 쓸 준비에서 시작된다.</p>
+
+     <section class="bibliography" data-language-preserve aria-labelledby="sources-title">
+      <h2 id="sources-title">베이지안 추론을 더 읽기</h2>
+      <ol>
+       <li><a href="https://www.yes24.com/product/goods/96379169" target="_blank" rel="noopener noreferrer">YES24, 《흥미로운 베이지안 통계》 한국어판 서지 정보·책소개·상세 목차</a></li>
+       <li><a href="https://nostarch.com/learnbayes" target="_blank" rel="noopener noreferrer">No Starch Press, 《Bayesian Statistics the Fun Way》 공식 소개와 목차</a></li>
+       <li><a href="https://www.oreilly.com/library/view/bayesian-statistics-the/9781098122492/xhtml/copy.xhtml" target="_blank" rel="noopener noreferrer">O'Reilly, 《Bayesian Statistics the Fun Way》 상세 목차와 서지 정보</a></li>
+       <li><a href="https://plato.stanford.edu/entries/bayes-theorem/" target="_blank" rel="noopener noreferrer">Stanford Encyclopedia of Philosophy, 「Bayes' Theorem」</a></li>
+       <li><a href="https://www.nature.com/articles/s43586-020-00001-2" target="_blank" rel="noopener noreferrer">Andrew Gelman 외, 「Bayesian statistics and modelling」, Nature Reviews Methods Primers</a></li>
+       <li><a href="https://sites.stat.columbia.edu/gelman/research/unpublished/Bayesian_Workflow_article.pdf" target="_blank" rel="noopener noreferrer">Andrew Gelman 외, 「Bayesian workflow」</a></li>
+       <li><a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.1995.10476572" target="_blank" rel="noopener noreferrer">Robert E. Kass·Adrian E. Raftery, 「Bayes Factors」, Journal of the American Statistical Association</a></li>
+       <li><a href="https://mc-stan.org/docs/2_38/stan-users-guide/posterior-predictive-checks.html" target="_blank" rel="noopener noreferrer">Stan User's Guide, 「Posterior and Prior Predictive Checks」</a></li>
+      </ol>
+     </section>
+
+     <p class="article-signoff">Paul Archive Notes · Book Archive · Long-form review</p>
+    </div>
+   </div>
+   <aside class="article-side">
+    <div class="article-cover">
+     <img src="../assets/book-covers/will-kurt-bayesian-statistics.jpg" alt="윌 커트 흥미로운 베이지안 통계 에이콘출판 한국어판 표지" />
+    </div>
+    <div class="article-note"><strong>흥미로운 베이지안 통계: 스타워즈, 레고, 러버 덕으로 이해하는 통계와 확률</strong>. 윌 커트 지음, 윤정미 옮김. 조건부확률과 사전·우도·사후에서 베타분포와 모수 추정, A/B 테스트와 베이즈 요인으로 이어지며 불확실한 믿음을 증거로 갱신하는 법을 읽습니다. 공개 표지 이미지 960 × 1200px.</div>
+   </aside>
+  </article>
+ </main>
+
+ <footer class="footer article-contact-footer">
+  <span>Paul Archive Notes는 책과 음반, 이미지 작업을 매일의 글로 쌓는 개인 웹진입니다.</span>
+  <nav class="footer-links" aria-label="글 하단 링크">
+   <a href="../index.html">Paul Archive Notes</a>
+   <a href="../archive.html">아카이브</a>
+   <a href="../book-archive.html">북 아카이브</a>
+   <a href="https://pauls-music-archive.vercel.app" target="_blank" rel="noopener noreferrer">클래식 웹진</a>
+   <a href="mailto:Paulist03@icloud.com">Contact: Paulist03@icloud.com</a>
+  </nav>
+ </footer>
+ <script src="../assets/language-toggle.js"></script>
+</body>
+</html>

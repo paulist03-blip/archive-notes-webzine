@@ -8,7 +8,7 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 377,
+    "reviewLinkedCount": 378,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
@@ -443,6 +443,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "새로운 증거는 믿음의 무게를 어떻게 바꾸는가",
       "review": "조건부확률과 사전·우도·사후에서 베타분포와 모수 추정, A/B 테스트와 베이즈 요인으로 이어지며 불확실한 믿음을 증거에 따라 갱신하는 문법과 입문서의 범위를 읽는다."
+    },
+    {
+      "id": "374636300",
+      "title": "전사＊마녀＊여성",
+      "metadata": "케이트 호지스 지음, 해리엇 리-메리언 그림, 이지민 옮김 | 콤마",
+      "theme": "세계신화/여성 신성·괴물과 목소리의 복원",
+      "imageUrl": "assets/book-covers/kate-hodges-warriors-witches-women.jpg",
+      "reviewUrl": "posts/kate-hodges-warriors-witches-women.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "괴물이라 불린 여자는 누구의 두려움을 입고 있는가",
+      "review": "마녀와 전사, 불운의 전령과 광포하거나 너그러운 정령으로 불린 세계 신화의 여성 쉰 명을 다시 만나며 빼앗긴 목소리를 되찾는 성취와 서로 다른 전승을 현대적 강인함으로 묶는 한계를 읽는다."
     },
     {
       "id": "385718334",
@@ -6173,10 +6184,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374636300",
       "title": "전사＊마녀＊여성",
       "metadata": "케이트 호지스 지음, 해리엇 리-메리언 그림, 이지민 옮김 | 콤마",
-      "theme": "미술/디자인",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374636300",
-      "imageUrl": "https://image.aladin.co.kr/product/31325/43/cover500/k902832687_1.jpg",
-      "sourcePage": 7
+      "theme": "세계신화/여성 신성·괴물과 목소리의 복원",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=313254390",
+      "imageUrl": "assets/book-covers/kate-hodges-warriors-witches-women.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/kate-hodges-warriors-witches-women.html"
     },
     {
       "id": "374636256",

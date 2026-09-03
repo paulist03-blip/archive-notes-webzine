@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 382,
+    "reviewLinkedCount": 383,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "374635705",
+      "title": "오성에 관하여",
+      "metadata": "데이비드 흄 지음, 이준호 옮김 | 서광사",
+      "theme": "인식론/인상·관념과 인과·귀납의 회의주의",
+      "imageUrl": "assets/book-covers/david-hume-of-understanding.jpg",
+      "reviewUrl": "posts/david-hume-of-understanding.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "내일의 세계를 우리는 무엇으로 믿는가",
+      "review": "인상과 관념, 공간과 시간, 인과와 귀납, 외부 세계와 자아로 이어지는 네 부를 따라 필연성의 느낌과 믿음이 이성보다 습관과 상상력에서 생겨나는 과정, 젊은 흄의 성취와 균열을 읽는다."
+    },
     {
       "id": "374635762",
       "title": "노벨",
@@ -6282,11 +6293,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "374635705",
       "title": "오성에 관하여",
-      "metadata": "데이비드 흄 지음 | 서광사",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374635705",
-      "imageUrl": "https://image.aladin.co.kr/product/10/70/cover500/8930610226_1.gif",
-      "sourcePage": 7
+      "metadata": "데이비드 흄 지음, 이준호 옮김 | 서광사",
+      "theme": "인식론/인상·관념과 인과·귀납의 회의주의",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=107042",
+      "imageUrl": "assets/book-covers/david-hume-of-understanding.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/david-hume-of-understanding.html"
     },
     {
       "id": "374635557",

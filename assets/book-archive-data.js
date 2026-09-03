@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 385,
+    "reviewLinkedCount": 386,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "374635271",
+      "title": "경연일기",
+      "metadata": "율곡 이이 지음, 유성선·유정은 옮김 | arte(아르테)",
+      "theme": "조선사/경연·경장론과 붕당 정치",
+      "imageUrl": "assets/book-covers/yi-i-gyeongyeon-diary.jpg",
+      "reviewUrl": "posts/yi-i-gyeongyeon-diary.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "임금의 공부는 어떻게 한 나라의 일이 되는가",
+      "review": "명종 말부터 선조 초까지 왕의 공부와 국정 토론, 경장론과 공납 개혁, 동서 붕당의 형성, 인물평과 재이 기록을 따라 편년체 정치 기록의 생생함과 저자의 시선이 지닌 한계를 읽는다."
+    },
     {
       "id": "374635345",
       "title": "추론이란 무엇인가",
@@ -6359,11 +6370,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "374635271",
       "title": "경연일기",
-      "metadata": "이이 지음, 유성선.유정은 옮김 | arte(아르테)",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374635271",
-      "imageUrl": "https://image.aladin.co.kr/product/32988/97/cover500/k212936659_1.jpg",
-      "sourcePage": 7
+      "metadata": "율곡 이이 지음, 유성선·유정은 옮김 | arte(아르테)",
+      "theme": "조선사/경연·경장론과 붕당 정치",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=329889780",
+      "imageUrl": "assets/book-covers/yi-i-gyeongyeon-diary.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/yi-i-gyeongyeon-diary.html"
     },
     {
       "id": "374634832",

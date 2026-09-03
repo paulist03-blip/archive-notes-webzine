@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 381,
+    "reviewLinkedCount": 382,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "374635762",
+      "title": "노벨",
+      "metadata": "잉그리드 칼베리 지음, 이성종 옮김 | 전파과학사",
+      "theme": "과학사/다이너마이트·세계시민주의와 노벨상 탄생",
+      "imageUrl": "assets/book-covers/ingrid-carlberg-nobel.jpg",
+      "reviewUrl": "posts/ingrid-carlberg-nobel.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "폭발의 재산은 어떻게 인류의 상이 되었는가",
+      "review": "러시아에서 성장한 과학 소년과 세계를 떠돈 폭발물 사업가, 시인과 평화주의자, 베르타 폰 주트너와 소피 헤스, 마지막 유언을 따라 한 사람의 모순이 노벨상의 설계로 모이는 과정과 위인 전기의 한계를 읽는다."
+    },
     {
       "id": "374635806",
       "title": "루소의 식물학 강의",
@@ -6261,10 +6272,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374635762",
       "title": "노벨",
       "metadata": "잉그리드 칼베리 지음, 이성종 옮김 | 전파과학사",
-      "theme": "과학/의학",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374635762",
-      "imageUrl": "https://image.aladin.co.kr/product/36142/28/cover500/8970446656_1.jpg",
-      "sourcePage": 7
+      "theme": "과학사/다이너마이트·세계시민주의와 노벨상 탄생",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=361422824",
+      "imageUrl": "assets/book-covers/ingrid-carlberg-nobel.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/ingrid-carlberg-nobel.html"
     },
     {
       "id": "374635705",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 386,
+    "reviewLinkedCount": 387,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "374634832",
+      "title": "위대한 인도",
+      "metadata": "한상호·강성용·김대식 지음 | 문학동네",
+      "theme": "인도사/문명 교류·제국과 식민주의",
+      "imageUrl": "assets/book-covers/great-india-han-kang-kim.jpg",
+      "reviewUrl": "posts/great-india-han-kang-kim.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "바퀴는 돌고, 인도라는 중심은 남는가",
+      "review": "인더스 문명과 베다, 불교, 무굴제국, 영국 식민 지배와 독립·분할을 지나며 인도를 연속성과 혼합의 문명으로 그리는 시선, 시각 자료와 생성형 AI 재현의 성취와 한계를 읽는다."
+    },
     {
       "id": "374635271",
       "title": "경연일기",
@@ -6381,11 +6392,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "374634832",
       "title": "위대한 인도",
-      "metadata": "한상호.강성용.김대식 지음 | 문학동네",
-      "theme": "문학/언어",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374634832",
-      "imageUrl": "https://image.aladin.co.kr/product/34194/25/cover500/k912931419_1.jpg",
-      "sourcePage": 7
+      "metadata": "한상호·강성용·김대식 지음 | 문학동네",
+      "theme": "인도사/문명 교류·제국과 식민주의",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=341942585",
+      "imageUrl": "assets/book-covers/great-india-han-kang-kim.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/great-india-han-kang-kim.html"
     },
     {
       "id": "374634817",

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 383,
+    "reviewLinkedCount": 384,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "374635376",
+      "title": "선, 초기불교와 포스트모더니즘 너머",
+      "metadata": "송준영 지음 | 소명출판",
+      "theme": "불교철학/선시·돈오와 점수·해체론",
+      "imageUrl": "assets/book-covers/song-junyoung-seon-beyond-postmodernism.jpg",
+      "reviewUrl": "posts/song-junyoung-seon-beyond-postmodernism.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "말이 끊어진 자리에서 시는 어떻게 다시 시작되는가",
+      "review": "선시의 언어와 선종의 역사, 돈오와 점수, 데리다의 해체론, 《십현담》과 한국 선맥을 오가며 말이 수행이 되는 방식과 서로 다른 사상을 회통할 때 생기는 성취와 간극을 읽는다."
+    },
     {
       "id": "374635705",
       "title": "오성에 관하여",
@@ -4451,7 +4462,7 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "아비뇽의 여인들 또는 폭력의 두 얼굴",
       "metadata": "미술비평 · 정항균 · 서울대학교출판문화원",
       "theme": "미술비평",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=385321764",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=122594602",
       "imageUrl": "https://image.aladin.co.kr/product/12259/46/cover500/8952119290_1.jpg",
       "reviewStatus": "우리 리뷰",
       "reviewUrl": "posts/avignon-two-faces-violence.html"
@@ -6306,18 +6317,22 @@ window.PAUL_BOOK_ARCHIVE = {
       "title": "아비뇽의 여인들 또는 폭력의 두 얼굴",
       "metadata": "정항균 지음 | 서울대학교출판문화원",
       "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374635557",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=122594602",
       "imageUrl": "https://image.aladin.co.kr/product/12259/46/cover500/8952119290_1.jpg",
-      "sourcePage": 7
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/avignon-two-faces-violence.html"
     },
     {
       "id": "374635376",
       "title": "선, 초기불교와 포스트모더니즘 너머",
       "metadata": "송준영 지음 | 소명출판",
-      "theme": "철학/사상",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374635376",
-      "imageUrl": "https://image.aladin.co.kr/product/7909/37/cover500/k102434939_2.jpg",
-      "sourcePage": 7
+      "theme": "불교철학/선시·돈오와 점수·해체론",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=79093720",
+      "imageUrl": "assets/book-covers/song-junyoung-seon-beyond-postmodernism.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/song-junyoung-seon-beyond-postmodernism.html"
     },
     {
       "id": "374635345",

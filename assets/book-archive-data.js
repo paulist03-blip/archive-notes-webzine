@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 384,
+    "reviewLinkedCount": 385,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "374635345",
+      "title": "추론이란 무엇인가",
+      "metadata": "최원배 지음 | 서광사",
+      "theme": "논리학/타당성·형식과 추론의 적용",
+      "imageUrl": "assets/book-covers/choi-wonbae-what-is-inference.jpg",
+      "reviewUrl": "posts/choi-wonbae-what-is-inference.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "결론은 언제 우리를 배반하지 않는가",
+      "review": "논리적 관계와 타당성에서 명제논리, 삼단논법, 벤 다이어그램, 양화논리, 논리 퍼즐과 진리 게임으로 나아가며 생각을 구조화하고 반례를 찾는 훈련의 성취와 연역 중심 범위의 한계를 읽는다."
+    },
     {
       "id": "374635376",
       "title": "선, 초기불교와 포스트모더니즘 너머",
@@ -6338,10 +6349,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374635345",
       "title": "추론이란 무엇인가",
       "metadata": "최원배 지음 | 서광사",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374635345",
-      "imageUrl": "https://image.aladin.co.kr/product/23973/90/cover500/8930624243_1.jpg",
-      "sourcePage": 7
+      "theme": "논리학/타당성·형식과 추론의 적용",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=239739089",
+      "imageUrl": "assets/book-covers/choi-wonbae-what-is-inference.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/choi-wonbae-what-is-inference.html"
     },
     {
       "id": "374635271",

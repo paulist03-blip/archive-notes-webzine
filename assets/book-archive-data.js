@@ -8,13 +8,57 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 387,
+    "reviewLinkedCount": 390,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "364034184",
+      "title": "충돌하는 세계",
+      "metadata": "아서 I. 밀러 지음, 구계원 옮김 | 문학동네",
+      "theme": "과학예술/이미지·기술과 제3의 문화",
+      "imageUrl": "assets/book-covers/arthur-miller-colliding-worlds.jpg",
+      "reviewUrl": "posts/arthur-miller-colliding-worlds.html",
+      "label": "Issue 63 · 오늘의 장문 리뷰",
+      "subtitle": "과학의 도구는 언제 예술의 감각이 되는가",
+      "review": "과학적 시각화와 컴퓨터·미디어아트, 생명과 건축, 소리와 데이터를 오가며 두 분야가 서로의 질문과 방법을 바꾸는 과정, 제3의 문화가 연 가능성과 제도·윤리의 빈틈을 읽는다."
+    },
+    {
+      "id": "366194344",
+      "title": "아편전쟁과 중화제국의 위기",
+      "metadata": "나미키 요리히사·이노우에 히로마사 지음, 김명수 옮김 | 논형",
+      "theme": "중국 근대사/조공체제·조약체제와 제국의 위기",
+      "imageUrl": "assets/book-covers/opium-war-crisis-chinese-empire.jpg",
+      "reviewUrl": "posts/opium-war-crisis-chinese-empire.html",
+      "label": "Issue 63 · 오늘의 장문 리뷰",
+      "subtitle": "한 제국의 패배는 어떻게 새로운 세계질서가 되는가",
+      "review": "건륭제 말기의 균열과 두 차례 아편전쟁에서 태평천국, 상하이, 양무운동과 변경 위기, 청말 신정과 신해혁명까지 조공체제와 조약체제가 겹치며 제국을 바꾼 시간을 읽는다."
+    },
+    {
+      "id": "399623468",
+      "title": "21세기 지정학",
+      "metadata": "아미타브 아차리아 지음, 최준영 옮김 | 21세기북스",
+      "theme": "세계질서사/서구 이후의 멀티플렉스",
+      "imageUrl": "assets/book-covers/once-and-future-world-order-acharya.jpg",
+      "reviewUrl": "posts/once-and-future-world-order-acharya.html",
+      "label": "Issue 63 · 오늘의 장문 리뷰",
+      "subtitle": "질서는 누구의 기억을 지우고 세계가 되었는가",
+      "review": "수메르와 이집트에서 반둥과 미국 주도 질서까지 5천 년의 역사를 따라 세계질서의 여러 기원을 복원하고, 서구 이후 멀티플렉스 세계의 가능성과 빈틈을 읽는다."
+    },
+    {
+      "id": "374634817",
+      "title": "독도 1947",
+      "metadata": "정병준 지음 | 돌베개",
+      "theme": "한국 현대사/전후 독도문제·한미일 관계",
+      "imageUrl": "assets/book-covers/jung-byung-joon-dokdo-1947.jpg",
+      "reviewUrl": "posts/jung-byung-joon-dokdo-1947.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "한 줄의 삭제는 어떻게 바다를 오래 흔드는가",
+      "review": "1947년 한·미·일의 움직임과 독도 조사, 1948년 폭격 사건, 미국 조약 초안의 변화와 영국안, 러스크 서한과 평화선 이후를 따라 전후 독도문제의 형성을 읽는다."
+    },
     {
       "id": "374634832",
       "title": "위대한 인도",
@@ -1477,17 +1521,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "label": "Book Archive · 오늘의 장문 리뷰",
       "subtitle": "한 장면은 어떻게 끝난 뒤에도 움직이는가",
       "review": "비트와 반전, 대사와 행동, 배경 설명과 딜레마, 재작성과 목소리를 따라 한 장면이 관객의 기대를 움직이고 기억으로 남는 과정을 읽는다."
-    },
-    {
-      "id": "399623468",
-      "title": "21세기 지정학",
-      "metadata": "아미타브 아차리아 지음, 최준영 옮김 | 21세기북스",
-      "theme": "세계질서사/서구 이후의 멀티플렉스",
-      "imageUrl": "assets/book-covers/once-and-future-world-order-acharya.jpg",
-      "reviewUrl": "posts/once-and-future-world-order-acharya.html",
-      "label": "Book Archive · 오늘의 장문 리뷰",
-      "subtitle": "질서는 누구의 기억을 지우고 세계가 되었는가",
-      "review": "수메르와 이집트에서 반둥과 미국 주도 질서까지 5천 년의 역사를 따라 세계질서의 여러 기원을 복원하고, 서구 이후 멀티플렉스 세계의 가능성과 빈틈을 읽는다."
     },
     {
       "id": "399623490",
@@ -6404,10 +6437,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "374634817",
       "title": "독도 1947",
       "metadata": "정병준 지음 | 돌베개",
-      "theme": "인문/교양",
-      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374634817",
-      "imageUrl": "https://image.aladin.co.kr/product/754/77/cover500/8971994010_1.jpg",
-      "sourcePage": 7
+      "theme": "한국 현대사/전후 독도문제·한미일 관계",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=7547734",
+      "imageUrl": "assets/book-covers/jung-byung-joon-dokdo-1947.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/jung-byung-joon-dokdo-1947.html"
     },
     {
       "id": "374634747",
@@ -10617,11 +10652,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "366194344",
       "title": "아편전쟁과 중화제국의 위기",
-      "metadata": "나미키 요리히사.이노우에 히로마사 지음, 김명수 옮김 | 논형",
-      "theme": "역사/정치",
+      "metadata": "나미키 요리히사·이노우에 히로마사 지음, 김명수 옮김 | 논형",
+      "theme": "중국 근대사/조공체제·조약체제와 제국의 위기",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366194344",
-      "imageUrl": "https://image.aladin.co.kr/product/10650/78/cover500/896357427x_1.jpg",
-      "sourcePage": 17
+      "imageUrl": "assets/book-covers/opium-war-crisis-chinese-empire.jpg",
+      "sourcePage": 17,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/opium-war-crisis-chinese-empire.html"
     },
     {
       "id": "366194293",
@@ -22661,11 +22698,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "364034184",
       "title": "충돌하는 세계",
-      "metadata": "아서 밀러 지음, 구계원 옮김 | 문학동네",
-      "theme": "문학/언어",
+      "metadata": "아서 I. 밀러 지음, 구계원 옮김 | 문학동네",
+      "theme": "과학예술/이미지·기술과 제3의 문화",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364034184",
-      "imageUrl": "https://image.aladin.co.kr/product/23236/56/cover500/8954670598_1.jpg",
-      "sourcePage": 48
+      "imageUrl": "assets/book-covers/arthur-miller-colliding-worlds.jpg",
+      "sourcePage": 48,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/arthur-miller-colliding-worlds.html"
     },
     {
       "id": "364034146",

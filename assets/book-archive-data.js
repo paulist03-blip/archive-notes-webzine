@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 394,
+    "reviewLinkedCount": 395,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "373475750",
+      "title": "어둠에 새기는 빛",
+      "metadata": "서경식 지음, 한승동 옮김 | 연립서가",
+      "theme": "디아스포라 에세이/기억·예술과 시대의 고통",
+      "imageUrl": "assets/book-covers/engraving-light-in-darkness-seo-kyungsik.jpg",
+      "reviewUrl": "posts/engraving-light-in-darkness-seo-kyungsik.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "어둠 속의 문장은 누구에게 가 닿는가",
+      "review": "2011년부터 2023년까지 쓰인 81편을 따라 노년의 기억과 예술, 후쿠시마 이후의 삶, 냉소와 망각에 맞선 디아스포라의 사유와 그 한계를 읽는다."
+    },
     {
       "id": "373480273",
       "title": "자유의 말씀",
@@ -6525,10 +6536,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "373475750",
       "title": "어둠에 새기는 빛",
       "metadata": "서경식 지음, 한승동 옮김 | 연립서가",
-      "theme": "인문/교양",
+      "theme": "디아스포라 에세이/기억·예술과 시대의 고통",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=373475750",
-      "imageUrl": "https://image.aladin.co.kr/product/35273/7/cover500/k752035421_2.jpg",
-      "sourcePage": 7
+      "imageUrl": "assets/book-covers/engraving-light-in-darkness-seo-kyungsik.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/engraving-light-in-darkness-seo-kyungsik.html"
     },
     {
       "id": "373475406",

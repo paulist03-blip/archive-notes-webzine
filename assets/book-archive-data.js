@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 391,
+    "reviewLinkedCount": 392,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "374302603",
+      "title": "나치의 병사들",
+      "metadata": "죙케 나이첼·하랄트 벨처 지음, 김태희 옮김 | 민음사",
+      "theme": "전쟁사회사/참조틀·집단 규범과 폭력",
+      "imageUrl": "assets/book-covers/soldaten-neitzel-welzer.jpg",
+      "reviewUrl": "posts/soldaten-neitzel-welzer.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "살인은 어떻게 전쟁의 일과가 되는가",
+      "review": "독일군 포로들의 도청 기록을 따라 전쟁의 참조틀과 군인의 역할, 집단 규범과 국가사회주의 이데올로기가 살인을 임무와 일상의 언어로 바꾸는 과정과 자료의 한계를 읽는다."
+    },
     {
       "id": "374634747",
       "title": "신호에서 상징으로",
@@ -6469,11 +6480,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "374302603",
       "title": "나치의 병사들",
-      "metadata": "죙케 나이첼.하랄트 벨처 지음, 김태희 옮김 | 민음사",
-      "theme": "인문/교양",
+      "metadata": "죙케 나이첼·하랄트 벨처 지음, 김태희 옮김 | 민음사",
+      "theme": "전쟁사회사/참조틀·집단 규범과 폭력",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374302603",
-      "imageUrl": "https://image.aladin.co.kr/product/6833/34/cover500/8937432072_1.jpg",
-      "sourcePage": 7
+      "imageUrl": "assets/book-covers/soldaten-neitzel-welzer.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/soldaten-neitzel-welzer.html"
     },
     {
       "id": "373480325",

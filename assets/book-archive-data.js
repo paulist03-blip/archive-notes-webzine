@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 390,
+    "reviewLinkedCount": 391,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "374634747",
+      "title": "신호에서 상징으로",
+      "metadata": "로널드 J. 플레이너·킴 스터렐니 지음, 고현석 옮김 | 형주",
+      "theme": "언어진화/원언어·협력과 문화적 공진화",
+      "imageUrl": "assets/book-covers/from-signal-to-symbol-planer-sterelny.jpg",
+      "reviewUrl": "posts/from-signal-to-symbol-planer-sterelny.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "말은 어떻게 눈앞에 없는 세계를 불러냈는가",
+      "review": "몸짓과 유인원의 인지적 기준선에서 원언어와 복합 기호, 도구 제작과 통사 구조, 불가의 음성 소통과 후기 인류의 협력으로 이어지는 언어진화의 점진적 경로와 그 빈틈을 읽는다."
+    },
     {
       "id": "364034184",
       "title": "충돌하는 세계",
@@ -6447,11 +6458,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "374634747",
       "title": "신호에서 상징으로",
-      "metadata": "로널드 J. 플레이너.킴 스터렐니 지음, 고현석 옮김 | 형주",
-      "theme": "인문/교양",
+      "metadata": "로널드 J. 플레이너·킴 스터렐니 지음, 고현석 옮김 | 형주",
+      "theme": "언어진화/원언어·협력과 문화적 공진화",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=374634747",
-      "imageUrl": "https://image.aladin.co.kr/product/33374/47/cover500/k172938313_1.jpg",
-      "sourcePage": 7
+      "imageUrl": "assets/book-covers/from-signal-to-symbol-planer-sterelny.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/from-signal-to-symbol-planer-sterelny.html"
     },
     {
       "id": "374302603",

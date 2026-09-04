@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 392,
+    "reviewLinkedCount": 394,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2184,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "373480273",
+      "title": "자유의 말씀",
+      "metadata": "피에트로 보바티 지음, 박요한 옮김 | 가톨릭출판사",
+      "theme": "성서신학/자유·해방과 구원의 기억",
+      "imageUrl": "assets/book-covers/words-of-freedom-pietro-bovati.jpg",
+      "reviewUrl": "posts/words-of-freedom-pietro-bovati.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "자유는 왜 명령의 목소리로 오는가",
+      "review": "창세기에서 탈출기와 신명기, 예언서와 성문서까지 자유와 해방의 흐름을 따라가며 사건과 율법, 예언과 지혜가 구원의 기억을 빚는 과정과 신학적 전망의 한계를 읽는다."
+    },
     {
       "id": "374302603",
       "title": "나치의 병사들",
@@ -6495,16 +6506,20 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=373480325",
       "imageUrl": "https://image.aladin.co.kr/product/28217/82/cover500/k212835379_1.jpg",
-      "sourcePage": 7
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/alphonse-mucha-masterworks-ormiston.html"
     },
     {
       "id": "373480273",
       "title": "자유의 말씀",
       "metadata": "피에트로 보바티 지음, 박요한 옮김 | 가톨릭출판사",
-      "theme": "인문/교양",
+      "theme": "성서신학/자유·해방과 구원의 기억",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=373480273",
-      "imageUrl": "https://image.aladin.co.kr/product/27794/20/cover500/893211790x_1.jpg",
-      "sourcePage": 7
+      "imageUrl": "assets/book-covers/words-of-freedom-pietro-bovati.jpg",
+      "sourcePage": 7,
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/words-of-freedom-pietro-bovati.html"
     },
     {
       "id": "373475750",

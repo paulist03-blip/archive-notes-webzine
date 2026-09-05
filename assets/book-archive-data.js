@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 417,
+    "reviewLinkedCount": 418,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2191,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "373475406",
+      "title": "노자 도덕경",
+      "metadata": "노자 지음, 박삼수 옮김 | 문예출판사",
+      "theme": "철학/무위·이름과 통치",
+      "imageUrl": "assets/book-covers/laozi-daodejing-park-samsu.jpg",
+      "reviewUrl": "posts/laozi-daodejing-park-samsu.html",
+      "label": "Book Archive · 오늘의 장문 리뷰",
+      "subtitle": "물이 낮은 곳으로 흐를 때",
+      "review": "이름과 물, 그릇의 빈자리에서 무위와 통치의 긴장까지, 노자의 사유가 흔드는 가치의 순서와 오늘의 읽기를 살핍니다."
+    },
     {
       "id": "editorial-kingdoms-of-faith-catlos",
       "title": "스페인의 역사",
@@ -6579,9 +6590,10 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "373475406",
       "title": "노자 도덕경",
       "metadata": "노자 지음, 박삼수 옮김 | 문예출판사",
-      "theme": "인문/교양",
+      "theme": "철학/무위·이름과 통치",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=373475406",
-      "imageUrl": "https://image.aladin.co.kr/product/29412/9/cover500/8931022719_1.jpg",
+      "imageUrl": "assets/book-covers/laozi-daodejing-park-samsu.jpg",
+      "reviewUrl": "posts/laozi-daodejing-park-samsu.html",
       "sourcePage": 7
     },
     {

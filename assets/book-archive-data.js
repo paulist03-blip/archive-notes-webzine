@@ -8,13 +8,48 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 395,
+    "reviewLinkedCount": 417,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
-    "publicCount": 2184,
+    "publicCount": 2191,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "editorial-kingdoms-of-faith-catlos",
+      "title": "스페인의 역사",
+      "metadata": "브라이언 캐틀러스 지음, 김원중 옮김 | 길",
+      "theme": "역사/알 안달루스·신앙과 권력",
+      "imageUrl": "assets/book-covers/kingdoms-of-faith-catlos.jpg",
+      "reviewUrl": "posts/kingdoms-of-faith-catlos.html",
+      "label": "Issue 64 · 오늘의 장문 리뷰",
+      "subtitle": "서로 다른 신의 이름으로 함께 살았던 사람들",
+      "review": "정복에서 개종과 추방까지, 알 안달루스의 공존과 폭력을 신앙·권력·생활의 얽힘 속에서 읽습니다."
+    },
+    {
+      "id": "385719685",
+      "title": "아우슈비츠는 멀리 있지 않다",
+      "metadata": "조너선 프리드랜드 지음, 김재경 옮김 | 아카넷",
+      "theme": "홀로코스트사/증언·경고와 행동",
+      "imageUrl": "assets/book-covers/auschwitz-not-far-freedland.jpg",
+      "reviewUrl": "posts/auschwitz-not-far-freedland.html",
+      "label": "Issue 64 · 오늘의 장문 리뷰",
+      "subtitle": "진실은 도착하는 것만으로 사람을 구할 수 있는가",
+      "review": "브르바와 베츨러의 탈출과 보고서, 증언이 행동으로 옮겨지기까지의 거리를 읽습니다."
+    },
+    {
+      "id": "365944013",
+      "title": "자기 앎의 탐구",
+      "metadata": "조지프 플래너건 지음, 김재영·이숙희 옮김 | 서광사",
+      "theme": "철학/로너건·통찰과 알아감",
+      "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365944013",
+      "imageUrl": "assets/book-covers/quest-for-self-knowledge-flanagan.jpg",
+      "sourcePage": 27,
+      "reviewUrl": "posts/quest-for-self-knowledge-flanagan.html",
+      "label": "Issue 64 · 오늘의 장문 리뷰",
+      "subtitle": "안다고 말하기 전에 일어나는 일",
+      "review": "경험과 통찰, 판단과 선택을 되짚으며 로너건이 묻는 알아감의 과정과 자기 이해의 조건을 살핍니다."
+    },
     {
       "id": "373475750",
       "title": "어둠에 새기는 빛",
@@ -2447,17 +2482,6 @@ window.PAUL_BOOK_ARCHIVE = {
       "review": "루터의 구술과 참석자들의 필기, 아우리파버의 사후 편집을 따라 종교개혁 신학이 일상에서 작동하는 방식과 반유대주의·권위주의의 한계를 함께 읽는다."
     },
     {
-      "id": "385719685",
-      "title": "아우슈비츠는 멀리 있지 않다",
-      "metadata": "조너선 프리드랜드 지음, 김재경 옮김 | 아카넷",
-      "theme": "홀로코스트사/증언·경고와 행동",
-      "imageUrl": "assets/book-covers/auschwitz-not-far-freedland.jpg",
-      "reviewUrl": "posts/auschwitz-not-far-freedland.html",
-      "label": "Book Archive · 오늘의 장문 리뷰",
-      "subtitle": "진실은 도착하는 것만으로 사람을 구할 수 있는가",
-      "review": "루돌프 브르바와 알프레드 베츨러의 탈출, 보고서의 검증과 국제적 이동을 따라 진실이 행동으로 바뀌는 조건과 단독 영웅 서사의 한계를 읽는다."
-    },
-    {
       "id": "385719738",
       "title": "조선시대 양반과 선비 1·2",
       "metadata": "정진영 지음 | 산처럼",
@@ -2789,6 +2813,14 @@ window.PAUL_BOOK_ARCHIVE = {
     }
   ],
   "books": [
+    {
+      "id": "editorial-kingdoms-of-faith-catlos",
+      "title": "스페인의 역사",
+      "metadata": "브라이언 캐틀러스 지음, 김원중 옮김 | 길",
+      "theme": "역사/알 안달루스·신앙과 권력",
+      "imageUrl": "assets/book-covers/kingdoms-of-faith-catlos.jpg",
+      "reviewUrl": "posts/kingdoms-of-faith-catlos.html"
+    },
     {
       "id": "stoner-john-williams",
       "title": "스토너",
@@ -14701,11 +14733,12 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "365944013",
       "title": "자기 앎의 탐구",
-      "metadata": "조지프 플래너건 지음, 김재영 외 옮김 | 서광사",
-      "theme": "인문/교양",
+      "metadata": "조지프 플래너건 지음, 김재영·이숙희 옮김 | 서광사",
+      "theme": "철학/로너건·통찰과 알아감",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365944013",
-      "imageUrl": "https://image.aladin.co.kr/product/4129/74/cover500/8930623522_1.jpg",
-      "sourcePage": 27
+      "imageUrl": "assets/book-covers/quest-for-self-knowledge-flanagan.jpg",
+      "sourcePage": 27,
+      "reviewUrl": "posts/quest-for-self-knowledge-flanagan.html"
     },
     {
       "id": "365944005",

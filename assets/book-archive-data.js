@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 418,
+    "reviewLinkedCount": 421,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
-    "publicCount": 2191,
+    "publicCount": 2193,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "editorial-hayek-law-legislation-liberty",
+      "title": "법, 입법 그리고 자유",
+      "metadata": "프리드리히 A. 하이에크 지음, 민경국·서병훈·박종운 옮김 | 자유기업원",
+      "theme": "정치철학/자생적 질서·법과 자유",
+      "imageUrl": "assets/book-covers/hayek-law-legislation-liberty.jpg",
+      "reviewUrl": "posts/hayek-law-legislation-liberty.html",
+      "label": "Issue 65 · 오늘의 장문 리뷰",
+      "subtitle": "아무도 전부 알지 못하는 사회에서",
+      "review": "자생적 질서와 일반 규칙, 사회적 정의 비판과 권력 제한을 따라 하이에크의 자유론이 밝히는 것과 남기는 문제를 읽습니다."
+    },
+    {
+      "id": "editorial-grondin-philosophical-hermeneutics",
+      "title": "철학적 해석학 입문",
+      "metadata": "장 그롱댕 지음, 최성환 옮김 | 한울아카데미",
+      "theme": "철학/해석학·언어와 이해",
+      "imageUrl": "assets/book-covers/grondin-philosophical-hermeneutics.jpg",
+      "reviewUrl": "posts/grondin-philosophical-hermeneutics.html",
+      "label": "Issue 65 · 오늘의 장문 리뷰",
+      "subtitle": "말해진 것 곁에서 아직 듣지 못한 말",
+      "review": "고대의 성서 해석에서 가다머 이후의 논쟁까지, 내적 언어와 대화를 중심으로 이해의 역사와 한계를 읽습니다."
+    },
+    {
+      "id": "365944717",
+      "title": "현대 인식론 입문",
+      "metadata": "마티아스 슈토이프 지음, 한상기 옮김 | 서광사",
+      "theme": "철학/인식론·지식과 정당화",
+      "imageUrl": "assets/book-covers/steup-contemporary-epistemology.jpg",
+      "reviewUrl": "posts/steup-contemporary-epistemology.html",
+      "label": "Issue 65 · 오늘의 장문 리뷰",
+      "subtitle": "맞는 말과 아는 일 사이의 거리",
+      "review": "지식과 정당화에서 토대론·정합론, 신빙론과 회의주의까지, 옳은 믿음을 안다고 부르기 위한 조건을 살핍니다."
+    },
     {
       "id": "373475406",
       "title": "노자 도덕경",
@@ -2824,6 +2857,22 @@ window.PAUL_BOOK_ARCHIVE = {
     }
   ],
   "books": [
+    {
+      "id": "editorial-hayek-law-legislation-liberty",
+      "title": "법, 입법 그리고 자유",
+      "metadata": "프리드리히 A. 하이에크 지음, 민경국·서병훈·박종운 옮김 | 자유기업원",
+      "theme": "정치철학/자생적 질서·법과 자유",
+      "imageUrl": "assets/book-covers/hayek-law-legislation-liberty.jpg",
+      "reviewUrl": "posts/hayek-law-legislation-liberty.html"
+    },
+    {
+      "id": "editorial-grondin-philosophical-hermeneutics",
+      "title": "철학적 해석학 입문",
+      "metadata": "장 그롱댕 지음, 최성환 옮김 | 한울아카데미",
+      "theme": "철학/해석학·언어와 이해",
+      "imageUrl": "assets/book-covers/grondin-philosophical-hermeneutics.jpg",
+      "reviewUrl": "posts/grondin-philosophical-hermeneutics.html"
+    },
     {
       "id": "editorial-kingdoms-of-faith-catlos",
       "title": "스페인의 역사",
@@ -14519,10 +14568,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "365944717",
       "title": "현대 인식론 입문",
       "metadata": "마티아스 슈토이프 지음, 한상기 옮김 | 서광사",
-      "theme": "인문/교양",
+      "theme": "철학/인식론·지식과 정당화",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365944717",
-      "imageUrl": "https://image.aladin.co.kr/product/169/74/cover500/8930621619_1.jpg",
-      "sourcePage": 26
+      "imageUrl": "assets/book-covers/steup-contemporary-epistemology.jpg",
+      "sourcePage": 26,
+      "reviewUrl": "posts/steup-contemporary-epistemology.html"
     },
     {
       "id": "365944709",

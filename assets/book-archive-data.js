@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 421,
+    "reviewLinkedCount": 424,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2193,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "364734358",
+      "title": "얽힘의 시대",
+      "metadata": "루이자 길더 · 노태복 옮김 · 부키",
+      "theme": "과학 · 양자물리학",
+      "imageUrl": "assets/book-covers/gilder-age-entanglement.jpg",
+      "reviewUrl": "posts/gilder-age-of-entanglement.html",
+      "label": "Issue 66 · 오늘의 장문 리뷰",
+      "subtitle": "서로의 질문을 끝내 놓지 않은 사람들",
+      "review": "양자 얽힘을 둘러싼 논쟁이 실험의 질문으로 바뀌기까지. 루이자 길더가 복원한 물리학자들의 대화와 불화의 역사."
+    },
+    {
+      "id": "366005525",
+      "title": "조상의 눈 아래에서",
+      "metadata": "마르티나 도이힐러 · 김우영·문옥표 옮김 · 너머북스",
+      "theme": "역사 · 한국 사회",
+      "imageUrl": "assets/book-covers/deuchler-ancestors-eyes.jpg",
+      "reviewUrl": "posts/deuchler-ancestors-eyes-issue66.html",
+      "label": "Issue 66 · 오늘의 장문 리뷰",
+      "subtitle": "족보의 이름들이 마을의 권력이 될 때",
+      "review": "안동과 남원의 향촌에서 읽는 친족과 신분의 긴 역사. 유교화라는 설명 아래 가려진 토착 엘리트의 지속과 변형을 살핀다."
+    },
+    {
+      "id": "364178836",
+      "title": "바람의 자연사",
+      "metadata": "빌 스트리버 · 김정은 옮김 · 까치",
+      "theme": "과학 · 자연사",
+      "imageUrl": "assets/book-covers/streever-roaring-wind.jpg",
+      "reviewUrl": "posts/streever-roaring-wind.html",
+      "label": "Issue 66 · 오늘의 장문 리뷰",
+      "subtitle": "보이지 않는 것을 따라 항해하는 법",
+      "review": "돛에 닿는 바람에서 예보의 역사까지. 빌 스트리버는 항해의 불확실성을 통과하며 대기의 움직임을 읽는다."
+    },
     {
       "id": "editorial-hayek-law-legislation-liberty",
       "title": "법, 입법 그리고 자유",
@@ -14018,11 +14051,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "366005525",
       "title": "조상의 눈 아래에서",
-      "metadata": "마르티나 도이힐러 지음, 김우영.문옥표 옮김 | 너머북스",
-      "theme": "인문/교양",
+      "metadata": "마르티나 도이힐러 · 김우영·문옥표 옮김 · 너머북스",
+      "theme": "역사 · 한국 사회",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366005525",
-      "imageUrl": "https://image.aladin.co.kr/product/17400/15/cover500/8994606548_1.jpg",
-      "sourcePage": 25
+      "imageUrl": "assets/book-covers/deuchler-ancestors-eyes.jpg",
+      "sourcePage": 25,
+      "reviewUrl": "posts/deuchler-ancestors-eyes-issue66.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "366005376",
@@ -17788,11 +17823,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "364734358",
       "title": "얽힘의 시대",
-      "metadata": "루이자 길더 지음, 노태복 옮김 | 부키",
-      "theme": "인문/교양",
+      "metadata": "루이자 길더 · 노태복 옮김 · 부키",
+      "theme": "과학 · 양자물리학",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364734358",
-      "imageUrl": "https://image.aladin.co.kr/product/1985/38/cover500/8960512400_1.jpg",
-      "sourcePage": 35
+      "imageUrl": "assets/book-covers/gilder-age-entanglement.jpg",
+      "sourcePage": 35,
+      "reviewUrl": "posts/gilder-age-of-entanglement.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "364734322",
@@ -20144,11 +20181,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "364178836",
       "title": "바람의 자연사",
-      "metadata": "빌 스트리버 지음, 김정은 옮김 | 까치",
-      "theme": "인문/교양",
+      "metadata": "빌 스트리버 · 김정은 옮김 · 까치",
+      "theme": "과학 · 자연사",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364178836",
-      "imageUrl": "https://image.aladin.co.kr/product/11380/15/cover500/8972916587_1.jpg",
-      "sourcePage": 41
+      "imageUrl": "assets/book-covers/streever-roaring-wind.jpg",
+      "sourcePage": 41,
+      "reviewUrl": "posts/streever-roaring-wind.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "364178818",

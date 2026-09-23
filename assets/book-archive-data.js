@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 424,
+    "reviewLinkedCount": 426,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2193,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "366107485",
+      "title": "열정으로서의 사랑",
+      "metadata": "니클라스 루만 · 정성훈·권기돈·조형준 옮김 · 새물결",
+      "theme": "사회학 · 친밀성의 역사",
+      "imageUrl": "assets/book-covers/luhmann-love-as-passion.jpg",
+      "reviewUrl": "posts/luhmann-love-as-passion.html",
+      "label": "Issue 67 · 오늘의 장문 리뷰",
+      "subtitle": "당신에게만 길어지는 이야기",
+      "review": "다른 사람에게는 사소한 하루가 왜 당신에게는 긴 이야기가 되는가. 루만은 친밀한 말들이 가능해진 역사를 되짚는다."
+    },
+    {
+      "id": "364169382",
+      "title": "문학의 공간",
+      "metadata": "모리스 블랑쇼 · 이달승 옮김 · 그린비",
+      "theme": "문학 · 문학이론",
+      "imageUrl": "assets/book-covers/blanchot-space-of-literature.jpg",
+      "reviewUrl": "posts/blanchot-space-of-literature.html",
+      "label": "Issue 67 · 오늘의 장문 리뷰",
+      "subtitle": "문장을 다 쓴 뒤에도 남는 밤",
+      "review": "쓰는 사람은 어디까지 자기 문장의 주인일 수 있을까. 블랑쇼의 고독과 오르페우스의 시선을 따라 작품의 낯선 자리에 다가간다."
+    },
+    {
+      "id": "399601497-issue67",
+      "title": "미지의 걸작",
+      "metadata": "오노레 드 발자크 · 김호영 옮김 · 녹색광선",
+      "theme": "문학 · 예술과 사랑",
+      "imageUrl": "assets/book-covers/unknown-masterpiece-balzac.jpg",
+      "reviewUrl": "posts/balzac-unknown-masterpiece-issue67.html",
+      "label": "Issue 67 · 재독",
+      "subtitle": "그림 앞에서 잊힌 사람",
+      "review": "걸작을 기다리는 세 화가의 시선 밖에 질레트가 서 있다. 그림의 완성을 향한 욕망이 누구를 잊게 하는지 다시 읽는다."
+    },
     {
       "id": "364734358",
       "title": "얽힘의 시대",
@@ -5243,13 +5276,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "399601497",
       "title": "미지의 걸작",
-      "metadata": "오노레 드 발자크 지음, 김호영 옮김 | 녹색광선",
-      "theme": "예술소설/욕망과 창작의 파국",
+      "metadata": "오노레 드 발자크 · 김호영 옮김 · 녹색광선",
+      "theme": "문학 · 예술과 사랑",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=399601497",
       "imageUrl": "assets/book-covers/unknown-masterpiece-balzac.jpg",
       "sourcePage": 1,
       "reviewStatus": "우리 리뷰",
-      "reviewUrl": "posts/unknown-masterpiece-balzac.html"
+      "reviewUrl": "posts/balzac-unknown-masterpiece-issue67.html"
     },
     {
       "id": "399601337",
@@ -12610,11 +12643,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "366107485",
       "title": "열정으로서의 사랑",
-      "metadata": "니클라스 루만 지음, 권기돈 외 옮김 | 새물결",
-      "theme": "인문/교양",
+      "metadata": "니클라스 루만 · 정성훈·권기돈·조형준 옮김 · 새물결",
+      "theme": "사회학 · 친밀성의 역사",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366107485",
-      "imageUrl": "https://image.aladin.co.kr/product/479/44/cover500/8955592809_1.jpg",
-      "sourcePage": 21
+      "imageUrl": "assets/book-covers/luhmann-love-as-passion.jpg",
+      "sourcePage": 21,
+      "reviewUrl": "posts/luhmann-love-as-passion.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "366107478",
@@ -20987,11 +21022,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "364169382",
       "title": "문학의 공간",
-      "metadata": "모리스 블랑쇼 지음, 이달승 옮김 | 그린비",
-      "theme": "건축/도시",
+      "metadata": "모리스 블랑쇼 · 이달승 옮김 · 그린비",
+      "theme": "문학 · 문학이론",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364169382",
-      "imageUrl": "https://image.aladin.co.kr/product/846/81/cover500/8976823524_1.jpg",
-      "sourcePage": 43
+      "imageUrl": "assets/book-covers/blanchot-space-of-literature.jpg",
+      "sourcePage": 43,
+      "reviewUrl": "posts/blanchot-space-of-literature.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "364169280",

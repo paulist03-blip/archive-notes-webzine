@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 426,
+    "reviewLinkedCount": 429,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2193,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "366960746-issue68",
+      "title": "도미니언",
+      "metadata": "톰 홀랜드 · 이종인 옮김 · 책과함께",
+      "theme": "역사 · 기독교와 서양의 도덕",
+      "imageUrl": "assets/book-covers/dominion-tom-holland.jpg",
+      "reviewUrl": "posts/holland-dominion-issue68.html",
+      "label": "Issue 68 · 재독",
+      "subtitle": "우리가 약한 사람의 편에 서려 할 때",
+      "review": "고통받는 사람에게 먼저 마음이 가는 것은 언제부터 당연한 일이 되었을까. 홀랜드는 자신이 사랑했던 고대 세계를 다시 바라보며 그 물음을 시작한다."
+    },
+    {
+      "id": "364036509-issue68",
+      "title": "문화와 제국주의",
+      "metadata": "에드워드 사이드 · 김성곤·정정호 옮김 · 창",
+      "theme": "문학 비평 · 제국과 대위법적 독서",
+      "imageUrl": "assets/book-covers/said-culture-imperialism.jpg",
+      "reviewUrl": "posts/said-culture-imperialism.html",
+      "label": "Issue 68 · 오늘의 장문 리뷰",
+      "subtitle": "그 집의 창문 밖에는 누가 있었을까",
+      "review": "오스틴의 저택에서 콘래드의 강으로, 카뮈의 해변에서 저항의 문학으로. 사이드는 소설의 바깥에 밀려나 있던 사람들과 함께 다시 읽기를 청한다."
+    },
+    {
+      "id": "365779359-issue68",
+      "title": "존 메이너드 케인스",
+      "metadata": "재커리 D. 카터 · 김성아 옮김 · 홍춘욱 감수 · 로크미디어",
+      "theme": "평전 · 경제사상과 평화",
+      "imageUrl": "assets/book-covers/carter-john-maynard-keynes.jpg",
+      "reviewUrl": "posts/carter-john-maynard-keynes.html",
+      "label": "Issue 68 · 오늘의 장문 리뷰",
+      "subtitle": "사람이 잘 살기 위해 경제학이 있다면",
+      "review": "예술과 우정, 실업과 전쟁, 그리고 한 사람이 죽은 뒤에도 계속된 사상의 운명. 카터는 케인스의 경제학을 삶의 목적에 관한 논쟁으로 되돌려 놓는다."
+    },
     {
       "id": "366107485",
       "title": "열정으로서의 사랑",
@@ -8902,11 +8935,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "366960746",
       "title": "도미니언",
-      "metadata": "톰 홀랜드 저자, 이종인 역자 | 책과함께",
-      "theme": "인문/교양",
+      "metadata": "톰 홀랜드 · 이종인 옮김 · 책과함께",
+      "theme": "역사 · 기독교와 서양의 도덕",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366960746",
-      "imageUrl": "https://image.aladin.co.kr/product/24790/60/cover500/k632632851_1.jpg",
-      "sourcePage": 13
+      "imageUrl": "assets/book-covers/dominion-tom-holland.jpg",
+      "sourcePage": 13,
+      "reviewUrl": "posts/holland-dominion-issue68.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "366960729",
@@ -16326,11 +16361,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "365779359",
       "title": "존 메이너드 케인스",
-      "metadata": "재커리 D. 카터 지음, 김성아 옮김, 홍춘욱 감수 | 로크미디어",
-      "theme": "인문/교양",
+      "metadata": "재커리 D. 카터 · 김성아 옮김 · 홍춘욱 감수 · 로크미디어",
+      "theme": "평전 · 경제사상과 평화",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=365779359",
-      "imageUrl": "https://image.aladin.co.kr/product/28199/50/cover500/k372835876_1.jpg",
-      "sourcePage": 31
+      "imageUrl": "assets/book-covers/carter-john-maynard-keynes.jpg",
+      "sourcePage": 31,
+      "reviewUrl": "posts/carter-john-maynard-keynes.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "365775869",
@@ -22491,11 +22528,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "364036509",
       "title": "문화와 제국주의",
-      "metadata": "에드워드 사이드 지음, 김성곤.정정호 옮김 | 창",
-      "theme": "역사/정치",
+      "metadata": "에드워드 사이드 · 김성곤·정정호 옮김 · 창",
+      "theme": "문학 비평 · 제국과 대위법적 독서",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364036509",
-      "imageUrl": "https://image.aladin.co.kr/product/866/23/cover500/8974531860_1.jpg",
-      "sourcePage": 47
+      "imageUrl": "assets/book-covers/said-culture-imperialism.jpg",
+      "sourcePage": 47,
+      "reviewUrl": "posts/said-culture-imperialism.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "364036465",

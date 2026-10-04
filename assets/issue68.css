@@ -1,0 +1,92 @@
+.hero[data-issue="68"] .hero-grid {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.hero[data-issue="68"] .hero-media {
+  order: -1;
+}
+
+.hero[data-issue="68"] .hero-image {
+  height: 420px;
+  min-height: 0;
+}
+
+.hero[data-issue="68"] .hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero[data-issue="68"] .hero-copy {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 24px;
+  padding: 20px 0;
+}
+
+.hero[data-issue="68"] .hero-copy > div:first-child {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 24px;
+}
+
+.hero[data-issue="68"] .hero-copy .eyebrow,
+.hero[data-issue="68"] .hero-copy [aria-label="사이트 분류"] {
+  display: none;
+}
+
+.hero[data-issue="68"] .hero-copy h1 {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.hero[data-issue="68"] .hero-copy h1 span {
+  display: inline;
+}
+
+.hero[data-issue="68"] .hero-copy h1 span + span::before {
+  content: " ";
+}
+
+.hero[data-issue="68"] .eyebrow {
+  margin-bottom: 8px;
+}
+
+.hero[data-issue="68"] .hero-lede {
+  max-width: none;
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.hero[data-issue="68"] .hero-meta {
+  margin-top: 0;
+}
+
+@media (max-width: 620px) {
+  .hero[data-issue="68"] .hero-copy,
+  .hero[data-issue="68"] .hero-copy > div:first-child {
+    display: block;
+  }
+
+  .hero[data-issue="68"] .hero-lede,
+  .hero[data-issue="68"] .hero-meta {
+    margin-top: 8px;
+  }
+
+  .hero[data-issue="68"] .hero-image {
+    height: auto;
+    aspect-ratio: 3840 / 2853;
+  }
+
+  .hero[data-issue="68"] .hero-copy h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero[data-issue="68"] .today-card {
+    padding: 16px 18px;
+  }
+}

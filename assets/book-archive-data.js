@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 429,
+    "reviewLinkedCount": 432,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2193,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "366186782-issue69",
+      "title": "미셸 푸코, 1926~1984",
+      "metadata": "디디에 에리봉 지음 · 박정자 옮김 · 그린비",
+      "theme": "인문/교양",
+      "imageUrl": "assets/book-covers/eribon-michel-foucault.jpg",
+      "reviewUrl": "posts/eribon-michel-foucault-1926-1984.html",
+      "label": "Issue 69 · 오늘의 장문 리뷰",
+      "subtitle": "한 사람을 끝까지 단정하지 않는 일",
+      "review": "학문을 뒤흔든 철학자의 이름 뒤로 다시 한 사람이 나타난다. 디디에 에리봉의 평전을 통해 푸코의 사유와 삶이 만나는 자리를 읽는다."
+    },
+    {
+      "id": "364177420-issue69",
+      "title": "플라밍고의 미소",
+      "metadata": "스티븐 J. 굴드 지음 · 김명주 옮김 · 현암사",
+      "theme": "인문/교양",
+      "imageUrl": "assets/book-covers/gould-flamingos-smile.jpg",
+      "reviewUrl": "posts/gould-flamingos-smile.html",
+      "label": "Issue 69 · 오늘의 장문 리뷰",
+      "subtitle": "새의 부리에서 생각이 시작된다",
+      "review": "거꾸로 먹이를 거르는 부리와 오래된 분류표, 사라진 4할 타자를 따라간다. 굴드의 자연학은 우리가 알고 있다고 믿은 것을 다시 보게 한다."
+    },
+    {
+      "id": "366094473-issue69",
+      "title": "나폴레옹",
+      "metadata": "프랭크 매클린 지음 · 조행복 옮김 · 교양인",
+      "theme": "인문/교양",
+      "imageUrl": "assets/book-covers/mclynn-napoleon.jpg",
+      "reviewUrl": "posts/mclynn-napoleon.html",
+      "label": "Issue 69 · 오늘의 장문 리뷰",
+      "subtitle": "승리 뒤에 남은 사람을 읽다",
+      "review": "전쟁의 속도와 정치의 계산, 야망과 집착을 함께 읽는다. 매클린의 평전은 영웅의 이름을 유지한 채 그 이름에 가려진 대가를 되묻는다."
+    },
     {
       "id": "366960746-issue68",
       "title": "도미니언",
@@ -11344,11 +11377,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "366186782",
       "title": "미셸 푸코, 1926~1984",
-      "metadata": "디디에 에리봉 지음, 박정자 옮김 | 그린비",
+      "metadata": "디디에 에리봉 지음 · 박정자 옮김 · 그린비",
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366186782",
-      "imageUrl": "https://image.aladin.co.kr/product/1494/25/cover500/8976823702_1.jpg",
-      "sourcePage": 18
+      "imageUrl": "assets/book-covers/eribon-michel-foucault.jpg",
+      "sourcePage": 18,
+      "reviewUrl": "posts/eribon-michel-foucault-1926-1984.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "366186674",
@@ -13635,11 +13670,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "366094473",
       "title": "나폴레옹",
-      "metadata": "프랭크 매클린 지음, 조행복 옮김 | 교양인",
+      "metadata": "프랭크 매클린 지음 · 조행복 옮김 · 교양인",
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366094473",
-      "imageUrl": "https://image.aladin.co.kr/product/8343/59/cover500/k002434558_1.jpg",
-      "sourcePage": 24
+      "imageUrl": "assets/book-covers/mclynn-napoleon.jpg",
+      "sourcePage": 24,
+      "reviewUrl": "posts/mclynn-napoleon.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "366094436",
@@ -20507,11 +20544,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "364177420",
       "title": "플라밍고의 미소",
-      "metadata": "스티븐 J. 굴드 지음, 김명주 옮김 | 현암사",
+      "metadata": "스티븐 J. 굴드 지음 · 김명주 옮김 · 현암사",
       "theme": "인문/교양",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364177420",
-      "imageUrl": "https://image.aladin.co.kr/product/3380/58/cover500/8932316821_1.jpg",
-      "sourcePage": 41
+      "imageUrl": "assets/book-covers/gould-flamingos-smile.jpg",
+      "sourcePage": 41,
+      "reviewUrl": "posts/gould-flamingos-smile.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "364177319",

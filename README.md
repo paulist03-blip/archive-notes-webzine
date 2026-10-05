@@ -14,6 +14,10 @@ Static webzine archive for books, records, art notes, and daily AI work essays.
 
 ## Editorial Rules
 
+- Avoid habitual Korean phrases such as "멈춘다", "멈추게 된다", and
+  "멈춰 선다" when describing reading or reflection. Write the specific
+  question, observation, or feeling instead; retain literal uses only when
+  necessary to describe the subject accurately.
 - Book and record reviews must not use local inventory data as review material.
   Do not check, cite, or summarize local stock exports, seller pages, used-shop
   state, price, sale status, copy condition, or possession notes unless the user

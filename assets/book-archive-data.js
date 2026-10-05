@@ -23,7 +23,7 @@ window.PAUL_BOOK_ARCHIVE = {
       "imageUrl": "assets/book-covers/eribon-michel-foucault.jpg",
       "reviewUrl": "posts/eribon-michel-foucault-1926-1984.html",
       "label": "Issue 69 · 오늘의 장문 리뷰",
-      "subtitle": "한 사람을 끝까지 단정하지 않는 일",
+      "subtitle": "한 사람의 삶을 오래 들여다보는 일",
       "review": "학문을 뒤흔든 철학자의 이름 뒤로 다시 한 사람이 나타난다. 디디에 에리봉의 평전을 통해 푸코의 사유와 삶이 만나는 자리를 읽는다."
     },
     {

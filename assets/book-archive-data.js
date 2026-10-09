@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 432,
+    "reviewLinkedCount": 435,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2193,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "366961054-issue70",
+      "title": "신화·꿈·신비",
+      "metadata": "미르치아 엘리아데 지음 · 강응섭 옮김 · 숲",
+      "theme": "종교/철학",
+      "imageUrl": "assets/book-covers/eliade-myths-dreams-mysteries.jpg",
+      "reviewUrl": "posts/eliade-myths-dreams-mysteries.html",
+      "label": "Issue 70 · 오늘의 장문 리뷰",
+      "subtitle": "오래된 이야기 속에서 다시 태어나는 삶",
+      "review": "기원의 이야기, 낙원에 대한 향수, 입문의례와 재생을 따라 신화가 삶에 부여하는 의미를 살핀다. 엘리아데의 비교종교학을 그 성취와 위험까지 함께 읽는다."
+    },
+    {
+      "id": "364415750-issue70",
+      "title": "이성·진리·역사",
+      "metadata": "힐러리 퍼트넘 지음 · 김효명 옮김 · 민음사",
+      "theme": "철학 · 인식론",
+      "imageUrl": "assets/book-covers/putnam-reason-truth-history.gif",
+      "reviewUrl": "posts/putnam-reason-truth-history.html",
+      "label": "Issue 70 · 오늘의 장문 리뷰",
+      "subtitle": "우리의 말로 세계의 진실을 묻는 일",
+      "review": "세계 밖의 시점 없이도 진실을 말할 수 있을까. 퍼트넘의 내재적 실재론과 사실·가치의 얽힘을 따라, 판단에 책임을 진다는 것의 의미를 읽는다."
+    },
+    {
+      "id": "364098606-issue70",
+      "title": "우리가 절대 알 수 없는 것들에 대해",
+      "metadata": "마커스 드 사토이 지음 · 박병철 옮김 · 반니",
+      "theme": "과학 · 수학 · 지식의 한계",
+      "imageUrl": "assets/book-covers/du-sautoy-what-we-cannot-know.jpg",
+      "reviewUrl": "posts/du-sautoy-what-we-cannot-know.html",
+      "label": "Issue 70 · 오늘의 장문 리뷰",
+      "subtitle": "모른다는 말의 정확한 무게",
+      "review": "주사위에서 양자와 우주, 의식과 수학으로 이어지는 일곱 번의 탐사. 아직 모르는 것과 원리상 알 수 없는 것을 구별하는 연구자의 태도를 읽는다."
+    },
     {
       "id": "366186782-issue69",
       "title": "미셸 푸코, 1926~1984",
@@ -8859,12 +8892,14 @@ window.PAUL_BOOK_ARCHIVE = {
     },
     {
       "id": "366961054",
-      "title": "신화.꿈.신비",
-      "metadata": "미르치아 엘리아데 지음, 강응섭 옮김 | 도서출판 숲",
-      "theme": "인문/교양",
+      "title": "신화·꿈·신비",
+      "metadata": "미르치아 엘리아데 지음 · 강응섭 옮김 · 숲",
+      "theme": "종교/철학",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366961054",
-      "imageUrl": "https://image.aladin.co.kr/product/64/62/cover500/8991290124_1.jpg",
-      "sourcePage": 12
+      "imageUrl": "assets/book-covers/eliade-myths-dreams-mysteries.jpg",
+      "sourcePage": 12,
+      "reviewUrl": "posts/eliade-myths-dreams-mysteries.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "366960979",
@@ -18500,12 +18535,14 @@ window.PAUL_BOOK_ARCHIVE = {
     },
     {
       "id": "364415750",
-      "title": "이성. 진리. 역사",
-      "metadata": "힐러리 퍼트넘 지음, 김효명 옮김 | 민음사",
-      "theme": "역사/정치",
+      "title": "이성·진리·역사",
+      "metadata": "힐러리 퍼트넘 지음 · 김효명 옮김 · 민음사",
+      "theme": "철학 · 인식론",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364415750",
-      "imageUrl": "https://image.aladin.co.kr/product/37/15/cover500/893741609_1.gif",
-      "sourcePage": 36
+      "imageUrl": "assets/book-covers/putnam-reason-truth-history.gif",
+      "sourcePage": 36,
+      "reviewUrl": "posts/putnam-reason-truth-history.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "364414420",
@@ -22432,11 +22469,13 @@ window.PAUL_BOOK_ARCHIVE = {
     {
       "id": "364098606",
       "title": "우리가 절대 알 수 없는 것들에 대해",
-      "metadata": "마커스 드 사토이 지음, 박병철 옮김 | 반니",
-      "theme": "인문/교양",
+      "metadata": "마커스 드 사토이 지음 · 박병철 옮김 · 반니",
+      "theme": "과학 · 수학 · 지식의 한계",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364098606",
-      "imageUrl": "https://image.aladin.co.kr/product/21948/22/cover500/k872636501_1.jpg",
-      "sourcePage": 46
+      "imageUrl": "assets/book-covers/du-sautoy-what-we-cannot-know.jpg",
+      "sourcePage": 46,
+      "reviewUrl": "posts/du-sautoy-what-we-cannot-know.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "364098569",

@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 435,
+    "reviewLinkedCount": 438,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
-    "publicCount": 2193,
+    "publicCount": 2196,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "editorial-bachelard-poetics-of-space-issue71",
+      "title": "공간의 시학",
+      "metadata": "가스통 바슐라르 · 곽광수 옮김 · 동문선",
+      "theme": "공간·시적 상상·거주",
+      "imageUrl": "assets/book-covers/bachelard-poetics-of-space.jpg",
+      "reviewUrl": "posts/bachelard-poetics-of-space-issue71.html",
+      "label": "Issue 71 · 오늘의 장문 리뷰",
+      "subtitle": "집을 기억하는 마음 · 공간의 시학",
+      "review": "집과 서랍, 구석과 작은 세계를 따라 시적 이미지가 경험에 더하는 깊이를 읽는다. 마음속의 집과 실제 거주의 조건을 함께 생각한다."
+    },
+    {
+      "id": "editorial-perec-species-of-spaces-issue71",
+      "title": "공간의 종류들",
+      "metadata": "조르주 페렉 · 김호영 옮김 · 문학동네",
+      "theme": "일상·관찰·장소의 기록",
+      "imageUrl": "assets/book-covers/perec-species-of-spaces.jpg",
+      "reviewUrl": "posts/perec-species-of-spaces-issue71.html",
+      "label": "Issue 71 · 오늘의 장문 리뷰",
+      "subtitle": "살던 곳을 적어 두는 일 · 공간의 종류들",
+      "review": "종이와 침대에서 거리와 세계로 시야를 넓히는 페렉의 관찰. 지나치게 익숙해 보지 못했던 장소를 적으며 삶의 자리를 다시 읽는다."
+    },
+    {
+      "id": "editorial-bergson-matter-and-memory-issue71",
+      "title": "물질과 기억",
+      "metadata": "앙리 베르그손 · 박종원 옮김 · 아카넷",
+      "theme": "기억·지각·몸과 정신",
+      "imageUrl": "assets/book-covers/bergson-matter-and-memory.jpg",
+      "reviewUrl": "posts/bergson-matter-and-memory-issue71.html",
+      "label": "Issue 71 · 오늘의 장문 리뷰",
+      "subtitle": "지나간 것은 어디에 있는가 · 물질과 기억",
+      "review": "몸에 익힌 행위와 한 번 겪은 사건의 기억을 구별하며 과거가 현재에 참여하는 방식을 읽는다. 베르그손의 논증과 그 철학적 부담을 함께 살핀다."
+    },
     {
       "id": "366961054-issue70",
       "title": "신화·꿈·신비",
@@ -23190,6 +23223,33 @@ window.PAUL_BOOK_ARCHIVE = {
       "metadata": "뱅상 노르망 외 지음 | 현실문화A",
       "theme": "인문/문학",
       "imageUrl": "https://image.aladin.co.kr/product/26079/6/cover500/8965642590_1.jpg"
+    },
+    {
+      "id": "editorial-bachelard-poetics-of-space",
+      "title": "공간의 시학",
+      "metadata": "가스통 바슐라르 · 곽광수 옮김 · 동문선",
+      "theme": "공간·시적 상상·거주",
+      "imageUrl": "assets/book-covers/bachelard-poetics-of-space.jpg",
+      "reviewUrl": "posts/bachelard-poetics-of-space-issue71.html",
+      "reviewStatus": "우리 리뷰"
+    },
+    {
+      "id": "editorial-perec-species-of-spaces",
+      "title": "공간의 종류들",
+      "metadata": "조르주 페렉 · 김호영 옮김 · 문학동네",
+      "theme": "일상·관찰·장소의 기록",
+      "imageUrl": "assets/book-covers/perec-species-of-spaces.jpg",
+      "reviewUrl": "posts/perec-species-of-spaces-issue71.html",
+      "reviewStatus": "우리 리뷰"
+    },
+    {
+      "id": "editorial-bergson-matter-and-memory",
+      "title": "물질과 기억",
+      "metadata": "앙리 베르그손 · 박종원 옮김 · 아카넷",
+      "theme": "기억·지각·몸과 정신",
+      "imageUrl": "assets/book-covers/bergson-matter-and-memory.jpg",
+      "reviewUrl": "posts/bergson-matter-and-memory-issue71.html",
+      "reviewStatus": "우리 리뷰"
     }
   ]
 };

@@ -1,0 +1,96 @@
+.hero[data-issue="71"] .hero-grid {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.hero[data-issue="71"] .hero-media {
+  order: -1;
+}
+
+.hero[data-issue="71"] .hero-image {
+  height: min(460px, 52vh);
+  min-height: 0;
+}
+
+.hero[data-issue="71"] .hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero[data-issue="71"] .hero-copy {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 24px;
+  padding: 20px 0;
+}
+
+.hero[data-issue="71"] .hero-copy > div:first-child {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 24px;
+}
+
+.hero[data-issue="71"] .hero-copy .eyebrow,
+.hero[data-issue="71"] .hero-copy [aria-label="사이트 분류"] {
+  display: none;
+}
+
+.hero[data-issue="71"] .hero-copy h1 {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.hero[data-issue="71"] .hero-copy h1 span {
+  display: inline;
+}
+
+.hero[data-issue="71"] .hero-copy h1 span + span::before {
+  content: " ";
+}
+
+.hero[data-issue="71"] .eyebrow {
+  margin-bottom: 8px;
+}
+
+.hero[data-issue="71"] .hero-lede {
+  max-width: none;
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.hero[data-issue="71"] .hero-meta {
+  margin-top: 0;
+}
+
+@media (max-width: 620px) {
+  .hero[data-issue="71"] .hero-copy,
+  .hero[data-issue="71"] .hero-copy > div:first-child {
+    display: block;
+  }
+
+  .hero[data-issue="71"] .hero-lede,
+  .hero[data-issue="71"] .hero-meta {
+    margin-top: 8px;
+  }
+
+  .hero[data-issue="71"] .hero-image {
+    height: min(300px, 36vh);
+    aspect-ratio: auto;
+  }
+
+  .hero[data-issue="71"] + #notes {
+    padding-top: 20px;
+  }
+
+  .hero[data-issue="71"] .hero-copy h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero[data-issue="71"] .today-card {
+    padding: 16px 18px;
+  }
+}

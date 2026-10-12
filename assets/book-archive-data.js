@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 438,
+    "reviewLinkedCount": 441,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
-    "publicCount": 2196,
+    "publicCount": 2199,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "editorial-cho-kwangje-painting-eyes-being-eyes-issue72",
+      "title": "회화의 눈, 존재의 눈",
+      "metadata": "조광제 지음 · 이학사",
+      "theme": "회화·현상학·몸",
+      "imageUrl": "assets/book-covers/cho-kwangje-painting-eyes-being-eyes.jpg",
+      "reviewUrl": "posts/cho-kwangje-painting-eyes-being-eyes-issue72.html",
+      "label": "Issue 72 · 오늘의 장문 리뷰",
+      "subtitle": "보는 몸이 세계에 속한다는 것 · 회화의 눈, 존재의 눈",
+      "review": "메를로퐁티의 눈과 정신을 열 번의 강의로 읽는 조광제의 책. 보는 자와 보이는 것의 관계를 깊이와 색, 선과 운동을 통해 생각한다."
+    },
+    {
+      "id": "editorial-gombrich-art-and-illusion-issue72",
+      "title": "예술과 환영",
+      "metadata": "에른스트 H. 곰브리치 · 차미례 옮김 · 열화당",
+      "theme": "재현·미술사·지각",
+      "imageUrl": "assets/book-covers/gombrich-art-and-illusion.jpg",
+      "reviewUrl": "posts/gombrich-art-and-illusion-issue72.html",
+      "label": "Issue 72 · 오늘의 장문 리뷰",
+      "subtitle": "그림을 알아보는 눈은 어떻게 생기는가 · 예술과 환영",
+      "review": "도식과 수정, 관람자의 참여를 통해 회화적 재현을 읽는다. 배운 형식과 새로운 관찰이 만나는 과정에서 그림과 보는 눈이 함께 달라진다."
+    },
+    {
+      "id": "editorial-goethe-theory-of-colours-issue72",
+      "title": "색채론",
+      "metadata": "요한 볼프강 폰 괴테 · 장희창 옮김 · 민음사",
+      "theme": "색·관찰·과학과 예술",
+      "imageUrl": "assets/book-covers/goethe-theory-of-colours.jpg",
+      "reviewUrl": "posts/goethe-theory-of-colours-issue72.html",
+      "label": "Issue 72 · 오늘의 장문 리뷰",
+      "subtitle": "색을 보는 사람까지 생각하는 일 · 색채론",
+      "review": "잔상과 색의 대비에서 눈과 빛의 관계를 읽는다. 괴테의 세밀한 관찰을 물리적 설명의 한계와 구별하며, 색채 경험이 가진 풍부함을 살핀다."
+    },
     {
       "id": "editorial-bachelard-poetics-of-space-issue71",
       "title": "공간의 시학",
@@ -23249,6 +23282,33 @@ window.PAUL_BOOK_ARCHIVE = {
       "theme": "기억·지각·몸과 정신",
       "imageUrl": "assets/book-covers/bergson-matter-and-memory.jpg",
       "reviewUrl": "posts/bergson-matter-and-memory-issue71.html",
+      "reviewStatus": "우리 리뷰"
+    },
+    {
+      "id": "editorial-cho-kwangje-painting-eyes-being-eyes",
+      "title": "회화의 눈, 존재의 눈",
+      "metadata": "조광제 지음 · 이학사",
+      "theme": "회화·현상학·몸",
+      "imageUrl": "assets/book-covers/cho-kwangje-painting-eyes-being-eyes.jpg",
+      "reviewUrl": "posts/cho-kwangje-painting-eyes-being-eyes-issue72.html",
+      "reviewStatus": "우리 리뷰"
+    },
+    {
+      "id": "editorial-gombrich-art-and-illusion",
+      "title": "예술과 환영",
+      "metadata": "에른스트 H. 곰브리치 · 차미례 옮김 · 열화당",
+      "theme": "재현·미술사·지각",
+      "imageUrl": "assets/book-covers/gombrich-art-and-illusion.jpg",
+      "reviewUrl": "posts/gombrich-art-and-illusion-issue72.html",
+      "reviewStatus": "우리 리뷰"
+    },
+    {
+      "id": "editorial-goethe-theory-of-colours",
+      "title": "색채론",
+      "metadata": "요한 볼프강 폰 괴테 · 장희창 옮김 · 민음사",
+      "theme": "색·관찰·과학과 예술",
+      "imageUrl": "assets/book-covers/goethe-theory-of-colours.jpg",
+      "reviewUrl": "posts/goethe-theory-of-colours-issue72.html",
       "reviewStatus": "우리 리뷰"
     }
   ]

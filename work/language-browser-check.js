@@ -9,6 +9,7 @@ async (page) => {
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
   const context = page.context();
+  await context.unroute('**/api/translate');
   await context.route('**/api/translate', async route => {
     calls++;
     const body = route.request().postDataJSON();
@@ -106,6 +107,7 @@ async (page) => {
   await page.waitForFunction(() => document.querySelector('[data-book-list] .book-card'));
   if (await page.locator('[data-book-list] .book-card').count() < 1) throw new Error('English search failed');
   await page.locator('[data-book-search]').fill('바흐');
+  await page.locator('[data-book-list] .book-card').first().scrollIntoViewIfNeeded();
   await page.waitForFunction(() => document.querySelector('[data-book-list] .book-card h3') && !/[가-힣]/.test(document.querySelector('[data-book-list] .book-card h3').textContent));
   if (await page.locator('[data-book-search]').inputValue() !== '바흐') throw new Error('Search input translated');
   await korean(page).click();

@@ -8,13 +8,24 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 441,
+    "reviewLinkedCount": 442,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2199,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "366094147-gardiner-long-review",
+      "title": "바흐: 천상의 음악",
+      "metadata": "존 엘리엇 가디너 지음, 노승림 옮김 | 오픈하우스",
+      "theme": "음악/공연",
+      "imageUrl": "assets/book-covers/bach-music-castle-heaven-gardiner.jpg",
+      "reviewUrl": "posts/bach-music-castle-heaven-gardiner.html",
+      "label": "2026.10.14 · 오늘의 장문 리뷰",
+      "subtitle": "한 사람의 숨으로 돌아오는 바흐",
+      "review": "가디너의 바흐 읽기를 성악의 호흡, 칸타타의 교회력, 수난곡의 극적 구성과 B단조 미사의 변용을 통해 살핀다. 연주자의 통찰과 전기적 추론의 한계까지 함께 읽는 장문 리뷰."
+    },
     {
       "id": "editorial-cho-kwangje-painting-eyes-being-eyes-issue72",
       "title": "회화의 눈, 존재의 눈",
@@ -13812,8 +13823,11 @@ window.PAUL_BOOK_ARCHIVE = {
       "metadata": "존 엘리엇 가디너 지음, 노승림 옮김 | 오픈하우스",
       "theme": "음악/공연",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366094147",
-      "imageUrl": "https://image.aladin.co.kr/product/25920/10/cover500/k022737697_1.jpg",
-      "sourcePage": 24
+      "imageUrl": "assets/book-covers/bach-music-castle-heaven-gardiner.jpg",
+      "sourcePage": 24,
+      "reviewUrl": "posts/bach-music-castle-heaven-gardiner.html",
+      "reviewTitle": "한 사람의 숨으로 돌아오는 바흐 · 바흐: 천상의 음악",
+      "reviewSummary": "가디너의 바흐 읽기를 성악의 호흡, 칸타타의 교회력, 수난곡의 극적 구성과 B단조 미사의 변용을 통해 살핀다. 연주자의 통찰과 전기적 추론의 한계까지 함께 읽는 장문 리뷰."
     },
     {
       "id": "366094095",

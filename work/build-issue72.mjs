@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import crypto from 'node:crypto';
 import { issue, articles } from './issue72-content.mjs';
+import { syncIssueNavigation } from './sync-issue-navigation.mjs';
 
 const root = '/Users/paulista/Documents/Codex/2026-06-05/new-chat';
 if (fs.realpathSync('.') !== root) throw new Error('Wrong publication root');
@@ -140,4 +141,5 @@ outputs.set('assets/book-archive-data.js', `window.PAUL_BOOK_ARCHIVE = ${JSON.st
 fs.writeFileSync('work/issue72-preservation-baseline.json', JSON.stringify({ posts: baseline, archiveRows: oldRows.length, archiveRowsHash: digest(oldRows), books: oldBookCount, bookRecordsHash: digest(JSON.parse(oldBooks)), dailyPicks: oldPickCount, dailyPicksHash: digest(JSON.parse(oldPicks)), historyLinks }, null, 2));
 for (const [path, text] of outputs) fs.writeFileSync(path, text);
 if (!baseline.every(([path, before]) => hash(path) === before)) throw new Error('Existing post changed');
+syncIssueNavigation();
 console.log(JSON.stringify({ preservedPosts: baseline.length, preservedArchiveRows: oldRows.length, preservedBooks: oldBookCount, articles: articles.map(a => ({ slug: a.slug, chars: a.body.length, paragraphs: a.body.split(/\n\n+/).length })) }, null, 2));

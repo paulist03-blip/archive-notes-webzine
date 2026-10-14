@@ -4,6 +4,11 @@
   },
   "cleanUrls": true,
   "trailingSlash": false,
+  "functions": {
+    "api/translate.js": {
+      "maxDuration": 60
+    }
+  },
   "rewrites": [
     {
       "source": "/",

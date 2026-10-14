@@ -3,10 +3,10 @@
   var TARGET_LANGUAGE = "en";
   var STORAGE_KEY = "paulArchiveLanguage";
   var STYLE_ID = "paul-archive-language-style";
-  var CACHE_PREFIX = "paulArchiveTranslation:";
-  var MAX_ITEMS_PER_REQUEST = 42;
-  var MAX_CHARS_PER_REQUEST = 7600;
-  var pageItems = null;
+  var CACHE_KEY = "paulArchiveTranslations:v2";
+  var MAX_ITEMS_PER_REQUEST = 32;
+  var MAX_CHARS_PER_REQUEST = 4800;
+  var MAX_CACHE_CHARS = 900000;
   var REVIEW_SENTENCE_PATTERNS = [
     /(알라딘|YES24|교보문고?|국회도서관|Presto(?: Music)?|Qobuz|Apple Music|Warner Classics|Decca Classics|DG 공식 카탈로그|공개 서지|로컬(?:\s+[A-Za-z가-힣]+)?|보유 데이터|재고|품목|카탈로그|바코드|ItemId)[^.!?]*[.!?]/gi,
     /ISBN\s*[0-9Xx-]+[^.!?]*[.!?]/gi,
@@ -23,8 +23,7 @@
     "canvas",
     "textarea",
     "input",
-    "select",
-    "option",
+    "[contenteditable]",
     "pre",
     "code"
   ].join(",");
@@ -38,16 +37,19 @@
     style.id = STYLE_ID;
     style.textContent = [
       ".pan-language-switcher{display:inline-flex;align-items:center;gap:3px;padding:3px;border:1px solid rgba(23,23,23,.2);border-radius:999px;background:rgba(255,253,248,.94);box-shadow:0 8px 24px rgba(23,23,23,.08);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;line-height:1;z-index:1000;white-space:nowrap}",
-      ".pan-language-switcher button{appearance:none;border:0;border-radius:999px;background:transparent;color:#5c554b;cursor:pointer;font:inherit;font-size:.68rem;font-weight:780;letter-spacing:.02em;padding:6px 8px;text-transform:uppercase}",
+      ".pan-language-switcher button{appearance:none;border:0;border-radius:999px;background:transparent;color:#5c554b;cursor:pointer;font:inherit;font-size:.68rem;font-weight:780;letter-spacing:0;padding:6px 8px;text-transform:uppercase;min-height:30px}",
       ".pan-language-switcher button[aria-pressed=true]{background:#171717;color:#fffdf8}",
-      ".pan-language-switcher button:disabled{cursor:wait;opacity:.72}",
       ".pan-language-switcher button:focus-visible{outline:2px solid #9b3f34;outline-offset:2px}",
-      ".pan-language-switcher[data-state=loading]::after{content:'GPT';margin:0 5px 0 3px;color:#9b3f34;font-size:.62rem;font-weight:850;letter-spacing:.08em}",
+      ".pan-language-switcher[data-state=loading] [data-language=en]{opacity:.65}",
       ".pan-language-switcher[data-state=error]{border-color:#9b3f34}",
+      ".pan-language-switcher [hidden]{display:none!important}",
+      ".pan-language-status{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}",
+      ".pan-language-switcher button[data-language-retry]{font-size:18px;padding:4px 7px;color:#9b3f34}",
+      "html[lang=en] .article-body,html[lang=en] .article h1,html[lang=en] .issue-pagination-title{word-break:normal;overflow-wrap:anywhere}",
       ".masthead .nav{position:relative}",
       ".masthead .nav>.pan-language-switcher{left:22px;position:absolute;top:50%;transform:translateY(-50%)}",
       "body.pan-language-ready .masthead .nav-links{padding-left:172px}",
-      ".pan-language-switcher--fixed{left:14px;position:fixed;top:14px}",
+      ".pan-language-bar{display:flex;justify-content:flex-end;padding:8px 14px;border-bottom:1px solid rgba(23,23,23,.14)}",
       "@media (max-width:900px){.masthead .nav>.pan-language-switcher{grid-column:1;grid-row:2;justify-self:start;position:static;transform:none}body.pan-language-ready .masthead .nav-links{padding-left:0}.pan-language-switcher{box-shadow:none}.pan-language-switcher button{font-size:.62rem;padding:6px 7px}}",
       "@media (max-width:380px){.pan-language-switcher button{font-size:.58rem;padding:5px 6px}}"
     ].join("\n");
@@ -253,340 +255,414 @@
     sanitizeSiteChrome();
   }
 
+  var UI_TRANSLATIONS = {
+    "글": "Essays", "미술": "Art", "음반": "Music", "책": "Books", "포럼": "Forum",
+    "아카이브": "Archive", "전체 아카이브": "Full archive", "북아카이브": "Book archive",
+    "오늘의 책": "Today's books", "오늘의 책장": "Today's bookshelf", "오늘의 음반": "Today's recording",
+    "오늘의 그림": "Today's artwork", "오늘의 기고": "Contributions", "오늘의 이미지": "Today's image",
+    "장문 리뷰": "Long-form essay", "장문 리뷰 읽기": "Read the essay", "원고 준비 중": "Essay forthcoming",
+    "전체 주제": "All subjects", "제목, 저자, 출판사로 찾기": "Search by title, author, or publisher",
+    "검색 조건에 맞는 책이 없습니다.": "No books match your search.", "주제": "Subject",
+    "참고 자료": "Sources", "참고 링크": "References", "함께 듣고 읽기": "Further listening and reading",
+    "이전 호와 다음 호": "Previous and next issues", "리뷰 완료": "Reviewed", "리뷰 읽기": "Read the review",
+    "외부 링크": "External link", "기준 서가": "Source bookshelf", "기준 음반 목록": "Source recordings",
+    "철학": "Philosophy", "역사": "History", "문학": "Literature", "예술": "Art",
+    "음악": "Music", "과학": "Science", "사회": "Society", "종교": "Religion",
+    "정치": "Politics", "심리": "Psychology", "심리학": "Psychology", "인문": "Humanities",
+    "로그인": "Sign in", "로그아웃": "Sign out", "회원가입": "Sign up", "이메일": "Email",
+    "비밀번호": "Password", "닉네임": "Display name", "제목": "Title", "내용": "Body",
+    "자유": "General", "공지": "Announcements", "글쓰기": "Write a post", "글 올리기": "Publish",
+    "삭제": "Delete", "고정": "Pinned", "고정 해제": "Unpin"
+  };
+  var records = new Set();
+  var textRecords = new WeakMap();
+  var attributeRecords = new WeakMap();
+  var memory = new Map();
+  var language = SOURCE_LANGUAGE;
+  var switcher;
+  var generation = 0;
+  var worker = null;
+  var failed = false;
+  var refreshTimer;
+  var nextId = 0;
+  var seenBlocks = new WeakSet();
+  var nearBlocks = new WeakSet();
+  var lazySelector = ".archive-row,.book-card,.book-daily-card,.forum-post";
+  var contextSelector = "p,li,h1,h2,h3,h4,h5,h6,figcaption,button,label,option,.article-meta,.book-card-meta,.issue-pagination-title";
+  var attributeNames = ["placeholder", "title", "alt", "aria-label"];
+
+  function safeStorage(method, key, value) {
+    try { return localStorage[method](key, value); } catch (error) { return null; }
+  }
+
   function getStoredLanguage() {
-    return localStorage.getItem(STORAGE_KEY) === TARGET_LANGUAGE ? TARGET_LANGUAGE : SOURCE_LANGUAGE;
-  }
-
-  function getCookieDomains() {
-    var hostname = window.location.hostname;
-    if (!hostname || hostname === "localhost" || /^\d+\.\d+\.\d+\.\d+$/.test(hostname)) {
-      return [""];
+    var saved = safeStorage("getItem", STORAGE_KEY);
+    if (saved !== SOURCE_LANGUAGE && saved !== TARGET_LANGUAGE) {
+      var cookie;
+      try { cookie = document.cookie.match(/(?:^|;\s*)paulArchiveLanguage=(ko|en)(?:;|$)/); } catch (error) { cookie = null; }
+      saved = cookie ? cookie[1] : SOURCE_LANGUAGE;
     }
-
-    var parts = hostname.split(".");
-    var root = parts.length > 2 ? "." + parts.slice(-2).join(".") : "." + hostname;
-    return ["", hostname, root];
+    return saved === TARGET_LANGUAGE ? TARGET_LANGUAGE : SOURCE_LANGUAGE;
   }
 
-  function clearLegacyGoogleTranslateCookie() {
-    getCookieDomains().forEach(function (domain) {
-      var domainPart = domain ? ";domain=" + domain : "";
-      document.cookie = "googtrans=;path=/" + domainPart + ";expires=Thu, 01 Jan 1970 00:00:00 GMT";
-    });
-  }
-
-  function setStoredLanguage(language) {
-    localStorage.setItem(STORAGE_KEY, language === TARGET_LANGUAGE ? TARGET_LANGUAGE : SOURCE_LANGUAGE);
-  }
-
-  function setActiveButton(host, language) {
-    host.querySelectorAll("button[data-language]").forEach(function (button) {
-      var active = button.getAttribute("data-language") === language;
-      button.setAttribute("aria-pressed", active ? "true" : "false");
-    });
-    document.documentElement.setAttribute("data-language", language);
-  }
-
-  function setBusy(host, isBusy) {
-    host.dataset.state = isBusy ? "loading" : "idle";
-    host.querySelectorAll("button").forEach(function (button) {
-      button.disabled = isBusy;
-    });
-  }
-
-  function setError(host, message) {
-    host.dataset.state = "error";
-    host.title = message || "Translation is unavailable right now.";
-    host.querySelectorAll("button").forEach(function (button) {
-      button.disabled = false;
-    });
-  }
-
-  function hasHangul(text) {
-    return /[가-힣]/.test(text);
-  }
-
-  function splitWhitespace(text) {
-    var match = text.match(/^(\s*)([\s\S]*?)(\s*)$/);
-    return {
-      prefix: match ? match[1] : "",
-      body: match ? match[2] : text,
-      suffix: match ? match[3] : ""
-    };
-  }
-
-  function shouldTranslateTextNode(node) {
-    if (!node || !node.parentElement) {
-      return false;
-    }
-
-    if (node.parentElement.closest(EXCLUDED_SELECTOR)) {
-      return false;
-    }
-
-    var body = splitWhitespace(node.nodeValue).body;
-    if (!body || body.length < 2) {
-      return false;
-    }
-
-    return hasHangul(body);
-  }
-
-  function collectTextNodes() {
-    var nodes = [];
-    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
-      acceptNode: function (node) {
-        return shouldTranslateTextNode(node) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
-      }
-    });
-
-    var index = 0;
-    while (walker.nextNode()) {
-      var node = walker.currentNode;
-      var parts = splitWhitespace(node.nodeValue);
-      nodes.push({
-        id: "t" + index,
-        node: node,
-        original: node.nodeValue,
-        prefix: parts.prefix,
-        body: parts.body,
-        suffix: parts.suffix
-      });
-      index += 1;
-    }
-
-    return nodes;
-  }
-
-  function getPageItems() {
-    if (!pageItems) {
-      pageItems = collectTextNodes();
-    }
-    return pageItems;
+  function setStoredLanguage(value) {
+    safeStorage("setItem", STORAGE_KEY, value);
+    try {
+      document.cookie = STORAGE_KEY + "=" + value + ";path=/;max-age=31536000;SameSite=Lax" +
+        (location.protocol === "https:" ? ";Secure" : "");
+    } catch (error) { /* The current page still switches when persistence is blocked. */ }
   }
 
   function hashString(value) {
     var hash = 5381;
-    for (var i = 0; i < value.length; i += 1) {
-      hash = (hash * 33) ^ value.charCodeAt(i);
-    }
+    for (var i = 0; i < value.length; i += 1) hash = (hash * 33) ^ value.charCodeAt(i);
     return (hash >>> 0).toString(36);
   }
 
-  function getCacheKey(items) {
-    var fingerprint = items.map(function (item) {
-      return item.id + ":" + item.body;
-    }).join("\n");
-    return CACHE_PREFIX + location.pathname + ":" + hashString(fingerprint);
+  function memoryKey(record) {
+    return hashString(record.body + "\n" + record.context);
   }
 
-  function readCache(key) {
+  function cachedText(record) {
+    var entry = memory.get(memoryKey(record));
+    return entry && entry[0] === record.body && entry[1] === record.context ? entry[2] : null;
+  }
+
+  function loadMemory() {
     try {
-      var cached = localStorage.getItem(key);
-      return cached ? JSON.parse(cached) : null;
-    } catch (error) {
-      return null;
+      var saved = JSON.parse(safeStorage("getItem", CACHE_KEY) || "[]");
+      if (!Array.isArray(saved)) return;
+      saved.slice(-1200).forEach(function (entry) {
+        if (Array.isArray(entry) && entry.length === 4 && entry.every(function (value) { return typeof value === "string"; }) &&
+          entry[3].trim() && entry.join("").length < 65536) {
+          memory.set(entry[0], entry.slice(1));
+        }
+      });
+    } catch (error) { /* Ignore invalid or obsolete translation caches. */ }
+  }
+
+  function saveMemory() {
+    var entries = [];
+    var size = 0;
+    Array.from(memory).reverse().some(function (entry) {
+      var row = [entry[0]].concat(entry[1]);
+      size += JSON.stringify(row).length;
+      if (size > MAX_CACHE_CHARS || entries.length >= 1200) return true;
+      entries.push(row);
+      return false;
+    });
+    entries.reverse();
+    memory = new Map(entries.map(function (entry) { return [entry[0], entry.slice(1)]; }));
+    safeStorage("setItem", CACHE_KEY, JSON.stringify(entries));
+  }
+
+  function localTranslation(text) {
+    var normalized = normalizeText(text);
+    var exact = Object.prototype.hasOwnProperty.call(UI_TRANSLATIONS, normalized) ? UI_TRANSLATIONS[normalized] : null;
+    if (exact) return exact;
+    var match = normalizeText(text).match(/^(이전 호|다음 호)\s*·\s*(\d+)호$/);
+    if (match) return (match[1] === "이전 호" ? "Previous" : "Next") + " · Issue " + match[2];
+    match = normalizeText(text).match(/^(\d+)권의 기록$/);
+    if (match) return Number(match[1]).toLocaleString("en") + " books";
+    return null;
+  }
+
+  function setState(state, message) {
+    switcher.dataset.state = state;
+    switcher.setAttribute("aria-busy", state === "loading" ? "true" : "false");
+    switcher.querySelector("[data-language-retry]").hidden = state !== "error";
+    switcher.querySelector("[data-language-retry]").title = message ? message + " Retry translation." : "Retry translation";
+    switcher.title = message || "";
+    switcher.querySelector("[role=status]").textContent = message ||
+      (state === "loading" ? "Translating into English." : language === TARGET_LANGUAGE ? "English selected." : "한국어로 표시합니다.");
+  }
+
+  function splitWhitespace(text) {
+    var match = String(text).match(/^(\s*)([\s\S]*?)(\s*)$/);
+    return { prefix: match[1], body: match[2], suffix: match[3] };
+  }
+
+  function readRecord(record) {
+    return record.attribute ? record.node.getAttribute(record.attribute) : record.node.nodeValue;
+  }
+
+  function writeRecord(record, value) {
+    if (readRecord(record) === value) return;
+    record.last = value;
+    if (record.attribute) record.node.setAttribute(record.attribute, value);
+    else record.node.nodeValue = value;
+  }
+
+  function sourceContext(record) {
+    if (record.attribute) return "";
+    var parent = record.node.parentElement;
+    var block = parent && (parent.closest(contextSelector) || parent);
+    if (!block) return "";
+    var walker = document.createTreeWalker(block, NodeFilter.SHOW_TEXT);
+    var parts = [];
+    while (walker.nextNode()) {
+      var known = textRecords.get(walker.currentNode);
+      parts.push(known ? known.original : walker.currentNode.nodeValue);
+    }
+    var context = normalizeText(parts.join(""));
+    return context === normalizeText(record.body) ? "" : context.slice(0, 600);
+  }
+
+  function register(node, attribute) {
+    if (!node) return;
+    var existing;
+    if (attribute) {
+      var attrs = attributeRecords.get(node);
+      if (!attrs) { attrs = {}; attributeRecords.set(node, attrs); }
+      existing = attrs[attribute];
+    } else existing = textRecords.get(node);
+    var current = attribute ? node.getAttribute(attribute) : node.nodeValue;
+    if (current == null || existing && (current === existing.last || current === existing.original)) return;
+    if (!existing && !/[가-힣]/.test(current)) return;
+    var parts = splitWhitespace(current);
+    var record = existing || { node: node, attribute: attribute, id: "t" + nextId++ };
+    record.original = current;
+    record.last = current;
+    record.body = parts.body;
+    record.english = null;
+    record.prefix = parts.prefix;
+    record.suffix = parts.suffix;
+    record.context = "";
+    if (!existing) {
+      records.add(record);
+      if (attribute) attributeRecords.get(node)[attribute] = record;
+      else textRecords.set(node, record);
+    }
+    var element = attribute ? node : node.parentElement;
+    record.block = element && element.closest(lazySelector);
+    if (record.block && intersection && !seenBlocks.has(record.block)) {
+      seenBlocks.add(record.block);
+      intersection.observe(record.block);
     }
   }
 
-  function writeCache(key, translations) {
+  function scan() {
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (node) {
+        return node.parentElement && !node.parentElement.closest(EXCLUDED_SELECTOR) ?
+          NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    while (walker.nextNode()) register(walker.currentNode);
+    if (document.querySelector("title")) register(document.querySelector("title").firstChild);
+    document.body.querySelectorAll("[placeholder],[title],[alt],[aria-label]").forEach(function (node) {
+      if (node.closest(".notranslate,[contenteditable],script,style,svg")) return;
+      attributeNames.forEach(function (attribute) { if (node.hasAttribute(attribute)) register(node, attribute); });
+    });
+    document.querySelectorAll("option:not([value])").forEach(function (option) {
+      option.setAttribute("value", option.value);
+    });
+    records.forEach(function (record) {
+      if (!record.node.isConnected) { records.delete(record); return; }
+      if (!record.context) record.context = sourceContext(record);
+      if (language === TARGET_LANGUAGE) applyKnown(record);
+    });
+  }
+
+  function applyKnown(record) {
+    var translated = localTranslation(record.body) || record.english || cachedText(record);
+    if (translated) {
+      record.english = translated;
+      writeRecord(record, record.prefix + translated + record.suffix);
+    }
+  }
+
+  function eligible(record) {
+    if (!record.node.isConnected || !/[가-힣]/.test(record.body) ||
+      record.english || localTranslation(record.body) || cachedText(record)) return false;
+    var element = record.attribute ? record.node : record.node.parentElement;
+    if (element.closest("head")) return true;
+    var visibleElement = element.closest("option") ? element.closest("select") : element;
+    if (!visibleElement || !visibleElement.getClientRects().length) return false;
+    if (!record.block) return true;
+    if (intersection) return nearBlocks.has(record.block);
+    var rect = record.block.getBoundingClientRect();
+    return rect.bottom >= -800 && rect.top <= innerHeight + 800;
+  }
+
+  function nextBatch() {
+    var groups = new Map();
+    var chars = 0;
+    records.forEach(function (record) {
+      if (!eligible(record)) return;
+      // Include exact source and context so hash collisions never merge distinct passages.
+      var key = JSON.stringify([record.body, record.context]);
+      if (groups.has(key)) { groups.get(key).records.push(record); return; }
+      var size = record.body.length;
+      if (groups.size >= MAX_ITEMS_PER_REQUEST || groups.size && chars + size > MAX_CHARS_PER_REQUEST) return;
+      groups.set(key, { id: record.id, text: record.body, context: record.context, records: [record] });
+      chars += size;
+    });
+    return Array.from(groups.values());
+  }
+
+  async function requestTranslations(batch, job) {
+    var timeout = setTimeout(function () { job.controller.abort(); }, 55000);
     try {
-      localStorage.setItem(key, JSON.stringify(translations));
-    } catch (error) {
-      // Storage can be full or disabled. Translation should still work for the current view.
-    }
-  }
-
-  function chunkItems(items) {
-    var chunks = [];
-    var current = [];
-    var currentChars = 0;
-
-    items.forEach(function (item) {
-      var size = item.body.length;
-      if (current.length && (current.length >= MAX_ITEMS_PER_REQUEST || currentChars + size > MAX_CHARS_PER_REQUEST)) {
-        chunks.push(current);
-        current = [];
-        currentChars = 0;
-      }
-      current.push(item);
-      currentChars += size;
-    });
-
-    if (current.length) {
-      chunks.push(current);
-    }
-
-    return chunks;
-  }
-
-  function applyTranslations(items, translations) {
-    var byId = translations || {};
-    items.forEach(function (item) {
-      var translated = byId[item.id];
-      if (typeof translated === "string" && translated.trim()) {
-        item.node.nodeValue = item.prefix + translated + item.suffix;
-      }
-    });
-  }
-
-  function restoreOriginal(items) {
-    items.forEach(function (item) {
-      item.node.nodeValue = item.original;
-    });
-  }
-
-  async function requestTranslations(chunk) {
-    var response = await fetch("/api/translate", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        source: SOURCE_LANGUAGE,
-        target: TARGET_LANGUAGE,
-        path: location.pathname,
-        title: document.title,
-        items: chunk.map(function (item) {
-          return {
-            id: item.id,
-            text: item.body
-          };
+      var response = await fetch("/api/translate", {
+        method: "POST",
+        signal: job.controller.signal,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          source: SOURCE_LANGUAGE, target: TARGET_LANGUAGE, path: location.pathname,
+          title: document.querySelector("h1") ? document.querySelector("h1").textContent : document.title,
+          items: batch.map(function (group) { return { id: group.id, text: group.text, context: group.context }; })
         })
-      })
-    });
-
-    var data = await response.json().catch(function () {
-      return {};
-    });
-
-    if (!response.ok) {
-      throw new Error(data.error || "Translation request failed.");
-    }
-
-    return data.translations || [];
+      });
+      var data = await response.json();
+      if (!response.ok) {
+        var error = new Error(data.code === "not_configured" ?
+          "English translation is not connected yet." : "Translation is temporarily unavailable. Please retry.");
+        throw error;
+      }
+      if (!Array.isArray(data.translations) || data.translations.length !== batch.length) throw new Error("Incomplete translation. Please retry.");
+      var translated = new Map();
+      data.translations.forEach(function (entry) {
+        if (!entry || typeof entry.id !== "string" || typeof entry.text !== "string" ||
+          !entry.text.trim() || translated.has(entry.id)) throw new Error("Invalid translation. Please retry.");
+        translated.set(entry.id, entry.text);
+      });
+      if (batch.some(function (group) { return !translated.has(group.id); })) throw new Error("Incomplete translation. Please retry.");
+      return translated;
+    } finally { clearTimeout(timeout); }
   }
 
-  async function translateToEnglish(host) {
-    var items = getPageItems();
-    if (!items.length) {
-      setStoredLanguage(TARGET_LANGUAGE);
-      setActiveButton(host, TARGET_LANGUAGE);
-      return;
-    }
-
-    var cacheKey = getCacheKey(items);
-    var cached = readCache(cacheKey);
-    if (cached) {
-      applyTranslations(items, cached);
-      setStoredLanguage(TARGET_LANGUAGE);
-      setActiveButton(host, TARGET_LANGUAGE);
-      setBusy(host, false);
-      host.title = "";
-      return;
-    }
-
-    setBusy(host, true);
-    var allTranslations = {};
-
+  async function pump() {
+    if (language !== TARGET_LANGUAGE || failed || worker) return;
+    var job = { generation: generation, controller: new AbortController() };
+    worker = job;
     try {
-      var chunks = chunkItems(items);
-      for (var i = 0; i < chunks.length; i += 1) {
-        var translatedChunk = await requestTranslations(chunks[i]);
-        translatedChunk.forEach(function (entry) {
-          if (entry && typeof entry.id === "string" && typeof entry.text === "string") {
-            allTranslations[entry.id] = entry.text;
-          }
+      var batch;
+      while (language === TARGET_LANGUAGE && job.generation === generation && (batch = nextBatch()).length) {
+        setState("loading");
+        var translations = await requestTranslations(batch, job);
+        if (job.generation !== generation || language !== TARGET_LANGUAGE) return;
+        batch.forEach(function (group) {
+          group.records.forEach(function (record) {
+            // The search/filter may have replaced or edited a node while the request was in flight.
+            if (!record.node.isConnected || record.body !== group.text || record.context !== group.context ||
+              readRecord(record) !== record.last && readRecord(record) !== record.original) return;
+            memory.delete(memoryKey(record));
+            memory.set(memoryKey(record), [record.body, record.context, translations.get(group.id)]);
+            applyKnown(record);
+          });
         });
-        applyTranslations(items, allTranslations);
+        saveMemory();
       }
-
-      writeCache(cacheKey, allTranslations);
-      setStoredLanguage(TARGET_LANGUAGE);
-      setActiveButton(host, TARGET_LANGUAGE);
-      setBusy(host, false);
-      host.title = "";
+      if (job.generation === generation) setState("idle");
     } catch (error) {
-      restoreOriginal(items);
-      setStoredLanguage(SOURCE_LANGUAGE);
-      setActiveButton(host, SOURCE_LANGUAGE);
-      setError(host, error.message);
-      console.error(error);
+      if (job.generation !== generation || language !== TARGET_LANGUAGE) return;
+      failed = true;
+      setState("error", error.name === "AbortError" ? "Translation timed out. Please retry." : error.message);
+    } finally {
+      if (worker === job) worker = null;
     }
   }
 
-  function restoreKorean(host) {
-    restoreOriginal(getPageItems());
-    setStoredLanguage(SOURCE_LANGUAGE);
-    setActiveButton(host, SOURCE_LANGUAGE);
-    setBusy(host, false);
-    host.title = "";
+  function refresh() {
+    clearTimeout(refreshTimer);
+    refreshTimer = setTimeout(function () { scan(); pump(); }, 90);
   }
 
-  function createSwitcher() {
-    var host = document.createElement("div");
-    host.className = "pan-language-switcher notranslate";
-    host.setAttribute("translate", "no");
-    host.setAttribute("aria-label", "Language selector");
-    host.dataset.state = "idle";
-    host.innerHTML = [
-      '<button type="button" data-language="ko" aria-pressed="true">Korean</button>',
-      '<button type="button" data-language="en" aria-pressed="false">English</button>'
-    ].join("");
-
-    host.addEventListener("click", function (event) {
-      var button = event.target.closest("button[data-language]");
-      if (!button || button.disabled) {
-        return;
-      }
-
-      var language = button.getAttribute("data-language");
-      if (language === TARGET_LANGUAGE) {
-        translateToEnglish(host);
-      } else {
-        restoreKorean(host);
-      }
+  var intersection = typeof IntersectionObserver === "function" ? new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) nearBlocks.add(entry.target);
+      else nearBlocks.delete(entry.target);
     });
+    pump();
+  }, { rootMargin: "800px 0px" }) : null;
 
-    return host;
+  function selectLanguage(value, persist) {
+    generation += 1;
+    if (worker) worker.controller.abort();
+    worker = null;
+    failed = false;
+    language = value === TARGET_LANGUAGE ? TARGET_LANGUAGE : SOURCE_LANGUAGE;
+    if (persist !== false) setStoredLanguage(language);
+    document.documentElement.lang = language;
+    document.documentElement.dataset.language = language;
+    switcher.querySelectorAll("button[data-language]").forEach(function (button) {
+      button.setAttribute("aria-pressed", button.dataset.language === language ? "true" : "false");
+    });
+    scan();
+    if (language === SOURCE_LANGUAGE) {
+      records.forEach(function (record) { writeRecord(record, record.original); });
+    }
+    setState("idle");
+    window.dispatchEvent(new CustomEvent("paularchive:languagechange", { detail: { language: language } }));
+    pump();
   }
 
   function mountSwitcher() {
-    if (document.querySelector(".pan-language-switcher")) {
-      return document.querySelector(".pan-language-switcher");
-    }
-
-    var host = createSwitcher();
+    var host = document.createElement("div");
+    host.className = "pan-language-switcher notranslate";
+    host.setAttribute("translate", "no");
+    host.setAttribute("role", "group");
+    host.setAttribute("aria-label", "Language / 언어");
+    host.innerHTML = '<button type="button" data-language="ko" aria-pressed="true" lang="ko">한국어</button>' +
+      '<button type="button" data-language="en" aria-pressed="false" lang="en">English</button>' +
+      '<button type="button" data-language-retry title="Retry translation" aria-label="Retry translation" hidden>↻</button>' +
+      '<span class="pan-language-status" role="status" aria-live="polite" aria-atomic="true"></span>';
+    host.addEventListener("click", function (event) {
+      var button = event.target.closest("button");
+      if (!button || !host.contains(button)) return;
+      if (button.dataset.language === language && !failed) return;
+      selectLanguage(button.hasAttribute("data-language-retry") ? TARGET_LANGUAGE : button.dataset.language);
+    });
     var nav = document.querySelector(".masthead .nav");
-    if (nav) {
-      nav.insertBefore(host, nav.firstChild);
-    } else {
-      host.classList.add("pan-language-switcher--fixed");
-      document.body.insertBefore(host, document.body.firstChild);
+    if (nav) nav.insertBefore(host, nav.firstChild);
+    else {
+      var bar = document.createElement("div");
+      bar.className = "pan-language-bar notranslate";
+      bar.appendChild(host);
+      document.body.insertBefore(bar, document.body.firstChild);
     }
-
     document.body.classList.add("pan-language-ready");
     return host;
   }
 
   function init() {
+    if (document.querySelector(".pan-language-switcher")) return;
     injectStyle();
-    clearLegacyGoogleTranslateCookie();
+    // Content policy is applied once, before capturing the Korean source.
     sanitizeContentPolicy();
-    var host = mountSwitcher();
-    var language = getStoredLanguage();
-    setActiveButton(host, language);
-
-    if (language === TARGET_LANGUAGE) {
-      window.setTimeout(function () {
-        translateToEnglish(host);
-      }, 0);
-    }
+    loadMemory();
+    switcher = mountSwitcher();
+    selectLanguage(getStoredLanguage(), false);
+    new MutationObserver(function (mutations) {
+      if (mutations.some(function (mutation) {
+        var element = mutation.target.nodeType === Node.ELEMENT_NODE ? mutation.target : mutation.target.parentElement;
+        if (element && element.closest(".pan-language-switcher,script,style")) return false;
+        if (mutation.type === "childList") return mutation.addedNodes.length || mutation.removedNodes.length;
+        var known = mutation.type === "attributes" ?
+          (attributeRecords.get(mutation.target) || {})[mutation.attributeName] : textRecords.get(mutation.target);
+        return !known || readRecord(known) !== known.last;
+      })) refresh();
+    }).observe(document.body, { childList: true, subtree: true, characterData: true,
+      attributes: true, attributeFilter: attributeNames.concat(["hidden"]) });
+    window.addEventListener("storage", function (event) {
+      if (event.key === STORAGE_KEY && getStoredLanguage() !== language) selectLanguage(getStoredLanguage(), false);
+    });
+    window.addEventListener("pageshow", function () {
+      if (getStoredLanguage() !== language) selectLanguage(getStoredLanguage(), false);
+      else refresh();
+    });
+    window.addEventListener("scroll", function () { pump(); }, { passive: true });
+    window.addEventListener("resize", function () { pump(); }, { passive: true });
+    window.PaulArchiveLanguage = {
+      getLanguage: function () { return language; }, setLanguage: selectLanguage, refresh: refresh,
+      translatedText: function (text) {
+        var body = splitWhitespace(String(text || "")).body;
+        return localTranslation(body) || cachedText({ body: body, context: "" }) || body;
+      }
+    };
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init);
-  } else {
-    init();
-  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+  else init();
 })();

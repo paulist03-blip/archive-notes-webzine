@@ -145,7 +145,9 @@
     const theme = (themeSelect && themeSelect.value) || "all";
     return archiveBooks.filter((book) => {
       const inTheme = theme === "all" || book.theme === theme;
-      const haystack = `${book.title} ${book.metadata} ${book.theme}`.toLowerCase();
+      const translate = window.PaulArchiveLanguage?.translatedText || ((value) => value);
+      const localized = [book.title, cleanMeta(book.metadata), book.theme].map(translate).join(" ");
+      const haystack = `${book.title} ${book.metadata} ${book.theme} ${localized}`.toLowerCase();
       return inTheme && (!query || haystack.includes(query));
     });
   }

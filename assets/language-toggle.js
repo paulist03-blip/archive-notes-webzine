@@ -256,6 +256,7 @@
   }
 
   var UI_TRANSLATIONS = {
+    "폴의 독서실": "Paul's Reading Room",
     "글": "Essays", "미술": "Art", "음반": "Music", "책": "Books", "포럼": "Forum",
     "아카이브": "Archive", "전체 아카이브": "Full archive", "북아카이브": "Book archive",
     "오늘의 책": "Today's books", "오늘의 책장": "Today's bookshelf", "오늘의 음반": "Today's recording",

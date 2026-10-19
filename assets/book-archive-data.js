@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 442,
+    "reviewLinkedCount": 444,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2199,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "364349644-issue73",
+      "title": "고고학이론 껍질 깨기",
+      "metadata": "에이드리언 프랫첼리스 지음 · 유용욱 옮김 · 사회평론아카데미",
+      "theme": "고고학/해석과 이론",
+      "imageUrl": "assets/book-covers/archaeological-theory-nutshell-praetzellis.jpg",
+      "reviewUrl": "posts/praetzellis-archaeological-theory-issue73.html",
+      "label": "Issue 73 · 오늘의 장문 리뷰",
+      "subtitle": "흔적 앞에서 질문을 고르는 일",
+      "review": "자료가 과거의 설명이 되기까지 어떤 질문이 필요한가. 열두 이론의 관점과 현장 적용을 따라가며, 해석의 근거와 고고학자가 지는 책임을 살핀다."
+    },
+    {
+      "id": "379052234-issue73",
+      "title": "라디오와 매체",
+      "metadata": "발터 벤야민 지음 · 고지현 편역 · 현실문화",
+      "theme": "매체론/라디오와 공공성",
+      "imageUrl": "assets/book-covers/radio-and-media-benjamin.jpg",
+      "reviewUrl": "posts/benjamin-radio-media-issue73.html",
+      "label": "Issue 73 · 오늘의 장문 리뷰",
+      "subtitle": "목소리가 들어오는 방",
+      "review": "방송의 통속성에서 언어와 문자, 책과 광고, 사진까지. 벤야민의 여섯 갈래 매체 사유를 따라, 지식이 다른 사람에게 도착하는 형식과 청취자의 자리를 읽는다."
+    },
+    {
+      "id": "366107194-issue73",
+      "title": "루소, 장 자크를 심판하다 - 대화",
+      "metadata": "장 자크 루소 지음 · 진인혜 옮김 · 책세상",
+      "theme": "철학/자기 이해와 인정",
+      "imageUrl": "assets/book-covers/rousseau-judge-jean-jacques.jpg",
+      "reviewUrl": "posts/rousseau-judge-jean-jacques-issue73.html",
+      "label": "Issue 73 · 오늘의 장문 리뷰",
+      "subtitle": "자신의 이름을 남에게 맡길 수 없을 때",
+      "review": "루소와 프랑스인이 장 자크를 두고 벌이는 세 차례의 대화. 자기 변론의 절실함과 그 논증의 한계를 함께 읽으며, 한 사람을 판단할 수 있는 조건을 묻는다."
+    },
     {
       "id": "editorial-cho-kwangje-painting-eyes-being-eyes-issue72",
       "title": "회화의 눈, 존재의 눈",
@@ -13043,10 +13076,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "366107194",
       "title": "루소, 장 자크를 심판하다 - 대화",
       "metadata": "장 자크 루소 지음, 진인혜 옮김 | 책세상",
-      "theme": "인문/교양",
+      "theme": "철학/자기 이해와 인정",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366107194",
-      "imageUrl": "https://image.aladin.co.kr/product/1552/47/cover500/8970138080_1.jpg",
-      "sourcePage": 22
+      "imageUrl": "assets/book-covers/rousseau-judge-jean-jacques.jpg",
+      "sourcePage": 22,
+      "reviewUrl": "posts/rousseau-judge-jean-jacques-issue73.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "366107154",
@@ -18932,10 +18967,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "364349644",
       "title": "고고학이론 껍질 깨기",
       "metadata": "에이드리언 프랫첼리스 지음, 유용욱 옮김 | 사회평론아카데미",
-      "theme": "사회/경제",
+      "theme": "고고학/해석과 이론",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364349644",
-      "imageUrl": "https://image.aladin.co.kr/product/28464/80/cover500/k272835929_1.jpg",
-      "sourcePage": 37
+      "imageUrl": "assets/book-covers/archaeological-theory-nutshell-praetzellis.jpg",
+      "sourcePage": 37,
+      "reviewUrl": "posts/praetzellis-archaeological-theory-issue73.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "364349576",

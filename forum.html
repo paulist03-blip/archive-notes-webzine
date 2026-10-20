@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>자유게시판 - Paul Archive Notes</title>
   <link rel="stylesheet" href="assets/site.css" />
+  <link rel="stylesheet" href="assets/forum.css" />
+  <meta name="description" content="그림과 책, 음악에 관해 익명으로 감상을 나누는 Paul Archive Notes의 공개 게시판." />
 </head>
 <body>
   <header class="masthead">
@@ -24,100 +26,90 @@
     </nav>
   </header>
 
-  <main class="forum-shell">
+  <main class="forum-shell anonymous-forum">
     <section class="forum-hero" aria-labelledby="forum-title">
       <p class="eyebrow">Community board</p>
       <h1 id="forum-title">자유게시판</h1>
       <p>
-        책, 음반, 그림 이야기를 가볍게 남기는 방입니다.
-        읽기는 모두에게 열어두고, 글쓰기는 회원가입한 사람에게만 열립니다.
+        그림과 책, 음악에 관해 오래 생각한 이야기를 나눕니다.
       </p>
       <div class="hero-meta" aria-label="포럼 규칙">
         <span class="pill">공개 열람</span>
-        <span class="pill">회원 글쓰기</span>
-        <span class="pill">Admin 관리</span>
+        <span class="pill" data-connection-state>연결 확인 중</span>
       </div>
     </section>
 
     <section class="forum-grid" aria-label="자유게시판">
-      <aside class="forum-panel forum-auth-panel" aria-labelledby="forum-auth-title">
-        <div>
-          <p class="section-kicker">Account</p>
-          <h2 id="forum-auth-title">회원</h2>
-        </div>
-
-        <div class="forum-state" data-auth-state></div>
-
-        <form class="forum-form" data-auth-form>
-          <label>
-            이메일
-            <input data-auth-email type="email" autocomplete="email" />
-          </label>
-          <label>
-            비밀번호
-            <input data-auth-password type="password" autocomplete="current-password" minlength="6" />
-          </label>
-          <label>
-            필명
-            <input data-auth-name type="text" autocomplete="nickname" />
-          </label>
-          <div class="forum-button-row">
-            <button class="forum-button" type="button" data-login-button>로그인</button>
-            <button class="forum-button secondary" type="button" data-signup-button>회원가입</button>
-          </div>
-        </form>
-
-        <button class="forum-button secondary full" type="button" data-logout-button hidden>로그아웃</button>
-
-        <div class="forum-setup" data-setup-notice hidden>
-          <strong>설정 대기</strong>
-          <p>Firebase 프로젝트 정보와 관리자 이메일을 연결하면 실제 회원제 게시판으로 작동합니다.</p>
-        </div>
-      </aside>
-
-      <section class="forum-main" aria-labelledby="forum-write-title">
-        <div class="forum-panel">
+      <section class="forum-compose" aria-labelledby="forum-write-title">
           <div class="section-header compact">
             <div>
               <p class="section-kicker">Write</p>
-              <h2 id="forum-write-title">새 글</h2>
+              <h2 id="forum-write-title">감상 남기기</h2>
             </div>
           </div>
           <form class="forum-form compose" data-compose-form>
             <label>
               제목
-              <input data-compose-title type="text" maxlength="80" />
+              <input name="title" type="text" maxlength="120" required />
+            </label>
+            <label>
+              작품 이름
+              <input name="work" type="text" maxlength="160" required />
             </label>
             <label>
               분류
-              <select data-compose-category>
+              <select name="category">
                 <option value="자유">자유</option>
                 <option value="책">책</option>
                 <option value="음반">음반</option>
                 <option value="미술">미술</option>
-                <option value="공지">공지</option>
               </select>
             </label>
             <label>
               내용
-              <textarea data-compose-body rows="7" maxlength="2400"></textarea>
+              <textarea name="body" rows="14" maxlength="20000" required aria-describedby="body-count"></textarea>
             </label>
+            <output id="body-count" data-body-count aria-label="입력 글자 수">0 / 20,000</output>
+            <p class="forum-privacy">이메일과 실명은 받지 않으며, 글에는 ‘익명’만 표시됩니다. 본인 글 삭제를 위해 브라우저에 익명 인증 정보가 저장됩니다. 브라우저 데이터를 지우면 직접 삭제할 수 없으며, 저장 서비스는 운영에 필요한 접속 정보를 처리할 수 있습니다.</p>
+            <label class="forum-consent"><input name="consent" type="checkbox" required />이 감상을 누구나 읽을 수 있도록 공개합니다.</label>
             <div class="forum-compose-footer">
-              <p data-compose-hint></p>
-              <button class="forum-button" type="submit">게시</button>
+              <button class="forum-button" type="submit" disabled>익명으로 게시</button>
+            </div>
+            <div class="forum-button-row">
+              <button class="forum-button secondary" type="button" data-preview>미리보기</button>
+              <button class="forum-button secondary" type="button" data-save-draft>임시 저장</button>
+              <button class="forum-button secondary" type="button" data-load-draft>초안 불러오기</button>
             </div>
           </form>
-        </div>
-
         <div class="forum-status" data-forum-status role="status" aria-live="polite"></div>
-
+      </section>
+      <section class="forum-main" aria-labelledby="forum-feed-title">
+        <h2 id="forum-feed-title">함께 나눈 감상</h2>
+        <div class="forum-filters">
+          <label>분류<select data-category-filter><option>전체</option><option>미술</option><option>책</option><option>음반</option><option>자유</option></select></label>
+          <label>감상 검색<input data-forum-search type="search" /></label>
+          <button class="forum-button secondary" type="button" data-refresh-posts disabled>새로고침</button>
+        </div>
         <div class="forum-feed" data-forum-feed aria-live="polite"></div>
+        <button class="forum-button secondary" type="button" data-more-posts hidden>감상 더 보기</button>
       </section>
     </section>
   </main>
+  <dialog class="forum-dialog notranslate" translate="no" data-language-preserve data-preview-dialog aria-label="감상 미리보기">
+    <button class="forum-button secondary" type="button" data-close-dialog>닫기</button>
+    <div data-preview-body></div>
+  </dialog>
+  <dialog class="forum-dialog" data-report-dialog aria-labelledby="report-title">
+    <h2 id="report-title">글 신고</h2>
+    <form class="forum-form" data-report-form>
+      <label>사유<select name="reason"><option>욕설·혐오</option><option>개인정보</option><option>광고·도배</option><option>기타</option></select></label>
+      <p data-report-status role="status"></p>
+      <div class="forum-button-row"><button class="forum-button" type="submit">신고 접수</button><button class="forum-button secondary" type="button" data-close-dialog>취소</button></div>
+    </form>
+  </dialog>
 
   <footer class="footer">
-    <span>Paul Archive Notes 자유게시판은 회원 글쓰기와 관리자 관리를 전제로 준비 중입니다.</span>
+    <span>타인의 개인정보, 광고와 혐오 표현은 게시할 수 없습니다. 삭제 요청: Paulist03@icloud.com</span>
     <nav class="footer-links" aria-label="하단 링크">
       <a href="https://www.aladin.co.kr/shop/usedshop/wshopitem.aspx?SC=1025829" target="_blank" rel="noopener noreferrer">알라딘 책 서고</a>
       <a href="https://www.aladin.co.kr/shop/usedshop/wshopitem.aspx?SC=1032044" target="_blank" rel="noopener noreferrer">알라딘 음반 서고</a>

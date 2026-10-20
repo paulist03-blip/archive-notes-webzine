@@ -1,49 +1,83 @@
 rules_version = '2';
-
 service cloud.firestore {
   match /databases/{database}/documents {
-    function signedIn() {
-      return request.auth != null;
+    function signedIn() { return request.auth != null; }
+    function admin() { return signedIn() && request.auth.token.get('admin', false) == true; }
+    function text(value, max) { return value is string && value.size() > 0 && value.size() <= max; }
+    function fresh(data) { return data.createdAt == request.time && data.updatedAt == request.time && data.authorName == '익명' && data.status == 'published'; }
+    function rate(id) {
+      let after = getAfter(/databases/$(database)/documents/forumAuthors/$(request.auth.uid)).data;
+      return after.lastWriteAt == request.time && after.writeId == id;
     }
-
-    function isAdmin() {
-      return signedIn()
-        && request.auth.token.email == "YOUR_ADMIN_EMAIL";
+    function ownsPost(id) { return signedIn() && exists(/databases/$(database)/documents/forumAuthors/$(request.auth.uid)/posts/$(id)); }
+    function ownsReply(postId, id) {
+      return signedIn() && get(/databases/$(database)/documents/forumAuthors/$(request.auth.uid)/replies/$(id)).data.postId == postId;
     }
-
-    match /forumPosts/{postId} {
-      allow read: if true;
-
+    match /anonymousForumPosts/{id} {
+      allow get: if true;
+      allow list: if request.query.limit != null && request.query.limit <= 25;
       allow create: if signedIn()
-        && request.resource.data.keys().hasOnly([
-          "title",
-          "category",
-          "body",
-          "authorUid",
-          "authorName",
-          "pinned",
-          "status",
-          "createdAt",
-          "updatedAt"
-        ])
-        && request.resource.data.authorUid == request.auth.uid
-        && request.resource.data.title is string
-        && request.resource.data.title.size() > 0
-        && request.resource.data.title.size() <= 80
-        && request.resource.data.body is string
-        && request.resource.data.body.size() > 0
-        && request.resource.data.body.size() <= 2400
-        && request.resource.data.category in ["자유", "책", "음반", "미술", "공지"]
-        && request.resource.data.pinned == false
-        && request.resource.data.status == "published";
-
-      allow update: if isAdmin()
-        && request.resource.data.diff(resource.data).changedKeys().hasOnly([
-          "pinned",
-          "updatedAt"
-        ]);
-
-      allow delete: if isAdmin();
+        && request.resource.data.keys().hasOnly(['title','work','category','body','authorName','status','createdAt','updatedAt'])
+        && text(request.resource.data.title, 120) && text(request.resource.data.work, 160)
+        && text(request.resource.data.body, 20000)
+        && request.resource.data.category in ['미술','책','음반','자유']
+        && fresh(request.resource.data) && rate('post:' + id)
+        && getAfter(/databases/$(database)/documents/forumAuthors/$(request.auth.uid)/posts/$(id)).data.createdAt == request.time;
+      allow update: if (ownsPost(id) || admin())
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['title','work','body','status','updatedAt'])
+        && request.resource.data.title == '삭제된 감상' && request.resource.data.work == ''
+        && request.resource.data.body == '' && request.resource.data.status == 'deleted'
+        && request.resource.data.updatedAt == request.time;
+      match /replies/{replyId} {
+        allow get: if true;
+        allow list: if request.query.limit != null && request.query.limit <= 25;
+        allow create: if signedIn()
+          && get(/databases/$(database)/documents/anonymousForumPosts/$(id)).data.status == 'published'
+          && request.resource.data.keys().hasOnly(['body','authorName','status','createdAt','updatedAt'])
+          && text(request.resource.data.body, 12000) && fresh(request.resource.data)
+          && rate('reply:' + id + ':' + replyId)
+          && getAfter(/databases/$(database)/documents/forumAuthors/$(request.auth.uid)/replies/$(replyId)).data.postId == id
+          && getAfter(/databases/$(database)/documents/forumAuthors/$(request.auth.uid)/replies/$(replyId)).data.createdAt == request.time;
+        allow update: if (ownsReply(id, replyId) || admin())
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['body','status','updatedAt'])
+          && request.resource.data.body == '' && request.resource.data.status == 'deleted'
+          && request.resource.data.updatedAt == request.time;
+      }
+    }
+    match /forumAuthors/{uid} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow create, update: if signedIn() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['lastWriteAt','writeId'])
+        && request.resource.data.lastWriteAt == request.time && text(request.resource.data.writeId, 300)
+        && (!exists(/databases/$(database)/documents/forumAuthors/$(uid)) || request.time >= resource.data.lastWriteAt + duration.value(30, 's'));
+      match /posts/{id} {
+        allow read: if signedIn() && request.auth.uid == uid;
+        allow create: if signedIn() && request.auth.uid == uid
+          && request.resource.data.keys().hasOnly(['createdAt']) && request.resource.data.createdAt == request.time
+          && !exists(/databases/$(database)/documents/anonymousForumPosts/$(id))
+          && getAfter(/databases/$(database)/documents/anonymousForumPosts/$(id)).data.createdAt == request.time
+          && rate('post:' + id);
+      }
+      match /replies/{id} {
+        allow read: if signedIn() && request.auth.uid == uid;
+        allow create: if signedIn() && request.auth.uid == uid
+          && request.resource.data.keys().hasOnly(['postId','createdAt']) && text(request.resource.data.postId, 150)
+          && request.resource.data.createdAt == request.time
+          && !exists(/databases/$(database)/documents/anonymousForumPosts/$(request.resource.data.postId)/replies/$(id))
+          && getAfter(/databases/$(database)/documents/anonymousForumPosts/$(request.resource.data.postId)/replies/$(id)).data.createdAt == request.time
+          && rate('reply:' + request.resource.data.postId + ':' + id);
+      }
+    }
+    match /anonymousForumReports/{id} {
+      allow read: if admin();
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly(['postId','replyId','reason','reporterUid','createdAt'])
+        && text(request.resource.data.postId, 150) && request.resource.data.replyId is string && request.resource.data.replyId.size() <= 150
+        && request.resource.data.reason in ['욕설·혐오','개인정보','광고·도배','기타']
+        && request.resource.data.reporterUid == request.auth.uid && request.resource.data.createdAt == request.time
+        && exists(/databases/$(database)/documents/anonymousForumPosts/$(request.resource.data.postId))
+        && (request.resource.data.replyId == '' || exists(/databases/$(database)/documents/anonymousForumPosts/$(request.resource.data.postId)/replies/$(request.resource.data.replyId)))
+        && rate('report:' + id);
     }
   }
 }

@@ -1,9 +1,29 @@
 # Anonymous Forum - 2026-10-20
 
-Status: implemented locally; not deployed or open for public writes.
-Firebase Console is signed in and the new-project form is open. Project name:
-Paul Archive Notes Forum. Firebase terms checkbox remains unchecked pending
-explicit owner approval. Developer Program signup is disabled. No paid plan.
+Status: backend permissions applied; configured locally but not deployed.
+Owner explicitly approved Firebase terms and free-project creation on 2026-10-20.
+Created project `paul-archive-notes-forum` (Paul Archive Notes Forum) and registered
+Web app Paul Archive Notes Anonymous Forum. Console verified Spark, $0/month.
+Developer Program signup, Gemini opt-in and Google Analytics were disabled in
+the creation flow. Existing Vercel hosting was not changed. Owner approved
+anonymous authentication and public forum permissions. Anonymous provider is
+enabled (automatic account cleanup left off to preserve deletion access).
+Created Standard Firestore (default) in asia-northeast3 in production/deny mode,
+then published work/firestore.rules; Console returned Success.
+Public Web app identifiers are connected in assets/forum-config.js.
+
+Live backend verification on 2026-10-20 passed: anonymous authentication, bounded
+unauthenticated public listing (zero posts), denied private ownership/report
+access, denied malformed write. The temporary verification identity was removed;
+no public test posts, fabricated visitor comments or private reports were created.
+Valid post/reply persistence still awaits an end-to-end public release check.
+
+App Check remains unconfigured and unenforced. Classic reCAPTCHA registration is
+disabled in the current console, which directs new registrations to Fraud Defense
+(reCAPTCHA Enterprise). Google Cloud Console presented a separate initial GCP and
+related-service terms dialog; consent checkbox is untouched pending owner approval.
+No billing upgrade, payment method, extra provider or promotional signup enabled.
+Hold production publication until App Check and remaining release checks finish.
 
 Checks completed:
 - Four model tests passed (normalization, limits, safe field projection, config).
@@ -22,7 +42,7 @@ Checks completed:
 - Existing full static checker still reports seven pre-existing /mobile links in
   daily AI work articles. No new forum missing-link failures. Left out of scope.
 
-Next: owner terms approval, create free Firebase project, enable anonymous auth,
-create Firestore, publish reviewed rules, configure App Check and public Web app
-identifiers, then full-root Vercel deploy and two-browser live write verification.
+Next: owner GCP terms approval, configure and enforce Enterprise App Check (update
+client provider accordingly), review domain restrictions, then full-root Vercel
+deploy and two-browser live write verification with clearly marked test content.
 No live visitor data has been created. OpenAI MFA tab was not touched.

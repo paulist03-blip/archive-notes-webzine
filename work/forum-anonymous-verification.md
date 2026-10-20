@@ -1,6 +1,6 @@
 # Anonymous Forum - 2026-10-20
 
-Status: backend permissions applied; configured locally but not deployed.
+Status: backend permissions applied; production release authorized and in progress.
 Owner explicitly approved Firebase terms and free-project creation on 2026-10-20.
 Created project `paul-archive-notes-forum` (Paul Archive Notes Forum) and registered
 Web app Paul Archive Notes Anonymous Forum. Console verified Spark, $0/month.
@@ -23,7 +23,11 @@ disabled in the current console, which directs new registrations to Fraud Defens
 (reCAPTCHA Enterprise). Google Cloud Console presented a separate initial GCP and
 related-service terms dialog; consent checkbox is untouched pending owner approval.
 No billing upgrade, payment method, extra provider or promotional signup enabled.
-Hold production publication until App Check and remaining release checks finish.
+Owner explicitly instructed publication with the current protections on 2026-10-20,
+after being told App Check is not applied. Release uses existing private ownership,
+strict rules and per-identity 30-second throttle. App Check remains an unresolved
+hardening task; a visitor can reset identities, so the throttle is not bot-proof.
+Separate Google Cloud terms remain unaccepted; no paid service is being enabled.
 
 Checks completed:
 - Four model tests passed (normalization, limits, safe field projection, config).
@@ -42,7 +46,10 @@ Checks completed:
 - Existing full static checker still reports seven pre-existing /mobile links in
   daily AI work articles. No new forum missing-link failures. Left out of scope.
 
-Next: owner GCP terms approval, configure and enforce Enterprise App Check (update
-client provider accordingly), review domain restrictions, then full-root Vercel
-deploy and two-browser live write verification with clearly marked test content.
+Release checks: current public index.html matches local bytes; all 899 post HTML
+files remain present; four model tests and live access checks passed again.
+Existing seven /mobile link failures in daily AI articles remain out of scope.
+
+Follow-up: with owner GCP terms approval, configure and enforce Enterprise App
+Check (update client provider accordingly) and review domain restrictions.
 No live visitor data has been created. OpenAI MFA tab was not touched.

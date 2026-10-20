@@ -1,6 +1,20 @@
 # Anonymous Forum - 2026-10-20
 
-Status: backend permissions applied; production release authorized and in progress.
+Status: production release READY and public checks passed on 2026-10-20.
+
+Production: https://archive-notes-webzine.vercel.app/forum
+Deployment: dpl_2zimPJjXztqapAuN479kWwsZ45QU, target production, readyState READY.
+Deployed source: a4f4f8a9b0de8f2bac32925fcb316f7cb4866eb4.
+Vercel downloaded the complete 1454-file deployment from the canonical root.
+Anonymous HTTP 200 plus exact local-file matching verified for /, /archive,
+/book-archive, /forum, the five forum assets, and the Issue 73 main article.
+/forum.html redirects once with 308 to /forum as expected.
+Production browser confirmed real Firebase listing, connected publish controls,
+20,000-character input and preview, and no horizontal overflow at 1280/390px.
+Public desktop/mobile screenshots: output/playwright/forum-public-1280.png and
+forum-public-390.png. No test comments were published. Valid production post/reply
+write and owner deletion were not exercised; those flows passed emulator/mock
+verification only. Existing favicon.ico 404 is unrelated and unchanged.
 Owner explicitly approved Firebase terms and free-project creation on 2026-10-20.
 Created project `paul-archive-notes-forum` (Paul Archive Notes Forum) and registered
 Web app Paul Archive Notes Anonymous Forum. Console verified Spark, $0/month.

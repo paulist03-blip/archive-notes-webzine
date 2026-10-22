@@ -22,7 +22,9 @@ for path in files:
             clean = value.split("#", 1)[0]
             if not clean:
                 continue
-            target = (path.parent / clean).resolve()
+            target = (Path.cwd() / clean.lstrip("/") if clean.startswith("/") else path.parent / clean).resolve()
+            if not target.exists() and not target.suffix:
+                target = target.with_suffix(".html")
             if not target.exists():
                 missing.append((str(path), attr, value))
 

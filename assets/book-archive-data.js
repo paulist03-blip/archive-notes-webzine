@@ -8,13 +8,46 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 444,
+    "reviewLinkedCount": 445,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
     "publicCount": 2199,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
+    {
+      "id": "389350532-issue74",
+      "title": "파리의 농부",
+      "metadata": "루이 아라공 · 오종은 옮김 · 이모션북스 · 2018",
+      "theme": "도시와 감각",
+      "imageUrl": "assets/book-covers/paris-peasant-aragon.jpg",
+      "reviewUrl": "posts/aragon-paris-peasant-issue74.html",
+      "label": "Issue 74 · 오늘의 장문 리뷰",
+      "subtitle": "도시를 안다는 생각이 느슨해질 때",
+      "review": "통로와 상점, 인공의 공원을 따라 읽는 도시의 경이. 산책자의 발견과 그가 미처 보지 못하는 타인의 일상을 함께 질문한다."
+    },
+    {
+      "id": "397511253-issue74",
+      "title": "사랑의 단상",
+      "metadata": "롤랑 바르트 · 김희영 옮김 · 동문선",
+      "theme": "사랑과 언어",
+      "imageUrl": "assets/book-covers/lovers-discourse-roland-barthes.jpg",
+      "reviewUrl": "posts/barthes-lovers-discourse-issue74.html",
+      "label": "Issue 74 · 오늘의 장문 리뷰",
+      "subtitle": "답장을 기다리는 동안 말은 길어진다",
+      "review": "사랑하는 사람의 말은 왜 사소한 신호 주위를 맴도는가. 단편의 형식에서 기다림과 해석의 과잉, 상대를 남겨 두는 독서의 윤리를 생각한다."
+    },
+    {
+      "id": "364243586-issue74",
+      "title": "자유와 조직",
+      "metadata": "버트런드 러셀 · 최파일 옮김 · 사회평론 · 2017",
+      "theme": "자유와 정치사",
+      "imageUrl": "assets/book-covers/russell-freedom-organization.jpg",
+      "reviewUrl": "posts/russell-freedom-organization-issue74.html",
+      "label": "Issue 74 · 오늘의 장문 리뷰",
+      "subtitle": "자유를 지탱하는 것은 무엇인가",
+      "review": "1814~1914년의 정치사에서 경제적 변화와 사상, 개인의 행위를 함께 살핀다. 조직의 크기보다 권력의 책임과 자유의 실제 조건을 묻는 독서."
+    },
     {
       "id": "364349644-issue73",
       "title": "고고학이론 껍질 깨기",
@@ -19956,10 +19989,12 @@ window.PAUL_BOOK_ARCHIVE = {
       "id": "364243586",
       "title": "자유와 조직",
       "metadata": "버트런드 러셀 지음, 최파일 옮김 | 사회평론",
-      "theme": "사회/경제",
+      "theme": "자유와 정치사",
       "itemUrl": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=364243586",
-      "imageUrl": "https://image.aladin.co.kr/product/8652/42/cover500/896435933x_1.jpg",
-      "sourcePage": 39
+      "imageUrl": "assets/book-covers/russell-freedom-organization.jpg",
+      "sourcePage": 39,
+      "reviewUrl": "posts/russell-freedom-organization-issue74.html",
+      "reviewStatus": "우리 리뷰"
     },
     {
       "id": "364243570",

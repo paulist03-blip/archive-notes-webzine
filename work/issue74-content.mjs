@@ -1,3 +1,5 @@
+import { bookRevisions } from './issue74-book-revisions.mjs';
+
 export const issue = {
  number:74, date:'2026.10.23', title:'우산 아래에서도 각자의 길은 다르다',
  description:'르누아르의 우산, 파리의 농부, 사랑의 단상, 자유와 조직, 핀리와 드레이크의 슈만을 함께 읽고 듣는 74호.',
@@ -174,3 +176,8 @@ export const articles = [
 청취를 마친 뒤에는 어느 곡이 가장 슬펐는지만 묻기보다, 노래와 피아노 가운데 어디에 귀가 오래 머물렀는지 돌아보자. 말이 정확히 들려오는 순간과 뜻을 붙이기 어려운 소리의 순간이 모두 있었을 것이다. 사랑을 설명하는 데 필요한 것은 언제나 더 많은 말만은 아닐 수 있다. 누군가의 말이 끝난 다음에도 조금 더 듣는 시간이 필요하다. 핀리와 드레이크의 이 음반을 이번 호의 곁에 놓으며 제안하고 싶은 것은 그 구체적인 듣기의 시간이다.`
 }
 ];
+
+for (const article of articles) {
+ const revision = bookRevisions[article.slug];
+ if (revision) Object.assign(article, revision);
+}

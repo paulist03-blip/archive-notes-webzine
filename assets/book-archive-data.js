@@ -8,10 +8,10 @@ window.PAUL_BOOK_ARCHIVE = {
     "shelfCount": 2266,
     "baselineCount": 240,
     "shelfImportedCount": 1941,
-    "reviewLinkedCount": 445,
+    "reviewLinkedCount": 446,
     "duplicateExcludedCount": 325,
     "editorialExcludedCount": 14,
-    "publicCount": 2199,
+    "publicCount": 2200,
     "publicNote": "외국어 학습서, 요리·살림, 청소년 도서는 기본 목록에서 제외하되 Paul Archive Notes의 장문 리뷰가 있는 책은 연결합니다."
   },
   "dailyPicks": [
@@ -24,7 +24,7 @@ window.PAUL_BOOK_ARCHIVE = {
       "reviewUrl": "posts/aragon-paris-peasant-issue74.html",
       "label": "Issue 74 · 오늘의 장문 리뷰",
       "subtitle": "도시를 안다는 생각이 느슨해질 때",
-      "review": "통로와 상점, 인공의 공원을 따라 읽는 도시의 경이. 산책자의 발견과 그가 미처 보지 못하는 타인의 일상을 함께 질문한다."
+      "review": "오페라 파사주의 반쯤 들어오는 빛, 미용사의 손길, 페이지에 들어온 메뉴판. 아라공의 짧은 선언에서 도시의 사물이 시가 되는 순간을 읽는다."
     },
     {
       "id": "397511253-issue74",
@@ -35,7 +35,7 @@ window.PAUL_BOOK_ARCHIVE = {
       "reviewUrl": "posts/barthes-lovers-discourse-issue74.html",
       "label": "Issue 74 · 오늘의 장문 리뷰",
       "subtitle": "답장을 기다리는 동안 말은 길어진다",
-      "review": "사랑하는 사람의 말은 왜 사소한 신호 주위를 맴도는가. 단편의 형식에서 기다림과 해석의 과잉, 상대를 남겨 두는 독서의 윤리를 생각한다."
+      "review": "일찍 도착한 사람, 끝없이 남는 시간, 몸의 아픔이 된 사랑. 기다림의 공개 발췌에서 사랑하는 사람의 말이 길어지는 까닭을 읽는다."
     },
     {
       "id": "364243586-issue74",
@@ -46,7 +46,7 @@ window.PAUL_BOOK_ARCHIVE = {
       "reviewUrl": "posts/russell-freedom-organization-issue74.html",
       "label": "Issue 74 · 오늘의 장문 리뷰",
       "subtitle": "자유를 지탱하는 것은 무엇인가",
-      "review": "1814~1914년의 정치사에서 경제적 변화와 사상, 개인의 행위를 함께 살핀다. 조직의 크기보다 권력의 책임과 자유의 실제 조건을 묻는 독서."
+      "review": "평화를 바란다는 말과 평화를 선택하는 질서 사이. 러셀의 전쟁 비유와 19세기 정치사의 구성을 따라 자유를 떠받칠 공동의 규칙을 생각한다."
     },
     {
       "id": "364349644-issue73",
@@ -23385,6 +23385,17 @@ window.PAUL_BOOK_ARCHIVE = {
       "imageUrl": "assets/book-covers/goethe-theory-of-colours.jpg",
       "reviewUrl": "posts/goethe-theory-of-colours-issue72.html",
       "reviewStatus": "우리 리뷰"
+    },
+    {
+      "id": "review-nabokov-speak-memory",
+      "rank": 9043,
+      "title": "말하라, 기억이여",
+      "metadata": "블라디미르 나보코프 · 오정미 옮김 · 문학동네 · 2025",
+      "theme": "기억과 망명",
+      "itemUrl": "https://www.yes24.com/product/goods/170668424",
+      "imageUrl": "assets/book-covers/nabokov-speak-memory.jpg",
+      "reviewStatus": "우리 리뷰",
+      "reviewUrl": "posts/nabokov-speak-memory.html"
     }
   ]
 };

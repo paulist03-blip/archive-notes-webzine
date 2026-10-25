@@ -1,0 +1,59 @@
+#contribution {
+  scroll-margin-top: 120px;
+}
+
+.speak-memory-review blockquote,
+.quoted-book-review blockquote {
+  margin: 2em 0;
+  padding: 0.15em 0 0.15em 1.3em;
+  border-left: 2px solid var(--line);
+  font-family: var(--book-title-font);
+  font-size: 1.1em;
+  line-height: 1.85;
+}
+
+.speak-memory-review blockquote p,
+.quoted-book-review blockquote p {
+  margin: 0;
+}
+
+.speak-memory-review blockquote cite,
+.quoted-book-review blockquote cite {
+  display: block;
+  margin-top: 0.8em;
+  font-family: var(--sans-font);
+  font-size: 0.72em;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.speak-memory-mobile-cover {
+  display: none;
+}
+
+.speak-memory-review .article-cover img,
+.quoted-book-review .article-cover img {
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  .speak-memory-mobile-cover {
+    display: block;
+    margin: 0 0 2.5em;
+  }
+
+  .speak-memory-mobile-cover img {
+    display: block;
+    width: min(58%, 220px);
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .speak-memory-mobile-cover figcaption {
+    margin-top: 1em;
+    font-family: var(--sans-font);
+    font-size: 0.72rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+}
